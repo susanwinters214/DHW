@@ -1,7 +1,7 @@
-import Link from 'next/link';
+import Link from "next/link";
 import Image from "next/image";
-import Logo from './logo';
-import classes from './main-navigation.module.css';
+import Logo from "./logo";
+import classes from "./main-navigation.module.css";
 
 function MainNavigation() {
   return (
@@ -60,9 +60,7 @@ function MainNavigation() {
                         </Link>
                       </li>
                       <li>
-                        <Link href="/">
-                          HOME PAGE
-                        </Link>
+                        <Link href="/">HOME PAGE</Link>
                       </li>
                     </ul>
                   </li>
@@ -108,8 +106,8 @@ function MainNavigation() {
                 src="/images/Dallas-Home-Watch-Logo.png"
                 alt="Dallas Home Watch logo"
                 title="Dallas Home Watch logo"
-                width={65}
-                height={65}
+                width={40}
+                height={40}
               />
             </Link>
             <span style={{ fontWeight: "bold" }}>Dallas Home Watch</span>

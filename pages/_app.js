@@ -18,14 +18,17 @@ function MyApp({ Component, pageProps }) {
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
         />
         <link rel="icon" href="images/favicon.ico" type="image/x-icon"></link>
-        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-      
+        <script
+          src="https://code.jquery.com/jquery-3.6.3.min.js"
+          integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+          crossorigin="anonymous"
+        ></script>
       </Head>
       <div className="page-wrapper">
         <Component {...pageProps} />
       </div>
 
-      <Script src="js/jquery.js" strategy="afterInteractive"></Script>
+      <Script src="js/jquery.min.js" strategy="afterInteractive"></Script>
       <Script src="js/popper.min.js" strategy="afterInteractive"></Script>
       <Script src="js/bootstrap.min.js" strategy="afterInteractive"></Script>
 

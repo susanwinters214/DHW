@@ -68,7 +68,7 @@ function FooterNavigation() {
       <div className="footer-bottom">
         <div className="auto-container">
           <div className="copyright">
-            ©Copyright 2022, Dallas Home Watch LLC. All Rights Reserved.
+            ©Copyright 2023, Dallas Home Watch LLC. All Rights Reserved.
           </div>
         </div>
       </div>
