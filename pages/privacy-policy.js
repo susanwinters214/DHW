@@ -37,9 +37,8 @@ function PrivacyPage() {
                 <div className="pattern-layer">
                   <section id="contentBlock">
                     <p>
-                      Dallas Home Watch (&quote;us&quote;, &quote;we&quote;, or
-                      &quote;our&quote;) operates the www.dallashomewatch.com
-                      website (the &quote;Service&quote;).
+                      Dallas Home Watch operates the www.dallashomewatch.com
+                      website.
                     </p>
                     <p>
                       This page informs you of our policies regarding the
@@ -67,15 +66,15 @@ function PrivacyPage() {
                       certain personally identifiable information that can be
                       used to contact or identify you. Personally identifiable
                       information may include, but is not limited to, your name,
-                      phone number, email, or other information (&quote;Personal
-                      Information&quote;).
+                      phone number, email, or other information (Personal
+                      Information).
                     </p>
                     <h2 className="priv">Log Data</h2>
                     <p>
                       We collect information that your browser sends whenever
-                      you visit our Service (&quote;Log Data&quote;). This Log
+                      you visit our Service (Log Data). This Log
                       Data may include information such as your computer&apos;s
-                      Internet Protocol (&quote;IP&quote;) address, browser
+                      Internet Protocol (IP) address, browser
                       type, browser version, the pages of our Service that you
                       visit, the time and date of your visit, the time spent on
                       those pages and other statistics.
@@ -88,7 +87,7 @@ function PrivacyPage() {
                       computer&apos;s hard drive.
                     </p>
                     <p>
-                      We use &quote;cookies&quote; to collect information. We
+                      We use cookies to collect information. We
                       use tracking devices and cookies for advertising purposes;
                       and by using this site you consent to the placing of
                       tracking devices, such as cookies (including tracking
@@ -139,7 +138,7 @@ function PrivacyPage() {
                     <h2 className="priv">Children&apos;s Privacy</h2>
                     <p>
                       Our Service does not address anyone under the age of 13
-                      (&quote;Children&quote;).
+                      (Children).
                     </p>
                     <p>
                       We do not knowingly collect personally identifiable
