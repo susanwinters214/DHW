@@ -172,7 +172,7 @@ function AccreditationPage(props) {
       {/* insert section component with Tina closing gate - Why Choose Us */}
       <section className="fluid-section-two">
         <div className="side-icon">
-          <img src="images/icons/fluid-icon-1.png" alt="designer column" />
+          <Image src="images/icons/fluid-icon-1.png" alt="designer column" height={200 } width={100 } />
         </div>
         <div className="outer-container clearfix">
           {/* Content Column */}

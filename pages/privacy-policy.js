@@ -74,7 +74,7 @@ function PrivacyPage() {
                     <p>
                       We collect information that your browser sends whenever
                       you visit our Service (&quote;Log Data&quote;). This Log
-                      Data may include information such as your computer's
+                      Data may include information such as your computer&apos;s
                       Internet Protocol (&quote;IP&quote;) address, browser
                       type, browser version, the pages of our Service that you
                       visit, the time and date of your visit, the time spent on
@@ -85,7 +85,7 @@ function PrivacyPage() {
                       Cookies are files with small amounts of data, which may
                       include an anonymous unique identifier. Cookies are sent
                       to your browser from a web site and stored on your
-                      computer's hard drive.
+                      computer&apos;s hard drive.
                     </p>
                     <p>
                       We use &quote;cookies&quote; to collect information. We
@@ -127,16 +127,16 @@ function PrivacyPage() {
                     <p>
                       Our Service may contain links to other sites that are not
                       operated by us. If you click on a third party link, you
-                      will be directed to that third party's site. We strongly
-                      advise you to review the Privacy Policy of every site you
-                      visit.
+                      will be directed to that third party&apos;s site. We
+                      strongly advise you to review the Privacy Policy of every
+                      site you visit.
                     </p>
                     <p>
                       We have no control over, and assume no responsibility for
                       the content, privacy policies or practices of any third
                       party sites or services.
                     </p>
-                    <h2 className="priv">Children's Privacy</h2>
+                    <h2 className="priv">Children&apos;s Privacy</h2>
                     <p>
                       Our Service does not address anyone under the age of 13
                       (&quote;Children&quote;).
