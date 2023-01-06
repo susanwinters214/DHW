@@ -106,7 +106,7 @@ function MainNavigation() {
             </Link>
             <span style={{ fontWeight: "bold" }}>Dallas Home Watch</span>
             <br />
-            <div className="menu-mobile zindexmobilemenu">
+            <div className="menu-mobile">
               <hr />
               <div className="moveRight">
                 <Link className="mobile-link" href="/homewatch-checklist">
@@ -120,7 +120,7 @@ function MainNavigation() {
                 <br />
                 <br />
                 <Link
-                  className="mobile-link zindex99"
+                  className="mobile-link"
                   href="/concierge-services"
                 >
                   Concierge Services
