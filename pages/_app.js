@@ -29,7 +29,6 @@ function MyApp({ Component, pageProps }) {
       ></Script>
       <Script src="js/jquery.min.js" strategy="afterInteractive"></Script>
       <Script src="js/popper.min.js" strategy="afterInteractive"></Script>
-      <Script src="js/bootstrap.min.js" strategy="afterInteractive"></Script>
 
       <Script src="js/jquery.fancybox.js" strategy="afterInteractive"></Script>
       <Script src="js/appear.js" strategy="afterInteractive"></Script>
@@ -43,6 +42,7 @@ function MyApp({ Component, pageProps }) {
       <Script src="js/wow.js" strategy="afterInteractive"></Script>
       <Script src="js/nav-tool.js" strategy="afterInteractive"></Script>
       <Script src="js/jquery-ui.js" strategy="afterInteractive"></Script>
+      <Script src="js/bootstrap.min.js" strategy="afterInteractive"></Script>
       <Script src="js/script.js" strategy="afterInteractive"></Script>
     </Layout>
   );
