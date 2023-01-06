@@ -33,10 +33,12 @@ function TermsPage() {
                 <div className="pattern-layer">
                   <section id="contentBlock">
                     <p>
-                      Please read these Terms and Conditions ("Terms", "Terms
-                      and Conditions") carefully before using the
-                      www.dallashomewatch.com website (the "Service") operated
-                      by Dallas Home Watch ("us", "we", or "our").
+                      Please read these Terms and Conditions
+                      (&quote;Terms&quote;, &quote;Terms and Conditions&quote;)
+                      carefully before using the www.dallashomewatch.com website
+                      (the &quote;Service&quote;) operated by Dallas Home Watch
+                      (&quote;us&quote;, &quote;we&quote;, or
+                      &quote;our&quote;).
                     </p>
                     <p>
                       Your access to and use of the Service is conditioned on

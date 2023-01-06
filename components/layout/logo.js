@@ -8,14 +8,14 @@ function Logo() {
     <Fragment>
       <div className="pull-left logo-box">
         <div className="logo">
-          <a href="/">
+          <Link href="/">
             <Image
               src="/images/Dallas-Home-Watch-Logo.png"
               alt="Dallas Home Watch"
               title="Dallas Home Watch"
               width={60}
               height={60}
-            />
+            /></Link>
             <div
               style={{
                 float: "right",
@@ -41,7 +41,7 @@ function Logo() {
                 Home Watch Services in Dallas, Texas
               </span>
             </div>
-          </a>
+         
           <br />
         </div>
       </div>

@@ -313,7 +313,8 @@ function HomePage(props) {
                     <blockquote>
                       <span className="quote-icon flaticon-quote-1" />
                       <div className="quote-text">
-                        "Keep informed about your home while you are away”
+                        &quote;Keep informed about your home while you are
+                        away&quote;
                       </div>
                       <div className="quote-author">By Tina Lawson</div>
                     </blockquote>

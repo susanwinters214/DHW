@@ -8,7 +8,7 @@ function CTA1() {
       <div className={classes.autocontainer}>
         <div className={classes.innercontainer}>
           <div className={classes.image}>
-            <img
+            <Image width={200 } height={ 200}
               src="images/shaking-hands-in-front-of-house.jpg"
               alt="shaking hands in front of house"
             />
@@ -27,7 +27,7 @@ function CTA1() {
             </Link>
           </div>
           <div className={classes.hammerimage}>
-            <img src="images/house-keys.png" alt="house keys" />
+            <Image src="images/house-keys.png" alt="house keys" height={100} width={ 100} />
           </div>
         </div>
       </div>

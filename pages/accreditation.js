@@ -74,7 +74,7 @@ function AccreditationPage(props) {
                       alt="Accredited Home Watch Memeber of National Home Watch Association"
                     />
                     <a
-                      rel="nofollow"
+                      rel="noreferrer"
                       href="https://www.nationalhomewatchassociation.org/"
                       target="_blank"
                       className="arrow flaticon-right"
@@ -201,7 +201,7 @@ function AccreditationPage(props) {
                           <div className="icon flaticon-briefcase" />
                           <div className="count-outer count-box"></div>
                           <div className="counter-title">Licensed</div>
-                          <p>#000000</p>
+                          
                         </div>
                       </div>
                     </div>
@@ -216,7 +216,7 @@ function AccreditationPage(props) {
                           <div className="icon flaticon-balance" />
                           <div className="count-outer count-box"></div>
                           <div className="counter-title">Bonded</div>
-                          <p>#2222222</p>
+                         
                         </div>
                       </div>
                     </div>
@@ -231,7 +231,7 @@ function AccreditationPage(props) {
                           <div className="icon flaticon-piggy-bank" />
                           <div className="count-outer count-box"></div>
                           <div className="counter-title">Insured</div>
-                          <p>State Farm Insurance</p>
+                          
                         </div>
                       </div>
                     </div>

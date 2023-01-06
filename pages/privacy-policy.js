@@ -8,7 +8,10 @@ function PrivacyPage() {
     <Fragment>
       <Head>
         <title>Privacy Policy</title>
-        <meta name="description"   content="Privacy Policy for Dallas Home Watch" />
+        <meta
+          name="description"
+          content="Privacy Policy for Dallas Home Watch"
+        />
       </Head>
 
       {/* insert top banner with Page Title & Breadcrumb*/}
@@ -34,8 +37,9 @@ function PrivacyPage() {
                 <div className="pattern-layer">
                   <section id="contentBlock">
                     <p>
-                      Dallas Home Watch ("us", "we", or "our") operates the
-                      www.dallashomewatch.com website (the "Service").
+                      Dallas Home Watch (&quote;us&quote;, &quote;we&quote;, or
+                      &quote;our&quote;) operates the www.dallashomewatch.com
+                      website (the &quote;Service&quote;).
                     </p>
                     <p>
                       This page informs you of our policies regarding the
@@ -63,18 +67,18 @@ function PrivacyPage() {
                       certain personally identifiable information that can be
                       used to contact or identify you. Personally identifiable
                       information may include, but is not limited to, your name,
-                      phone number, email, or other information ("Personal
-                      Information").
+                      phone number, email, or other information (&quote;Personal
+                      Information&quote;).
                     </p>
                     <h2 className="priv">Log Data</h2>
                     <p>
                       We collect information that your browser sends whenever
-                      you visit our Service ("Log Data"). This Log Data may
-                      include information such as your computer's Internet
-                      Protocol ("IP") address, browser type, browser version,
-                      the pages of our Service that you visit, the time and date
-                      of your visit, the time spent on those pages and other
-                      statistics.
+                      you visit our Service (&quote;Log Data&quote;). This Log
+                      Data may include information such as your computer's
+                      Internet Protocol (&quote;IP&quote;) address, browser
+                      type, browser version, the pages of our Service that you
+                      visit, the time and date of your visit, the time spent on
+                      those pages and other statistics.
                     </p>
                     <h2 className="priv">Cookies</h2>
                     <p>
@@ -84,18 +88,18 @@ function PrivacyPage() {
                       computer's hard drive.
                     </p>
                     <p>
-                      We use "cookies" to collect information. We use tracking
-                      devices and cookies for advertising purposes; and by using
-                      this site you consent to the placing of tracking devices,
-                      such as cookies (including tracking devices enabled by
-                      Rakuten Marketing) on your computer and/or devices that
-                      you use to connect to this website. If you do not wish for
-                      tracking cookies to be used then you may opt-out or remove
-                      cookies/tracking devices in compliance with any applicable
-                      law by instructing your browser to refuse all cookies or
-                      to indicate when a cookie is being sent. However, if you
-                      do not accept cookies, you may not be able to use some
-                      portions of our Service.
+                      We use &quote;cookies&quote; to collect information. We
+                      use tracking devices and cookies for advertising purposes;
+                      and by using this site you consent to the placing of
+                      tracking devices, such as cookies (including tracking
+                      devices enabled by Rakuten Marketing) on your computer
+                      and/or devices that you use to connect to this website. If
+                      you do not wish for tracking cookies to be used then you
+                      may opt-out or remove cookies/tracking devices in
+                      compliance with any applicable law by instructing your
+                      browser to refuse all cookies or to indicate when a cookie
+                      is being sent. However, if you do not accept cookies, you
+                      may not be able to use some portions of our Service.
                     </p>
                     <h2 className="priv">Service Providers</h2>
                     <p>
@@ -135,7 +139,7 @@ function PrivacyPage() {
                     <h2 className="priv">Children's Privacy</h2>
                     <p>
                       Our Service does not address anyone under the age of 13
-                      ("Children").
+                      (&quote;Children&quote;).
                     </p>
                     <p>
                       We do not knowingly collect personally identifiable

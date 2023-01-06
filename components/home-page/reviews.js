@@ -1,4 +1,4 @@
-
+import Image from "next/image";
 import classes from "./reviews.module.css";
 
 function Reviews(props) {
@@ -18,7 +18,9 @@ function Reviews(props) {
             <div className="testimonial-block">
               <div className="inner-box">
                 <div className="author-image">
-                  <img
+                  <Image
+                    height={100}
+                    width={150}
                     src="images/clients/avatar-man-age-55.jpg"
                     alt="executive man giving testimonial of Dallas Home Watch services"
                   />
@@ -37,7 +39,9 @@ function Reviews(props) {
             <div className="testimonial-block">
               <div className="inner-box">
                 <div className="author-image">
-                  <img
+                  <Image
+                    height={100}
+                    width={150}
                     src="images/clients/avatar-man-age-45.jpg"
                     alt="business man giving testimonial of Dallas Home Watch services"
                   />
@@ -54,7 +58,9 @@ function Reviews(props) {
             <div className="testimonial-block">
               <div className="inner-box">
                 <div className="author-image">
-                  <img
+                  <Image
+                    height={100}
+                    width={150}
                     src="images/clients/avatar-woman-age-35.jpg"
                     alt="executive woman giving testimonial of Dallas Home Watch services"
                   />
