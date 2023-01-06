@@ -16,7 +16,7 @@ function MainNavigation() {
               <span className="icon flaticon-menu" />
             </div>
             {/* Main Menu */}
-            <nav className="main-menu navbar-expand-md">
+            <nav className="main-menu navbar-expand-md ">
               <div className="navbar-header">
                 {/* Toggle Button */}
                 <button
@@ -37,7 +37,7 @@ function MainNavigation() {
                 className="navbar-collapse collapse clearfix"
                 id="navbarSupportedContent"
               >
-                <ul className="navigation clearfix">
+                <ul className="navigation clearfix ">
                   <li className="dropdown">
                     <Link href="/">Home Watch Services</Link>
                     <ul>
@@ -54,8 +54,8 @@ function MainNavigation() {
                       <li>
                         <Link href="/vehicle-care">Vehicle Care</Link>
                       </li>
-                      <li>
-                        <Link href="/concierge-services">
+                      <li className="zindex99">
+                        <Link href="/concierge-services" className="zindex99">
                           Concierge Services
                         </Link>
                       </li>
@@ -69,12 +69,6 @@ function MainNavigation() {
             </nav>
             {/* Main Menu End*/}
             <div className="outer-box clearfix">
-              {/* Btn Box 
-              <div className="btn-box">
-                <a href="/contact" className="theme-btn btn-style-one">
-                  <span className="txt">Contact US</span>
-                </a>
-              </div>
               {/* Phone Box */}
               <div className="phone-box">
                 <div className="box-inner">
@@ -112,7 +106,7 @@ function MainNavigation() {
             </Link>
             <span style={{ fontWeight: "bold" }}>Dallas Home Watch</span>
             <br />
-            <div className="menu-mobile">
+            <div className="menu-mobile zindexmobilemenu">
               <hr />
               <div className="moveRight">
                 <Link className="mobile-link" href="/homewatch-checklist">
@@ -125,7 +119,10 @@ function MainNavigation() {
                 </Link>
                 <br />
                 <br />
-                <Link className="mobile-link" href="/concierge-services">
+                <Link
+                  className="mobile-link zindex99"
+                  href="/concierge-services"
+                >
                   Concierge Services
                 </Link>
                 <br />

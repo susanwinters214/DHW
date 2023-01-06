@@ -19,7 +19,9 @@ function HomePage(props) {
           <div className="row clearfix">
             <div className="services-block col-lg-12 col-md-12 col-sm-12">
               <div className="homepagetopcontent">
-                <h1 className="title">Dallas Home Watch Services</h1>
+                <h1 className="title zindexh1tag hidden-mobile">
+                  Dallas Home Watch Services
+                </h1>
                 <h2>
                   Home Watch is a service that performs visual inspections of a
                   home or property, looking for obvious issues.
@@ -155,14 +157,14 @@ function HomePage(props) {
                       alt="home-watch-professional-checking-doors"
                     />
                   </div>
-                  <div
-                    className="case-box wow fadeInLeft"
+                  <div className="case-box wow fadeInLeft"
                     data-wow-delay="0ms"
                     data-wow-duration="1500ms"
                   >
-                    20<sup>+</sup>
+                   
+                    
                     <span>
-                      Years of <br /> Experience
+                      20+ Years of <br /> Experience
                     </span>
                   </div>
                 </div>
@@ -313,8 +315,7 @@ function HomePage(props) {
                     <blockquote>
                       <span className="quote-icon flaticon-quote-1" />
                       <div className="quote-text">
-                        Keep informed about your home while you are
-                        away
+                        Keep informed about your home while you are away
                       </div>
                       <div className="quote-author">By Tina Lawson</div>
                     </blockquote>
