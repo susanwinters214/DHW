@@ -1,6 +1,6 @@
 (function($) {
 	
-	"use strict";
+	//"use strict";
 	
 	
 	//Hide Loading Box (Preloader)
@@ -104,7 +104,7 @@
 		var hiddenBar = $('.hidden-bar');
 		var hiddenBarOpener = $('.nav-toggler');
 		var hiddenBarCloser = $('.hidden-bar-closer,.close-menu');
-		//$('.hidden-bar-wrapper').mCustomScrollBar();
+		$('.hidden-bar-wrapper').mCustomScrollBar();
 		
 		//Show Sidebar
 		hiddenBarOpener.on('click', function () {

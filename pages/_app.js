@@ -19,17 +19,9 @@ function MyApp({ Component, pageProps }) {
         />
         <link rel="icon" href="images/favicon.ico" type="image/x-icon"></link>
       </Head>
-      <div className="page-wrapper">
-        <Component {...pageProps} />
-      </div>
-      <Script
-        src="https://code.jquery.com/jquery-3.6.3.min.js"
-        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
-        crossorigin="anonymous"
-      ></Script>
+
       <Script src="js/jquery.min.js" strategy="afterInteractive"></Script>
       <Script src="js/popper.min.js" strategy="afterInteractive"></Script>
-
       <Script src="js/jquery.fancybox.js" strategy="afterInteractive"></Script>
       <Script src="js/appear.js" strategy="afterInteractive"></Script>
       <Script src="js/parallax.min.js" strategy="afterInteractive"></Script>
@@ -44,6 +36,9 @@ function MyApp({ Component, pageProps }) {
       <Script src="js/jquery-ui.js" strategy="afterInteractive"></Script>
       <Script src="js/bootstrap.min.js" strategy="afterInteractive"></Script>
       <Script src="js/script.js" strategy="afterInteractive"></Script>
+      <div className="page-wrapper">
+        <Component {...pageProps} />
+      </div>
     </Layout>
   );
 }

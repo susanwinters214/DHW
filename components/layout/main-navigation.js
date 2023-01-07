@@ -10,13 +10,15 @@ function MainNavigation() {
       <div className="header-upper">
         <div className="auto-container clearfix">
           <Logo />
+
           <div className="nav-outer clearfix">
             {/*Mobile Navigation Toggler*/}
             <div className="mobile-nav-toggler">
-              <span className="icon flaticon-menu" />
+              <span class="icon flaticon-menu"></span>
             </div>
+
             {/* Main Menu */}
-            <nav className="main-menu navbar-expand-md ">
+            <nav className="main-menu navbar-expand-md">
               <div className="navbar-header">
                 {/* Toggle Button */}
                 <button
@@ -33,11 +35,12 @@ function MainNavigation() {
                   <span className="icon-bar" />
                 </button>
               </div>
+              {/* DropDown Menu of main pages */}
               <div
                 className="navbar-collapse collapse clearfix"
                 id="navbarSupportedContent"
               >
-                <ul className="navigation clearfix ">
+                <ul className="navigation clearfix">
                   <li className="dropdown">
                     <Link href="/">Home Watch Services</Link>
                     <ul>
@@ -54,8 +57,8 @@ function MainNavigation() {
                       <li>
                         <Link href="/vehicle-care">Vehicle Care</Link>
                       </li>
-                      <li className="zindex99">
-                        <Link href="/concierge-services" className="zindex99">
+                      <li>
+                        <Link href="/concierge-services">
                           Concierge Services
                         </Link>
                       </li>
@@ -87,12 +90,47 @@ function MainNavigation() {
       </div>
       {/*End Header Upper*/}
 
+      {/* Sticky Header */}
+
+      <div class="sticky-header">
+        <div class="auto-container clearfix">
+          {/* LOGO */}
+          <div class="logo pull-left">
+            <Logo />
+          </div>
+
+          {/* Right Col */}
+          <div class="pull-right">
+            {/* Main Menu */}
+            <nav class="main-menu">
+              {/* --Keep This Empty / Menu will come through Javascript*/}
+            </nav>
+            {/* Main Menu End */}
+            <div class="outer-box clearfix">
+              {/* Btn Box */}
+              <div class="btn-box">
+                <Link href="tel:972-982-7050" class="theme-btn btn-style-two">
+                  <span class="txt">Call Us</span>
+                </Link>
+              </div>
+
+              {/* Mobile Navigation Toggler  */}
+              <div class="mobile-nav-toggler">
+                <span class="icon flaticon-menu"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* End Sticky Menu  */}
+
       {/* Mobile Menu  */}
       <div className="mobile-menu">
-        <div className="menu-backdrop" />
+        <div className="menu-backdrop"></div>
         <div className="close-btn">
           <span className="icon flaticon-multiply" />
         </div>
+
         <nav className="menu-box">
           <div className="nav-logo">
             <Link href="/">
@@ -106,39 +144,14 @@ function MainNavigation() {
             </Link>
             <span style={{ fontWeight: "bold" }}>Dallas Home Watch</span>
             <br />
-            <div className="menu-mobile">
-              <hr />
-              <div className="moveRight">
-                <Link className="mobile-link" href="/homewatch-checklist">
-                  HomeWatch Checklist
-                </Link>
-                <br />
-                <br />
-                <Link className="mobile-link" href="/keyholder-services">
-                  Key Holder Services
-                </Link>
-                <br />
-                <br />
-                <Link
-                  className="mobile-link"
-                  href="/concierge-services"
-                >
-                  Concierge Services
-                </Link>
-                <br />
-                <br />
-                <Link className="mobile-link" href="/vehicle-care">
-                  Vehicle Care
-                </Link>
-                <br />
-                <br />
-                <Link className="mobile-link" href="/about">
-                  About Us
-                </Link>
-                <br />
-              </div>
-            </div>
+
+           
+           
+             
+        
           </div>
+
+          <div className="menu-outer"></div>
         </nav>
       </div>
       {/* End Mobile Menu */}

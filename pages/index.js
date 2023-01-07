@@ -104,7 +104,8 @@ function HomePage(props) {
                     </h4>
                     <div className="text">
                       Professional services performed so that you can enjoy your
-                      freedom of time. (Only for Home Watch clients)
+                      freedom of time. (Only for Home Watch clients under
+                      contract.)
                     </div>
                   </div>
                   <Link
@@ -127,7 +128,8 @@ function HomePage(props) {
                     </h4>
                     <div className="text">
                       We alert you of low tires or battery and meet with your
-                      dealership when necessary. (Only for Home Watch clients)
+                      dealership when necessary. (Only for Home Watch clients
+                      under contract.)
                     </div>
                   </div>
                   <Link href="/vehicle-care" className="arrow flaticon-right" />
@@ -157,12 +159,11 @@ function HomePage(props) {
                       alt="home-watch-professional-checking-doors"
                     />
                   </div>
-                  <div className="case-box wow fadeInLeft"
+                  <div
+                    className="case-box wow fadeInLeft"
                     data-wow-delay="0ms"
                     data-wow-duration="1500ms"
                   >
-                   
-                    
                     <span>
                       20+ Years of <br /> Experience
                     </span>
