@@ -22,7 +22,7 @@ function CTA1() {
               className={(classes.themebtn, classes.btnstyletwo)}
             >
               <span className="txt">
-                Get a quote <i class="arrow flaticon-right"></i>
+                Get a quote <i className="arrow flaticon-right"></i>
               </span>
             </Link>
           </div>

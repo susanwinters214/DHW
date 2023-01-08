@@ -8,8 +8,15 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang="en">
-        <Head></Head>
+        <Head>
+          <script
+            type="text/javascript"
+            src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+            defer
+          ></script>
+        </Head>
         <Script src="js/jquery.min.js" strategy="beforeInteractive"></Script>
+
         <body className="hidden-bar-wrapper">
           <Main />
           <NextScript />

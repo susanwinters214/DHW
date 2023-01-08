@@ -3,6 +3,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import Hero from '../components/home-page/hero';
 import Image from "next/image";
+import Script from "next/script";
 
 function VehicleCarePage(props) {
   return (
@@ -14,6 +15,7 @@ function VehicleCarePage(props) {
           content="Dallas Home Watch offers Vehicle Care for existing Home Watch clients. DHW can watch your car while you are away from home for long periods of time."
         />
       </Head>
+      <Script src="js/jquery.min.js"></Script>
       {/* insert top banner with Page Title & Breadcrumb*/}
       <section className="page-title pageback-vehcare">
         <div className="auto-container">
@@ -65,7 +67,6 @@ function VehicleCarePage(props) {
                       alt="Bentley Battery"
                     />
                   </div>
-
                 </div>
               </div>
             </div>
@@ -82,9 +83,7 @@ function VehicleCarePage(props) {
               className="inner-box wow fadeInUp"
               data-wow-delay="0ms"
               data-wow-duration="1500ms"
-            >
-             
-            </div>
+            ></div>
           </div>
           {/* Services Car Service */}
           <div className="services-block-three style-two">

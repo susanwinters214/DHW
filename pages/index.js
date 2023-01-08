@@ -22,7 +22,7 @@ function HomePage(props) {
                 <h1 className="title zindexh1tag hidden-mobile">
                   Dallas Home Watch Services
                 </h1>
-                <h2>
+                <h2 className="mobileh2">
                   Home Watch is a service that performs visual inspections of a
                   home or property, looking for obvious issues.
                 </h2>

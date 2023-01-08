@@ -181,3 +181,11 @@ h2{padding-bottom:25px;}
           display: none;
         }
       }
+
+/* Move things up on mobile */
+ @media (max-width: 767px) {
+        .mobileh2 {
+          margin-top: -50px;
+        }
+      }
+     

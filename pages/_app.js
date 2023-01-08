@@ -7,6 +7,7 @@ import "../styles/susan.css";
 import Layout from "../components/layout/layout";
 import Script from "next/script";
 
+
 function MyApp({ Component, pageProps }) {
   return (
     <Layout>

@@ -2,7 +2,7 @@ import { Fragment } from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 import Image from "next/image";
-
+import Script from "next/script";
 
 function KeyHolderPage(props) {
   return (
@@ -15,6 +15,7 @@ function KeyHolderPage(props) {
           The Key Holder will supervise the contractor and confirm with the home owner that the work is done, then lock up the house and leave."
         />
       </Head>
+      <Script src="js/jquery.min.js"></Script>
       {/* insert top banner with Page Title & Breadcrumb*/}
       <section className="page-title pageback-keyh">
         <div className="auto-container">
@@ -86,14 +87,11 @@ function KeyHolderPage(props) {
                   </ul>
                 </div>
               </div>
-
-             
             </div>
           </div>
         </div>
       </section>
 
-    
       <section
         className="clienst-section style-two"
         style={{ marginTop: 100, marginBottom: 100 }}
@@ -111,7 +109,12 @@ function KeyHolderPage(props) {
             </div>
           </div>
           <div className="image-centered">
-            <Image src="/images/icons/house-keys.png" alt="house keys" width={300} height={150} />
+            <Image
+              src="/images/icons/house-keys.png"
+              alt="house keys"
+              width={300}
+              height={150}
+            />
           </div>
         </div>
       </section>
@@ -143,15 +146,15 @@ function KeyHolderPage(props) {
                   place, we are there to greet them and supervise the process.
                 </p>
                 <p>
-                  For our contracted Home Watch clients, you do not need to wait the
-                  four-hour window. We will assure that we are there to meet
+                  For our contracted Home Watch clients, you do not need to wait
+                  the four-hour window. We will assure that we are there to meet
                   repairmen and supervise the work through completion.
                 </p>
                 <p>
                   That goes for services like landscaping, pool maintenance and
                   housekeeping, too. We will be there when they are, acting on
-                  your behalf. And when the work is done, we will see that your property is
-                  secure.
+                  your behalf. And when the work is done, we will see that your
+                  property is secure.
                 </p>
 
                 <h3>Emergency Services</h3>
@@ -175,9 +178,9 @@ function KeyHolderPage(props) {
                 <p>
                   If necessary, we can handle the aftermath of property
                   invasions or fire, dealing with repairs and cleanup so you
-                  return home worry-free. We can check your home after large storms if requested, and once it is safe to do so.
-                  We will do a Home
-                  Watch visit and notify you of any issues.
+                  return home worry-free. We can check your home after large
+                  storms if requested, and once it is safe to do so. We will do
+                  a Home Watch visit and notify you of any issues.
                 </p>
               </div>
             </div>
