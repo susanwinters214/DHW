@@ -14,6 +14,7 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <meta name="googlebot" content="noindex"></meta>
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="author" content="Susan Winters" />
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"

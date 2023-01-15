@@ -140,10 +140,7 @@ function HomeWatchChecklistPage(props) {
                   Our comprehensive menu of services takes the worry out of home
                   ownership whether you are away on business, vacationing,
                   relocating or simply in possession of a property that is not
-                  your residence. Depending on the length of time you will be
-                  away or the size of the property, knowing that your property
-                  will be attended to with the highest level of professionalism
-                  and attention to detail.
+                  your residence. 
                 </p>
 
                 <h3>Inside Your Home</h3>
@@ -204,7 +201,7 @@ function HomeWatchChecklistPage(props) {
                   pool and other equipment; pre- and post-freeze preparation;
                   security of windows and other points of entry; functioning of
                   exterior lighting; and access by animals or birds. Any
-                  problems with these or other exterior areas will be reported
+                  problems discovered will be reported
                   to the homeowner and handled according to their instructions.
                 </p>
 
@@ -323,7 +320,7 @@ function HomeWatchChecklistPage(props) {
                   <div className="inner-column">
                     <h4 className="boxTitle">Electrical Closets</h4>
                     <div className="text">
-                      We can look inside of your electrical closed to verify no breakers have tripped.
+                      We can look inside your electrical closed to verify no breakers have tripped.
                       order.
                     </div>
                   </div>
@@ -394,7 +391,7 @@ function HomeWatchChecklistPage(props) {
                     <div className="text">
                       Dallas Home Watch will check your air filters and replace
                       them when necessary. Just let us know where your new
-                      filters are located so that we can replace them while on
+                      filters are, and we can replace them while on
                       site. We write the date on the air filters using a black
                       Sharpie so that you will always know the date of the last
                       time the filter was changed.
@@ -444,8 +441,9 @@ function HomeWatchChecklistPage(props) {
                   <div className="inner-column">
                     <h4 className="boxTitle">A/C Units</h4>
                     <div className="text">
-                      We will do a visual inspection of your A/C units to ensure
-                      there are no condensation leaks in the drip pan. (We only enter the attic if it is easily accessible.)
+                      We will perform a visual inspection of your A/C units to ensure
+                      no condensation leaks in the drip pan.
+                      (We only enter the attic if it is easily accessible.)
                     </div>
                   </div>
                 </div>
@@ -467,8 +465,8 @@ function HomeWatchChecklistPage(props) {
                     <div className="text">
                       We know how important it is not to lose electricity to
                       your household appliances while you are away. We check
-                      your breaker box looking to see if any breakers have been
-                      tripped and if so, we will reset them.
+                      your breaker box to see if any breakers have
+                      tripped, and if so, we will reset them.
                     </div>
                   </div>
                 </div>
@@ -514,7 +512,7 @@ function HomeWatchChecklistPage(props) {
                   <div className="inner-column">
                     <h4 className="boxTitle">Washing Machines</h4>
                     <div className="text">
-                      We will check your washing machine to make sure there is
+                      We will check your washing machine to ensure there is
                       no water leaking and no unusual odors coming from the
                       machine.
                     </div>
@@ -537,8 +535,8 @@ function HomeWatchChecklistPage(props) {
                     <h4 className="boxTitle">Refrigerators</h4>
                     <div className="text">
                       We check the refrigerator to make sure the light comes on.
-                      If you want us to, we can clean out expired food from the
-                      refrigerator as well as stock it with bottled water before
+                      If you want us to, we can clean out expired food from your
+                      refrigerator  We can also stock your refrigerator with bottled water before
                       your arrival.
                     </div>
                   </div>
@@ -585,7 +583,7 @@ function HomeWatchChecklistPage(props) {
                   <div className="inner-column">
                     <h4 className="boxTitle">Water Faucets</h4>
                     <div className="text">
-                      We check all water faucets to make sure the water is not dripping once it is turned off.
+                      We check all waterfaucets to ensure the water is not dripping once it is turned off.
                     </div>
                   </div>
                 </div>
@@ -814,7 +812,7 @@ function HomeWatchChecklistPage(props) {
                     <h4 className="boxTitle">Garage Doors & Openers</h4>
                     <div className="text">
                       We will open and close your garage doors to make sure
-                      everything is working properly.
+                      everything is working.
                     </div>
                   </div>
                 </div>

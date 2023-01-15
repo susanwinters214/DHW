@@ -39,23 +39,52 @@ function AboutPage() {
                   </div>
                   <div className="text">
                     <p className="first">
-                      After 20+ years in personalized estate management, we have
-                      gained the experience to thoroughly check on your luxury
-                      home or property with thorough checks to mitigate issues
-                      together prior to your return.
+                      Tina Lawson, who managed the corporate offices of HCB
+                      Contractors from the mid- '80s to early '90s and later
+                      worked on the situation desk at Burlington Northern Santa
+                      Fe Railway Co., began an executive limousine business in
+                      2001.
                     </p>
-
                     <p>
-                      We want to ease your worries while you are away by
-                      automatically checking the interior and exterior of your
-                      home. We also inspect your attic after major storms
-                      looking for roof damage and water leaks.
+                      But after listening to some of her clients' comments, she
+                      decided to take her services a step further.
                     </p>
-                  </div>
-                  <div className="text-box">
-                    I am personally reachable because I care and know you
-                    deserve a real response when you trust your home to Dallas
-                    Home Watch.
+                    <p>
+                      "Tina had been driving us to the airport and my husband
+                      mentioned that the prior house manager had quit
+                      unexpectedly and without notice," said client T.G.M.
+                    </p>
+                    <p>
+                      "Tina asked to be considered for the job. Now, I can't
+                      imagine where we would be without her."
+                    </p>
+                    <p>
+                      In 2003, Lawson's company evolved to encompass home
+                      management services.
+                    </p>
+                    <p>
+                      Lawson manages several multimillion dollar homes in the
+                      Metroplex for clients who often have multiple homes across
+                      the nation and rely on Lawson to "hold down the fort"
+                      while they are out of town.
+                    </p>
+                    <p>
+                      In 2022, Ms. Lawson rebranded her company from STS
+                      (suburban transportation services) to Dallas Home Watch to
+                      better reflect the services she provides. 
+                    </p>
+                    <p>
+                      Clients are regular accounts that contract with Dallas
+                      Home Watch on a monthly or annual basis. While clients are
+                      out of town, they are kept abreast of all household issues
+                      by e-mail.
+                    </p>
+                    <p>
+                      "Dallas Home Watch allows clients to have a better quality
+                      of life by freeing up their time to do what they want to
+                      do. We allow them more time to enjoy their life with
+                      family, friends, golfing etc.," Lawson said.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -80,8 +109,7 @@ function AboutPage() {
                         Tina Lawson
                       </a>
                       , Owner of&nbsp;
-                      <a
-                        href="https://www.linkedin.com/company/89597128/admin/">
+                      <a href="https://www.linkedin.com/company/89597128/admin/">
                         Dallas Home Watch
                       </a>
                       <br />
@@ -94,6 +122,13 @@ function AboutPage() {
                         arise.
                       </p>
                     </center>
+                  </div>
+
+                  <div className="content-column col-lg-12 col-md-12 col-sm-12">
+                    <div className="text-box">
+                      "I treat all properties the way I would like a person to
+                      manage my own home," Lawson says.
+                    </div>
                   </div>
                 </div>
               </div>

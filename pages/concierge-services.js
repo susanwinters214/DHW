@@ -42,7 +42,7 @@ function ConciergePage(props) {
               <h2>Concierge Services for Home Watch Clients</h2>
               <p>
                 Dallas Home Watch offers personal concierge services while you
-                are away so that you can come home, and rest assured that your
+                are away so that you can come home and rest assured that your
                 home is ready to enjoy. Personal Concierge Services are only
                 available for Dallas Home Watch clients. Some of the services we
                 provide include but are not limited to the following:
@@ -97,12 +97,12 @@ function ConciergePage(props) {
                     <p>
                       It is our goal to keep your home running smoothly while
                       you are gone, so those pesky chores and to-dos that still
-                      need to get done will be ours to do for you.{" "}
+                      need to get done will be ours to do for you.
                     </p>
                     <p>
                       This may include personal errands like picking up dry
                       cleaning, purchasing gifts, returning an item to a store,
-                      or shipping a box via UPS.{" "}
+                      or shipping a box via UPS.
                     </p>
                     <p>
                       Household chores can include seeing that the yard and
@@ -118,7 +118,7 @@ function ConciergePage(props) {
                     <div className="image">
                       <Image
                         width={500}
-                        height={600}
+                        height={475}
                         src="/images/concierge-services/wine-cellar.jpg"
                         alt="wine bottles on shelves in a wine cellar"
                       />

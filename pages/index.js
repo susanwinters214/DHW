@@ -56,7 +56,7 @@ function HomePage(props) {
                     </h4>
                     <div className="text">
                       A visual inspection of your home and keep you informed
-                      about your property while you are away to mitigate risk
+                      about your property while you are away to mitigate risk.
                     </div>
                   </div>
                   <Link
@@ -103,9 +103,9 @@ function HomePage(props) {
                       <Link href="/concierge-services">Concierge Services</Link>
                     </h4>
                     <div className="text">
-                      Professional services performed so that you can enjoy your
-                      freedom of time. (Only for Home Watch clients under
-                      contract.)
+                      We provide professional concierge services so that you can
+                      enjoy your freedom of time. (Only for Home Watch clients
+                      under contract.)
                     </div>
                   </div>
                   <Link
@@ -127,9 +127,9 @@ function HomePage(props) {
                       <Link href="/vehicle-care">Vehicle Care</Link>
                     </h4>
                     <div className="text">
-                      We alert you of low tires or battery and meet with your
-                      dealership when necessary. (Only for Home Watch clients
-                      under contract.)
+                      We alert you of low tires or low batteries and meet with
+                      your dealership when necessary. (Only for Home Watch
+                      clients under contract.)
                     </div>
                   </div>
                   <Link href="/vehicle-care" className="arrow flaticon-right" />
@@ -180,7 +180,7 @@ function HomePage(props) {
                     </h2>
                     <div className="text">
                       We are a professional, knowledgeable, and certified Home
-                      Watch Business in Dallas County.We care and work to alert
+                      Watch Business in Dallas County. We care and work to alert
                       you of issues to save you time and money.
                     </div>
                     <br />
@@ -197,15 +197,17 @@ function HomePage(props) {
                       className="theme-btn btn-style-two"
                     >
                       <span className="txt">
-                        Get a quote <i className="arrow flaticon-right" />
+                        I need Home Watch Services <i className="phone" />
                       </span>
                     </a>
+                    <br />
                     <a
                       href="homewatch-checklist"
                       className="theme-btn btn-style-three"
                     >
                       <span className="txt">
-                        Read more <i className="arrow flaticon-right" />
+                        Home Watch Checklist{" "}
+                        <i className="arrow flaticon-right" />
                       </span>
                     </a>
                   </div>
@@ -285,7 +287,7 @@ function HomePage(props) {
                       for issues that may warrant a call to the homeowner
                       informing them of problems. These might include a leaky
                       faucet, clogged drain, air conditioning or heating issue,
-                      pool, or fountain pump problem and more. The larger the
+                      pool, or fountain pump problem, and more. The larger the
                       home, the more that can go wrong and, if left unattended,
                       small problems can quickly lead to larger, more costly
                       ones.
@@ -298,25 +300,25 @@ function HomePage(props) {
                       help keep from signaling that the homeowners are gone.
                     </p>
                     <p>
-                      Dallas Home Watch serves the owners of C-suite level homes
+                      Dallas Home Watch serves the owners of C-suite-level homes
                       and informs homeowners of any problems found, then adheres
-                      to their directions for resolution and treatment of any
+                      to their directions for the resolution and treatment of any
                       issues. Because our clients often travel out of state or
-                      out of country for long periods of time, they can rest
+                      out of the country for long periods, they can rest
                       assured that Dallas Home Watch will visit their property
-                      on weekly or more often basis and be their eyes and ears
+                      weekly (or more often if desired) and will be their eyes and ears
                       while they are away.
                     </p>
                     <p>
                       If you plan to leave your home vacant for more than 7
-                      consecutive days, call us to pre-schedule a Home Watch
-                      schedule that suit your needs.
+                      consecutive days, more than twice a year, call us to
+                      pre-schedule a Home Watch schedule that suits your needs.
                     </p>
 
                     <blockquote>
                       <span className="quote-icon flaticon-quote-1" />
                       <div className="quote-text">
-                        Keep informed about your home while you are away
+                        Keep informed about your home while you are away.
                       </div>
                       <div className="quote-author">By Tina Lawson</div>
                     </blockquote>
@@ -330,12 +332,12 @@ function HomePage(props) {
                       <Link href="homewatch-checklist">
                         Home Watch Checklist
                       </Link>
-                      &nbsp; that includes a list of services to be performed
-                      customized with the owner. We take photos and/or videos of
-                      identified problems or potential problems and send them
-                      via our Home Watch software portal, email or text. We
-                      ensure the homeowner is aware of any issues and follow
-                      their instructions regarding a resolution.
+                      &nbsp; that includes a list of services customized with
+                      the owner. We take photos and/or videos of identified
+                      problems or potential problems and send them via our Home
+                      Watch software portal, email or text. We ensure the
+                      homeowner is aware of any issues and follow their
+                      instructions regarding a resolution.
                     </p>
                     <div className="two-column">
                       <div className="row clearfix">
@@ -353,20 +355,20 @@ function HomePage(props) {
                         {/* Column */}
                         <div className="column col-lg-6 col-md-6 col-sm-12">
                           <p>
-                            We enter your property according to the schedule
-                            agreed upon and perform all agreed upon tasks. In
+                            We enter your property according to the agreed upon
+                            schedule and perform all agreed upon tasks. In
                             addition, we perform a visual inspection of the
                             property, either inside, outside, or both. We take
-                            photos and/or videos of potential problems and send
+                            photos and/or videos of potential identified issues and send
                             them to the homeowner via text or email, depending
                             on the client’s preference.
                           </p>
                           <p>
                             After notifying the homeowner, we will assist with
                             the resolution of the problem according to their
-                            instructions, We can meet the homeowners&apos;
-                            service companies to allow access, updates to the
-                            homeowner and secure the home once work is
+                            instructions.  We can meet the homeowners&apos;
+                            service companies to allow access, update the
+                            homeowner of progress made and secure the home once work is
                             completed.
                           </p>
                           <p>

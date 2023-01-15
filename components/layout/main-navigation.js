@@ -62,9 +62,7 @@ function MainNavigation() {
                           Concierge Services
                         </Link>
                       </li>
-                      <li>
-                        <Link href="/">HOME PAGE</Link>
-                      </li>
+                      
                     </ul>
                   </li>
                 </ul>

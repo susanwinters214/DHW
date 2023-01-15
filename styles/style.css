@@ -1767,14 +1767,14 @@ img {
 
 .welcome-section .image-column .inner-column .case-box {
   position: absolute;
-  left: -75px;
-  bottom: -75px;
+  left: -5px;
+  bottom: -5px;
   padding: px;
   width: 240px;
-  height: 212px;
+  height: 150px;
   color: #ffffff;
   font-size: 75px;
-  padding-top: 60px;
+  padding-top: 5%;
   text-align: center;
   background-color: #e1a122;
   font-family: "Bellefair", serif;
@@ -6638,7 +6638,7 @@ h3.serviceAreas {
   font-weight: normal;
   margin: 0px;
   background: none;
-  font-family: "Bellefair", serif;
+  font-family: Arial, serif;
   font-size: 2.5em;
 }
 

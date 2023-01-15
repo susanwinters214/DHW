@@ -54,7 +54,7 @@ function VehicleCarePage(props) {
                   <div className="sec-title">
                     <h2>Stored Car Care</h2>
                     <p className="text">
-                      We will visually inspected your stored vehicles for
+                      We will visually inspect your stored vehicles for
                       obvious issues by looking for low tires and making sure
                       the trickle battery charger shows a full battery.
                       <br />
@@ -112,7 +112,7 @@ function VehicleCarePage(props) {
                     <h4 className="boxTitle">Auto Service</h4>
                     <div className="text">
                       We will keep an eye on the vehicles you have in your
-                      garage and inform you if any tires are obviously low on
+                      garage and inform you if any tires are low on
                       air. If you select to have your dealership come to your
                       home, we can be there to greet them and stay while they
                       service your car or sign off for them to take your car to
@@ -137,7 +137,7 @@ function VehicleCarePage(props) {
                     <h4 className="boxTitle">Garage Door Openers</h4>
                     <div className="text">
                       Dallas Home Watch will make sure that your garage door
-                      openers are working properly and can meet with your garage
+                      openers are working and can meet with your garage
                       door technician while they complete the annual maintenance
                       of your garage door system.
                     </div>

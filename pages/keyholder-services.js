@@ -53,9 +53,7 @@ function KeyHolderPage(props) {
               <p>
                 Dallas Home Watch can help you and your family get access back
                 into your home when you have lost your keys. Do not risk the
-                security of your home by leaving keys under a doormat or under a
-                flowerpot. Instead leave your keys with a licensed and bonded
-                company that you can trust.
+                security of your home by leaving keys under a doormat or flowerpot. Instead, leave your keys with Dallas Home Watch.
               </p>
               <p>
                 Below is a list of the many reasons you may want to use Dallas
@@ -136,10 +134,10 @@ function KeyHolderPage(props) {
                   Your time is incredibly valuable and finding time to meet
                   vendors at your home is nearly impossible. That is where you
                   can rely on Dallas Home Watch Key Holder Service. We can be
-                  there to meet deliveries, trades people or repairmen.
+                  there to meet deliveries, tradespeople, or repairmen.
                 </p>
                 <p>
-                  You do not want deliveries, like wine, gifts, or furniture,
+                  You do not want deliveries, like wine, gifts, or furniture
                   left outside to be damaged by weather or become a target for
                   thieves. We will bring them safely indoors. If deliveries need
                   to be brought in and unpacked, assembled, or put in a specific
@@ -147,11 +145,11 @@ function KeyHolderPage(props) {
                 </p>
                 <p>
                   For our contracted Home Watch clients, you do not need to wait
-                  the four-hour window. We will assure that we are there to meet
+                  for the four-hour window. We will assure that we are there to meet
                   repairmen and supervise the work through completion.
                 </p>
                 <p>
-                  That goes for services like landscaping, pool maintenance and
+                  That goes for services like landscaping, pool maintenance, and
                   housekeeping, too. We will be there when they are, acting on
                   your behalf. And when the work is done, we will see that your
                   property is secure.
@@ -173,7 +171,7 @@ function KeyHolderPage(props) {
                   police and fire departments, or other emergency entities on
                   your behalf. We will contact you immediately and stay in
                   contact with you until the situation is resolved, whether you
-                  are across town or across the globe.{" "}
+                  are across town or the globe.
                 </p>
                 <p>
                   If necessary, we can handle the aftermath of property
