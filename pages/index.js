@@ -55,8 +55,8 @@ function HomePage(props) {
                       </Link>
                     </h4>
                     <div className="text">
-                      We can provide a visual inspection of your vacant property
-                      to mitigate risk while you are away.
+                      We can provide a visual inspection of your unoccupied
+                      property to mitigate risk while you are away.
                     </div>
                   </div>
                   <Link
