@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <Layout>
       <Head>
-        <meta name="googlebot" content="noindex"></meta>
+       
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="author" content="Susan Winters" />
         <meta
