@@ -55,8 +55,8 @@ function HomePage(props) {
                       </Link>
                     </h4>
                     <div className="text">
-                      A visual inspection of your home and keep you informed
-                      about your property while you are away to mitigate risk.
+                      We can provide a visual inspection of your vacant property
+                      to mitigate risk while you are away.
                     </div>
                   </div>
                   <Link
@@ -302,12 +302,12 @@ function HomePage(props) {
                     <p>
                       Dallas Home Watch serves the owners of C-suite-level homes
                       and informs homeowners of any problems found, then adheres
-                      to their directions for the resolution and treatment of any
-                      issues. Because our clients often travel out of state or
-                      out of the country for long periods, they can rest
+                      to their directions for the resolution and treatment of
+                      any issues. Because our clients often travel out of state
+                      or out of the country for long periods, they can rest
                       assured that Dallas Home Watch will visit their property
-                      weekly (or more often if desired) and will be their eyes and ears
-                      while they are away.
+                      weekly (or more often if desired) and will be their eyes
+                      and ears while they are away.
                     </p>
                     <p>
                       If you plan to leave your home vacant for more than 7
@@ -359,17 +359,17 @@ function HomePage(props) {
                             schedule and perform all agreed upon tasks. In
                             addition, we perform a visual inspection of the
                             property, either inside, outside, or both. We take
-                            photos and/or videos of potential identified issues and send
-                            them to the homeowner via text or email, depending
-                            on the client’s preference.
+                            photos and/or videos of potential identified issues
+                            and send them to the homeowner via text or email,
+                            depending on the client’s preference.
                           </p>
                           <p>
                             After notifying the homeowner, we will assist with
                             the resolution of the problem according to their
-                            instructions.  We can meet the homeowners&apos;
+                            instructions. We can meet the homeowners&apos;
                             service companies to allow access, update the
-                            homeowner of progress made and secure the home once work is
-                            completed.
+                            homeowner of progress made and secure the home once
+                            work is completed.
                           </p>
                           <p>
                             The homeowner will be keep apprised of the situation
