@@ -14,7 +14,7 @@ function MainNavigation() {
           <div className="nav-outer clearfix">
             {/*Mobile Navigation Toggler*/}
             <div className="mobile-nav-toggler">
-              <span class="icon flaticon-menu"></span>
+              <span className="icon flaticon-menu"></span>
             </div>
 
             {/* Main Menu */}
@@ -62,7 +62,6 @@ function MainNavigation() {
                           Concierge Services
                         </Link>
                       </li>
-                      
                     </ul>
                   </li>
                 </ul>
@@ -90,31 +89,34 @@ function MainNavigation() {
 
       {/* Sticky Header */}
 
-      <div class="sticky-header">
-        <div class="auto-container clearfix">
+      <div className="sticky-header">
+        <div className="auto-container clearfix">
           {/* LOGO */}
-          <div class="logo pull-left">
+          <div className="logo pull-left">
             <Logo />
           </div>
 
           {/* Right Col */}
-          <div class="pull-right">
+          <div className="pull-right">
             {/* Main Menu */}
-            <nav class="main-menu">
+            <nav className="main-menu">
               {/* --Keep This Empty / Menu will come through Javascript*/}
             </nav>
             {/* Main Menu End */}
-            <div class="outer-box clearfix">
+            <div className="outer-box clearfix">
               {/* Btn Box */}
-              <div class="btn-box">
-                <Link href="tel:972-982-7050" class="theme-btn btn-style-two">
-                  <span class="txt">Call Us</span>
+              <div className="btn-box">
+                <Link
+                  href="tel:972-982-7050"
+                  className="theme-btn btn-style-two"
+                >
+                  <span className="txt">Call Us</span>
                 </Link>
               </div>
 
               {/* Mobile Navigation Toggler  */}
-              <div class="mobile-nav-toggler">
-                <span class="icon flaticon-menu"></span>
+              <div className="mobile-nav-toggler">
+                <span className="icon flaticon-menu"></span>
               </div>
             </div>
           </div>
@@ -142,11 +144,6 @@ function MainNavigation() {
             </Link>
             <span style={{ fontWeight: "bold" }}>Dallas Home Watch</span>
             <br />
-
-           
-           
-             
-        
           </div>
 
           <div className="menu-outer"></div>
