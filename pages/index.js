@@ -50,7 +50,7 @@ function HomePage(props) {
                   <div className="content">
                     <div className="icon flaticon-file" />
                     <h4>
-                      <Link href="/home-watch-checklist">
+                      <Link href="/homewatch-checklist">
                         Home Watch Services
                       </Link>
                     </h4>
