@@ -1,10 +1,7 @@
-import Document, { Html, Head, Main, NextScript } from 'next/document';
+import Document, { Html, Head, Main, NextScript } from "next/document";
 import Script from "next/script";
 
-
 class MyDocument extends Document {
-
-
   render() {
     return (
       <Html lang="en">
@@ -15,7 +12,12 @@ class MyDocument extends Document {
             defer
           ></script>
 
-     
+          {/* Google Search Console */}
+          <meta
+            name="google-site-verification"
+            content="YM2JCV00ZJ7zOQKE2CmpnuZCcMsLUhtR4AeB5q2btuw"
+          />
+
           <Script
             src="https://www.googletagmanager.com/gtag/js?id=G-8N43XDXPPJ"
             strategy="afterInteractive"
