@@ -1,6 +1,6 @@
-import { Fragment } from 'react';
-import Head from 'next/head';
-import Link from 'next/link';
+import { Fragment } from "react";
+import Head from "next/head";
+import Link from "next/link";
 import Image from "next/image";
 import Script from "next/script";
 
@@ -53,7 +53,8 @@ function KeyHolderPage(props) {
               <p>
                 Dallas Home Watch can help you and your family get access back
                 into your home when you have lost your keys. Do not risk the
-                security of your home by leaving keys under a doormat or flowerpot. Instead, leave your keys with Dallas Home Watch.
+                security of your home by leaving keys under a doormat or
+                flowerpot. Instead, leave your keys with Dallas Home Watch.
               </p>
               <p>
                 Below is a list of the many reasons you may want to use Dallas
@@ -100,10 +101,10 @@ function KeyHolderPage(props) {
             <h2>What is a Key Holder Service?</h2>
             <div className="text" style={{ fontSize: "1.5em" }}>
               Keyholding is a service where someone holds the keys to your
-              premises and ensures the business is secure from any hassle when
-              you are not there. If there is an out-of-hours intrusion or in
-              case an alarm goes off, the keyholders are the ones who first
-              respond for you.
+              premises and ensures the home is secure from any hassle when you
+              are not there. If there is an out-of-hours intrusion or in case an
+              alarm goes off, the keyholders are the ones who first respond for
+              you.
             </div>
           </div>
           <div className="image-centered">
@@ -134,7 +135,7 @@ function KeyHolderPage(props) {
                   Your time is incredibly valuable and finding time to meet
                   vendors at your home is nearly impossible. That is where you
                   can rely on Dallas Home Watch Key Holder Service. We can be
-                  there to meet deliveries, tradespeople, or repairmen.
+                  there to meet delivery companies, tradespeople, or repairmen.
                 </p>
                 <p>
                   You do not want deliveries, like wine, gifts, or furniture
@@ -145,8 +146,8 @@ function KeyHolderPage(props) {
                 </p>
                 <p>
                   For our contracted Home Watch clients, you do not need to wait
-                  for the four-hour window. We will assure that we are there to meet
-                  repairmen and supervise the work through completion.
+                  for the four-hour window. We will assure that we are there to
+                  meet repairmen and supervise the work through completion.
                 </p>
                 <p>
                   That goes for services like landscaping, pool maintenance, and
@@ -157,21 +158,18 @@ function KeyHolderPage(props) {
 
                 <h3>Emergency Services</h3>
                 <p>
-                  Emergencies can happen when you are away from your home for an
-                  extended period or even when you are at an office downtown.
-                  You need someone you trust, who is bonded and insured, to
-                  respond in a timely fashion. Dallas Home Watch is that
-                  service. With over 20-years-experience in the North Texas
-                  area, we know how to handle virtually any situation with calm
-                  professionalism.
+                  Emergencies can happen when you are away from your home. You
+                  need someone you trust, who is bonded and insured, to respond
+                  in a timely fashion. Dallas Home Watch is that service. With
+                  over 20-years-experience in the North Texas area, we know how
+                  to handle virtually any situation with calm professionalism.
                 </p>
                 <p>
                   Although we are not an alarm company, we can be a first
                   responder when you are away, working with the alarm company,
                   police and fire departments, or other emergency entities on
                   your behalf. We will contact you immediately and stay in
-                  contact with you until the situation is resolved, whether you
-                  are across town or the globe.
+                  contact with you until the situation is resolved.
                 </p>
                 <p>
                   If necessary, we can handle the aftermath of property
@@ -188,7 +186,5 @@ function KeyHolderPage(props) {
     </Fragment>
   );
 }
-
-
 
 export default KeyHolderPage;
