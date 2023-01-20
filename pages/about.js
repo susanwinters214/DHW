@@ -71,7 +71,7 @@ function AboutPage() {
                     <p>
                       In 2022, Ms. Lawson rebranded her company from STS
                       (suburban transportation services) to Dallas Home Watch to
-                      better reflect the services she provides. 
+                      better reflect the services she provides.
                     </p>
                     <p>
                       Clients are regular accounts that contract with Dallas
@@ -109,7 +109,7 @@ function AboutPage() {
                         Tina Lawson
                       </a>
                       , Owner of&nbsp;
-                      <a href="https://www.linkedin.com/company/89597128/admin/">
+                      <a href="https://www.linkedin.com/company/dallas-home-watch">
                         Dallas Home Watch
                       </a>
                       <br />

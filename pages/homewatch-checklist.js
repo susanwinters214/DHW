@@ -321,7 +321,7 @@ function HomeWatchChecklistPage(props) {
                     <h4 className="boxTitle">Electrical Closets</h4>
                     <div className="text">
                       We can look inside your electrical closet to verify no
-                      breakers have tripped. order.
+                      breakers have tripped.
                     </div>
                   </div>
                 </div>
