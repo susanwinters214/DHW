@@ -442,7 +442,7 @@ function HomeWatchChecklistPage(props) {
                     <h4 className="boxTitle">A/C Units</h4>
                     <div className="text">
                       We will perform a visual inspection of your A/C units to
-                      ensure no condensation leaks in the drip pan. (We only
+                      ensure no condensation leaks are in the drip pan. (We only
                       enter the attic if it is easily accessible.)
                     </div>
                   </div>
@@ -536,7 +536,7 @@ function HomeWatchChecklistPage(props) {
                     <div className="text">
                       We check the refrigerator to make sure the light comes on.
                       If you want us to, we can clean out expired food from your
-                      refrigerator We can also stock your refrigerator with
+                      refrigerator. We can also stock your refrigerator with
                       bottled water before your arrival.
                     </div>
                   </div>
