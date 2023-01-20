@@ -104,10 +104,7 @@ function ConciergePage(props) {
                       cleaning, purchasing gifts, returning an item to a store,
                       or shipping a box via UPS.
                     </p>
-                    <p>
-                      Household chores can include seeing that the yard and
-                      entry are drive-up ready.
-                    </p>
+                    
                     <p>
                       To get ready for your return, we can set the temperature,
                       stock the fridge with drinks and other food upon your
