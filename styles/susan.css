@@ -1,57 +1,140 @@
-h2, h3{  font-family:'arial';   color: #00204c;}
+h2,
+h3 {
+  font-family: "arial";
+  color: #00204c;
+}
 
-.dhwtopname{color: "white";
-                    margin-Top: 25;
-                    font-Size: "2em";
-                    font-family:'"Segoe UI", Tahoma, Geneva, Verdana, sans-serif'}
+#nhwa_circle {
+  padding-bottom: -30px;
+}
+.memberNumber {
+  color: red;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+.services-block-two .inner-box .icon {
+  margin-bottom: 1px;
+}
+
+.dhwtopname {
+  color: "white";
+  margin-top: 25;
+  font-size: "2em";
+  font-family: '"Segoe UI", Tahoma, Geneva, Verdana, sans-serif';
+}
 
 a.mobile-link {
-    color:#00204c;
-    font-size:1.2em;
-   padding-bottom:100px;
-    padding-left:20px;
-    margin-top:25px;
+  color: #00204c;
+  font-size: 1.2em;
+  padding-bottom: 100px;
+  padding-left: 20px;
+  margin-top: 25px;
 }
-a.mobile-link :hover{
-    color:#e1a122;
-    font-size:1.2em;
-    padding-bottom: 100px;
-    padding-left:20px;
+a.mobile-link :hover {
+  color: #e1a122;
+  font-size: 1.2em;
+  padding-bottom: 100px;
+  padding-left: 20px;
 }
-a.phoneNumberLink{
-  color: #e1a122;}
-a.phoneNumberLink:hover{
-  color: #ffffff;}
-h2.welcomeHome{font-size:1.5em; font-family:Verdana, Geneva, Tahoma, sans-serif}
-.shade{background-color:#f9f9f9;}	
-.homepagetopcontent{margin:10%;width:85%; z-index:10; font-family:'"Segoe UI", Tahoma, Geneva, Verdana, sans-serif'}
-.hpfourboxes{margin-top:-250px;}
-.homepagetopcontent .title{z-index:999999;  }
-.homepagetopcontent h1{margin-bottom:25px;font-family:'verdana'; text-transform:none;}
-.homepagetopcontent h2{color: #e1a122;margin-bottom:25px;font-size: 2.0em; font-family:Verdana, Geneva, Tahoma, sans-serif}
-.homepagetopcontent h3{margin-bottom:25px;font-size:1.3em;color:white;font-family:Verdana, Geneva, Tahoma, sans-serif}
-.socialiconsfooter{margin: auto; width: 50%; padding: 10px;}
-.center {  margin: auto;  width: 50%;  padding: 10px;}
-
+a.phoneNumberLink {
+  color: #e1a122;
+}
+a.phoneNumberLink:hover {
+  color: #ffffff;
+}
+h2.welcomeHome {
+  font-size: 1.5em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.shade {
+  background-color: #f9f9f9;
+}
+.homepagetopcontent {
+  margin: 10%;
+  width: 85%;
+  z-index: 10;
+  font-family: '"Segoe UI", Tahoma, Geneva, Verdana, sans-serif';
+}
+.hpfourboxes {
+  margin-top: -250px;
+}
+.homepagetopcontent .title {
+  z-index: 999999;
+}
+.homepagetopcontent h1 {
+  margin-bottom: 25px;
+  font-family: "verdana";
+  text-transform: none;
+}
+.homepagetopcontent h2 {
+  color: #e1a122;
+  margin-bottom: 25px;
+  font-size: 2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.homepagetopcontent h3 {
+  margin-bottom: 25px;
+  font-size: 1.3em;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.socialiconsfooter {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
 
 /*Background Images for each page: */
-.pageback-404{background-image:url(/images/background/dallas-skyline.jpg)}
-.pageback-homepage{background-image:url(/images/background/open-front-door-960x496.jpg)}
-.pageback-about{background-image:url(/images/background/dallas-skyline.jpg)}
-.pageback-accred{background-image:url(/images/background/certification.jpg)}
-.pageback-con{background-image:url(/images/concierge-services/pickup-dry-cleaning.jpg)}
-.pageback-contact{background-image:url(/images/background/gated-community.jpg)}
-.pageback-hwchk{background-image:url(/images/background/home-watch-enters-front-door.jpg)}
-.pageback-keyh{background-image:url(/images/background/house-keys-down.jpg)}
-.pageback-news{background-image:url(/images/background/home-watch-news.jpg)}
-.pageback-privacy{background-image:url(/images/background/home-watch-news.jpg)}
-.pageback-terms{background-image:url(/images/background/home-watch-news.jpg)}
-.pageback-vehcare{background-image:url(/images/car-care/luxury-cars.jpg)}
-.pageback-blog{background-image:url(/images/background/dallas-skyline.jpg)}
+.pageback-404 {
+  background-image: url(/images/background/dallas-skyline.jpg);
+}
+.pageback-homepage {
+  background-image: url(/images/background/open-front-door-960x496.jpg);
+}
+.pageback-about {
+  background-image: url(/images/background/dallas-skyline.jpg);
+}
+.pageback-accred {
+  background-image: url(/images/background/certification.jpg);
+}
+.pageback-con {
+  background-image: url(/images/concierge-services/pickup-dry-cleaning.jpg);
+}
+.pageback-contact {
+  background-image: url(/images/background/gated-community.jpg);
+}
+.pageback-hwchk {
+  background-image: url(/images/background/home-watch-enters-front-door.jpg);
+}
+.pageback-keyh {
+  background-image: url(/images/background/house-keys-down.jpg);
+}
+.pageback-news {
+  background-image: url(/images/background/home-watch-news.jpg);
+}
+.pageback-privacy {
+  background-image: url(/images/background/home-watch-news.jpg);
+}
+.pageback-terms {
+  background-image: url(/images/background/home-watch-news.jpg);
+}
+.pageback-vehcare {
+  background-image: url(/images/car-care/luxury-cars.jpg);
+}
+.pageback-blog {
+  background-image: url(/images/background/dallas-skyline.jpg);
+}
 
-.lost{color:white}
-ul.sliderLogos{
-list-style-type: none;
+.lost {
+  color: white;
+}
+ul.sliderLogos {
+  list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -59,7 +142,7 @@ list-style-type: none;
 
 li.sliderLogos {
   float: left;
-  margin-left:30px;
+  margin-left: 30px;
 }
 
 li.sliderLogos a {
@@ -70,122 +153,183 @@ li.sliderLogos a {
   text-decoration: none;
 }
 
-
-
-.btnstyletwo{
-	position: relative;
-	display: inline-block;
-	line-height: 30px;
-	color: #ffffff;
-	font-weight: 600;
-	overflow: hidden;
-	background:none;
-	border-radius:0px;
-	padding: 12px 35px 12px;
-	text-transform: uppercase;
-	background-color:#e1a122;
+.btnstyletwo {
+  position: relative;
+  display: inline-block;
+  line-height: 30px;
+  color: #ffffff;
+  font-weight: 600;
+  overflow: hidden;
+  background: none;
+  border-radius: 0px;
+  padding: 12px 35px 12px;
+  text-transform: uppercase;
+  background-color: #e1a122;
 }
 
-.btnstyletwo:before{
-	position: absolute;
-	content: '';
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    opacity: 0;
-    -webkit-transition: all 0.4s;
-    -moz-transition: all 0.4s;
-    -o-transition: all 0.4s;
-    transition: all 0.4s;
-    -webkit-transform: scale(0.2, 1);
-    transform: scale(0.2, 1);
-	background-color:#00204c;
+.btnstyletwo:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+  -webkit-transform: scale(0.2, 1);
+  transform: scale(0.2, 1);
+  background-color: #00204c;
 }
 
-.btnstyletwo .txt{
-	position:relative;
-	z-index:1;
+.btnstyletwo .txt {
+  position: relative;
+  z-index: 1;
 }
 
-.btnstyletwo .arrow{
-	margin-left:6px;
+.btnstyletwo .arrow {
+  margin-left: 6px;
 }
 
-.btnstyletwo:hover::before{
-    opacity: 1;
-    -webkit-transform: scale(1, 1);
-    transform: scale(1, 1);
+.btnstyletwo:hover::before {
+  opacity: 1;
+  -webkit-transform: scale(1, 1);
+  transform: scale(1, 1);
 }
 
-.btnstyletwo:hover{
-	color: #ffffff;
+.btnstyletwo:hover {
+  color: #ffffff;
 }
 
-.pushdown25{padding-top:25px;}
-.pushdown50{padding-top:50px;}
-p.first{padding-top:25px;}
-p.about{padding:20px;margin-left:10%;margin-right:10%}
-
-.pageContent1{ margin-top:-100px}
-.pageTitle{margin-bottom:25px;text-align: center ; color:#00204c;}
-.blue{color:#00204c}
-.gold{ color:#e1a122}
-.footer-list{margin-left:50px;}
-
-
-.socialiconsfooter{width:100%; 
-   text-align:center;}
-.boxTitle{text-transform: uppercase;color:#00204c; font-size:2.5em;  font-family:'"Segoe UI", Tahoma, Geneva, Verdana, sans-serif'}
-.hptitle{color: #e1a122; padding-left:20px;}
-#Luxury{color: #e1a122; padding-left:20px;}
-.textHome{font-family:Arial, Helvetica, sans-serif; font-size:1.0em}
-.textHome2{font-family:Arial, Helvetica, sans-serif; color:white; font-size:1.0em;margin-top:100px;text-align:center}
-
-.allBlogs {width: 110px;margin-left:10px;margin-top:20px;background-color:#00204c}
-.allBlogs a {color:white; margin-left:10px;}
-.bigblogtitle{padding-top: 50px;color:white}
-
-.blogArticle h2{padding-top: 25px; padding-bottom:15px;}
-.blogArticle  ol li {list-style-type: disc; font-size:.85em; margin-left:5%}
-.blogArticle  ul li {list-style-type: disc; font-size:.85em; margin-left:5%}
-.blogArticle p{padding-top:15px}
-
-h2{padding-bottom:25px;}
-.moveRight{margin-left:15px;}
-
-
-
-
-@media (max-width: 995px) 
-{
-.blog-title{
-	position:relative;
-	padding:00px 0px 60px;
-	background-size:cover;
-	text-align:center;
-	background-repeat:no-repeat;
-	background-position:center center;
-	background-attachment: fixed;
+.pushdown25 {
+  padding-top: 25px;
 }
+.pushdown50 {
+  padding-top: 50px;
+}
+p.first {
+  padding-top: 25px;
+}
+p.about {
+  padding: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
+.pageContent1 {
+  margin-top: -100px;
+}
+.pageTitle {
+  margin-bottom: 25px;
+  text-align: center;
+  color: #00204c;
+}
+.blue {
+  color: #00204c;
+}
+.gold {
+  color: #e1a122;
+}
+.footer-list {
+  margin-left: 50px;
+}
 
+.socialiconsfooter {
+  width: 100%;
+  text-align: center;
+}
+.boxTitle {
+  text-transform: uppercase;
+  color: #00204c;
+  font-size: 2.5em;
+  font-family: '"Segoe UI", Tahoma, Geneva, Verdana, sans-serif';
+}
+.hptitle {
+  color: #e1a122;
+  padding-left: 20px;
+}
+#Luxury {
+  color: #e1a122;
+  padding-left: 20px;
+}
+.textHome {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+}
+.textHome2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 1em;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.allBlogs {
+  width: 110px;
+  margin-left: 10px;
+  margin-top: 20px;
+  background-color: #00204c;
+}
+.allBlogs a {
+  color: white;
+  margin-left: 10px;
+}
+.bigblogtitle {
+  padding-top: 50px;
+  color: white;
+}
+
+.blogArticle h2 {
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
+.blogArticle ol li {
+  list-style-type: disc;
+  font-size: 0.85em;
+  margin-left: 5%;
+}
+.blogArticle ul li {
+  list-style-type: disc;
+  font-size: 0.85em;
+  margin-left: 5%;
+}
+.blogArticle p {
+  padding-top: 15px;
+}
+
+h2 {
+  padding-bottom: 25px;
+}
+.moveRight {
+  margin-left: 15px;
+}
+
+@media (max-width: 995px) {
+  .blog-title {
+    position: relative;
+    padding: 00px 0px 60px;
+    background-size: cover;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+}
 
 /* Hide the big h1 tag on mobile so that the menu appears */
 
-
- @media (max-width: 767px) {
-        .hidden-mobile {
-          display: none;
-        }
-      }
+@media (max-width: 767px) {
+  .hidden-mobile {
+    display: none;
+  }
+}
 
 /* Move things up on mobile */
- @media (max-width: 767px) {
-        .mobileh2 {
-          margin-top: -50px;
-        }
-      }
-     
+@media (max-width: 767px) {
+  .mobileh2 {
+    margin-top: -50px;
+  }
+}

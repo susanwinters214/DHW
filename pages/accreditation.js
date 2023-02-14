@@ -102,7 +102,17 @@ function AccreditationPage(props) {
                 data-wow-delay="0ms"
                 data-wow-duration="1500ms"
               >
-                <div className="icon flaticon-secure-shield" />
+                <Image
+                  src="/images/logos/home-watch-professional-nhwa-certified.jpg"
+                  alt="designer column"
+                  height={170}
+                  width={170}
+                  className="icon"
+                  id="nhwa_circle"
+                />
+                <br />
+                <span className="memberNumber">#05220241</span>
+<br />
                 <h3 className="sec-title blue">Accreditation</h3>
                 <div className="text">
                   <ul style={{ paddingLeft: "10%", paddingRight: "10%" }}>
@@ -172,7 +182,13 @@ function AccreditationPage(props) {
       {/* insert section component with Tina closing gate - Why Choose Us */}
       <section className="fluid-section-two">
         <div className="side-icon">
-          <Image src="/images/icons/fluid-icon-1.png" alt="designer column" height={200 } width={100 } />
+          <Image
+            src="/images/icons/fluid-icon-1.png"
+            alt="designer column"
+            height={100}
+            width={100}
+          />
+          #05220241
         </div>
         <div className="outer-container clearfix">
           {/* Content Column */}
@@ -201,7 +217,6 @@ function AccreditationPage(props) {
                           <div className="icon flaticon-briefcase" />
                           <div className="count-outer count-box"></div>
                           <div className="counter-title">Licensed</div>
-                          
                         </div>
                       </div>
                     </div>
@@ -216,7 +231,6 @@ function AccreditationPage(props) {
                           <div className="icon flaticon-balance" />
                           <div className="count-outer count-box"></div>
                           <div className="counter-title">Bonded</div>
-                         
                         </div>
                       </div>
                     </div>
@@ -231,7 +245,6 @@ function AccreditationPage(props) {
                           <div className="icon flaticon-piggy-bank" />
                           <div className="count-outer count-box"></div>
                           <div className="counter-title">Insured</div>
-                          
                         </div>
                       </div>
                     </div>
