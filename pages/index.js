@@ -467,10 +467,10 @@ function HomePage(props) {
                       height={64}
                       width={64}
                       src="/images/icons/icons8-gate-64-navy.png"
-                      alt="Lake Highlands gated community"
+                      alt="Devonshire gated community"
                     />
                     <br />
-                    <span className="flaticon-gate">Lake Highlands</span>
+                    <span className="flaticon-gate">Devonshire</span>
                   </h5>
                 </div>
               </div>
@@ -497,10 +497,10 @@ function HomePage(props) {
                       height={64}
                       width={64}
                       src="/images/icons/icons8-gate-64-navy.png"
-                      alt="Uptown gated community"
+                      alt="Northwood Hills gated community"
                     />
                     <br />
-                    <span className="flaticon-gate">Uptown</span>
+                    <span className="flaticon-gate">Northwood Hills</span>
                   </h5>
                 </div>
               </div>
@@ -512,10 +512,10 @@ function HomePage(props) {
                       height={64}
                       width={64}
                       src="/images/icons/icons8-gate-64-navy.png"
-                      alt="Oak Lawn gated community"
+                      alt="Briarwood gated community"
                     />
                     <br />
-                    <span className="flaticon-gate">Oak Lawn</span>
+                    <span className="flaticon-gate">Briarwood</span>
                   </h5>
                 </div>
               </div>

@@ -76,14 +76,10 @@ function AboutPage() {
                     <p>
                       Clients are regular accounts that contract with Dallas
                       Home Watch on a monthly or annual basis. While clients are
-                      out of town, they are kept abreast of all household issues
-                      by e-mail.
+                      out of town, they are kept abreast of all household issues.
                     </p>
                     <p>
-                      "Dallas Home Watch allows clients to have a better quality
-                      of life by freeing up their time to do what they want to
-                      do. We allow them more time to enjoy their life with
-                      family, friends, golfing etc.," Lawson said.
+                      "Dallas Home Watch will keep you informed about your home while you are away." Lawson said.
                     </p>
                   </div>
                 </div>
@@ -100,8 +96,8 @@ function AboutPage() {
                       <Image
                         src="/images/tina-lawson.jpg"
                         alt="Tina Lawson"
-                        width={300}
-                        height={300}
+                        width={200}
+                        height={200}
                       />
                       <br />
                       Photo of{" "}
@@ -117,9 +113,8 @@ function AboutPage() {
                       <p className="about">
                         Dallas Home Watch provides the service of discreetly
                         checking your home while you are away. The homeowner can
-                        designate the preferred frequency of visits and we work
-                        together toward any solution should property issues
-                        arise.
+                        designate visits once a week or more.  We will work together toward 
+                        a solution should property issues arise.
                       </p>
                     </center>
                   </div>

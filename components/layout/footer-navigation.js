@@ -52,7 +52,9 @@ function FooterNavigation() {
                 <li>
                   <Link href="/about">About Us</Link>
                 </li>
-               
+                <li>
+                  <Link href="/accreditation">Accreditation</Link>
+                </li>
                 <li>
                   <Link href="/privacy-policy">Privacy Policy</Link>
                 </li>
