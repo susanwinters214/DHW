@@ -9,8 +9,11 @@ function NewsPage(props) {
     <Fragment>
       <Head>
         <title>Dallas Home Watch News</title>
-        <meta name="googlebot" content="noindex"></meta>
-        <meta  name="description"  content="Dallas Home Watch News - News from social media sites, press releases and more."  />
+
+        <meta
+          name="description"
+          content="Dallas Home Watch News - News from social media sites, press releases and more."
+        />
       </Head>
       {/* insert top banner with Page Title & Breadcrumb*/}
       <section className="page-title pageback-news style-two ">
@@ -24,17 +27,23 @@ function NewsPage(props) {
           </ul>
         </div>
       </section>
-     
+
       <section className="project-style-two">
         <div className="auto-container" style={{ marginTop: "-100px" }}>
           <div className="row clearfix">
             <div className="project-block-one col-lg-12 col-md-6 col-sm-12">
               <div className="inner-box">
                 <section id="contentBlock">
-                  <h2 className="pageTitle">
-                    Dallas Home Watch News
-                  </h2>
+                  <h2 className="pageTitle">Dallas Home Watch News</h2>
                   <p>August 2022 - Dallas Home Watch joined the NHWA.</p>
+                  <p>
+                    January 2023 - Dallas Home Watch posted first video on
+                    YouTube.
+                    <br />
+                    <Link href="https://www.youtube.com/watch?v=kGZKVnd8YqU">
+                      What is Home Watch?
+                    </Link>
+                  </p>
                 </section>
               </div>
             </div>

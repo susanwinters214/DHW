@@ -188,7 +188,7 @@ function AccreditationPage(props) {
             height={100}
             width={100}
           />
-          #05220241
+      
         </div>
         <div className="outer-container clearfix">
           {/* Content Column */}
