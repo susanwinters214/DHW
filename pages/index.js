@@ -481,7 +481,7 @@ function HomePage(props) {
                         <div className="column col-lg-6 col-md-6 col-sm-12">
                           <div className="image">
                             <Link
-                              href="/homewatch-checklist"
+                              href="https://www.nationalhomewatchassociation.org"
                               rel="noreferrer nofollow"
                               target="_blank"
                             >
