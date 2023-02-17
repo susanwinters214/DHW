@@ -33,16 +33,9 @@ function KeyHolderPage(props) {
       <section className="services-detail-section">
         <div className="auto-container">
           <div className="inner-container">
-            <div className="image">
-              <Image
-                width={1120}
-                height={460}
-                src="/images/key-holder/key-holder.jpg"
-                alt="handing over the keys from one person to another"
-              />
-            </div>
-            <div className="lower-content">
-              <h2>Leave Your Keys In Trusting Hands</h2>
+          
+            <div className="lower-content keyholdertop">
+              <h2>Key Holder Service Dallas</h2>
               <p>
                 When you own a large home there are a lot of things you need to
                 manage. Dallas Home Watch can hold your keys and be your

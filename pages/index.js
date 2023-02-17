@@ -13,7 +13,6 @@ function HomePage(props) {
           content="Dallas Home Watch is company that provides professional Home Watch Services for home owners in Dallas. Home Watch professionals perform a visual inspection of your home while you are away and alert you of any concerns about the conditions of the real estate."
         />
       </Head>
-
       <section className="page-title pageback-homepage">
         <div className="auto-container">
           <div className="row clearfix">
@@ -35,7 +34,6 @@ function HomePage(props) {
           </div>
         </div>
       </section>
-
       <section className="services-section hpfourboxes">
         <div className="auto-container">
           <div className="inner-container">
@@ -139,7 +137,6 @@ function HomePage(props) {
           </div>
         </div>
       </section>
-
       {/* insert Welcome */}
       <section
         className="welcome-section"
@@ -217,7 +214,6 @@ function HomePage(props) {
           </div>
         </div>
       </section>
-
       {/* insert blue area with video */}
       <section className="counter-section">
         <div
@@ -266,7 +262,6 @@ function HomePage(props) {
           </div>
         </div>
       </section>
-
       {/* insert SEO content */}
       <section className="sidebar-page-container">
         <div className="auto-container">
@@ -375,6 +370,141 @@ function HomePage(props) {
                             The homeowner will be keep apprised of the situation
                             throughout via regular updates.
                           </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr />
+      {/* insert SEO content */}
+      <section className="sidebar-page-container">
+        <div className="auto-container">
+          <div className="row clearfix">
+            {/* Content Side */}
+            <div className="content-side col-lg-12 col-md-12 col-sm-12">
+              {/* Block Detail */}
+              <div className="blog-detail">
+                <div className="inner-box">
+                  <div className="lower-content">
+                    <div className="two-column">
+                      <div className="row clearfix">
+                        {/* Column */}
+                        <div className="column col-lg-6 col-md-6 col-sm-12">
+                          <h3>National Home Watch Association</h3>
+                          <p>
+                            Dallas Home Watch is an accredited member of the
+                            National Home Watch Association. The National Home
+                            Watch Association (NHWA) is a multi-national
+                            organization founded in 2009 to bring together
+                            business owners in the home watch industry and
+                            provide standards by which the members must live and
+                            operate their companies.
+                          </p>{" "}
+                          <p>
+                            We operate our business in accordance with the
+                            mission statement laid out by the National Home
+                            Watch Association. It is the mission and goal of the
+                            NHWA to:
+                          </p>
+                          <details>
+                            <summary>
+                              <strong>NHWA Mission Statement</strong>
+                            </summary>
+
+                            <ul>
+                              <li className="bullets">
+                                Establish and maintain the highest set of
+                                standards and ethics for all Home Watch
+                                companies in the United States of America and
+                                Canada;
+                              </li>
+                              <li className="bullets">
+                                Establish and maintain trust and confidence
+                                between homeowners and Home Watch professionals;
+                              </li>
+                              <li className="bullets">
+                                Protect the public from uninsured, unbonded and
+                                unethical individuals who represent themselves
+                                as Home Watch professionals;
+                              </li>
+                              <li className="bullets">
+                                Promote public awareness of the Home Watch
+                                industry; and Ensure that only companies who
+                                represent the highest levels of professionalism
+                                are accredited members of the NHWA.
+                              </li>
+                            </ul>
+                          </details>
+                          <details>
+                            <summary>
+                              <strong>Strict Vetting Process</strong>
+                            </summary>
+                            <p>
+                              To become a member of the NHWA, a business owner
+                              must undergo a rigorous vetting process that
+                              includes the following. This protects you against
+                              less-than-principled companies.
+                            </p>
+                            <ul>
+                              <li className="bullets">
+                                Criminal background check on all company
+                                principals
+                              </li>
+                              <li className="bullets">
+                                Proper insurance coverage (general and
+                                professional liability)
+                              </li>
+                              <li className="bullets">Proper bonding</li>
+                              <li className="bullets">
+                                Background checks for consumer complaints
+                                through Consumer Affairs and the BBB
+                              </li>
+                              <li className="bullets">
+                                Truthful website and advertising content
+                              </li>
+                              <li className="bullets">
+                                Adherence to the NHWA’s Code of Ethics
+                              </li>
+                              <li className="bullets">
+                                Commitment to the NHWA’s Mission Statement
+                              </li>
+                            </ul>
+                          </details>
+                        </div>
+                        {/* Column */}
+                        <div className="column col-lg-6 col-md-6 col-sm-12">
+                          <div className="image">
+                            <Link
+                              href="/homewatch-checklist"
+                              rel="noreferrer nofollow"
+                              target="_blank"
+                            >
+                              <Image
+                                width={300}
+                                height={120}
+                                src="/images/nhwa-member-logo.jpg"
+                                alt="Accredited Home Watch Memeber of National Home Watch Association"
+                              />
+                            </Link>
+                            <br />
+                            <p>
+                              As a National Home Watch Association member, we
+                              are constantly updated with continuing education,
+                              hands-on training, conferences, and information
+                              sharing through forums. This keeps us abreast of
+                              industry and legal requirements, as well as
+                              informs us of issues that can affect our clients
+                              and teaches us how to avoid or remediate them. Our
+                              goal is to protect your property and assets in the
+                              best ways possible.
+                            </p>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -522,6 +652,14 @@ function HomePage(props) {
             </div>
           </div>
         </div>
+        <br />
+        <center>
+          <iframe
+            src="https://www.google.com/maps/d/u/0/embed?mid=1gcOoWpJUvETULXddbApq2vYdbukiaOM&ehbc=2E312F"
+            width="640"
+            height="480"
+          ></iframe>
+        </center>
       </section>
     </Fragment>
   );

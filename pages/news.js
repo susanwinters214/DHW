@@ -1,8 +1,6 @@
-import { Fragment } from 'react';
-import Head from 'next/head';
-import Link from 'next/link';
-
-
+import { Fragment } from "react";
+import Head from "next/head";
+import Link from "next/link";
 
 function NewsPage(props) {
   return (
@@ -44,6 +42,10 @@ function NewsPage(props) {
                       What is Home Watch?
                     </Link>
                   </p>
+
+                 
+
+                
                 </section>
               </div>
             </div>
@@ -53,7 +55,5 @@ function NewsPage(props) {
     </Fragment>
   );
 }
-
-
 
 export default NewsPage;

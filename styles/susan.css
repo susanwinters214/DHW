@@ -333,3 +333,7 @@ h2 {
     margin-top: -50px;
   }
 }
+
+.services-detail-section{ background: white;}
+
+li.bullets{list-style-type: disc; margin-left:20px;}
