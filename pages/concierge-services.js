@@ -1,6 +1,6 @@
-import { Fragment } from 'react';
-import Head from 'next/head';
-import Link from 'next/link';
+import { Fragment } from "react";
+import Head from "next/head";
+import Link from "next/link";
 import Image from "next/image";
 import Script from "next/script";
 
@@ -11,7 +11,7 @@ function ConciergePage(props) {
         <title>Concierge Services for Dallas Home Watch Clients</title>
         <meta
           name="description"
-          content="Concierge Services are special services performed by a professional. These services include anything from stocking the refrigerator to picking up the dry cleaning. Busy executives hire professionals to perform concierge services so that they gain back time in their lives to do the things they enjoy."
+          content="Dallas Concierge Services are special services performed by a professional. These services include anything from stocking the refrigerator to picking up the dry cleaning. Busy executives hire professionals to perform concierge services so that they gain back time in their lives to do the things they enjoy."
         />
       </Head>
       {/* insert top banner with Page Title & Breadcrumb*/}
@@ -39,7 +39,7 @@ function ConciergePage(props) {
               />
             </div>
             <div className="lower-content">
-              <h2>Concierge Services for Home Watch Clients</h2>
+              <h2 className="pageTitle">Dallas Concierge Services for Home Watch Clients</h2>
               <p>
                 Dallas Home Watch offers personal concierge services while you
                 are away so that you can come home and rest assured that your
@@ -104,18 +104,21 @@ function ConciergePage(props) {
                       cleaning, purchasing gifts, returning an item to a store,
                       or shipping a box via UPS.
                     </p>
-                    
+
                     <p>
                       To get ready for your return, we can set the temperature,
                       stock the fridge with drinks and other food upon your
                       arrival.
                     </p>
+                    <p>
+                      If you need Concierge Services in Dallas, give us a call.
+                    </p>
                   </div>
                   <div className="column col-lg-6 col-md-6 col-sm-6">
                     <div className="image">
                       <Image
-                        width={500}
-                        height={475}
+                        width={565}
+                        height={389}
                         src="/images/concierge-services/wine-cellar.jpg"
                         alt="wine bottles on shelves in a wine cellar"
                       />
@@ -175,7 +178,5 @@ function ConciergePage(props) {
     </Fragment>
   );
 }
-
-
 
 export default ConciergePage;

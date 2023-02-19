@@ -33,10 +33,9 @@ function KeyHolderPage(props) {
       <section className="services-detail-section">
         <div className="auto-container">
           <div className="inner-container">
-          
             <div className="lower-content keyholdertop">
-              <h2>Key Holder Service Dallas</h2>
-              <p>
+              <h2 className="pageTitle">Dallas Key Holder Service</h2>
+              <p><br />
                 When you own a large home there are a lot of things you need to
                 manage. Dallas Home Watch can hold your keys and be your
                 authorized on-site dedicated person to meet with vendors and
@@ -147,6 +146,8 @@ function KeyHolderPage(props) {
                   housekeeping, too. We will be there when they are, acting on
                   your behalf. And when the work is done, we will see that your
                   property is secure.
+                  <br />
+                  <br />
                 </p>
 
                 <h3>Emergency Services</h3>

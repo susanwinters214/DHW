@@ -1,7 +1,6 @@
 import { Fragment } from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
-import Hero from '../components/home-page/hero';
 import Image from "next/image";
 import Script from "next/script";
 
@@ -15,7 +14,7 @@ function VehicleCarePage(props) {
           content="Dallas Home Watch offers Vehicle Care for existing Home Watch clients. DHW can watch your car while you are away from home for long periods of time."
         />
       </Head>
-      <Script src="js/jquery.min.js"></Script>
+  
       {/* insert top banner with Page Title & Breadcrumb*/}
       <section className="page-title pageback-vehcare">
         <div className="auto-container">
@@ -109,7 +108,7 @@ function VehicleCarePage(props) {
                 {/* Content Column */}
                 <div className="content-column col-lg-6 col-md-12 col-sm-12">
                   <div className="inner-column">
-                    <h4 className="boxTitle">Auto Service</h4>
+                    <h3>Auto Service</h3>
                     <div className="text">
                       We will keep an eye on the vehicles you have in your
                       garage and inform you if any tires are low on
@@ -134,7 +133,7 @@ function VehicleCarePage(props) {
                 {/* Content Column */}
                 <div className="content-column col-lg-6 col-md-12 col-sm-12">
                   <div className="inner-column">
-                    <h4 className="boxTitle">Garage Door Openers</h4>
+                    <h3>Garage Door Openers</h3>
                     <div className="text">
                       Dallas Home Watch will make sure that your garage door
                       openers are working and can meet with your garage
@@ -183,7 +182,7 @@ function VehicleCarePage(props) {
                 {/* Content Column */}
                 <div className="content-column col-lg-6 col-md-12 col-sm-12">
                   <div className="inner-column">
-                    <h4 className="boxTitle">Garage Door Entries</h4>
+                    <h3>Garage Door Entries</h3>
 
                     <div className="text">
                       Dallas Home Watch will check your external wireless keypad

@@ -46,7 +46,7 @@ function MainNavigation() {
                     <ul>
                       <li>
                         <Link href="/homewatch-checklist">
-                          Home Watch Check
+                          Home Watch Checklist
                         </Link>
                       </li>
                       <li>
@@ -55,14 +55,18 @@ function MainNavigation() {
                         </Link>
                       </li>
                       <li>
-                        <Link href="/vehicle-care">Vehicle Care</Link>
-                      </li>
-                      <li>
                         <Link href="/concierge-services">
                           Concierge Services
                         </Link>
                       </li>
+                      <li>
+                        <Link href="/vehicle-care">Vehicle Care</Link>
+                      </li>
                     </ul>
+                  </li>
+
+                  <li>
+                    <Link href="/homewatch-services">Photo Gallery</Link>
                   </li>
                 </ul>
               </div>

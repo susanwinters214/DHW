@@ -1,0 +1,721 @@
+import { Fragment } from "react";
+import Head from "next/head";
+import Link from "next/link";
+import Image from "next/image";
+import Script from "next/script";
+
+function HomeWatchServicesPage(props) {
+  return (
+    <Fragment>
+      <Head>
+        <title>Home Watch Services Photo Gallery</title>
+        <meta
+          name="description"
+          content="Home Watch Services Photo Gallery answers the question 'What Does A Home Watch Service Do?' "
+        />
+      </Head>
+      {/* insert top banner with Page Title & Breadcrumb*/}
+      <section className="page-title pageback-con">
+        <div className="auto-container">
+          <h1>Home Watch Services Photo Gallery</h1>
+          <ul className="page-breadcrumb">
+            <li>
+              <Link href="/">home</Link>
+            </li>
+            <li>Home Watch Services</li>
+          </ul>
+        </div>
+      </section>
+
+      {/* insert top photo section*/}
+      <section className="services-detail-section">
+        <div className="auto-container">
+          <div className="inner-container">
+            <div className="lower-content">
+              <h2 className="pageTitle"> Photo Gallery</h2>
+              <div className="auto-container">
+                <div className="sec-title centered ">
+                  {/* Services Block 1 - Security Alarms */}
+                  <div className="services-block-three">
+                    <div
+                      className="inner-box wow fadeInUp"
+                      data-wow-delay="0ms"
+                      data-wow-duration="1500ms"
+                    >
+                      <div className="row clearfix">
+                        {/* Content Column */}
+                        <div className="content-column col-lg-6 col-md-12 col-sm-12">
+                          <div className="inner-column">
+                            <h3>Security Alarms</h3>
+                            <div className="text">
+                              We make sure your alarm system is operational.
+                              Dallas Home Watch will turn on the alarm and
+                              secure all entries when leaving. You can list us
+                              an emergency contact with your alarm company and
+                              we will respond to alarms while you are out of
+                              town and unable to meet with the police.
+                            </div>
+                          </div>
+                        </div>
+                        {/* Image Column */}
+                        <div className="image-column col-lg-6 col-md-12 col-sm-12">
+                          <div className="inner-column">
+                            <div className="image">
+                              <Image
+                                width={585}
+                                height={460}
+                                src="/images/hw-check/security-alarm-inspection.jpg"
+                                alt="home security alarm inspection"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/* Services Block 2 - Water Leaks */}
+                  <div className="services-block-three style-two">
+                    <div
+                      className="inner-box wow fadeInUp"
+                      data-wow-delay="0ms"
+                      data-wow-duration="1500ms"
+                    >
+                      <div className="row clearfix">
+                        {/* Image Column */}
+                        <div className="image-column col-lg-6 col-md-12 col-sm-12">
+                          <div className="inner-column">
+                            <div className="image">
+                              <Image
+                                width={585}
+                                height={460}
+                                src="/images/hw-check/bar-sink-inspection.jpg"
+                                alt="bar sink inspection"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        {/* Content Column */}
+                        <div className="content-column col-lg-6 col-md-12 col-sm-12">
+                          <div className="inner-column">
+                            <h3>Water Leaks</h3>
+                            <div className="text">
+                              Our{" "}
+                              <Link href="/homewatch-checklist">
+                                Home Watch Checklist
+                              </Link>{" "}
+                              includes inspecting under sinks looking for leaks
+                              and mold caused by water damage. We will alert you
+                              immediately if we find any problems.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/* Services Block 3 - Electrical Closets */}
+                  <div className="services-block-three">
+                    <div
+                      className="inner-box wow fadeInUp"
+                      data-wow-delay="0ms"
+                      data-wow-duration="1500ms"
+                    >
+                      <div className="row clearfix">
+                        {/* Content Column */}
+                        <div className="content-column col-lg-6 col-md-12 col-sm-12">
+                          <div className="inner-column">
+                            <h3>Media Equipment</h3>
+                            <div className="text">
+                              We can look inside your media closet and reset any
+                              components.{" "}
+                              <Link href="/keyholder-services">
+                                Home Watch Key Holder
+                              </Link>{" "}
+                              service enables us to meet with your media
+                              equipment company to set up new services or
+                              install new equipment.
+                            </div>
+                          </div>
+                        </div>
+                        {/* Image Column */}
+                        <div className="image-column col-lg-6 col-md-12 col-sm-12">
+                          <div className="inner-column">
+                            <div className="image">
+                              <Image
+                                width={585}
+                                height={460}
+                                src="/images/hw-check/electronics-closet-inspection.jpg"
+                                alt="media equipment inspection"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/* Services Block 4 - Routers */}
+                  <div className="services-block-three style-two">
+                    <div
+                      className="inner-box wow fadeInUp"
+                      data-wow-delay="0ms"
+                      data-wow-duration="1500ms"
+                    >
+                      <div className="row clearfix">
+                        {/* Image Column */}
+                        <div className="image-column col-lg-6 col-md-12 col-sm-12">
+                          <div className="inner-column">
+                            <div className="image">
+                              <Image
+                                width={585}
+                                height={460}
+                                src="/images/hw-check/router-inspection.jpg"
+                                alt="troubleshooting home router"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        {/* Content Column */}
+                        <div className="content-column col-lg-6 col-md-12 col-sm-12">
+                          <div className="inner-column">
+                            <h3>Routers</h3>
+                            <div className="text">
+                              Because your security system may depend on your
+                              internet connection, we make sure your router is
+                              working properly and can reboot the router when
+                              necessary.{" "}
+                              <Link href="/keyholder-services">
+                                Home Watch Key Holder
+                              </Link>{" "}
+                              service enables us to meet with your cable /
+                              internet company to set up new service or install
+                              new equipment.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/* Services Block 5 - Air Filters  */}
+                  <div className="services-block-three">
+                    <div
+                      className="inner-box wow fadeInUp"
+                      data-wow-delay="0ms"
+                      data-wow-duration="1500ms"
+                    >
+                      <div className="row clearfix">
+                        {/* Content Column */}
+                        <div className="content-column col-lg-6 col-md-12 col-sm-12">
+                          <div className="inner-column">
+                            <h3>Air Filters</h3>
+                            <div className="text">
+                              Dallas Home Watch will check your air filters and
+                              replace them when necessary. Just let us know
+                              where your new filters are, and we can replace
+                              them while on site. We write the date on the air
+                              filters using a black Sharpie so that you will
+                              always know the date of the last time the filter
+                              was changed.
+                            </div>
+                          </div>
+                        </div>
+                        {/* Image Column */}
+                        <div className="image-column col-lg-6 col-md-12 col-sm-12">
+                          <div className="inner-column">
+                            <div className="image">
+                              <Image
+                                width={585}
+                                height={460}
+                                src="/images/hw-check/air-filter-replacement.jpg"
+                                alt="replacing air filters in attic"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/* Services Block 6- A/C Units */}
+                  <div className="services-block-three style-two">
+                    <div
+                      className="inner-box wow fadeInUp"
+                      data-wow-delay="0ms"
+                      data-wow-duration="1500ms"
+                    >
+                      <div className="row clearfix">
+                        {/* Image Column */}
+                        <div className="image-column col-lg-6 col-md-12 col-sm-12">
+                          <div className="inner-column">
+                            <div className="image">
+                              <Image
+                                width={585}
+                                height={460}
+                                src="/images/hw-check/attic-ac-inspection.jpg"
+                                alt="air conditioner inspection in 
+                        attic"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        {/* Content Column */}
+                        <div className="content-column col-lg-6 col-md-12 col-sm-12">
+                          <div className="inner-column">
+                            <h3>A/C Units</h3>
+                            <div className="text">
+                              We will perform a visual inspection of your A/C
+                              units to ensure no condensation leaks are in the
+                              drip pan. (We only enter the attic if it is easily
+                              accessible and has been floored for safety.)
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/* Services Block 7 - Breaker Boxes */}
+                  <div className="services-block-three">
+                    <div
+                      className="inner-box wow fadeInUp"
+                      data-wow-delay="0ms"
+                      data-wow-duration="1500ms"
+                    >
+                      <div className="row clearfix">
+                        {/* Content Column */}
+                        <div className="content-column col-lg-6 col-md-12 col-sm-12">
+                          <div className="inner-column">
+                            <h3>Breaker Boxes</h3>
+                            <div className="text">
+                              We know how important it is not to lose
+                              electricity to your household appliances while you
+                              are away. We check your breaker box to see if any
+                              breakers have tripped, and if so, we will reset
+                              them.
+                            </div>
+                          </div>
+                        </div>
+                        {/* Image Column */}
+                        <div className="image-column col-lg-6 col-md-12 col-sm-12">
+                          <div className="inner-column">
+                            <div className="image">
+                              <Image
+                                width={585}
+                                height={460}
+                                src="/images/hw-check/breaker-box-inspection.jpg"
+                                alt="checking breaker box"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/* Services Block 8 - Washing Machines */}
+                  <div className="services-block-three style-two">
+                    <div
+                      className="inner-box wow fadeInUp"
+                      data-wow-delay="0ms"
+                      data-wow-duration="1500ms"
+                    >
+                      <div className="row clearfix">
+                        {/* Image Column */}
+                        <div className="image-column col-lg-6 col-md-12 col-sm-12">
+                          <div className="inner-column">
+                            <div className="image">
+                              <Image
+                                width={585}
+                                height={460}
+                                src="/images/hw-check/washing-machine-inspection.jpg"
+                                alt="visual inspection of the washing machine"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        {/* Content Column */}
+                        <div className="content-column col-lg-6 col-md-12 col-sm-12">
+                          <div className="inner-column">
+                            <h3>Washing Machines</h3>
+                            <div className="text">
+                              We will check your washing machine to ensure there
+                              is no water leaking and no unusual odors coming
+                              from the machine.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/* Services Block 9 - Refrigerator */}
+                  <div className="services-block-three">
+                    <div
+                      className="inner-box wow fadeInUp"
+                      data-wow-delay="0ms"
+                      data-wow-duration="1500ms"
+                    >
+                      <div className="row clearfix">
+                        {/* Content Column */}
+                        <div className="content-column col-lg-6 col-md-12 col-sm-12">
+                          <div className="inner-column">
+                            <h3>Refrigerators</h3>
+                            <div className="text">
+                              We check the refrigerator to make sure the light
+                              comes on. If you want us to, we can clean out
+                              expired food from your refrigerator. Our{" "}
+                              <Link href="/concierge-services">
+                                Concierge Services
+                              </Link>{" "}
+                              can pick up your grocery and beverage store
+                              orders, deliver and stock your refrigerator and
+                              pantry prior to your arrival with a 48 hour
+                              notice. (Monday deliveries would need to be
+                              requested on the prior Friday.)
+                            </div>
+                          </div>
+                        </div>
+                        {/* Image Column */}
+                        <div className="image-column col-lg-6 col-md-12 col-sm-12">
+                          <div className="inner-column">
+                            <div className="image">
+                              <Image
+                                width={585}
+                                height={460}
+                                src="/images/hw-check/refrigerator-inspection.jpg"
+                                alt="refrigerator inspection"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/* Services Block 10 - Bathroom Faucet */}
+                  <div className="services-block-three style-two">
+                    <div
+                      className="inner-box wow fadeInUp"
+                      data-wow-delay="0ms"
+                      data-wow-duration="1500ms"
+                    >
+                      <div className="row clearfix">
+                        {/* Image Column */}
+                        <div className="image-column col-lg-6 col-md-12 col-sm-12">
+                          <div className="inner-column">
+                            <div className="image">
+                              <Image
+                                width={585}
+                                height={460}
+                                src="/images/hw-check/faucet-sink-inspection.jpg"
+                                alt="running water faucet"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        {/* Content Column */}
+                        <div className="content-column col-lg-6 col-md-12 col-sm-12">
+                          <div className="inner-column">
+                            <h3>Water Faucets</h3>
+                            <div className="text">
+                              We check all waterfaucets to ensure the water is
+                              not dripping once it is turned off.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/* Services Block 11 - Toilets & Tubs */}
+                  <div className="services-block-three">
+                    <div
+                      className="inner-box wow fadeInUp"
+                      data-wow-delay="0ms"
+                      data-wow-duration="1500ms"
+                    >
+                      <div className="row clearfix">
+                        {/* Content Column */}
+                        <div className="content-column col-lg-6 col-md-12 col-sm-12">
+                          <div className="inner-column">
+                            <h3>Toilets & Tubs</h3>
+                            <div className="text">
+                              We flush all of the toilets to make sure they are
+                              working. We turn the water on and off in the tubs.
+                            </div>
+                          </div>
+                        </div>
+                        {/* Image Column */}
+                        <div className="image-column col-lg-6 col-md-12 col-sm-12">
+                          <div className="inner-column">
+                            <div className="image">
+                              <Image
+                                width={585}
+                                height={460}
+                                src="/images/hw-check/toilets-and-tubs.jpg"
+                                alt="toilet flushing near tub"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/* Services Block 12 - Swimming Pool */}
+                  <div className="services-block-three style-two">
+                    <div
+                      className="inner-box wow fadeInUp"
+                      data-wow-delay="0ms"
+                      data-wow-duration="1500ms"
+                    >
+                      <div className="row clearfix">
+                        {/* Image Column */}
+                        <div className="image-column col-lg-6 col-md-12 col-sm-12">
+                          <div className="inner-column">
+                            <div className="image">
+                              <Image
+                                width={585}
+                                height={460}
+                                src="/images/hw-check/swimming-pool.jpg"
+                                alt="swimming pools and fountains"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        {/* Content Column */}
+                        <div className="content-column col-lg-6 col-md-12 col-sm-12">
+                          <div className="inner-column">
+                            <h3>Pools & Fountains</h3>
+                            <div className="text">
+                              We check the pool and fountains around the house
+                              and make a note if the pumps were running while we
+                              were there. We check for algae growth or debris in
+                              and around the pool or fountain. We will make a
+                              note of the water level of the pool.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/* Services Block 13 - WaterCop */}
+                  <div className="services-block-three">
+                    <div
+                      className="inner-box wow fadeInUp"
+                      data-wow-delay="0ms"
+                      data-wow-duration="1500ms"
+                    >
+                      <div className="row clearfix">
+                        {/* Content Column */}
+                        <div className="content-column col-lg-6 col-md-12 col-sm-12">
+                          <div className="inner-column">
+                            <h3>Water Filtration Devices</h3>
+                            <div className="text">
+                              We can check your WaterCop System to verify it is
+                              on.
+                            </div>
+                          </div>
+                        </div>
+                        {/* Image Column */}
+                        <div className="image-column col-lg-6 col-md-12 col-sm-12">
+                          <div className="inner-column">
+                            <div className="image">
+                              <Image
+                                width={585}
+                                height={460}
+                                src="/images/hw-check/watercop-device.jpg"
+                                alt="water filter inspection"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/* Services Block 14 - Trashcans */}
+                  <div className="services-block-three style-two">
+                    <div
+                      className="inner-box wow fadeInUp"
+                      data-wow-delay="0ms"
+                      data-wow-duration="1500ms"
+                    >
+                      <div className="row clearfix">
+                        {/* Image Column */}
+                        <div className="image-column col-lg-6 col-md-12 col-sm-12">
+                          <div className="inner-column">
+                            <div className="image">
+                              <Image
+                                width={585}
+                                height={460}
+                                src="/images/hw-check/trash-cans.jpg"
+                                alt="trash cans in garage"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        {/* Content Column */}
+                        <div className="content-column col-lg-6 col-md-12 col-sm-12">
+                          <div className="inner-column">
+                            <h3>Trash Cans</h3>
+                            <div className="text">
+                              Leaving trash cans at the curb past your trash
+                              pickup day is a sign of an absentee owner. If you
+                              left your trash and recycle bins out at the curb
+                              when you left town, we will bring them up to the
+                              house and place in the garage so that neighbors do
+                              not notice you are not home. We also occasionally
+                              pull the trash cans to the curb and back up to the
+                              house the next day to give the appearance that
+                              someone is home.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/* Services Block 15 - Back Door */}
+                  <div className="services-block-three">
+                    <div
+                      className="inner-box wow fadeInUp"
+                      data-wow-delay="0ms"
+                      data-wow-duration="1500ms"
+                    >
+                      <div className="row clearfix">
+                        {/* Content Column */}
+                        <div className="content-column col-lg-6 col-md-12 col-sm-12">
+                          <div className="inner-column">
+                            <h3>Securing Doors</h3>
+                            <div className="text">
+                              We check all door entries to make sure every one
+                              of them is securely locked. If for any reason you
+                              need your house re-keyed, we can provide you with
+                              the contact information of our priority vendor and
+                              meet with them during the process of re-keying
+                              your home.
+                            </div>
+                          </div>
+                        </div>
+                        {/* Image Column */}
+                        <div className="image-column col-lg-6 col-md-12 col-sm-12">
+                          <div className="inner-column">
+                            <div className="image">
+                              <Image
+                                width={585}
+                                height={460}
+                                src="/images/hw-check/securing-back-doors.jpg"
+                                alt="water filter inspection"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/* Services Block 16 - Back Gate */}
+                  <div className="services-block-three style-two">
+                    <div
+                      className="inner-box wow fadeInUp"
+                      data-wow-delay="0ms"
+                      data-wow-duration="1500ms"
+                    >
+                      <div className="row clearfix">
+                        {/* Image Column */}
+                        <div className="image-column col-lg-6 col-md-12 col-sm-12">
+                          <div className="inner-column">
+                            <div className="image">
+                              <Image
+                                width={585}
+                                height={460}
+                                src="/images/hw-check/securing-back-gate.jpg"
+                                alt="trash cans in garage"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        {/* Content Column */}
+                        <div className="content-column col-lg-6 col-md-12 col-sm-12">
+                          <div className="inner-column">
+                            <h3>Back Gates</h3>
+                            <div className="text">
+                              Dallas Home Watch Professionals walk the entire
+                              property and make sure that every gate or rear
+                              entry is secure. We encourage all clients to have
+                              locks on all outside entrances to prevent theft
+                              and vandalism.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/* Services Block 17 - Garage Doors & Openers */}
+                  <div className="services-block-three">
+                    <div
+                      className="inner-box wow fadeInUp"
+                      data-wow-delay="0ms"
+                      data-wow-duration="1500ms"
+                    >
+                      <div className="row clearfix">
+                        {/* Content Column */}
+                        <div className="content-column col-lg-6 col-md-12 col-sm-12">
+                          <div className="inner-column">
+                            <h3>Garage Doors & Openers</h3>
+                            <div className="text">
+                              Home Watch Service includes opening and closing
+                              your garage doors to make sure everything is
+                              working. We can meet with your Garage Door
+                              Technician if you are out of town during the time
+                              of your annual garage door maintaince.
+                            </div>
+                          </div>
+                        </div>
+                        {/* Image Column */}
+                        <div className="image-column col-lg-6 col-md-12 col-sm-12">
+                          <div className="inner-column">
+                            <div className="image centered">
+                              <video
+                                controls
+                                src={"/videos/DHW-OpeningGarageDoor.mp4"}
+                                style={{ width: "560px", height: "400px" }}
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/* Block Detail */}
+                  <div className="blog-detail">
+                    <div className="inner-box">
+                      <div className="lower-content">
+                        <p>
+                          Dallas Home Watch Professionals will check your home
+                          for visual pest infestations and remove any dead
+                          insects found. Occasionally we are asked to scare away
+                          any ducks or remove turtles. If we encounter any
+                          dangerous wildlife, we will immediately alert you to
+                          the issue so that the City Animal Control Center can
+                          come and professionally and safely remove it.
+                          <br />
+                          <br />
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <h3>Ready To Hire A Home Watch Service Business?</h3>
+                  <br />
+
+                  
+
+                  <a
+                    href="tel:972-982-7050"
+                    className="theme-btn btn-style-two"
+                  >
+                    <span className="txt">
+                      CALL DALLAS HOME WATCH
+                      <i className="phone" />
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </Fragment>
+  );
+}
+
+export default HomeWatchServicesPage;

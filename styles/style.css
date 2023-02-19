@@ -852,7 +852,7 @@ img {
 .main-menu .navigation > li > ul > li > a {
   position: relative;
   display: block;
-  padding: 3px 18px;
+  padding: 10px 0px;
   line-height: 24px;
   font-weight: 500;
   font-size: 16px;
