@@ -12,6 +12,17 @@ function AboutPage() {
           name="description"
           content="About Dallas Home Watch. Tina Lawson is the owner of Dallas Home Watch and services the homes of clients while they are away. Tina Lawson has been in the Home Watch Industry for over 20 years."
         />
+        <meta property="fb:app_id" content="8620778781329629"/>
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Dallas Home Watch" />
+
+<meta property="og:url" content="https://dallashomewatch.com" />
+<meta property="og:title" content="Dallas Home Watch" />
+<meta property="og:description" content="Read About: Home Watch Business in Dallas, Texas.  Dallas Home Watch contracts with clients to watch their home while they are away. Home Watch is a service used by those that have more than one residential property. " />
+<meta property="og:image:url" content="https://dallashomewatch.com/images/og/dallas-home-watch-opening-doors.jpg" />
+<meta property="og:image:width" content="1200px" />
+<meta property="og:image:height" content="630px"  />
+<meta property="og:image:alt"  content="home watch professional entering front door of luxury home" />
       </Head>
       {/* insert top banner with Page Title & Breadcrumb*/}
       <section className="page-title pageback-about">
