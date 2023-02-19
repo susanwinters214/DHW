@@ -51,8 +51,8 @@ function HomeWatchServicesPage(props) {
                               We make sure your alarm system is operational.
                               Dallas Home Watch will turn on the alarm and
                               secure all entries when leaving. You can list us
-                              an emergency contact with your alarm company and
-                              we will respond to alarms while you are out of
+                              as an emergency contact with your alarm company
+                              and we will respond to alarms while you are out of
                               town and unable to meet with the police.
                             </div>
                           </div>
@@ -696,8 +696,6 @@ function HomeWatchServicesPage(props) {
                   </div>
                   <h3>Ready To Hire A Home Watch Service Business?</h3>
                   <br />
-
-                  
 
                   <a
                     href="tel:972-982-7050"

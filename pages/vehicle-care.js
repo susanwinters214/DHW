@@ -14,7 +14,7 @@ function VehicleCarePage(props) {
           content="Dallas Home Watch offers Vehicle Care for existing Home Watch clients. DHW can watch your car while you are away from home for long periods of time."
         />
       </Head>
-  
+
       {/* insert top banner with Page Title & Breadcrumb*/}
       <section className="page-title pageback-vehcare">
         <div className="auto-container">
@@ -33,32 +33,49 @@ function VehicleCarePage(props) {
         <div className="auto-container">
           <div className="inner-container">
             <div className="clearfix">
+              {/* Content Column */}
+              <div className="content-column col-lg-12 col-md-12 col-sm-12">
+                <div className="inner-column">
+                  {/* Sec Title */}
+                  <div className="sec-title">
+                    <h2 className="pageTitle">Stored Car Care</h2>
+                    <p className="text">
+                      Dallas Home Watch offers vehicle care. We define vehicle care as
+                      a visual inspection of your stored vehicles looking for obvious
+                      issues including low tires. We also verify that your trickle charger / battery maintainer shows a full
+                      battery. We are not auto mechanics. We can start your car and check for flat tires. If your car needs
+                      additional care, we can meet with your mechanic or car dealship for at home or pickup service.
+                      <br />
+                      <br />
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* insert section component with Photos & Keywords */}
+      <section className="services-page-section centered">
+        <div className="auto-container">
+          {/* Services Car Batteries */}
+          <div className="services-block-three style-two">
+            <div className="row clearfix">
               {/* Image Column */}
               <div className="image-column col-lg-6 col-md-12 col-sm-12">
                 <div className="inner-column">
-                  <div className="image">
-                    <Image
-                      src="/images/car-care/car-battery-red-ferrari-genuine.jpg"
-                      alt="ferrari wall battery charger"
-                      width={555}
-                      height={655}
-                    />
+                  <h3>Car Batteries</h3>
+                  <div className="text">
+                    We will check your car chargers to make sure they are
+                    working and reset them if necessary.
                   </div>
                 </div>
               </div>
               {/* Content Column */}
               <div className="content-column col-lg-6 col-md-12 col-sm-12">
                 <div className="inner-column">
-                  {/* Sec Title */}
-                  <div className="sec-title">
-                    <h2>Stored Car Care</h2>
-                    <p className="text">
-                      We will visually inspect your stored vehicles for
-                      obvious issues by looking for low tires and making sure
-                      the trickle battery charger shows a full battery.
-                      <br />
-                      <br />
-                    </p>
+                  <div className="image">
                     <Image
                       width={585}
                       height={460}
@@ -69,21 +86,14 @@ function VehicleCarePage(props) {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
 
-      {/* insert section component with Photos & Keywords */}
-      <section className="services-page-section">
-        <div className="auto-container">
-          {/* Services Car Batteries */}
-          <div className="services-block-three">
             <div
               className="inner-box wow fadeInUp"
               data-wow-delay="0ms"
               data-wow-duration="1500ms"
             ></div>
           </div>
+
           {/* Services Car Service */}
           <div className="services-block-three style-two">
             <div
@@ -111,17 +121,18 @@ function VehicleCarePage(props) {
                     <h3>Auto Service</h3>
                     <div className="text">
                       We will keep an eye on the vehicles you have in your
-                      garage and inform you if any tires are low on
-                      air. If you select to have your dealership come to your
-                      home, we can be there to greet them and stay while they
-                      service your car or sign off for them to take your car to
-                      their location.
+                      garage and inform you if any tires are low on air. If you
+                      select to have your dealership come to your home, we can
+                      be there to greet them and stay while they service your
+                      car or sign off for them to take your car to their
+                      location.
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+
           {/* Services Garage Door Openers */}
           <div className="services-block-three">
             <div
@@ -136,9 +147,9 @@ function VehicleCarePage(props) {
                     <h3>Garage Door Openers</h3>
                     <div className="text">
                       Dallas Home Watch will make sure that your garage door
-                      openers are working and can meet with your garage
-                      door technician while they complete the annual maintenance
-                      of your garage door system.
+                      openers are working and can meet with your garage door
+                      technician while they complete the annual maintenance of
+                      your garage door system.
                     </div>
                   </div>
                 </div>
@@ -158,6 +169,7 @@ function VehicleCarePage(props) {
               </div>
             </div>
           </div>
+
           {/* Services Garage Door Entries */}
           <div className="services-block-three style-two">
             <div

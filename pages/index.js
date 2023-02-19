@@ -526,6 +526,9 @@ function HomePage(props) {
           <div className="sec-title centered">
             <h3 className="serviceAreas">Our Home Watch Service Areas</h3>
             <h4>Gated Communities</h4>
+
+
+            <Link href="/service-areas">Service Area</Link>
           </div>
           <div className="inner-container">
             <div className="clearfix">
@@ -653,13 +656,7 @@ function HomePage(props) {
           </div>
         </div>
         <br />
-        <center>
-          <iframe
-            src="https://www.google.com/maps/d/u/0/embed?mid=1gcOoWpJUvETULXddbApq2vYdbukiaOM&ehbc=2E312F"
-            width="640"
-            height="480"
-          ></iframe>
-        </center>
+      
       </section>
     </Fragment>
   );
