@@ -11,8 +11,7 @@ function HomeWatchChecklistPage(props) {
         <title>Home Watch Checklist</title>
         <meta
           name="description"
-          content="Customize your Home Watch Checklist. We have a list of household items that we check when we come into your home. The items we check are the ones that could possibly be the source of issues. You are invited to customize your homewatch checklist to 
-          ensure everything you want checked is."
+          content="Customize your Home Watch Checklist. We have a list of household items that we check when we come into your home. The items we check are the ones that could possibly be the source of issues."
         />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
@@ -25,11 +24,10 @@ function HomeWatchChecklistPage(props) {
         <meta property="og:title" content="Home Watch Checklist" />
         <meta
           property="og:description"
-          content="Customize your Home Watch Checklist. We have a list of household items that we check when we come into your home. The items we check are the ones that could possibly be the source of issues. You are invited to customize your homewatch checklist to 
-          ensure everything you want checked is."
+          content="Customize your Home Watch Checklist. We have a list of household items that we check when we come into your home. The items we check are the ones that could possibly be the source of issues."
         />
         <meta
-          property="og:image:url"
+          property="og:image"
           content="https://www.dallashomewatch.com/images/og/home-watch-checklist.jpg"
         />
         <meta property="og:image:width" content="1200px" />

@@ -25,7 +25,7 @@ function TermsPage() {
           content="Terms of Service for Dallas Home Watch"
         />
         <meta
-          property="og:image:url"
+          property="og:image"
           content="https://www.dallashomewatch.com/images/og/terms-service-papers.jpg"
         />
         <meta property="og:image:width" content="1200px" />

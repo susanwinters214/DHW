@@ -28,7 +28,7 @@ function AccreditationPage(props) {
           content="Dallas Home Watch received Accreditation from the National Home Watch Association.."
         />
         <meta
-          property="og:image:url"
+          property="og:image"
           content="https://www.dallashomewatch.com/images/og/accredited-home-watch-professional.jpg"
         />
         <meta property="og:image:width" content="1200px" />

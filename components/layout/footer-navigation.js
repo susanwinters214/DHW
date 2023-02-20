@@ -56,6 +56,9 @@ function FooterNavigation() {
                   <Link href="/accreditation">Accreditation</Link>
                 </li>
                 <li>
+                  <Link href="/news">News</Link>
+                </li>
+                <li>
                   <Link href="/privacy-policy">Privacy Policy</Link>
                 </li>
                 <li>

@@ -30,7 +30,7 @@ function VehicleCarePage(props) {
           content="Dallas Home Watch offers Vehicle Care for existing Home Watch clients. DHW can watch your car while you are away from home for long periods of time."
         />
         <meta
-          property="og:image:url"
+          property="og:image"
           content="https://www.dallashomewatch.com/images/og/luxury-car-care.jpg"
         />
         <meta property="og:image:width" content="1200px" />

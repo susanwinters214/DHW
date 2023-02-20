@@ -34,7 +34,7 @@ function ServiceAreaPage(props) {
           Northwood Hills and Briarwood."
         />
         <meta
-          property="og:image:url"
+          property="og:image"
           content="https://www.dallashomewatch.com/images/og/dallas-skyline-service-areas.jpg"
         />
         <meta property="og:image:width" content="1200px" />

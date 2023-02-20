@@ -11,8 +11,7 @@ function KeyHolderPage(props) {
         <title>Key Holder Services | Dallas Home Watch </title>
         <meta
           name="description"
-          content="Dallas Home Watch offers Key Holder Services for existing Home Watch clients. A Key Holder is a professional Home Watch professional that holds the keys to your home to allow access to contractors and vendors to come into the home to perform a service. 
-          The Key Holder will supervise the contractor and confirm with the home owner that the work is done, then lock up the house and leave."
+          content="A Key Holder is a professional Home Watch professional that holds the keys to your home to allow access to contractors and vendors to come into the home to perform a service."
         />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
@@ -28,8 +27,7 @@ function KeyHolderPage(props) {
         />
         <meta
           property="og:description"
-          content="Dallas Home Watch offers Key Holder Services for existing Home Watch clients. A Key Holder is a professional Home Watch professional that holds the keys to your home to allow access to contractors and 
-        vendors to come into the home to perform a service.  "
+          content="A Key Holder is a professional Home Watch professional that holds the keys to your home to allow access to contractors and vendors to come into the home to perform a service."
         />
         <meta
           property="og:image:url"

@@ -11,7 +11,7 @@ function ConciergePage(props) {
         <title>Concierge Services for Dallas Home Watch Clients</title>
         <meta
           name="description"
-          content="Dallas Concierge Services are special services performed by a professional. These services include anything from stocking the refrigerator to picking up the dry cleaning. Busy executives hire professionals to perform concierge services so that they gain back time in their lives to do the things they enjoy."
+          content="Dallas Concierge Services are special services performed by a professional. Busy executives hire professionals to perform concierge services so that they gain back time in their lives to do the things they enjoy."
         />
 
         <meta property="fb:app_id" content="8620778781329629" />
@@ -28,10 +28,11 @@ function ConciergePage(props) {
         />
         <meta
           property="og:description"
-          content="Dallas Concierge Services are special services performed by a professional. These services include anything from stocking the refrigerator to picking up the dry cleaning. Busy executives hire professionals to perform concierge services so that they gain back time in their lives to do the things they enjoy."
+          content="Dallas Concierge Services are special services performed by a professional. Busy executives hire professionals to perform concierge services 
+          so that they gain back time in their lives to do the things they enjoy."
         />
         <meta
-          property="og:image:url"
+          property="og:image"
           content="https://www.dallashomewatch.com/images/og/concierge-services.jpg"
         />
         <meta property="og:image:width" content="1200px" />
@@ -112,7 +113,6 @@ function ConciergePage(props) {
         </div>
       </section>
 
-      
       {/* insert section component with content SEO*/}
       <section className="services-page-section">
         <div className="auto-container">

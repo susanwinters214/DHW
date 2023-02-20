@@ -25,7 +25,7 @@ function PrivacyPage() {
           content="Privacy Policy for Dallas Home Watch"
         />
         <meta
-          property="og:image:url"
+          property="og:image"
           content="https://www.dallashomewatch.com/images/og/privacy-gate.jpg"
         />
         <meta property="og:image:width" content="1200px" />
