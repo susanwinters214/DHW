@@ -8,6 +8,29 @@ function TermsPage() {
       <Head>
         <title>Terms of Service</title>
         <meta name="description" content="Dallas Home Watch Terms of Service" />
+        <meta property="fb:app_id" content="8620778781329629" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Dallas Home Watch" />
+
+        <meta
+          property="og:url"
+          content="https://www.dallashomewatch.com/terms-of-service"
+        />
+        <meta
+          property="og:title"
+          content="Dallas Home Watch Terms of Service"
+        />
+        <meta
+          property="og:description"
+          content="Terms of Service for Dallas Home Watch"
+        />
+        <meta
+          property="og:image:url"
+          content="https://www.dallashomewatch.com/images/og/terms-service-papers.jpg"
+        />
+        <meta property="og:image:width" content="1200px" />
+        <meta property="og:image:height" content="630px" />
+        <meta property="og:image:alt" content="documents" />
       </Head>
 
       {/* insert top banner with Page Title & Breadcrumb*/}
@@ -33,12 +56,10 @@ function TermsPage() {
                 <div className="pattern-layer">
                   <section id="contentBlock">
                     <p>
-                      Please read these Terms and Conditions
-                      (Terms, Terms and Conditions)
-                      carefully before using the www.dallashomewatch.com website
-                      (the Service) operated by Dallas Home Watch
-                      (us, we, or
-                      our).
+                      Please read these Terms and Conditions (Terms, Terms and
+                      Conditions) carefully before using the
+                      www.dallashomewatch.com website (the Service) operated by
+                      Dallas Home Watch (us, we, or our).
                     </p>
                     <p>
                       Your access to and use of the Service is conditioned on

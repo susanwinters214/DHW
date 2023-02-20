@@ -14,29 +14,28 @@ function HomeWatchChecklistPage(props) {
           content="Customize your Home Watch Checklist. We have a list of household items that we check when we come into your home. The items we check are the ones that could possibly be the source of issues. You are invited to customize your homewatch checklist to 
           ensure everything you want checked is."
         />
-        <meta property="fb:app_id" content="8620778781329629" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Dallas Home Watch" />
 
         <meta
           property="og:url"
-          content="http://www.dallashomewatch.com/homewatch-checklist"
+          content="https://www.dallashomewatch.com/homewatch-checklist"
         />
-        <meta property="og:site_name" content="Dallas Home Watch" />
-        <meta property="og:type" content="article" />
         <meta property="og:title" content="Home Watch Checklist" />
         <meta
           property="og:description"
-          content="Home Watch Checklist for Dallas Home Watch Clients. We have a list of household items that we check when we come into your home. The items we check are the ones that could possibly be the source of issues. You are invited to customize your homewatch checklist to 
+          content="Customize your Home Watch Checklist. We have a list of household items that we check when we come into your home. The items we check are the ones that could possibly be the source of issues. You are invited to customize your homewatch checklist to 
           ensure everything you want checked is."
         />
         <meta
-          property="og:image"
-          content="http://www.dallashomewatch.com/images/background/home-watch-enters-front-door.jpg"
+          property="og:image:url"
+          content="https://www.dallashomewatch.com/images/og/home-watch-checklist.jpg"
         />
         <meta property="og:image:width" content="1200px" />
-        <meta property="og:image:height" content="600px" />
+        <meta property="og:image:height" content="630px" />
         <meta
           property="og:image:alt"
-          content="Home Watch Professional entering home."
+          content="Dallas Home Watch Professional entering front door of home watch client."
         />
       </Head>
       {/* insert top banner with breadcrumb*/}

@@ -1,7 +1,6 @@
-import { Fragment } from 'react';
-import Head from 'next/head';
+import { Fragment } from "react";
+import Head from "next/head";
 import Link from "next/link";
-
 
 function PrivacyPage() {
   return (
@@ -12,6 +11,26 @@ function PrivacyPage() {
           name="description"
           content="Privacy Policy for Dallas Home Watch"
         />
+        <meta property="fb:app_id" content="8620778781329629" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Dallas Home Watch" />
+
+        <meta
+          property="og:url"
+          content="https://www.dallashomewatch.com/privacy-policy"
+        />
+        <meta property="og:title" content="Dallas Home Watch Privacy Policy" />
+        <meta
+          property="og:description"
+          content="Privacy Policy for Dallas Home Watch"
+        />
+        <meta
+          property="og:image:url"
+          content="https://www.dallashomewatch.com/images/og/privacy-gate.jpg"
+        />
+        <meta property="og:image:width" content="1200px" />
+        <meta property="og:image:height" content="630px" />
+        <meta property="og:image:alt" content="privacy gate" />
       </Head>
 
       {/* insert top banner with Page Title & Breadcrumb*/}
@@ -72,12 +91,12 @@ function PrivacyPage() {
                     <h2 className="priv">Log Data</h2>
                     <p>
                       We collect information that your browser sends whenever
-                      you visit our Service (Log Data). This Log
-                      Data may include information such as your computer&apos;s
-                      Internet Protocol (IP) address, browser
-                      type, browser version, the pages of our Service that you
-                      visit, the time and date of your visit, the time spent on
-                      those pages and other statistics.
+                      you visit our Service (Log Data). This Log Data may
+                      include information such as your computer&apos;s Internet
+                      Protocol (IP) address, browser type, browser version, the
+                      pages of our Service that you visit, the time and date of
+                      your visit, the time spent on those pages and other
+                      statistics.
                     </p>
                     <h2 className="priv">Cookies</h2>
                     <p>
@@ -87,18 +106,18 @@ function PrivacyPage() {
                       computer&apos;s hard drive.
                     </p>
                     <p>
-                      We use cookies to collect information. We
-                      use tracking devices and cookies for advertising purposes;
-                      and by using this site you consent to the placing of
-                      tracking devices, such as cookies (including tracking
-                      devices enabled by Rakuten Marketing) on your computer
-                      and/or devices that you use to connect to this website. If
-                      you do not wish for tracking cookies to be used then you
-                      may opt-out or remove cookies/tracking devices in
-                      compliance with any applicable law by instructing your
-                      browser to refuse all cookies or to indicate when a cookie
-                      is being sent. However, if you do not accept cookies, you
-                      may not be able to use some portions of our Service.
+                      We use cookies to collect information. We use tracking
+                      devices and cookies for advertising purposes; and by using
+                      this site you consent to the placing of tracking devices,
+                      such as cookies (including tracking devices enabled by
+                      Rakuten Marketing) on your computer and/or devices that
+                      you use to connect to this website. If you do not wish for
+                      tracking cookies to be used then you may opt-out or remove
+                      cookies/tracking devices in compliance with any applicable
+                      law by instructing your browser to refuse all cookies or
+                      to indicate when a cookie is being sent. However, if you
+                      do not accept cookies, you may not be able to use some
+                      portions of our Service.
                     </p>
                     <h2 className="priv">Service Providers</h2>
                     <p>

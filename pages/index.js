@@ -12,6 +12,26 @@ function HomePage(props) {
           name="description"
           content="Dallas Home Watch is company that provides professional Home Watch Services for home owners in Dallas. Home Watch professionals perform a visual inspection of your home while you are away and alert you of any concerns about the conditions of the real estate."
         />
+        <meta property="fb:app_id" content="8620778781329629" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Dallas Home Watch" />
+
+        <meta property="og:url" content="https://www.dallashomewatch.com/" />
+        <meta property="og:title" content="Dallas Home Watch" />
+        <meta
+          property="og:description"
+          content="Dallas Home Watch - Home Watch Business Professionals serving the Dallas, Texas area."
+        />
+        <meta
+          property="og:image:url"
+          content="https://www.dallashomewatch.com/images/og/dallas-home-watch-logo-skyline-certified.jpg"
+        />
+        <meta property="og:image:width" content="1200px" />
+        <meta property="og:image:height" content="630px" />
+        <meta
+          property="og:image:alt"
+          content="Dallas Home Watch logo over Dallas Skyline NHWA Certified Home Watch Professional logo"
+        />
       </Head>
       <section className="page-title pageback-homepage">
         <div className="auto-container">
@@ -527,13 +547,10 @@ function HomePage(props) {
             <h3 className="serviceAreas">Our Home Watch Service Areas</h3>
             <h4>Gated Communities</h4>
 
-
             <Link href="/service-areas">Service Area</Link>
           </div>
-      
         </div>
         <br />
-      
       </section>
     </Fragment>
   );
