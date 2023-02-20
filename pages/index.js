@@ -501,7 +501,7 @@ function HomePage(props) {
                         <div className="column col-lg-6 col-md-6 col-sm-12">
                           <div className="image">
                             <Link
-                              href="https://www.nationalhomewatchassociation.org"
+                              href="/accreditation"
                               rel="noreferrer nofollow"
                               target="_blank"
                             >

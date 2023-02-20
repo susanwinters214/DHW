@@ -14,6 +14,7 @@ function HomeWatchChecklistPage(props) {
           content="Customize your Home Watch Checklist. We have a list of household items that we check when we come into your home. The items we check are the ones that could possibly be the source of issues. You are invited to customize your homewatch checklist to 
           ensure everything you want checked is."
         />
+        <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
 

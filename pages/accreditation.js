@@ -8,7 +8,7 @@ function AccreditationPage(props) {
   return (
     <Fragment>
       <Head>
-        <title>Dallas Home Watch Accreditation</title>
+        <title>Dallas Home Watch - Accredited Member of NHWA</title>
         <meta
           name="description"
           content="Dallas Home Watch received Accreditation from the National Home Watch Association."
@@ -96,7 +96,7 @@ function AccreditationPage(props) {
                     />
                     <a
                       rel="noreferrer"
-                      href="https://www.nationalhomewatchassociation.org/"
+                      href="https://www.nationalhomewatchassociation.org/find-an-accredited-nhwa-member/"
                       target="_blank"
                       className="arrow flaticon-right"
                     />
