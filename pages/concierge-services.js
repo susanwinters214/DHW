@@ -61,9 +61,8 @@ function ConciergePage(props) {
               <h2 className="pageTitle">
                 Dallas Concierge Services for Home Watch Clients
               </h2>
-              <p><br />
-                
-                
+              <p>
+                <br />
                 Dallas Home Watch offers personal concierge services while you
                 are away so that you can come home and rest assured that your
                 home is ready to enjoy. Personal Concierge Services are only
@@ -100,14 +99,6 @@ function ConciergePage(props) {
                   Clients under contract for Home Watch Services.
                 </strong>
               </p>
-            </div>
-            <div className="image">
-              <Image
-                width={1120}
-                height={460}
-                src="/images/concierge-services/refrigerator-inventory.jpg"
-                alt="concierge stocking the refrigerator"
-              />
             </div>
           </div>
         </div>
@@ -169,6 +160,7 @@ function ConciergePage(props) {
             <h2>Benefits of Concierge Services</h2>
 
             <p>
+              <br />
               Concierge services make your life easier and help you get jobs
               done faster because you are not doing it all on your own.
               Concierge Services are only offered for premier Dallas Home Watch
