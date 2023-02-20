@@ -10,7 +10,8 @@ function HomePage(props) {
         <title>Dallas Home Watch</title>
         <meta
           name="description"
-          content="Dallas Home Watch is company that provides professional Home Watch Services for home owners in Dallas. Home Watch professionals perform a visual inspection of your home while you are away."
+          content="Dallas Home Watch LLC. provides Home Watch Services in the Dallas area for homeowners who have a second property located in north Dallas, Highland Park, Preston Hollow, University Park,
+          Lake Forest, Bluffview, Devonshire, Briarwood and Northwood Hills. We perform a visual inspection of your home while you are away and help you mitigate risks to your residence."
         />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
@@ -20,7 +21,8 @@ function HomePage(props) {
         <meta property="og:title" content="Dallas Home Watch" />
         <meta
           property="og:description"
-          content="Dallas Home Watch - Home Watch Business Professionals serving the Dallas, Texas area."
+          content="Dallas Home Watch LLC. provides Home Watch Services in the Dallas area for homeowners who have a second property located in north Dallas, Highland Park, Preston Hollow, University Park,
+          Lake Forest, Bluffview, Devonshire, Briarwood and Northwood Hills. We perform a visual inspection of your home while you are away and help you mitigate risks to your residence."
         />
         <meta
           property="og:image"
@@ -535,8 +537,6 @@ function HomePage(props) {
           </div>
         </div>
       </section>
-
-  
 
       {/* insert Gated Communities */}
       <section
