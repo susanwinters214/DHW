@@ -13,6 +13,19 @@ function HomeWatchServicesPage(props) {
           name="description"
           content="Home Watch Services Photo Gallery answers the question 'What Does A Home Watch Service Do?' "
         />
+            <meta property="fb:app_id" content="8620778781329629" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Dallas Home Watch" />
+
+        <meta property="og:url"  content="https://www.dallashomewatch.com/homewatch-services"  />
+        <meta property="og:title" content="Home Watch Services" />
+        <meta property="og:description" content="Home Watch Services Photo Gallery answers the question
+         'What Does A Home Watch Service Do?' Home Watch Professionals look for water leaks, mold, 
+         roken items and answer alarms."  />
+        <meta property="og:image:url"   content="https://www.dallashomewatch.com/images/og/home-watch-services.jpg" />
+        <meta property="og:image:width" content="1200px" />
+        <meta property="og:image:height" content="630px" />
+        <meta property="og:image:alt" content="Dallas Home Watch Professionals checking Homes." />
       </Head>
       {/* insert top banner with Page Title & Breadcrumb*/}
       <section className="page-title pageback-con">
