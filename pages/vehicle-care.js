@@ -85,42 +85,43 @@ function VehicleCarePage(props) {
         </div>
       </section>
 
-      {/* insert section component with Photos & Keywords */}
+      {/* insert section component with Photos & Keywords - Car Batteries  */}
       <section className="services-page-section centered">
         <div className="auto-container">
           {/* Services Car Batteries */}
-          <div className="services-block-three style-two">
-            <div className="row clearfix">
-              {/* Image Column */}
-              <div className="image-column col-lg-6 col-md-12 col-sm-12">
-                <div className="inner-column">
-                  <h3>Car Batteries</h3>
-                  <div className="text">
-                    We will check your car chargers to make sure they are
-                    working and reset them if necessary.
-                  </div>
-                </div>
-              </div>
-              {/* Content Column */}
-              <div className="content-column col-lg-6 col-md-12 col-sm-12">
-                <div className="inner-column">
-                  <div className="image">
-                    <Image
-                      width={585}
-                      height={460}
-                      src="/images/car-care/car-battery-bentley.jpg"
-                      alt="Bentley Battery"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
 
+          <div className="services-block-three">
             <div
               className="inner-box wow fadeInUp"
               data-wow-delay="0ms"
               data-wow-duration="1500ms"
-            ></div>
+            >
+              <div className="row clearfix">
+                {/* Content Column */}
+                <div className="content-column col-lg-6 col-md-12 col-sm-12">
+                  <div className="inner-column">
+                    <h3>Car Batteries</h3>
+                    <div className="text">
+                      We will check your car chargers to make sure they are
+                      working and reset them if necessary.
+                    </div>
+                  </div>
+                </div>
+                {/* Image Column */}
+                <div className="image-column col-lg-6 col-md-12 col-sm-12">
+                  <div className="inner-column">
+                    <div className="image">
+                      <Image
+                        width={585}
+                        height={460}
+                        src="/images/car-care/car-battery-bentley.jpg"
+                        alt="Bentley Battery"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
 
           {/* Services Car Service */}

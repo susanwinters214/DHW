@@ -57,19 +57,13 @@ function ConciergePage(props) {
       <section className="services-detail-section">
         <div className="auto-container">
           <div className="inner-container">
-            <div className="image">
-              <Image
-                width={1120}
-                height={460}
-                src="/images/concierge-services/refrigerator-inventory.jpg"
-                alt="stocking the refrigerator"
-              />
-            </div>
             <div className="lower-content">
               <h2 className="pageTitle">
                 Dallas Concierge Services for Home Watch Clients
               </h2>
-              <p>
+              <p><br />
+                
+                
                 Dallas Home Watch offers personal concierge services while you
                 are away so that you can come home and rest assured that your
                 home is ready to enjoy. Personal Concierge Services are only
@@ -106,6 +100,14 @@ function ConciergePage(props) {
                   Clients under contract for Home Watch Services.
                 </strong>
               </p>
+            </div>
+            <div className="image">
+              <Image
+                width={1120}
+                height={460}
+                src="/images/concierge-services/refrigerator-inventory.jpg"
+                alt="concierge stocking the refrigerator"
+              />
             </div>
           </div>
         </div>
