@@ -13,19 +13,28 @@ function HomeWatchServicesPage(props) {
           name="description"
           content="Home Watch Services Photo Gallery answers the question 'What Does A Home Watch Service Do?' "
         />
-            <meta property="fb:app_id" content="8620778781329629" />
+        <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
 
-        <meta property="og:url"  content="https://www.dallashomewatch.com/homewatch-services"  />
+        <meta
+          property="og:url"
+          content="https://www.dallashomewatch.com/homewatch-services"
+        />
         <meta property="og:title" content="Home Watch Services" />
-        <meta property="og:description" content="Home Watch Services Photo Gallery answers the question
+        <meta
+          property="og:description"
+          content="Home Watch Services Photo Gallery answers the question
          'What Does A Home Watch Service Do?' Home Watch Professionals look for water leaks, mold, 
-         roken items and answer alarms."  />
-        <meta property="og:image:url"   content="httpg" />
+         roken items and answer alarms."
+        />
+        <meta property="og:image:url" content="httpg" />
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />
-        <meta property="og:image:alt" content="Dallas Home Watch Professionals checking Homes." />
+        <meta
+          property="og:image:alt"
+          content="Dallas Home Watch Professionals checking Homes."
+        />
       </Head>
       {/* insert top banner with Page Title & Breadcrumb*/}
       <section className="page-title pageback-con">
@@ -47,7 +56,7 @@ function HomeWatchServicesPage(props) {
             <div className="lower-content">
               <h2 className="pageTitle"> Photo Gallery</h2>
               <div className="auto-container">
-                <div className="sec-title centered ">
+                <div className="sec-title centered">
                   {/* Services Block 1 - Security Alarms */}
                   <div className="services-block-three">
                     <div
@@ -75,8 +84,8 @@ function HomeWatchServicesPage(props) {
                           <div className="inner-column">
                             <div className="image">
                               <Image
-                                width={585}
-                                height={460}
+                                width={530}
+                                height={416}
                                 src="/images/hw-check/security-alarm-inspection.jpg"
                                 alt="home security alarm inspection"
                               />
@@ -99,8 +108,8 @@ function HomeWatchServicesPage(props) {
                           <div className="inner-column">
                             <div className="image">
                               <Image
-                                width={585}
-                                height={460}
+                                width={530}
+                                height={416}
                                 src="/images/hw-check/bar-sink-inspection.jpg"
                                 alt="bar sink inspection"
                               />
@@ -125,7 +134,7 @@ function HomeWatchServicesPage(props) {
                       </div>
                     </div>
                   </div>
-                  {/* Services Block 3 - Electrical Closets */}
+                  {/* Services Block 3 - Media Closets */}
                   <div className="services-block-three">
                     <div
                       className="inner-box wow fadeInUp"
@@ -154,8 +163,8 @@ function HomeWatchServicesPage(props) {
                           <div className="inner-column">
                             <div className="image">
                               <Image
-                                width={585}
-                                height={460}
+                                width={530}
+                                height={416}
                                 src="/images/hw-check/electronics-closet-inspection.jpg"
                                 alt="media equipment inspection"
                               />
@@ -178,8 +187,8 @@ function HomeWatchServicesPage(props) {
                           <div className="inner-column">
                             <div className="image">
                               <Image
-                                width={585}
-                                height={460}
+                                width={530}
+                                height={416}
                                 src="/images/hw-check/router-inspection.jpg"
                                 alt="troubleshooting home router"
                               />
@@ -235,8 +244,8 @@ function HomeWatchServicesPage(props) {
                           <div className="inner-column">
                             <div className="image">
                               <Image
-                                width={585}
-                                height={460}
+                                width={530}
+                                height={416}
                                 src="/images/hw-check/air-filter-replacement.jpg"
                                 alt="replacing air filters in attic"
                               />
@@ -259,8 +268,8 @@ function HomeWatchServicesPage(props) {
                           <div className="inner-column">
                             <div className="image">
                               <Image
-                                width={585}
-                                height={460}
+                                width={530}
+                                height={416}
                                 src="/images/hw-check/attic-ac-inspection.jpg"
                                 alt="air conditioner inspection in 
                         attic"
@@ -309,8 +318,8 @@ function HomeWatchServicesPage(props) {
                           <div className="inner-column">
                             <div className="image">
                               <Image
-                                width={585}
-                                height={460}
+                                width={530}
+                                height={416}
                                 src="/images/hw-check/breaker-box-inspection.jpg"
                                 alt="checking breaker box"
                               />
@@ -333,8 +342,8 @@ function HomeWatchServicesPage(props) {
                           <div className="inner-column">
                             <div className="image">
                               <Image
-                                width={585}
-                                height={460}
+                                width={530}
+                                height={416}
                                 src="/images/hw-check/washing-machine-inspection.jpg"
                                 alt="visual inspection of the washing machine"
                               />
@@ -387,8 +396,8 @@ function HomeWatchServicesPage(props) {
                           <div className="inner-column">
                             <div className="image">
                               <Image
-                                width={585}
-                                height={460}
+                                width={530}
+                                height={416}
                                 src="/images/hw-check/refrigerator-inspection.jpg"
                                 alt="refrigerator inspection"
                               />
@@ -411,8 +420,8 @@ function HomeWatchServicesPage(props) {
                           <div className="inner-column">
                             <div className="image">
                               <Image
-                                width={585}
-                                height={460}
+                                width={530}
+                                height={416}
                                 src="/images/hw-check/faucet-sink-inspection.jpg"
                                 alt="running water faucet"
                               />
@@ -455,8 +464,8 @@ function HomeWatchServicesPage(props) {
                           <div className="inner-column">
                             <div className="image">
                               <Image
-                                width={585}
-                                height={460}
+                                width={530}
+                                height={416}
                                 src="/images/hw-check/toilets-and-tubs.jpg"
                                 alt="toilet flushing near tub"
                               />
@@ -479,8 +488,8 @@ function HomeWatchServicesPage(props) {
                           <div className="inner-column">
                             <div className="image">
                               <Image
-                                width={585}
-                                height={460}
+                                width={530}
+                                height={416}
                                 src="/images/hw-check/swimming-pool.jpg"
                                 alt="swimming pools and fountains"
                               />
@@ -526,8 +535,8 @@ function HomeWatchServicesPage(props) {
                           <div className="inner-column">
                             <div className="image">
                               <Image
-                                width={585}
-                                height={460}
+                                width={530}
+                                height={416}
                                 src="/images/hw-check/watercop-device.jpg"
                                 alt="water filter inspection"
                               />
@@ -550,8 +559,8 @@ function HomeWatchServicesPage(props) {
                           <div className="inner-column">
                             <div className="image">
                               <Image
-                                width={585}
-                                height={460}
+                                width={530}
+                                height={416}
                                 src="/images/hw-check/trash-cans.jpg"
                                 alt="trash cans in garage"
                               />
@@ -605,8 +614,8 @@ function HomeWatchServicesPage(props) {
                           <div className="inner-column">
                             <div className="image">
                               <Image
-                                width={585}
-                                height={460}
+                                width={530}
+                                height={416}
                                 src="/images/hw-check/securing-back-doors.jpg"
                                 alt="water filter inspection"
                               />
@@ -629,8 +638,8 @@ function HomeWatchServicesPage(props) {
                           <div className="inner-column">
                             <div className="image">
                               <Image
-                                width={585}
-                                height={460}
+                                width={530}
+                                height={416}
                                 src="/images/hw-check/securing-back-gate.jpg"
                                 alt="trash cans in garage"
                               />
