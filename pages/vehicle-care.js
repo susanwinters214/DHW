@@ -1,6 +1,6 @@
-import { Fragment } from 'react';
-import Head from 'next/head';
-import Link from 'next/link';
+import { Fragment } from "react";
+import Head from "next/head";
+import Link from "next/link";
 import Image from "next/image";
 import Script from "next/script";
 
@@ -12,6 +12,32 @@ function VehicleCarePage(props) {
         <meta
           name="description"
           content="Dallas Home Watch offers Vehicle Care for existing Home Watch clients. DHW can watch your car while you are away from home for long periods of time."
+        />
+        <meta property="fb:app_id" content="8620778781329629" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Dallas Home Watch" />
+
+        <meta
+          property="og:url"
+          content="https://www.dallashomewatch.com/vehicle-care"
+        />
+        <meta
+          property="og:title"
+          content="Car Care for Luxury Vehicles in Storage - Dallas Home Watch"
+        />
+        <meta
+          property="og:description"
+          content="Dallas Home Watch offers Vehicle Care for existing Home Watch clients. DHW can watch your car while you are away from home for long periods of time."
+        />
+        <meta
+          property="og:image:url"
+          content="https://www.dallashomewatch.com/images/og/luxury-car-care.jpg"
+        />
+        <meta property="og:image:width" content="1200px" />
+        <meta property="og:image:height" content="630px" />
+        <meta
+          property="og:image:alt"
+          content="line of luxury vehicles in storage"
         />
       </Head>
 
@@ -40,11 +66,14 @@ function VehicleCarePage(props) {
                   <div className="sec-title">
                     <h2 className="pageTitle">Stored Car Care</h2>
                     <p className="text">
-                      Dallas Home Watch offers vehicle care. We define vehicle care as
-                      a visual inspection of your stored vehicles looking for obvious
-                      issues including low tires. We also verify that your trickle charger / battery maintainer shows a full
-                      battery. We are not auto mechanics. We can start your car and check for flat tires. If your car needs
-                      additional care, we can meet with your mechanic or car dealship for at home or pickup service.
+                      Dallas Home Watch offers vehicle care. We define vehicle
+                      care as a visual inspection of your stored vehicles
+                      looking for obvious issues including low tires. We also
+                      verify that your trickle charger / battery maintainer
+                      shows a full battery. We are not auto mechanics. We can
+                      start your car and check for flat tires. If your car needs
+                      additional care, we can meet with your mechanic or car
+                      dealship for at home or pickup service.
                       <br />
                       <br />
                     </p>
@@ -258,7 +287,5 @@ function VehicleCarePage(props) {
     </Fragment>
   );
 }
-
-
 
 export default VehicleCarePage;
