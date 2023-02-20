@@ -88,7 +88,7 @@ h2.welcomeHome {
   width: 50%;
   padding: 10px;
 }
-
+.neighborhood-name{margin-top:80px;margin-bottom:25px;}
 /*Background Images for each page: */
 .pageback-404 {
   background-image: url(/images/background/dallas-skyline.jpg);

@@ -536,6 +536,8 @@ function HomePage(props) {
         </div>
       </section>
 
+  
+
       {/* insert Gated Communities */}
       <section
         className="practice-section shade"
@@ -546,8 +548,147 @@ function HomePage(props) {
           <div className="sec-title centered">
             <h3 className="serviceAreas">Our Home Watch Service Areas</h3>
             <h4>Gated Communities</h4>
-
-            <Link href="/service-areas">Service Area</Link>
+          </div>
+          <div className="inner-container">
+            <div className="clearfix">
+              {/* Highland Park Gated Community Block */}
+              <div className="practice-block col-lg-3 col-md-6 col-sm-12">
+                <div className="inner-box gated">
+                  <h5>
+                    <Link href="service-areas#HighlandPark">
+                      <Image
+                        height={64}
+                        width={64}
+                        src="/images/icons/icons8-gate-64-navy.png"
+                        alt="Highland Park gated community"
+                      />
+                      <br />
+                      <span className="flaticon-gate">Highland Park</span>
+                    </Link>
+                  </h5>
+                </div>
+              </div>
+              {/* Lake Forest Block */}
+              <div className="practice-block col-lg-3 col-md-6 col-sm-12">
+                <div className="inner-box gated">
+                  <h5>
+                    {" "}
+                    <Link href="service-areas#LakeForest">
+                      <Image
+                        height={64}
+                        width={64}
+                        src="/images/icons/icons8-gate-64-navy.png"
+                        alt="Lake Forest gated community"
+                      />
+                      <br />
+                      <span className="flaticon-gate">Lake Forest</span>
+                    </Link>
+                  </h5>
+                </div>
+              </div>
+              {/* University Park Community Block */}
+              <div className="practice-block col-lg-3 col-md-6 col-sm-12">
+                <div className="inner-box gated">
+                  <h5>
+                    <Link href="service-areas#UniversityPark">
+                      <Image
+                        height={64}
+                        width={64}
+                        src="/images/icons/icons8-gate-64-navy.png"
+                        alt="University Park gated community"
+                      />
+                      <br />
+                      <span className="flaticon-gate">University Park</span>
+                    </Link>
+                  </h5>
+                </div>
+              </div>
+              {/* Preston Hollow Gated Community Block */}
+              <div className="practice-block col-lg-3 col-md-6 col-sm-12">
+                <div className="inner-box gated">
+                  <h5>
+                    <Link href="service-areas#PrestonHollow">
+                      <Image
+                        height={64}
+                        width={64}
+                        src="/images/icons/icons8-gate-64-navy.png"
+                        alt="Preston Hollow gated community"
+                      />
+                      <br />
+                      <span className="flaticon-gate">Preston Hollow</span>
+                    </Link>
+                  </h5>
+                </div>
+              </div>
+              {/* Devonshire Gated Community Block */}
+              <div className="practice-block col-lg-3 col-md-6 col-sm-12">
+                <div className="inner-box gated">
+                  <h5>
+                    <Link href="service-areas#Devonshire">
+                      <Image
+                        height={64}
+                        width={64}
+                        src="/images/icons/icons8-gate-64-navy.png"
+                        alt="Devonshire gated community"
+                      />
+                      <br />
+                      <span className="flaticon-gate">Devonshire</span>
+                    </Link>
+                  </h5>
+                </div>
+              </div>
+              {/* Bluffview Gated Community Block */}
+              <div className="practice-block col-lg-3 col-md-6 col-sm-12">
+                <div className="inner-box gated">
+                  <h5>
+                    <Link href="service-areas#Bluffview">
+                      <Image
+                        height={64}
+                        width={64}
+                        src="/images/icons/icons8-gate-64-navy.png"
+                        alt="Bluffview gated community"
+                      />
+                      <br />
+                      <span className="flaticon-gate">Bluffview</span>
+                    </Link>
+                  </h5>
+                </div>
+              </div>
+              {/* Northwood Hills Gated Community Block */}
+              <div className="practice-block col-lg-3 col-md-6 col-sm-12">
+                <div className="inner-box gated">
+                  <h5>
+                    <Link href="service-areas#NorthwoodHills">
+                      <Image
+                        height={64}
+                        width={64}
+                        src="/images/icons/icons8-gate-64-navy.png"
+                        alt="Northwood Hills gated community"
+                      />
+                      <br />
+                      <span className="flaticon-gate">Northwood Hills</span>
+                    </Link>
+                  </h5>
+                </div>
+              </div>
+              {/* Briarwood Gated Community Block */}
+              <div className="practice-block col-lg-3 col-md-6 col-sm-12">
+                <div className="inner-box gated">
+                  <h5>
+                    <Link href="service-areas#Briarwood">
+                      <Image
+                        height={64}
+                        width={64}
+                        src="/images/icons/icons8-gate-64-navy.png"
+                        alt="Briarwood gated community"
+                      />
+                      <br />
+                      <span className="flaticon-gate">Briarwood</span>
+                    </Link>
+                  </h5>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <br />
