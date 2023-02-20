@@ -14,6 +14,18 @@ function KeyHolderPage(props) {
           content="Dallas Home Watch offers Key Holder Services for existing Home Watch clients. A Key Holder is a professional Home Watch professional that holds the keys to your home to allow access to contractors and vendors to come into the home to perform a service. 
           The Key Holder will supervise the contractor and confirm with the home owner that the work is done, then lock up the house and leave."
         />
+            <meta property="fb:app_id" content="8620778781329629" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Dallas Home Watch" />
+
+        <meta property="og:url"  content="https://www.dallashomewatch.com/keyholder-services"  />
+        <meta property="og:title" content="Key Holder Services by Dallas Home Watch" />
+        <meta property="og:description" content="Dallas Home Watch offers Key Holder Services for existing Home Watch clients. A Key Holder is a professional Home Watch professional that holds the keys to your home to allow access to contractors and 
+        vendors to come into the home to perform a service.  " />
+        <meta property="og:image:url"   content="https://www.dallashomewatch.com/images/og/key-holder-service.jpg" />
+        <meta property="og:image:width" content="1200px" />
+        <meta property="og:image:height" content="630px" />
+        <meta property="og:image:alt" content="home owner handing over keys to a Certified Home Watch Professional" />
       </Head>
       <Script src="js/jquery.min.js"></Script>
       {/* insert top banner with Page Title & Breadcrumb*/}
