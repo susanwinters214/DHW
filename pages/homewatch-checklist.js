@@ -17,10 +17,7 @@ function HomeWatchChecklistPage(props) {
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
 
-        <meta
-          property="og:url"
-          content="https://www.dallashomewatch.com/homewatch-checklist"
-        />
+        <meta property="og:url"  content="https://www.dallashomewatch.com/homewatch-checklist" />
         <meta property="og:title" content="Home Watch Checklist" />
         <meta
           property="og:description"

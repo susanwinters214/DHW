@@ -7,7 +7,10 @@ function TermsPage() {
     <Fragment>
       <Head>
         <title>Terms of Service</title>
-        <meta name="description" content="Dallas Home Watch Terms of Service" />
+        <meta
+          name="description"
+          content="Dallas Home Watch Terms of Service - Read our Terms of Service for using our website."
+        />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
@@ -18,7 +21,7 @@ function TermsPage() {
         />
         <meta
           property="og:title"
-          content="Dallas Home Watch Terms of Service"
+          content="Dallas Home Watch Terms of Service - Read our Terms of Service for using our website."
         />
         <meta
           property="og:description"
