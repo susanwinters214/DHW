@@ -662,42 +662,7 @@ function HomeWatchServicesPage(props) {
                       </div>
                     </div>
                   </div>
-                  {/* Services Block 17 - Garage Doors & Openers */}
-                  <div className="services-block-three">
-                    <div
-                      className="inner-box wow fadeInUp"
-                      data-wow-delay="0ms"
-                      data-wow-duration="1500ms"
-                    >
-                      <div className="row clearfix">
-                        {/* Content Column */}
-                        <div className="content-column col-lg-6 col-md-12 col-sm-12">
-                          <div className="inner-column">
-                            <h3>Garage Doors & Openers</h3>
-                            <div className="text">
-                              Home Watch Service includes opening and closing
-                              your garage doors to make sure everything is
-                              working. We can meet with your Garage Door
-                              Technician if you are out of town during the time
-                              of your annual garage door maintaince.
-                            </div>
-                          </div>
-                        </div>
-                        {/* Image Column */}
-                        <div className="image-column col-lg-6 col-md-12 col-sm-12">
-                          <div className="inner-column">
-                            <div className="image centered">
-                              <video
-                                controls
-                                src={"/videos/DHW-OpeningGarageDoor.mp4"}
-                                style={{ width: "560px", height: "400px" }}
-                              />
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+          
                   {/* Block Detail */}
                   <div className="blog-detail">
                     <div className="inner-box">
