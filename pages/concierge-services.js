@@ -8,7 +8,7 @@ function ConciergePage(props) {
   return (
     <Fragment>
       <Head>
-        <title>Concierge Services for Dallas Home Watch Clients</title>
+        <title>Personal Concierge Services for Dallas Home Watch Clients</title>
         <meta
           name="description"
           content="Dallas Concierge Services are special services performed by a professional. Busy executives hire professionals to perform concierge services so that they gain back time in their lives to do the things they enjoy."
@@ -99,6 +99,42 @@ function ConciergePage(props) {
                   Concierge Services are only available for Dallas Home Watch
                   Clients under contract for Home Watch Services.
                 </strong>
+              </p>
+              <p>
+                Hiring a personal concierge provides you with your own personal
+                assistant who can assist you with various aspects of your life.
+                With today's fast-paced lifestyles, juggling work, family,
+                household tasks, and other responsibilities can be overwhelming,
+                and the resulting stress can negatively impact your health.
+                While it's easy to say that you should exercise more or practice
+                mindfulness to reduce stress, finding the time to do so can be
+                difficult. This is where a personal concierge can help. By
+                outsourcing your lengthy to-do list to a personal concierge, you
+                can free up your time and focus on yourself. When you hire
+                Dallas Home Watch as your Personal Concierge, you can come back
+                into town and attend a yoga class, take a walk, or spend quality
+                time with your loved ones, and ultimately prioritize your health
+                and wellbeing. In short, a personal concierge can simplify your
+                life and allow you to enjoy the little things in life, like
+                stopping to smell the roses. Avoid coming back to your Dallas
+                property knowing that your chores are done and you can simply
+                relax and enjoy your home.
+              </p>
+              <p>
+                When hiring a personal concierge, it's crucial to take
+                references into account. It's essential to find someone with
+                high ethical standards who can be entrusted with sensitive
+                information and access to your home. Therefore, it's imperative
+                to conduct a thorough reference check to ensure you're making
+                the right decision. Starting with smaller tasks can be a good
+                way to assess the competency and reliability of your personal
+                concierge before entrusting them with bigger responsibilities.
+                Once you're satisfied with their performance, you'll be amazed
+                at how much of a positive impact a great personal concierge can
+                have on your life.
+              </p>
+              <p>Dallas Home Watch is an Accredited member of NHWA which means we have passed criminal background checks, credit checks, are bonded and insured. When you hire Dallas Home Watch as your personal concierge, you know that you are hiring 
+                a reputable business with a high standard of ethics, discretion and reliability.
               </p>
             </div>
             <div className="centered">

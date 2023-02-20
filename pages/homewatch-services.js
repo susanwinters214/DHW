@@ -186,16 +186,29 @@ function HomeWatchServicesPage(props) {
                   <div className="inner-column">
                     <h3>Water Faucets</h3>
                     <div className="text">
-                      We check all waterfaucets to ensure the water is not
-                      dripping once it is turned off.
+                      <p>
+                        Ignoring leaky faucets can be highly detrimental to the
+                        house's structural integrity, depending on the location
+                        of the leak.
+                      </p>
+                      <p>
+                        We check all water faucets to ensure the water is not
+                        dripping once it is turned off. We perform a visual
+                        inspection of the pipes under your sinks and will alert
+                        you of any problems and if necessary, meet with your
+                        plumber for repairs.
+                      </p>
+                      <p>
+                        During freezing weather, we can go by your house and
+                        drip the faucets to help prevent pipes from busting.
+                      </p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
-          {/* Media Closet  - TINA  R */}
+          {/* Watercop -  R */}
           <div className="services-block-three">
             <div
               className="inner-box wow fadeInUp"
@@ -206,15 +219,24 @@ function HomeWatchServicesPage(props) {
                 {/* Content Column */}
                 <div className="content-column col-lg-6 col-md-12 col-sm-12">
                   <div className="inner-column">
-                    <h3>Media Equipment</h3>
+                    <h3>Water Filtration Devices</h3>
                     <div className="text">
-                      We can look inside your media closet and reset any
-                      components.{" "}
-                      <Link href="/keyholder-services">
-                        Home Watch Key Holder
-                      </Link>{" "}
-                      service enables us to meet with your media equipment
-                      company to set up new services or install new equipment.
+                      <p>
+                        Property owners or installers should periodically test
+                        sensors with water to ensure proper placement, power
+                        supply and communication with the WaterCop valve. We can
+                        check your WaterCop System to verify it is on and
+                        replace the batteries if necessary.
+                      </p>
+                      <p>
+                        If you do not currently have a WaterCop System and would
+                        like one installed, Dallas Home Watch offers{" "}
+                        <Link href="/keyholder-services">
+                          Home Watch Key Holder
+                        </Link>{" "}
+                        which enables us to meet with the technician and install
+                        the WaterCop system while you gone
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -225,8 +247,104 @@ function HomeWatchServicesPage(props) {
                       <Image
                         width={530}
                         height={416}
-                        src="/images/hw-check/electronics-closet-inspection.jpg"
-                        alt="media equipment inspection"
+                        src="/images/hw-check/watercop-device.jpg"
+                        alt="water filter inspection"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Tubs & Toilets -  L */}
+          <div className="services-block-three style-two">
+            <div
+              className="inner-box wow fadeInUp"
+              data-wow-delay="0ms"
+              data-wow-duration="1500ms"
+            >
+              <div className="row clearfix">
+                {/* Image Column */}
+                <div className="image-column col-lg-6 col-md-12 col-sm-12">
+                  <div className="inner-column">
+                    <div className="image">
+                      <Image
+                        width={530}
+                        height={416}
+                        src="/images/hw-check/toilets-and-tubs.jpg"
+                        alt="toilet flushing near tub"
+                      />
+                    </div>
+                  </div>
+                </div>
+                {/* Content Column */}
+                <div className="content-column col-lg-6 col-md-12 col-sm-12">
+                  <div className="inner-column">
+                    <h3>Toilets & Tubs</h3>
+                    <div className="text">
+                      <p>
+                        Toilets can collect bacteria, which can cause stains. We
+                        flush all of the toilets to make sure they are working
+                        and to rinse the bowl of any stains. We may pour a half
+                        cup of bleach into the bowl if necessary.{" "}
+                      </p>
+                      <p>
+                        When we flush a toilet, we do not leave the bathroom
+                        until the water is completely finished running water
+                        into the tank and the flapper is sealed.
+                      </p>
+                      <p>
+                        {" "}
+                        We turn the water on and off in the tubs and check the
+                        surrounding areas for water leaks.{" "}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* Refrigerator R */}
+          <div className="services-block-three">
+            <div
+              className="inner-box wow fadeInUp"
+              data-wow-delay="0ms"
+              data-wow-duration="1500ms"
+            >
+              <div className="row clearfix">
+                {/* Content Column */}
+                <div className="content-column col-lg-6 col-md-12 col-sm-12">
+                  <div className="inner-column">
+                    <h3>Refrigerators</h3>
+                    <div className="text">
+                      <p>
+                        We check the refrigerator to make sure the light comes
+                        on. If you want us to, we can clean out expired food
+                        from your refrigerator.
+                      </p>{" "}
+                      <p>
+                        Our{" "}
+                        <Link href="/concierge-services">
+                          Concierge Services
+                        </Link>{" "}
+                        can pick up your grocery and beverage store orders,
+                        deliver and stock your refrigerator and pantry prior to
+                        your arrival with a 48 hour notice. (Monday deliveries
+                        would need to be requested on the prior Friday.){" "}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                {/* Image Column */}
+                <div className="image-column col-lg-6 col-md-12 col-sm-12">
+                  <div className="inner-column">
+                    <div className="image">
+                      <Image
+                        width={530}
+                        height={416}
+                        src="/images/hw-check/refrigerator-inspection.jpg"
+                        alt="refrigerator inspection"
                       />
                     </div>
                   </div>
@@ -273,7 +391,8 @@ function HomeWatchServicesPage(props) {
               </div>
             </div>
           </div>
-          {/* Refrigerator R */}
+
+          {/* Media Closet  - TINA  R */}
           <div className="services-block-three">
             <div
               className="inner-box wow fadeInUp"
@@ -284,16 +403,21 @@ function HomeWatchServicesPage(props) {
                 {/* Content Column */}
                 <div className="content-column col-lg-6 col-md-12 col-sm-12">
                   <div className="inner-column">
-                    <h3>Refrigerators</h3>
+                    <h3>Media Equipment</h3>
                     <div className="text">
-                      We check the refrigerator to make sure the light comes on.
-                      If you want us to, we can clean out expired food from your
-                      refrigerator. Our{" "}
-                      <Link href="/concierge-services">Concierge Services</Link>{" "}
-                      can pick up your grocery and beverage store orders,
-                      deliver and stock your refrigerator and pantry prior to
-                      your arrival with a 48 hour notice. (Monday deliveries
-                      would need to be requested on the prior Friday.)
+                      <p>
+                        Your media closet may include compenents to sound
+                        systems, television systems, lighting systems or
+                        internet/cable systems. We can look inside your media
+                        closet and reset any components.{" "}
+                      </p>
+                      <p>
+                        <Link href="/keyholder-services">
+                          Home Watch Key Holder
+                        </Link>{" "}
+                        service enables us to meet with your media equipment
+                        company to set up new services or install new equipment.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -304,8 +428,8 @@ function HomeWatchServicesPage(props) {
                       <Image
                         width={530}
                         height={416}
-                        src="/images/hw-check/refrigerator-inspection.jpg"
-                        alt="refrigerator inspection"
+                        src="/images/hw-check/electronics-closet-inspection.jpg"
+                        alt="media equipment inspection"
                       />
                     </div>
                   </div>
@@ -313,7 +437,7 @@ function HomeWatchServicesPage(props) {
               </div>
             </div>
           </div>
-          {/* Router Sink  -  L */}
+          {/* Router  -  L */}
           <div className="services-block-three style-two">
             <div
               className="inner-box wow fadeInUp"
@@ -339,20 +463,26 @@ function HomeWatchServicesPage(props) {
                   <div className="inner-column">
                     <h3>Routers</h3>
                     <div className="text">
-                      Because your security system may depend on your internet
-                      connection, we make sure your router is working properly
-                      and can reboot the router when necessary.{" "}
-                      <Link href="/keyholder-services">
-                        Home Watch Key Holder
-                      </Link>{" "}
-                      service enables us to meet with your cable / internet
-                      company to set up new service or install new equipment.
+                      <p>
+                        {" "}
+                        Because your security system may depend on your internet
+                        connection, we make sure your router is working properly
+                        and can reboot the router when necessary.{" "}
+                      </p>
+                      <p>
+                        <Link href="/keyholder-services">
+                          Home Watch Key Holder
+                        </Link>{" "}
+                        service enables us to meet with your cable / internet
+                        company to set up new service or install new equipment.
+                      </p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+
           {/* Air Filter R */}
           <div className="services-block-three">
             <div
@@ -366,12 +496,19 @@ function HomeWatchServicesPage(props) {
                   <div className="inner-column">
                     <h3>Air Filters</h3>
                     <div className="text">
-                      Dallas Home Watch will check your air filters and replace
-                      them when necessary. Just let us know where your new
-                      filters are, and we can replace them while on site. We
-                      write the date on the air filters using a black Sharpie so
-                      that you will always know the date of the last time the
-                      filter was changed.
+                      <p>
+                        Dallas Home Watch will check your air filters and
+                        replace them when necessary. Just let us know where your
+                        new filters are, and we can replace them while on site.
+                        We write the date on the air filters using a black
+                        Sharpie so that you will always know the date of the
+                        last time the filter was changed.
+                      </p>
+                      <p>
+                        If you are out of air filters, Dallas Home Watch can
+                        pick them up at your local Home Depot or receive your
+                        order from Amazon.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -391,7 +528,8 @@ function HomeWatchServicesPage(props) {
               </div>
             </div>
           </div>
-          {/* Router Sink  -  L */}
+
+          {/* Breaker Boxes  -  L */}
           <div className="services-block-three style-two">
             <div
               className="inner-box wow fadeInUp"
@@ -406,8 +544,8 @@ function HomeWatchServicesPage(props) {
                       <Image
                         width={530}
                         height={416}
-                        src="/images/hw-check/router-inspection.jpg"
-                        alt="troubleshooting home router"
+                        src="/images/hw-check/breaker-box-inspection.jpg"
+                        alt="checking breaker box"
                       />
                     </div>
                   </div>
@@ -415,22 +553,19 @@ function HomeWatchServicesPage(props) {
                 {/* Content Column */}
                 <div className="content-column col-lg-6 col-md-12 col-sm-12">
                   <div className="inner-column">
-                    <h3>Routers</h3>
+                    <h3>Breaker Boxes</h3>
                     <div className="text">
-                      Because your security system may depend on your internet
-                      connection, we make sure your router is working properly
-                      and can reboot the router when necessary.{" "}
-                      <Link href="/keyholder-services">
-                        Home Watch Key Holder
-                      </Link>{" "}
-                      service enables us to meet with your cable / internet
-                      company to set up new service or install new equipment.
+                      We know how important it is not to lose electricity to
+                      your household appliances while you are away. We check
+                      your breaker box to see if any breakers have tripped, and
+                      if so, we will reset them.
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+
           {/* AC Units in Attic R */}
           <div className="services-block-three">
             <div
@@ -468,7 +603,8 @@ function HomeWatchServicesPage(props) {
               </div>
             </div>
           </div>
-          {/* Tubs & Toilets -  L */}
+
+          {/*  Washing Machine TINA L  */}
           <div className="services-block-three style-two">
             <div
               className="inner-box wow fadeInUp"
@@ -483,8 +619,8 @@ function HomeWatchServicesPage(props) {
                       <Image
                         width={530}
                         height={416}
-                        src="/images/hw-check/toilets-and-tubs.jpg"
-                        alt="toilet flushing near tub"
+                        src="/images/hw-check/washing-machine-inspection.jpg"
+                        alt="visual inspection of the washing machine"
                       />
                     </div>
                   </div>
@@ -492,17 +628,30 @@ function HomeWatchServicesPage(props) {
                 {/* Content Column */}
                 <div className="content-column col-lg-6 col-md-12 col-sm-12">
                   <div className="inner-column">
-                    <h3>Toilets & Tubs</h3>
+                    <h3>Washing Machines</h3>
                     <div className="text">
-                      We flush all of the toilets to make sure they are working.
-                      We turn the water on and off in the tubs.
+                      <p>
+                        We will check your washing machine to ensure there is no
+                        water leaking and no unusual odors coming from the
+                        machine.
+                      </p>
+                      <p>
+                        Dallas Home Watch provides{" "}
+                        <Link href="/keyholder-services">
+                          Home Watch Key Holder
+                        </Link>{" "}
+                        service so we can meet with your applicance company for
+                        new delivery and installations or repairs and
+                        maintenance to your equipment.
+                      </p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          {/* Breaker Box in Attic R */}
+
+          {/* Garage Door Openers TINA R */}
           <div className="services-block-three">
             <div
               className="inner-box wow fadeInUp"
@@ -513,12 +662,20 @@ function HomeWatchServicesPage(props) {
                 {/* Content Column */}
                 <div className="content-column col-lg-6 col-md-12 col-sm-12">
                   <div className="inner-column">
-                    <h3>Breaker Boxes</h3>
+                    <h3>Garage Door Openers</h3>
                     <div className="text">
-                      We know how important it is not to lose electricity to
-                      your household appliances while you are away. We check
-                      your breaker box to see if any breakers have tripped, and
-                      if so, we will reset them.
+                      <p>
+                        Dallas Home Watch will make sure that your garage door
+                        openers are working and can replace batteries to
+                        wireless keypads and remote controllers when needed. We
+                        also have experience programming a variety of garage
+                        door remotes and handheld or in-car remotes.
+                      </p>
+                      <p>
+                        We can meet with your garage door technician while they
+                        complete the annual maintenance of your garage door
+                        system or during the installation of new garage doors.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -527,10 +684,10 @@ function HomeWatchServicesPage(props) {
                   <div className="inner-column">
                     <div className="image">
                       <Image
-                        width={530}
-                        height={416}
-                        src="/images/hw-check/breaker-box-inspection.jpg"
-                        alt="checking breaker box"
+                        width={585}
+                        height={460}
+                        src="/images/car-care/garage-door-openers.jpg"
+                        alt="Tina Lawson checking garage doors and openers"
                       />
                     </div>
                   </div>
@@ -538,6 +695,7 @@ function HomeWatchServicesPage(props) {
               </div>
             </div>
           </div>
+
           {/* Swimming Pool -  L */}
           <div className="services-block-three style-two">
             <div
@@ -564,79 +722,14 @@ function HomeWatchServicesPage(props) {
                   <div className="inner-column">
                     <h3>Pools & Fountains</h3>
                     <div className="text">
-                      We check the pool and fountains around the house and make
-                      a note if the pumps were running while we were there. We
-                      check for algae growth or debris in and around the pool or
-                      fountain. We will make a note of the water level of the
-                      pool.
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* Washing MAchine TINA R */}
-          <div className="services-block-three">
-            <div
-              className="inner-box wow fadeInUp"
-              data-wow-delay="0ms"
-              data-wow-duration="1500ms"
-            >
-              <div className="row clearfix">
-                {/* Content Column */}
-                <div className="content-column col-lg-6 col-md-12 col-sm-12">
-                  <div className="inner-column">
-                    <h3>Washing Machines</h3>
-                    <div className="text">
-                      We will check your washing machine to ensure there is no
-                      water leaking and no unusual odors coming from the
-                      machine.
-                    </div>
-                  </div>
-                </div>
-                {/* Image Column */}
-                <div className="image-column col-lg-6 col-md-12 col-sm-12">
-                  <div className="inner-column">
-                    <div className="image">
-                      <Image
-                        width={530}
-                        height={416}
-                        src="/images/hw-check/washing-machine-inspection.jpg"
-                        alt="visual inspection of the washing machine"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* Watercop -  L */}
-          <div className="services-block-three style-two">
-            <div
-              className="inner-box wow fadeInUp"
-              data-wow-delay="0ms"
-              data-wow-duration="1500ms"
-            >
-              <div className="row clearfix">
-                {/* Image Column */}
-                <div className="image-column col-lg-6 col-md-12 col-sm-12">
-                  <div className="inner-column">
-                    <div className="image">
-                      <Image
-                        width={530}
-                        height={416}
-                        src="/images/hw-check/watercop-device.jpg"
-                        alt="water filter inspection"
-                      />
-                    </div>
-                  </div>
-                </div>
-                {/* Content Column */}
-                <div className="content-column col-lg-6 col-md-12 col-sm-12">
-                  <div className="inner-column">
-                    <h3>Water Filtration Devices</h3>
-                    <div className="text">
-                      We can check your WaterCop System to verify it is on.
+                      <p>
+                        We check the pool and fountains around your home and
+                        make a note if the pumps were running while we were
+                        there. We check for algae growth or debris in and around
+                        the pool or fountain. We will make a note of the water
+                        level of the pool and include it in your Home Watch
+                        Check report.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -644,7 +737,7 @@ function HomeWatchServicesPage(props) {
             </div>
           </div>
 
-          {/* Washing MAchine TINA R */}
+          {/* Securing Doors TINA R */}
           <div className="services-block-three">
             <div
               className="inner-box wow fadeInUp"
@@ -657,11 +750,21 @@ function HomeWatchServicesPage(props) {
                   <div className="inner-column">
                     <h3>Securing Doors</h3>
                     <div className="text">
-                      We check all door entries to make sure every one of them
-                      is securely locked. If for any reason you need your house
-                      re-keyed, we can provide you with the contact information
-                      of our priority vendor and meet with them during the
-                      process of re-keying your home.
+                      <p>
+                        We check all door entries to make sure every one of them
+                        is securely locked.
+                      </p>
+
+                      <p>
+                        If for any reason you need your house re-keyed, we can
+                        provide you with the contact information of our priority
+                        vendor and meet with them during the process of
+                        re-keying your home.
+                      </p>
+                      <p>
+                        When you hire Dallas Home Watch, you can rest assured
+                        that all entries to your home are checked and secured.{" "}
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -681,7 +784,6 @@ function HomeWatchServicesPage(props) {
               </div>
             </div>
           </div>
-
           {/* Trashcans -  L */}
           <div className="services-block-three style-two">
             <div

@@ -163,42 +163,7 @@ function VehicleCarePage(props) {
             </div>
           </div>
 
-          {/* Services Garage Door Openers */}
-          <div className="services-block-three">
-            <div
-              className="inner-box wow fadeInUp"
-              data-wow-delay="0ms"
-              data-wow-duration="1500ms"
-            >
-              <div className="row clearfix">
-                {/* Content Column */}
-                <div className="content-column col-lg-6 col-md-12 col-sm-12">
-                  <div className="inner-column">
-                    <h3>Garage Door Openers</h3>
-                    <div className="text">
-                      Dallas Home Watch will make sure that your garage door
-                      openers are working and can meet with your garage door
-                      technician while they complete the annual maintenance of
-                      your garage door system.
-                    </div>
-                  </div>
-                </div>
-                {/* Image Column */}
-                <div className="image-column col-lg-6 col-md-12 col-sm-12">
-                  <div className="inner-column">
-                    <div className="image">
-                      <Image
-                        width={585}
-                        height={460}
-                        src="/images/car-care/garage-door-openers.jpg"
-                        alt="Tina Lawson checking garage doors and openers"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+       
 
           {/* Services Garage Door Entries */}
           <div className="services-block-three style-two">
