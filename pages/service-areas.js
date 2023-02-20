@@ -12,8 +12,34 @@ function ServiceAreaPage(props) {
         <meta
           name="description"
           content="Dallas Home Watch service areas include the following communities: 
-          "
+          Highland Park, University Park, Preston Hollow, Lake Forest, Devonshire, Bluffview, 
+          Northwood Hills and Briarwood."
         />
+        <meta property="fb:app_id" content="8620778781329629" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Dallas Home Watch" />
+
+        <meta
+          property="og:url"
+          content="https://www.dallashomewatch.com/service-areas"
+        />
+        <meta
+          property="og:title"
+          content="Home Watch Service Areas for Dallas Home Watch"
+        />
+        <meta
+          property="og:description"
+          content="Dallas Home Watch service areas include the following communities: 
+          Highland Park, University Park, Preston Hollow, Lake Forest, Devonshire, Bluffview, 
+          Northwood Hills and Briarwood."
+        />
+        <meta
+          property="og:image:url"
+          content="https://www.dallashomewatch.com/images/og/dallas-skyline-service-areas.jpg"
+        />
+        <meta property="og:image:width" content="1200px" />
+        <meta property="og:image:height" content="630px" />
+        <meta property="og:image:alt" content="Dallas skyline" />
       </Head>
       {/* insert top banner with Page Title & Breadcrumb*/}
       <section className="page-title pageback-serviceareas">
@@ -110,8 +136,6 @@ function ServiceAreaPage(props) {
           <div className="sec-title centered">
             <h3 className="serviceAreas">Our Home Watch Service Areas</h3>
             <h4>Gated Communities</h4>
-
-            
           </div>
           <div className="inner-container">
             <div className="clearfix">

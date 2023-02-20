@@ -1,7 +1,7 @@
-import { Fragment } from 'react';
-import Head from 'next/head';
-import Link from 'next/link';
-import Hero from '../components/home-page/hero';
+import { Fragment } from "react";
+import Head from "next/head";
+import Link from "next/link";
+import Hero from "../components/home-page/hero";
 import Image from "next/image";
 
 function AccreditationPage(props) {
@@ -13,6 +13,27 @@ function AccreditationPage(props) {
           name="description"
           content="Dallas Home Watch received Accreditation from the National Home Watch Association."
         />
+
+        <meta property="fb:app_id" content="8620778781329629" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Dallas Home Watch" />
+
+        <meta
+          property="og:url"
+          content="https://www.dallashomewatch.com/accreditation"
+        />
+        <meta property="og:title" content="Dallas Home Watch Accreditation" />
+        <meta
+          property="og:description"
+          content="Dallas Home Watch received Accreditation from the National Home Watch Association.."
+        />
+        <meta
+          property="og:image:url"
+          content="https://www.dallashomewatch.com/images/og/accredited-home-watch-professional.jpg"
+        />
+        <meta property="og:image:width" content="1200px" />
+        <meta property="og:image:height" content="630px" />
+        <meta property="og:image:alt" content="Acceptance of Award" />
       </Head>
       {/* insert top banner with Page Title & Breadcrumb*/}
       <section className="page-title pageback-accred">
@@ -112,7 +133,7 @@ function AccreditationPage(props) {
                 />
                 <br />
                 <span className="memberNumber">#05220241</span>
-<br />
+                <br />
                 <h3 className="sec-title blue">Accreditation</h3>
                 <div className="text">
                   <ul style={{ paddingLeft: "10%", paddingRight: "10%" }}>
@@ -188,7 +209,6 @@ function AccreditationPage(props) {
             height={100}
             width={100}
           />
-      
         </div>
         <div className="outer-container clearfix">
           {/* Content Column */}
@@ -343,7 +363,5 @@ function AccreditationPage(props) {
     </Fragment>
   );
 }
-
-
 
 export default AccreditationPage;
