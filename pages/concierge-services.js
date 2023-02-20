@@ -139,8 +139,8 @@ function ConciergePage(props) {
                   <div className="column col-lg-6 col-md-6 col-sm-6">
                     <div className="image">
                       <Image
-                        width={565}
-                        height={389}
+                        width={500}
+                        height={300}
                         src="/images/concierge-services/wine-cellar.jpg"
                         alt="wine bottles on shelves in a wine cellar"
                       />
