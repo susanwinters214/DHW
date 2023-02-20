@@ -22,7 +22,7 @@ function HomeWatchServicesPage(props) {
         <meta property="og:description" content="Home Watch Services Photo Gallery answers the question
          'What Does A Home Watch Service Do?' Home Watch Professionals look for water leaks, mold, 
          roken items and answer alarms."  />
-        <meta property="og:image:url"   content="https://www.dallashomewatch.com/images/og/home-watch-services.jpg" />
+        <meta property="og:image:url"   content="httpg" />
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />
         <meta property="og:image:alt" content="Dallas Home Watch Professionals checking Homes." />

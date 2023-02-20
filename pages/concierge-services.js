@@ -100,9 +100,19 @@ function ConciergePage(props) {
                 </strong>
               </p>
             </div>
+            <div className="centered">
+              <Image
+                width={500}
+                height={275}
+                src="/images/concierge-services/concierge-500x275.jpg"
+                alt="concierge stocking the refrigerator"
+              />
+            </div>
           </div>
         </div>
       </section>
+
+      
       {/* insert section component with content SEO*/}
       <section className="services-page-section">
         <div className="auto-container">
