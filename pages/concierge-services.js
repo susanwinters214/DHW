@@ -13,6 +13,33 @@ function ConciergePage(props) {
           name="description"
           content="Dallas Concierge Services are special services performed by a professional. These services include anything from stocking the refrigerator to picking up the dry cleaning. Busy executives hire professionals to perform concierge services so that they gain back time in their lives to do the things they enjoy."
         />
+
+        <meta property="fb:app_id" content="8620778781329629" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Dallas Home Watch" />
+
+        <meta
+          property="og:url"
+          content="https://www.dallashomewatch.com/concierge-services"
+        />
+        <meta
+          property="og:title"
+          content="Concierge Services by Dallas Home Watch"
+        />
+        <meta
+          property="og:description"
+          content="Dallas Concierge Services are special services performed by a professional. These services include anything from stocking the refrigerator to picking up the dry cleaning. Busy executives hire professionals to perform concierge services so that they gain back time in their lives to do the things they enjoy."
+        />
+        <meta
+          property="og:image:url"
+          content="https://www.dallashomewatch.com/images/og/concierge-services.jpg"
+        />
+        <meta property="og:image:width" content="1200px" />
+        <meta property="og:image:height" content="630px" />
+        <meta
+          property="og:image:alt"
+          content="concierge inventoring refrigerator before filling with groceries and bottled water"
+        />
       </Head>
       {/* insert top banner with Page Title & Breadcrumb*/}
       <section className="page-title pageback-con">
@@ -39,7 +66,9 @@ function ConciergePage(props) {
               />
             </div>
             <div className="lower-content">
-              <h2 className="pageTitle">Dallas Concierge Services for Home Watch Clients</h2>
+              <h2 className="pageTitle">
+                Dallas Concierge Services for Home Watch Clients
+              </h2>
               <p>
                 Dallas Home Watch offers personal concierge services while you
                 are away so that you can come home and rest assured that your

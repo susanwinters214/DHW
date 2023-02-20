@@ -27,7 +27,7 @@ function AboutPage() {
         />
         <meta
           property="og:image:url"
-          content="https://dallashomewatch.com/images/og/dallas-home-watch-opening-doors.jpg"
+          content="https://www.dallashomewatch.com/images/og/dallas-home-watch-opening-doors.jpg"
         />
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />
