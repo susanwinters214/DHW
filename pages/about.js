@@ -87,7 +87,7 @@ function AboutPage() {
           <div className="inner-container">
             <div className="clearfix">
               {/* Content Column */}
-              <div className="content-column col-lg-6 col-md-12 col-sm-12">
+              <div className="content-column col-lg-8 col-md-12 col-sm-12">
                 <div className="inner-column">
                   <div className="sec-title first">
                     <h2 className="pushdown25">Dallas Home Watch</h2>
@@ -143,30 +143,30 @@ function AboutPage() {
                 </div>
               </div>
               {/* Image Column */}
-              <div className="image-column col-lg-6 col-md-12 col-sm-12">
+              <div className="image-column col-lg-4 col-md-12 col-sm-12">
                 <div className="inner-column">
                   <div
                     className="image wow fadeInLeft pushdown50"
                     data-wow-delay="0ms"
                     data-wow-duration="1500ms"
                   >
-                    <center>
+                     <div className="image centered">
                       <Image
-                        src="/images/tina-lawson.jpg"
+                        src="/images/tina-lawson-400x400.jpg"
                         alt="Tina Lawson"
-                        width={200}
-                        height={200}
+                        width={400}
+                        height={400}
                       />
                       <br />
                       Photo of{" "}
                       <a href="https://www.linkedin.com/in/tina-lawson-a57252254/">
                         Tina Lawson
-                      </a>
-                      , Owner of&nbsp;
+                      </a><br />
+                      Owner of&nbsp;
                       <a href="https://www.linkedin.com/company/dallas-home-watch">
                         Dallas Home Watch
                       </a>
-                      <br />
+                    
                       <br />
                       <p className="about">
                         Dallas Home Watch provides the service of discreetly
@@ -174,7 +174,7 @@ function AboutPage() {
                         designate visits once a week or more. We will work
                         together toward a solution should property issues arise.
                       </p>
-                    </center>
+                    </div>
                   </div>
 
                   <div className="content-column col-lg-12 col-md-12 col-sm-12">

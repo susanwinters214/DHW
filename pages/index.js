@@ -34,6 +34,8 @@ function HomePage(props) {
           property="og:image:alt"
           content="Dallas Home Watch logo over Dallas Skyline NHWA Certified Home Watch Professional logo"
         />
+        {/* BING */}
+        <meta name="msvalidate.01" content="4DE9FB569233D165857C1F739B5D3CC1" />
       </Head>
       <section className="page-title pageback-homepage">
         <div className="auto-container">
