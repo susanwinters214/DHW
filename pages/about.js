@@ -4,8 +4,6 @@ import Link from "next/link";
 import Image from "next/image";
 
 function AboutPage() {
-
-  
   return (
     <Fragment>
       <Head>
@@ -36,12 +34,6 @@ function AboutPage() {
         <meta
           property="og:image:alt"
           content="home watch professional entering front door of luxury home"
-        />
-
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={addLocationJsonLd()}
-          key="product-jsonld"
         />
       </Head>
       {/* insert top banner with Page Title & Breadcrumb*/}
@@ -125,7 +117,7 @@ function AboutPage() {
                     data-wow-delay="0ms"
                     data-wow-duration="1500ms"
                   >
-                     <div className="image centered">
+                    <div className="image centered">
                       <Image
                         src="/images/tina-lawson-400x400.jpg"
                         alt="Tina Lawson"
@@ -136,12 +128,12 @@ function AboutPage() {
                       Photo of{" "}
                       <a href="https://www.linkedin.com/in/tina-lawson-a57252254/">
                         Tina Lawson
-                      </a><br />
+                      </a>
+                      <br />
                       Owner of&nbsp;
                       <a href="https://www.linkedin.com/company/dallas-home-watch">
                         Dallas Home Watch
                       </a>
-                    
                       <br />
                       <p className="about">
                         Dallas Home Watch provides the service of discreetly
