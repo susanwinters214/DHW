@@ -7,7 +7,7 @@ function HomePage(props) {
   return (
     <Fragment>
       <Head>
-        <title>Dallas Home Watch</title>
+        <title>Dallas Home Watch Services | Dallas Home Watch LLC</title>
         <meta
           name="description"
           content="Dallas Home Watch LLC. provides Home Watch Services in the Dallas area for homeowners who have a second property located in north Dallas, Highland Park, Preston Hollow, University Park,
@@ -34,9 +34,8 @@ function HomePage(props) {
           property="og:image:alt"
           content="Dallas Home Watch logo over Dallas Skyline NHWA Certified Home Watch Professional logo"
         />
-        {/* BING */}
-        <meta name="msvalidate.01" content="4DE9FB569233D165857C1F739B5D3CC1" />
       </Head>
+      {/* top Banner Area */}
       <section className="page-title pageback-homepage">
         <div className="auto-container">
           <div className="row clearfix">
@@ -53,19 +52,130 @@ function HomePage(props) {
                   Home Watch inspections provide peace of mind about your
                   property while you are away.
                 </h3>
+
+                <div className="bannerbox btns-box centered">
+                  <Link
+                    href="/homewatch-services"
+                    className="theme-btn btn-style-two"
+                  >
+                    <span className="txt">
+                      Home Watch Services <i className="phone" />
+                    </span>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section className="services-section hpfourboxes">
+
+      {/* insert Welcome */}
+      <section
+        className="welcome-section"
+        style={{ backgroundImage: "url(images/background/pattern-1.png)" }}
+      >
         <div className="auto-container">
-          <div className="inner-container">
+          <div className="inner-container  MOVEUP">
+            <div className="clearfix">
+              {/* Content Column */}
+              <div className="content-column col-lg-6 col-md-12 col-sm-12">
+                <div className="inner-column ">
+                  {/* Sec Title */}
+                  <div className="text">
+                    <p>
+                      Dallas Home Watch offers exceptional home watch services
+                      to the Dallas area and surrounding neighborhoods,
+                      including Highland Park, University Park, Preston Hollow,
+                      Lakewood, Lake Highlands, Devonshire, Bluffview, Briarwood
+                      and Norhwood Hills. Our team of professionals provides
+                      visual inspections of both the interior and exterior of
+                      homes and properties, looking for obvious issues that may
+                      cause potential damage. We keep homeowners informed of any
+                      issues and follow the client's instructions regarding a
+                      resolution and cure for them. Upon completion of a full
+                      Home Watch inspection, we will submit our Home Watch
+                      Checklist to our portal where our clients can log in and
+                      view the results. For clients without portal access, we
+                      will send our write up along with pictures and videos to
+                      their email or via text message.
+                    </p>
+                    <p>
+                      Unlike other options like house sitters or property
+                      managers, Dallas Home Watch is a fully accredited and
+                      bonded company that prioritizes the care and maintenance
+                      of your home. We are committed to providing high-quality
+                      services, ensuring that homeowners can travel worry-free,
+                      knowing that their property is in good hands. Our
+                      attention to detail and expertise in home watch services
+                      make Dallas Home Watch a top choice for homeowners who
+                      value peace of mind.
+                    </p>
+                    <p>
+                      Don't leave the safety and security of your home to
+                      chance. Trust Dallas Home Watch to provide exceptional
+                      home watch services that exceed your expectations. Give us
+                      a call today to learn more about our services and why we
+                      are the better choice for your home watch needs.
+                    </p>
+
+                    <br />
+                  </div>
+                </div>
+              </div>
+
+              {/* Image Column */}
+              <div className="image-column col-lg-6 col-md-12 col-sm-12">
+                <div className="inner-column">
+                  <div className="image title" data-tilt="" data-tilt-max={2}>
+                    <br />
+                    <br />
+                    <Image
+                      width={585}
+                      height={725}
+                      src="/images/home-watch-professional-checking-doors.jpg"
+                      alt="home-watch-professional-checking-doors"
+                    />
+                  </div>
+                  <div
+                    className="case-box wow fadeInLeft"
+                    data-wow-delay="0ms"
+                    data-wow-duration="1500ms"
+                  >
+                    <span>
+                      20+ Years of <br /> Experience
+                    </span>
+                  </div>
+                </div>
+
+                <br />
+                <br />
+                <div className="btns-box centered">
+                  <a
+                    href="homewatch-checklist"
+                    className="theme-btn btn-style-three"
+                  >
+                    <span className="txt">
+                      Home Watch Checklist{" "}
+                      <i className="arrow flaticon-right" />
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div className="clearfix"> </div>
+      {/* 4 BLOCKS */}
+      <section className="welcome-section">
+        <div className="auto-container">
+          <div className="inner-container2">
             <div className="row clearfix">
               {/* Services Block HOME WATCH*/}
               <div className="services-block col-lg-6 col-md-12 col-sm-12">
                 <div
-                  className="inner-box wow fadeInLeft"
+                  className="inner-box wow fadeInLeft BLUE"
                   data-wow-delay="0ms"
                   data-wow-duration="1500ms"
                 >
@@ -90,7 +200,7 @@ function HomePage(props) {
               {/* Services Block KEY HOLDER*/}
               <div className="services-block col-lg-6 col-md-12 col-sm-12">
                 <div
-                  className="inner-box wow fadeInRight"
+                  className="inner-box wow fadeInRight  BLUE"
                   data-wow-delay="0ms"
                   data-wow-duration="1500ms"
                 >
@@ -115,7 +225,7 @@ function HomePage(props) {
               {/* Services Block CONCIERGE*/}
               <div className="services-block col-lg-6 col-md-12 col-sm-12">
                 <div
-                  className="inner-box wow fadeInLeft"
+                  className="inner-box wow fadeInLeft BLUE"
                   data-wow-delay="150ms"
                   data-wow-duration="1500ms"
                 >
@@ -139,7 +249,7 @@ function HomePage(props) {
               {/* Services Block VEHICLES*/}
               <div className="services-block col-lg-6 col-md-12 col-sm-12">
                 <div
-                  className="inner-box wow fadeInRight"
+                  className="inner-box wow fadeInRight BLUE"
                   data-wow-delay="150ms"
                   data-wow-duration="1500ms"
                 >
@@ -161,83 +271,7 @@ function HomePage(props) {
           </div>
         </div>
       </section>
-      {/* insert Welcome */}
-      <section
-        className="welcome-section"
-        style={{ backgroundImage: "url(images/background/pattern-1.png)" }}
-      >
-        <div className="auto-container">
-          <div className="inner-container">
-            <div className="clearfix">
-              {/* Image Column */}
-              <div className="image-column col-lg-6 col-md-12 col-sm-12">
-                <div className="inner-column">
-                  <div className="image title" data-tilt="" data-tilt-max={2}>
-                    <Image
-                      width={585}
-                      height={725}
-                      src="/images/home-watch-professional-checking-doors.jpg"
-                      alt="home-watch-professional-checking-doors"
-                    />
-                  </div>
-                  <div
-                    className="case-box wow fadeInLeft"
-                    data-wow-delay="0ms"
-                    data-wow-duration="1500ms"
-                  >
-                    <span>
-                      20+ Years of <br /> Experience
-                    </span>
-                  </div>
-                </div>
-              </div>
-              {/* Content Column */}
-              <div className="content-column col-lg-6 col-md-12 col-sm-12">
-                <div className="inner-column">
-                  {/* Sec Title */}
-                  <div className="sec-title">
-                    <h2 className="welcomeHome">
-                      Welcome to Dallas Home Watch
-                    </h2>
-                    <div className="text">
-                      We are a professional, knowledgeable, and certified Home
-                      Watch Business in Dallas County. We care and work to alert
-                      you of issues to save you time and money.
-                    </div>
-                    <br />
-                  </div>
-                  <ul className="list-style-one">
-                    <li>Home Watch Services</li>
-                    <li>Key Holder for Contractors</li>
-                    <li>Concierge Services</li>
-                    <li>Vehicle Care </li>
-                  </ul>
-                  <div className="btns-box">
-                    <a
-                      href="tel:972-982-7050"
-                      className="theme-btn btn-style-two"
-                    >
-                      <span className="txt">
-                        I need Home Watch Services <i className="phone" />
-                      </span>
-                    </a>
-                    <br />
-                    <a
-                      href="homewatch-checklist"
-                      className="theme-btn btn-style-three"
-                    >
-                      <span className="txt">
-                        Home Watch Checklist{" "}
-                        <i className="arrow flaticon-right" />
-                      </span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+
       {/* insert blue area with video */}
       <section className="counter-section">
         <div
@@ -249,9 +283,9 @@ function HomePage(props) {
         <div className="auto-container">
           {/* Sec Title */}
           <div className="sec-title light centered">
-            <h3 className="blueBkg gold">
+            <h2 className="blueBkg gold">
               20+ Years Experience in the Home Watch Business
-            </h3>
+            </h2>
             <div className="text" style={{ fontSize: "2em" }}>
               Risk mitigation is the process of planning for disasters and
               having a way to lessen the negative impact. Our goal is to
@@ -404,7 +438,6 @@ function HomePage(props) {
           </div>
         </div>
       </section>
-
       <hr />
       {/* insert SEO content */}
       <section className="sidebar-page-container">
@@ -539,7 +572,6 @@ function HomePage(props) {
           </div>
         </div>
       </section>
-
       {/* insert Gated Communities */}
       <section
         className="practice-section shade"

@@ -9,7 +9,7 @@ function PrivacyPage() {
         <title>Privacy Policy for Dallas Home Watch</title>
         <meta
           name="description"
-          content="Privacy Policy for Dallas Home Watch -  - Read the Privacy Policy for using our website."
+          content="Privacy Policy for Dallas Home Watch - Read the Privacy Policy for using our website. Dallas Home Watch respects your privacy and only asks for information needed."
         />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
@@ -22,7 +22,7 @@ function PrivacyPage() {
         <meta property="og:title" content="Dallas Home Watch Privacy Policy" />
         <meta
           property="og:description"
-          content="Privacy Policy for Dallas Home Watch -  - Read the Privacy Policy for using our website."
+          content="Privacy Policy for Dallas Home Watch - Read the Privacy Policy for using our website. Dallas Home Watch respects your privacy and only asks for information needed."
         />
         <meta
           property="og:image"

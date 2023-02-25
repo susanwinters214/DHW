@@ -57,7 +57,15 @@ h2.welcomeHome {
 }
 .hpfourboxes {
   margin-top: -250px;
+ 
 }
+.BLUE{padding-right:5px; border:solid 2px #00204c;}
+.MOVEUP{margin-top:-350px;}
+
+.homepagetopblock{
+    margin-top: -250px;
+}
+
 .homepagetopcontent .title {
   z-index: 999999;
 }
@@ -113,6 +121,9 @@ h2.welcomeHome {
 }
 .pageback-hwchk {
   background-image: url(/images/background/home-watch-enters-front-door.jpg);
+}
+.pageback-hwservice {
+  background-image: url(/images/background/open-front-door-960x496.jpg);
 }
 .pageback-keyh {
   background-image: url(/images/background/house-keys-down.jpg);

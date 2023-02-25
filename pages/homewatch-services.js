@@ -40,7 +40,7 @@ function HomeWatchServicesPage(props) {
         />
       </Head>
       {/* insert top banner with Page Title & Breadcrumb*/}
-      <section className="page-title pageback-con">
+      <section className="page-title pageback-hwservice">
         <div className="auto-container">
           <h1>Home Watch Services</h1>
           <ul className="page-breadcrumb">

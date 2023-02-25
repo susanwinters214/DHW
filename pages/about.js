@@ -5,39 +5,14 @@ import Image from "next/image";
 
 function AboutPage() {
 
-    function addLocationJsonLd() {
-      return {
-        __html: `{
-      "@context": "https://www.dallashomewatch.com/",
-      "@type": "LocalBusiness",
-      "name": "Dallas Home Watch",
-       "legalName": "Dallas Home Watch LLC.",
-        "knowsAbout": "Home Watch Services",
-          "memberOf": "National Home Watch Association",
-       "openingHours": [    "Mon-Fri 8:00-15:00", "Sat-Sun CLOSED" ],
-      "description": "Dallas Home Watch LLC. provides Home Watch Services in the Dallas area for homeowners who have a second property located in north Dallas, Highland Park, Preston Hollow, University Park,
-          Lake Forest, Bluffview, Devonshire, Briarwood and Northwood Hills. We perform a visual inspection of your home while you are away and help you mitigate risks to your residence.",
-      "legalName": "Dallas Home Watch LLC.",
-      "logo": "https://www.dallashomewatch.com/logos/DWH-onWhite.jpg",
-      "brand": {
-        "@type": "Brand",
-        "name": "Dallas Home Watch"
-      },
-  "kewyords": "Dallas Home Watch, Home Watch Services, Dallas Key Holder, Dallas Concierge Service",
-  "telephone": "(972) 982-7050",
-   "founder": "Tina Lawson",
-  "hasCredential": "National Home Watch Association Accreditation",
-  "url": "https://www.dallashomewatch.com" }
-  `,
-      };
-    }
+  
   return (
     <Fragment>
       <Head>
         <title>About Dallas Home Watch</title>
         <meta
           name="description"
-          content="Read About: Home Watch Business in Dallas, Texas.  Dallas Home Watch contracts with clients to watch their home while they are away."
+          content="Read About: Home Watch Business in Dallas, Texas - owned by Tina Lawson.  Dallas Home Watch contracts with clients to watch their home while they are away."
         />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />

@@ -11,11 +11,11 @@ function ConciergePage(props) {
         <title>Personal Concierge Services for Dallas Home Watch Clients</title>
         <meta
           name="description"
-          content="Dallas Concierge Services are special services performed by a professional. Busy executives hire professionals to perform concierge services so that they gain back time in their lives to do the things they enjoy."
+          content="Dallas Concierge Services helps busy executives by performing tasks and running errands for them that give them back their freedom and time to do the things they enjoy."
         />
 
         <meta property="fb:app_id" content="8620778781329629" />
-        <meta property="og:type" content="website" />
+        <meta property="og:type" content="website" /> 
         <meta property="og:site_name" content="Dallas Home Watch" />
 
         <meta

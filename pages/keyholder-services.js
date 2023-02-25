@@ -11,7 +11,7 @@ function KeyHolderPage(props) {
         <title>Key Holder Services | Dallas Home Watch </title>
         <meta
           name="description"
-          content="A Key Holder is a professional Home Watch professional that holds the keys to your home to allow access to contractors and vendors to come into the home to perform a service."
+          content="A Key Holder is a professional Home Watch professional that holds the keys to your home to allow access to contractors to come into the home to perform a service."
         />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />

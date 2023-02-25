@@ -10,8 +10,29 @@ function NewsPage(props) {
 
         <meta
           name="description"
-          content="Dallas Home Watch News - News from social media sites, press releases and more."
+          content="Dallas Home Watch News from social media sites, press releases, and more. Dallas Home Watch is a member of NHWA and shares industry news about the Home Watch Industry."
         />
+
+        <meta property="fb:app_id" content="8620778781329629" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Dallas Home Watch" />
+
+        <meta
+          property="og:url"
+          content="https://www.dallashomewatch.com/news"
+        />
+        <meta property="og:title" content="Dallas Home Watch News" />
+        <meta
+          property="og:description"
+          content="Dallas Home Watch News from social media sites, press releases, and more. Dallas Home Watch is a member of NHWA and shares industry news about the Home Watch Industry."
+        />
+        <meta
+          property="og:image"
+          content="https://www.dallashomewatch.com/images/og/home-watch-news.jpg"
+        />
+        <meta property="og:image:width" content="1200px" />
+        <meta property="og:image:height" content="630px" />
+        <meta property="og:image:alt" content="Home Watch News" />
       </Head>
       {/* insert top banner with Page Title & Breadcrumb*/}
       <section className="page-title pageback-news style-two ">
@@ -42,10 +63,6 @@ function NewsPage(props) {
                       What is Home Watch?
                     </Link>
                   </p>
-
-                 
-
-                
                 </section>
               </div>
             </div>

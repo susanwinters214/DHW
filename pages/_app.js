@@ -7,12 +7,12 @@ import "../styles/susan.css";
 import Layout from "../components/layout/layout";
 import Script from "next/script";
 
-
 function MyApp({ Component, pageProps }) {
   return (
     <Layout>
       <Head>
-       
+        {/* BING */}
+        <meta name="msvalidate.01" content="4DE9FB569233D165857C1F739B5D3CC1" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="author" content="Susan Winters" />
         <meta
