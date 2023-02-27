@@ -19,7 +19,7 @@ function HomeWatchServicesPage(props) {
 
         <meta
           property="og:url"
-          content="https://www.dallashomewatch.com/homewatch-services"
+          content="https://www.dallashomewatch.com/blog/refrigerators"
         />
         <meta property="og:title" content="Home Watch Services" />
         <meta

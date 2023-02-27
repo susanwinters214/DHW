@@ -1,3 +1,25 @@
+
+/* Blog Backgrounds & OG */
+
+
+
+.bg-airfilters{
+  background-image: url(/images/blogimg/og-air-filter-replacement.jpg);
+}
+
+.bg-waterleaks{
+  background-image: url(/images/blogimg/og-water-leak-damage.jpg);
+}
+
+.bg-refrigerators{
+  background-image: url(/images/blogimg/og-refrigerator.jpg);
+}
+.bg-gdo{
+  background-image: url(/images/blogimg/og-garage-door-openers.jpg);
+}
+
+
+
 h2,
 h3 {
   font-family: "arial";
