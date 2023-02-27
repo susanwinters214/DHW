@@ -207,8 +207,7 @@ function ServiceAreaPage(props) {
                   Dallas, Texas, known for its luxurious homes, stunning views,
                   and proximity to the beautiful White Rock Lake. Some of the
                   most notable streets in the area include Lake Forest Drive,
-                  Forest Lane, and Royal Lane. Zip codes include 92609, 92610,
-                  92630, 92679 and 92691.
+                  Forest Lane, and Royal Lane. Zip code for this area is 75230.
                 </p>
                 <p>
                   The neighborhood boasts an average home price of around $1.7

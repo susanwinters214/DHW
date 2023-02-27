@@ -48,7 +48,6 @@ function AboutPage() {
           </ul>
         </div>
       </section>
-
       <section className="case-section">
         <div className="auto-container">
           <div className="inner-container">
@@ -149,6 +148,55 @@ function AboutPage() {
                       "I treat all properties the way I would like a person to
                       manage my own home," Lawson says.
                     </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="case-section">
+        <div className="auto-container">
+          <div className="inner-container">
+            <div className="clearfix">
+              {/* Content Column */}
+              <div className="content-column col-lg-8 col-md-12 col-sm-12">
+                <div className="inner-column">
+                  <div className="sec-title first">
+                    <h2 className="pushdown25">Dallas Home Watch</h2>
+                    <h3>Owned By: Tina Lawson</h3>
+                  </div>
+                  <div className="text">
+                    <p className="first">
+                      Find us on Yelp.
+                      https://www.yelp.com/biz/dallas-home-watch-dellas
+                      <br />
+                      Trademarked Name - move to News:
+                      https://trademark-genius.com/thankyou
+                    </p>
+                  </div>
+                </div>
+              </div>
+              {/* Image Column */}
+              <div className="image-column col-lg-4 col-md-12 col-sm-12">
+                <div className="inner-column">
+                  <div
+                    className="image wow fadeInLeft pushdown50"
+                    data-wow-delay="0ms"
+                    data-wow-duration="1500ms"
+                  >
+                    <div className="image centered">
+                      <Image
+                        src="/images/tina-lawson-400x400.jpg"
+                        alt="Tina Lawson"
+                        width={400}
+                        height={400}
+                      />
+                    </div>
+                  </div>
+
+                  <div className="content-column col-lg-12 col-md-12 col-sm-12">
+                    <div className="text-box"></div>
                   </div>
                 </div>
               </div>
