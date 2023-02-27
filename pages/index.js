@@ -10,9 +10,7 @@ function HomePage(props) {
         <title>Dallas Home Watch Services | Dallas Home Watch LLC</title>
         <meta
           name="description"
-          content="Dallas Home Watch LLC. provides Home Watch Services in the Dallas area for homeowners who have a second property located in north Dallas. Home Watch Highland Park, Home Watch Preston Hollow, Home Watch University Park,
-          Home Watch Lake Forest, Home Watch Bluffview, Home Watch Devonshire, Home Watch Briarwood and Home Watch Northwood Hills. We mitigate risks to your residence."
-        />
+          content="Dallas Home Watch LLC. provides Home Watch Services in the Dallas area for homeowners who have a second property located in north Dallas. " />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />

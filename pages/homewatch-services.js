@@ -11,7 +11,7 @@ function HomeWatchServicesPage(props) {
         <title>Home Watch Services</title>
         <meta
           name="description"
-          content="Home Watch Services Photo Gallery answers the question 'What Does A Home Watch Service Do?' "
+          content="Home Watch Services: 'What Does A Home Watch Service Do?' Home Watchers inspect the interior and exterior of a residential property looking for obvious issues."
         />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
@@ -24,9 +24,7 @@ function HomeWatchServicesPage(props) {
         <meta property="og:title" content="Home Watch Services" />
         <meta
           property="og:description"
-          content="Home Watch Services Photo Gallery answers the question
-         'What Does A Home Watch Service Do?' Home Watch Professionals look for water leaks, mold, 
-         roken items and answer alarms."
+          content="Home Watch Services: 'What Does A Home Watch Service Do?' Home Watchers inspect the interior and exterior of a residential property looking for obvious issues."
         />
         <meta
           property="og:image"

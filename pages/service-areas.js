@@ -11,8 +11,7 @@ function ServiceAreaPage(props) {
         <title>Dallas Home Watch Service Areas</title>
         <meta
           name="description"
-          content="Dallas Home Watch service areas include the following communities: 
-          Highland Park, University Park, Preston Hollow, Lake Forest, Devonshire, Bluffview, 
+          content="Dallas Home Watch service areas include Highland Park, University Park, Preston Hollow, Lake Forest, Devonshire, Bluffview, 
           Northwood Hills and Briarwood."
         />
         <meta property="fb:app_id" content="8620778781329629" />

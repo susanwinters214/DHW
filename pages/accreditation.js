@@ -11,7 +11,7 @@ function AccreditationPage(props) {
         <title>Dallas Home Watch - Accredited Member of NHWA</title>
         <meta
           name="description"
-          content="Dallas Home Watch received Accreditation from the National Home Watch Association."
+          content="Dallas Home Watch received Accreditation from the National Home Watch Association. You must pass exams, and background checks, have insurance, and be bonded."
         />
 
         <meta property="fb:app_id" content="8620778781329629" />
@@ -25,7 +25,7 @@ function AccreditationPage(props) {
         <meta property="og:title" content="Dallas Home Watch Accreditation" />
         <meta
           property="og:description"
-          content="Dallas Home Watch received Accreditation from the National Home Watch Association.."
+          content="Dallas Home Watch received Accreditation from the National Home Watch Association. You must pass exams, and background checks, have insurance, and be bonded."
         />
         <meta
           property="og:image"

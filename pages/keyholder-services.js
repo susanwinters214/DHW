@@ -23,14 +23,14 @@ function KeyHolderPage(props) {
         />
         <meta
           property="og:title"
-          content="Key Holder Services by Dallas Home Watch"
+          content="Key Holder Services | Dallas Home Watch"
         />
         <meta
           property="og:description"
           content="A Key Holder is a professional Home Watch professional that holds the keys to your home to allow access to contractors and vendors to come into the home to perform a service."
         />
         <meta
-          property="og:image:url"
+          property="og:image"
           content="https://www.dallashomewatch.com/images/og/key-holder-services.jpg"
         />
         <meta property="og:image:width" content="1200px" />
