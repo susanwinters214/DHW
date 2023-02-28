@@ -17,6 +17,7 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "eslint-config-next": "^13.1.1"
+    "eslint-config-next": "^13.1.1",
+    "schema-dts": "^1.1.2"
   }
 }

@@ -155,7 +155,7 @@ function WaterLeaksPage(props) {
                           <Image
                             width={480}
                             height={640}
-                            src="/images/blogimg/_waterLEAKS/water-damage-01.jpg"
+                            src="/images/blogimg/_waterLEAKS/water-damage-16.jpg"
                             alt="water damage cleanup"
                           />
                         </div>
@@ -318,7 +318,7 @@ function WaterLeaksPage(props) {
                           <Image
                             width={480}
                             height={640}
-                            src="/images/blogimg/_waterLEAKS/water-damage-16.jpg"
+                            src="/images/blogimg/_waterLEAKS/water-damage-01.jpg"
                             alt="water damage cleanup"
                           />
                         </div>

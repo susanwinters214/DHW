@@ -8,10 +8,10 @@ function ServiceAreaPage(props) {
   return (
     <Fragment>
       <Head>
-        <title>Dallas Home Watch Service Areas</title>
+        <title>Home Watch Services in Dallas Area</title>
         <meta
           name="description"
-          content="Dallas Home Watch service areas include Highland Park, University Park, Preston Hollow, Lake Forest, Devonshire, Bluffview, 
+          content="Home Watch Services in Dallas Area include Highland Park, University Park, Preston Hollow, Lake Forest, Devonshire, Bluffview, 
           Northwood Hills and Briarwood."
         />
         <meta property="fb:app_id" content="8620778781329629" />
@@ -24,11 +24,11 @@ function ServiceAreaPage(props) {
         />
         <meta
           property="og:title"
-          content="Home Watch Service Areas for Dallas Home Watch"
+          content="Home Watch Services in Dallas Area"
         />
         <meta
           property="og:description"
-          content="Dallas Home Watch service areas include the following communities: 
+          content="Home Watch Services in Dallas Area include the following communities: 
           Highland Park, University Park, Preston Hollow, Lake Forest, Devonshire, Bluffview, 
           Northwood Hills and Briarwood."
         />
@@ -48,7 +48,7 @@ function ServiceAreaPage(props) {
             <li>
               <Link href="/">home</Link>
             </li>
-            <li>Service Areas</li>
+            <li>Home Watch Services in Dallas Area</li>
           </ul>
         </div>
       </section>
@@ -74,6 +74,11 @@ function ServiceAreaPage(props) {
                 ></iframe>
               </center>
               <br />
+              Interested in Dallas Crime Reports from the Dallas Police
+              Department?{" "}
+              <Link href="https://www.dallasopendata.com/Public-Safety/Dallas-Police-Active-Calls/9fxf-t2tr/data">
+                Crime Reports
+              </Link>
             </div>{" "}
           </div>{" "}
         </div>
@@ -87,7 +92,26 @@ function ServiceAreaPage(props) {
 
           {/* Highland Park */}
           <a name="HighlandPark"></a>
-          <h3 className="centered neighborhood-name">Highland Park</h3>
+          <h3 className="centered neighborhood-name">
+            Highland Park Home Watch
+          </h3>
+          <p>
+            Highland Park offers a "House Watch" program - a service where a
+            police officer will drive to your house, walk around the outside of
+            your home, looking for broken windows and unlocked doors. Highland
+            Park House Watch does <strong>not</strong> enter the home and check
+            for water leaks, power outages or anything else. They are only
+            checking for signs of forced entry into your home. If you all you
+            need is someone to check to see if your house has been broken into,
+            you can request a House Watch from Highland Park. To request a
+            Vacation House Watch, go to{""}{" "}
+            <Link
+              href="https://hpcrimewatch.org/default.aspx?menuitemid=225&menugroup=Residents"
+              target="_blank"
+            >
+              www.hpcrimewatch.org
+            </Link>
+          </p>
           <div className="row clearfix">
             {/* Content Column */}
             <div className="content-column col-lg-6 col-md-12 col-sm-12">
@@ -118,6 +142,17 @@ function ServiceAreaPage(props) {
                     community make it an ideal place to call home for those
                     seeking luxury, exclusivity, and convenience.
                   </p>
+                  <div>
+                    <iframe
+                      width="400"
+                      height="315"
+                      src="https://www.youtube.com/embed/R4VVTgnffsE?clip=UgkxYw2M41SGFYuj1q14LmF4IAd92RCrgDFU&amp;clipt=EAAY1OQC"
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
                 </div>
               </div>
             </div>
@@ -143,7 +178,30 @@ function ServiceAreaPage(props) {
 
           {/* University Park */}
           <a name="UniversityPark"></a>
-          <h3 className="centered neighborhood-name">University Park</h3>
+          <h3 className="centered neighborhood-name">
+            University Park Home Watch
+          </h3>
+          <p>
+            University Park offers a "House Watch" program - a service where a
+            police officer will drive to your house, walk around the outside of
+            your home, looking for broken windows and unlocked doors. The
+            University Park House Watch program does <strong>not</strong>{" "}
+            include an interior expection of your home and appliances. Police
+            officers do not look at the structure of the home or have any
+            concern with whether or not your appliances are working, you have a
+            water leak or anthing of that nature. They are only looking for
+            break-ins. If you all you need is someone to check to see if your
+            house has been broken into, you can request a House Watch from the
+            University Park House Watch Program. To request a Vacation House
+            Watch, go to:{" "}
+            <Link
+              href=" https://universitypark.mycusthelp.com/WEBAPP/_rs/(S(vcoyq2xtkn3hjqkophpkellv))/AnswerDetail.aspx?sSessionID=&aid=288
+               "
+              target="_blank"
+            >
+              University Park House Watch
+            </Link>
+          </p>
           <div className="row clearfix">
             {/* Content Column */}
             <div className="content-column col-lg-6 col-md-12 col-sm-12">
@@ -172,6 +230,16 @@ function ServiceAreaPage(props) {
                   place to call home for families and those seeking luxury and
                   convenience.{" "}
                 </p>
+
+                <iframe
+                  width="400"
+                  height="315"
+                  src="https://www.youtube.com/embed/ZabEp-BMhyc?clip=UgkxPyhWW5yjFCE8QhHUDnc5BCkFPubS6kgK&amp;clipt=EAAY0d0B"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
               </div>
             </div>
             {/* Image Column */}
@@ -269,6 +337,18 @@ function ServiceAreaPage(props) {
                   Lane, and Walnut Hill Lane. Zip codes in the Preston Hollow
                   area include: 75220, 75225, and 75229.
                 </p>
+
+                <div>
+                  <iframe
+                    width="400"
+                    height="315"
+                    src="https://www.youtube.com/embed/xHqK2egJKMk?clip=Ugkxzw6jdyXeX9gskVdaCLJtTwAiyZ7KL5DE&amp;clipt=EPeXERjX7BQ"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>{" "}
+                </div>
               </div>
             </div>
             {/* Image Column */}
@@ -326,6 +406,18 @@ function ServiceAreaPage(props) {
                   make it a popular choice for families and those seeking a
                   luxurious lifestyle.
                 </p>
+
+                <div>
+                  <iframe
+                    width="400"
+                    height="315"
+                    src="https://www.youtube.com/embed/7H6rSovz604"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
+                </div>
               </div>
             </div>
             {/* Image Column */}
