@@ -9,27 +9,8 @@ import Image from "next/image";
 
 
 function AboutPage() {
+ 
 
-  function addAboutJsonLd() {
-    return {
-      __html: `{
-      "@context": "https://schema.org/",
-      "@type": "Person",
-"address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Dallas",
-    "addressRegion": "TX",
-    "postalCode": "75234",
-    "streetAddress": "12217 Chapel View"
-  },
-  "email": "mailto:tina.lawson@dallashomewatch.com",
-  "image": "tina-lawson-400x400.jpg",
-  "jobTitle": "Home Watch Professional",
-  "name": "Tina Lawson",
-  "telephone": "(972) 982-7050",
-  "url": "http://www.dallashomewatch.com/about"
-}`
-     };
 
     return (
       <Fragment>
@@ -64,13 +45,9 @@ function AboutPage() {
           />
 
 
-          <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={addProductJsonLd()}
-            key="product-jsonld"
-          />
+         
 
-  </Head>
+        </Head>
         {/* insert top banner with Page Title & Breadcrumb*/}
         <section className="page-title pageback-about">
           <div className="auto-container">
@@ -194,5 +171,6 @@ function AboutPage() {
       </Fragment>
     );
   }
-}
+
+
   export default AboutPage;
