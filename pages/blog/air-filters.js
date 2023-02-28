@@ -9,6 +9,7 @@ function AirFiltersPage(props) {
     <Fragment>
       <Head>
         <title>Air Filters</title>
+        <meta name="robots" content="noindex"></meta>
         <meta
           name="description"
           content="Home Watch Service includes checking all of your air filters to make sure they are clean and if not, replace them."

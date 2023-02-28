@@ -9,6 +9,7 @@ function GarageDoorOpenersPage(props) {
     <Fragment>
       <Head>
         <title>Garage Door Openers</title>
+        <meta name="robots" content="noindex"></meta>
         <meta
           name="description"
           content="Home Watch Service includes checking your garage door and garage door opener
@@ -108,11 +109,11 @@ function GarageDoorOpenersPage(props) {
                       One of the best ways to ensure that your garage door
                       opener is in good condition while you are away is by
                       hiring Dallas Home Watch to inspect your home. Dallas Home
-                      Watch is a professional home watch service company that provides
-                      visual inspections looking for obvious issues.  They specialize in
-                      monitoring your home while
-                      you are away, ensuring that your appliances, including
-                      your garage door opener, are in good condition.
+                      Watch is a professional home watch service company that
+                      provides visual inspections looking for obvious issues.
+                      They specialize in monitoring your home while you are
+                      away, ensuring that your appliances, including your garage
+                      door opener, are in good condition.
                     </p>
                     <p>
                       Dallas Home Watch can inspect your garage door and garage
@@ -120,10 +121,10 @@ function GarageDoorOpenersPage(props) {
                       noises, broken springs or cables, or power failure. These
                       signs can indicate that your garage door opener is not
                       functioning correctly and could potentially cause damage.
-                      For instance, a broken spring could cause
-                      your garage door to malfunction, while a weird noise could
-                      indicate that your garage door opener is not running
-                      correctly, and may require repairs or replacement.
+                      For instance, a broken spring could cause your garage door
+                      to malfunction, while a weird noise could indicate that
+                      your garage door opener is not running correctly, and may
+                      require repairs or replacement.
                     </p>
 
                     <p>
@@ -153,7 +154,10 @@ function GarageDoorOpenersPage(props) {
                       The technician will inspect the door and opener for any
                       signs of wear and tear and perform maintenance as needed
                       to ensure that your garage door is functioning correctly
-                      and safely.  Dallas Home Watch can be on site to let your garage door company come and maintain or repair your garage door system and lock up your residence after they leave.
+                      and safely. Dallas Home Watch can be on site to let your
+                      garage door company come and maintain or repair your
+                      garage door system and lock up your residence after they
+                      leave.
                     </p>
                     <p>
                       Lastly, Dallas Home Watch can also reprogram your car
