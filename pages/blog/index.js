@@ -8,14 +8,23 @@ function BlogPage(props) {
     <Fragment>
       <Head>
         <title>Dallas Home Watch Services | BLOG</title>
-        <meta name="description" content=" " />
+        <meta
+          name="description"
+          content="Home Watch Blog Articles - Read interesting blogs about the various things that happen in the Home Watch industry including things that go wrong with a house."
+        />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
 
-        <meta property="og:url" content="https://www.dallashomewatch.com" />
-        <meta property="og:title" content="Dallas Home Watch" />
-        <meta property="og:description" content="" />
+        <meta
+          property="og:url"
+          content="https://www.dallashomewatch.com/blog"
+        />
+        <meta property="og:title" content="Home Watch Blog Articles" />
+        <meta
+          property="og:description"
+          content="Home Watch Blog Articles - Read interesting blogs about the various things that happen in the Home Watch industry including things that go wrong with a house."
+        />
         <meta
           property="og:image"
           content="https://www.dallashomewatch.com/images/og/dallas-home-watch-logo-skyline-certified.jpg"
@@ -105,7 +114,10 @@ function BlogPage(props) {
                       Catching water leaks can prevent damage to your home.
                     </div>
                   </div>
-                  <Link href="/blog/water-leaks" className="arrow flaticon-right" />
+                  <Link
+                    href="/blog/water-leaks"
+                    className="arrow flaticon-right"
+                  />
                 </div>
               </div>
               {/* Services Block CONCIERGE*/}
