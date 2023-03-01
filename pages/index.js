@@ -20,7 +20,7 @@ function HomePage(props) {
         <meta
           property="og:description"
           content="Dallas Home Watch LLC. provides Home Watch Services in the Dallas area for homeowners who have a second property located in north Dallas, Highland Park, Preston Hollow, University Park,
-          Lake Forest, Bluffview, Devonshire, Briarwood and Northwood Hills. We perform a visual inspection of your home while you are away and help you mitigate risks to your residence."
+          Bluffview and Northwood Hills. We perform a visual inspection of your home while you are away and help you mitigate risks to your residence."
         />
         <meta
           property="og:image"

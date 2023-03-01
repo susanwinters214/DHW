@@ -17,7 +17,13 @@ class MyDocument extends Document {
             name="google-site-verification"
             content="YM2JCV00ZJ7zOQKE2CmpnuZCcMsLUhtR4AeB5q2btuw"
           />
+        </Head>
+        <Script src="js/jquery.min.js" strategy="beforeInteractive"></Script>
 
+        <body className="hidden-bar-wrapper">
+          <Main />
+          <NextScript />
+          <div id="notifications"></div>
           <Script
             src="https://www.googletagmanager.com/gtag/js?id=G-8N43XDXPPJ"
             strategy="afterInteractive"
@@ -31,13 +37,6 @@ class MyDocument extends Document {
           gtag('config', 'G-8N43XDXPPJ');
         `}
           </Script>
-        </Head>
-        <Script src="js/jquery.min.js" strategy="beforeInteractive"></Script>
-
-        <body className="hidden-bar-wrapper">
-          <Main />
-          <NextScript />
-          <div id="notifications"></div>
         </body>
       </Html>
     );
