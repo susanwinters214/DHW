@@ -297,10 +297,16 @@ function NationalHomeWatchMonthPage(props) {
                     <div className="content-column col-lg-12 col-md-12 col-sm-12">
                       <div className="text-box">
                         <h3>
-                          Share the News about National Home Watch Month on
-                          Facebook.
+                          {" "}
+                          <Link
+                            target="_blank"
+                            href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.dallashomewatch.com%2Fnational-homewatch-month&amp;src=sdkpreparse"
+                            class="fb-xfbml-parse-ignore"
+                          >
+                            Share the News about National Home Watch Month on
+                            Facebook.
+                          </Link>
                         </h3>
-                       
                       </div>
                     </div>
                     <div
@@ -319,22 +325,11 @@ function NationalHomeWatchMonthPage(props) {
                           alt="Facebook share"
                           width={200}
                           height={100}
-                        /><br />
+                        />
+                        <br />
                         Share on Facebook
                       </Link>
                     </div>
-                    <p>
-                      {" "}
-                      <br />
-                      Interested in other National Days? View the list of {""}
-                      <Link
-                        href="https://crestline.com/c/calendar-of-events"
-                        target="_blank"
-                      >
-                        National Holidays
-                      </Link>{" "}
-                      celebrated:
-                    </p>
                     <br />
                     <br />
                     <h3>National Home Watch Month In The News</h3> <br />
@@ -356,7 +351,18 @@ function NationalHomeWatchMonthPage(props) {
                         Facebook
                       </Link>
                     </p>{" "}
-                    <br /> <br />
+                    <br />
+                    <p>
+                      Interested in other National Days? View the list of{" "}
+                      <Link
+                        href="https://crestline.com/c/calendar-of-events"
+                        target="_blank"
+                      >
+                        National Holidays
+                      </Link>{" "}
+                      celebrated.
+                    </p>{" "}
+                    <br />
                     <h3>Ready To Hire A Home Watch Service Business?</h3>
                     <br />
                     <a
