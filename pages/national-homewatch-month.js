@@ -287,7 +287,7 @@ function NationalHomeWatchMonthPage(props) {
                       In summary, House Watch programs will check the exerior of
                       your home looking for vandalism. House Sitters will sit in
                       your home with the intent to detour squatters or
-                      break-ins. And A Home Watch company will provide
+                      break-ins. A Home Watch company will provide
                       inspections of the interior and exterior of your home to
                       provide peace of mind about your property while you are
                       away.
