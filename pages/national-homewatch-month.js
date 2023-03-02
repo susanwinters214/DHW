@@ -275,10 +275,10 @@ function NationalHomeWatchMonthPage(props) {
                     </p>
                     <div className="image centered">
                       <Image
-                        src="/images/logos/national-home-watch-month-logo.png"
+                        src="/images/logos/NHWM-book.jpg"
                         alt="National Home Watch Month Logo"
-                        width={526}
-                        height={526}
+                        width={525}
+                        height={525}
                       />
                     </div>
                     <br />
