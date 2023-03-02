@@ -30,7 +30,7 @@ function NationalHomeWatchMonthPage(props) {
         />
         <meta
           property="og:image"
-          content="https://www.dallashomewatch.com/images/og/dallas-home-watch-opening-doors.jpg"
+          content="https://www.dallashomewatch.com/images/blogimg/og-NHWMonth.jpg"
         />
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />
@@ -39,6 +39,16 @@ function NationalHomeWatchMonthPage(props) {
           content="National Home Watch Month Banner"
         />
       </Head>
+      {/* Facebook Like JS Code*/}
+      <div id="fb-root"></div>
+      <script
+        async
+        defer
+        crossorigin="anonymous"
+        src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v16.0&appId=8620778781329629&autoLogAppEvents=1"
+        nonce="P6S6t9vu"
+      ></script>
+
       {/* insert top banner with Page Title & Breadcrumb*/}
       <section className="page-title pageback-hwservice">
         <div className="auto-container">
@@ -290,20 +300,32 @@ function NationalHomeWatchMonthPage(props) {
                           Share the News about National Home Watch Month on
                           Facebook.
                         </h3>
-                        <div className="image centered">
-                          <Image
-                            src="/images/blogimg/Facebook-Share-200x100.jpg"
-                            alt="Facebook share"
-                            width={200}
-                            height={100}
-                          />
-                        </div>
+                       
                       </div>
+                    </div>
+                    <div
+                      class="fb-share-button centered"
+                      data-href="https://www.dallashomewatch.com/national-homewatch-month"
+                      data-layout=""
+                      data-size=""
+                    >
+                      <Link
+                        target="_blank"
+                        href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.dallashomewatch.com%2Fnational-homewatch-month&amp;src=sdkpreparse"
+                        class="fb-xfbml-parse-ignore"
+                      >
+                        <Image
+                          src="/images/blogimg/Facebook-Share-200x100.jpg"
+                          alt="Facebook share"
+                          width={200}
+                          height={100}
+                        /><br />
+                        Share on Facebook
+                      </Link>
                     </div>
                     <p>
                       {" "}
-                      <br /> <br /> <br /> <br />
-                      <br /> <br />
+                      <br />
                       Interested in other National Days? View the list of {""}
                       <Link
                         href="https://crestline.com/c/calendar-of-events"
