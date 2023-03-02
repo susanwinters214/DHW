@@ -260,7 +260,7 @@ function NationalHomeWatchMonthPage(props) {
                       When you hire a House Sitter, that person will come in and
                       stay in your home overnight for the duration of your
                       absence. A House Sitter will sleep, eat, watch tv and
-                      possibly entertain guests while you area away. Hiring a
+                      possibly entertain guests while you are away. Hiring a
                       House Sitter to detour squatters and possible break-ins
                       may be all you want. Home Watch professionals do not stay
                       at your house overnight. They are professionally trained
