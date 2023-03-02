@@ -63,6 +63,7 @@ function BlogPage(props) {
                       Read Articles <i className="phone" />
                     </span>
                   </Link>
+                
                 </div>
               </div>
             </div>

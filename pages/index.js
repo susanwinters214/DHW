@@ -62,6 +62,16 @@ function HomePage(props) {
                     </span>
                   </Link>
                 </div>
+
+                <br />
+                <Link href="/national-homewatch-month">
+                  <Image
+                    width={250}
+                    height={250}
+                    src="/images/logos/national-homewatch-month-2023.png"
+                    alt="home-watch-professional-checking-doors"
+                  />
+                </Link>
               </div>
             </div>
           </div>
@@ -271,7 +281,6 @@ function HomePage(props) {
       </section>
 
       <div className="clearfix"> </div>
-    
 
       {/* insert blue area with video */}
       <section className="counter-section">
