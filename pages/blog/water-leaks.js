@@ -29,7 +29,7 @@ function WaterLeaksPage(props) {
         />
         <meta
           property="og:image"
-          content="https://www.dallashomewatch.com/images/og-water-leaks.jpg"
+          content="https://www.dallashomewatch.com/images/blogimg/og-water-leak-damage.jpg"
         />
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />

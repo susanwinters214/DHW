@@ -29,7 +29,7 @@ function AirFiltersPage(props) {
         />
         <meta
           property="og:image"
-          content="https://www.dallashomewatch.com/images/og-air-filter-replacement.jpg"
+          content="https://www.dallashomewatch.com/images/blogimg/og-air-filter-replacement.jpg"
         />
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />
