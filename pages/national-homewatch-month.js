@@ -9,7 +9,7 @@ function NationalHomeWatchMonthPage(props) {
     <Fragment>
       <Head>
         <title>National Home Watch Month 2023</title>
-        <meta name="robots" content="noindex"></meta>
+
         <meta
           name="description"
           content="March 2023 is the first 'National Home Watch Month' created to bring awareness of the definition of 'Home Watch' as a Professional Service offered to Home Owners."
@@ -64,18 +64,247 @@ function NationalHomeWatchMonthPage(props) {
                   <div className="sec-title">
                     <h2 className="pageTitle">March 2023 | NHWM</h2>
                     <p className="text">
-                      'Home Watch' is not a familiar term known to the general
-                      public. Those of us in the Home Watch Business want to
-                      make 'Home Watch' a 'household name'. In order to do that,
-                      we need to educate the general public. So March has been
-                      declared as "National Home Watch Month". During this
-                      month, all of the Home Watch Companies that are accredited
-                      with the NHWA will help educate the general public about
-                      the Home Watch Industry. Follow our social media accounts
-                      to learn more about what is being discussed.
+                      <strong> 'Home Watch' </strong>is not a term known to the
+                      general public. Those in the Home Watch industry want to
+                      make 'Home Watch' a household name. To do that, we need to
+                      educate the general public. So March has been declared
+                      National Home Watch Month. During this time, all Home
+                      Watch Companies associated with the NHWA have been
+                      encouraged to help educate the general public about the
+                      Home Watch Industry.
+                    </p>
+                    <div className="image centered">
+                      <Image
+                        src="/images/logos/National-Home-Watch-Month-Logo.jpg"
+                        alt="National Home Watch Month Logo"
+                        width={526}
+                        height={526}
+                      />
+                    </div>
+                    <br /> <br />
+                    <h2>What Does A Home Watch Service Do?</h2>
+                    <p>
+                      Home Watch is a service that performs visual inspections
+                      of a home or property, looking for obvious issues. When
+                      looking for a Home Watch company, make sure they have a
+                      business license, are bonded and insured. You also want to
+                      make sure the Home Watch company that you hire has been
+                      professionally trained in the Home Watch industry and has
+                      the education, knowledge and experience to examine your
+                      home, document their findings and provide reports through
+                      a secured software portal.
                     </p>
                     <p>
-                      Here are some additional{" "}
+                      The National Home Watch Association (NHWA) was founded in
+                      2009 to establish insurance requirements, best practices,
+                      policies and procedures, as well as ethics for this new
+                      service industry not yet officially recognized by any
+                      federal, provincial, or municipal government in the US or
+                      Canada. All Accredited Members have background checks and
+                      are vetted for business practices. You can find a list of
+                      accredited members of the National Home Watch Association
+                      on their
+                      <Link
+                        href="https://www.nationalhomewatchassociation.org/find-an-accredited-nhwa-member/"
+                        target="_blank"
+                      >
+                        {" "}
+                        website.
+                      </Link>
+                      <br />
+                      <br />
+                    </p>
+                    <h2>Who Uses A Home Watch Company?</h2>
+                    <p>
+                      Clients of Home Watch are those who take long extended
+                      vacations or own multiple residential properties. While
+                      clients are residing in one of their homes, they need a
+                      Home Watch company to make regular visits and inspections
+                      of the home they are not currently staying. <br />
+                      <br />
+                    </p>
+                    <h2>Why Are Home Watch Visits Necessary? </h2>
+                    <p>
+                      A lot can happen inside an unoccupied home. Water leak
+                      damage is one of the most expensive catastrophes that can
+                      happen to a home. If not caught quickly, floors,
+                      baseboards, counters, and furniture could all become
+                      ruined from water damage. Home Watch visits include
+                      looking for water damage and if found, will immediately
+                      take action and notify the homeowner.{" "}
+                    </p>
+                    <p>
+                      Tripped breakers can also cause problems. Imagine coming
+                      home to find out that you had a breaker trip which caused
+                      your refrigerator to stop working. Now all your food is
+                      spoiled and you have a big mess to clean up. Coming home
+                      to a defrosted freezer would also not be a pleasant thing.
+                      A Home Watch inspection would have caught these problems,
+                      fixed them if possible or notified you to help resolve
+                      together before you returned home.{" "}
+                    </p>
+                    <p>
+                      Thermostats can also malfunction and cause your home to
+                      become too hot or too cold. If the batteries in your
+                      thermostat go out, you will be unable to control your HVAC
+                      system. When you hire a Home Watch Service Provider, you
+                      can rest assured knowing that checking your thermostats is
+                      one of the items that will be done.{" "}
+                    </p>
+                    <div className="row">
+                      <div className="column col-lg-4 col-md-4 col-sm-12">
+                        {" "}
+                        <div className="image centered">
+                          <Image
+                            src="/images/blogimg/frozen-pool-240x320.jpg"
+                            alt="frozen pipes frozen pool"
+                            width={240}
+                            height={320}
+                          />{" "}
+                          <br />
+                          <br />
+                        </div>
+                      </div>
+                      <div className="column col-lg-4 col-md-4 col-sm-12">
+                        {" "}
+                        <div className="image centered">
+                          <Image
+                            src="/images/blogimg/water-damage-240x320.jpg"
+                            alt="water damage from water leak"
+                            width={240}
+                            height={320}
+                          />
+                          <br />
+                          <br />
+                        </div>
+                      </div>
+                      <div className="column col-lg-4 col-md-4 col-sm-12">
+                        {" "}
+                        <div className="image centered">
+                          <Image
+                            src="/images/blogimg/big-trees-240x320.jpg"
+                            alt="big trees down after Texas storm"
+                            width={240}
+                            height={320}
+                          />
+                        </div>{" "}
+                        <br />
+                        <br />
+                      </div>
+                    </div>
+                    <p>
+                      A Home Watch Service can also check your wifi speed to
+                      ensure it's working for all your remote access devices. If
+                      needed, we can also reboot your router and even meet with
+                      your internet service provider if they need to come in to
+                      make a repair while you are away.{" "}
+                    </p>
+                    <p>
+                      Inclement weather can also cause damage to your home.
+                      Imagine a cold front comes through and freezes your pipes,
+                      they burst and now your pool system is ruined. Another
+                      potential problem is trees coming down and landing on your
+                      house after a large Texas thunderstorm. If you have a Home
+                      Watch company looking after your home while you are away,
+                      they can check the exterior of your home after bad weather
+                      and notify you of any damage done to your property.
+                    </p>
+                    <p>
+                      A Home Watch Service provides homeowners with the
+                      assurance that their property is being regularly checked
+                      and monitored, giving them peace of mind while they are
+                      away. A home watch service can identify potential problems
+                      before they become major issues, saving homeowners time
+                      and money in the long run. <br />
+                      <br />
+                    </p>
+                    <h2>How is Home Watch different from House Watch? </h2>
+                    <p>
+                      House Watch is a term often used by HOAs that offer
+                      volunteer service of driving by an unoccupied home,
+                      walking the exterior premises checking for signs of a
+                      break-in or vandalism. Home Watch also performs these
+                      actions but goes a step further by doing things to make
+                      the home look as though someone is there. We will pick up
+                      any mail, flyers or packages from your front door and
+                      sweep away any debries or collection of dead bugs. We will
+                      also occassionally move your trash cans to the curb on
+                      trash day and roll them back into the garage the next day.
+                      Upon your requests, we can also change the lighting in
+                      your home to make it appear someone is in various parts of
+                      the home when you are not there. House Watch programs
+                      often use off duty police officers and arrive to your home
+                      in their police vehicle which draws attention to your
+                      house. Dallas Home Watch will arrive at your house in a
+                      discreet, unmarked vehicle in order to not draw attention
+                      to the fact that your house is empty and being monitored.
+                      Home Watch companies also go above and beyond a House
+                      Watch program because Home Watch professionals enter your
+                      home and check all of your appliances to make sure
+                      everything is working. They also check your attic for
+                      leaks after heavy rain. <br />
+                      <br />
+                    </p>
+                    <h2>How is Home Watch different from House Sitting?</h2>
+                    <p>
+                      When you hire a House Sitter, that person will come in and
+                      stay in your home overnight for the duration of your
+                      absence. A House Sitter will sleep, eat, watch tv and
+                      possibly entertain guests while you area away. Hiring a
+                      House Sitter to detour squatters and possible break-ins
+                      may be all you want. Home Watch professionals do not stay
+                      at your house overnight. They are professionally trained
+                      to perform inspections on your home looking for things
+                      like water leaks, mold, mildew and more. Home Watch
+                      professionals document their findings and notify the
+                      homeowner of any potential problems and then work with the
+                      client to resolve any issues. A House Sitter will sit in
+                      your house. A Home Watch professional will help mitigate
+                      risks by performing inspections on your property. <br />
+                      <br />
+                    </p>
+                    <div className="image centered">
+                      <Image
+                        src="/images/logos/National-Home-Watch-Month-Logo.png"
+                        alt="National Home Watch Month Logo"
+                        width={526}
+                        height={526}
+                      />
+                    </div>
+                    <br />
+                    <br />
+                    <p>
+                      In summary, House Watch programs will check the exerior of
+                      your home looking for vandalism. House Sitters will sit in
+                      your home with the intent to detour squatters or
+                      break-ins. And A Home Watch company will provide
+                      inspections of the interior and exterior of your home to
+                      provide peace of mind about your property while you are
+                      away.
+                      <br />
+                      <br />
+                    </p>
+                    <div className="content-column col-lg-12 col-md-12 col-sm-12">
+                      <div className="text-box">
+                        <h3>
+                          Share the News about National Home Watch Month on
+                          Facebook.
+                        </h3>
+                        <div className="image centered">
+                          <Image
+                            src="/images/blogimg/Facebook-share-200x100.jpg"
+                            alt="Facebook share"
+                            width={200}
+                            height={100}
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <p>
+                      {" "}
+                      <br /> <br /> <br /> <br />
+                      <br /> <br />
+                      Interested in other National Days? View the list of {""}
                       <Link
                         href="https://crestline.com/c/calendar-of-events"
                         target="_blank"
@@ -86,19 +315,37 @@ function NationalHomeWatchMonthPage(props) {
                     </p>
                     <br />
                     <br />
-                    <h2>Home Watch Social Media</h2> <br />
+                    <h3>National Home Watch Month In The News</h3> <br />
+                    <p>
+                      Read article on:{" "}
+                      <Link href="https://gsabizwire.com/the-national-home-watch-association-announces-the-inaugural-national-home-watch-month/">
+                        GSA BizWire
+                      </Link>
+                    </p>
+                    <p>
+                      Read article on:{" "}
+                      <Link href="https://konklife.com/the-national-home-watch-association-announces-the-inaugural-national-home-watch-month-according-to-the-us-census-bureau-in-their-2021-annual-community-survey-there-are-well-over-2-64-million/">
+                        Knoklife
+                      </Link>
+                    </p>
                     <p>
                       Dallas Home Watch on{" "}
                       <Link href="https://www.facebook.com/dallashomewatch">
                         Facebook
                       </Link>
-                    </p>
-                    <p>
-                      Dallas Home Watch on{" "}
-                      <Link href="https://www.yelp.com/biz/dallas-home-watch-farmers-branch-2">
-                        Yelp
-                      </Link>
-                    </p>
+                    </p>{" "}
+                    <br /> <br />
+                    <h3>Ready To Hire A Home Watch Service Business?</h3>
+                    <br />
+                    <a
+                      href="tel:972-982-7050"
+                      className="theme-btn btn-style-two"
+                    >
+                      <span className="txt">
+                        CALL DALLAS HOME WATCH
+                        <i className="phone" />
+                      </span>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -108,760 +355,7 @@ function NationalHomeWatchMonthPage(props) {
       </section>
 
       <section className="services-page-section centered">
-        <div className="auto-container">
-          <h2>What Does A Home Watch Service Do?</h2>
-          {/* Security Alarms  - TINA R */}
-          <div className="services-block-three">
-            <div
-              className="inner-box wow fadeInUp"
-              data-wow-delay="0ms"
-              data-wow-duration="1500ms"
-            >
-              <div className="row clearfix">
-                {/* Content Column */}
-                <div className="content-column col-lg-6 col-md-12 col-sm-12">
-                  <div className="inner-column">
-                    <h3>Security Alarms</h3>
-                    <div className="text">
-                      We make sure your alarm system is operational. Dallas Home
-                      Watch will turn on the alarm and secure all entries when
-                      leaving. You can list us as an emergency contact with your
-                      alarm company and we will respond to alarms while you are
-                      out of town and unable to meet with the police.
-                    </div>
-                  </div>
-                </div>
-                {/* Image Column */}
-                <div className="image-column col-lg-6 col-md-12 col-sm-12">
-                  <div className="inner-column">
-                    <div className="image">
-                      <Image
-                        width={530}
-                        height={416}
-                        src="/images/hw-check/security-alarm-inspection.jpg"
-                        alt="home security alarm inspection"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* Water Leaks  -   L */}
-          <div className="services-block-three style-two">
-            <div
-              className="inner-box wow fadeInUp"
-              data-wow-delay="0ms"
-              data-wow-duration="1500ms"
-            >
-              <div className="row clearfix">
-                {/* Image Column */}
-                <div className="image-column col-lg-6 col-md-12 col-sm-12">
-                  <div className="inner-column">
-                    <div className="image">
-                      <Image
-                        width={530}
-                        height={416}
-                        src="/images/hw-check/faucet-sink-inspection.jpg"
-                        alt="running water faucet"
-                      />
-                    </div>
-                  </div>
-                </div>
-                {/* Content Column */}
-                <div className="content-column col-lg-6 col-md-12 col-sm-12">
-                  <div className="inner-column">
-                    <h3>Water Faucets</h3>
-                    <div className="text">
-                      <p>
-                        Ignoring leaky faucets can be highly detrimental to the
-                        house's structural integrity, depending on the location
-                        of the leak.
-                      </p>
-                      <p>
-                        We check all water faucets to ensure the water is not
-                        dripping once it is turned off. We perform a visual
-                        inspection of the pipes under your sinks and will alert
-                        you of any problems and if necessary, meet with your
-                        plumber for repairs.
-                      </p>
-                      <p>
-                        During freezing weather, we can go by your house and
-                        drip the faucets to help prevent pipes from busting.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* Watercop -  R */}
-          <div className="services-block-three">
-            <div
-              className="inner-box wow fadeInUp"
-              data-wow-delay="0ms"
-              data-wow-duration="1500ms"
-            >
-              <div className="row clearfix">
-                {/* Content Column */}
-                <div className="content-column col-lg-6 col-md-12 col-sm-12">
-                  <div className="inner-column">
-                    <h3>Water Filtration Devices</h3>
-                    <div className="text">
-                      <p>
-                        Property owners or installers should periodically test
-                        sensors with water to ensure proper placement, power
-                        supply and communication with the WaterCop valve. We can
-                        check your WaterCop System to verify it is on and
-                        replace the batteries if necessary.
-                      </p>
-                      <p>
-                        If you do not currently have a WaterCop System and would
-                        like one installed, Dallas Home Watch offers{" "}
-                        <Link href="/keyholder-services">
-                          Home Watch Key Holder
-                        </Link>{" "}
-                        which enables us to meet with the technician and install
-                        the WaterCop system while you gone
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                {/* Image Column */}
-                <div className="image-column col-lg-6 col-md-12 col-sm-12">
-                  <div className="inner-column">
-                    <div className="image">
-                      <Image
-                        width={530}
-                        height={416}
-                        src="/images/hw-check/watercop-device.jpg"
-                        alt="water filter inspection"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Tubs & Toilets -  L */}
-          <div className="services-block-three style-two">
-            <div
-              className="inner-box wow fadeInUp"
-              data-wow-delay="0ms"
-              data-wow-duration="1500ms"
-            >
-              <div className="row clearfix">
-                {/* Image Column */}
-                <div className="image-column col-lg-6 col-md-12 col-sm-12">
-                  <div className="inner-column">
-                    <div className="image">
-                      <Image
-                        width={530}
-                        height={416}
-                        src="/images/hw-check/toilets-and-tubs.jpg"
-                        alt="toilet flushing near tub"
-                      />
-                    </div>
-                  </div>
-                </div>
-                {/* Content Column */}
-                <div className="content-column col-lg-6 col-md-12 col-sm-12">
-                  <div className="inner-column">
-                    <h3>Toilets & Tubs</h3>
-                    <div className="text">
-                      <p>
-                        Toilets can collect bacteria, which can cause stains. We
-                        flush all of the toilets to make sure they are working
-                        and to rinse the bowl of any stains. We may pour a half
-                        cup of bleach into the bowl if necessary.{" "}
-                      </p>
-                      <p>
-                        When we flush a toilet, we do not leave the bathroom
-                        until the water is completely finished running water
-                        into the tank and the flapper is sealed.
-                      </p>
-                      <p>
-                        {" "}
-                        We turn the water on and off in the tubs and check the
-                        surrounding areas for water leaks.{" "}
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* Refrigerator R */}
-          <div className="services-block-three">
-            <div
-              className="inner-box wow fadeInUp"
-              data-wow-delay="0ms"
-              data-wow-duration="1500ms"
-            >
-              <div className="row clearfix">
-                {/* Content Column */}
-                <div className="content-column col-lg-6 col-md-12 col-sm-12">
-                  <div className="inner-column">
-                    <h3>Refrigerators</h3>
-                    <div className="text">
-                      <p>
-                        We check the refrigerator to make sure the light comes
-                        on. If you want us to, we can clean out expired food
-                        from your refrigerator.
-                      </p>{" "}
-                      <p>
-                        Our{" "}
-                        <Link href="/concierge-services">
-                          Concierge Services
-                        </Link>{" "}
-                        can pick up your grocery and beverage store orders,
-                        deliver and stock your refrigerator and pantry prior to
-                        your arrival with a 48 hour notice. (Monday deliveries
-                        would need to be requested on the prior Friday.){" "}
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                {/* Image Column */}
-                <div className="image-column col-lg-6 col-md-12 col-sm-12">
-                  <div className="inner-column">
-                    <div className="image">
-                      <Image
-                        width={530}
-                        height={416}
-                        src="/images/hw-check/refrigerator-inspection.jpg"
-                        alt="refrigerator inspection"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* Bar Sink  - TINA L */}
-          <div className="services-block-three style-two">
-            <div
-              className="inner-box wow fadeInUp"
-              data-wow-delay="0ms"
-              data-wow-duration="1500ms"
-            >
-              <div className="row clearfix">
-                {/* Image Column */}
-                <div className="image-column col-lg-6 col-md-12 col-sm-12">
-                  <div className="inner-column">
-                    <div className="image">
-                      <Image
-                        width={530}
-                        height={416}
-                        src="/images/hw-check/bar-sink-inspection.jpg"
-                        alt="bar sink inspection"
-                      />
-                    </div>
-                  </div>
-                </div>
-                {/* Content Column */}
-                <div className="content-column col-lg-6 col-md-12 col-sm-12">
-                  <div className="inner-column">
-                    <h3>Water Leaks</h3>
-                    <div className="text">
-                      Our{" "}
-                      <Link href="/homewatch-checklist">
-                        Home Watch Checklist
-                      </Link>{" "}
-                      includes inspecting under sinks looking for leaks and mold
-                      caused by water damage. We will alert you immediately if
-                      we find any problems.
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Media Closet  - TINA  R */}
-          <div className="services-block-three">
-            <div
-              className="inner-box wow fadeInUp"
-              data-wow-delay="0ms"
-              data-wow-duration="1500ms"
-            >
-              <div className="row clearfix">
-                {/* Content Column */}
-                <div className="content-column col-lg-6 col-md-12 col-sm-12">
-                  <div className="inner-column">
-                    <h3>Media Equipment</h3>
-                    <div className="text">
-                      <p>
-                        Your media closet may include compenents to sound
-                        systems, television systems, lighting systems or
-                        internet/cable systems. We can look inside your media
-                        closet and reset any components.{" "}
-                      </p>
-                      <p>
-                        <Link href="/keyholder-services">
-                          Home Watch Key Holder
-                        </Link>{" "}
-                        service enables us to meet with your media equipment
-                        company to set up new services or install new equipment.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                {/* Image Column */}
-                <div className="image-column col-lg-6 col-md-12 col-sm-12">
-                  <div className="inner-column">
-                    <div className="image">
-                      <Image
-                        width={530}
-                        height={416}
-                        src="/images/hw-check/electronics-closet-inspection.jpg"
-                        alt="media equipment inspection"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* Router  -  L */}
-          <div className="services-block-three style-two">
-            <div
-              className="inner-box wow fadeInUp"
-              data-wow-delay="0ms"
-              data-wow-duration="1500ms"
-            >
-              <div className="row clearfix">
-                {/* Image Column */}
-                <div className="image-column col-lg-6 col-md-12 col-sm-12">
-                  <div className="inner-column">
-                    <div className="image">
-                      <Image
-                        width={530}
-                        height={416}
-                        src="/images/hw-check/router-inspection.jpg"
-                        alt="troubleshooting home router"
-                      />
-                    </div>
-                  </div>
-                </div>
-                {/* Content Column */}
-                <div className="content-column col-lg-6 col-md-12 col-sm-12">
-                  <div className="inner-column">
-                    <h3>Routers</h3>
-                    <div className="text">
-                      <p>
-                        {" "}
-                        Because your security system may depend on your internet
-                        connection, we make sure your router is working properly
-                        and can reboot the router when necessary.{" "}
-                      </p>
-                      <p>
-                        <Link href="/keyholder-services">
-                          Home Watch Key Holder
-                        </Link>{" "}
-                        service enables us to meet with your cable / internet
-                        company to set up new service or install new equipment.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Air Filter R */}
-          <div className="services-block-three">
-            <div
-              className="inner-box wow fadeInUp"
-              data-wow-delay="0ms"
-              data-wow-duration="1500ms"
-            >
-              <div className="row clearfix">
-                {/* Content Column */}
-                <div className="content-column col-lg-6 col-md-12 col-sm-12">
-                  <div className="inner-column">
-                    <h3>Air Filters</h3>
-                    <div className="text">
-                      <p>
-                        Dallas Home Watch will check your air filters and
-                        replace them when necessary. Just let us know where your
-                        new filters are, and we can replace them while on site.
-                        We write the date on the air filters using a black
-                        Sharpie so that you will always know the date of the
-                        last time the filter was changed.
-                      </p>
-                      <p>
-                        If you are out of air filters, Dallas Home Watch can
-                        pick them up at your local Home Depot or receive your
-                        order from Amazon.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                {/* Image Column */}
-                <div className="image-column col-lg-6 col-md-12 col-sm-12">
-                  <div className="inner-column">
-                    <div className="image">
-                      <Image
-                        width={530}
-                        height={416}
-                        src="/images/hw-check/air-filter-replacement.jpg"
-                        alt="replacing air filters in attic"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Breaker Boxes  -  L */}
-          <div className="services-block-three style-two">
-            <div
-              className="inner-box wow fadeInUp"
-              data-wow-delay="0ms"
-              data-wow-duration="1500ms"
-            >
-              <div className="row clearfix">
-                {/* Image Column */}
-                <div className="image-column col-lg-6 col-md-12 col-sm-12">
-                  <div className="inner-column">
-                    <div className="image">
-                      <Image
-                        width={530}
-                        height={416}
-                        src="/images/hw-check/breaker-box-inspection.jpg"
-                        alt="checking breaker box"
-                      />
-                    </div>
-                  </div>
-                </div>
-                {/* Content Column */}
-                <div className="content-column col-lg-6 col-md-12 col-sm-12">
-                  <div className="inner-column">
-                    <h3>Breaker Boxes</h3>
-                    <div className="text">
-                      We know how important it is not to lose electricity to
-                      your household appliances while you are away. We check
-                      your breaker box to see if any breakers have tripped, and
-                      if so, we will reset them.
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* AC Units in Attic R */}
-          <div className="services-block-three">
-            <div
-              className="inner-box wow fadeInUp"
-              data-wow-delay="0ms"
-              data-wow-duration="1500ms"
-            >
-              <div className="row clearfix">
-                {/* Content Column */}
-                <div className="content-column col-lg-6 col-md-12 col-sm-12">
-                  <div className="inner-column">
-                    <h3>A/C Units</h3>
-                    <div className="text">
-                      We will perform a visual inspection of your A/C units to
-                      ensure no condensation leaks are in the drip pan. (We only
-                      enter the attic if it is easily accessible and has been
-                      floored for safety.)
-                    </div>
-                  </div>
-                </div>
-                {/* Image Column */}
-                <div className="image-column col-lg-6 col-md-12 col-sm-12">
-                  <div className="inner-column">
-                    <div className="image">
-                      <Image
-                        width={530}
-                        height={416}
-                        src="/images/hw-check/attic-ac-inspection.jpg"
-                        alt="air conditioner inspection in 
-                        attic"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/*  Washing Machine TINA L  */}
-          <div className="services-block-three style-two">
-            <div
-              className="inner-box wow fadeInUp"
-              data-wow-delay="0ms"
-              data-wow-duration="1500ms"
-            >
-              <div className="row clearfix">
-                {/* Image Column */}
-                <div className="image-column col-lg-6 col-md-12 col-sm-12">
-                  <div className="inner-column">
-                    <div className="image">
-                      <Image
-                        width={530}
-                        height={416}
-                        src="/images/hw-check/washing-machine-inspection.jpg"
-                        alt="visual inspection of the washing machine"
-                      />
-                    </div>
-                  </div>
-                </div>
-                {/* Content Column */}
-                <div className="content-column col-lg-6 col-md-12 col-sm-12">
-                  <div className="inner-column">
-                    <h3>Washing Machines</h3>
-                    <div className="text">
-                      <p>
-                        We will check your washing machine to ensure there is no
-                        water leaking and no unusual odors coming from the
-                        machine.
-                      </p>
-                      <p>
-                        Dallas Home Watch provides{" "}
-                        <Link href="/keyholder-services">
-                          Home Watch Key Holder
-                        </Link>{" "}
-                        service so we can meet with your applicance company for
-                        new delivery and installations or repairs and
-                        maintenance to your equipment.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Garage Door Openers TINA R */}
-          <div className="services-block-three">
-            <div
-              className="inner-box wow fadeInUp"
-              data-wow-delay="0ms"
-              data-wow-duration="1500ms"
-            >
-              <div className="row clearfix">
-                {/* Content Column */}
-                <div className="content-column col-lg-6 col-md-12 col-sm-12">
-                  <div className="inner-column">
-                    <h3>Garage Door Openers</h3>
-                    <div className="text">
-                      <p>
-                        Dallas Home Watch will make sure that your garage door
-                        openers are working and can replace batteries to
-                        wireless keypads and remote controllers when needed. We
-                        also have experience programming a variety of garage
-                        door remotes and handheld or in-car remotes.
-                      </p>
-                      <p>
-                        We can meet with your garage door technician while they
-                        complete the annual maintenance of your garage door
-                        system or during the installation of new garage doors.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                {/* Image Column */}
-                <div className="image-column col-lg-6 col-md-12 col-sm-12">
-                  <div className="inner-column">
-                    <div className="image">
-                      <Image
-                        width={585}
-                        height={460}
-                        src="/images/car-care/garage-door-openers.jpg"
-                        alt="Tina Lawson checking garage doors and openers"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Swimming Pool -  L */}
-          <div className="services-block-three style-two">
-            <div
-              className="inner-box wow fadeInUp"
-              data-wow-delay="0ms"
-              data-wow-duration="1500ms"
-            >
-              <div className="row clearfix">
-                {/* Image Column */}
-                <div className="image-column col-lg-6 col-md-12 col-sm-12">
-                  <div className="inner-column">
-                    <div className="image">
-                      <Image
-                        width={530}
-                        height={416}
-                        src="/images/hw-check/swimming-pool.jpg"
-                        alt="swimming pools and fountains"
-                      />
-                    </div>
-                  </div>
-                </div>
-                {/* Content Column */}
-                <div className="content-column col-lg-6 col-md-12 col-sm-12">
-                  <div className="inner-column">
-                    <h3>Pools & Fountains</h3>
-                    <div className="text">
-                      <p>
-                        We check the pool and fountains around your home and
-                        make a note if the pumps were running while we were
-                        there. We check for algae growth or debris in and around
-                        the pool or fountain. We will make a note of the water
-                        level of the pool and include it in your Home Watch
-                        Check report.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Securing Doors TINA R */}
-          <div className="services-block-three">
-            <div
-              className="inner-box wow fadeInUp"
-              data-wow-delay="0ms"
-              data-wow-duration="1500ms"
-            >
-              <div className="row clearfix">
-                {/* Content Column */}
-                <div className="content-column col-lg-6 col-md-12 col-sm-12">
-                  <div className="inner-column">
-                    <h3>Securing Doors</h3>
-                    <div className="text">
-                      <p>
-                        We check all door entries to make sure every one of them
-                        is securely locked.
-                      </p>
-
-                      <p>
-                        If for any reason you need your house re-keyed, we can
-                        provide you with the contact information of our priority
-                        vendor and meet with them during the process of
-                        re-keying your home.
-                      </p>
-                      <p>
-                        When you hire Dallas Home Watch, you can rest assured
-                        that all entries to your home are checked and secured.{" "}
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                {/* Image Column */}
-                <div className="image-column col-lg-6 col-md-12 col-sm-12">
-                  <div className="inner-column">
-                    <div className="image">
-                      <Image
-                        width={530}
-                        height={416}
-                        src="/images/hw-check/securing-back-doors.jpg"
-                        alt="water filter inspection"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* Trashcans -  L */}
-          <div className="services-block-three style-two">
-            <div
-              className="inner-box wow fadeInUp"
-              data-wow-delay="0ms"
-              data-wow-duration="1500ms"
-            >
-              <div className="row clearfix">
-                {/* Image Column */}
-                <div className="image-column col-lg-6 col-md-12 col-sm-12">
-                  <div className="inner-column">
-                    <div className="image">
-                      <Image
-                        width={530}
-                        height={416}
-                        src="/images/hw-check/trash-cans.jpg"
-                        alt="trash cans in garage"
-                      />
-                    </div>
-                  </div>
-                </div>
-                {/* Content Column */}
-                <div className="content-column col-lg-6 col-md-12 col-sm-12">
-                  <div className="inner-column">
-                    <h3>Trash Cans</h3>
-                    <div className="text">
-                      Leaving trash cans at the curb past your trash pickup day
-                      is a sign of an absentee owner. If you left your trash and
-                      recycle bins out at the curb when you left town, we will
-                      bring them up to the house and place in the garage so that
-                      neighbors do not notice you are not home. We also
-                      occasionally pull the trash cans to the curb and back up
-                      to the house the next day to give the appearance that
-                      someone is home.
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* Back Gate TINA R */}
-          <div className="services-block-three">
-            <div
-              className="inner-box wow fadeInUp"
-              data-wow-delay="0ms"
-              data-wow-duration="1500ms"
-            >
-              <div className="row clearfix">
-                {/* Content Column */}
-                <div className="content-column col-lg-6 col-md-12 col-sm-12">
-                  <div className="inner-column">
-                    <h3>Back Gates</h3>
-                    <div className="text">
-                      Dallas Home Watch Professionals walk the entire property
-                      and make sure that every gate or rear entry is secure. We
-                      encourage all clients to have locks on all outside
-                      entrances to prevent theft and vandalism.
-                    </div>
-                  </div>
-                </div>
-                {/* Image Column */}
-                <div className="image-column col-lg-6 col-md-12 col-sm-12">
-                  <div className="inner-column">
-                    <div className="image">
-                      <Image
-                        width={530}
-                        height={416}
-                        src="/images/hw-check/securing-back-gate.jpg"
-                        alt="trash cans in garage"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="services-page-section centered">
-        <div className="column col-lg-12 col-md-6 col-sm-6">
-          <h3>Ready To Hire A Home Watch Service Business?</h3>
-          <br />
-
-          <a href="tel:972-982-7050" className="theme-btn btn-style-two">
-            <span className="txt">
-              CALL DALLAS HOME WATCH
-              <i className="phone" />
-            </span>
-          </a>
-        </div>
+        <div className="column col-lg-12 col-md-6 col-sm-6"></div>
       </section>
     </Fragment>
   );

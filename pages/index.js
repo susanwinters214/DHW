@@ -10,7 +10,8 @@ function HomePage(props) {
         <title>Dallas Home Watch Services | Dallas Home Watch LLC</title>
         <meta
           name="description"
-          content="Dallas Home Watch LLC. provides Home Watch Services in the Dallas area for homeowners who have a second property located in north Dallas. " />
+          content="Dallas Home Watch LLC. provides Home Watch Services in the Dallas area for homeowners who have a second property located in north Dallas. "
+        />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
@@ -67,104 +68,6 @@ function HomePage(props) {
         </div>
       </section>
 
-      {/* insert Welcome */}
-      <section
-        className="welcome-section"
-        style={{ backgroundImage: "url(images/background/pattern-1.png)" }}
-      >
-        <div className="auto-container">
-          <div className="inner-container  MOVEUP">
-            <div className="clearfix">
-              {/* Content Column */}
-              <div className="content-column col-lg-6 col-md-12 col-sm-12">
-                <div className="inner-column ">
-                  {/* Sec Title */}
-                  <div className="text">
-                    <p>
-                      Dallas Home Watch offers exceptional home watch services
-                      to the Dallas area and surrounding neighborhoods,
-                      including Highland Park, University Park, Preston Hollow,
-                      Lakewood, Lake Highlands, Devonshire, Bluffview, Briarwood
-                      and Norhwood Hills. Our team of professionals provides
-                      visual inspections of both the interior and exterior of
-                      homes and properties, looking for obvious issues that may
-                      cause potential damage. We keep homeowners informed of any
-                      issues and follow the client's instructions regarding a
-                      resolution and cure for them. Upon completion of a full
-                      Home Watch inspection, we will submit our Home Watch
-                      Checklist to our portal where our clients can log in and
-                      view the results. For clients without portal access, we
-                      will send our write up along with pictures and videos to
-                      their email or via text message.
-                    </p>
-                    <p>
-                      Unlike other options like house sitters or property
-                      managers, Dallas Home Watch is a fully accredited and
-                      bonded company that prioritizes the care and maintenance
-                      of your home. We are committed to providing high-quality
-                      services, ensuring that homeowners can travel worry-free,
-                      knowing that their property is in good hands. Our
-                      attention to detail and expertise in home watch services
-                      make Dallas Home Watch a top choice for homeowners who
-                      value peace of mind.
-                    </p>
-                    <p>
-                      Don't leave the safety and security of your home to
-                      chance. Trust Dallas Home Watch to provide exceptional
-                      home watch services that exceed your expectations. Give us
-                      a call today to learn more about our services and why we
-                      are the better choice for your home watch needs.
-                    </p>
-
-                    <br />
-                  </div>
-                </div>
-              </div>
-
-              {/* Image Column */}
-              <div className="image-column col-lg-6 col-md-12 col-sm-12">
-                <div className="inner-column">
-                  <div className="image title" data-tilt="" data-tilt-max={2}>
-                    <br />
-                    <br />
-                    <Image
-                      width={585}
-                      height={725}
-                      src="/images/home-watch-professional-checking-doors.jpg"
-                      alt="home-watch-professional-checking-doors"
-                    />
-                  </div>
-                  <div
-                    className="case-box wow fadeInLeft"
-                    data-wow-delay="0ms"
-                    data-wow-duration="1500ms"
-                  >
-                    <span>
-                      20+ Years of <br /> Experience
-                    </span>
-                  </div>
-                </div>
-
-                <br />
-                <br />
-                <div className="btns-box centered">
-                  <a
-                    href="homewatch-checklist"
-                    className="theme-btn btn-style-three"
-                  >
-                    <span className="txt">
-                      Home Watch Checklist{" "}
-                      <i className="arrow flaticon-right" />
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <div className="clearfix"> </div>
       {/* 4 BLOCKS */}
       <section className="welcome-section">
         <div className="auto-container">
@@ -269,6 +172,106 @@ function HomePage(props) {
           </div>
         </div>
       </section>
+
+      {/* insert Welcome */}
+      <section
+        className="welcome-section"
+        style={{ backgroundImage: "url(images/background/pattern-1.png)" }}
+      >
+        <div className="auto-container">
+          <div className="inner-container">
+            <div className="clearfix">
+              {/* Content Column */}
+              <div className="content-column col-lg-6 col-md-12 col-sm-12">
+                <div className="inner-column ">
+                  {/* Sec Title */}
+                  <div className="text">
+                    <p>
+                      Dallas Home Watch offers exceptional home watch services
+                      to the Dallas area and surrounding neighborhoods,
+                      including Highland Park, University Park, Preston Hollow,
+                      Lakewood, Lake Highlands, Devonshire, Bluffview, Briarwood
+                      and Norhwood Hills. Our team of professionals provides
+                      visual inspections of both the interior and exterior of
+                      homes and properties, looking for obvious issues that may
+                      cause potential damage. We keep homeowners informed of any
+                      issues and follow the client's instructions regarding a
+                      resolution and cure for them. Upon completion of a full
+                      Home Watch inspection, we will submit our Home Watch
+                      Checklist to our portal where our clients can log in and
+                      view the results. For clients without portal access, we
+                      will send our write up along with pictures and videos to
+                      their email or via text message.
+                    </p>
+                    <p>
+                      Unlike other options like house sitters or property
+                      managers, Dallas Home Watch is a fully accredited and
+                      bonded company that prioritizes the care and maintenance
+                      of your home. We are committed to providing high-quality
+                      services, ensuring that homeowners can travel worry-free,
+                      knowing that their property is in good hands. Our
+                      attention to detail and expertise in home watch services
+                      make Dallas Home Watch a top choice for homeowners who
+                      value peace of mind.
+                    </p>
+                    <p>
+                      Don't leave the safety and security of your home to
+                      chance. Trust Dallas Home Watch to provide exceptional
+                      home watch services that exceed your expectations. Give us
+                      a call today to learn more about our services and why we
+                      are the better choice for your home watch needs.
+                    </p>
+
+                    <br />
+                  </div>
+                </div>
+              </div>
+
+              {/* Image Column */}
+              <div className="image-column col-lg-6 col-md-12 col-sm-12">
+                <div className="inner-column">
+                  <div className="image title" data-tilt="" data-tilt-max={2}>
+                    <br />
+                    <br />
+                    <Image
+                      width={585}
+                      height={725}
+                      src="/images/home-watch-professional-checking-doors.jpg"
+                      alt="home-watch-professional-checking-doors"
+                    />
+                  </div>
+                  <div
+                    className="case-box wow fadeInLeft"
+                    data-wow-delay="0ms"
+                    data-wow-duration="1500ms"
+                  >
+                    <span>
+                      20+ Years of <br /> Experience
+                    </span>
+                  </div>
+                </div>
+
+                <br />
+                <br />
+                <div className="btns-box centered">
+                  <a
+                    href="homewatch-checklist"
+                    className="theme-btn btn-style-three"
+                  >
+                    <span className="txt">
+                      Home Watch Checklist{" "}
+                      <i className="arrow flaticon-right" />
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div className="clearfix"> </div>
+    
 
       {/* insert blue area with video */}
       <section className="counter-section">
