@@ -41,32 +41,20 @@ function MainNavigation() {
                 id="navbarSupportedContent"
               >
                 <ul className="navigation clearfix">
-                  <li className="dropdown">
-                    <Link href="/">Home Watch Services</Link>
-                    <ul>
-                      <li>
-                        <Link href="/homewatch-checklist">
-                          Home Watch Checklist
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/keyholder-services">
-                          Key Holder Service
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/concierge-services">
-                          Concierge Services
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/vehicle-care">Vehicle Care</Link>
-                      </li>
-                    </ul>
-                  </li>
-
                   <li>
-                    <Link href="/homewatch-services">Photo Gallery</Link>
+                    <Link href="/homewatch-services">Home Watch</Link>
+                  </li>
+                  <li>
+                    <Link href="/keyholder-services">Key Holder</Link>
+                  </li>
+                  <li>
+                    <Link href="/concierge-services">Concierge</Link>
+                  </li>
+                  <li>
+                    <Link href="/vehicle-care">Vehicle Care</Link>
+                  </li>
+                  <li>
+                    <Link href="/blog">Blog</Link>
                   </li>
                 </ul>
               </div>

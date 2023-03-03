@@ -1,22 +1,21 @@
 
 /* Blog Backgrounds & OG */
 
-
-
 .bg-airfilters{
   background-image: url(/images/blogimg/og-air-filter-replacement.jpg);
 }
-
 .bg-waterleaks{
   background-image: url(/images/blogimg/og-water-leak-damage.jpg);
 }
-
 .bg-refrigerators{
   background-image: url(/images/blogimg/og-refrigerator.jpg);
 }
 .bg-gdo{
   background-image: url(/images/blogimg/og-garage-door-openers.jpg);
 }
+
+.LocalBusinessSchema{margin-left:50px;}
+.homebluevideoarea{font-size:1.2em}
 
 
 
@@ -72,7 +71,7 @@ h2.welcomeHome {
   background-color: #f9f9f9;
 }
 .homepagetopcontent {
-  margin: 10%;
+  margin: 5%;
   width: 85%;
   z-index: 10;
   font-family: '"Segoe UI", Tahoma, Geneva, Verdana, sans-serif';
@@ -82,7 +81,8 @@ h2.welcomeHome {
  
 }
 .BLUE{padding-right:5px; border:solid 2px #00204c;}
-.MOVEUP{margin-top:-350px;}
+.MOVEUP{margin-top:-350px; margin-bottom:00px;}
+.MOVEUPBLOGLIST{margin-top:-350px; padding-top:25px; margin-bottom:00px;}
 
 .homepagetopblock{
     margin-top: -250px;

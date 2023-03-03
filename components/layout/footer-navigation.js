@@ -14,6 +14,37 @@ function FooterNavigation() {
             {/* LOGO in Grid */}
             <div className="big-column col-lg-4 col-md-4 col-sm-12">
               <Logo />
+              <br />
+              <br />
+              <div itemscope itemtype="https://schema.org/LocalBusiness">
+                <p className="LocalBusinessSchema">
+                  <span itemprop="description">
+                    {" "}
+                    Home Watch company serving Dallas.
+                  </span>
+                  <br />
+                  <br />
+
+                  <span itemprop="name">Dallas Home Watch LLC</span>
+                  <br />
+
+                  <div
+                    itemprop="address"
+                    itemscope
+                    itemtype="https://schema.org/PostalAddress"
+                  >
+                    <span itemprop="streetAddress">
+                      13101 Preston Road Suite 110410
+                    </span>
+                    <br />
+                    <span itemprop="addressLocality">Dallas</span>,{" "}
+                    <span itemprop="addressRegion">Texas</span> 75240
+                  </div>
+
+                  <span itemprop="telephone">972-982-7050</span>
+                  <br />
+                </p>
+              </div>
             </div>
 
             {/* social media icons */}

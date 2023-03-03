@@ -79,7 +79,7 @@ function HomePage(props) {
       </section>
 
       {/* 4 BLOCKS */}
-      <section className="welcome-section">
+      <section className="welcome-section MOVEUP">
         <div className="auto-container">
           <div className="inner-container2">
             <div className="row clearfix">
@@ -93,7 +93,7 @@ function HomePage(props) {
                   <div className="content">
                     <div className="icon flaticon-file" />
                     <h4>
-                      <Link href="/homewatch-checklist">
+                      <Link href="/homewatch-services">
                         Home Watch Services
                       </Link>
                     </h4>
@@ -103,7 +103,7 @@ function HomePage(props) {
                     </div>
                   </div>
                   <Link
-                    href="homewatch-checklist"
+                    href="homewatch-services"
                     className="arrow flaticon-right"
                   />
                 </div>
@@ -296,7 +296,7 @@ function HomePage(props) {
             <h2 className="blueBkg gold">
               20+ Years Experience in the Home Watch Business
             </h2>
-            <div className="text" style={{ fontSize: "2em" }}>
+            <div className="text homebluevideoarea">
               Risk mitigation is the process of planning for disasters and
               having a way to lessen the negative impact. Our goal is to
               visually inspect a home or property looking for obvious issues and

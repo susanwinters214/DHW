@@ -8,7 +8,7 @@ function BlogPage(props) {
     <Fragment>
       <Head>
         <title>Dallas Home Watch Services | BLOG</title>
-    
+
         <meta
           name="description"
           content="Home Watch Blog Articles - Read interesting blogs about the various things that happen in the Home Watch industry including things that go wrong with a house."
@@ -53,28 +53,15 @@ function BlogPage(props) {
                   Home Watch inspections provide peace of mind about your
                   property while you are away.
                 </h3>
-
-                <div className="bannerbox btns-box centered">
-                  <Link
-                    href="#blogarticles"
-                    className="theme-btn btn-style-two"
-                  >
-                    <span className="txt">
-                      Read Articles <i className="phone" />
-                    </span>
-                  </Link>
-                
-                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-
       <div className="clearfix"> </div>
-      <a name="blogarticles"></a>
+      <br /> <br />
       {/* 4 BLOCKS */}
-      <section className="welcome-section">
+      <section className="welcome-section MOVEUPBLOGLIST">
         <div className="auto-container">
           <div className="inner-container2">
             <div className="row clearfix">

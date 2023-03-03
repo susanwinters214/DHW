@@ -156,7 +156,7 @@
         // adding class to expander container
         $(this).parent().toggleClass("current");
         // toggling arrow of expander
-        $(this).find("i").toggleClass("fa-angle-right fa-angle-down");
+        $(this).find("i").toggleClass("fa-angle-right ");
 
         return false;
       });
