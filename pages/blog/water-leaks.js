@@ -9,7 +9,6 @@ function WaterLeaksPage(props) {
     <Fragment>
       <Head>
         <title>Water Leaks</title>
-        <meta name="robots" content="noindex"></meta>
         <meta
           name="description"
           content="Water leaks can cause a lot of damage! Home Watch Service includes checking all of your water sources to make sure there are no water leaks. "

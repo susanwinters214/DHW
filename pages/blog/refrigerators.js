@@ -9,7 +9,6 @@ function RefrigeratorsPage(props) {
     <Fragment>
       <Head>
         <title>Refrigerators</title>
-        <meta name="robots" content="noindex"></meta>
         <meta
           name="description"
           content="Home Watch Services includes checking to make sure that your refrigerator has not lost power. If your refrigerator goes out, you will come home to spoiled food."

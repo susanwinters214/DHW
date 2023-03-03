@@ -158,7 +158,7 @@ function HomeWatchServicesPage(props) {
               </div>
             </div>
           </div>
-          {/* Water Leaks  -   L */}
+          {/* Water Faucets  -   L */}
           <div className="services-block-three style-two">
             <div
               className="inner-box wow fadeInUp"
@@ -194,11 +194,8 @@ function HomeWatchServicesPage(props) {
                         dripping once it is turned off. We perform a visual
                         inspection of the pipes under your sinks and will alert
                         you of any problems and if necessary, meet with your
-                        plumber for repairs.
-                      </p>
-                      <p>
-                        During freezing weather, we can go by your house and
-                        drip the faucets to help prevent pipes from busting.
+                        plumber for repairs. During freezing weather, we can go
+                        by your house and drip the faucets.
                       </p>
                     </div>
                   </div>
@@ -220,20 +217,20 @@ function HomeWatchServicesPage(props) {
                     <h3>Water Filtration Devices</h3>
                     <div className="text">
                       <p>
-                        Property owners or installers should periodically test
-                        sensors with water to ensure proper placement, power
-                        supply and communication with the WaterCop valve. We can
-                        check your WaterCop System to verify it is on and
-                        replace the batteries if necessary.
+                        Property owners should periodically test sensors with
+                        water to ensure proper placement, power supply and
+                        communication with the WaterCop valve. We can check your
+                        WaterCop System to verify it is on and replace the
+                        batteries if necessary.
                       </p>
                       <p>
-                        If you do not currently have a WaterCop System and would
-                        like one installed, Dallas Home Watch offers{" "}
+                        If you do not currently have a WaterCop System, Dallas
+                        Home Watch offers{" "}
                         <Link href="/keyholder-services">
                           Home Watch Key Holder
                         </Link>{" "}
-                        which enables us to meet with the technician and install
-                        the WaterCop system while you gone
+                        which enables us to meet with technicians for
+                        installations.
                       </p>
                     </div>
                   </div>
@@ -254,7 +251,6 @@ function HomeWatchServicesPage(props) {
               </div>
             </div>
           </div>
-
           {/* Tubs & Toilets -  L */}
           <div className="services-block-three style-two">
             <div
@@ -284,18 +280,15 @@ function HomeWatchServicesPage(props) {
                       <p>
                         Toilets can collect bacteria, which can cause stains. We
                         flush all of the toilets to make sure they are working
-                        and to rinse the bowl of any stains. We may pour a half
-                        cup of bleach into the bowl if necessary.{" "}
+                        and to rinse the bowl of any stains.
                       </p>
                       <p>
                         When we flush a toilet, we do not leave the bathroom
                         until the water is completely finished running water
-                        into the tank and the flapper is sealed.
-                      </p>
-                      <p>
-                        {" "}
-                        We turn the water on and off in the tubs and check the
-                        surrounding areas for water leaks.{" "}
+                        into the tank and the flapper is sealed. We turn the
+                        water on and off in the tubs and check the surrounding
+                        areas for{" "}
+                        <Link href="/blog/water-leaks">water leaks</Link> .
                       </p>
                     </div>
                   </div>
@@ -317,9 +310,13 @@ function HomeWatchServicesPage(props) {
                     <h3>Refrigerators</h3>
                     <div className="text">
                       <p>
-                        We check the refrigerator to make sure the light comes
-                        on. If you want us to, we can clean out expired food
-                        from your refrigerator.
+                        We check to see if your{" "}
+                        <Link href="/blog/refrigerators">
+                          refrigerator is running{" "}
+                        </Link>{" "}
+                        by opening the door to see if the light comes on. If you
+                        want us to, we can clean out expired food from your
+                        refrigerator.
                       </p>{" "}
                       <p>
                         Our{" "}
@@ -350,7 +347,7 @@ function HomeWatchServicesPage(props) {
               </div>
             </div>
           </div>
-          {/* Bar Sink  - TINA L */}
+          {/* Water Leaks Bar Sink  - TINA L */}
           <div className="services-block-three style-two">
             <div
               className="inner-box wow fadeInUp"
@@ -376,13 +373,22 @@ function HomeWatchServicesPage(props) {
                   <div className="inner-column">
                     <h3>Water Leaks</h3>
                     <div className="text">
-                      Our{" "}
-                      <Link href="/homewatch-checklist">
-                        Home Watch Checklist
-                      </Link>{" "}
-                      includes inspecting under sinks looking for leaks and mold
-                      caused by water damage. We will alert you immediately if
-                      we find any problems.
+                      <p>
+                        {" "}
+                        Our{" "}
+                        <Link href="/homewatch-checklist">
+                          Home Watch Checklist
+                        </Link>{" "}
+                        includes inspecting under sinks looking for leaks and
+                        mold caused by water damage. We will alert you
+                        immediately if we find any problems.
+                      </p>
+                      <p>
+                        Read more about{" "}
+                        <Link href="blog/water-leaks">water leaks </Link> and
+                        view images of the damages a water leak can have on your
+                        home.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -495,7 +501,8 @@ function HomeWatchServicesPage(props) {
                     <h3>Air Filters</h3>
                     <div className="text">
                       <p>
-                        Dallas Home Watch will check your air filters and
+                        Dallas Home Watch will check your{" "}
+                        <Link href="/blog/air-filters">air filters</Link> and
                         replace them when necessary. Just let us know where your
                         new filters are, and we can replace them while on site.
                         We write the date on the air filters using a black
@@ -507,6 +514,7 @@ function HomeWatchServicesPage(props) {
                         pick them up at your local Home Depot or receive your
                         order from Amazon.
                       </p>
+                     
                     </div>
                   </div>
                 </div>
@@ -669,10 +677,12 @@ function HomeWatchServicesPage(props) {
                         also have experience programming a variety of garage
                         door remotes and handheld or in-car remotes.
                       </p>
+
                       <p>
-                        We can meet with your garage door technician while they
-                        complete the annual maintenance of your garage door
-                        system or during the installation of new garage doors.
+                        Read why we check your{" "}
+                        <Link href="/blog/garage-door-openers">
+                          garage door openers
+                        </Link>
                       </p>
                     </div>
                   </div>
@@ -852,6 +862,46 @@ function HomeWatchServicesPage(props) {
                         src="/images/hw-check/securing-back-gate.jpg"
                         alt="trash cans in garage"
                       />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* HomeWatch Checklist -  L */}
+          <div className="services-block-three style-two">
+            <div
+              className="inner-box wow fadeInUp"
+              data-wow-delay="0ms"
+              data-wow-duration="1500ms"
+            >
+              <div className="row clearfix">
+                {/* Image Column */}
+                <div className="image-column col-lg-6 col-md-12 col-sm-12">
+                  <div className="inner-column">
+                    <div className="image">
+                      <Image
+                        width={530}
+                        height={416}
+                        src="/images/hw-check/home-watch-checklist.png"
+                        alt="home watch checklist"
+                      />
+                    </div>
+                  </div>
+                </div>
+                {/* Content Column */}
+                <div className="content-column col-lg-6 col-md-12 col-sm-12">
+                  <div className="inner-column">
+                    <h3>Home Watch Checklist</h3>
+                    <div className="text">
+                      These are only a few of the things Dallas Home Watch
+                      checks in your home while you are away. To see a complete
+                      list of items we look for during a Home Watch inspection
+                      see our{" "}
+                      <Link href="/homewatch-checklist">
+                        Home Watch Checklist
+                      </Link>{" "}
+                      .
                     </div>
                   </div>
                 </div>

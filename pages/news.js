@@ -54,13 +54,21 @@ function NewsPage(props) {
               <div className="inner-box">
                 <section id="contentBlock">
                   <h2 className="pageTitle">Dallas Home Watch News</h2>
-                  <p>August 2022 - Dallas Home Watch joined the NHWA.</p>
                   <p>
-                    January 2023 - Dallas Home Watch posted first video on
-                    YouTube.
-                    <br />
+                    <strong>August 2022</strong> - Dallas Home Watch joined the
+                    NHWA.
+                  </p>
+                  <p>
+                    <strong>January 2023</strong> - Dallas Home Watch posted
+                    first video on YouTube.{" "}
                     <Link href="https://www.youtube.com/watch?v=kGZKVnd8YqU">
                       What is Home Watch?
+                    </Link>
+                  </p>
+                  <p>
+                    <strong>March 2023</strong> - NHWA announces 1st annual{" "}
+                    <Link href="/national-homewatch-month">
+                      National Home Watch Month{" "}
                     </Link>
                   </p>
                 </section>

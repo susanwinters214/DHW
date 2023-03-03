@@ -9,7 +9,7 @@ function GarageDoorOpenersPage(props) {
     <Fragment>
       <Head>
         <title>Garage Door Openers</title>
-        <meta name="robots" content="noindex"></meta>
+     
         <meta
           name="description"
           content="Home Watch Service includes checking your garage door and garage door opener
