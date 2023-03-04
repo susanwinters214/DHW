@@ -198,7 +198,7 @@ function HomeWatchChecklistPage(props) {
           <br /> <br />
           <a href="homewatch-services" className="theme-btn btn-style-three">
             <span className="txt">
-              VIEW OUR PHOTO GALLERY <i className="arrow flaticon-right" />
+              Home Watch Services <i className="arrow flaticon-right" />
             </span>
           </a>
         </div>

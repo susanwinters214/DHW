@@ -73,6 +73,10 @@ function NationalHomeWatchMonthPage(props) {
                   {/* Sec Title */}
                   <div className="sec-title">
                     <h2 className="pageTitle">March 2023 | NHWM</h2>
+                    <h3 className="centered">
+                      The National Home Watch Association Announces Inaugural
+                      National Home Watch Month
+                    </h3>
                     <p className="text">
                       <strong> 'Home Watch' </strong>is not a term known to the
                       general public. Those in the Home Watch industry want to
@@ -287,10 +291,9 @@ function NationalHomeWatchMonthPage(props) {
                       In summary, House Watch programs will check the exerior of
                       your home looking for vandalism. House Sitters will sit in
                       your home with the intent to detour squatters or
-                      break-ins. A Home Watch company will provide
-                      inspections of the interior and exterior of your home to
-                      provide peace of mind about your property while you are
-                      away.
+                      break-ins. A Home Watch company will provide inspections
+                      of the interior and exterior of your home to provide peace
+                      of mind about your property while you are away.
                       <br />
                       <br />
                     </p>

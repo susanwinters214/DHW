@@ -43,15 +43,11 @@ function AboutPage() {
             property="og:image:alt"
             content="home watch professional entering front door of luxury home"
           />
-
-
-         
-
         </Head>
         {/* insert top banner with Page Title & Breadcrumb*/}
         <section className="page-title pageback-about">
           <div className="auto-container">
-            <h1>About Us</h1>
+            <h1>About Dallas Home Watch</h1>
             <ul className="page-breadcrumb">
               <li>
                 <Link href="/">home</Link>
@@ -69,19 +65,40 @@ function AboutPage() {
                   <div className="inner-column">
                     <div className="sec-title first">
                       <h2 className="pushdown25">Dallas Home Watch</h2>
-                      <h3>Owned By: Tina Lawson</h3>
                     </div>
                     <div className="text">
+                      <p>
+                        Dallas Home Watch (formerly STS) was created over 20
+                        years ago by Tina Lawson of Dallas, Texas. Ms. Lawson
+                        changed the name of her company in 2022 to better
+                        reflect the service she provides.
+                      </p>
+                      <p>
+                        Dallas Home Watch provides the service of discreetly
+                        checking your home while you are away. The homeowner can
+                        designate visits once a week or more. We will work
+                        together toward a solution should property issues arise.
+                      </p>
+
+                      <div className="image centered">
+                        <Image
+                          src="/images/logos/DWH-onWhite.jpg"
+                          alt="Dallas Home Watch logo"
+                          width={200}
+                          height={100}
+                        />
+                      </div>
+
                       <p className="first">
                         Tina Lawson, who managed the corporate offices of HCB
                         Contractors from the mid- '80s to early '90s and later
-                        worked on the situation desk at Burlington Northern Santa
-                        Fe Railway Co., began an executive limousine business in
-                        2001.
+                        worked on the situation desk at Burlington Northern
+                        Santa Fe Railway Co., began an executive limousine
+                        business in 2001.
                       </p>
                       <p>
-                        But after listening to some of her clients' comments, she
-                        decided to take her services a step further.
+                        But after listening to some of her clients' comments,
+                        she decided to take her services a step further.
                       </p>
                       <p>
                         "Tina had been driving us to the airport and my husband
@@ -98,24 +115,24 @@ function AboutPage() {
                       </p>
                       <p>
                         Lawson manages several multimillion dollar homes in the
-                        Metroplex for clients who often have multiple homes across
-                        the nation and rely on Lawson to "hold down the fort"
-                        while they are out of town.
+                        Metroplex for clients who often have multiple homes
+                        across the nation and rely on Lawson to "hold down the
+                        fort" while they are out of town.
                       </p>
                       <p>
                         In 2022, Ms. Lawson rebranded her company from STS
-                        (suburban transportation services) to Dallas Home Watch to
-                        better reflect the services she provides.
+                        (suburban transportation services) to Dallas Home Watch
+                        to better reflect the services she provides.
                       </p>
                       <p>
                         Clients are regular accounts that contract with Dallas
-                        Home Watch on a monthly or annual basis. While clients are
-                        out of town, they are kept abreast of all household
+                        Home Watch on a monthly or annual basis. While clients
+                        are out of town, they are kept abreast of all household
                         issues.
                       </p>
                       <p>
-                        "Dallas Home Watch will keep you informed about your home
-                        while you are away." Lawson said.
+                        "Dallas Home Watch will keep you informed about your
+                        home while you are away." Lawson said.
                       </p>
                     </div>
                   </div>
@@ -146,12 +163,6 @@ function AboutPage() {
                           Dallas Home Watch
                         </a>
                         <br />
-                        <p className="about">
-                          Dallas Home Watch provides the service of discreetly
-                          checking your home while you are away. The homeowner can
-                          designate visits once a week or more. We will work
-                          together toward a solution should property issues arise.
-                        </p>
                       </div>
                     </div>
 
@@ -167,7 +178,6 @@ function AboutPage() {
             </div>
           </div>
         </section>
-   
       </Fragment>
     );
   }
