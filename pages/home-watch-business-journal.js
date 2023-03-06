@@ -80,7 +80,7 @@ function HomeWatchBusinessJournalPage(props) {
                     </p>
                     <div className="image centered">
                       <Image
-                        src="/images/logos/Home-Watch-Business-Journal-BOOK-COVER.jpg"
+                        src="/images/logos/home-watch-business-journal-BOOK-COVER.jpg"
                         alt="Home Watch Business-Journal"
                         width={300}
                         height={447}
@@ -98,7 +98,10 @@ function HomeWatchBusinessJournalPage(props) {
                       level.
                     </p>
                     <p classNotes="centered">
-                      <strong>Each page in the Home Watch Business Journal features prompts for: </strong>
+                      <strong>
+                        Each page in the Home Watch Business Journal features
+                        prompts for:{" "}
+                      </strong>
                       <br />
 
                       <ul className="dots">
