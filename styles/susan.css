@@ -13,6 +13,13 @@
 .bg-gdo{
   background-image: url(/images/blogimg/og-garage-door-openers.jpg);
 }
+.bg-hwbj{
+  background-image: url(/images/logos/home-watch-business-journal.jpg);
+}
+
+ul.dots li{list-style-type: disc; margin-left:25px;}
+
+
 
 .LocalBusinessSchema{margin-left:50px;}
 .homebluevideoarea{font-size:1.2em}
