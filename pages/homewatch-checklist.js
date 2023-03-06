@@ -8,10 +8,10 @@ function HomeWatchChecklistPage(props) {
   return (
     <Fragment>
       <Head>
-        <title>Home Watch Checklist</title>
+        <title>Home Watch Inspection Checklist</title>
         <meta
           name="description"
-          content="Our Home Watch Checklist includes checking household appliances and equipment which are often the source of a problem. Homewatch Checklists are customized." />
+          content="Our Home Watch Inspection Checklist includes checking household appliances and equipment which are often the source of a problem. Homewatch Checklists are customized." />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
@@ -20,10 +20,10 @@ function HomeWatchChecklistPage(props) {
           property="og:url"
           content="https://www.dallashomewatch.com/homewatch-checklist"
         />
-        <meta property="og:title" content="Home Watch Checklist" />
+        <meta property="og:title" content="Home Watch Inspection Checklist" />
         <meta
           property="og:description"
-          content="Customize your Home Watch Checklist. We have a list of household items that we check when we come into your home. The items we check are the ones that could possibly be the source of issues."
+          content="Customize your Home Watch Inspection Checklist. We have a list of household items that we check when we come into your home. The items we check are the ones that could possibly be the source of issues."
         />
         <meta
           property="og:image"
@@ -54,7 +54,7 @@ function HomeWatchChecklistPage(props) {
         <div className="auto-container">
           <div className="inner-container">
             <div className="lower-content">
-              <h2 className="pageTitle">Dallas Home Watch Checklist</h2>
+              <h2 className="pageTitle">Home Watch Inspection Checklist</h2>
               <br />
               <p>
                 Dallas Home Watch provides a standard checklist of items that

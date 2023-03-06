@@ -10,7 +10,7 @@ function HomePage(props) {
         <title>Dallas Home Watch Services | Dallas Home Watch LLC</title>
         <meta
           name="description"
-          content="Dallas Home Watch LLC. provides Home Watch Services in the Dallas area for homeowners who have a second property located in north Dallas. "
+          content="Dallas Home Watch Services by Dallas Home Watch LLC. provides Home Watch Services in the Dallas area for homeowners who have a second property located in north Dallas. "
         />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
@@ -20,7 +20,7 @@ function HomePage(props) {
         <meta property="og:title" content="Dallas Home Watch" />
         <meta
           property="og:description"
-          content="Dallas Home Watch LLC. provides Home Watch Services in the Dallas area for homeowners who have a second property located in north Dallas, Highland Park, Preston Hollow, University Park,
+          content="Dallas Home Watch Services by Dallas Home Watch LLC. provides Home Watch Services in the Dallas area for homeowners who have a second property located in north Dallas, Highland Park, Preston Hollow, University Park,
           Bluffview and Northwood Hills. We perform a visual inspection of your home while you are away and help you mitigate risks to your residence."
         />
         <meta

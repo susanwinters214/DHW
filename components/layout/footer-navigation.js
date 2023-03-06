@@ -95,6 +95,9 @@ function FooterNavigation() {
                 <li>
                   <Link href="/terms-of-service">Terms of Service</Link>
                 </li>
+                <li>
+                  <Link href="/sitemap">Sitemap</Link>
+                </li>
               </ul>
             </div>
           </div>
