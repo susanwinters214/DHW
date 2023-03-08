@@ -3,184 +3,205 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 
-
-
-
-
-
 function AboutPage() {
- 
+  return (
+    <Fragment>
+      <Head>
+        <title>About Dallas Home Watch</title>
+        <meta
+          name="description"
+          content="Read About: Home Watch Business in Dallas, Texas - owned by Tina Lawson.  Dallas Home Watch contracts with clients to watch their home while they are away."
+        />
+        <meta property="fb:app_id" content="8620778781329629" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Dallas Home Watch" />
 
+        <meta
+          property="og:url"
+          content="https://www.dallashomewatch.com/about"
+        />
+        <meta property="og:title" content="Dallas Home Watch" />
+        <meta
+          property="og:description"
+          content="Read About: Home Watch Business in Dallas, Texas.  Dallas Home Watch contracts with clients to watch their home while they are away."
+        />
+        <meta
+          property="og:image"
+          content="https://www.dallashomewatch.com/images/og/dallas-home-watch-opening-doors.jpg"
+        />
+        <meta property="og:image:width" content="1200px" />
+        <meta property="og:image:height" content="630px" />
+        <meta
+          property="og:image:alt"
+          content="home watch professional entering front door of luxury home"
+        />
+      </Head>
+      {/* insert top banner with Page Title & Breadcrumb*/}
+      <section className="page-title pageback-about">
+        <div className="auto-container">
+          <h1>About Dallas Home Watch</h1>
+          <ul className="page-breadcrumb">
+            <li>
+              <Link href="/">home</Link>
+            </li>
+            <li>About</li>
+          </ul>
+        </div>
+      </section>
+      <section className="case-section">
+        <div className="auto-container">
+          <div className="inner-container">
+            <div className="clearfix">
+              {/* Content Column */}
+              <div className="content-column col-lg-8 col-md-12 col-sm-12">
+                <div className="inner-column">
+                  <div className="sec-title first">
+                    <h2 className="pushdown25">Dallas Home Watch</h2>
+                  </div>
+                  <div className="text">
+                    <p>
+                      Dallas Home Watch (formerly STS) was created over 20 years
+                      ago by Tina Lawson of Dallas, Texas. Ms. Lawson changed
+                      the name of her company in 2022 to better reflect the
+                      service she provides.
+                    </p>
+                    <p>
+                      Dallas Home Watch provides the service of discreetly
+                      checking your home while you are away. The homeowner can
+                      designate visits once a week or more. We will work
+                      together toward a solution should property issues arise.
+                    </p>
 
-    return (
-      <Fragment>
-        <Head>
-          <title>About Dallas Home Watch</title>
-          <meta
-            name="description"
-            content="Read About: Home Watch Business in Dallas, Texas - owned by Tina Lawson.  Dallas Home Watch contracts with clients to watch their home while they are away."
-          />
-          <meta property="fb:app_id" content="8620778781329629" />
-          <meta property="og:type" content="website" />
-          <meta property="og:site_name" content="Dallas Home Watch" />
-
-          <meta
-            property="og:url"
-            content="https://www.dallashomewatch.com/about"
-          />
-          <meta property="og:title" content="Dallas Home Watch" />
-          <meta
-            property="og:description"
-            content="Read About: Home Watch Business in Dallas, Texas.  Dallas Home Watch contracts with clients to watch their home while they are away."
-          />
-          <meta
-            property="og:image"
-            content="https://www.dallashomewatch.com/images/og/dallas-home-watch-opening-doors.jpg"
-          />
-          <meta property="og:image:width" content="1200px" />
-          <meta property="og:image:height" content="630px" />
-          <meta
-            property="og:image:alt"
-            content="home watch professional entering front door of luxury home"
-          />
-        </Head>
-        {/* insert top banner with Page Title & Breadcrumb*/}
-        <section className="page-title pageback-about">
-          <div className="auto-container">
-            <h1>About Dallas Home Watch</h1>
-            <ul className="page-breadcrumb">
-              <li>
-                <Link href="/">home</Link>
-              </li>
-              <li>About</li>
-            </ul>
-          </div>
-        </section>
-        <section className="case-section">
-          <div className="auto-container">
-            <div className="inner-container">
-              <div className="clearfix">
-                {/* Content Column */}
-                <div className="content-column col-lg-8 col-md-12 col-sm-12">
-                  <div className="inner-column">
-                    <div className="sec-title first">
-                      <h2 className="pushdown25">Dallas Home Watch</h2>
+                    <div className="image centered">
+                      <Image
+                        src="/images/logos/DWH-onWhite.jpg"
+                        alt="Dallas Home Watch logo"
+                        width={200}
+                        height={100}
+                      />
                     </div>
-                    <div className="text">
-                      <p>
-                        Dallas Home Watch (formerly STS) was created over 20
-                        years ago by Tina Lawson of Dallas, Texas. Ms. Lawson
-                        changed the name of her company in 2022 to better
-                        reflect the service she provides.
-                      </p>
-                      <p>
-                        Dallas Home Watch provides the service of discreetly
-                        checking your home while you are away. The homeowner can
-                        designate visits once a week or more. We will work
-                        together toward a solution should property issues arise.
-                      </p>
 
-                      <div className="image centered">
-                        <Image
-                          src="/images/logos/DWH-onWhite.jpg"
-                          alt="Dallas Home Watch logo"
-                          width={200}
-                          height={100}
-                        />
-                      </div>
-
-                      <p className="first">
-                        Tina Lawson, who managed the corporate offices of HCB
-                        Contractors from the mid- '80s to early '90s and later
-                        worked on the situation desk at Burlington Northern
-                        Santa Fe Railway Co., began an executive limousine
-                        business in 2001.
-                      </p>
-                      <p>
-                        But after listening to some of her clients' comments,
-                        she decided to take her services a step further.
-                      </p>
-                      <p>
-                        "Tina had been driving us to the airport and my husband
-                        mentioned that the prior house manager had quit
-                        unexpectedly and without notice," said client T.G.M.
-                      </p>
-                      <p>
-                        "Tina asked to be considered for the job. Now, I can't
-                        imagine where we would be without her."
-                      </p>
-                      <p>
-                        In 2003, Lawson's company evolved to encompass home
-                        management services.
-                      </p>
-                      <p>
-                        Lawson manages several multimillion dollar homes in the
-                        Metroplex for clients who often have multiple homes
-                        across the nation and rely on Lawson to "hold down the
-                        fort" while they are out of town.
-                      </p>
-                      <p>
-                        In 2022, Ms. Lawson rebranded her company from STS
-                        (suburban transportation services) to Dallas Home Watch
-                        to better reflect the services she provides.
-                      </p>
-                      <p>
-                        Clients are regular accounts that contract with Dallas
-                        Home Watch on a monthly or annual basis. While clients
-                        are out of town, they are kept abreast of all household
-                        issues.
-                      </p>
-                      <p>
-                        "Dallas Home Watch will keep you informed about your
-                        home while you are away." Lawson said.
-                      </p>
-                    </div>
+                    <p className="first">
+                      Tina Lawson, who managed the corporate offices of HCB
+                      Contractors from the mid- '80s to early '90s and later
+                      worked on the situation desk at Burlington Northern Santa
+                      Fe Railway Co., began an executive limousine business in
+                      2001.
+                    </p>
+                    <p>
+                      But after listening to some of her clients' comments, she
+                      decided to take her services a step further.
+                    </p>
+                    <p>
+                      "Tina had been driving us to the airport and my husband
+                      mentioned that the prior house manager had quit
+                      unexpectedly and without notice," said client T.G.M.
+                    </p>
+                    <p>
+                      "Tina asked to be considered for the job. Now, I can't
+                      imagine where we would be without her."
+                    </p>
+                    <p>
+                      In 2003, Lawson's company evolved to encompass home
+                      management services.
+                    </p>
+                    <p>
+                      Lawson manages several multimillion dollar homes in the
+                      Metroplex for clients who often have multiple homes across
+                      the nation and rely on Lawson to "hold down the fort"
+                      while they are out of town.
+                    </p>
+                    <p>
+                      In 2022, Ms. Lawson rebranded her company from STS
+                      (suburban transportation services) to Dallas Home Watch to
+                      better reflect the services she provides.
+                    </p>
+                    <p>
+                      Clients are regular accounts that contract with Dallas
+                      Home Watch on a monthly or annual basis. While clients are
+                      out of town, they are kept abreast of all household
+                      issues.
+                    </p>
+                    <p>
+                      "Dallas Home Watch will keep you informed about your home
+                      while you are away." Lawson said.
+                    </p>
                   </div>
                 </div>
-                {/* Image Column */}
-                <div className="image-column col-lg-4 col-md-12 col-sm-12">
-                  <div className="inner-column">
-                    <div
-                      className="image wow fadeInLeft pushdown50"
-                      data-wow-delay="0ms"
-                      data-wow-duration="1500ms"
-                    >
-                      <div className="image centered">
-                        <Image
-                          src="/images/tina-lawson-400x400.jpg"
-                          alt="Tina Lawson"
-                          width={400}
-                          height={400}
-                        />
-                        <br />
-                        Photo of{" "}
-                        <a href="https://www.linkedin.com/in/tina-lawson-a57252254/">
-                          Tina Lawson
-                        </a>
-                        <br />
-                        Owner of&nbsp;
-                        <a href="https://www.linkedin.com/company/dallas-home-watch">
-                          Dallas Home Watch
-                        </a>
-                        <br />
-                      </div>
+              </div>
+              {/* Image Column */}
+              <div className="image-column col-lg-4 col-md-12 col-sm-12">
+                <div className="inner-column">
+                  <div
+                    className="image wow fadeInLeft pushdown50"
+                    data-wow-delay="0ms"
+                    data-wow-duration="1500ms"
+                  >
+                    <div className="image centered">
+                      <Image
+                        src="/images/tina-lawson-400x400.jpg"
+                        alt="Tina Lawson"
+                        width={400}
+                        height={400}
+                      />
+                      <br />
+                      Photo of{" "}
+                      <a href="https://www.linkedin.com/in/tina-lawson-a57252254/">
+                        Tina Lawson
+                      </a>
+                      <br />
+                      Owner of&nbsp;
+                      <a href="https://www.linkedin.com/company/dallas-home-watch">
+                        Dallas Home Watch
+                      </a>
+                      <br />
                     </div>
+                  </div>
 
-                    <div className="content-column col-lg-12 col-md-12 col-sm-12">
-                      <div className="text-box">
-                        "I treat all properties the way I would like a person to
-                        manage my own home," Lawson says.
-                      </div>
+                  <div className="content-column col-lg-12 col-md-12 col-sm-12">
+                    <div className="text-box">
+                      "I treat all properties the way I would like a person to
+                      manage my own home," Lawson says.
                     </div>
+                  </div>
+
+                  <div itemscope itemtype="https://schema.org/LocalBusiness">
+                    <p className="LocalBusinessSchema">
+                      <span itemprop="description">
+                        {" "}
+                        Home Watch company serving Dallas.
+                      </span>
+                      <br />
+                      <br />
+
+                      <span itemprop="name">Dallas Home Watch LLC</span>
+                      <br />
+
+                      <div
+                        itemprop="address"
+                        itemscope
+                        itemtype="https://schema.org/PostalAddress"
+                      >
+                        <span itemprop="streetAddress">
+                          13101 Preston Road Suite 110410
+                        </span>
+                        <br />
+                        <span itemprop="addressLocality">Dallas</span>,{" "}
+                        <span itemprop="addressRegion">Texas</span> 75240
+                      </div>
+
+                      <span itemprop="telephone">972-982-7050</span>
+                      <br />
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </section>
-      </Fragment>
-    );
-  }
+        </div>
+      </section>
+    </Fragment>
+  );
+}
 
-
-  export default AboutPage;
+export default AboutPage;
