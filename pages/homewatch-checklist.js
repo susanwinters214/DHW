@@ -11,7 +11,7 @@ function HomeWatchChecklistPage(props) {
         <title>Home Watch Inspection Checklist</title>
         <meta
           name="description"
-          content="Our Home Watch Inspection Checklist includes checking household appliances and equipment which are often the source of a problem. Homewatch Checklists are customized." />
+          content="Our Home Watch Inspection Checklist includes checking household appliances and equipment which are often the source of a problem. " />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />

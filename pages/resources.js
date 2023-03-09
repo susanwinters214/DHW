@@ -38,8 +38,6 @@ function ResourcesPage(props) {
           property="og:image:alt"
           content="home watch professional entering front door of luxury home"
         />
-
-       
       </Head>
       {/* insert top banner with Page Title & Breadcrumb*/}
       <section className="page-title pageback-about">
@@ -63,22 +61,20 @@ function ResourcesPage(props) {
                 <div className="inner-column">
                   <div className="sec-title first">
                     <h2 className="pushdown25">Dallas Home Watch Resources</h2>
-                  
                   </div>
-<div className="text">
-                                  
+                  <div className="text">
                     <p className="first">
-                       Sign up with Uber for Business and get a $50 voucher for Uber rides and eats. Use for personal rides, meal orders, and deliveries through Uber and Uber Eats.
-                                  You can use Uber Business for       
-                                          <ul>
-                                              <li><strong>Employee Travel & Commute:  </strong>Offer rides through the app and manage your commute program with 24/7 support for you and your team while handling all aspects of your company’s business travel from a centralized platform.  </li>
-                                              <li><strong>Corporate Meals:  </strong>  Keep your employees engaged with meals ordered through the app. You can request that food be left at the doorstep without contact, and company policies, budgets, and rules can be handled from a unified dashboard.</li>
-                                              <li><strong>Courtesy Rides:  </strong>  Order rides for your guests, clients, and customers with no additional fees. It’s a great way to enhance your customers’ experience and set your business apart from others.</li>
-                                               <li><strong>Create Vouchers:  </strong>  Vouchers let you cover the cost of rides and meals for your customers and clients—and can help generate customer satisfaction and repeat business.</li>
-                                          </ul>
-                                                        
+                      Are you looking for a Home Watch Company that is not in
+                      Dallas, Texas? <br />
+                      Here is a list of Home Watch Companies that are located in
+                      different areas:
                     </p>
-                   
+                    <h3>Michigan Home Watch Businesses</h3>
+                    <Link href="https://ourhomewatcher.com/">
+                      Our Home Watcher LLC.
+                    </Link>
+<br /><br /><br />
+                    <p>If you own a Home Watch company outside of the Dallas, Texas area and you are a Certified Home Watch Professional that would like us to add a link to your website - please send an email to: dallashomewatch@gmail.com. </p>
                   </div>
                 </div>
               </div>
@@ -92,22 +88,16 @@ function ResourcesPage(props) {
                   >
                     <div className="image centered">
                       <Image
-                        src="/images/tina-lawson-400x400.jpg"
+                        src="/images/logos/home-watch-certified.jpg"
                         alt="Tina Lawson"
-                        width={400}
-                        height={400}
+                        width={300}
+                        height={300}
                       />
                       <br />
-                      Photo of{" "}
-                      <a href="https://www.linkedin.com/in/tina-lawson-a57252254/">
-                        Tina Lawson
-                      </a>
-                  
-                 
+                      
+                     
                     </div>
                   </div>
-
-               
                 </div>
               </div>
             </div>
