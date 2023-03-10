@@ -7,10 +7,11 @@ function HomePage(props) {
   return (
     <Fragment>
       <Head>
-        <title>Dallas Home Watch Services | Dallas Home Watch LLC</title>
+        <title>Dallas Home Watch | Home Watch in Dallas by Dallas Home Watch LLC</title>
         <meta
           name="description"
-          content="Dallas Home Watch Services by Dallas Home Watch LLC. provides Home Watch Services in the Dallas area for homeowners who have a second property located in north Dallas. "
+          content="Dallas Home Watch Services by Dallas Home Watch LLC. provides Home Watch Services in the Dallas area for homeowners who have a second property located in north Dallas.
+          Home watch is a service that performs visual inspections of a home or property looking for obvious issues. "
         />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />

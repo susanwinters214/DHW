@@ -12,7 +12,7 @@ function NationalHomeWatchMonthPage(props) {
 
         <meta
           name="description"
-          content="March 2023 is the first 'National Home Watch Month' created to bring awareness of the definition of 'Home Watch' as a Professional Service offered to Home Owners."
+          content="March 2023 is the first 'National Home Watch Month' created to bring awareness of the definition of 'Home Watch' as a Professional Service offered to Home Owners who have multiple residential properties or take long extended vacations away from home."
         />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
