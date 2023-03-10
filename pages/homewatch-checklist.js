@@ -11,7 +11,8 @@ function HomeWatchChecklistPage(props) {
         <title>Home Watch Inspection Checklist</title>
         <meta
           name="description"
-          content="Our Home Watch Inspection Checklist includes checking household appliances and equipment which are often the source of a problem. " />
+          content="Our Home Watch Inspection Checklist includes checking household appliances and equipment which are often the source of a problem. "
+        />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
@@ -65,22 +66,37 @@ function HomeWatchChecklistPage(props) {
                 provide you with a report so that you can make any necessary
                 decisions on actions to be taken for any problems discovered.
               </p>
-              <p>
-                Dallas Home Watch knows how important it is that you feel your
-                home is safe from vandalism. We will start by examining your
-                property for any forced entry or broken windows. We use our Home
-                Watch Checklist as we walk thru your home looking for any signs
-                of potential damage to your property. We will check screens and
-                porch enclosures for any sign of damage, remove newspapers,
-                flyers, packages, and debris from your front porch to avoid
-                signs of an empty home.
-              </p>
-              <p>
-                Our comprehensive menu of services takes the worry out of home
-                ownership whether you are away on business, vacationing,
-                relocating or simply in possession of a property that is not
-                your residence.
-              </p>
+              <div className="row">
+                <div className="column col-lg-6 col-md-6 col-sm-6">
+                  <div className="image">
+                    <Image
+                      width={530}
+                      height={350}
+                      src="/images/hw-check/home-watch-checklist.png"
+                      alt="home watch checklist"
+                    />
+                  </div>
+                </div>
+                <div className="column col-lg-6 col-md-6 col-sm-6">
+                  <p>
+                    Dallas Home Watch knows how important it is that you feel
+                    your home is safe from vandalism. We will start by examining
+                    your property for any forced entry or broken windows. We use
+                    our Home Watch Checklist as we walk thru your home looking
+                    for any signs of potential damage to your property. We will
+                    check screens and porch enclosures for any sign of damage,
+                    remove newspapers, flyers, packages, and debris from your
+                    front porch to avoid signs of an empty home.
+                  </p>
+                  <p>
+                    Our comprehensive menu of services takes the worry out of
+                    home ownership whether you are away on business,
+                    vacationing, relocating or simply in possession of a
+                    property that is not your residence.
+                  </p>
+                  <p>Home Watch Checklists are customized for each client to suit their needs and priorities.</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>

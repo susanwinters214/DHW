@@ -30,7 +30,7 @@ function FooterNavigation() {
 
                   <div
                     itemprop="address"
-                    itemscope
+                    itemScope
                     itemtype="https://schema.org/PostalAddress"
                   >
                     <span itemprop="streetAddress">
