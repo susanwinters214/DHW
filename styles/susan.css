@@ -22,10 +22,13 @@ background-image: url(/images/blogimg/why-you-need-home-watch-services2.jpg);
 .bg-wtlfihwc{
 background-image: url(/images/blogimg/man-researching-home-watch-options.jpg);
 }
+.bg-dhwra{
+background-image: url(/images/blogimg/NHWA-received-accreditation.jpg);
+}
 
 ul.dots li{list-style-type: disc; margin-left:25px;}
 
-
+.ML25{margin-left:25%;padding-left:15%;}
 
 .LocalBusinessSchema{margin-left:50px;}
 .homebluevideoarea{font-size:1.2em}
