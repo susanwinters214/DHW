@@ -16,6 +16,12 @@
 .bg-hwbj{
   background-image: url(/images/logos/home-watch-business-journal.jpg);
 }
+.bg-wynhs{
+background-image: url(/images/blogimg/why-you-need-home-watch-services2.jpg);
+}
+.bg-wtlfihwc{
+background-image: url(/images/blogimg/man-researching-home-watch-options.jpg);
+}
 
 ul.dots li{list-style-type: disc; margin-left:25px;}
 
@@ -134,6 +140,9 @@ h2.welcomeHome {
   background-image: url(/images/background/dallas-skyline.jpg);
 }
 .pageback-homepage {
+  background-image: url(/images/background/dallas-skyline.jpg);
+}
+.pageback-frontdoor {
   background-image: url(/images/background/open-front-door-960x496.jpg);
 }
 .pageback-about {
@@ -389,3 +398,10 @@ li.bullets {
 h2 {
   font-size: 32px;
 }
+.homepageServiceBtn{background-color:gold;color:navy}
+.homepageServiceBtn:hover{color:red}
+.homepageServiceBtn:visited{background-color:gold;color:navy}
+
+.btn-style-two {font-family: Verdana, Geneva, Tahoma, sans-serif}
+
+

@@ -916,12 +916,12 @@ function HomeWatchServicesPage(props) {
           <h3>Ready To Hire A Home Watch Service Business?</h3>
           <br />
 
-          <a href="tel:972-982-7050" className="theme-btn btn-style-two">
+          <Link href="tel:972-982-7050" className="theme-btn btn-style-two">
             <span className="txt">
               CALL DALLAS HOME WATCH
               <i className="phone" />
             </span>
-          </a>
+          </Link>
         </div>
       </section>
     </Fragment>

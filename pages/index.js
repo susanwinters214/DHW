@@ -7,7 +7,9 @@ function HomePage(props) {
   return (
     <Fragment>
       <Head>
-        <title>Dallas Home Watch | Home Watch in Dallas by Dallas Home Watch LLC</title>
+        <title>
+          DALLAS HOME WATCH | Home Watch in Dallas by Dallas Home Watch LLC
+        </title>
         <meta
           name="description"
           content="Dallas Home Watch Services by Dallas Home Watch LLC. provides Home Watch Services in the Dallas area for homeowners who have a second property located in north Dallas.
@@ -54,12 +56,15 @@ function HomePage(props) {
                 </h3>
 
                 <div className="bannerbox btns-box centered">
+                
+
                   <Link
-                    href="/homewatch-services"
+                    href="tel:972-982-7050"
                     className="theme-btn btn-style-two"
                   >
                     <span className="txt">
-                      Home Watch Services <i className="phone" />
+                      CALL DALLAS HOME WATCH
+                      <i className="phone" />
                     </span>
                   </Link>
                 </div>
