@@ -165,7 +165,7 @@ function AboutPage() {
                     </div>
                   </div>
 
-                  <div itemscope itemtype="https://schema.org/LocalBusiness">
+                  <div itemscope itemType="https://schema.org/LocalBusiness">
                     <p className="LocalBusinessSchema">
                       <span itemprop="description">
                         {" "}
@@ -180,7 +180,7 @@ function AboutPage() {
                       <div
                         itemprop="address"
                         itemscope
-                        itemtype="https://schema.org/PostalAddress"
+                        itemType="https://schema.org/PostalAddress"
                       >
                         <span itemprop="streetAddress">
                           13101 Preston Road Suite 110410
@@ -193,6 +193,8 @@ function AboutPage() {
                       <span itemprop="telephone">972-982-7050</span>
                       <br />
                     </p>
+                    <h4>Dallas Home Watch on Facebook</h4>
+                    <Link href="https://www.facebook.com/dallashomewatch">Like & Follow</Link>
                   </div>
                 </div>
               </div>

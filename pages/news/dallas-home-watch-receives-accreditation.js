@@ -11,7 +11,7 @@ function DHWreceivesAccredPage(props) {
         <title>Dallas Home Watch receives accreditation from NHWA</title>
         <meta
           name="description"
-          content="Dallas Home Watch receives accreditation from NHWA - National Home Watch Association"
+          content="Dallas Home Watch receives accreditation from NHWA - National Home Watch Association. Tina Lawson has passed background checks, credit checks, ethical working history checks and taken the NHWA Home Watch Bootcamp."
         />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
@@ -67,20 +67,34 @@ function DHWreceivesAccredPage(props) {
                 <div className="inner-column">
                   {/* Sec Title */}
                   <div className="sec-title">
-                    <h2 className="pageTitle">From NHWA</h2>
-                    <p className="text">
-                      Dallas Home Watch of Dallas, Texas, has earned Accredited
-                      Member status from the NHWA - National Home Watch
-                      Association.
-                    </p>
-                    <p>
-                      Tina is a graduate of the NHWA’s Home Watch Boot Camp and
-                      has earned the designation of Certified Home Watch
-                      Professional, which puts her into the category of elite
-                      Home Watch providers in the industry. The CHWP designation
-                      and Boot Camp training exemplify Tina’s commitment to Home
-                      Watch excellence.
-                    </p>
+                    <h2 className="pageTitle">
+                      From National HomeWatch Association
+                    </h2>
+                    <div className="row">
+                      <div className="col-lg-8 col-md-12 col-sm-12">
+                        <p className="text">
+                          Dallas Home Watch of Dallas, Texas, has earned
+                          Accredited Member status from the NHWA - National Home
+                          Watch Association.
+                        </p>
+                        <p>
+                          Tina is a graduate of the NHWA’s Home Watch Boot Camp
+                          and has earned the designation of Certified Home Watch
+                          Professional, which puts her into the category of
+                          elite Home Watch providers in the industry. The CHWP
+                          designation and Boot Camp training exemplify Tina’s
+                          commitment to Home Watch excellence.
+                        </p>
+                      </div>
+                      <div className="col-lg-4 col-md-12 col-sm-12">
+                        <Image
+                          width={200}
+                          height={100}
+                          src="/images/site/tina-lawson-dallas-nhwa.png"
+                          alt="Tina Lawson with NHWA"
+                        />
+                      </div>
+                    </div>
                     <div className="image-column col-lg-4 col-md-12 col-sm-12">
                       <div className="inner-column">
                         <div className="image">

@@ -16,7 +16,7 @@ function FooterNavigation() {
               <Logo />
               <br />
               <br />
-              <div itemscope itemtype="https://schema.org/LocalBusiness">
+              <div itemscope itemType="https://schema.org/LocalBusiness">
                 <p className="LocalBusinessSchema">
                   <span itemprop="description">
                     {" "}
@@ -31,7 +31,7 @@ function FooterNavigation() {
                   <div
                     itemprop="address"
                     itemScope
-                    itemtype="https://schema.org/PostalAddress"
+                    itemType="https://schema.org/PostalAddress"
                   >
                     <span itemprop="streetAddress">
                       13101 Preston Road Suite 110410

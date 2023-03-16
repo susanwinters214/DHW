@@ -65,7 +65,7 @@ function BlogPage(props) {
         <div className="auto-container">
           <div className="inner-container2">
             <div className="row clearfix">
-              {/* Services Block HOME WATCH*/}
+              {/* Blog: Air Filters*/}
               <div className="services-block col-lg-6 col-md-12 col-sm-12">
                 <div
                   className="inner-box wow fadeInLeft BLUE"
@@ -87,7 +87,7 @@ function BlogPage(props) {
                   />
                 </div>
               </div>
-              {/* Services Block KEY HOLDER*/}
+              {/* Blog: Water Leaks */}
               <div className="services-block col-lg-6 col-md-12 col-sm-12">
                 <div
                   className="inner-box wow fadeInRight  BLUE"
@@ -109,7 +109,7 @@ function BlogPage(props) {
                   />
                 </div>
               </div>
-              {/* Services Block CONCIERGE*/}
+              {/* Blog: Refrigerators */}
               <div className="services-block col-lg-6 col-md-12 col-sm-12">
                 <div
                   className="inner-box wow fadeInLeft BLUE"
@@ -131,7 +131,7 @@ function BlogPage(props) {
                   />
                 </div>
               </div>
-              {/* Services Block VEHICLES*/}
+              {/* Blog: Garage Door Openers */}
               <div className="services-block col-lg-6 col-md-12 col-sm-12">
                 <div
                   className="inner-box wow fadeInRight BLUE"
@@ -151,6 +151,30 @@ function BlogPage(props) {
                   </div>
                   <Link
                     href="/blog/garage-door-openers"
+                    className="arrow flaticon-right"
+                  />
+                </div>
+              </div>
+              {/* Blog: Why you need Homewatch */}
+              <div className="services-block col-lg-6 col-md-12 col-sm-12">
+                <div
+                  className="inner-box wow fadeInRight BLUE"
+                  data-wow-delay="150ms"
+                  data-wow-duration="1500ms"
+                >
+                  <div className="content">
+                    <div className="icon flaticon-file" />
+                    <h4>
+                      <Link href="/blog/why-you-need-homewatch">
+                        Why You Need Homewatch
+                      </Link>
+                    </h4>
+                    <div className="text">
+                      5 Reason You Need To Hire A Home Watch Professional
+                    </div>
+                  </div>
+                  <Link
+                    href="/blog/why-you-need-homewatch"
                     className="arrow flaticon-right"
                   />
                 </div>

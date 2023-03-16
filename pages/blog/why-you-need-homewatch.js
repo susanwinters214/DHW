@@ -36,7 +36,14 @@ function WhyYouNeedHomewatchPage(props) {
         <meta property="og:image:alt" content="hand serving up home services" />
       </Head>
       {/* Facebook Like JS Code*/}
-
+      <div id="fb-root"></div>
+      <Script
+        async
+        defer
+        crossOrigin="anonymous"
+        src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v16.0&appId=8620778781329629&autoLogAppEvents=1"
+        nonce="Fn5Aadju"
+      ></Script>
       {/* insert top banner with Page Title & Breadcrumb*/}
       <section className="page-title bg-wynhs">
         <div className="auto-container">
@@ -206,7 +213,22 @@ function WhyYouNeedHomewatchPage(props) {
                         height={400}
                       />
                     </div>{" "}
-                    <br />
+                   
+                    <div
+                      class="fb-share-button"
+                      data-href="https://www.dallashomewatch.com/blog/why-you-need-homewatch"
+                      data-layout=""
+                      data-size=""
+                    >
+                      <Link
+                        target="_blank"
+                        href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.dallashomewatch.com%2Fblog%2Fwhy-you-need-homewatch&amp;src=sdkpreparse"
+                        class="fb-xfbml-parse-ignore"
+                      >
+                        Share this article on Facebook
+                      </Link>
+                      <br /> <br />
+                    </div>
                     <br />
                     <div className="column col-lg-12 col-md-6 col-sm-6">
                       <h3>Ready To Hire A Home Watch Service Business?</h3>
@@ -229,8 +251,6 @@ function WhyYouNeedHomewatchPage(props) {
           </div>
         </div>
       </section>
-
-   
     </Fragment>
   );
 }
