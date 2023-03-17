@@ -8,10 +8,10 @@ function HomeWatchChecklistPage(props) {
   return (
     <Fragment>
       <Head>
-        <title>Home Watch Inspection Checklist</title>
+        <title>Home Watch Checklist</title>
         <meta
           name="description"
-          content="Our Home Watch Inspection Checklist includes checking household appliances and equipment which are often the source of a problem. "
+          content="Our Home Watch Checklist includes checking household appliances and equipment which are often the source of a problem. "
         />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
@@ -55,16 +55,17 @@ function HomeWatchChecklistPage(props) {
         <div className="auto-container">
           <div className="inner-container">
             <div className="lower-content">
-              <h2 className="pageTitle">Home Watch Inspection Checklist</h2>
+              <h2 className="pageTitle">Home Watch Services Checklist</h2>
               <br />
               <p>
-                Dallas Home Watch provides a standard checklist of items that
-                need to be checked in your home while you are away. You can
-                customize your Home Watch checklist to include items you may
-                have in your home that are different than the average homeowner.
-                Our Home Watch Professionals will document all issues and
-                provide you with a report so that you can make any necessary
-                decisions on actions to be taken for any problems discovered.
+                All Certified Home Watch Professionals create a{" "}
+                <strong>Home Watch Checklist</strong> of items that need to be
+                checked in your home while you are away. You can customize your
+                Home Watch Checklist to include items you may have in your home
+                that are different than the average homeowner. Our Home Watch
+                Professionals will document all issues and provide you with a
+                report so that you can make any necessary decisions on actions
+                to be taken for any problems discovered.
               </p>
               <div className="row">
                 <div className="column col-lg-6 col-md-6 col-sm-6">
@@ -94,7 +95,10 @@ function HomeWatchChecklistPage(props) {
                     vacationing, relocating or simply in possession of a
                     property that is not your residence.
                   </p>
-                  <p>Home Watch Checklists are customized for each client to suit their needs and priorities.</p>
+                  <p>
+                    Home Watch Checklists are customized for each client to suit
+                    their needs and priorities.
+                  </p>
                 </div>
               </div>
             </div>
@@ -105,20 +109,20 @@ function HomeWatchChecklistPage(props) {
       {/* insert section component with content - SEO*/}
       <section className="services-page-section">
         <div className="auto-container">
-          <h2>What does a home watch service do?</h2>
+          <h2>What Does A Home Watch Service Do?</h2>
           <p>
-            A professional home watch service business will meet with you to
-            discuss your home's interior and exterior needs while you are away.
-            The longer you leave your house unoccupied will increase the risk of
-            vandalism and emergency repairs from weather conditions. This is why
-            it is important to hire a local home watch buiness to take care of
-            their home while you are out of town. When you hire Dallas Home
-            Watch we will have a Professional Home Watch Team Member walk your
-            property inside and out checking for obvious issues and send you a
-            report after each visit.
+            A Home Watch Professional will meet with you to discuss your home's
+            interior and exterior needs while you are away. The longer you leave
+            your house unoccupied the greater the risk of vandalism and{" "}
+            <strong>emergency repairs from weather conditions</strong>. This is
+            why it is important to hire a local Home Watch buiness to take care
+            of your unoccupied home. When you hire Dallas Home Watch we will
+            have a Professional Home Watch Team Member walk your property inside
+            and out checking for obvious issues and send you a report after each
+            visit.
           </p>
           <div className="column col-lg-12 col-md-6 col-sm-6">
-            <h3>Inside Your Home</h3>
+            <h3>Checklist for Interior of Home</h3>
             <p>
               An extended leave may mean that the homeowner has disabled certain
               aspects of the property like water or Internet. Our indoor
@@ -171,7 +175,7 @@ function HomeWatchChecklistPage(props) {
           </div>
           <p>&nbsp;</p>
           <div className="column col-lg-12 col-md-6 col-sm-6">
-            <h3>Outside Your Home</h3>
+            <h3>Checklist for Interior of Home</h3>
             <p>
               The outside inspection of your home may include removal of mail,
               boxes, and packages; damage to front doorway and entrances;

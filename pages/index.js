@@ -50,14 +50,8 @@ function HomePage(props) {
                   Home Watch is a service that performs visual inspections of a
                   home or property, looking for obvious issues.
                 </h2>
-                <h3>
-                  Home Watch inspections provide peace of mind about your
-                  property while you are away.
-                </h3>
 
                 <div className="bannerbox btns-box centered">
-                
-
                   <Link
                     href="tel:972-982-7050"
                     className="theme-btn btn-style-two"
@@ -86,6 +80,10 @@ function HomePage(props) {
 
       {/* 4 BLOCKS */}
       <section className="welcome-section MOVEUP">
+        <h3 className="centered mb-25 mt-25">
+          Home Watch inspections provide peace of mind about your property while
+          you are away.
+        </h3>
         <div className="auto-container">
           <div className="inner-container2">
             <div className="row clearfix">

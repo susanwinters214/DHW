@@ -60,12 +60,13 @@ function SitemapPage(props) {
                   </h4>
                   <h4>
                     <Link href="/homewatch-checklist">
-                      Home Watch Inspection Checklist
+                      &nbsp;&nbsp;&nbsp;Home Watch Services Checklist
                     </Link>
                   </h4>
-
                   <h4>
-                    <Link href="/concierge-services">Concierge Services</Link>
+                    <Link href="/concierge-services">
+                      Concierge Services Dallas
+                    </Link>
                   </h4>
                   <h4>
                     <Link href="/keyholder-services">Key Holder Services</Link>
@@ -74,6 +75,15 @@ function SitemapPage(props) {
                     <Link href="/vehicle-care">Vehicle Care</Link>
                   </h4>
                   <hr />
+
+                  <h3>News</h3>
+                  <h4>
+                    <Link href="/national-homewatch-month">
+                      National Home Watch Month
+                    </Link>
+                  </h4>
+                  <hr />
+
                   <h3>Blog</h3>
                   <h4>
                     <Link href="/blog/air-filters">Air Filters</Link>
@@ -89,11 +99,13 @@ function SitemapPage(props) {
                       Garage Door Openers
                     </Link>
                   </h4>
-                  <hr />
                   <h4>
-                    {" "}
-                    <Link href="/about">About</Link>{" "}
+                    <Link href="/blog/garage-door-openers">
+                      Why You Need HOME WATCH
+                    </Link>
                   </h4>
+                  <hr />
+
                   <h4>
                     {" "}
                     <Link href="/service-areas">Service Areas</Link>{" "}
@@ -101,15 +113,10 @@ function SitemapPage(props) {
                   <h4>
                     <Link href="/accreditation">Accreditation</Link>
                   </h4>
-                  <h4>
-                    <Link href="/national-homewatch-month">
-                      National Home Watch Month
-                    </Link>
-                  </h4>
+
                   <h4>
                     <Link href="/news">Home Watch News</Link>
                   </h4>
-
                   <h4>
                     <Link href="/privacy-policy">Privacy Policy</Link>
                   </h4>

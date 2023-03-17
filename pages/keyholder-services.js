@@ -11,7 +11,7 @@ function KeyHolderPage(props) {
         <title>Key Holder Services | Dallas Home Watch </title>
         <meta
           name="description"
-          content="A Key Holder is a professional Home Watch professional that holds the keys to your home to allow access to contractors to come into the home to perform a service."
+          content="You need a Trusted Key Holder when you leave home so that you have a professional that holds the keys to your home to allow access to contractors to come into the home to perform a service."
         />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
@@ -44,12 +44,12 @@ function KeyHolderPage(props) {
       {/* insert top banner with Page Title & Breadcrumb*/}
       <section className="page-title pageback-keyh">
         <div className="auto-container">
-          <h1>Key Holder Service</h1>
+          <h1>Key Holder Services</h1>
           <ul className="page-breadcrumb">
             <li>
               <Link href="/">home</Link>
             </li>
-            <li>Key Holder Service</li>
+            <li>Key Holder Services</li>
           </ul>
         </div>
       </section>
@@ -59,7 +59,7 @@ function KeyHolderPage(props) {
         <div className="auto-container">
           <div className="inner-container">
             <div className="lower-content keyholdertop">
-              <h2 className="pageTitle">Dallas Key Holder Service</h2>
+              <h2 className="pageTitle">Dallas Key Holder Services</h2>
               <p>
                 <br />
                 When you own a large home there are a lot of things you need to
@@ -72,7 +72,7 @@ function KeyHolderPage(props) {
                 Dallas Home Watch can help you and your family get access back
                 into your home when you have lost your keys. Do not risk the
                 security of your home by leaving keys under a doormat or
-                flowerpot. Instead, leave your keys with Dallas Home Watch.
+                flowerpot. Leave your keys with Dallas Home Watch, your trusted key holder.
               </p>
               <p>
                 Below is a list of the many reasons you may want to use Dallas

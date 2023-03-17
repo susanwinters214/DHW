@@ -8,14 +8,14 @@ function ConciergePage(props) {
   return (
     <Fragment>
       <Head>
-        <title>Personal Concierge Services for Dallas Home Watch Clients</title>
+        <title>Dallas Conceirge Service</title>
         <meta
           name="description"
           content="Dallas Concierge Services helps busy executives by performing tasks and running errands for them that give them back their freedom and time to do the things they enjoy."
         />
 
         <meta property="fb:app_id" content="8620778781329629" />
-        <meta property="og:type" content="website" /> 
+        <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
 
         <meta
@@ -78,7 +78,7 @@ function ConciergePage(props) {
                     <li>
                       Pick Up packages from your front porch and bring inside
                     </li>
-                    <li>Stock your refrigerator with food and drinks.</li>
+                    <li>Stock your refrigerator with food and drinks</li>
                   </ul>
                 </div>
 
@@ -89,8 +89,8 @@ function ConciergePage(props) {
                       tornados
                     </li>
                     <li>Open and close home for visiting family or friends</li>
-                    <li>Meet Maid Service, Open & Close the house</li>
                     <li>Drop Off / Pick Up Dry Cleaning</li>
+                    <li>Specialized: Personal complicated tasks.</li>
                   </ul>
                 </div>
               </div>
@@ -133,10 +133,13 @@ function ConciergePage(props) {
                 at how much of a positive impact a great personal concierge can
                 have on your life.
               </p>
-              <p>Dallas Home Watch is an Accredited member of NHWA which means we have passed criminal background checks, credit checks, 
-                are bonded and insured. When you hire Dallas Home Watch as your 
-                personal concierge, you know that you are hiring 
-                a reputable business with a high standard of ethics, discretion and reliability.
+              <p>
+                Dallas Home Watch is an Accredited member of NHWA which means we
+                have passed criminal background checks, credit checks, are
+                bonded and insured. When you hire Dallas Home Watch as your
+                personal concierge, you know that you are hiring a reputable
+                business with a high standard of ethics, discretion and
+                reliability.
               </p>
             </div>
             <div className="centered">
