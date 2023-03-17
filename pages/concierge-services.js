@@ -116,7 +116,7 @@ function ConciergePage(props) {
                 time with your loved ones, and ultimately prioritize your health
                 and wellbeing. In short, a personal concierge can simplify your
                 life and allow you to enjoy the little things in life, like
-                stopping to smell the roses. Avoid coming back to your Dallas
+                stopping to smell the roses. Imagine coming back to your Dallas
                 property knowing that your chores are done and you can simply
                 relax and enjoy your home.
               </p>
@@ -133,7 +133,9 @@ function ConciergePage(props) {
                 at how much of a positive impact a great personal concierge can
                 have on your life.
               </p>
-              <p>Dallas Home Watch is an Accredited member of NHWA which means we have passed criminal background checks, credit checks, are bonded and insured. When you hire Dallas Home Watch as your personal concierge, you know that you are hiring 
+              <p>Dallas Home Watch is an Accredited member of NHWA which means we have passed criminal background checks, credit checks, 
+                are bonded and insured. When you hire Dallas Home Watch as your 
+                personal concierge, you know that you are hiring 
                 a reputable business with a high standard of ethics, discretion and reliability.
               </p>
             </div>
