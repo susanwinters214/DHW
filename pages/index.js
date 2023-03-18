@@ -12,12 +12,18 @@ function HomePage(props) {
         </title>
         <meta
           name="description"
-          content="Dallas Home Watch Services by Dallas Home Watch LLC. provides Home Watch Services in the Dallas area for homeowners who have a second property located in north Dallas.
-          Home watch is a service that performs visual inspections of a home or property looking for obvious issues. "
+          content="Dallas Home Watch LLC. provides peace of mind for homeowners with an unoccupied home in the Dallas area.
+          Home watch is a service that performs visual inspections of a home or property looking for obvious issues. 
+          
+          Home Watch Services for the Dallas area - Home Watch provides 
+          "
         />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Dallas Home Watch" />
+        <meta
+          property="og:site_name"
+          content="Dallas Home Watch LLC | Home Watch in Dallas"
+        />
 
         <meta property="og:url" content="https://www.dallashomewatch.com" />
         <meta property="og:title" content="Dallas Home Watch" />
@@ -36,6 +42,12 @@ function HomePage(props) {
           property="og:image:alt"
           content="Dallas Home Watch logo over Dallas Skyline NHWA Certified Home Watch Professional logo"
         />
+        <meta
+          property="article:publisher"
+          content="https://www.facebook.com/dallashomewatch/"
+        ></meta>
+
+        <link rel="canonical" href="https://dallashomewatch.com/"></link>
       </Head>
       {/* top Banner Area */}
       <section className="page-title pageback-homepage">
@@ -48,7 +60,7 @@ function HomePage(props) {
                 </h1>
                 <h2 className="mobileh2">
                   Home Watch is a service that performs visual inspections of a
-                  home or property, looking for obvious issues.
+                  home or property, looking for obvious issues.{" "}
                 </h2>
 
                 <div className="bannerbox btns-box centered">
@@ -594,7 +606,19 @@ function HomePage(props) {
         <div className="auto-container">
           {/* Sec Title */}
           <div className="sec-title centered">
-            <h3 className="serviceAreas">Our Home Watch Service Areas</h3>
+            <span className="">
+              <Image
+                decoding="async"
+                width="1500"
+                height="300"
+                src="/images/background/dallas-skyline.jpg"
+                alt="Dallas Home Watch LLC services Dallas, Texas"
+                title="Dallas area"
+              />
+              <br /> <br />
+            </span>
+
+            <h3 className="serviceAreas">Home Watch in Dallas</h3>
             <h4>Gated Communities</h4>
           </div>
           <div className="inner-container">
