@@ -3913,7 +3913,7 @@ background-color: #ffffff;
 
 .services-detail-section .lower-content {
   position: relative;
-  padding-top: 65px;
+  padding-top: 50px;
 }
 
 .services-detail-section .lower-content h2 {
@@ -3943,7 +3943,7 @@ background-color: #ffffff;
 .services-detail-section .lower-content .btn-box {
   position: relative;
   margin-top: 25px;
-  margin-bottom: 70px;
+  margin-bottom: 20px;
 }
 
 .services-detail-section .lower-content .service-gallery-box {
@@ -5668,7 +5668,7 @@ background-color: #ffffff;
 
 .sidebar-page-container {
   position: relative;
-  padding: 100px 0px 50px;
+  padding: 10px 0px 10px;
 }
 
 .sidebar-page-container .content-side,

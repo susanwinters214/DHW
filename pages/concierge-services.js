@@ -66,7 +66,6 @@ function ConciergePage(props) {
               <div className="row clearfix">
                 <div className="column col-lg-6 col-md-6 col-sm-6">
                   <h3 className="blue">What are Conceirge Services?</h3>
-
                   <p>
                     Personal concierge services may include personal errands
                     like picking up dry cleaning, purchasing gifts, packing up
@@ -81,7 +80,6 @@ function ConciergePage(props) {
                     small tasks to prepare your home for your arrival into
                     Dallas.
                   </p>
-
                   <Link
                     href="tel:972-982-7050"
                     className="theme-btn btn-style-two"
@@ -91,6 +89,7 @@ function ConciergePage(props) {
                       <i className="phone" />
                     </span>
                   </Link>
+                  <br /> <br />
                 </div>
                 <div className="column col-lg-6 col-md-6 col-sm-6">
                   <div className="image">
@@ -108,10 +107,10 @@ function ConciergePage(props) {
         </div>
       </section>
 
-      <section className="services-detail-section-silver">
+      <section className="services-detail-section silver">
         <div className="auto-container">
-          <div className="">
-            <div className="lower-content">
+        
+            
               <p>
                 <strong>
                   Concierge Services are only available for Dallas Home Watch
@@ -159,12 +158,12 @@ function ConciergePage(props) {
                       alt="wine bottles on shelves in a wine cellar"
                     />
                   </div>
-                  <br />
+                
                 </div>
               </div>
             </div>
-          </div>
-        </div>
+      
+     
       </section>
 
       <section className="services-detail-section">
@@ -204,22 +203,20 @@ function ConciergePage(props) {
 
       <section className="services-detail-section-silver">
         <div className="auto-container">
-          <div className="">
-            <div className="lower-content">
-              <p>
-                When hiring a personal concierge, it's crucial to take
-                references into account. It's essential to find someone with
-                high ethical standards who can be entrusted with sensitive
-                information and access to your home. Therefore, it's imperative
-                to conduct a thorough reference check to ensure you're making
-                the right decision. Starting with smaller tasks can be a good
-                way to assess the competency and reliability of your personal
-                concierge before entrusting them with bigger responsibilities.
-                Once you're satisfied with their performance, you'll be amazed
-                at how much of a positive impact a great personal concierge can
-                have on your life.
-              </p>
-            </div>
+          <div className="lower-content ">
+            <p>
+              When hiring a personal concierge, it's crucial to take references
+              into account. It's essential to find someone with high ethical
+              standards who can be entrusted with sensitive information and
+              access to your home. Therefore, it's imperative to conduct a
+              thorough reference check to ensure you're making the right
+              decision. Starting with smaller tasks can be a good way to assess
+              the competency and reliability of your personal concierge before
+              entrusting them with bigger responsibilities. Once you're
+              satisfied with their performance, you'll be amazed at how much of
+              a positive impact a great personal concierge can have on your
+              life.
+            </p>
           </div>
         </div>
       </section>
@@ -267,23 +264,20 @@ function ConciergePage(props) {
                     that can assist with your specific issues. <br /> <br />
                   </li>
                 </ul>
-<br />
-               
-                 
-                    <h3>Ready To Hire A Personal Concierge?</h3>
-                    <br />
+                <br />
 
-                    <Link
-                      href="tel:972-982-7050"
-                      className="theme-btn btn-style-two"
-                    >
-                      <span className="txt">
-                        CALL DALLAS HOME WATCH
-                        <i className="phone" />
-                      </span>
-                    </Link>
-                  
-              
+                <h3>Ready To Hire A Personal Concierge?</h3>
+                <br />
+
+                <Link
+                  href="tel:972-982-7050"
+                  className="theme-btn btn-style-two"
+                >
+                  <span className="txt">
+                    CALL DALLAS HOME WATCH
+                    <i className="phone" />
+                  </span>
+                </Link>
               </div>
               <div className="column col-lg-6 col-md-6 col-sm-6">
                 <div className="image-centered" id="">
@@ -292,7 +286,6 @@ function ConciergePage(props) {
                     alt="personal concierge stocking refrigerator"
                     width={400}
                     height={150}
-                    
                   />
                 </div>
                 <br />

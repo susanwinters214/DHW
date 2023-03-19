@@ -236,7 +236,7 @@ function AccreditationPage(props) {
                         <div className="content">
                           <div className="icon flaticon-briefcase" />
                           <div className="count-outer count-box"></div>
-                          <div className="counter-title">Licensed</div>
+                          <div className="counter-title">Register Business</div>
                         </div>
                       </div>
                     </div>

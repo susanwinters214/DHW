@@ -179,6 +179,17 @@ function VehicleCarePage(props) {
               data-wow-duration="1500ms"
             >
               <div className="row clearfix">
+                <div className="content-column col-lg-6 col-md-12 col-sm-12">
+                  <div className="inner-column">
+                    <h3>Garage Door Entries</h3>
+
+                    <div className="text">
+                      Dallas Home Watch will check your external wireless keypad
+                      to ensure it is working and also verify the outside motion
+                      sensor lighting around your garage works.
+                    </div>
+                  </div>
+                </div>
                 {/* Image Column */}
                 <div className="image-column col-lg-6 col-md-12 col-sm-12">
                   <div className="inner-column">
@@ -192,18 +203,6 @@ function VehicleCarePage(props) {
                     </div>
                   </div>
                 </div>
-                {/* Content Column */}
-                <div className="content-column col-lg-6 col-md-12 col-sm-12">
-                  <div className="inner-column">
-                    <h3>Garage Door Entries</h3>
-
-                    <div className="text">
-                      Dallas Home Watch will check your external wireless keypad
-                      to ensure it is working and also verify the outside motion
-                      sensor lighting around your garage works.
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
@@ -211,13 +210,10 @@ function VehicleCarePage(props) {
       </section>
 
       {/* insert section component with SEO Content */}
-      <section className="services-page-section shade">
+      <section className="services-page-section silver  moveupHeader">
         <div className="auto-container">
           {/* Block Detail */}
-          <div
-            className="blog-detail"
-            style={{ marginTop: "10px", marginBottom: 50 }}
-          >
+          <div className="blog-detail" style={{ marginTop: "-50px" }}>
             <h2>Why Would I Need Vehicle Care While Out Of Town?</h2>
 
             <div className="inner-box">
@@ -251,6 +247,21 @@ function VehicleCarePage(props) {
                   When you return home, your car will be at its best and ready
                   to go.{" "}
                 </p>
+              </div>
+<br />
+              <div className="column col-lg-12 col-md-6 col-sm-6 centered">
+                <h3>Ready To Hire Vehicle Care?</h3>
+                <br />
+
+                <Link
+                  href="tel:972-982-7050"
+                  className="theme-btn btn-style-two"
+                >
+                  <span className="txt">
+                    CALL DALLAS HOME WATCH
+                    <i className="phone" />
+                  </span>
+                </Link>
               </div>
             </div>
           </div>

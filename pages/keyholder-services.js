@@ -140,13 +140,11 @@ function KeyHolderPage(props) {
 
       {/* insert section component with SEO Content */}
       <section className="services-page-section shade">
-       
-  
         <div className="auto-container">
           {/* Block Detail */}
           <div
             className="blog-detail"
-            style={{ marginTop: "-75px", marginBottom: 100 }}
+            style={{ marginTop: "-75px"  }}
           >
             <h2>Why Would I Need a Key Holder Service?</h2>
 
@@ -205,8 +203,22 @@ function KeyHolderPage(props) {
               </div>
             </div>
           </div>
+          <br />
+          <div className="column col-lg-12 col-md-6 col-sm-6 centered">
+            <h3>Ready To Hire A Key Holder?</h3>
+            <br />
+
+            <Link href="tel:972-982-7050" className="theme-btn btn-style-two">
+              <span className="txt">
+                CALL DALLAS HOME WATCH
+                <i className="phone" />
+              </span>
+            </Link>
+          </div>
         </div>
       </section>
+
+  
     </Fragment>
   );
 }

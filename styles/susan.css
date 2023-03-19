@@ -140,6 +140,12 @@ h2.welcomeHome {
 }
 .neighborhood-name{margin-top:80px;margin-bottom:25px;}
 /*Background Images for each page: */
+.moveupHeader{margin-top:-25px;}
+.silver{background-color:#f9f9f9ce;}
+.services-detail-section-silver{background-color:#f9f9f9ce;}
+.calmDown{font-size:18px; margin-left:10%; margin-right:10%; text-align: center}
+.sidebar-page-container{margin-top:-55px;} /* home page above NHWA */
+.NHWAsection{margin-top:-55px;padding-bottom:-20px; margin-bottom:-20px;background-color: #f9f9f9ce;}
 
 .pageback-homepage {
   background-image: url('/images/background/dallas-skyline.jpg');

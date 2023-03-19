@@ -62,7 +62,6 @@ function HomePage(props) {
                   Home Watch is a service that performs visual inspections of a
                   home or property, looking for obvious issues.{" "}
                 </h2>
-
                 <div className="bannerbox btns-box centered">
                   <Link
                     href="tel:972-982-7050"
@@ -74,7 +73,6 @@ function HomePage(props) {
                     </span>
                   </Link>
                 </div>
-
                 <br />
                 <Link href="/national-homewatch-month">
                   <Image
@@ -84,6 +82,7 @@ function HomePage(props) {
                     alt="home-watch-professional-checking-doors"
                   />
                 </Link>
+                <br /> <br />
               </div>
             </div>
           </div>
@@ -92,7 +91,7 @@ function HomePage(props) {
 
       {/* 4 BLOCKS */}
       <section className="welcome-section MOVEUP">
-        <h3 className="centered mb-25 mt-25">
+        <h3 className="centered mb-25 mt-25 calmDown">
           Home Watch inspections provide peace of mind about your property while
           you are away.
         </h3>
@@ -201,17 +200,18 @@ function HomePage(props) {
 
       {/* insert Welcome */}
       <section
-        className="welcome-section"
+        className="welcome-section moveupHeader"
         style={{ backgroundImage: "url(images/background/pattern-1.png)" }}
       >
-        <div className="auto-container">
-          <div className="inner-container">
+        <div className="auto-container moveupHeader">
+          <div className="inner-container  ">
             <div className="clearfix">
               {/* Content Column */}
               <div className="content-column col-lg-6 col-md-12 col-sm-12">
                 <div className="inner-column ">
                   {/* Sec Title */}
                   <div className="text">
+                    <h2>Home Watch in Dallas</h2>
                     <p>
                       Dallas Home Watch offers exceptional home watch services
                       to the Dallas area and surrounding neighborhoods,
@@ -247,8 +247,6 @@ function HomePage(props) {
                       a call today to learn more about our services and why we
                       are the better choice for your home watch needs.
                     </p>
-
-                    <br />
                   </div>
                 </div>
               </div>
@@ -346,20 +344,19 @@ function HomePage(props) {
           </div>
         </div>
       </section>
-      <hr   id="whyhireHWS"></hr>
-      {/* insert SEO content */}
+      <hr id="whyhireHWS"></hr>
+
+      {/* WalkingInSection */}
       <section className="sidebar-page-container">
         <div className="auto-container">
           <div className="row clearfix">
             {/* Content Side */}
-            <div
-              className="content-side col-lg-12 col-md-12 col-sm-12"
-            
-            >
+            <div className="content-side col-lg-12 col-md-12 col-sm-12 ">
               {/* Block Detail */}
               <div className="blog-detail">
                 <div className="inner-box">
                   <div className="lower-content">
+                    <br />
                     <h2>Why Hire a Home Watch Service?</h2>
                     <p>
                       The typical homeowner assumes that a Home Watch service is
@@ -422,7 +419,7 @@ function HomePage(props) {
                       homeowner is aware of any issues and follow their
                       instructions regarding a resolution.
                     </p>
-                    <div className="two-column">
+                    <div className="two-column  ">
                       <div className="row clearfix">
                         {/* Column */}
                         <div className="column col-lg-6 col-md-6 col-sm-12">
@@ -469,8 +466,8 @@ function HomePage(props) {
         </div>
       </section>
       <hr />
-      {/* insert SEO content */}
-      <section className="sidebar-page-container">
+      {/* National Home Watch Association info */}
+      <section className="sidebar-page-container NHWAsection ">
         <div className="auto-container">
           <div className="row clearfix">
             {/* Content Side */}
@@ -498,7 +495,7 @@ function HomePage(props) {
                             mission statement laid out by the National Home
                             Watch Association. It is the mission and goal of the
                             NHWA to:
-                          </p>
+                          </p><br />
                           <details>
                             <summary>
                               <strong>NHWA Mission Statement</strong>
@@ -563,6 +560,7 @@ function HomePage(props) {
                               </li>
                             </ul>
                           </details>
+                          <br />
                         </div>
                         {/* Column */}
                         <div className="column col-lg-6 col-md-6 col-sm-12">
@@ -604,13 +602,13 @@ function HomePage(props) {
       </section>
       {/* insert Gated Communities */}
       <section
-        className="practice-section shade"
+        className="practice-section shade MOVEUP"
         style={{ backgroundImage: "url(images/background/pattern-2.png)" }}
       >
         <div className="auto-container">
           {/* Sec Title */}
           <div className="sec-title centered">
-            <span className="">
+           
               <Image
                 decoding="async"
                 width="1500"
@@ -620,9 +618,9 @@ function HomePage(props) {
                 title="Dallas area"
               />
               <br /> <br />
-            </span>
+          
 
-            <h3 className="serviceAreas">Home Watch in Dallas</h3>
+            <h3>Home Watch in Dallas</h3><br />
             <h4>Gated Communities</h4>
           </div>
           <div className="inner-container">

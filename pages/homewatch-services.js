@@ -55,83 +55,66 @@ function HomeWatchServicesPage(props) {
         <div className="auto-container">
           <div className="inner-container">
             <div className="lower-content">
-                    <h2 className="pageTitle">Home Watch Services</h2>
-                    <p className="text">
-                      Home watch services are professional services that offer
-                      regular inspections and monitoring of a home, typically
-                      for homeowners who are away for extended periods of time.
-                      The purpose of these services is to ensure the safety,
-                      security, and maintenance of the property while the
-                      homeowners are away. Home watch services typically offer a
-                      range of services, including regular inspections of the
-                      home and property, checking for signs of damage or wear
-                      and tear, ensuring that all doors and windows are secure,
-                      and checking for signs of pests or other issues that could
-                      affect the safety and security of the property. In
-                      addition, many home watch services also offer additional
-                      services such as mail pickup, plant watering, and other
-                      tasks that may be necessary while the homeowner is away.
-                      Overall, the goal of home watch services is to provide
-                      homeowners with peace of mind, knowing that their property
-                      is being monitored and cared for in their absence.
-                    </p>
-                    <p>
-                      Dallas Home Watch offers a customizable checklist of
-                      services designed to cover the important aspects of a
-                      client's home. We also offer flexibility in scheduling and
-                      home evaluations to meet the needs of our clients.
-                    </p>
-                    <p>
-                      If a problem is uncovered during a home evaluation, Dallas
-                      Home Watch will immediately notify the client to discuss
-                      options to address the concern. We will work with the
-                      client to resolve the issue if it is within their scope of
-                      practice, or we can provide qualified tradespeople to
-                      assist the homeowner. The client can instruct Dallas Home
-                      Watch on how they would like to proceed.
-                    </p>
-                    <p>
-                      Dallas Home Watch also adds security to the client's
-                      vacant home by creating the illusion of occupancy. We
-                      remove junk mail, flyers, and other debris from the yard
-                      to deter potential criminals from targeting the home. We
-                      may also roll trash cans to the curb on trash day to give
-                      the illusion of being home.
-                    </p>
-                    <p>
-                      Overall, Dalas Home Watch strives to provide our clients
-                      with peace of mind through frequent communication and
-                      customizable services. We are fully insured and bonded,
-                      which provides an extra layer of protection for their
-                      clients.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            
+              <h2 className="pageTitle">Home Watch Services</h2>
+              <p className="text">
+                Home watch services are professional services that offer regular
+                inspections and monitoring of a home, typically for homeowners
+                who are away for extended periods of time. The purpose of these
+                services is to ensure the safety, security, and maintenance of
+                the property while the homeowners are away. Home watch services
+                typically offer a range of services, including regular
+                inspections of the home and property, checking for signs of
+                damage or wear and tear, ensuring that all doors and windows are
+                secure, and checking for signs of pests or other issues that
+                could affect the safety and security of the property. In
+                addition, many home watch services also offer additional
+                services such as mail pickup, plant watering, and other tasks
+                that may be necessary while the homeowner is away. Overall, the
+                goal of home watch services is to provide homeowners with peace
+                of mind, knowing that their property is being monitored and
+                cared for in their absence.
+              </p>
+              <p>
+                Dallas Home Watch offers a customizable checklist of services
+                designed to cover the important aspects of a client's home. We
+                also offer flexibility in scheduling and home evaluations to
+                meet the needs of our clients.
+              </p>
+              <p>
+                If a problem is uncovered during a home evaluation, Dallas Home
+                Watch will immediately notify the client to discuss options to
+                address the concern. We will work with the client to resolve the
+                issue if it is within their scope of practice, or we can provide
+                qualified tradespeople to assist the homeowner. The client can
+                instruct Dallas Home Watch on how they would like to proceed.
+              </p>
+              <p>
+                Dallas Home Watch also adds security to the client's vacant home
+                by creating the illusion of occupancy. We remove junk mail,
+                flyers, and other debris from the yard to deter potential
+                criminals from targeting the home. We may also roll trash cans
+                to the curb on trash day to give the illusion of being home.
+              </p>
+              <p>
+                Overall, Dalas Home Watch strives to provide our clients with
+                peace of mind through frequent communication and customizable
+                services. We are fully insured and bonded, which provides an
+                extra layer of protection for their clients.
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<hr id="WhatDoesHWSdo"></hr>
+      <hr id="WhatDoesHWSdo"></hr>
       <section className="services-page-section centered">
         <div className="auto-container">
           <h2>What Does A Home Watch Service Do?</h2>
-          <p>A Home Watch Professional will inpect the interior and exterior of your home. Below are a few photos taken during a Home Watch Inspection.</p>
+          <p>
+            A Home Watch Professional will inpect the interior and exterior of
+            your home. Below are a few photos taken during a Home Watch
+            Inspection.
+          </p>
           {/* Security Alarms  - TINA R */}
           <div className="services-block-three">
             <div
@@ -525,7 +508,6 @@ function HomeWatchServicesPage(props) {
                         pick them up at your local Home Depot or receive your
                         order from Amazon.
                       </p>
-                     
                     </div>
                   </div>
                 </div>
@@ -920,11 +902,8 @@ function HomeWatchServicesPage(props) {
             </div>
           </div>
         </div>
-      </section>
-
-      <section className="services-page-section centered">
-        <div className="column col-lg-12 col-md-6 col-sm-6">
-          <h3>Ready To Hire A Home Watch Service Business?</h3>
+        <div className="column col-lg-12 col-md-6 col-sm-6 centered">
+          <h3>Ready To Hire Home Watch Service?</h3>
           <br />
 
           <Link href="tel:972-982-7050" className="theme-btn btn-style-two">
@@ -935,6 +914,8 @@ function HomeWatchServicesPage(props) {
           </Link>
         </div>
       </section>
+
+    
     </Fragment>
   );
 }
