@@ -1,6 +1,6 @@
 
 /* Blog Backgrounds & OG */
-
+hr {visibility:none;height:0px; color:white;}
 .bg-airfilters{
   background-image: url(/images/blogimg/og-air-filter-replacement.jpg);
 }
@@ -25,6 +25,9 @@ background-image: url(/images/blogimg/man-researching-home-watch-options.jpg);
 .bg-dhwra{
 background-image: url(/images/blogimg/NHWA-received-accreditation.jpg);
 }
+.bg-FAQ{
+  background-image: url(/images/background/questions.jpg);
+}
 
 ul.dots li{list-style-type: disc; margin-left:25px;}
 
@@ -40,6 +43,7 @@ h3 {
   font-family: "arial";
   color: #00204c;
 }
+h3.pt-25{padding-top:25px;}
 
 #nhwa_circle {
   padding-bottom: -30px;
@@ -136,54 +140,56 @@ h2.welcomeHome {
 }
 .neighborhood-name{margin-top:80px;margin-bottom:25px;}
 /*Background Images for each page: */
-.pageback-404 {
-  background-image: url(/images/background/dallas-skyline.jpg);
-}
-.pageback-serviceareas {
-  background-image: url(/images/background/dallas-skyline.jpg);
-}
+
 .pageback-homepage {
-  background-image: url(/images/background/dallas-skyline.jpg);
+  background-image: url('/images/background/dallas-skyline.jpg');
 }
 .pageback-frontdoor {
-  background-image: url(/images/background/open-front-door-960x496.jpg);
+  background-image: url('/images/background/open-front-door-960x496.jpg');
 }
 .pageback-about {
-  background-image: url(/images/background/dallas-skyline.jpg);
+  background-image: url('/images/background/dallas-skyline.jpg');
 }
 .pageback-accred {
-  background-image: url(/images/background/certification.jpg);
+  background-image: url('/images/background/certification.jpg');
 }
 .pageback-con {
-  background-image: url(/images/concierge-services/pickup-dry-cleaning.jpg);
+  background-image: url('/images/concierge-services/pickup-dry-cleaning.jpg');
 }
 .pageback-contact {
-  background-image: url(/images/background/gated-community.jpg);
+  background-image: url('/images/background/gated-community.jpg');
 }
 .pageback-hwchk {
-  background-image: url(/images/background/home-watch-enters-front-door.jpg);
+  background-image: url('/images/background/home-watch-enters-front-door.jpg');
 }
 .pageback-hwservice {
-  background-image: url(/images/background/open-front-door-960x496.jpg);
+  background-image: url('/images/background/open-front-door-960x496.jpg');
 }
 .pageback-keyh {
-  background-image: url(/images/background/house-keys-down.jpg);
+  background-image: url('/images/background/house-keys-down.jpg');
 }
 .pageback-news {
-  background-image: url(/images/background/home-watch-news.jpg);
+  background-image: url('/images/background/home-watch-news.jpg');
 }
 .pageback-privacy {
-  background-image: url(/images/background/home-watch-news.jpg);
+  background-image: url('/images/background/home-watch-news.jpg');
 }
 .pageback-terms {
-  background-image: url(/images/background/home-watch-news.jpg);
+  background-image: url('/images/background/home-watch-news.jpg');
 }
 .pageback-vehcare {
-  background-image: url(/images/car-care/luxury-cars.jpg);
+  background-image: url('/images/car-care/luxury-cars.jpg');
 }
 .pageback-blog {
-  background-image: url(/images/background/dallas-skyline.jpg);
+  background-image: url('/images/background/dallas-skyline.jpg');
 }
+.pageback-serviceareas {
+  background-image: url('/images/background/dallas-skyline.jpg');
+}
+.pageback-404 {
+  background-image: url('/images/background/magnifying-glass-404.jpg');
+}
+
 
 .lost {
   color: white;

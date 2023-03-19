@@ -58,7 +58,7 @@ function KeyHolderPage(props) {
       <section className="services-detail-section">
         <div className="auto-container">
           <div className="inner-container">
-            <div className="lower-content keyholdertop">
+            <div className="lower-content">
               <h2 className="pageTitle">Dallas Key Holder Services</h2>
               <p>
                 <br />
@@ -72,7 +72,8 @@ function KeyHolderPage(props) {
                 Dallas Home Watch can help you and your family get access back
                 into your home when you have lost your keys. Do not risk the
                 security of your home by leaving keys under a doormat or
-                flowerpot. Leave your keys with Dallas Home Watch, your trusted key holder.
+                flowerpot. Leave your keys with Dallas Home Watch, your trusted
+                key holder.
               </p>
               <p>
                 Below is a list of the many reasons you may want to use Dallas
@@ -108,7 +109,7 @@ function KeyHolderPage(props) {
           </div>
         </div>
       </section>
-
+      <hr id="WIKeyHolder"></hr>
       <section
         className="clienst-section style-two"
         style={{ marginTop: 100, marginBottom: 100 }}
@@ -125,12 +126,13 @@ function KeyHolderPage(props) {
               you.
             </div>
           </div>
-          <div className="image-centered">
+          <div className="image-centered" id="">
             <Image
               src="/images/icons/house-keys.png"
               alt="house keys"
               width={300}
               height={150}
+              id="WRKeyHolder"
             />
           </div>
         </div>
@@ -138,6 +140,8 @@ function KeyHolderPage(props) {
 
       {/* insert section component with SEO Content */}
       <section className="services-page-section shade">
+       
+  
         <div className="auto-container">
           {/* Block Detail */}
           <div

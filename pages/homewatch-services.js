@@ -51,15 +51,10 @@ function HomeWatchServicesPage(props) {
       </section>
 
       {/* insert section component with Welcome*/}
-      <section className="welcome-section style-two">
+      <section className="services-detail-section">
         <div className="auto-container">
           <div className="inner-container">
-            <div className="clearfix">
-              {/* Content Column */}
-              <div className="content-column col-lg-12 col-md-12 col-sm-12">
-                <div className="inner-column">
-                  {/* Sec Title */}
-                  <div className="sec-title">
+            <div className="lower-content">
                     <h2 className="pageTitle">Home Watch Services</h2>
                     <p className="text">
                       Home watch services are professional services that offer
@@ -113,14 +108,30 @@ function HomeWatchServicesPage(props) {
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
+            
       </section>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr id="WhatDoesHWSdo"></hr>
       <section className="services-page-section centered">
         <div className="auto-container">
           <h2>What Does A Home Watch Service Do?</h2>
+          <p>A Home Watch Professional will inpect the interior and exterior of your home. Below are a few photos taken during a Home Watch Inspection.</p>
           {/* Security Alarms  - TINA R */}
           <div className="services-block-three">
             <div

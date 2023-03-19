@@ -72,9 +72,11 @@ function NationalHomeWatchMonthPage(props) {
                 <div className="inner-column">
                   {/* Sec Title */}
                   <div className="sec-title">
-                    <h2 className="pageTitle">March 2023 | NHWM</h2>
+                    <h2 className="pageTitle">
+                      March 2023 | #NationalHomeWatchMonth
+                    </h2>
                     <h3 className="centered">
-                      The National Home Watch Association Announces Inaugural
+                      The National Home Watch Association Announces<br /> Inaugural
                       National Home Watch Month
                     </h3>
                     <p className="text">
@@ -101,12 +103,12 @@ function NationalHomeWatchMonthPage(props) {
                       Home Watch is a service that performs visual inspections
                       of a home or property, looking for obvious issues. When
                       looking for a Home Watch company, make sure they have a
-                      business license, are bonded and insured. You also want to
-                      make sure the Home Watch company that you hire has been
-                      professionally trained in the Home Watch industry and has
-                      the education, knowledge and experience to examine your
-                      home, document their findings and provide reports through
-                      a secured software portal.
+                      registered business name, are bonded and insured. You also
+                      want to make sure the Home Watch company that you hire has
+                      been professionally trained in the Home Watch industry and
+                      has the education, knowledge and experience to examine
+                      your home, document their findings and provide reports
+                      through a secured software portal.
                     </p>
                     <p>
                       The National Home Watch Association (NHWA) was founded in

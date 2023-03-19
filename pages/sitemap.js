@@ -104,6 +104,11 @@ function SitemapPage(props) {
                       Why You Need HOME WATCH
                     </Link>
                   </h4>
+                  <h4>
+                    <Link href="/faqs">
+                      Frequently Asked Questions
+                    </Link>
+                  </h4>
                   <hr />
 
                   <h4>

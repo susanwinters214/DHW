@@ -62,38 +62,56 @@ function ConciergePage(props) {
               <h2 className="pageTitle">
                 Dallas Concierge Services for Home Watch Clients
               </h2>
-              <p>
-                <br />
-                Dallas Home Watch offers personal concierge services while you
-                are away so that you can come home and rest assured that your
-                home is ready to enjoy. Personal Concierge Services are only
-                available for Dallas Home Watch clients. Some of the services we
-                provide include but are not limited to the following:
-              </p>
+              <br />
               <div className="row clearfix">
                 <div className="column col-lg-6 col-md-6 col-sm-6">
-                  <ul className="list-style-one">
-                    <li>Pick up items from Home Depot</li>
-                    <li>Return packages to Amazon locker locations</li>
-                    <li>
-                      Pick Up packages from your front porch and bring inside
-                    </li>
-                    <li>Stock your refrigerator with food and drinks</li>
-                  </ul>
-                </div>
+                  <h3 className="blue">What are Conceirge Services?</h3>
 
+                  <p>
+                    Personal concierge services may include personal errands
+                    like picking up dry cleaning, purchasing gifts, packing up
+                    items for storage, unpacking decorations for holidays,
+                    performing specialized tasks, returning an item to a store,
+                    or shipping a box via UPS.
+                  </p>
+                  <p>
+                    Think of Dallas Home Watch as your Personal Concierge while
+                    you are away. To get ready for your return, we can set the
+                    temperature, stock the fridge with drinks and perform other
+                    small tasks to prepare your home for your arrival into
+                    Dallas.
+                  </p>
+
+                  <Link
+                    href="tel:972-982-7050"
+                    className="theme-btn btn-style-two"
+                  >
+                    <span className="txt">
+                      CALL FOR CONCIERGE SERVICES
+                      <i className="phone" />
+                    </span>
+                  </Link>
+                </div>
                 <div className="column col-lg-6 col-md-6 col-sm-6">
-                  <ul className="list-style-one">
-                    <li>
-                      Notify you of debris in your yard after storms and
-                      tornados
-                    </li>
-                    <li>Open and close home for visiting family or friends</li>
-                    <li>Drop Off / Pick Up Dry Cleaning</li>
-                    <li>Specialized: Personal complicated tasks.</li>
-                  </ul>
+                  <div className="image">
+                    <Image
+                      width={500}
+                      height={300}
+                      src="/images/concierge-services/wine-cellar.jpg"
+                      alt="wine bottles on shelves in a wine cellar"
+                    />
+                  </div>
                 </div>
               </div>
+            </div>{" "}
+          </div>{" "}
+        </div>
+      </section>
+
+      <section className="services-detail-section-silver">
+        <div className="auto-container">
+          <div className="">
+            <div className="lower-content">
               <p>
                 <strong>
                   Concierge Services are only available for Dallas Home Watch
@@ -115,11 +133,79 @@ function ConciergePage(props) {
                 into town and attend a yoga class, take a walk, or spend quality
                 time with your loved ones, and ultimately prioritize your health
                 and wellbeing. In short, a personal concierge can simplify your
-                life and allow you to enjoy the little things in life, like
-                stopping to smell the roses. Imagine coming back to your Dallas
-                property knowing that your chores are done and you can simply
-                relax and enjoy your home.
+                life and allow you to enjoy the little things in life. Imagine
+                coming back to your Dallas property knowing that your household
+                chores are done and you can simply relax and enjoy your home.
               </p>
+              <br />
+
+              <div className="row">
+                <div className="column col-lg-6 col-md-6 col-sm-6">
+                  <div className="image">
+                    <Image
+                      width={530}
+                      height={480}
+                      src="/images/concierge-services/yoga-relaxing.jpg"
+                      alt="girl doing yoga to relax"
+                    />
+                  </div>
+                </div>
+                <div className="column col-lg-6 col-md-6 col-sm-6">
+                  <div className="image">
+                    <Image
+                      width={530}
+                      height={300}
+                      src="/images/concierge-services/couple-relaxing-on-couch-reading.jpg"
+                      alt="wine bottles on shelves in a wine cellar"
+                    />
+                  </div>
+                  <br />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="services-detail-section">
+        <div className="auto-container">
+          <p>
+            <br />
+            Dallas Home Watch offers personal concierge services while you are
+            away so that you can come home and rest assured that your home is
+            ready to enjoy. Some of the services we provide include but are not
+            limited to the following:
+          </p>
+          <div className="row clearfix">
+            <div className="column col-lg-6 col-md-6 col-sm-6">
+              <ul className="list-style-one">
+                <li>Pick up items from Home Depot</li>
+                <li>Return packages to Amazon locker locations</li>
+                <li>Pick Up packages from your front porch and bring inside</li>
+                <li>Stock your refrigerator with food and drinks</li>
+              </ul>
+            </div>
+
+            <div className="column col-lg-6 col-md-6 col-sm-6">
+              <ul className="list-style-one">
+                <li>
+                  Notify you of debris in your yard after storms and tornados
+                </li>
+                <li>Open and close home for visiting family or friends</li>
+                <li>Drop Off / Pick Up Dry Cleaning</li>
+                <li>Specialized: Personal complicated tasks.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* insert section component CTA*/}
+
+      <section className="services-detail-section-silver">
+        <div className="auto-container">
+          <div className="">
+            <div className="lower-content">
               <p>
                 When hiring a personal concierge, it's crucial to take
                 references into account. It's essential to find someone with
@@ -133,81 +219,15 @@ function ConciergePage(props) {
                 at how much of a positive impact a great personal concierge can
                 have on your life.
               </p>
-              <p>
-                Dallas Home Watch is an Accredited member of NHWA which means we
-                have passed criminal background checks, credit checks, are
-                bonded and insured. When you hire Dallas Home Watch as your
-                personal concierge, you know that you are hiring a reputable
-                business with a high standard of ethics, discretion and
-                reliability.
-              </p>
-            </div>
-            <div className="centered">
-              <Image
-                width={500}
-                height={275}
-                src="/images/concierge-services/concierge-500x275.jpg"
-                alt="concierge stocking the refrigerator"
-              />
             </div>
           </div>
         </div>
       </section>
 
-      {/* insert section component with content SEO*/}
-      <section className="services-page-section">
+      <section className="services-detail-section">
         <div className="auto-container">
-          <div className="blog-detail">
-            <div className="inner-box">
-              <div className="lower-content">
-                <div className="row clearfix">
-                  <div className="column col-lg-6 col-md-6 col-sm-6">
-                    <h2 className="blue">What are Concierge Services?</h2>
-                    <p>
-                      Think of Dallas Home Watch as your personal assistant
-                      while you are away.
-                    </p>
-                    <p>
-                      It is our goal to keep your home running smoothly while
-                      you are gone, so those pesky chores and to-dos that still
-                      need to get done will be ours to do for you.
-                    </p>
-                    <p>
-                      This may include personal errands like picking up dry
-                      cleaning, purchasing gifts, returning an item to a store,
-                      or shipping a box via UPS.
-                    </p>
-
-                    <p>
-                      To get ready for your return, we can set the temperature,
-                      stock the fridge with drinks and other food upon your
-                      arrival.
-                    </p>
-                    <p>
-                      If you need Concierge Services in Dallas, give us a call.
-                    </p>
-                  </div>
-                  <div className="column col-lg-6 col-md-6 col-sm-6">
-                    <div className="image">
-                      <Image
-                        width={500}
-                        height={300}
-                        src="/images/concierge-services/wine-cellar.jpg"
-                        alt="wine bottles on shelves in a wine cellar"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* insert section component with content2*/}
-      <section className="services-page-section bg-color-light">
-        <div className="auto-container">
-          <div className="sec-title centered ">
+          <div className="sec-title">
+            <br />
             <h2>Benefits of Concierge Services</h2>
 
             <p>
@@ -217,38 +237,79 @@ function ConciergePage(props) {
               Concierge Services are only offered for premier Dallas Home Watch
               clients.
             </p>
-            <ul>
-              <li>
-                <strong>Saves Time</strong>
+
+            <div className="row clearfix">
+              <div className="column col-lg-6 col-md-6 col-sm-6">
+                <ul>
+                  <li>
+                    <strong>Saves Time</strong>
+                    <br />
+                    The ability to have more time and energy to focus on what
+                    really matters is one of the most evident advantages of
+                    using a concierge service. You can set goals, connect with
+                    family, and improve your quality of life while the concierge
+                    takes care of regular tasks.
+                    <br />
+                    <br />
+                  </li>
+                  <li>
+                    <strong>Reliability</strong>
+                    <br />
+                    You cannot be in two places at the same time, so call Dallas
+                    Home Watch to help you get things done.
+                    <br />
+                    <br />
+                  </li>
+                  <li>
+                    <strong>Emergency assistance</strong>
+                    <br />
+                    Through emergency concierge help, you have someone to call
+                    that can assist with your specific issues. <br /> <br />
+                  </li>
+                </ul>
+<br />
+               
+                 
+                    <h3>Ready To Hire A Personal Concierge?</h3>
+                    <br />
+
+                    <Link
+                      href="tel:972-982-7050"
+                      className="theme-btn btn-style-two"
+                    >
+                      <span className="txt">
+                        CALL DALLAS HOME WATCH
+                        <i className="phone" />
+                      </span>
+                    </Link>
+                  
+              
+              </div>
+              <div className="column col-lg-6 col-md-6 col-sm-6">
+                <div className="image-centered" id="">
+                  <Image
+                    src="/images/concierge-services/concierge-500x275.jpg"
+                    alt="personal concierge stocking refrigerator"
+                    width={400}
+                    height={150}
+                    
+                  />
+                </div>
                 <br />
-                The ability to have more time and energy to focus on what really
-                matters is one of the most evident advantages of using a
-                concierge service. You can set goals, connect with family, and
-                improve your quality of life while the concierge takes care of
-                regular tasks.
-                <br />
-                <br />
-              </li>
-              <li>
-                <strong>Reliability</strong>
-                <br />
-                You cannot be in two places at the same time, so call Dallas
-                Home Watch to help you get things done.
-                <br />
-                <br />
-              </li>
-              <li>
-                <strong>Emergency assistance</strong>
-                <br />
-                Through emergency concierge help, you have someone to call that
-                can assist with your specific issues. <br /> <br />
-              </li>
-            </ul>
+                <div className="image-centered" id="">
+                  <Image
+                    src="/images/concierge-services/pickup-dry-cleaning.jpg"
+                    alt="dry cleaners"
+                    width={400}
+                    height={150}
+                    id="WRKeyHolder"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
-
-      {/* insert section component CTA*/}
     </Fragment>
   );
 }

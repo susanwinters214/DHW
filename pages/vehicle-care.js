@@ -55,16 +55,16 @@ function VehicleCarePage(props) {
       </section>
 
       {/* insert section component with Welcome*/}
-      <section className="welcome-section style-two">
+      <section className="services-detail-section">
         <div className="auto-container">
           <div className="inner-container">
-            <div className="clearfix">
+            <div className="lower-content ">
+              <h2 className="pageTitle">Stored Car Care</h2>
               {/* Content Column */}
               <div className="content-column col-lg-12 col-md-12 col-sm-12">
                 <div className="inner-column">
                   {/* Sec Title */}
                   <div className="sec-title">
-                    <h2 className="pageTitle">Stored Car Care</h2>
                     <p className="text">
                       Dallas Home Watch offers vehicle care. We define vehicle
                       care as a visual inspection of your stored vehicles
@@ -77,6 +77,14 @@ function VehicleCarePage(props) {
                       <br />
                       <br />
                     </p>
+                    <div className="image-centered" id="">
+                      <Image
+                        src="/images/og/luxury-car-care.jpg"
+                        alt="luxury cars stored in garage"
+                        width={800}
+                        height={150}
+                      />
+                    </div>
                   </div>
                 </div>
               </div>
