@@ -20,7 +20,7 @@ function HowToCustomizeAppleWatchBkgrndPage(props) {
 
         <meta
           property="og:url"
-          content="https://www.dallashomewatch.com/blog/why-you-need-homewatch"
+          content="https://www.dallashomewatch.com/blog/how-to-customize-your-apple-watch-background"
         />
         <meta
           property="og:title"
@@ -240,12 +240,12 @@ function HowToCustomizeAppleWatchBkgrndPage(props) {
                       />
                     </div>{" "}
                     <br />
-
-                    <p>Now that you know how to change the background of your watch face to display any photo in your
-                      photo library, share with others so that they can change their watch face too.
-                     
-</p>
-
+                    <p>
+                      Now that you know how to change the background of your
+                      watch face to display any photo in your photo library,
+                      share with others so that they can change their watch face
+                      too.
+                    </p>
                   </div>
                 </div>
               </div>
