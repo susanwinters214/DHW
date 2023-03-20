@@ -65,6 +65,81 @@ function BlogPage(props) {
         <div className="auto-container">
           <div className="inner-container2">
             <div className="row clearfix">
+              {/* Blog: Why you need Homewatch */}
+              <div className="services-block col-lg-6 col-md-12 col-sm-12">
+                <div
+                  className="inner-box wow fadeInRight BLUE"
+                  data-wow-delay="150ms"
+                  data-wow-duration="1500ms"
+                >
+                  <div className="content">
+                    <div className="icon flaticon-file" />
+                    <h4>
+                      <Link href="/blog/why-you-need-homewatch">
+                        Why You Need Homewatch
+                      </Link>
+                    </h4>
+                    <div className="text">
+                      5 Reasons You Need To Hire A Home Watch Professional
+                    </div>
+                  </div>
+                  <Link
+                    href="/blog/why-you-need-homewatch"
+                    className="arrow flaticon-right"
+                  />
+                </div>
+              </div>
+
+              {/* Blog: Why you need Homewatch */}
+              <div className="services-block col-lg-6 col-md-12 col-sm-12">
+                <div
+                  className="inner-box wow fadeInRight BLUE"
+                  data-wow-delay="150ms"
+                  data-wow-duration="1500ms"
+                >
+                  <div className="content">
+                    <div className="icon flaticon-file" />
+                    <h4>
+                      <Link href="/blog/what-to-look-for-in-homewatch-company">
+                        Home Watch Company Differences
+                      </Link>
+                    </h4>
+                    <div className="text">
+                      What To Look For in a Home Watch Company
+                    </div>
+                  </div>
+                  <Link
+                    href="/blog/what-to-look-for-in-homewatch-company"
+                    className="arrow flaticon-right"
+                  />
+                </div>
+              </div>
+
+              {/* Blog: Customize Apple Watch */}
+              <div className="services-block col-lg-6 col-md-12 col-sm-12">
+                <div
+                  className="inner-box wow fadeInRight BLUE"
+                  data-wow-delay="150ms"
+                  data-wow-duration="1500ms"
+                >
+                  <div className="content">
+                    <div className="icon flaticon-file" />
+                    <h4>
+                      <Link href="/blog/how-to-customize-your-apple-watch-background">
+                        Create Your Own Home Watch
+                      </Link>
+                    </h4>
+                    <div className="text">
+                      Customize Your Watch Background To Your Home
+                    </div>
+                  </div>
+                  <Link
+                    href="/blog/how-to-customize-your-apple-watch-background"
+                    className="arrow flaticon-right"
+                  />
+                </div>
+              </div>
+
               {/* Blog: Air Filters*/}
               <div className="services-block col-lg-6 col-md-12 col-sm-12">
                 <div
@@ -151,55 +226,6 @@ function BlogPage(props) {
                   </div>
                   <Link
                     href="/blog/garage-door-openers"
-                    className="arrow flaticon-right"
-                  />
-                </div>
-              </div>
-              {/* Blog: Why you need Homewatch */}
-              <div className="services-block col-lg-6 col-md-12 col-sm-12">
-                <div
-                  className="inner-box wow fadeInRight BLUE"
-                  data-wow-delay="150ms"
-                  data-wow-duration="1500ms"
-                >
-                  <div className="content">
-                    <div className="icon flaticon-file" />
-                    <h4>
-                      <Link href="/blog/why-you-need-homewatch">
-                        Why You Need Homewatch
-                      </Link>
-                    </h4>
-                    <div className="text">
-                      5 Reasons You Need To Hire A Home Watch Professional
-                    </div>
-                  </div>
-                  <Link
-                    href="/blog/why-you-need-homewatch"
-                    className="arrow flaticon-right"
-                  />
-                </div>
-              </div>
-
-              {/* Blog: Why you need Homewatch */}
-              <div className="services-block col-lg-6 col-md-12 col-sm-12">
-                <div
-                  className="inner-box wow fadeInRight BLUE"
-                  data-wow-delay="150ms"
-                  data-wow-duration="1500ms"
-                >
-                  <div className="content">
-                    <div className="icon flaticon-file" />
-                    <h4>
-                      <Link href="/blog/what-to-look-for-in-homewatch-company">
-                        Home Watch Company Differences
-                      </Link>
-                    </h4>
-                    <div className="text">
-                      What To Look For in a Home Watch Company
-                    </div>
-                  </div>
-                  <Link
-                    href="/blog/what-to-look-for-in-homewatch-company"
                     className="arrow flaticon-right"
                   />
                 </div>

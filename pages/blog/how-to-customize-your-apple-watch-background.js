@@ -8,7 +8,7 @@ function HowToCustomizeAppleWatchBkgrndPage(props) {
   return (
     <Fragment>
       <Head>
-        <title>How To Customize Apple Watch Background</title>
+        <title>Create Your Own Home Watch</title>
 
         <meta
           name="description"
@@ -22,21 +22,18 @@ function HowToCustomizeAppleWatchBkgrndPage(props) {
           property="og:url"
           content="https://www.dallashomewatch.com/blog/how-to-customize-your-apple-watch-background"
         />
-        <meta
-          property="og:title"
-          content="How To Customize Apple Watch Background"
-        />
+        <meta property="og:title" content="Create Your Own Home Watch" />
         <meta
           property="og:description"
           content="How To Customize Apple Watch Background"
         />
         <meta
           property="og:image"
-          content="https://www.dallashomewatch.com/images/blogimg/Home-Watch-Logo-Watch.jpg"
+          content="https://www.dallashomewatch.com/images/og/home-watch-apple.jpg"
         />
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />
-        <meta property="og:image:alt" content="photo" />
+        <meta property="og:image:alt" content="watch with home as photo" />
       </Head>
       {/* Facebook Like JS Code*/}
       <div id="fb-root"></div>
@@ -246,6 +243,23 @@ function HowToCustomizeAppleWatchBkgrndPage(props) {
                       share with others so that they can change their watch face
                       too.
                     </p>
+                    <br />
+                    <br />
+                    <div
+                      className="fb-share-button"
+                      data-href="https://www.dallashomewatch.com/blog/how-to-customize-your-apple-watch-background"
+                      data-layout=""
+                      data-size=""
+                    >
+                      <Link
+                        target="_blank"
+                        href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.dallashomewatch.com%2Fblog%2Fhow-to-customize-your-apple-watch-background&amp;src=sdkpreparse"
+                        class="fb-xfbml-parse-ignore"
+                      >
+                        Share this article on Facebook
+                      </Link>
+                      <br /> <br />
+                    </div>
                   </div>
                 </div>
               </div>

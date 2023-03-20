@@ -93,8 +93,8 @@ function WhyYouNeedHomewatchPage(props) {
                       The first thing to look for in a Home Watch Company is
                       experience and expertise. You want to work with a company
                       that has a proven track record of providing top-notch home
-                      watch inspections. Look for a Home Watch Professional
-                      that has been in business for several years and has a
+                      watch inspections. Look for a Home Watch Professional that
+                      has been in business for several years and has a
                       reputation for excellence in their industry.
                     </p>
 
@@ -192,6 +192,24 @@ function WhyYouNeedHomewatchPage(props) {
                       accredited Home Watch Professional.
                       <br />
                     </p>
+                    <br />
+
+                    <div
+                      className="fb-share-button"
+                      data-href="https://www.dallashomewatch.com/blog/what-to-look-for-in-homewatch-company"
+                      data-layout=""
+                      data-size=""
+                    >
+                      <Link
+                        target="_blank"
+                        href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.dallashomewatch.com%2Fblog%2Fwhat-to-look-for-in-homewatch-company&amp;src=sdkpreparse"
+                        class="fb-xfbml-parse-ignore"
+                      >
+                        Share this article on Facebook
+                      </Link>
+                      <br /> <br />
+                    </div>
+
                     <br />
                     <div className="column col-lg-12 col-md-6 col-sm-6">
                       <h3>Ready To Hire A Home Watch Service Business?</h3>
