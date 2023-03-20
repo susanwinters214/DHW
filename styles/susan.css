@@ -1,4 +1,7 @@
-
+.gold{ color: #e1a122;}
+.insideVideo{position:absolute; text-align:center; margin-left:40%;padding-top:200px; z-index:99}
+.smaller{font-size: .5em}
+.bigDallasSkyline{margin-top:-100px;}
 /* Blog Backgrounds & OG */
 hr {visibility:none;height:0px; color:white;}
 .bg-airfilters{
@@ -25,6 +28,13 @@ background-image: url(/images/blogimg/man-researching-home-watch-options.jpg);
 .bg-dhwra{
 background-image: url(/images/blogimg/NHWA-received-accreditation.jpg);
 }
+
+.bg-appleWatch{
+background-image: url(/images/blogimg/Home-Watch-Logo-Watch.jpg);
+}
+
+
+
 .bg-FAQ{
   background-image: url(/images/background/questions.jpg);
 }
@@ -145,7 +155,7 @@ h2.welcomeHome {
 .services-detail-section-silver{background-color:#f9f9f9ce;}
 .calmDown{font-size:18px; margin-left:10%; margin-right:10%; text-align: center}
 .sidebar-page-container{margin-top:-55px;} /* home page above NHWA */
-.NHWAsection{margin-top:-55px;padding-bottom:-20px; margin-bottom:-20px;background-color: #f9f9f9ce;}
+.NHWAsection{margin-top:-50px;padding-bottom:50px; background-color: #f9f9f9ce;}
 
 .pageback-homepage {
   background-image: url('/images/background/dallas-skyline.jpg');
@@ -389,16 +399,14 @@ h2 {
 /* Hide the big h1 tag on mobile so that the menu appears */
 
 @media (max-width: 767px) {
-  .hidden-mobile {
-    display: none;
+  .h1homepage {margin-top:-50px;margin-bottom:20px;}
+   .h2homepage{font-size: .8em;}
   }
-}
+
 
 /* Move things up on mobile */
 @media (max-width: 767px) {
-  .mobileh2 {
-    margin-top: -50px;
-  }
+  
 }
 
 .services-detail-section {

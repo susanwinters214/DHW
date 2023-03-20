@@ -170,11 +170,36 @@ function BlogPage(props) {
                       </Link>
                     </h4>
                     <div className="text">
-                      5 Reason You Need To Hire A Home Watch Professional
+                      5 Reasons You Need To Hire A Home Watch Professional
                     </div>
                   </div>
                   <Link
                     href="/blog/why-you-need-homewatch"
+                    className="arrow flaticon-right"
+                  />
+                </div>
+              </div>
+
+              {/* Blog: Why you need Homewatch */}
+              <div className="services-block col-lg-6 col-md-12 col-sm-12">
+                <div
+                  className="inner-box wow fadeInRight BLUE"
+                  data-wow-delay="150ms"
+                  data-wow-duration="1500ms"
+                >
+                  <div className="content">
+                    <div className="icon flaticon-file" />
+                    <h4>
+                      <Link href="/blog/what-to-look-for-in-homewatch-company">
+                        Home Watch Company Differences
+                      </Link>
+                    </h4>
+                    <div className="text">
+                      What To Look For in a Home Watch Company
+                    </div>
+                  </div>
+                  <Link
+                    href="/blog/what-to-look-for-in-homewatch-company"
                     className="arrow flaticon-right"
                   />
                 </div>

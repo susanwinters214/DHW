@@ -8,6 +8,7 @@ function AboutPage() {
     <Fragment>
       <Head>
         <title>About Dallas Home Watch</title>
+        <link rel="canonical" href="https://dallashomewatch.com/about" />
         <meta
           name="description"
           content="Read About: Home Watch Business in Dallas, Texas - owned by Tina Lawson.  Dallas Home Watch contracts with clients to watch their home while they are away."

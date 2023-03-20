@@ -8,7 +8,11 @@ function WaterLeaksPage(props) {
   return (
     <Fragment>
       <Head>
-        <title>Water Leaks</title>
+        <title>Dallas Home Watch Checks Your Home For Water Leaks</title>
+        <link
+          rel="canonical"
+          href="https://dallashomewatch.com/blog/water-leaks"
+        />
         <meta
           name="description"
           content="Water leaks can cause a lot of damage! Home Watch Service includes checking all of your water sources to make sure there are no water leaks. "

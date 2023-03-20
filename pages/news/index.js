@@ -7,8 +7,8 @@ function NewsPage(props) {
   return (
     <Fragment>
       <Head>
-        <title>Dallas Home Watch News</title>
-
+        <title>Dallas Home Watch News | Home Watch News in Dallas</title>
+        <link rel="canonical" href="https://dallashomewatch.com/news" />
         <meta
           name="description"
           content="Dallas Home Watch News from social media sites, press releases, and more. Dallas Home Watch is a member of NHWA and shares industry news about the Home Watch Industry."

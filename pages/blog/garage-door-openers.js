@@ -8,8 +8,11 @@ function GarageDoorOpenersPage(props) {
   return (
     <Fragment>
       <Head>
-        <title>Garage Door Openers</title>
-     
+        <title>Dallas Home Watch Checks Your Garage Door Openers</title>
+        <link
+          rel="canonical"
+          href="https://dallashomewatch.com/blog/garage-door-openers"
+        />
         <meta
           name="description"
           content="Home Watch Service includes checking your garage door and garage door opener

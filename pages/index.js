@@ -55,10 +55,10 @@ function HomePage(props) {
           <div className="row clearfix">
             <div className="services-block col-lg-12 col-md-12 col-sm-12">
               <div className="homepagetopcontent">
-                <h1 className="title zindexh1tag hidden-mobile">
+                <h1 className="title zindexh1tag h1homepage">
                   Dallas Home Watch Services
                 </h1>
-                <h2 className="mobileh2">
+                <h2 className="h2homepage">
                   Home Watch is a service that performs visual inspections of a
                   home or property, looking for obvious issues.{" "}
                 </h2>
@@ -213,14 +213,17 @@ function HomePage(props) {
                   <div className="text">
                     <h2>Home Watch in Dallas</h2>
                     <p>
-                      Dallas Home Watch offers exceptional home watch services
-                      to the Dallas area and surrounding neighborhoods,
-                      including Highland Park, University Park, Preston Hollow,
-                      Lakewood, Lake Highlands, Devonshire, Bluffview, Briarwood
-                      and Norhwood Hills. Our team of professionals provides
-                      visual inspections of both the interior and exterior of
-                      homes and properties, looking for obvious issues that may
-                      cause potential damage. We keep homeowners informed of any
+                      <strong>Dallas Home Watch LLC.</strong> offers
+                      professional{" "}
+                      <Link href="/homewatch-services">
+                        Home Watch Services
+                      </Link>{" "}
+                      to the Dallas, Texas area. We service several
+                      neighborhoods in North Dallas, mid-cities and downtown
+                      Dallas. Our team of professionals provides visual
+                      inspections of both the interior and exterior of homes and
+                      properties, looking for obvious issues that may cause
+                      potential damage. We keep homeowners informed of any
                       issues and follow the client's instructions regarding a
                       resolution and cure for them. Upon completion of a full
                       Home Watch inspection, we will submit our Home Watch
@@ -229,23 +232,28 @@ function HomePage(props) {
                       will send our write up along with pictures and videos to
                       their email or via text message.
                     </p>
+                    <br />
+                    <h3>Not House Sitter or Property Manager</h3>
+                    <br />
                     <p>
-                      Unlike other options like house sitters or property
-                      managers, Dallas Home Watch is a fully accredited and
-                      bonded company that prioritizes the care and maintenance
-                      of your home. We are committed to providing high-quality
-                      services, ensuring that homeowners can travel worry-free,
-                      knowing that their property is in good hands. Our
-                      attention to detail and expertise in home watch services
-                      make Dallas Home Watch a top choice for homeowners who
-                      value peace of mind.
+                      Unlike other options like{" "}
+                      <Link href="national-home-watch-month#HouseSitter"></Link>{" "}
+                      House Sitters or Property Managers, Dallas Home Watch is a
+                      fully accredited and bonded company that prioritizes the
+                      care and <strong>maintenance of your home</strong>. We are
+                      committed to providing high-quality services, ensuring
+                      that homeowners can travel worry-free, knowing that their
+                      property is in good hands. Our attention to detail and
+                      expertise in Home Watch Services make Dallas Home Watch a
+                      top choice for homeowners who value peace of mind.
                     </p>
+
                     <p>
                       Don't leave the safety and security of your home to
                       chance. Trust Dallas Home Watch to provide exceptional
-                      home watch services that exceed your expectations. Give us
+                      Home Watch Services that exceed your expectations. Give us
                       a call today to learn more about our services and why we
-                      are the better choice for your home watch needs.
+                      are the better choice for your Home Watch needs.
                     </p>
                   </div>
                 </div>
@@ -324,26 +332,29 @@ function HomePage(props) {
           </div>
           {/*Video Box*/}
           <div className="video-boxed">
-            <figure className="video-image">
-              <Image
-                src="/images/large-modern-home.jpg"
-                alt="large home"
-                height={1170}
-                width={815}
-              />
-            </figure>
-            <a
-              href="https://www.youtube.com/watch?v=kGZKVnd8YqU"
-              className="lightbox-image overlay-box"
+            <Link
+              className="lightbox-image"
+              href="https://youtu.be/feTvuoxzt4c"
+              target="_blank"
             >
-              {" "}
-              <span className="flaticon-play-arrow">
-                <i className="ripple" />
-              </span>
-            </a>
+              <video
+                width="100%"
+                height="400"
+                poster="https://dallashomewatch.com/images/large-modern-home.jpg"
+              >
+                <source src="https://youtu.be/feTvuoxzt4c" type="video/mp4" />
+              </video>
+            </Link>
+            <br />
+            <h3 className="gold centered">
+              Watch video above to get the answer to What is Home Watch?
+            </h3>
           </div>
         </div>
       </section>
+      <br />
+      <br />
+      <br />
       <hr id="whyhireHWS"></hr>
 
       {/* WalkingInSection */}
@@ -380,14 +391,15 @@ function HomePage(props) {
                       help keep from signaling that the homeowners are gone.
                     </p>
                     <p>
-                      Dallas Home Watch serves the owners of C-suite-level homes
-                      and informs homeowners of any problems found, then adheres
-                      to their directions for the resolution and treatment of
-                      any issues. Because our clients often travel out of state
-                      or out of the country for long periods, they can rest
-                      assured that Dallas Home Watch will visit their property
-                      weekly (or more often if desired) and will be their eyes
-                      and ears while they are away.
+                      Dallas Home Watch serves the homeowners who have more than
+                      one residential properties and informs them of any
+                      problems found, then adheres to their directions for the
+                      resolution and treatment of any issues. Because our
+                      clients often travel out of state or out of the country
+                      for long periods, they can rest assured that Dallas Home
+                      Watch will visit their property weekly (or more often if
+                      desired) and will be their eyes and ears while they are
+                      away.
                     </p>
                     <p>
                       If you plan to leave your home vacant for more than 7
@@ -495,7 +507,8 @@ function HomePage(props) {
                             mission statement laid out by the National Home
                             Watch Association. It is the mission and goal of the
                             NHWA to:
-                          </p><br />
+                          </p>
+                          <br />
                           <details>
                             <summary>
                               <strong>NHWA Mission Statement</strong>
@@ -602,25 +615,23 @@ function HomePage(props) {
       </section>
       {/* insert Gated Communities */}
       <section
-        className="practice-section shade MOVEUP"
+        className="practice-section shade bigDallasSkyline"
         style={{ backgroundImage: "url(images/background/pattern-2.png)" }}
       >
         <div className="auto-container">
           {/* Sec Title */}
           <div className="sec-title centered">
-           
-              <Image
-                decoding="async"
-                width="1500"
-                height="300"
-                src="/images/background/dallas-skyline.jpg"
-                alt="Dallas Home Watch LLC services Dallas, Texas"
-                title="Dallas area"
-              />
-              <br /> <br />
-          
-
-            <h3>Home Watch in Dallas</h3><br />
+            <Image
+              decoding="async"
+              width="1500"
+              height="300"
+              src="/images/background/dallas-skyline.jpg"
+              alt="Dallas Home Watch LLC services Dallas, Texas"
+              title="Dallas area"
+            />
+            <br /> <br />
+            <h3>Home Watch in Dallas</h3>
+            <br />
             <h4>Gated Communities</h4>
           </div>
           <div className="inner-container">

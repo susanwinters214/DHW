@@ -9,6 +9,7 @@ function VehicleCarePage(props) {
     <Fragment>
       <Head>
         <title>Vehicle Care | Dallas Home Watch </title>
+        <link rel="canonical" href="https://dallashomewatch.com/vehicle-care" />
         <meta
           name="description"
           content="Dallas Home Watch offers Vehicle Care for existing Home Watch clients. Dallas Home Watch can watch your car while you are away from home for long periods of time."
@@ -248,7 +249,7 @@ function VehicleCarePage(props) {
                   to go.{" "}
                 </p>
               </div>
-<br />
+              <br />
               <div className="column col-lg-12 col-md-6 col-sm-6 centered">
                 <h3>Ready To Hire Vehicle Care?</h3>
                 <br />

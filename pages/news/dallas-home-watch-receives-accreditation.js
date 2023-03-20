@@ -9,6 +9,10 @@ function DHWreceivesAccredPage(props) {
     <Fragment>
       <Head>
         <title>Dallas Home Watch receives accreditation from NHWA</title>
+        <link
+          rel="canonical"
+          href="https://dallashomewatch.com/news/dallas-home-watch-receives-accreditation"
+        />
         <meta
           name="description"
           content="Dallas Home Watch receives accreditation from NHWA - National Home Watch Association. Tina Lawson has passed background checks, credit checks, ethical working history checks and taken the NHWA Home Watch Bootcamp."

@@ -108,7 +108,7 @@ function WhyYouNeedHomewatchPage(props) {
                       services such as{" "}
                       <Link href="/keyholder-services">Key Holder</Link>,{" "}
                       <Link href="/concierge-services">Concierge Service</Link>{" "}
-                      or stored <Link href="/vehicle-care">Vehicle Care</Link>
+                      or stored <Link href="/vehicle-care">Vehicle Care</Link>.
                     </p>
                     <p>
                       Think about the specific needs of your property and choose

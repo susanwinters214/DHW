@@ -8,8 +8,11 @@ function AirFiltersPage(props) {
   return (
     <Fragment>
       <Head>
-        <title>Air Filters</title>
-      
+        <title>Dallas Home Watch Checks Your Air Filters</title>
+        <link
+          rel="canonical"
+          href="https://dallashomewatch.com/blog/air-filters"
+        />
         <meta
           name="description"
           content="Home Watch Service includes checking all of your air filters to make sure they are clean and if not, replace them."
@@ -17,7 +20,6 @@ function AirFiltersPage(props) {
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
-
         <meta
           property="og:url"
           content="https://www.dallashomewatch.com/blog/air-filters"

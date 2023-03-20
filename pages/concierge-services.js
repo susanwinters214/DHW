@@ -9,6 +9,7 @@ function ConciergePage(props) {
     <Fragment>
       <Head>
         <title>Dallas Conceirge Service</title>
+        <link rel="canonical" href="https://dallashomewatch.com/concierge-services" />
         <meta
           name="description"
           content="Dallas Concierge Services helps busy executives by performing tasks and running errands for them that give them back their freedom and time to do the things they enjoy."
@@ -109,61 +110,56 @@ function ConciergePage(props) {
 
       <section className="services-detail-section silver">
         <div className="auto-container">
-        
-            
-              <p>
-                <strong>
-                  Concierge Services are only available for Dallas Home Watch
-                  Clients under contract for Home Watch Services.
-                </strong>
-              </p>
-              <p>
-                Hiring a personal concierge provides you with your own personal
-                assistant who can assist you with various aspects of your life.
-                With today's fast-paced lifestyles, juggling work, family,
-                household tasks, and other responsibilities can be overwhelming,
-                and the resulting stress can negatively impact your health.
-                While it's easy to say that you should exercise more or practice
-                mindfulness to reduce stress, finding the time to do so can be
-                difficult. This is where a personal concierge can help. By
-                outsourcing your lengthy to-do list to a personal concierge, you
-                can free up your time and focus on yourself. When you hire
-                Dallas Home Watch as your Personal Concierge, you can come back
-                into town and attend a yoga class, take a walk, or spend quality
-                time with your loved ones, and ultimately prioritize your health
-                and wellbeing. In short, a personal concierge can simplify your
-                life and allow you to enjoy the little things in life. Imagine
-                coming back to your Dallas property knowing that your household
-                chores are done and you can simply relax and enjoy your home.
-              </p>
-              <br />
+          <p>
+            <strong>
+              Concierge Services are only available for Dallas Home Watch
+              Clients under contract for Home Watch Services.
+            </strong>
+          </p>
+          <p>
+            Hiring a personal concierge provides you with your own personal
+            assistant who can assist you with various aspects of your life. With
+            today's fast-paced lifestyles, juggling work, family, household
+            tasks, and other responsibilities can be overwhelming, and the
+            resulting stress can negatively impact your health. While it's easy
+            to say that you should exercise more or practice mindfulness to
+            reduce stress, finding the time to do so can be difficult. This is
+            where a personal concierge can help. By outsourcing your lengthy
+            to-do list to a personal concierge, you can free up your time and
+            focus on yourself. When you hire Dallas Home Watch as your Personal
+            Concierge, you can come back into town and attend a yoga class, take
+            a walk, or spend quality time with your loved ones, and ultimately
+            prioritize your health and wellbeing. In short, a personal concierge
+            can simplify your life and allow you to enjoy the little things in
+            life. Imagine coming back to your Dallas property knowing that your
+            household chores are done and you can simply relax and enjoy your
+            home.
+          </p>
+          <br />
 
-              <div className="row">
-                <div className="column col-lg-6 col-md-6 col-sm-6">
-                  <div className="image">
-                    <Image
-                      width={530}
-                      height={480}
-                      src="/images/concierge-services/yoga-relaxing.jpg"
-                      alt="girl doing yoga to relax"
-                    />
-                  </div>
-                </div>
-                <div className="column col-lg-6 col-md-6 col-sm-6">
-                  <div className="image">
-                    <Image
-                      width={530}
-                      height={300}
-                      src="/images/concierge-services/couple-relaxing-on-couch-reading.jpg"
-                      alt="wine bottles on shelves in a wine cellar"
-                    />
-                  </div>
-                
-                </div>
+          <div className="row">
+            <div className="column col-lg-6 col-md-6 col-sm-6">
+              <div className="image">
+                <Image
+                  width={530}
+                  height={480}
+                  src="/images/concierge-services/yoga-relaxing.jpg"
+                  alt="girl doing yoga to relax"
+                />
               </div>
             </div>
-      
-     
+            <div className="column col-lg-6 col-md-6 col-sm-6">
+              <div className="image">
+                <Image
+                  width={530}
+                  height={300}
+                  src="/images/concierge-services/couple-relaxing-on-couch-reading.jpg"
+                  alt="wine bottles on shelves in a wine cellar"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section className="services-detail-section">

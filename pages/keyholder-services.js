@@ -9,6 +9,7 @@ function KeyHolderPage(props) {
     <Fragment>
       <Head>
         <title>Key Holder Services | Dallas Home Watch </title>
+        <link rel="canonical" href="https://dallashomewatch.com/keyholder-services" />
         <meta
           name="description"
           content="You need a Trusted Key Holder when you leave home so that you have a professional that holds the keys to your home to allow access to contractors to come into the home to perform a service."
@@ -142,10 +143,7 @@ function KeyHolderPage(props) {
       <section className="services-page-section shade">
         <div className="auto-container">
           {/* Block Detail */}
-          <div
-            className="blog-detail"
-            style={{ marginTop: "-75px"  }}
-          >
+          <div className="blog-detail" style={{ marginTop: "-75px" }}>
             <h2>Why Would I Need a Key Holder Service?</h2>
 
             <div className="inner-box">
@@ -217,8 +215,6 @@ function KeyHolderPage(props) {
           </div>
         </div>
       </section>
-
-  
     </Fragment>
   );
 }

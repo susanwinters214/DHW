@@ -9,6 +9,7 @@ function ServiceAreaPage(props) {
     <Fragment>
       <Head>
         <title>Home Watch Services in Dallas Area</title>
+        <link rel="canonical" href="https://dallashomewatch.com/service-areas" />
         <meta
           name="description"
           content="Home Watch Services in Dallas Area include Highland Park, University Park, Preston Hollow, Lake Forest, Devonshire, Bluffview, 

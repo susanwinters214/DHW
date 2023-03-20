@@ -9,6 +9,7 @@ function HomeWatchServicesPage(props) {
     <Fragment>
       <Head>
         <title>Home Watch Services</title>
+        <link rel="canonical" href="https://dallashomewatch.com/homewatch-services" />
         <meta
           name="description"
           content="Home Watch Services: 'What Does A Home Watch Service Do?' Home Watchers inspect the interior and exterior of a residential property looking for obvious issues."
@@ -57,20 +58,20 @@ function HomeWatchServicesPage(props) {
             <div className="lower-content">
               <h2 className="pageTitle">Home Watch Services</h2>
               <p className="text">
-                Home watch services are professional services that offer regular
+                Home Watch Services are professional services that offer regular
                 inspections and monitoring of a home, typically for homeowners
                 who are away for extended periods of time. The purpose of these
                 services is to ensure the safety, security, and maintenance of
-                the property while the homeowners are away. Home watch services
-                typically offer a range of services, including regular
+                the property while the homeowners are away. Home Watch Services
+                typically inclue a range of services, including regular
                 inspections of the home and property, checking for signs of
                 damage or wear and tear, ensuring that all doors and windows are
                 secure, and checking for signs of pests or other issues that
                 could affect the safety and security of the property. In
-                addition, many home watch services also offer additional
+                addition, many Home Watch Services also offer additional
                 services such as mail pickup, plant watering, and other tasks
                 that may be necessary while the homeowner is away. Overall, the
-                goal of home watch services is to provide homeowners with peace
+                goal of Home Watch Services is to provide homeowners with peace
                 of mind, knowing that their property is being monitored and
                 cared for in their absence.
               </p>
@@ -84,8 +85,8 @@ function HomeWatchServicesPage(props) {
                 If a problem is uncovered during a home evaluation, Dallas Home
                 Watch will immediately notify the client to discuss options to
                 address the concern. We will work with the client to resolve the
-                issue if it is within their scope of practice, or we can provide
-                qualified tradespeople to assist the homeowner. The client can
+                issue and help locate qualified tradespeople to assist the homeowner.
+                The client can
                 instruct Dallas Home Watch on how they would like to proceed.
               </p>
               <p>
@@ -914,8 +915,6 @@ function HomeWatchServicesPage(props) {
           </Link>
         </div>
       </section>
-
-    
     </Fragment>
   );
 }

@@ -32,7 +32,7 @@ function HowToCustomizeAppleWatchBkgrndPage(props) {
         />
         <meta
           property="og:image"
-          content="https://www.dallashomewatch.com/images/blogimg/xxxxxxxxxxxxxx.jpg"
+          content="https://www.dallashomewatch.com/images/blogimg/Home-Watch-Logo-Watch.jpg"
         />
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />
@@ -48,9 +48,9 @@ function HowToCustomizeAppleWatchBkgrndPage(props) {
         nonce="Fn5Aadju"
       ></Script>
       {/* insert top banner with Page Title & Breadcrumb*/}
-      <section className="page-title bg-wynhs">
+      <section className="page-title bg-appleWatch">
         <div className="auto-container">
-          <h1>Customize Your Apple Watch Background</h1>
+          <h1>Create Your Own Home Watch</h1>
           <ul className="page-breadcrumb">
             <li>
               <Link href="/">home</Link>
@@ -76,90 +76,156 @@ function HowToCustomizeAppleWatchBkgrndPage(props) {
                       Why Change Your Watch's Background Photo?
                     </h2>
                     <p className="text">
-                      Customizing your Apple Watch background with a photo of
+                      Customizing the background of your watch with a photo of
                       your home or your Home Watch logo is a great way to
                       personalize your device and showcase your unique style.
                       It's a simple process that can be done in just a few
-                      minutes, and it's a great way to make your Apple Watch
-                      feel more like your own.
+                      minutes, and it's a great way to make your watch feel more
+                      like your own.
                       <br />
                       <br />
                     </p>
-                    <p>
+                    <div>
                       1. Start by selecting the photo you want to use as your
                       background. If you want to use a photo of your home, make
                       sure it's saved on your iPhone's camera roll or in your
                       iCloud Photos library. If you want to use a photo of your
                       Home Watch logo, make sure you have it saved on your
                       iPhone. <br />
-                      <br />
-                    </p>
-                    <p>
+                      <div className="row clearfix">
+                        {/* Content Column */}
+                        <div className="content-column col-lg-6 col-md-12 col-sm-12">
+                          <div className="inner-column">
+                            {" "}
+                            EXAMPLE OF A HOUSE PHOTO:
+                            <div className="image centered">
+                              <Image
+                                src="/images/blogimg/apple/my-house.jpg"
+                                alt="burlar breaking into house through the door"
+                                width={425}
+                                height={250}
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div className="content-column col-lg-6 col-md-12 col-sm-12">
+                          <div className="inner-column">
+                            {" "}
+                            EXAMPLE OF HOME WATCH LOGO:
+                            <div className="image centered">
+                              <br />
+                              <Image
+                                src="/images/blogimg/apple/home-watch-business-logo.jpg"
+                                alt="burlar breaking into house through the door"
+                                width={150}
+                                height={150}
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
                       2. Open the Watch app on your iPhone.
                       <br />
-                      <br />
-                    </p>
-                    <p>
-                      3. Tap on the "My Watch" tab at the bottom of the screen.
-                    </p>
-                    <br />
-                    <br />
-                    <p>
-                      4. Scroll down to the "Face Gallery" section and tap on
-                      "Photos."
-                      <br /> <br />
                       <div className="image centered">
                         <Image
-                          src="/images/blogimg/home-breaking-in-door.jpg"
+                          src="/images/blogimg/apple/select-watch-app-to-start.jpg"
                           alt="burlar breaking into house through the door"
-                          width={400}
+                          width={425}
                           height={250}
                         />
                       </div>
                       <br />
-                    </p>
+                    </div>
+                    <div>
+                      3. You will be on the My Faces page and by default you
+                      will be on the "My Watch" tab.
+                    </div>
+                    <br />
+                    <div className="image centered">
+                      <Image
+                        src="/images/blogimg/apple/click-on-my-watch.jpg"
+                        alt="on your watch select the photo of your house"
+                        width={425}
+                        height={250}
+                      />
+                    </div>
+                    <br />
                     <p>
-                      5. Select "Add Photos" and choose the photo you want to
-                      use as your background. <br /> <br />
+                      4. Scroll to the left or right under "My Faces" until you
+                      find "Portraits" and click on it.
+                      <br />
+                      If you do not see "Portraits" under "My Faces", click on
+                      the Face Gallery tab on the bottom of the screen.
+                      <br /> <br />
                       <div className="image centered">
                         <Image
-                          src="/images/blogimg/mold-mildew-damage.jpg"
-                          alt="mold and mildew damage"
-                          width={400}
+                          src="/images/blogimg/apple/my-faces.jpg"
+                          alt="on your watch select the photo of your house"
+                          width={425}
+                          height={250}
+                        />{" "}
+                        <br />
+                        <br />
+                      </div>
+                      <br />
+                    </p>
+                    <div>
+                      5. Clicking on the Face Gallery tab will get you to this
+                      screen. Now scroll down and click on Choose Photos... Then
+                      click a photo from your library and click the Add button
+                      in the top right corner of the screen.
+                      <br />
+                      <br />
+                      <div className="image centered">
+                        <Image
+                          src="/images/blogimg/apple/faces-gallery.jpg"
+                          alt="gallery of photos on your watch"
+                          width={425}
                           height={250}
                         />
-                      </div>{" "}
-                      <br />
-                    </p>
-                    <p>
-                      6. Use the "Customize" feature to adjust the layout of the
-                      photo on the watch face. You can choose to have the photo
-                      fill the entire watch face or select a specific section of
-                      the photo to display.
+                        <br />
+                        <br />
+                      </div>
+                    </div>
+                    <div>
+                      {" "}
+                      6. After your photo is added and you are returned to the
+                      Face Gallery, now click the ADD button under the word
+                      Portraits to add the Portraits box to your available
+                      sections in the Face Gallery.
+                      <br /> <br />
                       <div className="image centered">
                         <Image
-                          src="/images/blogimg/moisture-meter.jpg"
-                          alt="mold and mildew damage"
-                          width={400}
-                          height={350}
-                        />
-                      </div>{" "}
-                      <br />
-                    </p>
-                    <p>
-                      7. Once you're satisfied with the layout, tap "Set as
-                      Watch Face" to save your customized background. <br />
+                          src="/images/blogimg/apple/select-photo-of-house.jpg"
+                          alt="gallery of photos on your watch"
+                          width={425}
+                          height={250}
+                        />{" "}
+                        <br />
+                        <br />
+                      </div>
+                    </div>
+                    <div>
+                      7. Now that Portraits has been added to your Face Gallery,
+                      go back to the first screen by clicking the My Watch tab
+                      at the bottom of the screen. Next, click on the Portraits
+                      box. Scroll down to the bottom of this screen and click on
+                      "Set as current Watch Face". You can then exit out of the
+                      app. Then click Done. Then click Back. <br />
                       <br />
                       <div className="image centered">
                         <Image
-                          src="/images/blogimg/cleaning-the-oven.jpg"
-                          alt="cleaning-the-oven"
+                          src="/images/blogimg/apple/Save-House.jpg"
+                          alt="Set as current Watch Face"
                           width={400}
-                          height={350}
+                          height={360}
                         />
+                        <br />
+                        <br />
                       </div>{" "}
-                      <br />
-                    </p>
+                    </div>
                     <p>
                       8. Your Apple Watch should now display the photo you
                       selected as your background. You can change it at any time
@@ -167,13 +233,19 @@ function HowToCustomizeAppleWatchBkgrndPage(props) {
                     </p>
                     <div className="image centered">
                       <Image
-                        src="/images/blogimg/couple-peace-of-mind.jpg"
+                        src="/images/blogimg/apple/house-on-watch.jpg"
                         alt="peach of mind"
                         width={400}
                         height={400}
                       />
                     </div>{" "}
                     <br />
+
+                    <p>Now that you know how to change the background of your watch face to display any photo in your
+                      photo library, share with others so that they can change their watch face too.
+                     
+</p>
+
                   </div>
                 </div>
               </div>

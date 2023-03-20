@@ -8,7 +8,11 @@ function RefrigeratorsPage(props) {
   return (
     <Fragment>
       <Head>
-        <title>Refrigerators</title>
+        <title>Dallas Home Watch Checks Your Refrigerators</title>
+        <link
+          rel="canonical"
+          href="https://dallashomewatch.com/blog/refrigerators"
+        />
         <meta
           name="description"
           content="Home Watch Services includes checking to make sure that your refrigerator has not lost power. If your refrigerator goes out, you will come home to spoiled food."
