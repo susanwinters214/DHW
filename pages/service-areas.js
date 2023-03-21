@@ -9,7 +9,10 @@ function ServiceAreaPage(props) {
     <Fragment>
       <Head>
         <title>Home Watch Services in Dallas Area</title>
-        <link rel="canonical" href="https://dallashomewatch.com/service-areas" />
+        <link
+          rel="canonical"
+          href="https://dallashomewatch.com/service-areas"
+        />
         <meta
           name="description"
           content="Home Watch Services in Dallas Area include Highland Park, University Park, Preston Hollow, Lake Forest, Devonshire, Bluffview, 
@@ -265,7 +268,7 @@ function ServiceAreaPage(props) {
 
           {/* Lake Forest */}
           <a name="LakeForest"></a>
-          <h3 className="centered neighborhood-name">Lake Forest</h3>
+          <h3 className="centered neighborhood-name">Lake Forest Home Watch</h3>
           <div className="row clearfix">
             {/* Content Column */}
             <div className="content-column col-lg-6 col-md-12 col-sm-12">
@@ -312,7 +315,9 @@ function ServiceAreaPage(props) {
 
           {/* Preston Hollow */}
           <a name="PrestonHollow"></a>
-          <h3 className="centered neighborhood-name">Preston Hollow</h3>
+          <h3 className="centered neighborhood-name">
+            Preston Hollow Home Watch
+          </h3>
           <div className="row clearfix">
             {/* Content Column */}
             <div className="content-column col-lg-6 col-md-12 col-sm-12">
@@ -374,7 +379,7 @@ function ServiceAreaPage(props) {
 
           {/* Bluffview */}
           <a name="Bluffview"></a>
-          <h3 className="centered neighborhood-name">Bluffview</h3>
+          <h3 className="centered neighborhood-name">Bluffview Home Watch</h3>
           <div className="row clearfix">
             {/* Content Column */}
             <div className="content-column col-lg-6 col-md-12 col-sm-12">
@@ -443,7 +448,7 @@ function ServiceAreaPage(props) {
 
           {/* Devonshire */}
           <a name="Devonshire"></a>
-          <h3 className="centered neighborhood-name">Devonshire</h3>
+          <h3 className="centered neighborhood-name">Devonshire Home Watch</h3>
           <div className="row clearfix">
             {/* Content Column */}
             <div className="content-column col-lg-6 col-md-12 col-sm-12">
@@ -499,7 +504,7 @@ function ServiceAreaPage(props) {
 
           {/* Briarwood */}
           <a name="Briarwood"></a>
-          <h3 className="centered neighborhood-name">Briarwood</h3>
+          <h3 className="centered neighborhood-name">Briarwood Home Watch</h3>
           <div className="row clearfix">
             {/* Content Column */}
             <div className="content-column col-lg-6 col-md-12 col-sm-12">
@@ -556,7 +561,9 @@ function ServiceAreaPage(props) {
 
           {/* Northwood Hills */}
           <a name="NorthwoodHills"></a>
-          <h3 className="centered neighborhood-name">Northwood Hills</h3>
+          <h3 className="centered neighborhood-name">
+            Northwood Hills Home Watch
+          </h3>
           <div className="row clearfix">
             {/* Content Column */}
             <div className="content-column col-lg-6 col-md-12 col-sm-12">

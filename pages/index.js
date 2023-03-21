@@ -201,7 +201,7 @@ function HomePage(props) {
       {/* insert Welcome */}
       <section
         className="welcome-section moveupHeader"
-        style={{ backgroundImage: "url(images/background/pattern-1.png)" }}
+        style={{ backgroundImage: "url(images/background/pattern-1.gif)" }}
       >
         <div className="auto-container moveupHeader">
           <div className="inner-container  ">
@@ -340,7 +340,7 @@ function HomePage(props) {
               <video
                 width="100%"
                 height="400"
-                poster="https://dallashomewatch.com/images/large-modern-home.jpg"
+                poster="/images/large-modern-home-765.jpg"
               >
                 <source src="https://youtu.be/feTvuoxzt4c" type="video/mp4" />
               </video>
@@ -616,17 +616,17 @@ function HomePage(props) {
       {/* insert Gated Communities */}
       <section
         className="practice-section shade bigDallasSkyline"
-        style={{ backgroundImage: "url(images/background/pattern-2.png)" }}
+        style={{ backgroundImage: "url(images/background/pattern-2.gif)" }}
       >
         <div className="auto-container">
           {/* Sec Title */}
           <div className="sec-title centered">
             <Image
               decoding="async"
-              width="1500"
-              height="300"
-              src="/images/background/dallas-skyline.jpg"
-              alt="Dallas Home Watch LLC services Dallas, Texas"
+              width="1170"
+              height="375"
+              src="/images/background/dallas-skyline-serving-dallas-1170x375.jpg"
+              alt="Dallas skyline painting - Dallas, Texas"
               title="Dallas area"
             />
             <br /> <br />
@@ -777,6 +777,18 @@ function HomePage(props) {
           </div>
         </div>
         <br />
+
+        <div className="column col-lg-12 col-md-6 col-sm-6 centered">
+          <h3>Ready To Hire Home Watch Service?</h3>
+          <br />
+
+          <Link href="tel:972-982-7050" className="theme-btn btn-style-two">
+            <span className="txt">
+              CALL DALLAS HOME WATCH
+              <i className="phone" />
+            </span>
+          </Link>
+        </div>
       </section>
     </Fragment>
   );
