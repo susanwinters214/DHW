@@ -7,16 +7,10 @@ function HomePage(props) {
   return (
     <Fragment>
       <Head>
-        <title>
-          DALLAS HOME WATCH | Home Watch in Dallas by Dallas Home Watch LLC
-        </title>
+        <title>DALLAS HOME WATCH | Home Watch North Dallas and Downtown</title>
         <meta
           name="description"
-          content="Dallas Home Watch LLC. provides peace of mind for homeowners with an unoccupied home in the Dallas area.
-          Home watch is a service that performs visual inspections of a home or property looking for obvious issues. 
-          
-          Home Watch Services for the Dallas area - Home Watch provides 
-          "
+          content="Dallas Home Watch LLC. provides home watch inspections in the Dallas area. Home watch is a visual inspection of a home looking for obvious issues. "
         />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
