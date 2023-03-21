@@ -9,7 +9,10 @@ function HowToCustomizeAppleWatchBkgrndPage(props) {
     <Fragment>
       <Head>
         <title>Create Your Own Home Watch</title>
-
+        <link
+          rel="canonical"
+          href="https://www.dallashomewatch.com/blog/how-to-customize-your-apple-watch-background"
+        ></link>
         <meta
           name="description"
           content="Learn How To Customize Your Apple Watch Background to a photo of your Home or your Logo."

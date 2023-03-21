@@ -11,7 +11,10 @@ function WhyYouNeedHomewatchPage(props) {
         <title>
           What To Look For In A Home Watch Company | Choosing the Right Partner
         </title>
-        <meta name="robots" content="noindex,nofollow"></meta>
+        <link
+          rel="canonical"
+          href="https://www.dallashomewatch.com/blog/what-to-look-for-in-homewatch-company"
+        ></link>
 
         <meta
           name="description"

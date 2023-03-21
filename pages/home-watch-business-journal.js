@@ -9,7 +9,10 @@ function HomeWatchBusinessJournalPage(props) {
     <Fragment>
       <Head>
         <title>Home Watch Business Journal</title>
-
+        <link
+          rel="canonical"
+          href="https://www.dallashomewatch.com/home-watch-business-journal"
+        ></link>
         <meta
           name="description"
           content="Home Watch Business Journal was created for Home Watch Business Owners"

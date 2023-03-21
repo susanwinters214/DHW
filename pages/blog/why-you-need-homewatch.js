@@ -9,7 +9,10 @@ function WhyYouNeedHomewatchPage(props) {
     <Fragment>
       <Head>
         <title>Why You Need Home Watch</title>
-
+        <link
+          rel="canonical"
+          href="https://www.dallashomewatch.com/blog/why-you-need-homewatch"
+        ></link>
         <meta
           name="description"
           content="Why You Need a Home Watch Service: Protecting Your Property While You're Away"
@@ -213,7 +216,6 @@ function WhyYouNeedHomewatchPage(props) {
                         height={400}
                       />
                     </div>{" "}
-                   
                     <div
                       class="fb-share-button"
                       data-href="https://www.dallashomewatch.com/blog/why-you-need-homewatch"
