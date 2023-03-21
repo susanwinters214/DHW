@@ -86,6 +86,22 @@ function SitemapPage(props) {
 
                   <h3>Blog</h3>
                   <h4>
+                    <Link href="/blog/why-you-need-homewatch">
+                      Why You Need Home Watch
+                    </Link>
+                  </h4>
+                  <h4>
+                    <Link href="/blog/what-to-look-for-in-homewatch-company">
+                      What To Look For In a Home Watch Company
+                    </Link>
+                  </h4>
+                  <h4>
+                    <Link href="/blog/how-to-customize-your-apple-watch-background">
+                      Create Your Own Home Watch
+                    </Link>
+                  </h4>
+
+                  <h4>
                     <Link href="/blog/air-filters">Air Filters</Link>
                   </h4>
                   <h4>
@@ -99,21 +115,15 @@ function SitemapPage(props) {
                       Garage Door Openers
                     </Link>
                   </h4>
-                  <h4>
-                    <Link href="/blog/garage-door-openers">
-                      Why You Need HOME WATCH
-                    </Link>
-                  </h4>
-                  <h4>
-                    <Link href="/faqs">
-                      Frequently Asked Questions
-                    </Link>
-                  </h4>
+
                   <hr />
 
                   <h4>
                     {" "}
                     <Link href="/service-areas">Service Areas</Link>{" "}
+                  </h4>
+                  <h4>
+                    <Link href="/faqs">Frequently Asked Questions</Link>
                   </h4>
                   <h4>
                     <Link href="/accreditation">Accreditation</Link>

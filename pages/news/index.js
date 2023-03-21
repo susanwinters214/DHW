@@ -69,14 +69,6 @@ function NewsPage(props) {
                     </Link>
                   </p>
                   <p>
-                    <strong>January 2023</strong> - Dallas Home Watch posted
-                    first video on YouTube.{" "}
-                    <Link href="https://www.youtube.com/watch?v=kGZKVnd8YqU">
-                      What is Home Watch?
-                    </Link>
-                  </p>
-
-                  <p>
                     <strong>August 2022</strong> - Dallas Home Watch joined the
                     NHWA.
                   </p>

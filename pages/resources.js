@@ -70,7 +70,7 @@ function ResourcesPage(props) {
                       different areas:
                     </p>
                     <h3>Michigan Home Watch Businesses</h3>
-                    <Link href="https://ourhomewatcher.com/">
+                    <Link href="https://ourhomewatcher.com/"  rel="noopener noreferrer">
                       Our Home Watcher LLC.
                     </Link>
 <br /><br /><br />
