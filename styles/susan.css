@@ -33,7 +33,7 @@ background-image: url(/images/blogimg/NHWA-received-accreditation.jpg);
 background-image: url(/images/blogimg/Home-Watch-Logo-Watch.jpg);
 }
 
-
+.border{border:solid 2px navy}
 
 .bg-FAQ{
   background-image: url(/images/background/questions.jpg);

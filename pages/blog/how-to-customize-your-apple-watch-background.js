@@ -70,7 +70,7 @@ function HowToCustomizeAppleWatchBkgrndPage(props) {
                   {/* Sec Title */}
                   <div className="sec-title">
                     <h2 className="pageTitle">
-                      Why Change Your Watch's Background Photo?
+                      How To Change Your Watch's Background Photo
                     </h2>
                     <p className="text">
                       Customizing the background of your watch with a photo of
@@ -112,10 +112,11 @@ function HowToCustomizeAppleWatchBkgrndPage(props) {
                             <div className="image centered">
                               <br />
                               <Image
-                                src="/images/blogimg/apple/home-watch-business-logo.jpg"
+                                className="border"
+                                src="/images/logos/PRACTICE-LOGO.jpg"
                                 alt="burlar breaking into house through the door"
-                                width={150}
-                                height={150}
+                                width={200}
+                                height={200}
                               />
                             </div>
                           </div>
@@ -191,7 +192,11 @@ function HowToCustomizeAppleWatchBkgrndPage(props) {
                       6. After your photo is added and you are returned to the
                       Face Gallery, now click the ADD button under the word
                       Portraits to add the Portraits box to your available
-                      sections in the Face Gallery.
+                      sections in the Face Gallery. Do not forget to click this
+                      ADD button. If you do, this will not work. NOTE: The
+                      reason we are placing the 1 photo into the Portraits
+                      section instead of the Photos section is so that the
+                      background will stay the same and not change.
                       <br /> <br />
                       <div className="image centered">
                         <Image
@@ -244,7 +249,6 @@ function HowToCustomizeAppleWatchBkgrndPage(props) {
                       too.
                     </p>
                     <br />
-                    <br />
                     <div
                       className="fb-share-button"
                       data-href="https://www.dallashomewatch.com/blog/how-to-customize-your-apple-watch-background"
@@ -259,6 +263,63 @@ function HowToCustomizeAppleWatchBkgrndPage(props) {
                         Share this article on Facebook
                       </Link>
                       <br /> <br />
+                      <div>
+                        <h3>How To Add Your Logo To Your Watch</h3>
+                        <br />
+                        <p>
+                          Not sure how to get your Home Watch LOGO on to your
+                          watch? Have your Web Developer or Graphic Designer
+                          email a copy of your logo as an attachment. The image
+                          should be sized 300x300.jpg and the bottom two-thirds
+                          of the image needs to be a dark solid color so that
+                          the clock numbers are readable. Be sure to have
+                          him/her send you the logo to an email that you can
+                          check from your phone.
+                        </p>
+                        <p>
+                          Then from your phone, open the email and download the
+                          photo to your photo library. Now go back up to the top
+                          of this page and re-read the instructions. Since your
+                          logo is the last photo added to your photo library, it
+                          should be easy to find when you are ready to select
+                          it.
+                        </p>
+                        <p>
+                          If you would like to download a copy of the house or
+                          the logo used in this article, for the purpose of
+                          practicing, you may do so by right clicking on either
+                          of the images at the top of this page and save to your
+                          desktop. Then (just as your Graphic Designer would
+                          do), email it (to yourself) as an attachment. Send the
+                          email from your desktop and answer the email from your
+                          phone.
+                        </p>
+                        <h4>Success!</h4>
+                        <h5>Dallas Home Watch Logo Added To Watch</h5>
+                        <p></p>
+                        <div className="image centered">
+                          <Image
+                            src="/images/blogimg/apple/dallas-home-watch-logo-apple-watch.jpg"
+                            alt="Set as current Watch Face"
+                            width={275}
+                            height={294}
+                          />
+                          <br />
+
+                          {/*  Your like button code */}
+                          <div
+                            class="fb-like"
+                            data-href="https://www.dallashomewatch.com/blog/how-to-customize-your-apple-watch-background"
+                            data-width="250"
+                            data-layout=""
+                            data-action=""
+                            data-size=""
+                            data-share="true"
+                          ></div>
+
+                          <br />
+                        </div>{" "}
+                      </div>
                     </div>
                   </div>
                 </div>
