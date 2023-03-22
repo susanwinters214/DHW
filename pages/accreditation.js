@@ -152,7 +152,7 @@ function AccreditationPage(props) {
                     </li>
                     <li className="accred">
                       An Accredited Home Watch service will deliver consistent
-                      an accurate information to you during your absence.
+                      addition accurate information to you during your absence.
                     </li>
                     <li className="accred">
                       An Accredited Home Watch service can meet with contractors
@@ -237,7 +237,7 @@ function AccreditationPage(props) {
                         <div className="content">
                           <div className="icon flaticon-briefcase" />
                           <div className="count-outer count-box"></div>
-                          <div className="counter-title">Register Business</div>
+                          <div className="counter-title">Registered Business</div>
                         </div>
                       </div>
                     </div>

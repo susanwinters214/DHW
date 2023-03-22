@@ -385,10 +385,9 @@ function HomePage(props) {
                       help keep from signaling that the homeowners are gone.
                     </p>
                     <p>
-                      Dallas Home Watch serves the homeowners who have more than
-                      one residential properties and informs them of any
-                      problems found, then adheres to their directions for the
-                      resolution and treatment of any issues. Because our
+                      Dallas Home Watch serves homeowners who either have more than
+                      one residential property or who travels for long periods of time leaving their home or
+                      condo unoccupied. Because our
                       clients often travel out of state or out of the country
                       for long periods, they can rest assured that Dallas Home
                       Watch will visit their property weekly (or more often if

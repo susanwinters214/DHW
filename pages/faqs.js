@@ -11,10 +11,7 @@ function FAQsPage(props) {
         <title>
           Home Watch FAQs - Dallas Home Watch Frequently Asked Questions
         </title>
-        <link
-          rel="canonical"
-          href="https://dallashomewatch.com/faqs"
-        />
+        <link rel="canonical" href="https://dallashomewatch.com/faqs" />
         <meta
           name="description"
           content="Frequently Asked Questions for Dallas Home Watch. Get answers to questions about Home Watch and the services we provide."
@@ -90,7 +87,7 @@ function FAQsPage(props) {
                 issues.” Watch our video to see photos of what can happen when
                 you don't hire a Home Watch company to keep an eye on your
                 unoccupied home.{" "}
-                <Link href="https://youtu.be/kGZKVnd8YqU" target="_blank">
+                <Link href="https://youtu.be/feTvuoxzt4c" target="_blank">
                   Video: What is Home Watch?
                 </Link>
               </p>
