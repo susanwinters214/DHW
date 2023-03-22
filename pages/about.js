@@ -166,34 +166,16 @@ function AboutPage() {
                     </div>
                   </div>
 
-                  <div itemscope itemType="https://schema.org/LocalBusiness">
-                    <p className="LocalBusinessSchema">
-                      <span itemProp="description">
-                        {" "}
-                        Home Watch company serving Dallas.
-                      </span>
-                      <br />
-                      <br />
-
-                      <span itemProp="name">Dallas Home Watch LLC</span>
-                      <br />
-
-                      <div
-                        itemProp="address"
-                        itemscope
-                        itemType="https://schema.org/PostalAddress"
-                      >
-                        <span itemProp="streetAddress">
-                          13101 Preston Road Suite 110410
-                        </span>
-                        <br />
-                        <span itemProp="addressLocality">Dallas</span>,{" "}
-                        <span itemProp="addressRegion">Texas</span> 75240
-                      </div>
-
-                      <span itemProp="telephone">972-982-7050</span>
-                      <br />
-                    </p>
+                 
+<p>
+Home Watch company serving Dallas.<br />
+<br />
+Dallas Home Watch LLC<br />
+13101 Preston Road Suite 110410<br />
+Dallas,{" "}Texas 75240<br />
+972-982-7050<br />
+                  </p>
+                  
                     <h4>Dallas Home Watch on Facebook</h4>
                     <Link href="https://www.facebook.com/dallashomewatch">
                       Like & Follow
@@ -203,7 +185,7 @@ function AboutPage() {
               </div>
             </div>
           </div>
-        </div>
+      
       </section>
     </Fragment>
   );

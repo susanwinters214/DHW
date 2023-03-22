@@ -16,32 +16,16 @@ function FooterNavigation() {
               <Logo />
               <br />
               <br />
-              <div itemscope itemType="https://schema.org/LocalBusiness">
-                <p className="LocalBusinessSchema">
-                  <span itemProp="description">
-                    {" "}
-                    Home Watch company serving Dallas.
-                  </span>
+              <div>
+                <p>
+                  Home Watch company serving Dallas. <br />
                   <br />
+                  Dallas Home Watch LLC <br />
+                  13101 Preston Road Suite 110410
                   <br />
-
-                  <span itemProp="name">Dallas Home Watch LLC</span>
+                  Dallas, Texas 75240
                   <br />
-
-                  <div
-                    itemProp="address"
-                    itemScope
-                    itemType="https://schema.org/PostalAddress"
-                  >
-                    <span itemProp="streetAddress">
-                      13101 Preston Road Suite 110410
-                    </span>
-                    <br />
-                    <span itemProp="addressLocality">Dallas</span>,{" "}
-                    <span itemProp="addressRegion">Texas</span> 75240
-                  </div>
-
-                  <span itemProp="telephone">972-982-7050</span>
+                  <span>972-982-7050</span>
                   <br />
                 </p>
               </div>
@@ -66,7 +50,7 @@ function FooterNavigation() {
                       <a
                         rel="noreferrer"
                         target="_blank"
-                        href="https://www.google.com/search?q=Dallas%20Home%20Watch&rlz=1C1VDKB_enUS951US953&oq=da&aqs=chrome.0.69i59j69i57j69i59l2j0i271l3j69i59.2276j0j15&sourceid=chrome&ie=UTF-8&tbs=lf:1,lf_ui:2&tbm=lcl&sxsrf=AJOqlzVsZ5d596pOdSYH7H4uNZ6uSCrOBg:1677427713597&rflfq=1&num=10&rldimm=8696726493134451577&lqi=ChFEYWxsYXMgSG9tZSBXYXRjaFoZIhFkYWxsYXMgaG9tZSB3YXRjaCoECAIQAZIBG2Fzc29jaWF0aW9uX29yX29yZ2FuaXphdGlvbuABAA&ved=2ahUKEwiEgIWYybP9AhXBnGoFHYK4BeEQvS56BAgKEAE&sa=X&rlst=f#rlfi=hd:;si:8696726493134451577,l,ChFEYWxsYXMgSG9tZSBXYXRjaFoZIhFkYWxsYXMgaG9tZSB3YXRjaCoECAIQAZIBG2Fzc29jaWF0aW9uX29yX29yZ2FuaXphdGlvbuABAA;mv:[[32.9433033,-96.7289352],[32.8606816,-96.8841491]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!2m1!1e3!3sIAE,lf:1,lf_ui:2"
+                        href="https://bit.ly/googlemapsdhw"
                       >
                         <span className="fa fa-google" />
                       </a>
