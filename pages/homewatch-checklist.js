@@ -12,7 +12,8 @@ function HomeWatchChecklistPage(props) {
         <link rel="canonical" href="https://dallashomewatch.com/homewatch-checklist" />
         <meta
           name="description"
-          content="Our Home Watch Checklist includes checking household appliances and equipment which are often the source of a problem. "
+          content="Our Home Watch Checklist includes checking household appliances 
+          and equipment which are often the source of a problem. "
         />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
@@ -20,7 +21,7 @@ function HomeWatchChecklistPage(props) {
 
         <meta
           property="og:url"
-          content="https://www.dallashomewatch.com/homewatch-checklist"
+          content="https://dallashomewatch.com/homewatch-checklist"
         />
         <meta property="og:title" content="Home Watch Inspection Checklist" />
         <meta

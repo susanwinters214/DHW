@@ -17,7 +17,7 @@ function TermsPage() {
 
         <meta
           property="og:url"
-          content="https://www.dallashomewatch.com/terms-of-service"
+          content="https://dallashomewatch.com/terms-of-service"
         />
         <meta
           property="og:title"

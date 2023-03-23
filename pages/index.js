@@ -19,7 +19,7 @@ function HomePage(props) {
           content="Dallas Home Watch LLC | Home Watch in Dallas"
         />
 
-        <meta property="og:url" content="https://www.dallashomewatch.com" />
+        <meta property="og:url" content="https://dallashomewatch.com" />
         <meta property="og:title" content="Dallas Home Watch" />
         <meta
           property="og:description"

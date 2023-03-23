@@ -11,7 +11,8 @@ function AboutPage() {
         <link rel="canonical" href="https://dallashomewatch.com/about" />
         <meta
           name="description"
-          content="Read About: Home Watch Business in Dallas, Texas - owned by Tina Lawson.  Dallas Home Watch contracts with clients to watch their home while they are away."
+          content="Dallas Home Watch, owned by Tina Lawson, contracts with clients to watch 
+          their home while they are away."
         />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
@@ -19,7 +20,7 @@ function AboutPage() {
 
         <meta
           property="og:url"
-          content="https://www.dallashomewatch.com/about"
+          content="https://dallashomewatch.com/about"
         />
         <meta property="og:title" content="Dallas Home Watch" />
         <meta
@@ -166,26 +167,29 @@ function AboutPage() {
                     </div>
                   </div>
 
-                 
-<p>
-Home Watch company serving Dallas.<br />
-<br />
-Dallas Home Watch LLC<br />
-13101 Preston Road Suite 110410<br />
-Dallas,{" "}Texas 75240<br />
-972-982-7050<br />
+                  <p>
+                    Home Watch company serving Dallas.
+                    <br />
+                    <br />
+                    Dallas Home Watch LLC
+                    <br />
+                    13101 Preston Road Suite 110410
+                    <br />
+                    Dallas, Texas 75240
+                    <br />
+                    972-982-7050
+                    <br />
                   </p>
-                  
-                    <h4>Dallas Home Watch on Facebook</h4>
-                    <Link href="https://www.facebook.com/dallashomewatch">
-                      Like & Follow
-                    </Link>
-                  </div>
+
+                  <h4>Dallas Home Watch on Facebook</h4>
+                  <Link href="https://www.facebook.com/dallashomewatch">
+                    Like & Follow
+                  </Link>
                 </div>
               </div>
             </div>
           </div>
-      
+        </div>
       </section>
     </Fragment>
   );

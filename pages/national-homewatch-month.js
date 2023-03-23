@@ -9,10 +9,7 @@ function NationalHomeWatchMonthPage(props) {
     <Fragment>
       <Head>
         <title>National Home Watch Month 2023</title>
-        <link
-          rel="canonical"
-          href="https://dallashomewatch.com/national-homewatch-month"
-        />
+    
         <meta
           name="description"
           content="March 2023 is the first 'National Home Watch Month' created to bring awareness of the definition of 'Home Watch' as a Professional Service offered to Home Owners who have multiple residential properties or take long extended vacations away from home."
@@ -23,7 +20,7 @@ function NationalHomeWatchMonthPage(props) {
 
         <meta
           property="og:url"
-          content="https://www.dallashomewatch.com/national-homewatch-month"
+          content="https://dallashomewatch.com/national-homewatch-month"
         />
         <meta property="og:title" content="National Home Watch Month 2023" />
         <meta

@@ -9,10 +9,13 @@ function ConciergePage(props) {
     <Fragment>
       <Head>
         <title>Dallas Conceirge Service</title>
-        <link rel="canonical" href="https://dallashomewatch.com/concierge-services" />
+        <link
+          rel="canonical"
+          href="https://dallashomewatch.com/concierge-services"
+        />
         <meta
           name="description"
-          content="Dallas Concierge Services helps busy executives by performing tasks and running errands for them that give them back their freedom and time to do the things they enjoy."
+          content="Concierge Services helps busy executives by performing tasks and running errands so they have the freedom to live their life without chores."
         />
 
         <meta property="fb:app_id" content="8620778781329629" />
@@ -21,7 +24,7 @@ function ConciergePage(props) {
 
         <meta
           property="og:url"
-          content="https://www.dallashomewatch.com/concierge-services"
+          content="https://dallashomewatch.com/concierge-services"
         />
         <meta
           property="og:title"

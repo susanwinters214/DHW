@@ -9,10 +9,13 @@ function KeyHolderPage(props) {
     <Fragment>
       <Head>
         <title>Key Holder Services | Dallas Home Watch </title>
-        <link rel="canonical" href="https://dallashomewatch.com/keyholder-services" />
+        <link
+          rel="canonical"
+          href="https://dallashomewatch.com/keyholder-services"
+        />
         <meta
           name="description"
-          content="You need a Trusted Key Holder when you leave home so that you have a professional that holds the keys to your home to allow access to contractors to come into the home to perform a service."
+          content="Key Holder Services holds the keys to your home to allow access to contractors and vendors to come into the home to perform a service. "
         />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
@@ -20,7 +23,7 @@ function KeyHolderPage(props) {
 
         <meta
           property="og:url"
-          content="https://www.dallashomewatch.com/keyholder-services"
+          content="https://dallashomewatch.com/keyholder-services"
         />
         <meta
           property="og:title"
@@ -155,6 +158,7 @@ function KeyHolderPage(props) {
                   can rely on Dallas Home Watch Key Holder Service. We can be
                   there to meet delivery companies, tradespeople, or repairmen.
                 </p>
+
                 <p>
                   You do not want deliveries, like wine, gifts, or furniture
                   left outside to be damaged by weather or become a target for
@@ -171,10 +175,53 @@ function KeyHolderPage(props) {
                   That goes for services like landscaping, pool maintenance, and
                   housekeeping, too. We will be there when they are, acting on
                   your behalf. And when the work is done, we will see that your
-                  property is secure.
-                  <br />
-                  <br />
+                  property is secure.{" "}
                 </p>
+                <br />
+
+                <div className="row clearfix">
+                  <div className="column col-lg-6 col-md-6 col-sm-6">
+                    <iframe
+                      width="500"
+                      height="725"
+                      src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fdallashomewatch%2Fposts%2Fpfbid033J2bdGcPmbFbq5wUhtXgXxAeBdSy7yX9cGbanJW61YBozn7oCwRZmkFPKyLeFpVQl&show_text=true&width=500"
+                      scrolling="no"
+                      frameborder="0"
+                      allowfullscreen="true"
+                      allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+                    ></iframe>
+                  </div>
+
+                  <div className="column col-lg-6 col-md-6 col-sm-6">
+                    <h4>Removed Dormers From Roof</h4>
+                    <div>
+                      These photos were taken during a Key Holder Service that
+                      lasted 3 days. We met with the roofers and stayed until
+                      the job was complete.
+                      <br />
+                      <Image
+                        src="/images/key-holder/house-with-dormers-on-roof.jpg"
+                        alt="house with four car garage with dormers on the roof"
+                        width={400}
+                        height={300}
+                        id="houseBEFOREroof"
+                      />
+                      <br />
+                      <br />
+                      <Image
+                        src="/images/key-holder/house-with-dormers-on-roof-removed.jpg"
+                        alt="house keys"
+                        width={400}
+                        height={300}
+                        id="house with four car garage with no dormers on the roof"
+                      />
+                    </div>
+                  </div>
+
+                  <br />
+                </div>
+
+                <br />
 
                 <h3>Emergency Services</h3>
                 <p>

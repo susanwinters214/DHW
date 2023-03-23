@@ -17,7 +17,7 @@ function PrivacyPage() {
 
         <meta
           property="og:url"
-          content="https://www.dallashomewatch.com/privacy-policy"
+          content="https://dallashomewatch.com/privacy-policy"
         />
         <meta property="og:title" content="Dallas Home Watch Privacy Policy" />
         <meta

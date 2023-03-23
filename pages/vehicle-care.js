@@ -20,7 +20,7 @@ function VehicleCarePage(props) {
 
         <meta
           property="og:url"
-          content="https://www.dallashomewatch.com/vehicle-care"
+          content="https://dallashomewatch.com/vehicle-care"
         />
         <meta
           property="og:title"

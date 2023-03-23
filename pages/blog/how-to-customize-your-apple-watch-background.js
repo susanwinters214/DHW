@@ -86,12 +86,15 @@ function HowToCustomizeAppleWatchBkgrndPage(props) {
                       <br />
                     </p>
                     <div>
-                      1. Start by selecting the photo you want to use as your
+                      <h3 id="step1watch">Step 1</h3>
+                      Start by selecting the photo you want to use as your
                       background. If you want to use a photo of your home, make
                       sure it's saved on your iPhone's camera roll or in your
                       iCloud Photos library. If you want to use a photo of your
                       Home Watch logo, make sure you have it saved on your
-                      iPhone. <br />
+                      iPhone. [
+                      <a href="#uploadLOGO">How To Upload Company Logo</a>]
+                      <br />
                       <div className="row clearfix">
                         {/* Content Column */}
                         <div className="content-column col-lg-6 col-md-12 col-sm-12">
@@ -127,7 +130,7 @@ function HowToCustomizeAppleWatchBkgrndPage(props) {
                       </div>
                     </div>
                     <div>
-                      2. Open the Watch app on your iPhone.
+                      <h3>Step 2</h3>Open the Watch app on your iPhone.
                       <br />
                       <div className="image centered">
                         <Image
@@ -140,8 +143,8 @@ function HowToCustomizeAppleWatchBkgrndPage(props) {
                       <br />
                     </div>
                     <div>
-                      3. You will be on the My Faces page and by default you
-                      will be on the "My Watch" tab.
+                      <h3>Step 3</h3>You will be on the My Faces page and by
+                      default you will be on the "My Watch" tab.
                     </div>
                     <br />
                     <div className="image centered">
@@ -154,8 +157,8 @@ function HowToCustomizeAppleWatchBkgrndPage(props) {
                     </div>
                     <br />
                     <p>
-                      4. Scroll to the left or right under "My Faces" until you
-                      find "Portraits" and click on it.
+                      <h3>Step 4</h3>Scroll to the left or right under "My
+                      Faces" until you find "Portraits" and click on it.
                       <br />
                       If you do not see "Portraits" under "My Faces", click on
                       the Face Gallery tab on the bottom of the screen.
@@ -173,10 +176,10 @@ function HowToCustomizeAppleWatchBkgrndPage(props) {
                       <br />
                     </p>
                     <div>
-                      5. Clicking on the Face Gallery tab will get you to this
-                      screen. Now scroll down and click on Choose Photos... Then
-                      click a photo from your library and click the Add button
-                      in the top right corner of the screen.
+                      <h3>Step 5</h3>Clicking on the Face Gallery tab will get
+                      you to this screen. Now scroll down and click on Choose
+                      Photos... Then click a photo from your library and click
+                      the Add button in the top right corner of the screen.
                       <br />
                       <br />
                       <div className="image centered">
@@ -192,14 +195,14 @@ function HowToCustomizeAppleWatchBkgrndPage(props) {
                     </div>
                     <div>
                       {" "}
-                      6. After your photo is added and you are returned to the
-                      Face Gallery, now click the ADD button under the word
-                      Portraits to add the Portraits box to your available
-                      sections in the Face Gallery. Do not forget to click this
-                      ADD button. If you do, this will not work. NOTE: The
-                      reason we are placing the 1 photo into the Portraits
-                      section instead of the Photos section is so that the
-                      background will stay the same and not change.
+                      <h3>Step 6</h3>After your photo is added and you are
+                      returned to the Face Gallery, now click the ADD button
+                      under the word Portraits to add the Portraits box to your
+                      available sections in the Face Gallery. Do not forget to
+                      click this ADD button. If you do, this will not work.
+                      NOTE: The reason we are placing the 1 photo into the
+                      Portraits section instead of the Photos section is so that
+                      the background will stay the same and not change.
                       <br /> <br />
                       <div className="image centered">
                         <Image
@@ -213,12 +216,13 @@ function HowToCustomizeAppleWatchBkgrndPage(props) {
                       </div>
                     </div>
                     <div>
-                      7. Now that Portraits has been added to your Face Gallery,
-                      go back to the first screen by clicking the My Watch tab
-                      at the bottom of the screen. Next, click on the Portraits
-                      box. Scroll down to the bottom of this screen and click on
-                      "Set as current Watch Face". You can then exit out of the
-                      app. Then click Done. Then click Back. <br />
+                      <h3>Step 7</h3>Now that Portraits has been added to your
+                      Face Gallery, go back to the first screen by clicking the
+                      My Watch tab at the bottom of the screen. Next, click on
+                      the Portraits box. Scroll down to the bottom of this
+                      screen and click on "Set as current Watch Face". You can
+                      then exit out of the app. Then click Done. Then click
+                      Back. <br />
                       <br />
                       <div className="image centered">
                         <Image
@@ -232,9 +236,10 @@ function HowToCustomizeAppleWatchBkgrndPage(props) {
                       </div>{" "}
                     </div>
                     <p>
-                      8. Your Apple Watch should now display the photo you
-                      selected as your background. You can change it at any time
-                      by repeating these steps and selecting a new photo.
+                      <h3>Step 8</h3>Your Apple Watch should now display the
+                      photo you selected as your background. You can change it
+                      at any time by repeating these steps and selecting a new
+                      photo.
                     </p>
                     <div className="image centered">
                       <Image
@@ -267,7 +272,9 @@ function HowToCustomizeAppleWatchBkgrndPage(props) {
                       </Link>
                       <br /> <br />
                       <div>
-                        <h3>How To Add Your Logo To Your Watch</h3>
+                        <h3 id="uploadLOGO">
+                          How To Add Your Logo To Your Watch
+                        </h3>
                         <br />
                         <p>
                           Not sure how to get your Home Watch LOGO on to your
@@ -281,11 +288,13 @@ function HowToCustomizeAppleWatchBkgrndPage(props) {
                         </p>
                         <p>
                           Then from your phone, open the email and download the
-                          photo to your photo library. Now go back up to the top
-                          of this page and re-read the instructions. Since your
-                          logo is the last photo added to your photo library, it
-                          should be easy to find when you are ready to select
-                          it.
+                          photo to your photo library. Now{" "}
+                          <a href="#step1watch">
+                            go back up to the top of this page
+                          </a>{" "}
+                          and re-read the instructions. Since your logo is the
+                          last photo added to your photo library, it should be
+                          easy to find when you are ready to select it.
                         </p>
                         <p>
                           If you would like to download a copy of the house or
