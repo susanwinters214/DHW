@@ -615,38 +615,7 @@ function ServiceAreaPage(props) {
           <p>&nbsp;</p>
           <hr />
 
-          <div className="row clearfix">
-            <div className="column col-lg-3 col-md-6 col-sm-6">
-              <div className="image centered">
-                <Image
-                  width={300}
-                  height={300}
-                  src="/images/locations/xxxxxxxxxxxxxxx.jpg"
-                  alt="street sign"
-                />
-              </div>
-            </div>
-            <div className="column col-lg-3 col-md-6 col-sm-6">
-              <div className="image centered">
-                <Image
-                  width={300}
-                  height={300}
-                  src="/images/locations/xxxxxxxxxxxxxxx.jpg"
-                  alt="street sign"
-                />
-              </div>
-            </div>
-            <div className="column col-lg-3 col-md-6 col-sm-6">
-              <div className="image centered">
-                <Image
-                  width={300}
-                  height={300}
-                  src="/images/locations/xxxxxxxxxxxxxxx.jpg"
-                  alt="street sign"
-                />
-              </div>
-            </div>
-          </div>
+       
 
           <p>
             Reference: <Link href="https://en.wikipedia.org/">Wikipedia</Link>

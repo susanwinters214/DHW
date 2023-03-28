@@ -46,7 +46,7 @@ function HomeWatchBusinessJournalPage(props) {
       {/* insert top banner with Page Title & Breadcrumb*/}
       <section className="page-title bg-hwbj">
         <div className="auto-container">
-          <h1>National Home Watch Month</h1>
+          <h1>Home Watch Business Journal</h1>
           <ul className="page-breadcrumb">
             <li>
               <Link href="/">home</Link>

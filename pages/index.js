@@ -7,7 +7,9 @@ function HomePage(props) {
   return (
     <Fragment>
       <Head>
-        <title>DALLAS HOME WATCH | Home Watch North Dallas and Downtown</title>
+        <title>DALLAS HOME WATCH SERVICES by Dallas Home Watch LLC.</title>
+        <meta property="keywords" content="Dallas Home Watch, dallas home watch services" />
+        <link rel="canonical" href="https://dallashomewatch.com/"></link>
         <meta
           name="description"
           content="Dallas Home Watch LLC. provides home watch inspections in the Dallas area. Home watch is a visual inspection of a home looking for obvious issues. "
@@ -40,8 +42,6 @@ function HomePage(props) {
           property="article:publisher"
           content="https://www.facebook.com/dallashomewatch/"
         ></meta>
-
-        <link rel="canonical" href="https://dallashomewatch.com/"></link>
       </Head>
       {/* top Banner Area */}
       <section className="page-title pageback-homepage">
@@ -231,7 +231,7 @@ function HomePage(props) {
                     <br />
                     <p>
                       Unlike other options like{" "}
-                      <Link href="national-home-watch-month#HouseSitter"></Link>{" "}
+                      <Link href="national-homewatch-month#HouseSitter"></Link>{" "}
                       House Sitters or Property Managers, Dallas Home Watch is a
                       fully accredited and bonded company that prioritizes the
                       care and <strong>maintenance of your home</strong>. We are
@@ -385,14 +385,14 @@ function HomePage(props) {
                       help keep from signaling that the homeowners are gone.
                     </p>
                     <p>
-                      Dallas Home Watch serves homeowners who either have more than
-                      one residential property or who travels for long periods of time leaving their home or
-                      condo unoccupied. Because our
-                      clients often travel out of state or out of the country
-                      for long periods, they can rest assured that Dallas Home
-                      Watch will visit their property weekly (or more often if
-                      desired) and will be their eyes and ears while they are
-                      away.
+                      Dallas Home Watch serves homeowners who either have more
+                      than one residential property or who travels for long
+                      periods of time leaving their home or condo unoccupied.
+                      Because our clients often travel out of state or out of
+                      the country for long periods, they can rest assured that
+                      Dallas Home Watch will visit their property weekly (or
+                      more often if desired) and will be their eyes and ears
+                      while they are away.
                     </p>
                     <p>
                       If you plan to leave your home vacant for more than 7
