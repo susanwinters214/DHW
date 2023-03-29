@@ -8,7 +8,7 @@ function ConciergePage(props) {
   return (
     <Fragment>
       <Head>
-        <title>Dallas Conceirge Service</title>
+        <title>Personal Conceirge Service | DALLAS HOME WATCH</title>
         <link
           rel="canonical"
           href="https://dallashomewatch.com/concierge-services"

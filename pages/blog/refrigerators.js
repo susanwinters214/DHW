@@ -8,7 +8,7 @@ function RefrigeratorsPage(props) {
   return (
     <Fragment>
       <Head>
-        <title>Dallas Home Watch Checks Your Refrigerators</title>
+        <title>Refrigerators - DALLAS HOME WATCH</title>
         <link
           rel="canonical"
           href="https://dallashomewatch.com/blog/refrigerators"

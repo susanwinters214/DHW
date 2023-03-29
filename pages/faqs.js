@@ -143,7 +143,7 @@ function FAQsPage(props) {
               <h3 className="pt-25">What Does A Home Watch Service Do?</h3>
               <p>
                 A Home Watch Service includes an inspection of your property.{" "}
-                <Link href="/homewatch-services/#WhatDoesHWSdo">
+                <Link href="/home-watch-services/#WhatDoesHWSdo">
                   See Photos Taken During A Home Watch Inspection
                 </Link>
               </p>

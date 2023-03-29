@@ -9,7 +9,7 @@ function HomePage(props) {
       <Head>
         <title>DALLAS HOME WATCH SERVICES by Dallas Home Watch LLC.</title>
         <meta property="keywords" content="Dallas Home Watch, dallas home watch services" />
-        <link rel="canonical" href="https://dallashomewatch.com/"></link>
+        <link rel="canonical" href="https://dallashomewatch.com"></link>
         <meta
           name="description"
           content="Dallas Home Watch LLC. provides home watch inspections in the Dallas area. Home watch is a visual inspection of a home looking for obvious issues. "
@@ -102,7 +102,7 @@ function HomePage(props) {
                   <div className="content">
                     <div className="icon flaticon-file" />
                     <h4>
-                      <Link href="/homewatch-services">
+                      <Link href="/home-watch-services">
                         Home Watch Services
                       </Link>
                     </h4>
@@ -112,7 +112,7 @@ function HomePage(props) {
                     </div>
                   </div>
                   <Link
-                    href="homewatch-services"
+                    href="home-watch-services"
                     className="arrow flaticon-right"
                   />
                 </div>
@@ -209,7 +209,7 @@ function HomePage(props) {
                     <p>
                       <strong>Dallas Home Watch LLC.</strong> offers
                       professional{" "}
-                      <Link href="/homewatch-services">
+                      <Link href="/home-watch-services">
                         Home Watch Services
                       </Link>{" "}
                       to the Dallas, Texas area. We service several

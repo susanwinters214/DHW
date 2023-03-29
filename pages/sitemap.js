@@ -56,7 +56,7 @@ function SitemapPage(props) {
                   <h2 className="pageTitle">Dallas Home Watch Sitemap</h2>
                   <h3>Main</h3>
                   <h4>
-                    <Link href="/homewatch-services">Home Watch Services</Link>
+                    <Link href="/home-watch-services">Home Watch Services</Link>
                   </h4>
                   <h4>
                     <Link href="/homewatch-checklist">

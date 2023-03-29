@@ -8,7 +8,7 @@ function VehicleCarePage(props) {
   return (
     <Fragment>
       <Head>
-        <title>Vehicle Care | Dallas Home Watch </title>
+        <title>Vehicle Care | DALLAS HOME WATCH </title>
         <link rel="canonical" href="https://dallashomewatch.com/vehicle-care" />
         <meta
           name="description"

@@ -42,7 +42,7 @@ function MainNavigation() {
               >
                 <ul className="navigation clearfix">
                   <li>
-                    <Link href="/homewatch-services">Home Watch</Link>
+                    <Link href="/home-watch-services">Home Watch</Link>
                   </li>
                   <li>
                     <Link href="/keyholder-services">Key Holder</Link>

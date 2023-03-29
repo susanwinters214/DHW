@@ -8,7 +8,7 @@ function KeyHolderPage(props) {
   return (
     <Fragment>
       <Head>
-        <title>Key Holder Services | Dallas Home Watch </title>
+        <title>Key Holder Services | DALLAS HOME WATCH</title>
         <link
           rel="canonical"
           href="https://dallashomewatch.com/keyholder-services"

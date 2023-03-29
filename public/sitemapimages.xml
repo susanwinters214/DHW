@@ -10,89 +10,30 @@
         <image:loc>https://www.dallashomewatch.com/images/home-watch-professional-front-entry.jpg</image:loc>
         <image:loc>https://www.dallashomewatch.com/images/nhwa-member-logo.jpg</image:loc>
     </image:image>
-   </url>
-  <url>
+   </url> 
+<url>
  <loc>https://www.dallashomewatch.com/homewatch-services</loc>
  <image:image>
-    <image:loc>https://www.dallashomewatch.com/images/og/dallas-home-watch-opening-doors.jpg</image:loc>
-    <image:loc>https://www.dallashomewatch.com/images/hw-check/security-alarm-inspection.jpg</image:loc>
-    <image:loc>https://www.dallashomewatch.com/images/hw-check/faucet-sink-inspection.jpg</image:loc>
-    <image:loc>https://www.dallashomewatch.com/images/hw-check/watercop-device.jpg</image:loc>
-    <image:loc>https://www.dallashomewatch.com/images/hw-check/toilets-and-tubs.jpg</image:loc>
-    <image:loc>https://www.dallashomewatch.com/images/hw-check/refrigerator-inspection.jpg</image:loc>
-    <image:loc>https://www.dallashomewatch.com/images/hw-check/bar-sink-inspection.jpg</image:loc>
-    <image:loc>https://www.dallashomewatch.com/images/hw-check/electronics-closet-inspection.jpg</image:loc>
-    <image:loc>https://www.dallashomewatch.com/images/hw-check/router-inspection.jpg</image:loc>
-    <image:loc>https://www.dallashomewatch.com/images/hw-check/air-filter-replacement.jpg</image:loc>
-    <image:loc>https://www.dallashomewatch.com/images/hw-check/breaker-box-inspection.jpg</image:loc>
-    <image:loc>https://www.dallashomewatch.com/images/hw-check/attic-ac-inspection.jpg</image:loc>
-    <image:loc>https://www.dallashomewatch.com/images/hw-check/washing-machine-inspection.jpg</image:loc>
-    <image:loc>https://www.dallashomewatch.com/images/car-care/garage-door-openers.jpg</image:loc>
-    <image:loc>https://www.dallashomewatch.com/images/hw-check/swimming-pool.jpg</image:loc>
-    <image:loc>https://www.dallashomewatch.com/images/hw-check/securing-back-doors.jpg</image:loc>
-    <image:loc>https://www.dallashomewatch.com/images/hw-check/trash-cans.jpg</image:loc>
-    <image:loc>https://www.dallashomewatch.com/images/hw-check/home-watch-checklist.png</image:loc>  
-    <image:loc>https://www.dallashomewatch.com/images/hw-check/securing-back-gate.jpg</image:loc>  
-    <image:loc>https://www.dallashomewatch.com/images/logos/national-home-watch-month-logo.png</image:loc> 
-  <image:loc>https://www.dallashomewatch.com/images/logos/home-watch-business-journal.jpg</image:loc> 
-  <image:loc>https://www.dallashomewatch.com/images/logos/home-watch-business-journal-BOOK-COVER.jpg</image:loc> 
-  </image:image>
-  </url>  
- <url>
- <loc>https://www.dallashomewatch.com/national-homewatch-month</loc>
- <image:image>
-    <image:loc>https://www.dallashomewatch.com/images/blogimg/frozen-pool-240x320.jpg</image:loc>
-    <image:loc>https://www.dallashomewatch.com/images/blogimg/water-damage-240x320.jpg</image:loc>
-    <image:loc>https://www.dallashomewatch.com/images/blogimg/big-trees-240x320.jpg</image:loc>
-    <image:loc>https://www.dallashomewatch.com/images/logos/NHWM-book.jpg</image:loc>
-   <image:loc>https://www.dallashomewatch.com/images/logos/national-homewatch-month-2023.png</image:loc>
-    <image:loc>https://www.dallashomewatch.com/images/logos/NHWM-book.jpg</image:loc>
+   <image:loc>https://www.dallashomewatch.com/images/hw-check/security-alarm-inspection.jpg</image:loc>
+   <image:loc>https://www.dallashomewatch.com/images/hw-check/faucet-sink-inspection.jpg</image:loc>
+   <image:loc>https://www.dallashomewatch.com/images/hw-check/watercop-device.jpg</image:loc>
+   <image:loc>https://www.dallashomewatch.com/images/hw-check/toilets-and-tubs.jpg</image:loc>
+   <image:loc>https://www.dallashomewatch.com/images/hw-check/refrigerator-inspection.jpg</image:loc>
+   <image:loc>https://www.dallashomewatch.com/images/hw-check/bar-sink-inspection.jpg</image:loc>
+   <image:loc>https://www.dallashomewatch.com/images/hw-check/electronics-closet-inspection.jpg</image:loc>
+   <image:loc>https://www.dallashomewatch.com/images/hw-check/router-inspection.jpg</image:loc>
+   <image:loc>https://www.dallashomewatch.com/images/hw-check/air-filter-replacement.jpg</image:loc>
+   <image:loc>https://www.dallashomewatch.com/images/hw-check/breaker-box-inspection.jpg</image:loc>
+   <image:loc>https://www.dallashomewatch.com/images/hw-check/attic-ac-inspection.jpg</image:loc>
+   <image:loc>https://www.dallashomewatch.com/images/hw-check/washing-machine-inspection.jpg</image:loc>
+   <image:loc>https://www.dallashomewatch.com/images/car-care/garage-door-openers.jpg</image:loc>
+   <image:loc>https://www.dallashomewatch.com/images/hw-check/swimming-pool.jpg</image:loc>
+   <image:loc>https://www.dallashomewatch.com/images/hw-check/securing-back-doors.jpg</image:loc>
+   <image:loc>https://www.dallashomewatch.com/images/hw-check/trash-cans.jpg</image:loc>
+   <image:loc>https://www.dallashomewatch.com/images/hw-check/securing-back-gate.jpg</image:loc>
+   <image:loc>https://www.dallashomewatch.com/images/hw-check/home-watch-checklist.png</image:loc>
  </image:image>
   </url>  
- <url>
-   <loc>https://www.dallashomewatch.com/blog/air-filters</loc>
-    <image:image>
-      <image:loc>https://www.dallashomewatch.com/images/blogimg/og-air-filter-replacement.jpg</image:loc>
-      <image:loc>https://www.dallashomewatch.com/images/blogimg/air-filter.jpg</image:loc>
-    </image:image>
-  </url>
- <url>
- <loc>https://www.dallashomewatch.com/blog/refrigerators</loc>
- <image:image>
-    <image:loc>https://www.dallashomewatch.com/images/blogimg/og-refrigerator.jpg</image:loc>
-    <image:loc>https://www.dallashomewatch.com/images/blogimg/refrigerator-dim-light.jpg</image:loc>
- </image:image>
-  </url>  
-<url>
- <loc>https://www.dallashomewatch.com/blog/garage-door-openers</loc>
- <image:image>
-    <image:loc>https://www.dallashomewatch.com/images/blogimg/og-garage-door-openers.jpg</image:loc>
-    <image:loc>https://www.dallashomewatch.com/images/blogimg/garage-door-opener.jpg</image:loc>
- </image:image>
-</url>  
-<url>
- <loc>https://www.dallashomewatch.com/blog/water-leaks</loc>
- <image:image>
-    <image:loc>https://www.dallashomewatch.com/images/blogimg/og-water-leak-damage.jpg</image:loc>
-    <image:loc>https://www.dallashomewatch.com/images/blogimg/water-damage-cleanup.jpg</image:loc>
-    <image:loc>https://www.dallashomewatch.com/images/blogimg/_waterLEAKS/water-damage-01.jpg</image:loc>
-    <image:loc>https://www.dallashomewatch.com/images/blogimg/_waterLEAKS/water-damage-02.jpg</image:loc>
-    <image:loc>https://www.dallashomewatch.com/images/blogimg/_waterLEAKS/water-damage-03.jpg</image:loc>
-    <image:loc>https://www.dallashomewatch.com/images/blogimg/_waterLEAKS/water-damage-04.jpg</image:loc>
-    <image:loc>https://www.dallashomewatch.com/images/blogimg/_waterLEAKS/water-damage-05.jpg</image:loc>
-    <image:loc>https://www.dallashomewatch.com/images/blogimg/_waterLEAKS/water-damage-06.jpg</image:loc>
-    <image:loc>https://www.dallashomewatch.com/images/blogimg/_waterLEAKS/water-damage-07.jpg</image:loc>
-    <image:loc>https://www.dallashomewatch.com/images/blogimg/_waterLEAKS/water-damage-08.jpg</image:loc>
-    <image:loc>https://www.dallashomewatch.com/images/blogimg/_waterLEAKS/water-damage-09.jpg</image:loc>
-    <image:loc>https://www.dallashomewatch.com/images/blogimg/_waterLEAKS/water-damage-10.jpg</image:loc>
-    <image:loc>https://www.dallashomewatch.com/images/blogimg/_waterLEAKS/water-damage-11.jpg</image:loc>
-    <image:loc>https://www.dallashomewatch.com/images/blogimg/_waterLEAKS/water-damage-12.jpg</image:loc>
-    <image:loc>https://www.dallashomewatch.com/images/blogimg/_waterLEAKS/water-damage-13.jpg</image:loc>
-    <image:loc>https://www.dallashomewatch.com/images/blogimg/_waterLEAKS/water-damage-14.jpg</image:loc>
-    <image:loc>https://www.dallashomewatch.com/images/blogimg/_waterLEAKS/water-damage-15.jpg</image:loc>
-    <image:loc>https://www.dallashomewatch.com/images/blogimg/_waterLEAKS/water-damage-16.jpg</image:loc>
- </image:image>
-</url>  
  <url>
  <loc>https://www.dallashomewatch.com/homewatch-checklist</loc>
  <image:image>
@@ -125,6 +66,7 @@
  <url>
  <loc>https://www.dallashomewatch.com/about</loc>
  <image:image>
+   <image:loc>https://www.dallashomewatch.com/images/logos/DWH-onWhite.jpg</image:loc>
     <image:loc>https://www.dallashomewatch.com/images/og/dallas-home-watch-opening-doors.jpg</image:loc>
      <image:loc>https://www.dallashomewatch.com/images/tina-lawson-400x400.jpg</image:loc>
      <image:loc>https://www.dallashomewatch.com/images/car-care/car-tire-mercedes.jpg</image:loc>
@@ -137,6 +79,5 @@
     <image:loc>https://www.dallashomewatch.com/images/og/accredited-home-watch-professional.jpg</image:loc>
      <image:loc>https://www.dallashomewatch.com/images/national-home-watch-conference.jpg</image:loc>    
  </image:image>
-  </url> 
- 
+  </url>  
 </urlset>
