@@ -15,7 +15,7 @@ function WhyYouNeedHomewatchPage(props) {
         ></link>
         <meta
           name="description"
-          content="Why You Need a Home Watch Service: Protecting Your Property While You're Away"
+          content="You need a Home Watch service company to watch over your unoccupied home to protect your assets while you are away. Help mitigate risks to your property."
         />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
