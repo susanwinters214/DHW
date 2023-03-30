@@ -18,10 +18,7 @@ function AboutPage() {
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
 
-        <meta
-          property="og:url"
-          content="https://dallashomewatch.com/about"
-        />
+        <meta property="og:url" content="https://dallashomewatch.com/about" />
         <meta property="og:title" content="Dallas Home Watch" />
         <meta
           property="og:description"
@@ -73,7 +70,6 @@ function AboutPage() {
                       designate visits once a week or more. We will work
                       together toward a solution should property issues arise.
                     </p>
-
                     <div className="image centered">
                       <Image
                         src="/images/logos/DWH-onWhite.jpg"
@@ -82,7 +78,6 @@ function AboutPage() {
                         height={100}
                       />
                     </div>
-
                     <p className="first">
                       Tina Lawson, who managed the corporate offices of HCB
                       Contractors from the mid- '80s to early '90s and later
@@ -128,6 +123,13 @@ function AboutPage() {
                       "Dallas Home Watch will keep you informed about your home
                       while you are away." Lawson said.
                     </p>
+                    <br />
+                    <br />
+                    Read article from D Magazine when Lawson was a House
+                    Manager:{" "}
+                    <Link href="https://www.dmagazine.com/publications/d-home/2006/september-october/house-managers-and-realtor-news/">
+                      Dallas Home Watch
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -148,14 +150,14 @@ function AboutPage() {
                       />
                       <br />
                       Photo of{" "}
-                      <a href="https://www.linkedin.com/in/tina-lawson-a57252254/">
+                      <Link href="https://www.linkedin.com/in/tina-lawson-a57252254/">
                         Tina Lawson
-                      </a>
+                      </Link>
                       <br />
                       Owner of&nbsp;
-                      <a href="https://www.linkedin.com/company/dallas-home-watch">
+                      <Link href="https://www.linkedin.com/company/dallas-home-watch">
                         Dallas Home Watch
-                      </a>
+                      </Link>
                       <br />
                     </div>
                   </div>
