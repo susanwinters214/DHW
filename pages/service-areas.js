@@ -11,7 +11,7 @@ function ServiceAreaPage(props) {
         <title>Home Watch Services in Dallas Area</title>
         <link
           rel="canonical"
-          href="https://dallashomewatch.com/service-areas"
+          href="https://www.dallashomewatch.com/service-areas"
         />
         <meta
           name="description"

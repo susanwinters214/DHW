@@ -11,7 +11,7 @@ function AirFiltersPage(props) {
         <title>Dallas Home Watch Checks Your Air Filters</title>
         <link
           rel="canonical"
-          href="https://dallashomewatch.com/blog/air-filters"
+          href="https://www.dallashomewatch.com/blog/air-filters"
         />
         <meta
           name="description"

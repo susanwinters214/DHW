@@ -11,7 +11,7 @@ function ConciergePage(props) {
         <title>Personal Conceirge Service | DALLAS HOME WATCH</title>
         <link
           rel="canonical"
-          href="https://dallashomewatch.com/concierge-services"
+          href="https://www.dallashomewatch.com/concierge-services"
         />
         <meta
           name="description"

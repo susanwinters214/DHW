@@ -11,7 +11,7 @@ function GarageDoorOpenersPage(props) {
         <title>Dallas Home Watch Checks Your Garage Door Openers</title>
         <link
           rel="canonical"
-          href="https://dallashomewatch.com/blog/garage-door-openers"
+          href="https://www.dallashomewatch.com/blog/garage-door-openers"
         />
         <meta
           name="description"

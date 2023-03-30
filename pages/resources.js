@@ -11,6 +11,10 @@ function ResourcesPage(props) {
       <Head>
         <title>Dallas Home Watch Resources</title>
         <meta name="robots" content="noindex"></meta>
+        <link
+          rel="canonical"
+          href="https://www.dallashomewatch.com/resources"
+        />
         <meta
           name="description"
           content="Dallas Home Watch shares resources for Home Watch Businesses and Home Watch Clients. This page contains discounts to places in Dallas. Save money by visiting the Dallas Home Watch Resources page often."
@@ -70,11 +74,21 @@ function ResourcesPage(props) {
                       different areas:
                     </p>
                     <h3>Michigan Home Watch Businesses</h3>
-                    <Link href="https://ourhomewatcher.com/"  rel="noopener noreferrer">
+                    <Link
+                      href="https://ourhomewatcher.com/"
+                      rel="noopener noreferrer"
+                    >
                       Our Home Watcher LLC.
                     </Link>
-<br /><br /><br />
-                    <p>If you own a Home Watch company outside of the Dallas, Texas area and you are a Certified Home Watch Professional that would like us to add a link to your website - please send an email to: dallashomewatch@gmail.com. </p>
+                    <br />
+                    <br />
+                    <br />
+                    <p>
+                      If you own a Home Watch company outside of the Dallas,
+                      Texas area and you are a Certified Home Watch Professional
+                      that would like us to add a link to your website - please
+                      send an email to: dallashomewatch@gmail.com.{" "}
+                    </p>
                   </div>
                 </div>
               </div>
@@ -94,8 +108,6 @@ function ResourcesPage(props) {
                         height={300}
                       />
                       <br />
-                      
-                     
                     </div>
                   </div>
                 </div>

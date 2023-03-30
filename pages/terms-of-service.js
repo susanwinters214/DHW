@@ -7,6 +7,10 @@ function TermsPage() {
     <Fragment>
       <Head>
         <title>Terms of Service</title>
+        <link
+          rel="canonical"
+          href="https://www.dallashomewatch.com/terms-of-service"
+        />
         <meta
           name="description"
           content="Dallas Home Watch Terms of Service - Read our Terms of Service for using our website. We created our Terms of Service using a Generator."

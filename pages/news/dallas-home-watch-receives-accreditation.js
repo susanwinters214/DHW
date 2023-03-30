@@ -11,7 +11,7 @@ function DHWreceivesAccredPage(props) {
         <title>Dallas Home Watch receives accreditation from NHWA</title>
         <link
           rel="canonical"
-          href="https://dallashomewatch.com/news/dallas-home-watch-receives-accreditation"
+          href="https://www.dallashomewatch.com/news/dallas-home-watch-receives-accreditation"
         />
         <meta
           name="description"

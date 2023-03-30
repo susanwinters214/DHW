@@ -7,6 +7,10 @@ function PrivacyPage() {
     <Fragment>
       <Head>
         <title>Privacy Policy for Dallas Home Watch</title>
+        <link
+          rel="canonical"
+          href="https://www.dallashomewatch.com/privacy-policy"
+        />
         <meta
           name="description"
           content="Privacy Policy for Dallas Home Watch - Read the Privacy Policy for using our website. Dallas Home Watch respects your privacy and only asks for information needed."

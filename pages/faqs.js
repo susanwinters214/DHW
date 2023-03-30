@@ -11,7 +11,7 @@ function FAQsPage(props) {
         <title>
           Home Watch FAQs - Dallas Home Watch Frequently Asked Questions
         </title>
-        <link rel="canonical" href="https://dallashomewatch.com/faqs" />
+        <link rel="canonical" href="https://www.dallashomewatch.com/faqs" />
         <meta
           name="description"
           content="Frequently Asked Questions for Dallas Home Watch. Get answers to questions about Home Watch and the services we provide."

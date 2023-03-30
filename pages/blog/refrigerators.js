@@ -11,7 +11,7 @@ function RefrigeratorsPage(props) {
         <title>Refrigerators - DALLAS HOME WATCH</title>
         <link
           rel="canonical"
-          href="https://dallashomewatch.com/blog/refrigerators"
+          href="https://www.dallashomewatch.com/blog/refrigerators"
         />
         <meta
           name="description"

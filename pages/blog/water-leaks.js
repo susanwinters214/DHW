@@ -11,7 +11,7 @@ function WaterLeaksPage(props) {
         <title>Dallas Home Watch Checks Your Home For Water Leaks</title>
         <link
           rel="canonical"
-          href="https://dallashomewatch.com/blog/water-leaks"
+          href="https://www.dallashomewatch.com/blog/water-leaks"
         />
         <meta
           name="description"

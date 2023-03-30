@@ -9,7 +9,7 @@ function HomeWatchChecklistPage(props) {
     <Fragment>
       <Head>
         <title>Home Watch Checklist</title>
-        <link rel="canonical" href="https://dallashomewatch.com/homewatch-checklist" />
+        <link rel="canonical" href="https://www.dallashomewatch.com/homewatch-checklist" />
         <meta
           name="description"
           content="Our Home Watch Checklist includes checking household appliances 

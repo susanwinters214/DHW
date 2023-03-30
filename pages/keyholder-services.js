@@ -11,7 +11,7 @@ function KeyHolderPage(props) {
         <title>Key Holder Services | DALLAS HOME WATCH</title>
         <link
           rel="canonical"
-          href="https://dallashomewatch.com/keyholder-services"
+          href="https://www.dallashomewatch.com/keyholder-services"
         />
         <meta
           name="description"

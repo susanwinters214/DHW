@@ -9,7 +9,7 @@ function HomePage(props) {
       <Head>
         <title>DALLAS HOME WATCH SERVICES by Dallas Home Watch LLC.</title>
         <meta property="keywords" content="Dallas Home Watch, dallas home watch services" />
-        <link rel="canonical" href="https://dallashomewatch.com"></link>
+        <link rel="canonical" href="https://www.dallashomewatch.com"></link>
         <meta
           name="description"
           content="Dallas Home Watch LLC. provides home watch inspections in the Dallas area. Home watch is a visual inspection of a home looking for obvious issues. "

@@ -9,7 +9,10 @@ function NationalHomeWatchMonthPage(props) {
     <Fragment>
       <Head>
         <title>National Home Watch Month 2023</title>
-    
+        <link
+          rel="canonical"
+          href="https://www.dallashomewatch.com/national-homewatch-month"
+        />
         <meta
           name="description"
           content="March 2023 is the first 'National Home Watch Month' created to bring awareness of the definition of 'Home Watch' as a Professional Service offered to Home Owners who have multiple residential properties or take long extended vacations away from home."
@@ -239,8 +242,8 @@ function NationalHomeWatchMonthPage(props) {
                     </p>
                     <h2>How is Home Watch different from House Watch? </h2>
                     <p>
-                      House Watch is a term often used by HOAs that
-                      offer volunteer service of driving by an unoccupied home,
+                      House Watch is a term often used by HOAs that offer
+                      volunteer service of driving by an unoccupied home,
                       walking the exterior premises checking for signs of a
                       break-in or vandalism. Home Watch also performs these
                       actions but goes a step further by doing things to make

@@ -9,7 +9,7 @@ function HomeWatchServicesPage(props) {
     <Fragment>
       <Head>
         <title>Home Watch Services</title>
-        <link rel="canonical" href="https://dallashomewatch.com/home-watch-services" />
+        <link rel="canonical" href="https://www.dallashomewatch.com/home-watch-services" />
         <meta
           name="description"
           content="Home Watch Services: 'What Does A Home Watch Service Do?' Home Watchers inspect the interior and exterior of a residential property looking for obvious issues."

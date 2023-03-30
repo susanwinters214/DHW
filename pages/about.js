@@ -8,7 +8,7 @@ function AboutPage() {
     <Fragment>
       <Head>
         <title>About Dallas Home Watch</title>
-        <link rel="canonical" href="https://dallashomewatch.com/about" />
+        <link rel="canonical" href="https://www.dallashomewatch.com/about" />
         <meta
           name="description"
           content="Dallas Home Watch, owned by Tina Lawson, contracts with clients to watch 
