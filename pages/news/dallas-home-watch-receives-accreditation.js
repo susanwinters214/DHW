@@ -15,7 +15,7 @@ function DHWreceivesAccredPage(props) {
         />
         <meta
           name="description"
-          content="Dallas Home Watch receives accreditation from NHWA - National Home Watch Association. Tina Lawson has passed background checks, credit checks, ethical working history checks and taken the NHWA Home Watch Bootcamp."
+          content="Tina Lawson has passed background checks, credit checks, and ethical working history checks and has taken the NHWA Home Watch Bootcamp so is now accredited."
         />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />

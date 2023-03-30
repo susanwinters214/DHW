@@ -11,7 +11,7 @@ function NewsPage(props) {
         <link rel="canonical" href="https://dallashomewatch.com/news" />
         <meta
           name="description"
-          content="Dallas Home Watch News from social media sites, press releases, and more. Dallas Home Watch is a member of NHWA and shares industry news about the Home Watch Industry."
+          content="Dallas Home Watch News from social media sites and press releases. Dallas Home Watch is a member of the NHWA and shares industry news about Home Watch."
         />
 
         <meta property="fb:app_id" content="8620778781329629" />

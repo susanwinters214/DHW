@@ -123,12 +123,18 @@ function AboutPage() {
                       "Dallas Home Watch will keep you informed about your home
                       while you are away." Lawson said.
                     </p>
-                    <br />
+                  
                     <br />
                     Read article from D Magazine when Lawson was a House
                     Manager:{" "}
                     <Link href="https://www.dmagazine.com/publications/d-home/2006/september-october/house-managers-and-realtor-news/">
                       Dallas Home Watch
+                    </Link>
+                    <br />
+                  
+                    Tina Lawson (DHW) receives{" "}
+                    <Link href="https://www.dallashomewatch.com/news/dallas-home-watch-receives-accreditation">
+                      accreditation from the NHWA.
                     </Link>
                   </div>
                 </div>
