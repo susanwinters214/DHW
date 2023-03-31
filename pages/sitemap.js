@@ -7,10 +7,7 @@ function SitemapPage(props) {
     <Fragment>
       <Head>
         <title>Dallas Home Watch Sitemap</title>
-        <link
-          rel="canonical"
-          href="https://www.dallashomewatch.com/sitemap"
-        />
+        <link rel="canonical" href="https://www.dallashomewatch.com/sitemap" />
         <meta
           name="description"
           content="Sitemap for Dallas Home Watch website. If you have trouble finding anything our website, reach out to our website developer."
@@ -140,6 +137,11 @@ function SitemapPage(props) {
                   </h4>
                   <h4>
                     <Link href="/terms-of-service">Terms of Service</Link>
+                  </h4>
+                  <h4>
+                    <Link href="/where-to-find-dallas-home-watch">
+                      Where To Find Us
+                    </Link>
                   </h4>
                 </section>
               </div>
