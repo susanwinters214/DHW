@@ -23,7 +23,7 @@ function DangersOfEmptyHousePage(props) {
 
         <meta
           property="og:url"
-          content="https://www.dallashomewatch.com/blog/why-you-need-homewatch"
+          content="https://www.dallashomewatch.com/blog/dangers-of-leaving-house-unoccupied"
         />
         <meta property="og:title" content="The Dangers of An Unoccupied Home" />
         <meta
@@ -448,15 +448,15 @@ function DangersOfEmptyHousePage(props) {
                     <br />
                     <br />
                     <p>
-                      In conclusion, leaving your home unoccupied can
-                      be a risky proposition. There are many dangers to
-                      consider, from burglary and water leaks to tree damage and
-                      pest infestations. The best way to protect your property
-                      is by hiring a professional home watch company to keep an
-                      eye on things while you're away. Don't take chances with
-                      your most significant investment. Protect your home and
-                      your peace of mind by hiring a professional home watch
-                      company today.
+                      In conclusion, leaving your home unoccupied can be a risky
+                      proposition. There are many dangers to consider, from
+                      burglary and water leaks to tree damage and pest
+                      infestations. The best way to protect your property is by
+                      hiring a professional home watch company to keep an eye on
+                      things while you're away. Don't take chances with your
+                      most significant investment. Protect your home and your
+                      peace of mind by hiring a professional home watch company
+                      today.
                     </p>
                     <br />
                     <br />
