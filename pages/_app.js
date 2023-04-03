@@ -15,8 +15,12 @@ function MyApp({ Component, pageProps }) {
         <meta name="msvalidate.01" content="4DE9FB569233D165857C1F739B5D3CC1" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="author" content="Susan Winters" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"  />
-        <link rel="icon" href="images/favicon.ico" type="image/x-icon"></link>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+          rel="icon"
+          href="https://www.dallashomewatch.com/images/favicon.ico"
+          type="image/x-icon"
+        ></link>
       </Head>
 
       <Script src="js/jquery.min.js" strategy="afterInteractive"></Script>

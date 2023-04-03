@@ -8,7 +8,10 @@ function HomePage(props) {
     <Fragment>
       <Head>
         <title>DALLAS HOME WATCH SERVICES by Dallas Home Watch LLC.</title>
-        <meta property="keywords" content="Dallas Home Watch, dallas home watch services" />
+        <meta
+          property="keywords"
+          content="Dallas Home Watch, dallas home watch services"
+        />
         <link rel="canonical" href="https://www.dallashomewatch.com"></link>
         <meta
           name="description"
@@ -68,7 +71,14 @@ function HomePage(props) {
                   </Link>
                 </div>
                 <br />
-               
+                <Link
+                  href="/blog/dangers-of-leaving-house-unoccupied"
+                  className="theme-btn btn-style-blog"
+                >
+                  <span className="">
+                    &gt; &gt; Dangers of Leaving A House Unoccupied
+                  </span>
+                </Link>
                 <br /> <br />
               </div>
             </div>
