@@ -39,6 +39,7 @@ function DangersOfEmptyHousePage(props) {
         <meta property="og:image:alt" content="dangers of vacant house" />
       </Head>
       {/* Facebook Like JS Code*/}
+      {/* Facebook Like JS Code*/}
       <div id="fb-root"></div>
       <Script
         async
@@ -75,10 +76,10 @@ function DangersOfEmptyHousePage(props) {
                     <h2 className="pageTitle">Do Not Leave Your Home Alone</h2>
                     <p className="text">
                       Today we're talking about the 10 dangers of leaving your
-                      home unoccupied in Dallas. While you might be excited to
-                      leave for a much-needed vacation or business trip, you
-                      need to take the time to consider what can go wrong when
-                      you're not around to take care of your property.{" "}
+                      home unoccupied. While you might be excited to leave for a
+                      much-needed vacation or business trip, you need to take
+                      the time to consider what can go wrong when you're not
+                      around to take care of your property.{" "}
                     </p>
                     <p>
                       Here are{" "}
@@ -460,20 +461,16 @@ function DangersOfEmptyHousePage(props) {
                     </p>
                     <br />
                     <br />
-                    <div className="column col-lg-12 col-md-6 col-sm-6">
-                      <h3>Ready To Hire A Home Watch Service Business?</h3>
-                      <br />
-
-                      <Link
-                        href="tel:972-982-7050"
-                        className="theme-btn btn-style-two centered"
-                      >
-                        <span className="txt">
-                          CALL DALLAS HOME WATCH
-                          <i className="phone" />
-                        </span>
-                      </Link>
-                    </div>
+                    {/*  Your like button code */}
+                    <div
+                      class="fb-like"
+                      data-href="https://www.dallashomewatch.com/blog/dangers-of-leaving-house-unoccupied"
+                      data-width="350"
+                      data-layout=""
+                      data-action=""
+                      data-size=""
+                      data-share="true"
+                    ></div>
                   </div>
                 </div>
               </div>
