@@ -75,7 +75,6 @@ function SitemapPage(props) {
                     <Link href="/vehicle-care">Vehicle Care</Link>
                   </h4>
                   <hr />
-
                   <h3>News</h3>
                   <h4>
                     <Link href="/national-homewatch-month">
@@ -83,8 +82,13 @@ function SitemapPage(props) {
                     </Link>
                   </h4>
                   <hr />
-
                   <h3>Blog</h3>
+                  <h4>
+                    <Link href="/blog/dangers-of-leaving-house-unoccupied">
+                     10 Dangers of Leaving Your Home Unoccupied
+                    </Link>
+                  </h4>
+
                   <h4>
                     <Link href="/blog/why-you-need-homewatch">
                       Why You Need Home Watch
@@ -100,7 +104,6 @@ function SitemapPage(props) {
                       Create Your Own Home Watch
                     </Link>
                   </h4>
-
                   <h4>
                     <Link href="/blog/air-filters">Air Filters</Link>
                   </h4>
@@ -115,9 +118,7 @@ function SitemapPage(props) {
                       Garage Door Openers
                     </Link>
                   </h4>
-
                   <hr />
-
                   <h4>
                     {" "}
                     <Link href="/service-areas">Service Areas</Link>{" "}
@@ -128,7 +129,6 @@ function SitemapPage(props) {
                   <h4>
                     <Link href="/accreditation">Accreditation</Link>
                   </h4>
-
                   <h4>
                     <Link href="/news">Home Watch News</Link>
                   </h4>

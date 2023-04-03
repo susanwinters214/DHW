@@ -48,6 +48,9 @@ hr {
 .bg-appleWatch {
   background-image: url(/images/blogimg/Home-Watch-Logo-Watch.jpg);
 }
+.bg-dangers {
+  background-image: url(/images/background/dangers-vacant-house.jpg);
+}
 
 .border {
   border: solid 2px navy;

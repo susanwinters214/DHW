@@ -97,7 +97,7 @@ function HomeWatchServicesPage(props) {
                 to the curb on trash day to give the illusion of being home.
               </p>
               <p>
-                Overall, Dalas Home Watch strives to provide our clients with
+                Overall, Dallas Home Watch strives to provide our clients with
                 peace of mind through frequent communication and customizable
                 services. We are fully insured and bonded, which provides an
                 extra layer of protection for their clients.

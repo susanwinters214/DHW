@@ -68,14 +68,7 @@ function HomePage(props) {
                   </Link>
                 </div>
                 <br />
-                <Link href="/national-homewatch-month">
-                  <Image
-                    width={250}
-                    height={250}
-                    src="/images/logos/national-homewatch-month-2023.png"
-                    alt="home-watch-professional-checking-doors"
-                  />
-                </Link>
+               
                 <br /> <br />
               </div>
             </div>
