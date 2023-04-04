@@ -105,7 +105,10 @@ function HomePage(props) {
                   <div className="content">
                     <div className="icon flaticon-file" />
                     <h4>
-                      <Link href="/home-watch-services">
+                      <Link
+                        name="gotohomewatchservices"
+                        href="/home-watch-services"
+                      >
                         Home Watch Services
                       </Link>
                     </h4>
@@ -115,6 +118,7 @@ function HomePage(props) {
                     </div>
                   </div>
                   <Link
+                    name="gotohomewatchservices2"
                     href="home-watch-services"
                     className="arrow flaticon-right"
                   />
@@ -130,7 +134,7 @@ function HomePage(props) {
                   <div className="content">
                     <div className="icon flaticon-file-1" />
                     <h4>
-                      <Link href="/keyholder-services">
+                      <Link name="gotokeyolder" href="/keyholder-services">
                         Key Holder Services
                       </Link>
                     </h4>
@@ -140,6 +144,7 @@ function HomePage(props) {
                     </div>
                   </div>
                   <Link
+                    name="gotokeyolder2"
                     href="keyholder-services"
                     className="arrow flaticon-right"
                   />
@@ -155,7 +160,9 @@ function HomePage(props) {
                   <div className="content">
                     <div className="icon flaticon-umbrella-1" />
                     <h4>
-                      <Link href="/concierge-services">Concierge Services</Link>
+                      <Link name="gotoconcierge" href="/concierge-services">
+                        Concierge Services
+                      </Link>
                     </h4>
                     <div className="text">
                       We provide professional concierge services so that you can
@@ -164,6 +171,7 @@ function HomePage(props) {
                     </div>
                   </div>
                   <Link
+                    name="gotoconcierge2"
                     href="/concierge-services"
                     className="arrow flaticon-right"
                   />
@@ -179,7 +187,9 @@ function HomePage(props) {
                   <div className="content">
                     <div className="icon flaticon-car-1" />
                     <h4>
-                      <Link href="/vehicle-care">Vehicle Care</Link>
+                      <Link name="gotocarcare" href="/vehicle-care">
+                        Vehicle Care
+                      </Link>
                     </h4>
                     <div className="text">
                       We alert you of low tires or low batteries and meet with
@@ -187,7 +197,11 @@ function HomePage(props) {
                       clients under contract.)
                     </div>
                   </div>
-                  <Link href="/vehicle-care" className="arrow flaticon-right" />
+                  <Link
+                    name="gotocarcare2"
+                    href="/vehicle-care"
+                    className="arrow flaticon-right"
+                  />
                 </div>
               </div>
             </div>
@@ -330,7 +344,8 @@ function HomePage(props) {
           {/*Video Box*/}
           <div className="video-boxed">
             <Link
-              className="lightbox-image"
+              name="gotoyoutubevideo"
+              className="lightbox-image2"
               href="https://youtu.be/feTvuoxzt4c"
               target="_blank"
             >

@@ -38,49 +38,54 @@ function FooterNavigation() {
                   {/* Social Nav */}
                   <ul className="social-nav">
                     <li className="linkedin">
-                      <a
+                      <Link
+                        name="gotolinkedin"
                         href="https://www.linkedin.com/company/dallas-home-watch/"
                         rel="noreferrer"
                         target="_blank"
                       >
                         <span className="fa fa-linkedin" />
-                      </a>
+                      </Link>
                     </li>
                     <li className="google">
-                      <a
+                      <Link
+                        name="gotogooglemaps"
                         rel="noreferrer"
                         target="_blank"
                         href="https://bit.ly/googlemapsdhw"
                       >
                         <span className="fa fa-google" />
-                      </a>
+                      </Link>
                     </li>
                     <li className="facebook">
-                      <a
+                      <Link
+                        name="gotofacebook"
                         rel="noreferrer"
                         target="_blank"
                         href="https://www.facebook.com/profile.php?id=100083133612372"
                       >
                         <span className="fa fa-facebook" />
-                      </a>
+                      </Link>
                     </li>
                     <li className="google">
-                      <a
+                      <Link
+                        name="gotoyoutube"
                         rel="noreferrer"
                         target="_blank"
                         href="https://www.youtube.com/channel/UCzl3hTaEB3ds_IyRtJCr3kA"
                       >
                         <span className="fa fa-youtube" />
-                      </a>
+                      </Link>
                     </li>
                     <li className="pinterest">
-                      <a
+                      <Link
+                        name="gotopintrest"
                         rel="noreferrer"
                         target="_blank"
                         href="https://www.pinterest.com/dallashomewatch/"
                       >
                         <span className="fa fa-pinterest" />
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>

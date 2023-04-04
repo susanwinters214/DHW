@@ -6,19 +6,16 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <script
-            type="text/javascript"
-            src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"
-            defer
-          ></script>
-
           {/* Google Search Console */}
           <meta
             name="google-site-verification"
             content="YM2JCV00ZJ7zOQKE2CmpnuZCcMsLUhtR4AeB5q2btuw"
           />
         </Head>
-        <Script src="js/jquery.min.js" strategy="beforeInteractive"></Script>
+        <Script
+          src="https://www.dallashomewatch.com/js/jquery.min.js"
+          strategy="beforeInteractive"
+        ></Script>
 
         <body className="hidden-bar-wrapper">
           <Main />
@@ -28,6 +25,10 @@ class MyDocument extends Document {
             src="https://www.googletagmanager.com/gtag/js?id=G-8N43XDXPPJ"
             strategy="afterInteractive"
           />
+
+        
+         
+
           <Script id="google-analytics" strategy="afterInteractive">
             {`
           window.dataLayer = window.dataLayer || [];

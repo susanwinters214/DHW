@@ -24,10 +24,19 @@ function MyApp({ Component, pageProps }) {
       </Head>
 
       <Script src="js/jquery.min.js" strategy="afterInteractive"></Script>
-      <Script src="js/popper.min.js" strategy="afterInteractive"></Script>
-      <Script src="js/jquery.fancybox.js" strategy="afterInteractive"></Script>
+      <Script
+        src="https://www.dallashomewatch.com/js/popper.min.js"
+        strategy="afterInteractive"
+      ></Script>
+      <Script
+        src="https://www.dallashomewatch.com/js/jquery.fancybox.js"
+        strategy="afterInteractive"
+      ></Script>
       <Script src="js/appear.js" strategy="afterInteractive"></Script>
-      <Script src="js/parallax.min.js" strategy="afterInteractive"></Script>
+      <Script
+        src="https://www.dallashomewatch.com/js/parallax.min.js"
+        strategy="afterInteractive"
+      ></Script>
       <Script src="js/tilt.jquery.min.js" strategy="afterInteractive"></Script>
       <Script
         src="js/jquery.paroller.min.js"
@@ -37,7 +46,10 @@ function MyApp({ Component, pageProps }) {
       <Script src="js/wow.js" strategy="afterInteractive"></Script>
       <Script src="js/nav-tool.js" strategy="afterInteractive"></Script>
       <Script src="js/jquery-ui.js" strategy="afterInteractive"></Script>
-      <Script src="js/bootstrap.min.js" strategy="afterInteractive"></Script>
+      <Script
+        src="https://www.dallashomewatch.com/js/bootstrap.min.js"
+        strategy="afterInteractive"
+      ></Script>
       <Script src="js/script.js" strategy="afterInteractive"></Script>
       <div className="page-wrapper">
         <Component {...pageProps} />
