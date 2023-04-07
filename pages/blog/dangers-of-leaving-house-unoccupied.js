@@ -208,14 +208,7 @@ function DangersOfEmptyHousePage(props) {
                         height={425}
                       />
                       <br />
-                      Photo by{" "}
-                      <a
-                        href="squatter-in-house.jpg"
-                        rel="nofollow"
-                        target="_blank"
-                      >
-                        Greta Schölderle Møller
-                      </a>
+                     
                     </div>
                     <br />
                     <h3>5. Mildew and Mold</h3>
