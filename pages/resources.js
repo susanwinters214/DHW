@@ -73,6 +73,14 @@ function ResourcesPage(props) {
                       Here is a list of Home Watch Companies that are located in
                       different areas:
                     </p>
+                    <h3>Texas Home Watch Businesses</h3>
+                    <Link
+                      href="https://www.texashw.com/"
+                      rel="noopener noreferrer"
+                    >
+                      Texas Home Watch
+                    </Link>
+                    <br /> <br />
                     <h3>Michigan Home Watch Businesses</h3>
                     <Link
                       href="https://ourhomewatcher.com/"
@@ -108,14 +116,6 @@ function ResourcesPage(props) {
                         height={300}
                       />
                       <br />
-                      Looking for a Home Watch Company outside of the Dallas
-                      area?{" "}
-                      <Link
-                        href="https://www.besthomewatchcompanies.com/home-watch-company-directory/"
-                        rel=""
-                      >
-                        Best Home Watch Companies
-                      </Link>
                     </div>
                   </div>
                 </div>

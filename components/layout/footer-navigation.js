@@ -88,7 +88,15 @@ function FooterNavigation() {
                       </Link>
                     </li>
                   </ul>
+                  <br />
+                  <div class="clear"></div>
+                  <br />
                 </div>
+                <span class="white">
+                  Looking for a Home Watch Company outside of Dallas, Texas? &nbsp; See
+                  our{" "}
+                </span>
+                <Link href="/resources">Resources</Link>.
               </div>
             </div>
 
