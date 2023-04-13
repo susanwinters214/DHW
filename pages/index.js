@@ -7,10 +7,10 @@ function HomePage(props) {
   return (
     <Fragment>
       <Head>
-        <title>DALLAS HOME WATCH SERVICES by Dallas Home Watch LLC.</title>
+        <title>HOME WATCH SERVICES by Dallas Home Watch LLC.</title>
         <meta
           property="keywords"
-          content="Dallas Home Watch, dallas home watch services"
+          content="home watch, dallas home watch, home watch in dallas"
         />
         <link rel="canonical" href="https://www.dallashomewatch.com"></link>
         <meta
@@ -65,7 +65,7 @@ function HomePage(props) {
                     className="theme-btn btn-style-two"
                   >
                     <span className="txt">
-                      CALL DALLAS HOME WATCH
+                      CALL US
                       <i className="phone" />
                     </span>
                   </Link>
@@ -89,8 +89,7 @@ function HomePage(props) {
       {/* 4 BLOCKS */}
       <section className="welcome-section MOVEUP">
         <h3 className="centered mb-25 mt-25 calmDown">
-          Home Watch inspections provide peace of mind about your property while
-          you are away.
+          We provide peace of mind about your property while you are away.
         </h3>
         <div className="auto-container">
           <div className="inner-container2">
@@ -166,8 +165,7 @@ function HomePage(props) {
                     </h4>
                     <div className="text">
                       We provide professional concierge services so that you can
-                      enjoy your freedom of time. (Only for Home Watch clients
-                      under contract.)
+                      enjoy your freedom of time. (Only for DHW clients.)
                     </div>
                   </div>
                   <Link
@@ -193,8 +191,7 @@ function HomePage(props) {
                     </h4>
                     <div className="text">
                       We alert you of low tires or low batteries and meet with
-                      your dealership when necessary. (Only for Home Watch
-                      clients under contract.)
+                      your dealership when necessary. (Only for DHW clients.)
                     </div>
                   </div>
                   <Link
@@ -236,12 +233,7 @@ function HomePage(props) {
                       properties, looking for obvious issues that may cause
                       potential damage. We keep homeowners informed of any
                       issues and follow the client's instructions regarding a
-                      resolution and cure for them. Upon completion of a full
-                      Home Watch inspection, we will submit our Home Watch
-                      Checklist to our portal where our clients can log in and
-                      view the results. For clients without portal access, we
-                      will send our write up along with pictures and videos to
-                      their email or via text message.
+                      resolution and cure for them.
                     </p>
                     <br />
                     <h3>Not House Sitter or Property Manager</h3>
@@ -262,9 +254,7 @@ function HomePage(props) {
                     <p>
                       Don't leave the safety and security of your home to
                       chance. Trust Dallas Home Watch to provide exceptional
-                      Home Watch Services that exceed your expectations. Give us
-                      a call today to learn more about our services and why we
-                      are the better choice for your Home Watch needs.
+                      Home Watch Services that exceed your expectations.
                     </p>
                   </div>
                 </div>
@@ -412,11 +402,6 @@ function HomePage(props) {
                       more often if desired) and will be their eyes and ears
                       while they are away.
                     </p>
-                    <p>
-                      If you plan to leave your home vacant for more than 7
-                      consecutive days, more than twice a year, call us to
-                      pre-schedule a Home Watch schedule that suits your needs.
-                    </p>
 
                     <blockquote>
                       <span className="quote-icon flaticon-quote-1" />
@@ -425,23 +410,7 @@ function HomePage(props) {
                       </div>
                       <div className="quote-author">By Tina Lawson</div>
                     </blockquote>
-                    <p>
-                      Direct communication with our clients is paramount to
-                      keeping homeowners informed about the status of their home
-                      and property.
-                    </p>
-                    <p>
-                      We enter all properties with a&nbsp;
-                      <Link href="homewatch-checklist">
-                        Home Watch Checklist
-                      </Link>
-                      &nbsp; that includes a list of services customized with
-                      the owner. We take photos and/or videos of identified
-                      problems or potential problems and send them via our Home
-                      Watch software portal, email or text. We ensure the
-                      homeowner is aware of any issues and follow their
-                      instructions regarding a resolution.
-                    </p>
+
                     <div className="two-column  ">
                       <div className="row clearfix">
                         {/* Column */}
@@ -457,23 +426,21 @@ function HomePage(props) {
                         </div>
                         {/* Column */}
                         <div className="column col-lg-6 col-md-6 col-sm-12">
+                         <br /> <p>
+                            Direct communication with our clients is paramount
+                            to keeping homeowners informed about the status of
+                            their home and property.
+                          </p>
                           <p>
                             We enter your property according to the agreed upon
-                            schedule and perform all agreed upon tasks. In
-                            addition, we perform a visual inspection of the
-                            property, either inside, outside, or both. We take
-                            photos and/or videos of potential identified issues
-                            and send them to the homeowner via text or email,
-                            depending on the client’s preference.
+                            schedule and perform all agreed upon tasks. We take
+                            photos and/or videos of identified problems or
+                            potential problems and send them via our software
+                            portal, email or text. We ensure the homeowner is
+                            aware of any issues and follow their instructions
+                            regarding a resolution.
                           </p>
-                          <p>
-                            After notifying the homeowner, we will assist with
-                            the resolution of the problem according to their
-                            instructions. We can meet the homeowners&apos;
-                            service companies to allow access, update the
-                            homeowner of progress made and secure the home once
-                            work is completed.
-                          </p>
+
                           <p>
                             The homeowner will be keep apprised of the situation
                             throughout via regular updates.
@@ -641,9 +608,8 @@ function HomePage(props) {
               title="Dallas area"
             />
             <br /> <br />
-            <h3>Home Watch in Dallas</h3>
-            <br />
-            <h4>Gated Communities</h4>
+         
+            <h4>Our Service Areas</h4>
           </div>
           <div className="inner-container">
             <div className="clearfix">
