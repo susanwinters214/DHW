@@ -8,7 +8,6 @@ function StreetsOfDallasPage(props) {
   return (
     <Fragment>
       <Head>
-     
         <title>Streets of Dallas - DALLAS HOME WATCH</title>
         <link
           rel="canonical"
@@ -72,9 +71,10 @@ function StreetsOfDallasPage(props) {
                     <h2 className="pageTitle">Driving in Dallas</h2>
                     <p className="text"></p>
                     <p>
-                      We decided to take some pictures of street signs and other landmarks around
-                      Dallas to show you where we go while performing Home Watch
-                      in Dallas. We will continue to add to this page so check back often to see the updates.
+                      We decided to take some pictures of street signs and other
+                      landmarks around Dallas to show you where we go while
+                      performing Home Watch in Dallas. We will continue to add
+                      to this page so check back often to see the updates.
                     </p>
                     {/* Row 1*/}
                     <div className="image-column col-lg-6 col-md-6 col-sm-6 centered">
@@ -84,14 +84,18 @@ function StreetsOfDallasPage(props) {
                         src="/images/blogimg/streets/northaven.jpg"
                         alt="Northaven Street in Dallas, Texas"
                       />
+                      <br />
+                      Northaven
                     </div>
-                    <div className="image-column col-lg-6 col-md-6 col-sm-6">
+                    <div className="image-column col-lg-6 col-md-6 col-sm-6 centered">
                       <Image
                         width={400}
                         height={300}
                         src="/images/blogimg/streets/park-street.jpg"
                         alt="Park Street Street in Dallas, Texas"
                       />
+                      <br />
+                      Park
                     </div>
                     {/* Row 2*/}
                     <p>&nbsp;</p>
@@ -101,15 +105,15 @@ function StreetsOfDallasPage(props) {
                         height={300}
                         src="/images/blogimg/streets/university-street.jpg"
                         alt="University Street in Dallas, Texas"
-                      />
+                      /><br />University
                     </div>
-                    <div className="image-column col-lg-6 col-md-6 col-sm-6">
+                    <div className="image-column col-lg-6 col-md-6 col-sm-6 centered">
                       <Image
                         width={400}
                         height={300}
-                        src="/images/blogimg/streets/fountain.jpg"
-                        alt="Fountain in Dallas, Texas"
-                      />
+                        src="/images/blogimg/streets/Beverly.jpg"
+                        alt="Beverly in Dallas, Texas"
+                      /><br />Beverly
                     </div>
                     {/* Row 3*/}
                     <p>&nbsp;</p>
@@ -119,30 +123,24 @@ function StreetsOfDallasPage(props) {
                         height={300}
                         src="/images/blogimg/streets/Preston.jpg"
                         alt="Preston Road in Dallas, Texas"
-                      />
+                      /><br />Preston
                     </div>
-                    <div className="image-column col-lg-6 col-md-6 col-sm-6">
+                    <div className="image-column col-lg-6 col-md-6 col-sm-6 centered">
                       <Image
                         width={400}
                         height={300}
                         src="/images/blogimg/streets/Preston-Forest-shopping-center.jpg"
                         alt="Preston Forest in Dallas, Texas"
-                      />
+                      /><br />Preston Forest
                     </div>
                     {/* Row 4*/}
                     <p>&nbsp;</p>
                     <div className="image-column col-lg-6 col-md-6 col-sm-6 centered">
-                      <Image
-                        width={400}
-                        height={400}
-                        src="/images/blogimg/streets/park-cities-church.jpg"
-                        alt="Park Cities Church in Dallas, Texas"
-                      />
+                     
                     </div>
-                    <div className="image-column col-lg-6 col-md-6 col-sm-6">
-                    
+                    <div className="image-column col-lg-6 col-md-6 col-sm-6 centered">
+                     
                     </div>
-                    
                   </div>
                 </div>
               </div>

@@ -12,7 +12,7 @@ function HomePage(props) {
           property="keywords"
           content="home watch, dallas home watch, home watch in dallas"
         />
-        <link rel="canonical" href="https://www.dallashomewatch.com"></link>
+        <link rel="canonical" href="https://dallashomewatch.com"></link>
         <meta
           name="description"
           content="Dallas Home Watch LLC. provides home watch inspections in the Dallas area. Home watch is a visual inspection of a home looking for obvious issues. "
@@ -39,7 +39,7 @@ function HomePage(props) {
         <meta property="og:image:height" content="630px" />
         <meta
           property="og:image:alt"
-          content="Dallas Home Watch logo over Dallas Skyline NHWA Certified Home Watch Professional logo"
+          content="Dallas Home Watch logo over Dallas Skyline"
         />
         <meta
           property="article:publisher"
@@ -71,15 +71,6 @@ function HomePage(props) {
                   </Link>
                 </div>
                 <br />
-                <Link
-                  href="/blog/dangers-of-leaving-house-unoccupied"
-                  className="theme-btn btn-style-blog"
-                >
-                  <span className="">
-                    &gt; &gt; Dangers of Leaving A House Unoccupied
-                  </span>
-                </Link>
-                <br /> <br />
               </div>
             </div>
           </div>
@@ -87,124 +78,7 @@ function HomePage(props) {
       </section>
 
       {/* 4 BLOCKS */}
-      <section className="welcome-section MOVEUP">
-        <h3 className="centered mb-25 mt-25 calmDown">
-          We provide peace of mind about your property while you are away.
-        </h3>
-        <div className="auto-container">
-          <div className="inner-container2">
-            <div className="row clearfix">
-              {/* Services Block HOME WATCH*/}
-              <div className="services-block col-lg-6 col-md-12 col-sm-12">
-                <div
-                  className="inner-box wow fadeInLeft BLUE"
-                  data-wow-delay="0ms"
-                  data-wow-duration="1500ms"
-                >
-                  <div className="content">
-                    <div className="icon flaticon-file" />
-                    <h4>
-                      <Link
-                        name="gotohomewatchservices"
-                        href="/home-watch-services"
-                      >
-                        Home Watch Services
-                      </Link>
-                    </h4>
-                    <div className="text">
-                      We can provide a visual inspection of your unoccupied
-                      property to mitigate risk while you are away.
-                    </div>
-                  </div>
-                  <Link
-                    name="gotohomewatchservices2"
-                    href="home-watch-services"
-                    className="arrow flaticon-right"
-                  />
-                </div>
-              </div>
-              {/* Services Block KEY HOLDER*/}
-              <div className="services-block col-lg-6 col-md-12 col-sm-12">
-                <div
-                  className="inner-box wow fadeInRight  BLUE"
-                  data-wow-delay="0ms"
-                  data-wow-duration="1500ms"
-                >
-                  <div className="content">
-                    <div className="icon flaticon-file-1" />
-                    <h4>
-                      <Link name="gotokeyolder" href="/keyholder-services">
-                        Key Holder Services
-                      </Link>
-                    </h4>
-                    <div className="text">
-                      We can allow vendor and contractor access to your home and
-                      stay with them until their job is complete.
-                    </div>
-                  </div>
-                  <Link
-                    name="gotokeyolder2"
-                    href="keyholder-services"
-                    className="arrow flaticon-right"
-                  />
-                </div>
-              </div>
-              {/* Services Block CONCIERGE*/}
-              <div className="services-block col-lg-6 col-md-12 col-sm-12">
-                <div
-                  className="inner-box wow fadeInLeft BLUE"
-                  data-wow-delay="150ms"
-                  data-wow-duration="1500ms"
-                >
-                  <div className="content">
-                    <div className="icon flaticon-umbrella-1" />
-                    <h4>
-                      <Link name="gotoconcierge" href="/concierge-services">
-                        Concierge Services
-                      </Link>
-                    </h4>
-                    <div className="text">
-                      We provide professional concierge services so that you can
-                      enjoy your freedom of time. (Only for DHW clients.)
-                    </div>
-                  </div>
-                  <Link
-                    name="gotoconcierge2"
-                    href="/concierge-services"
-                    className="arrow flaticon-right"
-                  />
-                </div>
-              </div>
-              {/* Services Block VEHICLES*/}
-              <div className="services-block col-lg-6 col-md-12 col-sm-12">
-                <div
-                  className="inner-box wow fadeInRight BLUE"
-                  data-wow-delay="150ms"
-                  data-wow-duration="1500ms"
-                >
-                  <div className="content">
-                    <div className="icon flaticon-car-1" />
-                    <h4>
-                      <Link name="gotocarcare" href="/vehicle-care">
-                        Vehicle Care
-                      </Link>
-                    </h4>
-                    <div className="text">
-                      We alert you of low tires or low batteries and meet with
-                      your dealership when necessary. (Only for DHW clients.)
-                    </div>
-                  </div>
-                  <Link
-                    name="gotocarcare2"
-                    href="/vehicle-care"
-                    className="arrow flaticon-right"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <section className="welcome-section MOVEUP">{/* 4 blocks */}</section>
 
       {/* insert Welcome */}
       <section
@@ -265,12 +139,18 @@ function HomePage(props) {
                 <div className="inner-column">
                   <div className="image title" data-tilt="" data-tilt-max={2}>
                     <br />
+                    <Image
+                      width={300}
+                      height={300}
+                      src="/images/logos/dallas-home-watch-logo-585x300.jpg"
+                      alt="dallas home watch professional checking doors"
+                    />
                     <br />
                     <Image
                       width={585}
                       height={725}
-                      src="/images/home-watch-professional-checking-doors.jpg"
-                      alt="home-watch-professional-checking-doors"
+                      src="/images/open-front-door-585w.jpg"
+                      alt="dallas home watch professional checking doors"
                     />
                   </div>
                   <div
@@ -288,12 +168,11 @@ function HomePage(props) {
                 <br />
                 <div className="btns-box centered">
                   <a
-                    href="homewatch-checklist"
+                    href="home-watch-services"
                     className="theme-btn btn-style-three"
                   >
                     <span className="txt">
-                      Home Watch Checklist{" "}
-                      <i className="arrow flaticon-right" />
+                      Home Watch Services <i className="arrow flaticon-right" />
                     </span>
                   </a>
                 </div>
@@ -426,7 +305,8 @@ function HomePage(props) {
                         </div>
                         {/* Column */}
                         <div className="column col-lg-6 col-md-6 col-sm-12">
-                         <br /> <p>
+                          <br />{" "}
+                          <p>
                             Direct communication with our clients is paramount
                             to keeping homeowners informed about the status of
                             their home and property.
@@ -440,7 +320,6 @@ function HomePage(props) {
                             aware of any issues and follow their instructions
                             regarding a resolution.
                           </p>
-
                           <p>
                             The homeowner will be keep apprised of the situation
                             throughout via regular updates.
@@ -608,7 +487,6 @@ function HomePage(props) {
               title="Dallas area"
             />
             <br /> <br />
-         
             <h4>Our Service Areas</h4>
           </div>
           <div className="inner-container">

@@ -47,16 +47,7 @@ function FooterNavigation() {
                         <span className="fa fa-linkedin" />
                       </Link>
                     </li>
-                    <li className="google">
-                      <Link
-                        name="gotogooglemaps"
-                        rel="noreferrer"
-                        target="_blank"
-                        href="https://bit.ly/googlemapsdhw"
-                      >
-                        <span className="fa fa-google" />
-                      </Link>
-                    </li>
+                   
                     <li className="facebook">
                       <Link
                         name="gotofacebook"
@@ -89,10 +80,10 @@ function FooterNavigation() {
                     </li>
                   </ul>
                   <br />
-                  <div class="clear"></div>
+                  <div className="clear"></div>
                   <br />
                 </div>
-                <span class="white">
+                <span className="white">
                   Looking for a Home Watch Company outside of Dallas, Texas? &nbsp; See
                   our{" "}
                 </span>
