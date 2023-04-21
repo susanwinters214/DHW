@@ -78,6 +78,14 @@ function WhereToFindPage() {
                     </p>
                     <Link
                       rel="nofollow"
+                      href="https://www.bing.com/search?q=dallas+home+watch"
+                      target="_blank"
+                    >
+                      BING - House Sitting
+                    </Link>
+                    <br />
+                    <Link
+                      rel="nofollow"
                       href="https://foursquare.com/v/dallas-home-watch/63f8027b1dc7c94f6cd87baf"
                       target="_blank"
                     >

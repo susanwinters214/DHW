@@ -85,10 +85,9 @@ function SitemapPage(props) {
                   <h3>Blog</h3>
                   <h4>
                     <Link href="/blog/dangers-of-leaving-house-unoccupied">
-                     10 Dangers of Leaving Your Home Unoccupied
+                      10 Dangers of Leaving Your Home Unoccupied
                     </Link>
                   </h4>
-
                   <h4>
                     <Link href="/blog/why-you-need-homewatch">
                       Why You Need Home Watch
@@ -143,6 +142,10 @@ function SitemapPage(props) {
                       Where To Find Us
                     </Link>
                   </h4>
+                  <h4>
+                    <Link href="/blog/streets-of-dallas">Streets of Dallas</Link>
+                  </h4>
+                 
                 </section>
               </div>
             </div>

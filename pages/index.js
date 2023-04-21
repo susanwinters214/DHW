@@ -2,6 +2,7 @@ import { Fragment } from "react";
 import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
+import Reviews from "../components/home-page/reviews";
 
 function HomePage(props) {
   return (
@@ -76,10 +77,9 @@ function HomePage(props) {
           </div>
         </div>
       </section>
-
       {/* 4 BLOCKS */}
-      <section className="welcome-section MOVEUP">{/* 4 blocks */}</section>
 
+      <section className="welcome-section MOVEUP">{/* 4 blocks */}</section>
       {/* insert Welcome */}
       <section
         className="welcome-section moveupHeader"
@@ -181,9 +181,7 @@ function HomePage(props) {
           </div>
         </div>
       </section>
-
       <div className="clearfix"> </div>
-
       {/* insert blue area with video */}
       <section className="counter-section">
         <div
@@ -237,7 +235,6 @@ function HomePage(props) {
       <br />
       <br />
       <hr id="whyhireHWS"></hr>
-
       {/* WalkingInSection */}
       <section className="sidebar-page-container">
         <div className="auto-container">
@@ -633,6 +630,71 @@ function HomePage(props) {
         </div>
         <br />
 
+        <section className="testimonial-section">
+          <div className="auto-container">
+            <div className="sec-title centered">
+              <h2>Testimonials</h2>
+
+              <div className="row">
+                <div id="testimonial1" className="col-lg-4 col-md-6 col-sm-12">
+                  <div className="testimonial-block">
+                    <div className="inner-box">
+                      <div className="author-image">
+                      
+                      </div>
+                      <span className="quote-icon flaticon-quote-1"></span>
+                      <div className="text">
+                        DHW is the quintessential exception. We have always been
+                        extremely pleased by their exemplary concierge-like
+                        service, exuberant attitude, poise, bearing and
+                        demeanor, and especially their professionalism.
+                      </div>
+                      <div className="name">Ron C.</div>
+                    </div>
+                  </div>
+                </div>
+                <div id="testimonial1" className="col-lg-4 col-md-6 col-sm-12">
+                  <div className="testimonial-block">
+                    <div className="inner-box">
+                      <div className="author-image">
+                       
+                      </div>
+                      <span className="quote-icon flaticon-quote-1"></span>
+                      <div className="text">
+                        We had another great summer in CO and I can’t thank you
+                        enough for all you have done! Your notes, phone calls,
+                        videos and pictures assure us that our home is in good
+                        hands! That waterfall was a real pain but you stayed
+                        after it until we hopefully now have a solution.
+                      </div>
+                      <div className="name">Ric S.</div>
+                    </div>
+                  </div>
+                </div>
+                <div id="testimonial1" className="col-lg-4 col-md-6 col-sm-12">
+                  <div className="testimonial-block">
+                    <div className="inner-box">
+                      <div className="author-image">
+                       
+                      </div>
+                      <span className="quote-icon flaticon-quote-1"></span>
+                      <div className="text">
+                        {" "}
+                        A professional who is in charge of checking the house
+                        and making sure everything works can often spot things
+                        that the resident might not, especially if they are
+                        traveling often. I can't imagine where we would be
+                        without Tina.{" "}
+                      </div>
+                      <div className="name">Tamara M.</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+<br />
         <div className="column col-lg-12 col-md-6 col-sm-6 centered">
           <h3>Ready To Hire Home Watch Service?</h3>
           <br />

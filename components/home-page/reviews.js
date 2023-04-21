@@ -5,7 +5,7 @@ function Reviews(props) {
   return (
     <section
       className="testimonial-section"
-      style={{ backgroundImage: "url(images/background/pattern-3.png)" }}
+      style={{ backgroundImage: "url(/images/background/pattern-3.png)" }}
     >
       <div className="auto-container">
         {/* Sec Title */}
@@ -21,7 +21,7 @@ function Reviews(props) {
                   <Image
                     height={100}
                     width={150}
-                    src="images/clients/avatar-man-age-55.jpg"
+                    src="/images/clients/avatar-man-age-55.jpg"
                     alt="executive man giving testimonial of Dallas Home Watch services"
                   />
                 </div>
@@ -42,7 +42,7 @@ function Reviews(props) {
                   <Image
                     height={100}
                     width={150}
-                    src="images/clients/avatar-man-age-45.jpg"
+                    src="/images/clients/avatar-man-age-45.jpg"
                     alt="business man giving testimonial of Dallas Home Watch services"
                   />
                 </div>
@@ -61,7 +61,7 @@ function Reviews(props) {
                   <Image
                     height={100}
                     width={150}
-                    src="images/clients/avatar-woman-age-35.jpg"
+                    src="/images/clients/avatar-woman-age-35.jpg"
                     alt="executive woman giving testimonial of Dallas Home Watch services"
                   />
                 </div>

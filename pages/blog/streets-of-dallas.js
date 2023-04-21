@@ -105,7 +105,9 @@ function StreetsOfDallasPage(props) {
                         height={300}
                         src="/images/blogimg/streets/university-street.jpg"
                         alt="University Street in Dallas, Texas"
-                      /><br />University
+                      />
+                      <br />
+                      University
                     </div>
                     <div className="image-column col-lg-6 col-md-6 col-sm-6 centered">
                       <Image
@@ -113,7 +115,9 @@ function StreetsOfDallasPage(props) {
                         height={300}
                         src="/images/blogimg/streets/Beverly.jpg"
                         alt="Beverly in Dallas, Texas"
-                      /><br />Beverly
+                      />
+                      <br />
+                      Beverly
                     </div>
                     {/* Row 3*/}
                     <p>&nbsp;</p>
@@ -123,7 +127,9 @@ function StreetsOfDallasPage(props) {
                         height={300}
                         src="/images/blogimg/streets/Preston.jpg"
                         alt="Preston Road in Dallas, Texas"
-                      /><br />Preston
+                      />
+                      <br />
+                      Preston
                     </div>
                     <div className="image-column col-lg-6 col-md-6 col-sm-6 centered">
                       <Image
@@ -131,15 +137,31 @@ function StreetsOfDallasPage(props) {
                         height={300}
                         src="/images/blogimg/streets/Preston-Forest-shopping-center.jpg"
                         alt="Preston Forest in Dallas, Texas"
-                      /><br />Preston Forest
+                      />
+                      <br />
+                      Preston Forest
                     </div>
                     {/* Row 4*/}
                     <p>&nbsp;</p>
                     <div className="image-column col-lg-6 col-md-6 col-sm-6 centered">
-                     
+                      <Image
+                        width={400}
+                        height={300}
+                        src="/images/blogimg/streets/Douglas.jpg"
+                        alt="Douglas in Oaklawn - Dallas, Texas"
+                      />
+                      <br />
+                      Douglas
                     </div>
                     <div className="image-column col-lg-6 col-md-6 col-sm-6 centered">
-                     
+                      <Image
+                        width={400}
+                        height={300}
+                        src="/images/blogimg/streets/Bordeaux.jpg"
+                        alt="Bordeaux - Dallas, Texas"
+                      />
+                      <br />
+                      Douglas
                     </div>
                   </div>
                 </div>
