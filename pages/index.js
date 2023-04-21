@@ -318,7 +318,7 @@ function HomePage(props) {
                             regarding a resolution.
                           </p>
                           <p>
-                            The homeowner will be keep apprised of the situation
+                            The homeowner will be kept apprised of the situation
                             throughout via regular updates.
                           </p>
                         </div>
