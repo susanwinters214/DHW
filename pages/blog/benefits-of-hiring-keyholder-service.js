@@ -8,7 +8,7 @@ function AirFiltersPage(props) {
   return (
     <Fragment>
       <Head>
-        <title>Benefits of Hiring Key Holder Service</title>
+        <title>Benefits of Hiring a Key Holder Service</title>
         <link
           rel="canonical"
           href="https://www.dallashomewatch.com/blog/benefits-of-hiring-keyholder-service"
@@ -22,11 +22,11 @@ function AirFiltersPage(props) {
         <meta property="og:site_name" content="Dallas Home Watch" />
         <meta
           property="og:url"
-          content="https://www.dallashomewatch.com/blog/air-filters"
+          content="https://www.dallashomewatch.com/blog/benefits-of-hiring-keyholder-service"
         />
         <meta
           property="og:title"
-          content="Benefits of hiring a Key Holder Service"
+          content="Benefits of Hiring a Key Holder Service"
         />
         <meta
           property="og:description"
@@ -34,13 +34,13 @@ function AirFiltersPage(props) {
         />
         <meta
           property="og:image"
-          content="https://www.dallashomewatch.com/images/blogimg/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.jpg"
+          content="https://www.dallashomewatch.com/images/background/man-cleaning-outside-porch.jpg"
         />
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />
         <meta
           property="og:image:alt"
-          content="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx."
+          content="contractor cleaning while key holder services supervises"
         />
       </Head>
       {/* Facebook Like JS Code*/}

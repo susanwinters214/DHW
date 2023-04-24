@@ -453,46 +453,48 @@ function HomePage(props) {
           University Park as well as several other affluent neighborhoods in
           Dallas.
         </p>
-        <div className="row">
-          {/* Highland Park Gated Community Block */}
-          <div className="inner-block col-lg-3 col-md-6 col-sm-12 service-area-highland-park SAB">
-            <Link
-              href="service-areas#HighlandPark"
-              className="service-area-block"
-            >
-              <span className="streetblock centered">Highland Park</span>
-            </Link>
-            <br />
-          </div>
+        <div className="">
+          <div className="row SAB">
+            {/* Highland Park Gated Community Block */}
+            <div className="inner-block col-lg-3 col-md-6 col-sm-12 service-area-highland-park SAB">
+              <Link
+                href="service-areas#HighlandPark"
+                className="service-area-block"
+              >
+                <span className="streetblock">Highland Park</span>
+              </Link>
+              <br />
+            </div>
 
-          {/* University Park Community Block */}
-          <div className="inner-block col-lg-3 col-md-6 col-sm-12 service-area-university-park SAB">
-            <Link
-              href="service-areas#UniversityPark"
-              className="service-area-block"
-            >
-              <span className="streetblock centered">University Park</span>
-            </Link>
-          </div>
+            {/* University Park Community Block */}
+            <div className="inner-block col-lg-3 col-md-6 col-sm-12 service-area-university-park SAB">
+              <Link
+                href="service-areas#UniversityPark"
+                className="service-area-block"
+              >
+                <span className="streetblock">University Park</span>
+              </Link>
+            </div>
 
-          {/* Lake Forest Block */}
-          <div className="inner-block col-lg-3 col-md-6 col-sm-12 service-area-lake-forest SAB">
-            <Link
-              href="service-areas#LakeForest"
-              className="service-area-block"
-            >
-              <span className="streetblock centered">Lake Forest</span>
-            </Link>
-          </div>
+            {/* Lake Forest Block */}
+            <div className="inner-block col-lg-3 col-md-6 col-sm-12 service-area-lake-forest SAB">
+              <Link
+                href="service-areas#LakeForest"
+                className="service-area-block"
+              >
+                <span className="streetblock">Lake Forest</span>
+              </Link>
+            </div>
 
-          {/* Northwood Hills Gated Community Block*/}
-          <div className="inner-block col-lg-3 col-md-6 col-sm-12 service-area-northwood-hills SAB">
-            <Link
-              href="service-areas#NorthwoodHills"
-              className="service-area-block"
-            >
-              <span className="streetblock centered">Northwood Hills</span>
-            </Link>
+            {/* Northwood Hills Gated Community Block*/}
+            <div className="inner-block col-lg-3 col-md-6 col-sm-12 service-area-northwood-hills SAB">
+              <Link
+                href="service-areas#NorthwoodHills"
+                className="service-area-block"
+              >
+                <span className="streetblock centered">Northwood Hills</span>
+              </Link>
+            </div>
           </div>
         </div>
       </div>

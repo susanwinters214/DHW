@@ -150,7 +150,7 @@ function WaterLeaksPage(props) {
                       with peace of mind, knowing that your home is being taken
                       care of while you are away.
                     </p>
-
+                    <h3>Photos of Water Damage</h3>
                     <br />
                     <div className="row clearfix">
                       <div className="image-column col-lg-6 col-md-12 col-sm-12">
@@ -361,6 +361,26 @@ function WaterLeaksPage(props) {
                           />
                         </div>
                       </div>
+                    </div>
+                    <br />
+                    <h3 className="mb-10">Video of Water Damage</h3>
+                    <p>
+                      Dallas Home Watch looks for water damage in unoccupied
+                      homes. Watch the video below of a recent Home Watch
+                      Inspection that led to finding mold in a brand new shower.
+                    </p>
+                    <div id="picTovideo" className="centered">
+                      <Link
+                        href="https://www.youtube.com/watch?v=1dubkQx47Gk"
+                        target="_blank"
+                      >
+                        <Image
+                          src="/images/blogimg/mold-discovered-during-home-watch-inspection.jpg"
+                          alt="mold found in shower"
+                          width={600}
+                          height={600}
+                        />
+                      </Link>
                     </div>
                     <br />
 

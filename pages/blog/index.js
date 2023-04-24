@@ -65,8 +65,6 @@ function BlogPage(props) {
         <div className="auto-container">
           <div className="inner-container2">
             <div className="row clearfix">
-             
-
               {/* Blog: Why you need Homewatch */}
               <div className="services-block col-lg-6 col-md-12 col-sm-12">
                 <div
@@ -81,7 +79,9 @@ function BlogPage(props) {
                         Leaving Your Home Unoccupied
                       </Link>
                     </h4>
-                    <div className="text">10 Reasons Not To Leave Your Home Alone!</div>
+                    <div className="text">
+                      10 Reasons Not To Leave Your Home Alone!
+                    </div>
                   </div>
                   <Link
                     href="/blog/dangers-of-leaving-house-unoccupied"
@@ -165,6 +165,29 @@ function BlogPage(props) {
                 </div>
               </div>
 
+              {/* Blog: Key Holder Benefits */}
+              <div className="services-block col-lg-6 col-md-12 col-sm-12">
+                <div
+                  className="inner-box wow fadeInRight BLUE"
+                  data-wow-delay="150ms"
+                  data-wow-duration="1500ms"
+                >
+                  <div className="content">
+                    <div className="icon flaticon-file" />
+                    <h4>
+                      <Link href="/blog/benefits-of-hiring-keyholder-service">
+                        Benefits of Hiring A Key Holder Service
+                      </Link>
+                    </h4>
+                    <div className="text">3 Examples of Key Holder Service</div>
+                  </div>
+                  <Link
+                    href="/blog/benefits-of-hiring-keyholder-service"
+                    className="arrow flaticon-right"
+                  />
+                </div>
+              </div>
+
               {/* Blog: Air Filters*/}
               <div className="services-block col-lg-6 col-md-12 col-sm-12">
                 <div
@@ -175,7 +198,7 @@ function BlogPage(props) {
                   <div className="content">
                     <div className="icon flaticon-file" />
                     <h4>
-                      <Link href="/blog/air-filters">Air Filters</Link>
+                      <Link href="/blog/air-filters">Changing Dirty Air Filters</Link>
                     </h4>
                     <div className="text">
                       Learn the importance of changing your air filters.
