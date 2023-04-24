@@ -54,19 +54,18 @@ function HomePage(props) {
             <div className="services-block col-lg-12 col-md-12 col-sm-12">
               <div className="homepagetopcontent">
                 <h1 className="title zindexh1tag h1homepage">
-                  Dallas Home Watch Services
+                  Dallas Home Watch LLC.
                 </h1>
                 <h2 className="h2homepage">
-                  Home Watch is a service that performs visual inspections of a
-                  home or property, looking for obvious issues.{" "}
+                  Home Watch Services in the Dallas area.{" "}
                 </h2>
                 <div className="bannerbox btns-box centered">
                   <Link
-                    href="tel:972-982-7050"
+                    href="/home-watch-services"
                     className="theme-btn btn-style-two"
                   >
                     <span className="txt">
-                      CALL US
+                      Home Watch Services
                       <i className="phone" />
                     </span>
                   </Link>
@@ -95,6 +94,10 @@ function HomePage(props) {
                   <div className="text">
                     <h2>Home Watch in Dallas</h2>
                     <p>
+                      'Home Watch' is a visual inspection of a home or property,
+                      looking for obvious issues.
+                    </p>
+                    <p>
                       <strong>Dallas Home Watch LLC.</strong> offers
                       professional{" "}
                       <Link href="/home-watch-services">
@@ -102,7 +105,7 @@ function HomePage(props) {
                       </Link>{" "}
                       to the Dallas, Texas area. We service several
                       neighborhoods in North Dallas, mid-cities and downtown
-                      Dallas. Our team of professionals provides visual
+                      Dallas. Our team of professionals provide visual
                       inspections of both the interior and exterior of homes and
                       properties, looking for obvious issues that may cause
                       potential damage. We keep homeowners informed of any
@@ -124,7 +127,6 @@ function HomePage(props) {
                       expertise in Home Watch Services make Dallas Home Watch a
                       top choice for homeowners who value peace of mind.
                     </p>
-
                     <p>
                       Don't leave the safety and security of your home to
                       chance. Trust Dallas Home Watch to provide exceptional
@@ -234,7 +236,7 @@ function HomePage(props) {
       <br />
       <br />
       <br />
-      <hr id="whyhireHWS"></hr>
+      <p id="whyhireHWS">&nbsp;</p>
       {/* WalkingInSection */}
       <section className="sidebar-page-container">
         <div className="auto-container">
@@ -333,133 +335,234 @@ function HomePage(props) {
       </section>
       <hr />
       {/* National Home Watch Association info */}
-      <section className="sidebar-page-container NHWAsection ">
-        <div className="auto-container">
-          <div className="row clearfix">
-            {/* Content Side */}
-            <div className="content-side col-lg-12 col-md-12 col-sm-12">
-              {/* Block Detail */}
-              <div className="blog-detail">
-                <div className="inner-box">
-                  <div className="lower-content">
-                    <div className="two-column">
-                      <div className="row clearfix">
-                        {/* Column */}
-                        <div className="column col-lg-6 col-md-6 col-sm-12">
-                          <h3>National Home Watch Association</h3>
-                          <p>
-                            Dallas Home Watch is an accredited member of the
-                            National Home Watch Association. The National Home
-                            Watch Association (NHWA) is a multi-national
-                            organization founded in 2009 to bring together
-                            business owners in the home watch industry and
-                            provide standards by which the members must live and
-                            operate their companies.
-                          </p>{" "}
-                          <p>
-                            We operate our business in accordance with the
-                            mission statement laid out by the National Home
-                            Watch Association. It is the mission and goal of the
-                            NHWA to:
-                          </p>
-                          <br />
-                          <details>
-                            <summary>
-                              <strong>NHWA Mission Statement</strong>
-                            </summary>
+      <section className="NHWAsection auto-container">
+        {/* Content Side */}
+        <div className="content-side col-lg-12 col-md-12 col-sm-12">
+          {/* Block Detail */}
+          <div className="two-column">
+            <div className="row clearfix">
+              {/* Column */}
+              <div className="column col-lg-6 col-md-6 col-sm-12">
+                <h3 className="mb-10">National Home Watch Association</h3>
+                <p>
+                  Dallas Home Watch is an accredited member of the National Home
+                  Watch Association. The National Home Watch Association (NHWA)
+                  is a multi-national organization founded in 2009 to bring
+                  together business owners in the home watch industry and
+                  provide standards by which the members must live and operate
+                  their companies.
+                </p>{" "}
+                <p>
+                  We operate our business in accordance with the mission
+                  statement laid out by the National Home Watch Association.
+                </p>
+                <br />
+                <Link
+                  href="/accreditation"
+                  rel="noreferrer nofollow"
+                  target="_blank"
+                >
+                  <Image
+                    width={300}
+                    height={120}
+                    src="/images/nhwa-member-logo.jpg"
+                    alt="Accredited Home Watch Memeber of National Home Watch Association"
+                  />
+                </Link>
+                <br />
+                <p className="mb-10">
+                  As a National Home Watch Association member, we are constantly
+                  updated with continuing education, hands-on training,
+                  conferences, and information sharing through forums. This
+                  keeps us abreast of industry and legal requirements, as well
+                  as informs us of issues that can affect our clients and
+                  teaches us how to avoid or remediate them. Our goal is to
+                  protect your property and assets in the best ways possible.
+                </p>
+                <br /> <br />
+              </div>
+              {/* Column */}
+              <div className="column col-lg-6 col-md-6 col-sm-12">
+                <h4 className="mb-10">NHWA Mission Statement</h4>
+                <ul>
+                  <li className="bullets">
+                    Establish and maintain the highest set of standards and
+                    ethics for all Home Watch companies in the United States of
+                    America and Canada;
+                  </li>
+                  <li className="bullets">
+                    Establish and maintain trust and confidence between
+                    homeowners and Home Watch professionals;
+                  </li>
+                  <li className="bullets">
+                    Protect the public from uninsured, unbonded and unethical
+                    individuals who represent themselves as Home Watch
+                    professionals;
+                  </li>
+                  <li className="bullets">
+                    Promote public awareness of the Home Watch industry; and
+                    Ensure that only companies who represent the highest levels
+                    of professionalism are accredited members of the NHWA.
+                  </li>
+                </ul>
+                <br />
+                <h4 className="mb-10">Strict Vetting Process</h4>
+                <p>
+                  To become a member of the NHWA, a business owner must undergo
+                  a rigorous vetting process that includes the following. This
+                  protects you against less-than-principled companies.
+                </p>
+                <ul>
+                  <li className="bullets">
+                    Criminal background check on all company principals
+                  </li>
+                  <li className="bullets">
+                    Proper insurance coverage (general and professional
+                    liability)
+                  </li>
+                  <li className="bullets">Proper bonding</li>
+                  <li className="bullets">
+                    Background checks for consumer complaints through Consumer
+                    Affairs and the BBB
+                  </li>
+                  <li className="bullets">
+                    Truthful website and advertising content
+                  </li>
+                  <li className="bullets">
+                    Adherence to the NHWA’s Code of Ethics
+                  </li>
+                  <li className="bullets">
+                    Commitment to the NHWA’s Mission Statement
+                  </li>
+                </ul>
+                <br />
+              </div>
+            </div>{" "}
+            {/* end of clearfix */}
+          </div>{" "}
+          {/* end of two column */}
+        </div>
+      </section>
 
-                            <ul>
-                              <li className="bullets">
-                                Establish and maintain the highest set of
-                                standards and ethics for all Home Watch
-                                companies in the United States of America and
-                                Canada;
-                              </li>
-                              <li className="bullets">
-                                Establish and maintain trust and confidence
-                                between homeowners and Home Watch professionals;
-                              </li>
-                              <li className="bullets">
-                                Protect the public from uninsured, unbonded and
-                                unethical individuals who represent themselves
-                                as Home Watch professionals;
-                              </li>
-                              <li className="bullets">
-                                Promote public awareness of the Home Watch
-                                industry; and Ensure that only companies who
-                                represent the highest levels of professionalism
-                                are accredited members of the NHWA.
-                              </li>
-                            </ul>
-                          </details>
-                          <details>
-                            <summary>
-                              <strong>Strict Vetting Process</strong>
-                            </summary>
-                            <p>
-                              To become a member of the NHWA, a business owner
-                              must undergo a rigorous vetting process that
-                              includes the following. This protects you against
-                              less-than-principled companies.
-                            </p>
-                            <ul>
-                              <li className="bullets">
-                                Criminal background check on all company
-                                principals
-                              </li>
-                              <li className="bullets">
-                                Proper insurance coverage (general and
-                                professional liability)
-                              </li>
-                              <li className="bullets">Proper bonding</li>
-                              <li className="bullets">
-                                Background checks for consumer complaints
-                                through Consumer Affairs and the BBB
-                              </li>
-                              <li className="bullets">
-                                Truthful website and advertising content
-                              </li>
-                              <li className="bullets">
-                                Adherence to the NHWA’s Code of Ethics
-                              </li>
-                              <li className="bullets">
-                                Commitment to the NHWA’s Mission Statement
-                              </li>
-                            </ul>
-                          </details>
-                          <br />
-                        </div>
-                        {/* Column */}
-                        <div className="column col-lg-6 col-md-6 col-sm-12">
-                          <div className="image">
-                            <Link
-                              href="/accreditation"
-                              rel="noreferrer nofollow"
-                              target="_blank"
-                            >
-                              <Image
-                                width={300}
-                                height={120}
-                                src="/images/nhwa-member-logo.jpg"
-                                alt="Accredited Home Watch Memeber of National Home Watch Association"
-                              />
-                            </Link>
-                            <br />
-                            <p>
-                              As a National Home Watch Association member, we
-                              are constantly updated with continuing education,
-                              hands-on training, conferences, and information
-                              sharing through forums. This keeps us abreast of
-                              industry and legal requirements, as well as
-                              informs us of issues that can affect our clients
-                              and teaches us how to avoid or remediate them. Our
-                              goal is to protect your property and assets in the
-                              best ways possible.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
+      <div className="auto-container">
+        {/* Sec Title */}
+
+        <h2 className="centered">Our Service Areas</h2>
+        <p>
+          Dallas Home Watch LLC services the cities of Highland Park and
+          University Park as well as several other affluent neighborhoods in
+          Dallas.
+        </p>
+        <div className="row">
+          {/* Highland Park Gated Community Block */}
+          <div className="inner-block col-lg-3 col-md-6 col-sm-12 service-area-highland-park SAB">
+            <Link
+              href="service-areas#HighlandPark"
+              className="service-area-block"
+            >
+              <span className="streetblock centered">Highland Park</span>
+            </Link>
+            <br />
+          </div>
+
+          {/* University Park Community Block */}
+          <div className="inner-block col-lg-3 col-md-6 col-sm-12 service-area-university-park SAB">
+            <Link
+              href="service-areas#UniversityPark"
+              className="service-area-block"
+            >
+              <span className="streetblock centered">University Park</span>
+            </Link>
+          </div>
+
+          {/* Lake Forest Block */}
+          <div className="inner-block col-lg-3 col-md-6 col-sm-12 service-area-lake-forest SAB">
+            <Link
+              href="service-areas#LakeForest"
+              className="service-area-block"
+            >
+              <span className="streetblock centered">Lake Forest</span>
+            </Link>
+          </div>
+
+          {/* Northwood Hills Gated Community Block*/}
+          <div className="inner-block col-lg-3 col-md-6 col-sm-12 service-area-northwood-hills SAB">
+            <Link
+              href="service-areas#NorthwoodHills"
+              className="service-area-block"
+            >
+              <span className="streetblock centered">Northwood Hills</span>
+            </Link>
+          </div>
+        </div>
+      </div>
+      <br />
+      <p className="centered">Downtown Dallas Luxury Condos </p>
+      <div className="sec-title centered">
+        <Image
+          decoding="async"
+          width="800"
+          height="375"
+          src="/images/background/dallas-skyline-serving-dallas-1170x375.jpg"
+          alt="Dallas skyline painting - Dallas, Texas"
+          title="Dallas area"
+        />
+        <br /> <br />
+      </div>
+      <br />
+
+      <div className="clear:both;"></div>
+
+      <section className="testimonial-section">
+        <div className="auto-container">
+          <div className="sec-title centered">
+            <h2>Testimonials</h2>
+
+            <div className="row">
+              <div id="testimonial1" className="col-lg-4 col-md-6 col-sm-12">
+                <div className="testimonial-block">
+                  <div className="inner-box">
+                    <div className="author-image"></div>
+                    <span className="quote-icon flaticon-quote-1"></span>
+                    <div className="text">
+                      DHW is the quintessential exception. We have always been
+                      extremely pleased by their exemplary concierge-like
+                      service, exuberant attitude, poise, bearing and demeanor,
+                      and especially their professionalism.
                     </div>
+                    <div className="name">Ron C.</div>
+                  </div>
+                </div>
+              </div>
+              <div id="testimonial1" className="col-lg-4 col-md-6 col-sm-12">
+                <div className="testimonial-block">
+                  <div className="inner-box">
+                    <div className="author-image"></div>
+                    <span className="quote-icon flaticon-quote-1"></span>
+                    <div className="text">
+                      We had another great summer in CO and I can’t thank you
+                      enough for all you have done! Your notes, phone calls,
+                      videos and pictures assure us that our home is in good
+                      hands! That waterfall was a real pain but you stayed after
+                      it until we hopefully now have a solution.
+                    </div>
+                    <div className="name">Ric S.</div>
+                  </div>
+                </div>
+              </div>
+              <div id="testimonial1" className="col-lg-4 col-md-6 col-sm-12">
+                <div className="testimonial-block">
+                  <div className="inner-box">
+                    <div className="author-image"></div>
+                    <span className="quote-icon flaticon-quote-1"></span>
+                    <div className="text">
+                      {" "}
+                      A professional who is in charge of checking the house and
+                      making sure everything works can often spot things that
+                      the resident might not, especially if they are traveling
+                      often. I can't imagine where we would be without Tina.{" "}
+                    </div>
+                    <div className="name">Tamara M.</div>
                   </div>
                 </div>
               </div>
@@ -467,246 +570,19 @@ function HomePage(props) {
           </div>
         </div>
       </section>
-      {/* insert Gated Communities */}
-      <section
-        className="practice-section shade bigDallasSkyline"
-        style={{ backgroundImage: "url(images/background/pattern-2.gif)" }}
-      >
-        <div className="auto-container">
-          {/* Sec Title */}
-          <div className="sec-title centered">
-            <Image
-              decoding="async"
-              width="1170"
-              height="375"
-              src="/images/background/dallas-skyline-serving-dallas-1170x375.jpg"
-              alt="Dallas skyline painting - Dallas, Texas"
-              title="Dallas area"
-            />
-            <br /> <br />
-            <h4>Our Service Areas</h4>
-          </div>
-          <div className="inner-container">
-            <div className="clearfix">
-              {/* Highland Park Gated Community Block */}
-              <div className="practice-block col-lg-3 col-md-6 col-sm-12">
-                <div className="inner-box gated">
-                  <h5>
-                    <Link href="service-areas#HighlandPark">
-                      <Image
-                        height={64}
-                        width={64}
-                        src="/images/icons/icons8-gate-64-navy.png"
-                        alt="Highland Park gated community"
-                      />
-                      <br />
-                      <span className="flaticon-gate">Highland Park</span>
-                    </Link>
-                  </h5>
-                </div>
-              </div>
-              {/* Lake Forest Block */}
-              <div className="practice-block col-lg-3 col-md-6 col-sm-12">
-                <div className="inner-box gated">
-                  <h5>
-                    {" "}
-                    <Link href="service-areas#LakeForest">
-                      <Image
-                        height={64}
-                        width={64}
-                        src="/images/icons/icons8-gate-64-navy.png"
-                        alt="Lake Forest gated community"
-                      />
-                      <br />
-                      <span className="flaticon-gate">Lake Forest</span>
-                    </Link>
-                  </h5>
-                </div>
-              </div>
-              {/* University Park Community Block */}
-              <div className="practice-block col-lg-3 col-md-6 col-sm-12">
-                <div className="inner-box gated">
-                  <h5>
-                    <Link href="service-areas#UniversityPark">
-                      <Image
-                        height={64}
-                        width={64}
-                        src="/images/icons/icons8-gate-64-navy.png"
-                        alt="University Park gated community"
-                      />
-                      <br />
-                      <span className="flaticon-gate">University Park</span>
-                    </Link>
-                  </h5>
-                </div>
-              </div>
-              {/* Preston Hollow Gated Community Block */}
-              <div className="practice-block col-lg-3 col-md-6 col-sm-12">
-                <div className="inner-box gated">
-                  <h5>
-                    <Link href="service-areas#PrestonHollow">
-                      <Image
-                        height={64}
-                        width={64}
-                        src="/images/icons/icons8-gate-64-navy.png"
-                        alt="Preston Hollow gated community"
-                      />
-                      <br />
-                      <span className="flaticon-gate">Preston Hollow</span>
-                    </Link>
-                  </h5>
-                </div>
-              </div>
-              {/* Devonshire Gated Community Block */}
-              <div className="practice-block col-lg-3 col-md-6 col-sm-12">
-                <div className="inner-box gated">
-                  <h5>
-                    <Link href="service-areas#Devonshire">
-                      <Image
-                        height={64}
-                        width={64}
-                        src="/images/icons/icons8-gate-64-navy.png"
-                        alt="Devonshire gated community"
-                      />
-                      <br />
-                      <span className="flaticon-gate">Devonshire</span>
-                    </Link>
-                  </h5>
-                </div>
-              </div>
-              {/* Bluffview Gated Community Block */}
-              <div className="practice-block col-lg-3 col-md-6 col-sm-12">
-                <div className="inner-box gated">
-                  <h5>
-                    <Link href="service-areas#Bluffview">
-                      <Image
-                        height={64}
-                        width={64}
-                        src="/images/icons/icons8-gate-64-navy.png"
-                        alt="Bluffview gated community"
-                      />
-                      <br />
-                      <span className="flaticon-gate">Bluffview</span>
-                    </Link>
-                  </h5>
-                </div>
-              </div>
-              {/* Northwood Hills Gated Community Block */}
-              <div className="practice-block col-lg-3 col-md-6 col-sm-12">
-                <div className="inner-box gated">
-                  <h5>
-                    <Link href="service-areas#NorthwoodHills">
-                      <Image
-                        height={64}
-                        width={64}
-                        src="/images/icons/icons8-gate-64-navy.png"
-                        alt="Northwood Hills gated community"
-                      />
-                      <br />
-                      <span className="flaticon-gate">Northwood Hills</span>
-                    </Link>
-                  </h5>
-                </div>
-              </div>
-              {/* Briarwood Gated Community Block */}
-              <div className="practice-block col-lg-3 col-md-6 col-sm-12">
-                <div className="inner-box gated">
-                  <h5>
-                    <Link href="service-areas#Briarwood">
-                      <Image
-                        height={64}
-                        width={64}
-                        src="/images/icons/icons8-gate-64-navy.png"
-                        alt="Briarwood gated community"
-                      />
-                      <br />
-                      <span className="flaticon-gate">Briarwood</span>
-                    </Link>
-                  </h5>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+      <br />
+
+      <div className="column col-lg-12 col-md-6 col-sm-6 centered">
+        <h3>Ready To Hire Home Watch Service?</h3>
         <br />
 
-        <section className="testimonial-section">
-          <div className="auto-container">
-            <div className="sec-title centered">
-              <h2>Testimonials</h2>
-
-              <div className="row">
-                <div id="testimonial1" className="col-lg-4 col-md-6 col-sm-12">
-                  <div className="testimonial-block">
-                    <div className="inner-box">
-                      <div className="author-image">
-                      
-                      </div>
-                      <span className="quote-icon flaticon-quote-1"></span>
-                      <div className="text">
-                        DHW is the quintessential exception. We have always been
-                        extremely pleased by their exemplary concierge-like
-                        service, exuberant attitude, poise, bearing and
-                        demeanor, and especially their professionalism.
-                      </div>
-                      <div className="name">Ron C.</div>
-                    </div>
-                  </div>
-                </div>
-                <div id="testimonial1" className="col-lg-4 col-md-6 col-sm-12">
-                  <div className="testimonial-block">
-                    <div className="inner-box">
-                      <div className="author-image">
-                       
-                      </div>
-                      <span className="quote-icon flaticon-quote-1"></span>
-                      <div className="text">
-                        We had another great summer in CO and I can’t thank you
-                        enough for all you have done! Your notes, phone calls,
-                        videos and pictures assure us that our home is in good
-                        hands! That waterfall was a real pain but you stayed
-                        after it until we hopefully now have a solution.
-                      </div>
-                      <div className="name">Ric S.</div>
-                    </div>
-                  </div>
-                </div>
-                <div id="testimonial1" className="col-lg-4 col-md-6 col-sm-12">
-                  <div className="testimonial-block">
-                    <div className="inner-box">
-                      <div className="author-image">
-                       
-                      </div>
-                      <span className="quote-icon flaticon-quote-1"></span>
-                      <div className="text">
-                        {" "}
-                        A professional who is in charge of checking the house
-                        and making sure everything works can often spot things
-                        that the resident might not, especially if they are
-                        traveling often. I can't imagine where we would be
-                        without Tina.{" "}
-                      </div>
-                      <div className="name">Tamara M.</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-<br />
-        <div className="column col-lg-12 col-md-6 col-sm-6 centered">
-          <h3>Ready To Hire Home Watch Service?</h3>
-          <br />
-
-          <Link href="tel:972-982-7050" className="theme-btn btn-style-two">
-            <span className="txt">
-              CALL DALLAS HOME WATCH
-              <i className="phone" />
-            </span>
-          </Link>
-        </div>
-      </section>
+        <Link href="tel:972-982-7050" className="theme-btn btn-style-two">
+          <span className="txt">
+            CALL DALLAS HOME WATCH
+            <i className="phone" />
+          </span>
+        </Link>
+      </div>
     </Fragment>
   );
 }

@@ -1,5 +1,16 @@
-.fb-like{height:100px;}
 
+.service-area-block{height:190px; width:290px;}
+.service-area-highland-park{height:190px; width:290px;  background-image: url('/images/highland-park-street-sign.png');background-repeat: no-repeat; }
+.service-area-lake-forest{height:190px; width:290px;background-image: url('/images/estates-of-lake-forest.jpg');background-repeat: no-repeat; }
+.service-area-university-park{height:190px; width:290px;background-image: url('/images/university-park-bridge.png');background-repeat: no-repeat; }
+.service-area-northwood-hills{height:190px; width:290px; background-image: url('/images/northwood-hills-neighborhood.png');background-repeat: no-repeat; }
+
+.streetblock{position:absolute; width:290px; margin-left:-15px; margin-top:165px;background-color:#00204c;}
+ .SAB a:hover{color:white}
+
+.fb-like{height:100px;}
+.text40{font-weight: bold; font-size: 1.5em; line-height: 1.5; margin:20px; border:solid 1px silver; padding:10px;}
+.mb-10{padding-bottom:10px}
 .gold {
   color: #e1a122;
 }
@@ -219,11 +230,13 @@ h2.welcomeHome {
   margin-top: -55px;
 } /* home page above NHWA */
 .NHWAsection {
-  margin-top: -50px;
-  padding-bottom: 50px;
-  background-color: #f9f9f9ce;
-}
+  margin-top: 50px;
+  padding-bottom: 20px;
 
+}
+.pageback-bkhben {
+  background-image: url("/images/background/man-cleaning-outside-porch.jpg");
+}
 .pageback-homepage {
   background-image: url("/images/background/dallas-skyline.jpg");
 }

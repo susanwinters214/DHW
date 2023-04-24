@@ -136,7 +136,7 @@ function FAQsPage(props) {
                 You hire Home Watch Services when you plan to leave your home
                 unoccupied for two weeks or longer and need someone to check on
                 your home to make sure things are running smoothly.{" "}
-                <Link href="/#whyhireHWS">
+                <Link href="/blog/why-you-need-homewatch">
                   Learn more why you hire a home watch service
                 </Link>
               </p>
