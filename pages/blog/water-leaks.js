@@ -156,21 +156,23 @@ function WaterLeaksPage(props) {
                       <div className="image-column col-lg-6 col-md-12 col-sm-12">
                         <div className="image">
                           <Image
-                            width={480}
-                            height={640}
+                            width={400}
+                            height={400}
                             src="/images/blogimg/_waterLEAKS/water-damage-16.jpg"
                             alt="water damage cleanup"
                           />
+                          <br />
                         </div>
                       </div>
                       <div className="image-column col-lg-6 col-md-12 col-sm-12">
                         <div className="image">
                           <Image
-                            width={480}
-                            height={640}
+                            width={400}
+                            height={400}
                             src="/images/blogimg/_waterLEAKS/water-damage-02.jpg"
                             alt="water damage cleanup"
                           />
+                          <br />
                         </div>
                       </div>
                     </div>
@@ -180,21 +182,23 @@ function WaterLeaksPage(props) {
                       <div className="image-column col-lg-6 col-md-12 col-sm-12">
                         <div className="image">
                           <Image
-                            width={480}
-                            height={640}
+                            width={400}
+                            height={400}
                             src="/images/blogimg/_waterLEAKS/water-damage-03.jpg"
                             alt="water damage cleanup"
                           />
+                          <br />
                         </div>
                       </div>
                       <div className="image-column col-lg-6 col-md-12 col-sm-12">
                         <div className="image">
                           <Image
-                            width={480}
-                            height={640}
+                            width={400}
+                            height={400}
                             src="/images/blogimg/_waterLEAKS/water-damage-04.jpg"
                             alt="water damage cleanup"
                           />
+                          <br />
                         </div>
                       </div>
                     </div>
@@ -204,21 +208,23 @@ function WaterLeaksPage(props) {
                       <div className="image-column col-lg-6 col-md-12 col-sm-12">
                         <div className="image">
                           <Image
-                            width={480}
-                            height={640}
+                            width={400}
+                            height={400}
                             src="/images/blogimg/_waterLEAKS/water-damage-05.jpg"
                             alt="water damage cleanup"
                           />
+                          <br />
                         </div>
                       </div>
                       <div className="image-column col-lg-6 col-md-12 col-sm-12">
                         <div className="image">
                           <Image
-                            width={480}
-                            height={640}
+                            width={400}
+                            height={400}
                             src="/images/blogimg/_waterLEAKS/water-damage-06.jpg"
                             alt="water damage cleanup"
                           />
+                          <br />
                         </div>
                       </div>
                     </div>
@@ -227,21 +233,23 @@ function WaterLeaksPage(props) {
                       <div className="image-column col-lg-6 col-md-12 col-sm-12">
                         <div className="image">
                           <Image
-                            width={480}
-                            height={640}
+                            width={400}
+                            height={400}
                             src="/images/blogimg/_waterLEAKS/water-damage-07.jpg"
                             alt="water damage cleanup"
                           />
+                          <br />
                         </div>
                       </div>
                       <div className="image-column col-lg-6 col-md-12 col-sm-12">
                         <div className="image">
                           <Image
-                            width={480}
-                            height={640}
+                            width={400}
+                            height={400}
                             src="/images/blogimg/_waterLEAKS/water-damage-08.jpg"
                             alt="water damage cleanup"
                           />
+                          <br />
                         </div>
                       </div>
                     </div>
@@ -250,21 +258,23 @@ function WaterLeaksPage(props) {
                       <div className="image-column col-lg-6 col-md-12 col-sm-12">
                         <div className="image">
                           <Image
-                            width={480}
-                            height={640}
+                            width={400}
+                            height={400}
                             src="/images/blogimg/_waterLEAKS/water-damage-09.jpg"
                             alt="water damage cleanup"
                           />
+                          <br />
                         </div>
                       </div>
                       <div className="image-column col-lg-6 col-md-12 col-sm-12">
                         <div className="image">
                           <Image
-                            width={480}
-                            height={640}
+                            width={400}
+                            height={400}
                             src="/images/blogimg/_waterLEAKS/water-damage-10.jpg"
                             alt="water damage cleanup"
                           />
+                          <br />
                         </div>
                       </div>
                     </div>
@@ -273,21 +283,23 @@ function WaterLeaksPage(props) {
                       <div className="image-column col-lg-6 col-md-12 col-sm-12">
                         <div className="image">
                           <Image
-                            width={480}
-                            height={640}
+                            width={400}
+                            height={400}
                             src="/images/blogimg/_waterLEAKS/water-damage-11.jpg"
                             alt="water damage cleanup"
                           />
+                          <br />
                         </div>
                       </div>
                       <div className="image-column col-lg-6 col-md-12 col-sm-12">
                         <div className="image">
                           <Image
-                            width={480}
-                            height={640}
+                            width={400}
+                            height={400}
                             src="/images/blogimg/_waterLEAKS/water-damage-12.jpg"
                             alt="water damage cleanup"
                           />
+                          <br />
                         </div>
                       </div>
                     </div>
@@ -296,21 +308,23 @@ function WaterLeaksPage(props) {
                       <div className="image-column col-lg-6 col-md-12 col-sm-14">
                         <div className="image">
                           <Image
-                            width={480}
-                            height={640}
+                            width={400}
+                            height={400}
                             src="/images/blogimg/_waterLEAKS/water-damage-14.jpg"
                             alt="water damage cleanup"
                           />
+                          <br />
                         </div>
                       </div>
                       <div className="image-column col-lg-6 col-md-12 col-sm-12">
                         <div className="image">
                           <Image
-                            width={480}
-                            height={640}
+                            width={400}
+                            height={400}
                             src="/images/blogimg/_waterLEAKS/water-damage-15.jpg"
                             alt="water damage cleanup"
                           />
+                          <br />
                         </div>
                       </div>
                     </div>
@@ -319,21 +333,23 @@ function WaterLeaksPage(props) {
                       <div className="image-column col-lg-6 col-md-12 col-sm-14">
                         <div className="image">
                           <Image
-                            width={480}
-                            height={640}
+                            width={400}
+                            height={400}
                             src="/images/blogimg/_waterLEAKS/water-damage-01.jpg"
                             alt="water damage cleanup"
                           />
+                          <br />
                         </div>
                       </div>
                       <div className="image-column col-lg-6 col-md-12 col-sm-12">
                         <div className="image">
                           <Image
-                            width={480}
-                            height={640}
+                            width={400}
+                            height={400}
                             src="/images/blogimg/_waterLEAKS/water-damage-17.jpg"
                             alt="water damage cleanup"
                           />
+                          <br />
                         </div>
                       </div>
                     </div>
@@ -344,21 +360,23 @@ function WaterLeaksPage(props) {
                       <div className="image-column col-lg-6 col-md-12 col-sm-14">
                         <div className="image">
                           <Image
-                            width={480}
-                            height={640}
+                            width={400}
+                            height={400}
                             src="/images/blogimg/_waterLEAKS/water-damage-18.jpg"
                             alt="water damage cleanup"
                           />
+                          <br />
                         </div>
                       </div>
                       <div className="image-column col-lg-6 col-md-12 col-sm-12">
                         <div className="image">
                           <Image
-                            width={480}
-                            height={640}
+                            width={400}
+                            height={400}
                             src="/images/blogimg/_waterLEAKS/water-damage-19.jpg"
                             alt="water damage cleanup"
                           />
+                          <br />
                         </div>
                       </div>
                     </div>

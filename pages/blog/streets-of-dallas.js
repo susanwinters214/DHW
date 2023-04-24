@@ -11,7 +11,7 @@ function StreetsOfDallasPage(props) {
         <title>Streets of Dallas - DALLAS HOME WATCH</title>
         <link
           rel="canonical"
-          href="https://www.dallashomewatch.com/blog/streets-of-dallas"
+          href="https://dallashomewatch.com/blog/streets-of-dallas"
         />
         <meta
           name="description"
@@ -158,7 +158,7 @@ function StreetsOfDallasPage(props) {
                         width={400}
                         height={300}
                         src="/images/blogimg/streets/Bordeaux.jpg"
-                        alt="Bordeaux - Dallas, Texas"
+                        alt="Bordeaux - Dallas, Texas "
                       />
                       <br />
                       Douglas

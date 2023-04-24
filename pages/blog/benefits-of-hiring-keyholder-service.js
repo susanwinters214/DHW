@@ -219,7 +219,7 @@ function AirFiltersPage(props) {
                           width={300}
                           height={120}
                           src="/images/blogimg/keyhb/moving-furniture.jpg"
-                          alt="Accredited Home Watch Memeber of National Home Watch Association"
+                          alt="man moving furniture"
                         />
                       </div>
                     </div>
