@@ -125,7 +125,7 @@ function WhyYouNeedHomewatchPage(props) {
 
                     <div className="image centered">
                       <Image
-                        src="/images/blogimg/roofers-pic-video.jpg"
+                        src="https://dallashomewatch.com/images/blogimg/roofers-pic-video.jpg"
                         width={400}
                         height={300}
                         alt="roofers taking off dormers"
@@ -199,7 +199,7 @@ function WhyYouNeedHomewatchPage(props) {
 
                     <div
                       className="fb-share-button"
-                      data-href="https://www.dallashomewatch.com/blog/what-to-look-for-in-homewatch-company"
+                      data-href="https://dallashomewatch.com/blog/what-to-look-for-in-homewatch-company"
                       data-layout=""
                       data-size=""
                     >

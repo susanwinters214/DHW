@@ -206,7 +206,7 @@ function WhereToFindPage() {
                     <br /> <br />
                     <div className="image">
                       <Image
-                        src="/images/logos/DWH-onWhite.jpg"
+                        src="https://dallashomewatch.com/images/logos/DWH-onWhite.jpg"
                         alt="Dallas Home Watch logo"
                         width={200}
                         height={100}
@@ -225,7 +225,7 @@ function WhereToFindPage() {
                   >
                     <div className="image centered">
                       <Image
-                        src="/images/tina-lawson-400x400.jpg"
+                        src="https://dallashomewatch.com/images/tina-lawson-400x400.jpg"
                         alt="Tina Lawson"
                         width={400}
                         height={400}

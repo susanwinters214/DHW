@@ -453,7 +453,7 @@ function HomePage(props) {
           University Park as well as several other affluent neighborhoods in
           Dallas.
         </p>
-        <div className="">
+        <div className="inner-column">
           <div className="row SAB">
             {/* Highland Park Gated Community Block */}
             <div className="inner-block col-lg-3 col-md-6 col-sm-12 service-area-highland-park SAB">
@@ -465,7 +465,7 @@ function HomePage(props) {
               </Link>
               <br />
             </div>
-
+<br />
             {/* University Park Community Block */}
             <div className="inner-block col-lg-3 col-md-6 col-sm-12 service-area-university-park SAB">
               <Link

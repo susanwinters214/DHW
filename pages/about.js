@@ -72,7 +72,7 @@ function AboutPage() {
                     </p>
                     <div className="image centered">
                       <Image
-                        src="/images/logos/DWH-onWhite.jpg"
+                        src="https://dallashomewatch.com/images/logos/DWH-onWhite.jpg"
                         alt="Dallas Home Watch logo"
                         width={200}
                         height={100}
@@ -123,7 +123,6 @@ function AboutPage() {
                       "Dallas Home Watch will keep you informed about your home
                       while you are away." Lawson said.
                     </p>
-                  
                     <br />
                     Read article from D Magazine when Lawson was a House
                     Manager:{" "}
@@ -131,9 +130,8 @@ function AboutPage() {
                       Dallas Home Watch
                     </Link>
                     <br />
-                  
                     Tina Lawson (DHW) receives{" "}
-                    <Link href="https://www.dallashomewatch.com/news/dallas-home-watch-receives-accreditation">
+                    <Link href="https://dallashomewatch.com/news/dallas-home-watch-receives-accreditation">
                       accreditation from the NHWA.
                     </Link>
                   </div>

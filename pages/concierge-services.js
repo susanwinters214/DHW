@@ -100,7 +100,7 @@ function ConciergePage(props) {
                     <Image
                       width={500}
                       height={300}
-                      src="/images/concierge-services/wine-cellar.jpg"
+                      src="https://dallashomewatch.com/images/concierge-services/wine-cellar.jpg"
                       alt="wine bottles on shelves in a wine cellar"
                     />
                   </div>
@@ -146,7 +146,7 @@ function ConciergePage(props) {
                 <Image
                   width={530}
                   height={480}
-                  src="/images/concierge-services/yoga-relaxing.jpg"
+                  src="https://dallashomewatch.com/images/concierge-services/yoga-relaxing.jpg"
                   alt="girl doing yoga to relax"
                 />
               </div>
@@ -156,7 +156,7 @@ function ConciergePage(props) {
                 <Image
                   width={530}
                   height={300}
-                  src="/images/concierge-services/couple-relaxing-on-couch-reading.jpg"
+                  src="https://dallashomewatch.com/images/concierge-services/couple-relaxing-on-couch-reading.jpg"
                   alt="wine bottles on shelves in a wine cellar"
                 />
               </div>
@@ -281,7 +281,7 @@ function ConciergePage(props) {
               <div className="column col-lg-6 col-md-6 col-sm-6">
                 <div className="image-centered" id="">
                   <Image
-                    src="/images/concierge-services/concierge-500x275.jpg"
+                    src="https://dallashomewatch.com/images/concierge-services/concierge-500x275.jpg"
                     alt="personal concierge stocking refrigerator"
                     width={400}
                     height={150}
@@ -290,7 +290,7 @@ function ConciergePage(props) {
                 <br />
                 <div className="image-centered" id="">
                   <Image
-                    src="/images/concierge-services/pickup-dry-cleaning.jpg"
+                    src="https://dallashomewatch.com/images/concierge-services/pickup-dry-cleaning.jpg"
                     alt="dry cleaners"
                     width={400}
                     height={150}

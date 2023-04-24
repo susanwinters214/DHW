@@ -9,7 +9,10 @@ function HomeWatchServicesPage(props) {
     <Fragment>
       <Head>
         <title>Home Watch Services</title>
-        <link rel="canonical" href="https://dallashomewatch.com/home-watch-services" />
+        <link
+          rel="canonical"
+          href="https://dallashomewatch.com/home-watch-services"
+        />
         <meta
           name="description"
           content="Home Watch Services: 'What Does A Home Watch Service Do?' Home Watchers inspect the interior and exterior of a residential property looking for obvious issues."
@@ -85,9 +88,9 @@ function HomeWatchServicesPage(props) {
                 If a problem is uncovered during a home evaluation, Dallas Home
                 Watch will immediately notify the client to discuss options to
                 address the concern. We will work with the client to resolve the
-                issue and help locate qualified tradespeople to assist the homeowner.
-                The client can
-                instruct Dallas Home Watch on how they would like to proceed.
+                issue and help locate qualified tradespeople to assist the
+                homeowner. The client can instruct Dallas Home Watch on how they
+                would like to proceed.
               </p>
               <p>
                 Dallas Home Watch also adds security to the client's vacant home
@@ -288,7 +291,6 @@ function HomeWatchServicesPage(props) {
                     </div>
                   </div>
                 </div>
-              </div>
             </div>
           </div>
           {/* Refrigerator R */}
@@ -390,7 +392,6 @@ function HomeWatchServicesPage(props) {
               </div>
             </div>
           </div>
-
           {/* Media Closet  - TINA  R */}
           <div className="services-block-three">
             <div
@@ -481,7 +482,6 @@ function HomeWatchServicesPage(props) {
               </div>
             </div>
           </div>
-
           {/* Air Filter R */}
           <div className="services-block-three">
             <div
@@ -528,7 +528,6 @@ function HomeWatchServicesPage(props) {
               </div>
             </div>
           </div>
-
           {/* Breaker Boxes  -  L */}
           <div className="services-block-three style-two">
             <div
@@ -565,7 +564,6 @@ function HomeWatchServicesPage(props) {
               </div>
             </div>
           </div>
-
           {/* AC Units in Attic R */}
           <div className="services-block-three">
             <div
@@ -603,7 +601,6 @@ function HomeWatchServicesPage(props) {
               </div>
             </div>
           </div>
-
           {/*  Washing Machine TINA L  */}
           <div className="services-block-three style-two">
             <div
@@ -650,7 +647,6 @@ function HomeWatchServicesPage(props) {
               </div>
             </div>
           </div>
-
           {/* Garage Door Openers TINA R */}
           <div className="services-block-three">
             <div
@@ -697,7 +693,6 @@ function HomeWatchServicesPage(props) {
               </div>
             </div>
           </div>
-
           {/* Swimming Pool -  L */}
           <div className="services-block-three style-two">
             <div
@@ -738,7 +733,6 @@ function HomeWatchServicesPage(props) {
               </div>
             </div>
           </div>
-
           {/* Securing Doors TINA R */}
           <div className="services-block-three">
             <div
@@ -853,7 +847,7 @@ function HomeWatchServicesPage(props) {
                       <Image
                         width={530}
                         height={416}
-                        src="/images/hw-check/securing-back-gate.jpg"
+                        src="https://dallashomewatch.com/images/hw-check/securing-back-gate.jpg"
                         alt="trash cans in garage"
                       />
                     </div>
@@ -877,7 +871,7 @@ function HomeWatchServicesPage(props) {
                       <Image
                         width={530}
                         height={416}
-                        src="/images/hw-check/home-watch-checklist.png"
+                        src="https://dallashomewatch.com/images/hw-check/home-watch-checklist.png"
                         alt="home watch checklist"
                       />
                     </div>
@@ -902,7 +896,12 @@ function HomeWatchServicesPage(props) {
               </div>
             </div>
           </div>
-        </div>
+          </div>
+        
+        </div>  
+
+      </section>
+  <br />
         <div className="column col-lg-12 col-md-6 col-sm-6 centered">
           <h3>Ready To Hire Home Watch Service?</h3>
           <br />
@@ -914,7 +913,8 @@ function HomeWatchServicesPage(props) {
             </span>
           </Link>
         </div>
-      </section>
+
+
     </Fragment>
   );
 }

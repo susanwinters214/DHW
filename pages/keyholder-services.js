@@ -132,7 +132,7 @@ function KeyHolderPage(props) {
           </div>
           <div className="image-centered" id="">
             <Image
-              src="/images/icons/house-keys.png"
+              src="https://dallashomewatch.com/images/icons/house-keys.png"
               alt="house keys"
               width={300}
               height={150}
@@ -200,7 +200,7 @@ function KeyHolderPage(props) {
                       the job was complete.
                       <br />
                       <Image
-                        src="/images/key-holder/house-with-dormers-on-roof.jpg"
+                        src="https://dallashomewatch.com/images/key-holder/house-with-dormers-on-roof.jpg"
                         alt="house with four car garage with dormers on the roof"
                         width={400}
                         height={300}
@@ -209,7 +209,7 @@ function KeyHolderPage(props) {
                       <br />
                       <br />
                       <Image
-                        src="/images/key-holder/house-with-dormers-on-roof-removed.jpg"
+                        src="https://dallashomewatch.com/images/key-holder/house-with-dormers-on-roof-removed.jpg"
                         alt="house keys"
                         width={400}
                         height={300}

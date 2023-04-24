@@ -11,7 +11,7 @@ function DHWreceivesAccredPage(props) {
         <title>Dallas Home Watch receives accreditation from NHWA</title>
         <link
           rel="canonical"
-          href="https://www.dallashomewatch.com/news/dallas-home-watch-receives-accreditation"
+          href="https://dallashomewatch.com/news/dallas-home-watch-receives-accreditation"
         />
         <meta
           name="description"
@@ -23,7 +23,7 @@ function DHWreceivesAccredPage(props) {
 
         <meta
           property="og:url"
-          content="https://www.dallashomewatch.com/news/dallas-home-watch-receives-accreditation"
+          content="https://dallashomewatch.com/news/dallas-home-watch-receives-accreditation"
         />
         <meta
           property="og:title"
@@ -35,7 +35,7 @@ function DHWreceivesAccredPage(props) {
         />
         <meta
           property="og:image"
-          content="https://www.dallashomewatch.com/images/blogimg/NHWA-received-accreditation.jpg"
+          content="https://dallashomewatch.com/images/blogimg/NHWA-received-accreditation.jpg"
         />
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />
@@ -94,7 +94,7 @@ function DHWreceivesAccredPage(props) {
                         <Image
                           width={200}
                           height={100}
-                          src="/images/site/tina-lawson-dallas-nhwa.png"
+                          src="https://dallashomewatch.com/images/site/tina-lawson-dallas-nhwa.png"
                           alt="Tina Lawson with NHWA"
                         />
                       </div>
@@ -105,7 +105,7 @@ function DHWreceivesAccredPage(props) {
                           <Image
                             width={200}
                             height={100}
-                            src="/images/logos/NHWA-Boot-Camp-Logo.jpg"
+                            src="https://dallashomewatch.com/images/logos/NHWA-Boot-Camp-Logo.jpg"
                             alt="Home Watch Boot Camp"
                           />
                         </div>

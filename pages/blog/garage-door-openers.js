@@ -101,7 +101,7 @@ function GarageDoorOpenersPage(props) {
                           <Image
                             width={400}
                             height={460}
-                            src="/images/blogimg/garage-door-opener.jpg"
+                            src="https://dallashomewatch.com/images/blogimg/garage-door-opener.jpg"
                             alt="Home Watch professional checking garage door opener."
                           />
                         </div>
@@ -187,7 +187,7 @@ function GarageDoorOpenersPage(props) {
                     <br />
                     <div
                       class="fb-share-button centered"
-                      data-href="https://www.dallashomewatch.com/blog/garage-door-openers"
+                      data-href="https://dallashomewatch.com/blog/garage-door-openers"
                       data-layout=""
                       data-size=""
                     >

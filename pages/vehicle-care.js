@@ -9,10 +9,7 @@ function VehicleCarePage(props) {
     <Fragment>
       <Head>
         <title>Vehicle Care | DALLAS HOME WATCH </title>
-        <link
-          rel="canonical"
-          href="https://dallashomewatch.com/vehicle-care"
-        />
+        <link rel="canonical" href="https://dallashomewatch.com/vehicle-care" />
         <meta
           name="description"
           content="Dallas Home Watch offers Vehicle Care for existing Home Watch clients. Dallas Home Watch can watch your car for you when you are going to be away from home."
@@ -83,7 +80,7 @@ function VehicleCarePage(props) {
                     </p>
                     <div className="image-centered" id="">
                       <Image
-                        src="/images/og/luxury-car-care.jpg"
+                        src="https://dallashomewatch.com/images/og/luxury-car-care.jpg"
                         alt="luxury cars stored in garage"
                         width={800}
                         height={150}
@@ -126,7 +123,7 @@ function VehicleCarePage(props) {
                       <Image
                         width={585}
                         height={460}
-                        src="/images/car-care/car-battery-bentley.jpg"
+                        src="https://dallashomewatch.com/images/car-care/car-battery-bentley.jpg"
                         alt="Bentley Battery"
                       />
                     </div>
@@ -151,7 +148,7 @@ function VehicleCarePage(props) {
                       <Image
                         width={585}
                         height={460}
-                        src="/images/car-care/car-tire-mercedes.jpg"
+                        src="https://dallashomewatch.com/images/car-care/car-tire-mercedes.jpg"
                         alt="Mercedes Tire"
                       />
                     </div>
@@ -201,7 +198,7 @@ function VehicleCarePage(props) {
                       <Image
                         width={585}
                         height={460}
-                        src="/images/car-care/garage-door-wireless-keypad-check.jpg"
+                        src="https://dallashomewatch.com/images/car-care/garage-door-wireless-keypad-check.jpg"
                         alt="inspector checking the garage door wireless keypad"
                       />
                     </div>

@@ -81,7 +81,7 @@ function StreetsOfDallasPage(props) {
                       <Image
                         width={400}
                         height={300}
-                        src="/images/blogimg/streets/northaven.jpg"
+                        src="https://dallashomewatch.com/images/blogimg/streets/northaven.jpg"
                         alt="Northaven Street in Dallas, Texas"
                       />
                       <br />
@@ -91,7 +91,7 @@ function StreetsOfDallasPage(props) {
                       <Image
                         width={400}
                         height={300}
-                        src="/images/blogimg/streets/park-street.jpg"
+                        src="https://dallashomewatch.com/images/blogimg/streets/park-street.jpg"
                         alt="Park Street Street in Dallas, Texas"
                       />
                       <br />
@@ -103,7 +103,7 @@ function StreetsOfDallasPage(props) {
                       <Image
                         width={400}
                         height={300}
-                        src="/images/blogimg/streets/university-street.jpg"
+                        src="https://dallashomewatch.com/images/blogimg/streets/university-street.jpg"
                         alt="University Street in Dallas, Texas"
                       />
                       <br />
@@ -113,7 +113,7 @@ function StreetsOfDallasPage(props) {
                       <Image
                         width={400}
                         height={300}
-                        src="/images/blogimg/streets/Beverly.jpg"
+                        src="https://dallashomewatch.com/images/blogimg/streets/Beverly.jpg"
                         alt="Beverly in Dallas, Texas"
                       />
                       <br />
@@ -125,7 +125,7 @@ function StreetsOfDallasPage(props) {
                       <Image
                         width={400}
                         height={300}
-                        src="/images/blogimg/streets/Preston.jpg"
+                        src="https://dallashomewatch.com/images/blogimg/streets/Preston.jpg"
                         alt="Preston Road in Dallas, Texas"
                       />
                       <br />
@@ -135,7 +135,7 @@ function StreetsOfDallasPage(props) {
                       <Image
                         width={400}
                         height={300}
-                        src="/images/blogimg/streets/Preston-Forest-shopping-center.jpg"
+                        src="https://dallashomewatch.com/images/blogimg/streets/Preston-Forest-shopping-center.jpg"
                         alt="Preston Forest in Dallas, Texas"
                       />
                       <br />
@@ -147,7 +147,7 @@ function StreetsOfDallasPage(props) {
                       <Image
                         width={400}
                         height={300}
-                        src="/images/blogimg/streets/Douglas.jpg"
+                        src="https://dallashomewatch.com/images/blogimg/streets/Douglas.jpg"
                         alt="Douglas in Oaklawn - Dallas, Texas"
                       />
                       <br />
@@ -157,11 +157,11 @@ function StreetsOfDallasPage(props) {
                       <Image
                         width={400}
                         height={300}
-                        src="/images/blogimg/streets/Bordeaux.jpg"
+                        src="https://dallashomewatch.com/images/blogimg/streets/Bordeaux.jpg"
                         alt="Bordeaux - Dallas, Texas "
                       />
                       <br />
-                      Douglas
+                      Bordeaux
                     </div>
                   </div>
                 </div>

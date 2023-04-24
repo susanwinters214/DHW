@@ -21,10 +21,7 @@ function FAQsPage(props) {
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
 
-        <meta
-          property="og:url"
-          content="https://dallashomewatch.com/faqs"
-        />
+        <meta property="og:url" content="https://dallashomewatch.com/faqs" />
         <meta
           property="og:title"
           content=" Home Watch FAQs - Frequently Asked Questions for Dallas Home Watch"
@@ -222,7 +219,7 @@ function FAQsPage(props) {
           <Image
             width={1000}
             height={415}
-            src="/images/dont-leave-home-without-homewatch-service.jpg"
+            src="https://dallashomewatch.com/images/dont-leave-home-without-homewatch-service.jpg"
             alt="rearview mirror looking at home leaving"
           />
         </div>

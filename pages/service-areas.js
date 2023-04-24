@@ -171,7 +171,7 @@ function ServiceAreaPage(props) {
                     <Image
                       width={860}
                       height={665}
-                      src="/images/locations/map-of-Highland-Park-860x840.jpg"
+                      src="https://dallashomewatch.com/images/locations/map-of-Highland-Park-860x840.jpg"
                       alt="Highland Park gated community"
                     />
                   </Link>
@@ -257,7 +257,7 @@ function ServiceAreaPage(props) {
                     <Image
                       width={840}
                       height={760}
-                      src="/images/locations/map-of-University-Park-860x840.jpg"
+                      src="https://dallashomewatch.com/images/locations/map-of-University-Park-860x840.jpg"
                       alt="University Park gated community"
                     />
                   </Link>
@@ -368,7 +368,7 @@ function ServiceAreaPage(props) {
                     <Image
                       width={840}
                       height={630}
-                      src="/images/locations/map-of-Preston-Hollow-860x840.jpg"
+                      src="https://dallashomewatch.com/images/locations/map-of-Preston-Hollow-860x840.jpg"
                       alt="Preston Hollow gated community"
                     />
                   </Link>
@@ -437,7 +437,7 @@ function ServiceAreaPage(props) {
                     <Image
                       height={860}
                       width={840}
-                      src="/images/locations/map-of-Bluffview-860x840.jpg"
+                      src="https://dallashomewatch.com/images/locations/map-of-Bluffview-860x840.jpg"
                       alt="Bluffview gated community"
                     />
                   </Link>
@@ -493,7 +493,7 @@ function ServiceAreaPage(props) {
                     <Image
                       width={840}
                       height={800}
-                      src="/images/locations/map-of-Devonshire-860x840.jpg"
+                      src="https://dallashomewatch.com/images/locations/map-of-Devonshire-860x840.jpg"
                       alt="Devonshire gated community"
                     />
                   </Link>
@@ -550,7 +550,7 @@ function ServiceAreaPage(props) {
                     <Image
                       width={840}
                       height={820}
-                      src="/images/locations/map-of-Briarwood-860x840.jpg"
+                      src="https://dallashomewatch.com/images/locations/map-of-Briarwood-860x840.jpg"
                       alt="Briarwood gated community"
                     />
                   </Link>
@@ -603,7 +603,7 @@ function ServiceAreaPage(props) {
                     <Image
                       height={600}
                       width={840}
-                      src="/images/locations/map-of-Northwood-Hills-860x600.jpg"
+                      src="https://dallashomewatch.com/images/locations/map-of-Northwood-Hills-860x600.jpg"
                       alt="Northwood-Hills gated community"
                     />
                   </Link>
@@ -614,8 +614,6 @@ function ServiceAreaPage(props) {
 
           <p>&nbsp;</p>
           <hr />
-
-       
 
           <p>
             Reference: <Link href="https://en.wikipedia.org/">Wikipedia</Link>

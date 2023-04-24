@@ -103,7 +103,7 @@ function HowToCustomizeAppleWatchBkgrndPage(props) {
                             EXAMPLE OF A HOUSE PHOTO:
                             <div className="image centered">
                               <Image
-                                src="/images/blogimg/apple/my-house.jpg"
+                                src="https://dallashomewatch.com/images/blogimg/apple/my-house.jpg"
                                 alt="burlar breaking into house through the door"
                                 width={425}
                                 height={250}
@@ -119,7 +119,7 @@ function HowToCustomizeAppleWatchBkgrndPage(props) {
                               <br />
                               <Image
                                 className="border"
-                                src="/images/logos/PRACTICE-LOGO.jpg"
+                                src="https://dallashomewatch.com/images/logos/PRACTICE-LOGO.jpg"
                                 alt="burlar breaking into house through the door"
                                 width={200}
                                 height={200}
@@ -134,7 +134,7 @@ function HowToCustomizeAppleWatchBkgrndPage(props) {
                       <br />
                       <div className="image centered">
                         <Image
-                          src="/images/blogimg/apple/select-watch-app-to-start.jpg"
+                          src="https://dallashomewatch.com/images/blogimg/apple/select-watch-app-to-start.jpg"
                           alt="burlar breaking into house through the door"
                           width={425}
                           height={250}
@@ -149,7 +149,7 @@ function HowToCustomizeAppleWatchBkgrndPage(props) {
                     <br />
                     <div className="image centered">
                       <Image
-                        src="/images/blogimg/apple/click-on-my-watch.jpg"
+                        src="https://dallashomewatch.com/images/blogimg/apple/click-on-my-watch.jpg"
                         alt="on your watch select the photo of your house"
                         width={425}
                         height={250}
@@ -165,7 +165,7 @@ function HowToCustomizeAppleWatchBkgrndPage(props) {
                       <br /> <br />
                       <div className="image centered">
                         <Image
-                          src="/images/blogimg/apple/my-faces.jpg"
+                          src="https://dallashomewatch.com/images/blogimg/apple/my-faces.jpg"
                           alt="on your watch select the photo of your house"
                           width={425}
                           height={250}
@@ -184,7 +184,7 @@ function HowToCustomizeAppleWatchBkgrndPage(props) {
                       <br />
                       <div className="image centered">
                         <Image
-                          src="/images/blogimg/apple/faces-gallery.jpg"
+                          src="https://dallashomewatch.com/images/blogimg/apple/faces-gallery.jpg"
                           alt="gallery of photos on your watch"
                           width={425}
                           height={250}
@@ -206,7 +206,7 @@ function HowToCustomizeAppleWatchBkgrndPage(props) {
                       <br /> <br />
                       <div className="image centered">
                         <Image
-                          src="/images/blogimg/apple/select-photo-of-house.jpg"
+                          src="https://dallashomewatch.com/images/blogimg/apple/select-photo-of-house.jpg"
                           alt="gallery of photos on your watch"
                           width={425}
                           height={250}
@@ -226,7 +226,7 @@ function HowToCustomizeAppleWatchBkgrndPage(props) {
                       <br />
                       <div className="image centered">
                         <Image
-                          src="/images/blogimg/apple/Save-House.jpg"
+                          src="https://dallashomewatch.com/images/blogimg/apple/Save-House.jpg"
                           alt="Set as current Watch Face"
                           width={400}
                           height={360}
@@ -259,7 +259,7 @@ function HowToCustomizeAppleWatchBkgrndPage(props) {
                     <br />
                     <div
                       className="fb-share-button"
-                      data-href="https://www.dallashomewatch.com/blog/how-to-customize-your-apple-watch-background"
+                      data-href="https://dallashomewatch.com/blog/how-to-customize-your-apple-watch-background"
                       data-layout=""
                       data-size=""
                     >

@@ -4,4 +4,4 @@ User-agent: Googlebot
 User-agent: *
 Allow: /
 
-Sitemap: https://www.dallashomewatch.com/sitemap.xml
+Sitemap: https://dallashomewatch.com/sitemap.xml
