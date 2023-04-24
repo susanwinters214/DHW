@@ -11,7 +11,7 @@ function NationalHomeWatchMonthPage(props) {
         <title>National Home Watch Month 2023</title>
         <link
           rel="canonical"
-          href="https://www.dallashomewatch.com/national-homewatch-month"
+          href="https://dallashomewatch.com/national-homewatch-month"
         />
         <meta
           name="description"
@@ -33,7 +33,7 @@ function NationalHomeWatchMonthPage(props) {
         />
         <meta
           property="og:image"
-          content="https://www.dallashomewatch.com/images/blogimg/og-NHWMonth.jpg"
+          content="https://dallashomewatch.com/images/blogimg/og-NHWMonth.jpg"
         />
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />

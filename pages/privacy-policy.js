@@ -9,7 +9,7 @@ function PrivacyPage() {
         <title>Privacy Policy for Dallas Home Watch</title>
         <link
           rel="canonical"
-          href="https://www.dallashomewatch.com/privacy-policy"
+          href="https://dallashomewatch.com/privacy-policy"
         />
         <meta
           name="description"
@@ -30,7 +30,7 @@ function PrivacyPage() {
         />
         <meta
           property="og:image"
-          content="https://www.dallashomewatch.com/images/og/privacy-gate.jpg"
+          content="https://dallashomewatch.com/images/og/privacy-gate.jpg"
         />
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />

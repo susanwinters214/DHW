@@ -9,7 +9,7 @@ function HomeWatchServicesPage(props) {
     <Fragment>
       <Head>
         <title>Home Watch Services</title>
-        <link rel="canonical" href="https://www.dallashomewatch.com/home-watch-services" />
+        <link rel="canonical" href="https://dallashomewatch.com/home-watch-services" />
         <meta
           name="description"
           content="Home Watch Services: 'What Does A Home Watch Service Do?' Home Watchers inspect the interior and exterior of a residential property looking for obvious issues."
@@ -20,7 +20,7 @@ function HomeWatchServicesPage(props) {
 
         <meta
           property="og:url"
-          content="https://www.dallashomewatch.com/home-watch-services"
+          content="https://dallashomewatch.com/home-watch-services"
         />
         <meta property="og:title" content="Home Watch Services" />
         <meta
@@ -29,7 +29,7 @@ function HomeWatchServicesPage(props) {
         />
         <meta
           property="og:image"
-          content="https://www.dallashomewatch.com/images/og/dallas-home-watch-opening-doors.jpg"
+          content="https://dallashomewatch.com/images/og/dallas-home-watch-opening-doors.jpg"
         />
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />

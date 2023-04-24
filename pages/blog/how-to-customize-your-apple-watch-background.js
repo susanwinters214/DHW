@@ -11,7 +11,7 @@ function HowToCustomizeAppleWatchBkgrndPage(props) {
         <title>Create Your Own Home Watch</title>
         <link
           rel="canonical"
-          href="https://www.dallashomewatch.com/blog/how-to-customize-your-apple-watch-background"
+          href="https://dallashomewatch.com/blog/how-to-customize-your-apple-watch-background"
         ></link>
         <meta
           name="description"
@@ -23,7 +23,7 @@ function HowToCustomizeAppleWatchBkgrndPage(props) {
 
         <meta
           property="og:url"
-          content="https://www.dallashomewatch.com/blog/how-to-customize-your-apple-watch-background"
+          content="https://dallashomewatch.com/blog/how-to-customize-your-apple-watch-background"
         />
         <meta property="og:title" content="Create Your Own Home Watch" />
         <meta
@@ -32,7 +32,7 @@ function HowToCustomizeAppleWatchBkgrndPage(props) {
         />
         <meta
           property="og:image"
-          content="https://www.dallashomewatch.com/images/og/home-watch-apple.jpg"
+          content="https://dallashomewatch.com/images/og/home-watch-apple.jpg"
         />
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />

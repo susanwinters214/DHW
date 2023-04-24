@@ -13,7 +13,7 @@ function WhyYouNeedHomewatchPage(props) {
         </title>
         <link
           rel="canonical"
-          href="https://www.dallashomewatch.com/blog/what-to-look-for-in-homewatch-company"
+          href="https://dallashomewatch.com/blog/what-to-look-for-in-homewatch-company"
         ></link>
 
         <meta
@@ -26,7 +26,7 @@ function WhyYouNeedHomewatchPage(props) {
 
         <meta
           property="og:url"
-          content="https://www.dallashomewatch.com/blog/what-to-look-for-in-homewatch-company"
+          content="https://dallashomewatch.com/blog/what-to-look-for-in-homewatch-company"
         />
         <meta
           property="og:title"
@@ -38,7 +38,7 @@ function WhyYouNeedHomewatchPage(props) {
         />
         <meta
           property="og:image"
-          content="https://www.dallashomewatch.com/images/blogimg/man-researching-home-watch-options.jpg"
+          content="https://dallashomewatch.com/images/blogimg/man-researching-home-watch-options.jpg"
         />
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />

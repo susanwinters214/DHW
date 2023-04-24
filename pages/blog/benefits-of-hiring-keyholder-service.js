@@ -11,7 +11,7 @@ function AirFiltersPage(props) {
         <title>Benefits of Hiring a Key Holder Service</title>
         <link
           rel="canonical"
-          href="https://www.dallashomewatch.com/blog/benefits-of-hiring-keyholder-service"
+          href="https://dallashomewatch.com/blog/benefits-of-hiring-keyholder-service"
         />
         <meta
           name="description"
@@ -22,7 +22,7 @@ function AirFiltersPage(props) {
         <meta property="og:site_name" content="Dallas Home Watch" />
         <meta
           property="og:url"
-          content="https://www.dallashomewatch.com/blog/benefits-of-hiring-keyholder-service"
+          content="https://dallashomewatch.com/blog/benefits-of-hiring-keyholder-service"
         />
         <meta
           property="og:title"
@@ -34,7 +34,7 @@ function AirFiltersPage(props) {
         />
         <meta
           property="og:image"
-          content="https://www.dallashomewatch.com/images/background/man-cleaning-outside-porch.jpg"
+          content="https://dallashomewatch.com/images/background/man-cleaning-outside-porch.jpg"
         />
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />

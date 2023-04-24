@@ -20,7 +20,7 @@ function NewsPage(props) {
 
         <meta
           property="og:url"
-          content="https://www.dallashomewatch.com/news"
+          content="https://dallashomewatch.com/news"
         />
         <meta property="og:title" content="Dallas Home Watch News" />
         <meta
@@ -29,7 +29,7 @@ function NewsPage(props) {
         />
         <meta
           property="og:image"
-          content="https://www.dallashomewatch.com/images/og/home-watch-news.jpg"
+          content="https://dallashomewatch.com/images/og/home-watch-news.jpg"
         />
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />

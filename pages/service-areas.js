@@ -11,7 +11,7 @@ function ServiceAreaPage(props) {
         <title>Home Watch Services in Dallas Area</title>
         <link
           rel="canonical"
-          href="https://www.dallashomewatch.com/service-areas"
+          href="https://dallashomewatch.com/service-areas"
         />
         <meta
           name="description"
@@ -24,7 +24,7 @@ function ServiceAreaPage(props) {
 
         <meta
           property="og:url"
-          content="https://www.dallashomewatch.com/service-areas"
+          content="https://dallashomewatch.com/service-areas"
         />
         <meta
           property="og:title"
@@ -38,7 +38,7 @@ function ServiceAreaPage(props) {
         />
         <meta
           property="og:image"
-          content="https://www.dallashomewatch.com/images/og/dallas-skyline-service-areas.jpg"
+          content="https://dallashomewatch.com/images/og/dallas-skyline-service-areas.jpg"
         />
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />

@@ -11,7 +11,7 @@ function ConciergePage(props) {
         <title>Personal Conceirge Service | DALLAS HOME WATCH</title>
         <link
           rel="canonical"
-          href="https://www.dallashomewatch.com/concierge-services"
+          href="https://dallashomewatch.com/concierge-services"
         />
         <meta
           name="description"
@@ -37,7 +37,7 @@ function ConciergePage(props) {
         />
         <meta
           property="og:image"
-          content="https://www.dallashomewatch.com/images/og/concierge-services.jpg"
+          content="https://dallashomewatch.com/images/og/concierge-services.jpg"
         />
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />

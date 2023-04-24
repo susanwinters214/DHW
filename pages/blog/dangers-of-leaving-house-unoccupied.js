@@ -11,7 +11,7 @@ function DangersOfEmptyHousePage(props) {
         <title>The Dangers of An Unoccupied Home</title>
         <link
           rel="canonical"
-          href="https://www.dallashomewatch.com/blog/dangers-of-leaving-house-unoccupied"
+          href="https://dallashomewatch.com/blog/dangers-of-leaving-house-unoccupied"
         ></link>
         <meta
           name="description"
@@ -23,7 +23,7 @@ function DangersOfEmptyHousePage(props) {
 
         <meta
           property="og:url"
-          content="https://www.dallashomewatch.com/blog/dangers-of-leaving-house-unoccupied"
+          content="https://dallashomewatch.com/blog/dangers-of-leaving-house-unoccupied"
         />
         <meta property="og:title" content="The Dangers of An Unoccupied Home" />
         <meta
@@ -32,7 +32,7 @@ function DangersOfEmptyHousePage(props) {
         />
         <meta
           property="og:image"
-          content="https://www.dallashomewatch.com/images/background/dangers-vacant-house.jpg"
+          content="https://dallashomewatch.com/images/background/dangers-vacant-house.jpg"
         />
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />

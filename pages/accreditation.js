@@ -9,7 +9,7 @@ function AccreditationPage(props) {
     <Fragment>
       <Head>
         <title>Dallas Home Watch - Accredited Member of NHWA</title>
-        <link rel="canonical" href="https://www.dallashomewatch.com/accreditation" />
+        <link rel="canonical" href="https://dallashomewatch.com/accreditation" />
         <meta
           name="description"
           content="Dallas Home Watch received Accreditation from the National Home Watch Association. You must pass exams, and background checks, have insurance, and be bonded."
@@ -21,7 +21,7 @@ function AccreditationPage(props) {
 
         <meta
           property="og:url"
-          content="https://www.dallashomewatch.com/accreditation"
+          content="https://dallashomewatch.com/accreditation"
         />
         <meta property="og:title" content="Dallas Home Watch Accreditation" />
         <meta
@@ -30,7 +30,7 @@ function AccreditationPage(props) {
         />
         <meta
           property="og:image"
-          content="https://www.dallashomewatch.com/images/og/accredited-home-watch-professional.jpg"
+          content="https://dallashomewatch.com/images/og/accredited-home-watch-professional.jpg"
         />
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />

@@ -23,7 +23,7 @@ function StreetsOfDallasPage(props) {
 
         <meta
           property="og:url"
-          content="https://www.dallashomewatch.com/blog/streets-of-dallas"
+          content="https://dallashomewatch.com/blog/streets-of-dallas"
         />
         <meta property="og:title" content="Streets-of-Dallas" />
         <meta
@@ -32,7 +32,7 @@ function StreetsOfDallasPage(props) {
         />
         <meta
           property="og:image"
-          content="https://www.dallashomewatch.com/images/background/dallas-deep-ellum.jpg"
+          content="https://dallashomewatch.com/images/background/dallas-deep-ellum.jpg"
         />
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />

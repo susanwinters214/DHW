@@ -11,7 +11,7 @@ function GarageDoorOpenersPage(props) {
         <title>Dallas Home Watch Checks Your Garage Door Openers</title>
         <link
           rel="canonical"
-          href="https://www.dallashomewatch.com/blog/garage-door-openers"
+          href="https://dallashomewatch.com/blog/garage-door-openers"
         />
         <meta
           name="description"
@@ -24,7 +24,7 @@ function GarageDoorOpenersPage(props) {
 
         <meta
           property="og:url"
-          content="https://www.dallashomewatch.com/blog/garage-door-openers"
+          content="https://dallashomewatch.com/blog/garage-door-openers"
         />
         <meta property="og:title" content="Garage Door Openers" />
         <meta
@@ -34,7 +34,7 @@ function GarageDoorOpenersPage(props) {
         />
         <meta
           property="og:image"
-          content="https://www.dallashomewatch.com/images/blogimg/og-garage-door-openers.jpg"
+          content="https://dallashomewatch.com/images/blogimg/og-garage-door-openers.jpg"
         />
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />

@@ -11,7 +11,7 @@ function VehicleCarePage(props) {
         <title>Vehicle Care | DALLAS HOME WATCH </title>
         <link
           rel="canonical"
-          href="https://www.dallashomewatch.com/vehicle-care"
+          href="https://dallashomewatch.com/vehicle-care"
         />
         <meta
           name="description"
@@ -35,7 +35,7 @@ function VehicleCarePage(props) {
         />
         <meta
           property="og:image"
-          content="https://www.dallashomewatch.com/images/og/luxury-car-care.jpg"
+          content="https://dallashomewatch.com/images/og/luxury-car-care.jpg"
         />
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />

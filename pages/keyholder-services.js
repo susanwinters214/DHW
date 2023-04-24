@@ -11,7 +11,7 @@ function KeyHolderPage(props) {
         <title>Key Holder Services | DALLAS HOME WATCH</title>
         <link
           rel="canonical"
-          href="https://www.dallashomewatch.com/keyholder-services"
+          href="https://dallashomewatch.com/keyholder-services"
         />
         <meta
           name="description"
@@ -35,7 +35,7 @@ function KeyHolderPage(props) {
         />
         <meta
           property="og:image"
-          content="https://www.dallashomewatch.com/images/og/key-holder-services.jpg"
+          content="https://dallashomewatch.com/images/og/key-holder-services.jpg"
         />
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />

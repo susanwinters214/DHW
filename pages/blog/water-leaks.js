@@ -11,7 +11,7 @@ function WaterLeaksPage(props) {
         <title>Dallas Home Watch Checks Your Home For Water Leaks</title>
         <link
           rel="canonical"
-          href="https://www.dallashomewatch.com/blog/water-leaks"
+          href="https://dallashomewatch.com/blog/water-leaks"
         />
         <meta
           name="description"
@@ -23,7 +23,7 @@ function WaterLeaksPage(props) {
 
         <meta
           property="og:url"
-          content="https://www.dallashomewatch.com/blog/water-leaks"
+          content="https://dallashomewatch.com/blog/water-leaks"
         />
         <meta property="og:title" content="Water Leaks" />
         <meta
@@ -32,7 +32,7 @@ function WaterLeaksPage(props) {
         />
         <meta
           property="og:image"
-          content="https://www.dallashomewatch.com/images/blogimg/og-water-leak-damage.jpg"
+          content="https://dallashomewatch.com/images/blogimg/og-water-leak-damage.jpg"
         />
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />
