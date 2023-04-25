@@ -851,7 +851,7 @@ function HomeWatchServicesPage(props) {
                         <Image
                           width={530}
                           height={416}
-                          src="https://www.dallashomewatch.com/images/hw-check/securing-back-gate.jpg"
+                          src="/images/hw-check/securing-back-gate.jpg"
                           alt="trash cans in garage"
                         />
                       </div>
@@ -875,7 +875,7 @@ function HomeWatchServicesPage(props) {
                         <Image
                           width={530}
                           height={416}
-                          src="https://www.dallashomewatch.com/images/hw-check/home-watch-checklist.png"
+                          src="/images/hw-check/home-watch-checklist.png"
                           alt="home watch checklist"
                         />
                       </div>
