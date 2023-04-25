@@ -102,7 +102,7 @@ function DangersOfEmptyHousePage(props) {
                     </p>
                     <div className="image centered">
                       <Image
-                        src="https://www.dallashomewatch.com/images/blogimg/home-breaking-in-door.jpg"
+                        src="/images/blogimg/home-breaking-in-door.jpg"
                         alt="burglar breaking into house through the door"
                         width={600}
                         height={250}
@@ -137,7 +137,7 @@ function DangersOfEmptyHousePage(props) {
                     </p>
                     <div className="image centered">
                       <Image
-                        src="https://www.dallashomewatch.com/images/blogimg/water-leak-on-ceiling.jpg"
+                        src="/images/blogimg/water-leak-on-ceiling.jpg"
                         alt="water leak damage on ceiling"
                         width={600}
                         height={325}
@@ -170,7 +170,7 @@ function DangersOfEmptyHousePage(props) {
                     </p>
                     <div className="image centered">
                       <Image
-                        src="https://www.dallashomewatch.com/images/blogimg/house-fire-3559783_640.jpg"
+                        src="/images/blogimg/house-fire-3559783_640.jpg"
                         alt="house on fire"
                         width={600}
                         height={424}
@@ -202,7 +202,7 @@ function DangersOfEmptyHousePage(props) {
                     </p>
                     <div className="image centered">
                       <Image
-                        src="https://www.dallashomewatch.com/images/blogimg/squatter-in-house.jpg"
+                        src="/images/blogimg/squatter-in-house.jpg"
                         alt="squatter living in vacant house"
                         width={600}
                         height={425}
@@ -240,7 +240,7 @@ function DangersOfEmptyHousePage(props) {
                     </p>
                     <div className="image centered">
                       <Image
-                        src="https://www.dallashomewatch.com/images/blogimg/mold-mildew-damage.jpg"
+                        src="/images/blogimg/mold-mildew-damage.jpg"
                         alt="mold and mildew damage"
                         width={600}
                         height={250}
@@ -276,7 +276,7 @@ function DangersOfEmptyHousePage(props) {
                     </p>
                     <div className="image centered">
                       <Image
-                        src="https://www.dallashomewatch.com/images/blogimg/big-trees-240x320.jpg"
+                        src="/images/blogimg/big-trees-240x320.jpg"
                         alt="big tree fell down"
                         width={400}
                         height={350}
@@ -313,7 +313,7 @@ function DangersOfEmptyHousePage(props) {
                     </p>
                     <div className="image centered">
                       <Image
-                        src="https://www.dallashomewatch.com/images/blogimg/bug-droppings-on-porch.jpg"
+                        src="/images/blogimg/bug-droppings-on-porch.jpg"
                         alt="bug droppings on porch"
                         width={600}
                         height={420}
@@ -360,7 +360,7 @@ function DangersOfEmptyHousePage(props) {
                     </p>
                     <div className="image centered">
                       <Image
-                        src="https://www.dallashomewatch.com/images/blogimg/food-poison-sick-stomach.jpg"
+                        src="/images/blogimg/food-poison-sick-stomach.jpg"
                         alt="sick to stomach with food poison from a tripped breaker"
                         width={600}
                         height={350}
@@ -398,7 +398,7 @@ function DangersOfEmptyHousePage(props) {
                     </p>
                     <div className="image centered">
                       <Image
-                        src="https://www.dallashomewatch.com/images/blogimg/wine-bottles-down.jpg"
+                        src="/images/blogimg/wine-bottles-down.jpg"
                         alt="wine bottles damaged"
                         width={600}
                         height={315}
@@ -432,7 +432,7 @@ function DangersOfEmptyHousePage(props) {
                     </p>
                     <div className="image centered">
                       <Image
-                        src="https://www.dallashomewatch.com/images/blogimg/vandalism-spray-paint.jpg"
+                        src="/images/blogimg/vandalism-spray-paint.jpg"
                         alt="vandalism-spray-paint"
                         width={600}
                         height={350}
