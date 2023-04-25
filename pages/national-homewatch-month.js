@@ -97,7 +97,7 @@ function NationalHomeWatchMonthPage(props) {
                     </p>
                     <div className="image centered">
                       <Image
-                        src="https://www.dallashomewatch.com/images/logos/National-Home-Watch-Month-Logo.jpg"
+                        src="/images/logos/National-Home-Watch-Month-Logo.jpg"
                         alt="National Home Watch Month Logo"
                         width={526}
                         height={526}
@@ -178,7 +178,7 @@ function NationalHomeWatchMonthPage(props) {
                         {" "}
                         <div className="image centered">
                           <Image
-                            src="https://www.dallashomewatch.com/images/blogimg/frozen-pool-240x320.jpg"
+                            src="/images/blogimg/frozen-pool-240x320.jpg"
                             alt="frozen pipes frozen pool"
                             width={240}
                             height={320}
@@ -191,7 +191,7 @@ function NationalHomeWatchMonthPage(props) {
                         {" "}
                         <div className="image centered">
                           <Image
-                            src="https://www.dallashomewatch.com/images/blogimg/water-damage-240x320.jpg"
+                            src="/images/blogimg/water-damage-240x320.jpg"
                             alt="water damage from water leak"
                             width={240}
                             height={320}
@@ -204,7 +204,7 @@ function NationalHomeWatchMonthPage(props) {
                         {" "}
                         <div className="image centered">
                           <Image
-                            src="https://www.dallashomewatch.com/images/blogimg/big-trees-240x320.jpg"
+                            src="/images/blogimg/big-trees-240x320.jpg"
                             alt="big trees down after Texas storm"
                             width={240}
                             height={320}
@@ -289,7 +289,7 @@ function NationalHomeWatchMonthPage(props) {
                     </p>
                     <div className="image centered">
                       <Image
-                        src="https://www.dallashomewatch.com/images/logos/NHWM-book.jpg"
+                        src="/images/logos/NHWM-book.jpg"
                         alt="National Home Watch Month Logo"
                         width={525}
                         height={525}
