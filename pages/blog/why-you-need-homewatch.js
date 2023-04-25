@@ -122,7 +122,7 @@ function WhyYouNeedHomewatchPage(props) {
                       <br /> <br />
                       <div className="image centered">
                         <Image
-                          src="https://www.dallashomewatch.com/images/blogimg/home-breaking-in-door.jpg"
+                          src="/images/blogimg/home-breaking-in-door.jpg"
                           alt="burlar breaking into house through the door"
                           width={400}
                           height={250}
@@ -143,7 +143,7 @@ function WhyYouNeedHomewatchPage(props) {
                       <br /> <br />
                       <div className="image centered">
                         <Image
-                          src="https://www.dallashomewatch.com/images/blogimg/mold-mildew-damage.jpg"
+                          src="/images/blogimg/mold-mildew-damage.jpg"
                           alt="mold and mildew damage"
                           width={400}
                           height={250}
@@ -162,7 +162,7 @@ function WhyYouNeedHomewatchPage(props) {
                       regulating the thermostat.
                       <div className="image centered">
                         <Image
-                          src="https://www.dallashomewatch.com/images/blogimg/moisture-meter.jpg"
+                          src="/images/blogimg/moisture-meter.jpg"
                           alt="mold and mildew damage"
                           width={400}
                           height={350}
@@ -188,7 +188,7 @@ function WhyYouNeedHomewatchPage(props) {
                       <br />
                       <div className="image centered">
                         <Image
-                          src="https://www.dallashomewatch.com/images/blogimg/cleaning-the-oven.jpg"
+                          src="/images/blogimg/cleaning-the-oven.jpg"
                           alt="cleaning-the-oven"
                           width={400}
                           height={350}
@@ -210,7 +210,7 @@ function WhyYouNeedHomewatchPage(props) {
                     </p>
                     <div className="image centered">
                       <Image
-                        src="https://www.dallashomewatch.com/images/blogimg/couple-peace-of-mind.jpg"
+                        src="/images/blogimg/couple-peace-of-mind.jpg"
                         alt="peach of mind"
                         width={400}
                         height={400}

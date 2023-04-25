@@ -112,7 +112,7 @@ function RefrigeratorsPage(props) {
                           <Image
                             width={400}
                             height={500}
-                            src="https://www.dallashomewatch.com/images/blogimg/refrigerator-dim-light.jpg"
+                            src="/images/blogimg/refrigerator-dim-light.jpg"
                             alt="refrigerator dim light"
                           />
                         </div>

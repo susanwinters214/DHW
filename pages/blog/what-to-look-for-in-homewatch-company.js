@@ -125,7 +125,7 @@ function WhyYouNeedHomewatchPage(props) {
 
                     <div className="image centered">
                       <Image
-                        src="https://www.dallashomewatch.com/images/blogimg/roofers-pic-video.jpg"
+                        src="/images/blogimg/roofers-pic-video.jpg"
                         width={400}
                         height={300}
                         alt="roofers taking off dormers"
