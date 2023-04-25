@@ -11,7 +11,7 @@ function ConciergePage(props) {
         <title>Personal Conceirge Service | DALLAS HOME WATCH</title>
         <link
           rel="canonical"
-          href="https://dallashomewatch.com/concierge-services"
+          href="https://www.dallashomewatch.com/concierge-services"
         />
         <meta
           name="description"
@@ -24,7 +24,7 @@ function ConciergePage(props) {
 
         <meta
           property="og:url"
-          content="https://dallashomewatch.com/concierge-services"
+          content="https://www.dallashomewatch.com/concierge-services"
         />
         <meta
           property="og:title"
@@ -37,7 +37,7 @@ function ConciergePage(props) {
         />
         <meta
           property="og:image"
-          content="https://dallashomewatch.com/images/og/concierge-services.jpg"
+          content="https://www.dallashomewatch.com/images/og/concierge-services.jpg"
         />
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />
@@ -100,7 +100,7 @@ function ConciergePage(props) {
                     <Image
                       width={500}
                       height={300}
-                      src="https://dallashomewatch.com/images/concierge-services/wine-cellar.jpg"
+                      src="https://www.dallashomewatch.com/images/concierge-services/wine-cellar.jpg"
                       alt="wine bottles on shelves in a wine cellar"
                     />
                   </div>
@@ -146,7 +146,7 @@ function ConciergePage(props) {
                 <Image
                   width={530}
                   height={480}
-                  src="https://dallashomewatch.com/images/concierge-services/yoga-relaxing.jpg"
+                  src="https://www.dallashomewatch.com/images/concierge-services/yoga-relaxing.jpg"
                   alt="girl doing yoga to relax"
                 />
               </div>
@@ -156,7 +156,7 @@ function ConciergePage(props) {
                 <Image
                   width={530}
                   height={300}
-                  src="https://dallashomewatch.com/images/concierge-services/couple-relaxing-on-couch-reading.jpg"
+                  src="https://www.dallashomewatch.com/images/concierge-services/couple-relaxing-on-couch-reading.jpg"
                   alt="wine bottles on shelves in a wine cellar"
                 />
               </div>
@@ -281,7 +281,7 @@ function ConciergePage(props) {
               <div className="column col-lg-6 col-md-6 col-sm-6">
                 <div className="image-centered" id="">
                   <Image
-                    src="https://dallashomewatch.com/images/concierge-services/concierge-500x275.jpg"
+                    src="https://www.dallashomewatch.com/images/concierge-services/concierge-500x275.jpg"
                     alt="personal concierge stocking refrigerator"
                     width={400}
                     height={150}
@@ -290,7 +290,7 @@ function ConciergePage(props) {
                 <br />
                 <div className="image-centered" id="">
                   <Image
-                    src="https://dallashomewatch.com/images/concierge-services/pickup-dry-cleaning.jpg"
+                    src="https://www.dallashomewatch.com/images/concierge-services/pickup-dry-cleaning.jpg"
                     alt="dry cleaners"
                     width={400}
                     height={150}

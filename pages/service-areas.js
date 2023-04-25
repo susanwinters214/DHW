@@ -11,7 +11,7 @@ function ServiceAreaPage(props) {
         <title>Home Watch Services in Dallas Area</title>
         <link
           rel="canonical"
-          href="https://dallashomewatch.com/service-areas"
+          href="https://www.dallashomewatch.com/service-areas"
         />
         <meta
           name="description"
@@ -24,7 +24,7 @@ function ServiceAreaPage(props) {
 
         <meta
           property="og:url"
-          content="https://dallashomewatch.com/service-areas"
+          content="https://www.dallashomewatch.com/service-areas"
         />
         <meta
           property="og:title"
@@ -38,7 +38,7 @@ function ServiceAreaPage(props) {
         />
         <meta
           property="og:image"
-          content="https://dallashomewatch.com/images/og/dallas-skyline-service-areas.jpg"
+          content="https://www.dallashomewatch.com/images/og/dallas-skyline-service-areas.jpg"
         />
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />
@@ -171,7 +171,7 @@ function ServiceAreaPage(props) {
                     <Image
                       width={860}
                       height={665}
-                      src="https://dallashomewatch.com/images/locations/map-of-Highland-Park-860x840.jpg"
+                      src="https://www.dallashomewatch.com/images/locations/map-of-Highland-Park-860x840.jpg"
                       alt="Highland Park gated community"
                     />
                   </Link>
@@ -257,7 +257,7 @@ function ServiceAreaPage(props) {
                     <Image
                       width={840}
                       height={760}
-                      src="https://dallashomewatch.com/images/locations/map-of-University-Park-860x840.jpg"
+                      src="https://www.dallashomewatch.com/images/locations/map-of-University-Park-860x840.jpg"
                       alt="University Park gated community"
                     />
                   </Link>
@@ -368,7 +368,7 @@ function ServiceAreaPage(props) {
                     <Image
                       width={840}
                       height={630}
-                      src="https://dallashomewatch.com/images/locations/map-of-Preston-Hollow-860x840.jpg"
+                      src="https://www.dallashomewatch.com/images/locations/map-of-Preston-Hollow-860x840.jpg"
                       alt="Preston Hollow gated community"
                     />
                   </Link>
@@ -437,7 +437,7 @@ function ServiceAreaPage(props) {
                     <Image
                       height={860}
                       width={840}
-                      src="https://dallashomewatch.com/images/locations/map-of-Bluffview-860x840.jpg"
+                      src="https://www.dallashomewatch.com/images/locations/map-of-Bluffview-860x840.jpg"
                       alt="Bluffview gated community"
                     />
                   </Link>
@@ -493,7 +493,7 @@ function ServiceAreaPage(props) {
                     <Image
                       width={840}
                       height={800}
-                      src="https://dallashomewatch.com/images/locations/map-of-Devonshire-860x840.jpg"
+                      src="https://www.dallashomewatch.com/images/locations/map-of-Devonshire-860x840.jpg"
                       alt="Devonshire gated community"
                     />
                   </Link>
@@ -550,7 +550,7 @@ function ServiceAreaPage(props) {
                     <Image
                       width={840}
                       height={820}
-                      src="https://dallashomewatch.com/images/locations/map-of-Briarwood-860x840.jpg"
+                      src="https://www.dallashomewatch.com/images/locations/map-of-Briarwood-860x840.jpg"
                       alt="Briarwood gated community"
                     />
                   </Link>
@@ -603,7 +603,7 @@ function ServiceAreaPage(props) {
                     <Image
                       height={600}
                       width={840}
-                      src="https://dallashomewatch.com/images/locations/map-of-Northwood-Hills-860x600.jpg"
+                      src="https://www.dallashomewatch.com/images/locations/map-of-Northwood-Hills-860x600.jpg"
                       alt="Northwood-Hills gated community"
                     />
                   </Link>

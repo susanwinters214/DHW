@@ -9,7 +9,7 @@ function TermsPage() {
         <title>Terms of Service</title>
         <link
           rel="canonical"
-          href="https://dallashomewatch.com/terms-of-service"
+          href="https://www.dallashomewatch.com/terms-of-service"
         />
         <meta
           name="description"
@@ -21,7 +21,7 @@ function TermsPage() {
 
         <meta
           property="og:url"
-          content="https://dallashomewatch.com/terms-of-service"
+          content="https://www.dallashomewatch.com/terms-of-service"
         />
         <meta
           property="og:title"
@@ -33,7 +33,7 @@ function TermsPage() {
         />
         <meta
           property="og:image"
-          content="https://dallashomewatch.com/images/og/terms-service-papers.jpg"
+          content="https://www.dallashomewatch.com/images/og/terms-service-papers.jpg"
         />
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />

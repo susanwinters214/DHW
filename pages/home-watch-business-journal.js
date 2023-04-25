@@ -11,7 +11,7 @@ function HomeWatchBusinessJournalPage(props) {
         <title>Home Watch Business Journal</title>
         <link
           rel="canonical"
-          href="https://dallashomewatch.com/home-watch-business-journal"
+          href="https://www.dallashomewatch.com/home-watch-business-journal"
         ></link>
         <meta
           name="description"
@@ -23,7 +23,7 @@ function HomeWatchBusinessJournalPage(props) {
 
         <meta
           property="og:url"
-          content="https://dallashomewatch.com/home-watch-business-journal"
+          content="https://www.dallashomewatch.com/home-watch-business-journal"
         />
         <meta property="og:title" content="Home Watch Business Journal" />
         <meta
@@ -32,7 +32,7 @@ function HomeWatchBusinessJournalPage(props) {
         />
         <meta
           property="og:image"
-          content="https://dallashomewatch.com/images/logos/home-watch-business-journal.jpg"
+          content="https://www.dallashomewatch.com/images/logos/home-watch-business-journal.jpg"
         />
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />
@@ -83,7 +83,7 @@ function HomeWatchBusinessJournalPage(props) {
                     </p>
                     <div className="image centered">
                       <Image
-                        src="https://dallashomewatch.com/images/logos/home-watch-business-journal-BOOK-COVER.jpg"
+                        src="https://www.dallashomewatch.com/images/logos/home-watch-business-journal-BOOK-COVER.jpg"
                         alt="Home Watch Business-Journal"
                         width={300}
                         height={447}

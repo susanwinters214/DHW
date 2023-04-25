@@ -13,7 +13,7 @@ function ResourcesPage(props) {
         <meta name="robots" content="noindex"></meta>
         <link
           rel="canonical"
-          href="https://dallashomewatch.com/resources"
+          href="https://www.dallashomewatch.com/resources"
         />
         <meta
           name="description"
@@ -25,7 +25,7 @@ function ResourcesPage(props) {
 
         <meta
           property="og:url"
-          content="https://dallashomewatch.com/resources"
+          content="https://www.dallashomewatch.com/resources"
         />
         <meta property="og:title" content="Dallas Home Watch Resources" />
         <meta
@@ -34,7 +34,7 @@ function ResourcesPage(props) {
         />
         <meta
           property="og:image"
-          content="https://dallashomewatch.com/images/og/dallas-home-watch-opening-doors.jpg"
+          content="https://www.dallashomewatch.com/images/og/dallas-home-watch-opening-doors.jpg"
         />
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />

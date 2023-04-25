@@ -7,7 +7,7 @@ function SitemapPage(props) {
     <Fragment>
       <Head>
         <title>Dallas Home Watch Sitemap</title>
-        <link rel="canonical" href="https://dallashomewatch.com/sitemap" />
+        <link rel="canonical" href="https://www.dallashomewatch.com/sitemap" />
         <meta
           name="description"
           content="Sitemap for Dallas Home Watch website. If you have trouble finding anything our website, reach out to our website developer."
@@ -19,7 +19,7 @@ function SitemapPage(props) {
 
         <meta
           property="og:url"
-          content="https://dallashomewatch.com/sitemap"
+          content="https://www.dallashomewatch.com/sitemap"
         />
         <meta property="og:title" content="Dallas Home Watch Sitemap" />
         <meta
@@ -28,7 +28,7 @@ function SitemapPage(props) {
         />
         <meta
           property="og:image"
-          content="https://dallashomewatch.com/images/og/home-watch-news.jpg"
+          content="https://www.dallashomewatch.com/images/og/home-watch-news.jpg"
         />
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />
@@ -143,9 +143,10 @@ function SitemapPage(props) {
                     </Link>
                   </h4>
                   <h4>
-                    <Link href="/blog/streets-of-dallas">Streets of Dallas</Link>
+                    <Link href="/blog/streets-of-dallas">
+                      Streets of Dallas
+                    </Link>
                   </h4>
-                 
                 </section>
               </div>
             </div>

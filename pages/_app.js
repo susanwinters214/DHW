@@ -18,23 +18,23 @@ function MyApp({ Component, pageProps }) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link
           rel="icon"
-          href="https://dallashomewatch.com/images/favicon.ico"
+          href="https://www.dallashomewatch.com/images/favicon.ico"
           type="image/x-icon"
         ></link>
       </Head>
 
       <Script src="js/jquery.min.js" strategy="afterInteractive"></Script>
       <Script
-        src="https://dallashomewatch.com/js/popper.min.js"
+        src="https://www.dallashomewatch.com/js/popper.min.js"
         strategy="afterInteractive"
       ></Script>
       <Script
-        src="https://dallashomewatch.com/js/jquery.fancybox.js"
+        src="https://www.dallashomewatch.com/js/jquery.fancybox.js"
         strategy="afterInteractive"
       ></Script>
       <Script src="js/appear.js" strategy="afterInteractive"></Script>
       <Script
-        src="https://dallashomewatch.com/js/parallax.min.js"
+        src="https://www.dallashomewatch.com/js/parallax.min.js"
         strategy="afterInteractive"
       ></Script>
       <Script src="js/tilt.jquery.min.js" strategy="afterInteractive"></Script>
@@ -47,7 +47,7 @@ function MyApp({ Component, pageProps }) {
       <Script src="js/nav-tool.js" strategy="afterInteractive"></Script>
       <Script src="js/jquery-ui.js" strategy="afterInteractive"></Script>
       <Script
-        src="https://dallashomewatch.com/js/bootstrap.min.js"
+        src="https://www.dallashomewatch.com/js/bootstrap.min.js"
         strategy="afterInteractive"
       ></Script>
       <Script src="js/script.js" strategy="afterInteractive"></Script>

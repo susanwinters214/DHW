@@ -8,7 +8,7 @@ function AboutPage() {
     <Fragment>
       <Head>
         <title>About Dallas Home Watch</title>
-        <link rel="canonical" href="https://dallashomewatch.com/about" />
+        <link rel="canonical" href="https://www.dallashomewatch.com/about" />
         <meta
           name="description"
           content="Dallas Home Watch, owned by Tina Lawson, contracts with clients to watch 
@@ -18,7 +18,10 @@ function AboutPage() {
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
 
-        <meta property="og:url" content="https://dallashomewatch.com/about" />
+        <meta
+          property="og:url"
+          content="https://www.dallashomewatch.com/about"
+        />
         <meta property="og:title" content="Dallas Home Watch" />
         <meta
           property="og:description"
@@ -26,7 +29,7 @@ function AboutPage() {
         />
         <meta
           property="og:image"
-          content="https://dallashomewatch.com/images/og/dallas-home-watch-opening-doors.jpg"
+          content="https://www.dallashomewatch.com/images/og/dallas-home-watch-opening-doors.jpg"
         />
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />
@@ -72,7 +75,7 @@ function AboutPage() {
                     </p>
                     <div className="image centered">
                       <Image
-                        src="https://dallashomewatch.com/images/logos/DWH-onWhite.jpg"
+                        src="https://www.dallashomewatch.com/images/logos/DWH-onWhite.jpg"
                         alt="Dallas Home Watch logo"
                         width={200}
                         height={100}
@@ -131,7 +134,7 @@ function AboutPage() {
                     </Link>
                     <br />
                     Tina Lawson (DHW) receives{" "}
-                    <Link href="https://dallashomewatch.com/news/dallas-home-watch-receives-accreditation">
+                    <Link href="https://www.dallashomewatch.com/news/dallas-home-watch-receives-accreditation">
                       accreditation from the NHWA.
                     </Link>
                   </div>

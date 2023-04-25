@@ -9,7 +9,10 @@ function HomeWatchChecklistPage(props) {
     <Fragment>
       <Head>
         <title>Home Watch Checklist</title>
-        <link rel="canonical" href="https://dallashomewatch.com/homewatch-checklist" />
+        <link
+          rel="canonical"
+          href="https://www.dallashomewatch.com/homewatch-checklist"
+        />
         <meta
           name="description"
           content="Our Home Watch Checklist includes checking household appliances 
@@ -21,7 +24,7 @@ function HomeWatchChecklistPage(props) {
 
         <meta
           property="og:url"
-          content="https://dallashomewatch.com/homewatch-checklist"
+          content="https://www.dallashomewatch.com/homewatch-checklist"
         />
         <meta property="og:title" content="Home Watch Inspection Checklist" />
         <meta
@@ -30,7 +33,7 @@ function HomeWatchChecklistPage(props) {
         />
         <meta
           property="og:image"
-          content="https://dallashomewatch.com/images/og/home-watch-checklist.jpg"
+          content="https://www.dallashomewatch.com/images/og/home-watch-checklist.jpg"
         />
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />

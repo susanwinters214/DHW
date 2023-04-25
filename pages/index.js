@@ -13,7 +13,7 @@ function HomePage(props) {
           property="keywords"
           content="home watch, dallas home watch, home watch in dallas"
         />
-        <link rel="canonical" href="https://dallashomewatch.com"></link>
+        <link rel="canonical" href="https://www.dallashomewatch.com"></link>
         <meta
           name="description"
           content="Dallas Home Watch LLC. provides home watch inspections in the Dallas area. Home watch is a visual inspection of a home looking for obvious issues. "
@@ -25,7 +25,7 @@ function HomePage(props) {
           content="Dallas Home Watch LLC | Home Watch in Dallas"
         />
 
-        <meta property="og:url" content="https://dallashomewatch.com" />
+        <meta property="og:url" content="https://www.dallashomewatch.com" />
         <meta property="og:title" content="Dallas Home Watch" />
         <meta
           property="og:description"
@@ -34,7 +34,7 @@ function HomePage(props) {
         />
         <meta
           property="og:image"
-          content="https://dallashomewatch.com/images/og/dallas-home-watch-logo-skyline-certified.jpg"
+          content="https://www.dallashomewatch.com/images/og/dallas-home-watch-logo-skyline-certified.jpg"
         />
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />
@@ -465,7 +465,7 @@ function HomePage(props) {
               </Link>
               <br />
             </div>
-<br />
+            <br />
             {/* University Park Community Block */}
             <div className="inner-block col-lg-3 col-md-6 col-sm-12 service-area-university-park SAB">
               <Link

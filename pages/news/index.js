@@ -8,7 +8,7 @@ function NewsPage(props) {
     <Fragment>
       <Head>
         <title>Dallas Home Watch News | Home Watch News in Dallas</title>
-        <link rel="canonical" href="https://dallashomewatch.com/news" />
+        <link rel="canonical" href="https://www.dallashomewatch.com/news" />
         <meta
           name="description"
           content="Dallas Home Watch News from social media sites and press releases. Dallas Home Watch is a member of the NHWA and shares industry news about Home Watch."
@@ -20,7 +20,7 @@ function NewsPage(props) {
 
         <meta
           property="og:url"
-          content="https://dallashomewatch.com/news"
+          content="https://www.dallashomewatch.com/news"
         />
         <meta property="og:title" content="Dallas Home Watch News" />
         <meta
@@ -29,7 +29,7 @@ function NewsPage(props) {
         />
         <meta
           property="og:image"
-          content="https://dallashomewatch.com/images/og/home-watch-news.jpg"
+          content="https://www.dallashomewatch.com/images/og/home-watch-news.jpg"
         />
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />

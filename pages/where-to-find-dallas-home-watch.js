@@ -10,7 +10,7 @@ function WhereToFindPage() {
         <title>Where To Find Dallas Home Watch</title>
         <link
           rel="canonical"
-          href="https://dallashomewatch.com/where-to-find-dallas-home-watch"
+          href="https://www.dallashomewatch.com/where-to-find-dallas-home-watch"
         />
         <meta
           name="description"
@@ -23,7 +23,7 @@ function WhereToFindPage() {
 
         <meta
           property="og:url"
-          content="https://dallashomewatch.com/where-to-find-dallas-home-watch"
+          content="https://www.dallashomewatch.com/where-to-find-dallas-home-watch"
         />
         <meta property="og:title" content="Where To Find Dallas Home Watch" />
         <meta
@@ -33,7 +33,7 @@ function WhereToFindPage() {
         />
         <meta
           property="og:image"
-          content="https://dallashomewatch.com/images/og/dallas-skyline-service-areas.jpg"
+          content="https://www.dallashomewatch.com/images/og/dallas-skyline-service-areas.jpg"
         />
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />
@@ -206,7 +206,7 @@ function WhereToFindPage() {
                     <br /> <br />
                     <div className="image">
                       <Image
-                        src="https://dallashomewatch.com/images/logos/DWH-onWhite.jpg"
+                        src="https://www.dallashomewatch.com/images/logos/DWH-onWhite.jpg"
                         alt="Dallas Home Watch logo"
                         width={200}
                         height={100}
@@ -225,7 +225,7 @@ function WhereToFindPage() {
                   >
                     <div className="image centered">
                       <Image
-                        src="https://dallashomewatch.com/images/tina-lawson-400x400.jpg"
+                        src="https://www.dallashomewatch.com/images/tina-lawson-400x400.jpg"
                         alt="Tina Lawson"
                         width={400}
                         height={400}

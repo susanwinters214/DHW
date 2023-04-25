@@ -11,7 +11,7 @@ function KeyHolderPage(props) {
         <title>Key Holder Services | DALLAS HOME WATCH</title>
         <link
           rel="canonical"
-          href="https://dallashomewatch.com/keyholder-services"
+          href="https://www.dallashomewatch.com/keyholder-services"
         />
         <meta
           name="description"
@@ -23,7 +23,7 @@ function KeyHolderPage(props) {
 
         <meta
           property="og:url"
-          content="https://dallashomewatch.com/keyholder-services"
+          content="https://www.dallashomewatch.com/keyholder-services"
         />
         <meta
           property="og:title"
@@ -35,7 +35,7 @@ function KeyHolderPage(props) {
         />
         <meta
           property="og:image"
-          content="https://dallashomewatch.com/images/og/key-holder-services.jpg"
+          content="https://www.dallashomewatch.com/images/og/key-holder-services.jpg"
         />
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />
@@ -132,7 +132,7 @@ function KeyHolderPage(props) {
           </div>
           <div className="image-centered" id="">
             <Image
-              src="https://dallashomewatch.com/images/icons/house-keys.png"
+              src="https://www./images/icons/house-keys.png"
               alt="house keys"
               width={300}
               height={150}
@@ -200,7 +200,7 @@ function KeyHolderPage(props) {
                       the job was complete.
                       <br />
                       <Image
-                        src="https://dallashomewatch.com/images/key-holder/house-with-dormers-on-roof.jpg"
+                        src="https://www.dallashomewatch.com/images/key-holder/house-with-dormers-on-roof.jpg"
                         alt="house with four car garage with dormers on the roof"
                         width={400}
                         height={300}
@@ -209,7 +209,7 @@ function KeyHolderPage(props) {
                       <br />
                       <br />
                       <Image
-                        src="https://dallashomewatch.com/images/key-holder/house-with-dormers-on-roof-removed.jpg"
+                        src="https://www.dallashomewatch.com/images/key-holder/house-with-dormers-on-roof-removed.jpg"
                         alt="house keys"
                         width={400}
                         height={300}

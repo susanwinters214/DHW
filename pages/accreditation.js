@@ -11,7 +11,7 @@ function AccreditationPage(props) {
         <title>Dallas Home Watch - Accredited Member of NHWA</title>
         <link
           rel="canonical"
-          href="https://dallashomewatch.com/accreditation"
+          href="https://www.dallashomewatch.com/accreditation"
         />
         <meta
           name="description"
@@ -24,7 +24,7 @@ function AccreditationPage(props) {
 
         <meta
           property="og:url"
-          content="https://dallashomewatch.com/accreditation"
+          content="https://www.dallashomewatch.com/accreditation"
         />
         <meta property="og:title" content="Dallas Home Watch Accreditation" />
         <meta
@@ -33,7 +33,7 @@ function AccreditationPage(props) {
         />
         <meta
           property="og:image"
-          content="https://dallashomewatch.com/images/og/accredited-home-watch-professional.jpg"
+          content="https://www.dallashomewatch.com/images/og/accredited-home-watch-professional.jpg"
         />
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />
@@ -67,7 +67,7 @@ function AccreditationPage(props) {
                     <Image
                       width={400}
                       height={520}
-                      src="https://dallashomewatch.com/images/national-home-watch-conference.jpg"
+                      src="https://www.dallashomewatch.com/images/national-home-watch-conference.jpg"
                       alt="National Home Watch Association Member"
                     />
                   </div>
@@ -95,7 +95,7 @@ function AccreditationPage(props) {
                     <Image
                       width={500}
                       height={120}
-                      src="https://dallashomewatch.com/images/nhwa-member-logo.jpg"
+                      src="https://www.dallashomewatch.com/images/nhwa-member-logo.jpg"
                       alt="Accredited Home Watch Memeber of National Home Watch Association"
                     />
                     <a
