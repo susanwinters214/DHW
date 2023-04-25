@@ -202,7 +202,7 @@ function AirFiltersPage(props) {
                         <Image
                           width={300}
                           height={120}
-                          src="https://www.dallashomewatch.com/images/blogimg/keyhb/cleaning-upstairs-patio-floor.jpg"
+                          src="/images/blogimg/keyhb/cleaning-upstairs-patio-floor.jpg"
                           alt="workers cleaning porch"
                         />
                       </div>
@@ -210,7 +210,7 @@ function AirFiltersPage(props) {
                         <Image
                           width={300}
                           height={120}
-                          src="https://www.dallashomewatch.com/images/blogimg/keyhb/man-cleaning-mirror-while-on-ladder.jpg"
+                          src="/images/blogimg/keyhb/man-cleaning-mirror-while-on-ladder.jpg"
                           alt="man on ladder cleaning mirror"
                         />
                       </div>
@@ -218,7 +218,7 @@ function AirFiltersPage(props) {
                         <Image
                           width={300}
                           height={120}
-                          src="https://www.dallashomewatch.com/images/blogimg/keyhb/moving-furniture.jpg"
+                          src="/images/blogimg/keyhb/moving-furniture.jpg"
                           alt="man moving furniture"
                         />
                       </div>
