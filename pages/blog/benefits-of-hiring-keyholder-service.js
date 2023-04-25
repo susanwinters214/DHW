@@ -11,7 +11,7 @@ function AirFiltersPage(props) {
         <title>Benefits of Hiring a Key Holder Service</title>
         <link
           rel="canonical"
-          href="https://dallashomewatch.com/blog/benefits-of-hiring-keyholder-service"
+          href="https://www.dallashomewatch.com/blog/benefits-of-hiring-keyholder-service"
         />
         <meta
           name="description"
@@ -22,7 +22,7 @@ function AirFiltersPage(props) {
         <meta property="og:site_name" content="Dallas Home Watch" />
         <meta
           property="og:url"
-          content="https://dallashomewatch.com/blog/benefits-of-hiring-keyholder-service"
+          content="https://www.dallashomewatch.com/blog/benefits-of-hiring-keyholder-service"
         />
         <meta
           property="og:title"
@@ -34,7 +34,7 @@ function AirFiltersPage(props) {
         />
         <meta
           property="og:image"
-          content="https://dallashomewatch.com/images/background/man-cleaning-outside-porch.jpg"
+          content="https://www.dallashomewatch.com/images/background/man-cleaning-outside-porch.jpg"
         />
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />
@@ -202,7 +202,7 @@ function AirFiltersPage(props) {
                         <Image
                           width={300}
                           height={120}
-                          src="https://dallashomewatch.com/images/blogimg/keyhb/cleaning-upstairs-patio-floor.jpg"
+                          src="https://www.dallashomewatch.com/images/blogimg/keyhb/cleaning-upstairs-patio-floor.jpg"
                           alt="workers cleaning porch"
                         />
                       </div>
@@ -210,7 +210,7 @@ function AirFiltersPage(props) {
                         <Image
                           width={300}
                           height={120}
-                          src="https://dallashomewatch.com/images/blogimg/keyhb/man-cleaning-mirror-while-on-ladder.jpg"
+                          src="https://www.dallashomewatch.com/images/blogimg/keyhb/man-cleaning-mirror-while-on-ladder.jpg"
                           alt="man on ladder cleaning mirror"
                         />
                       </div>
@@ -218,7 +218,7 @@ function AirFiltersPage(props) {
                         <Image
                           width={300}
                           height={120}
-                          src="https://dallashomewatch.com/images/blogimg/keyhb/moving-furniture.jpg"
+                          src="https://www.dallashomewatch.com/images/blogimg/keyhb/moving-furniture.jpg"
                           alt="man moving furniture"
                         />
                       </div>
@@ -237,7 +237,7 @@ function AirFiltersPage(props) {
                     </p>
                     <div
                       class="fb-share-button centered"
-                      data-href="https://dallashomewatch.com/blog/benefits-of-hiring-keyholder-service"
+                      data-href="https://www.dallashomewatch.com/blog/benefits-of-hiring-keyholder-service"
                       data-layout=""
                       data-size=""
                     >
