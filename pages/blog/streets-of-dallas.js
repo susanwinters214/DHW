@@ -11,7 +11,7 @@ function StreetsOfDallasPage(props) {
         <title>Streets of Dallas - DALLAS HOME WATCH</title>
         <link
           rel="canonical"
-          href="https://dallashomewatch.com/blog/streets-of-dallas"
+          href="https://www.dallashomewatch.com/blog/streets-of-dallas"
         />
         <meta
           name="description"
@@ -23,7 +23,7 @@ function StreetsOfDallasPage(props) {
 
         <meta
           property="og:url"
-          content="https://dallashomewatch.com/blog/streets-of-dallas"
+          content="https://www.dallashomewatch.com/blog/streets-of-dallas"
         />
         <meta property="og:title" content="Streets-of-Dallas" />
         <meta
@@ -32,7 +32,7 @@ function StreetsOfDallasPage(props) {
         />
         <meta
           property="og:image"
-          content="https://dallashomewatch.com/images/background/dallas-deep-ellum.jpg"
+          content="https://www.dallashomewatch.com/images/background/dallas-deep-ellum.jpg"
         />
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />
@@ -81,7 +81,7 @@ function StreetsOfDallasPage(props) {
                       <Image
                         width={400}
                         height={300}
-                        src="https://dallashomewatch.com/images/blogimg/streets/northaven.jpg"
+                        src="https://www.dallashomewatch.com/images/blogimg/streets/northaven.jpg"
                         alt="Northaven Street in Dallas, Texas"
                       />
                       <br />
@@ -91,7 +91,7 @@ function StreetsOfDallasPage(props) {
                       <Image
                         width={400}
                         height={300}
-                        src="https://dallashomewatch.com/images/blogimg/streets/park-street.jpg"
+                        src="https://www.dallashomewatch.com/images/blogimg/streets/park-street.jpg"
                         alt="Park Street Street in Dallas, Texas"
                       />
                       <br />
@@ -103,7 +103,7 @@ function StreetsOfDallasPage(props) {
                       <Image
                         width={400}
                         height={300}
-                        src="https://dallashomewatch.com/images/blogimg/streets/university-street.jpg"
+                        src="https://www.dallashomewatch.com/images/blogimg/streets/university-street.jpg"
                         alt="University Street in Dallas, Texas"
                       />
                       <br />
@@ -113,7 +113,7 @@ function StreetsOfDallasPage(props) {
                       <Image
                         width={400}
                         height={300}
-                        src="https://dallashomewatch.com/images/blogimg/streets/Beverly.jpg"
+                        src="https://www.dallashomewatch.com/images/blogimg/streets/Beverly.jpg"
                         alt="Beverly in Dallas, Texas"
                       />
                       <br />
@@ -125,7 +125,7 @@ function StreetsOfDallasPage(props) {
                       <Image
                         width={400}
                         height={300}
-                        src="https://dallashomewatch.com/images/blogimg/streets/Preston.jpg"
+                        src="https://www.dallashomewatch.com/images/blogimg/streets/Preston.jpg"
                         alt="Preston Road in Dallas, Texas"
                       />
                       <br />
@@ -135,7 +135,7 @@ function StreetsOfDallasPage(props) {
                       <Image
                         width={400}
                         height={300}
-                        src="https://dallashomewatch.com/images/blogimg/streets/Preston-Forest-shopping-center.jpg"
+                        src="https://www.dallashomewatch.com/images/blogimg/streets/Preston-Forest-shopping-center.jpg"
                         alt="Preston Forest in Dallas, Texas"
                       />
                       <br />
@@ -147,7 +147,7 @@ function StreetsOfDallasPage(props) {
                       <Image
                         width={400}
                         height={300}
-                        src="https://dallashomewatch.com/images/blogimg/streets/Douglas.jpg"
+                        src="https://www.dallashomewatch.com/images/blogimg/streets/Douglas.jpg"
                         alt="Douglas in Oaklawn - Dallas, Texas"
                       />
                       <br />
@@ -157,7 +157,7 @@ function StreetsOfDallasPage(props) {
                       <Image
                         width={400}
                         height={300}
-                        src="https://dallashomewatch.com/images/blogimg/streets/Bordeaux.jpg"
+                        src="https://www.dallashomewatch.com/images/blogimg/streets/Bordeaux.jpg"
                         alt="Bordeaux - Dallas, Texas "
                       />
                       <br />

@@ -11,7 +11,7 @@ function GarageDoorOpenersPage(props) {
         <title>Dallas Home Watch Checks Your Garage Door Openers</title>
         <link
           rel="canonical"
-          href="https://dallashomewatch.com/blog/garage-door-openers"
+          href="https://www.dallashomewatch.com/blog/garage-door-openers"
         />
         <meta
           name="description"
@@ -24,7 +24,7 @@ function GarageDoorOpenersPage(props) {
 
         <meta
           property="og:url"
-          content="https://dallashomewatch.com/blog/garage-door-openers"
+          content="https://www.dallashomewatch.com/blog/garage-door-openers"
         />
         <meta property="og:title" content="Garage Door Openers" />
         <meta
@@ -34,7 +34,7 @@ function GarageDoorOpenersPage(props) {
         />
         <meta
           property="og:image"
-          content="https://dallashomewatch.com/images/blogimg/og-garage-door-openers.jpg"
+          content="https://www.dallashomewatch.com/images/blogimg/og-garage-door-openers.jpg"
         />
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />
@@ -101,7 +101,7 @@ function GarageDoorOpenersPage(props) {
                           <Image
                             width={400}
                             height={460}
-                            src="https://dallashomewatch.com/images/blogimg/garage-door-opener.jpg"
+                            src="https://www.dallashomewatch.com/images/blogimg/garage-door-opener.jpg"
                             alt="Home Watch professional checking garage door opener."
                           />
                         </div>
@@ -187,7 +187,7 @@ function GarageDoorOpenersPage(props) {
                     <br />
                     <div
                       class="fb-share-button centered"
-                      data-href="https://dallashomewatch.com/blog/garage-door-openers"
+                      data-href="https://www.dallashomewatch.com/blog/garage-door-openers"
                       data-layout=""
                       data-size=""
                     >

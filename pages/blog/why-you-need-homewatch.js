@@ -11,7 +11,7 @@ function WhyYouNeedHomewatchPage(props) {
         <title>Why You Need Home Watch</title>
         <link
           rel="canonical"
-          href="https://dallashomewatch.com/blog/why-you-need-homewatch"
+          href="https://www.dallashomewatch.com/blog/why-you-need-homewatch"
         ></link>
         <meta
           name="description"
@@ -23,7 +23,7 @@ function WhyYouNeedHomewatchPage(props) {
 
         <meta
           property="og:url"
-          content="https://dallashomewatch.com/blog/why-you-need-homewatch"
+          content="https://www.dallashomewatch.com/blog/why-you-need-homewatch"
         />
         <meta property="og:title" content="Why You Need Home Watch" />
         <meta
@@ -32,7 +32,7 @@ function WhyYouNeedHomewatchPage(props) {
         />
         <meta
           property="og:image"
-          content="https://dallashomewatch.com/images/blogimg/why-you-need-home-watch-services.jpg"
+          content="https://www.dallashomewatch.com/images/blogimg/why-you-need-home-watch-services.jpg"
         />
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />
@@ -122,7 +122,7 @@ function WhyYouNeedHomewatchPage(props) {
                       <br /> <br />
                       <div className="image centered">
                         <Image
-                          src="https://dallashomewatch.com/images/blogimg/home-breaking-in-door.jpg"
+                          src="https://www.dallashomewatch.com/images/blogimg/home-breaking-in-door.jpg"
                           alt="burlar breaking into house through the door"
                           width={400}
                           height={250}
@@ -143,7 +143,7 @@ function WhyYouNeedHomewatchPage(props) {
                       <br /> <br />
                       <div className="image centered">
                         <Image
-                          src="https://dallashomewatch.com/images/blogimg/mold-mildew-damage.jpg"
+                          src="https://www.dallashomewatch.com/images/blogimg/mold-mildew-damage.jpg"
                           alt="mold and mildew damage"
                           width={400}
                           height={250}
@@ -162,7 +162,7 @@ function WhyYouNeedHomewatchPage(props) {
                       regulating the thermostat.
                       <div className="image centered">
                         <Image
-                          src="https://dallashomewatch.com/images/blogimg/moisture-meter.jpg"
+                          src="https://www.dallashomewatch.com/images/blogimg/moisture-meter.jpg"
                           alt="mold and mildew damage"
                           width={400}
                           height={350}
@@ -188,7 +188,7 @@ function WhyYouNeedHomewatchPage(props) {
                       <br />
                       <div className="image centered">
                         <Image
-                          src="https://dallashomewatch.com/images/blogimg/cleaning-the-oven.jpg"
+                          src="https://www.dallashomewatch.com/images/blogimg/cleaning-the-oven.jpg"
                           alt="cleaning-the-oven"
                           width={400}
                           height={350}
@@ -210,7 +210,7 @@ function WhyYouNeedHomewatchPage(props) {
                     </p>
                     <div className="image centered">
                       <Image
-                        src="https://dallashomewatch.com/images/blogimg/couple-peace-of-mind.jpg"
+                        src="https://www.dallashomewatch.com/images/blogimg/couple-peace-of-mind.jpg"
                         alt="peach of mind"
                         width={400}
                         height={400}
@@ -218,7 +218,7 @@ function WhyYouNeedHomewatchPage(props) {
                     </div>{" "}
                     <div
                       class="fb-share-button"
-                      data-href="https://dallashomewatch.com/blog/why-you-need-homewatch"
+                      data-href="https://www.dallashomewatch.com/blog/why-you-need-homewatch"
                       data-layout=""
                       data-size=""
                     >

@@ -11,7 +11,7 @@ function RefrigeratorsPage(props) {
         <title>Refrigerators - DALLAS HOME WATCH</title>
         <link
           rel="canonical"
-          href="https://dallashomewatch.com/blog/refrigerators"
+          href="https://www.dallashomewatch.com/blog/refrigerators"
         />
         <meta
           name="description"
@@ -23,7 +23,7 @@ function RefrigeratorsPage(props) {
 
         <meta
           property="og:url"
-          content="https://dallashomewatch.com/blog/refrigerators"
+          content="https://www.dallashomewatch.com/blog/refrigerators"
         />
         <meta property="og:title" content="Refrigerators" />
         <meta
@@ -32,7 +32,7 @@ function RefrigeratorsPage(props) {
         />
         <meta
           property="og:image"
-          content="https://dallashomewatch.com/images/blogimg/og-refrigerator.jpg"
+          content="https://www.dallashomewatch.com/images/blogimg/og-refrigerator.jpg"
         />
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />
@@ -112,7 +112,7 @@ function RefrigeratorsPage(props) {
                           <Image
                             width={400}
                             height={500}
-                            src="https://dallashomewatch.com/images/blogimg/refrigerator-dim-light.jpg"
+                            src="https://www.dallashomewatch.com/images/blogimg/refrigerator-dim-light.jpg"
                             alt="refrigerator dim light"
                           />
                         </div>
@@ -171,7 +171,7 @@ function RefrigeratorsPage(props) {
 
                     <div
                       class="fb-share-button centered"
-                      data-href="https://dallashomewatch.com/blog/refrigerators"
+                      data-href="https://www.dallashomewatch.com/blog/refrigerators"
                       data-layout=""
                       data-size=""
                     >

@@ -11,7 +11,7 @@ function WaterLeaksPage(props) {
         <title>Dallas Home Watch Checks Your Home For Water Leaks</title>
         <link
           rel="canonical"
-          href="https://dallashomewatch.com/blog/water-leaks"
+          href="https://www.dallashomewatch.com/blog/water-leaks"
         />
         <meta
           name="description"
@@ -23,7 +23,7 @@ function WaterLeaksPage(props) {
 
         <meta
           property="og:url"
-          content="https://dallashomewatch.com/blog/water-leaks"
+          content="https://www.dallashomewatch.com/blog/water-leaks"
         />
         <meta property="og:title" content="Water Leaks" />
         <meta
@@ -32,7 +32,7 @@ function WaterLeaksPage(props) {
         />
         <meta
           property="og:image"
-          content="https://dallashomewatch.com/images/blogimg/og-water-leak-damage.jpg"
+          content="https://www.dallashomewatch.com/images/blogimg/og-water-leak-damage.jpg"
         />
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />
@@ -102,7 +102,7 @@ function WaterLeaksPage(props) {
                           <Image
                             width={400}
                             height={485}
-                            src="https://dallashomewatch.com/images/blogimg/water-damage-cleanup.jpg"
+                            src="https://www.dallashomewatch.com/images/blogimg/water-damage-cleanup.jpg"
                             alt="water damage cleanup"
                           />
                         </div>
@@ -158,7 +158,7 @@ function WaterLeaksPage(props) {
                           <Image
                             width={400}
                             height={400}
-                            src="https://dallashomewatch.com/images/blogimg/_waterLEAKS/water-damage-16.jpg"
+                            src="https://www.dallashomewatch.com/images/blogimg/_waterLEAKS/water-damage-16.jpg"
                             alt="water damage cleanup"
                           />
                           <br />
@@ -169,7 +169,7 @@ function WaterLeaksPage(props) {
                           <Image
                             width={400}
                             height={400}
-                            src="https://dallashomewatch.com/images/blogimg/_waterLEAKS/water-damage-02.jpg"
+                            src="https://www.dallashomewatch.com/images/blogimg/_waterLEAKS/water-damage-02.jpg"
                             alt="water damage cleanup"
                           />
                           <br />
@@ -184,7 +184,7 @@ function WaterLeaksPage(props) {
                           <Image
                             width={400}
                             height={400}
-                            src="https://dallashomewatch.com/images/blogimg/_waterLEAKS/water-damage-03.jpg"
+                            src="https://www.dallashomewatch.com/images/blogimg/_waterLEAKS/water-damage-03.jpg"
                             alt="water damage cleanup"
                           />
                           <br />
@@ -195,7 +195,7 @@ function WaterLeaksPage(props) {
                           <Image
                             width={400}
                             height={400}
-                            src="https://dallashomewatch.com/images/blogimg/_waterLEAKS/water-damage-04.jpg"
+                            src="https://www.dallashomewatch.com/images/blogimg/_waterLEAKS/water-damage-04.jpg"
                             alt="water damage cleanup"
                           />
                           <br />
@@ -210,7 +210,7 @@ function WaterLeaksPage(props) {
                           <Image
                             width={400}
                             height={400}
-                            src="https://dallashomewatch.com/images/blogimg/_waterLEAKS/water-damage-05.jpg"
+                            src="https://www.dallashomewatch.com/images/blogimg/_waterLEAKS/water-damage-05.jpg"
                             alt="water damage cleanup"
                           />
                           <br />
@@ -221,7 +221,7 @@ function WaterLeaksPage(props) {
                           <Image
                             width={400}
                             height={400}
-                            src="https://dallashomewatch.com/images/blogimg/_waterLEAKS/water-damage-06.jpg"
+                            src="https://www.dallashomewatch.com/images/blogimg/_waterLEAKS/water-damage-06.jpg"
                             alt="water damage cleanup"
                           />
                           <br />
@@ -235,7 +235,7 @@ function WaterLeaksPage(props) {
                           <Image
                             width={400}
                             height={400}
-                            src="https://dallashomewatch.com/images/blogimg/_waterLEAKS/water-damage-07.jpg"
+                            src="https://www.dallashomewatch.com/images/blogimg/_waterLEAKS/water-damage-07.jpg"
                             alt="water damage cleanup"
                           />
                           <br />
@@ -246,7 +246,7 @@ function WaterLeaksPage(props) {
                           <Image
                             width={400}
                             height={400}
-                            src="https://dallashomewatch.com/images/blogimg/_waterLEAKS/water-damage-08.jpg"
+                            src="https://www.dallashomewatch.com/images/blogimg/_waterLEAKS/water-damage-08.jpg"
                             alt="water damage cleanup"
                           />
                           <br />
@@ -260,7 +260,7 @@ function WaterLeaksPage(props) {
                           <Image
                             width={400}
                             height={400}
-                            src="https://dallashomewatch.com/images/blogimg/_waterLEAKS/water-damage-09.jpg"
+                            src="https://www.dallashomewatch.com/images/blogimg/_waterLEAKS/water-damage-09.jpg"
                             alt="water damage cleanup"
                           />
                           <br />
@@ -271,7 +271,7 @@ function WaterLeaksPage(props) {
                           <Image
                             width={400}
                             height={400}
-                            src="https://dallashomewatch.com/images/blogimg/_waterLEAKS/water-damage-10.jpg"
+                            src="https://www.dallashomewatch.com/images/blogimg/_waterLEAKS/water-damage-10.jpg"
                             alt="water damage cleanup"
                           />
                           <br />
@@ -285,7 +285,7 @@ function WaterLeaksPage(props) {
                           <Image
                             width={400}
                             height={400}
-                            src="https://dallashomewatch.com/images/blogimg/_waterLEAKS/water-damage-11.jpg"
+                            src="https://www.dallashomewatch.com/images/blogimg/_waterLEAKS/water-damage-11.jpg"
                             alt="water damage cleanup"
                           />
                           <br />
@@ -296,32 +296,7 @@ function WaterLeaksPage(props) {
                           <Image
                             width={400}
                             height={400}
-                            src="https://dallashomewatch.com/images/blogimg/_waterLEAKS/water-damage-12.jpg"
-                            alt="water damage cleanup"
-                          />
-                          <br />
-                        </div>
-                      </div>
-                    </div>
-                    <br />
-                    <div className="row clearfix">
-                      <div className="image-column col-lg-6 col-md-12 col-sm-14">
-                        <div className="image">
-                          <Image
-                            width={400}
-                            height={400}
-                            src="https://dallashomewatch.com/images/blogimg/_waterLEAKS/water-damage-14.jpg"
-                            alt="water damage cleanup"
-                          />
-                          <br />
-                        </div>
-                      </div>
-                      <div className="image-column col-lg-6 col-md-12 col-sm-12">
-                        <div className="image">
-                          <Image
-                            width={400}
-                            height={400}
-                            src="https://dallashomewatch.com/images/blogimg/_waterLEAKS/water-damage-15.jpg"
+                            src="https://www.dallashomewatch.com/images/blogimg/_waterLEAKS/water-damage-12.jpg"
                             alt="water damage cleanup"
                           />
                           <br />
@@ -335,7 +310,7 @@ function WaterLeaksPage(props) {
                           <Image
                             width={400}
                             height={400}
-                            src="https://dallashomewatch.com/images/blogimg/_waterLEAKS/water-damage-01.jpg"
+                            src="https://www.dallashomewatch.com/images/blogimg/_waterLEAKS/water-damage-14.jpg"
                             alt="water damage cleanup"
                           />
                           <br />
@@ -346,7 +321,32 @@ function WaterLeaksPage(props) {
                           <Image
                             width={400}
                             height={400}
-                            src="https://dallashomewatch.com/images/blogimg/_waterLEAKS/water-damage-17.jpg"
+                            src="https://www.dallashomewatch.com/images/blogimg/_waterLEAKS/water-damage-15.jpg"
+                            alt="water damage cleanup"
+                          />
+                          <br />
+                        </div>
+                      </div>
+                    </div>
+                    <br />
+                    <div className="row clearfix">
+                      <div className="image-column col-lg-6 col-md-12 col-sm-14">
+                        <div className="image">
+                          <Image
+                            width={400}
+                            height={400}
+                            src="https://www.dallashomewatch.com/images/blogimg/_waterLEAKS/water-damage-01.jpg"
+                            alt="water damage cleanup"
+                          />
+                          <br />
+                        </div>
+                      </div>
+                      <div className="image-column col-lg-6 col-md-12 col-sm-12">
+                        <div className="image">
+                          <Image
+                            width={400}
+                            height={400}
+                            src="https://www.dallashomewatch.com/images/blogimg/_waterLEAKS/water-damage-17.jpg"
                             alt="water damage cleanup"
                           />
                           <br />
@@ -362,7 +362,7 @@ function WaterLeaksPage(props) {
                           <Image
                             width={400}
                             height={400}
-                            src="https://dallashomewatch.com/images/blogimg/_waterLEAKS/water-damage-18.jpg"
+                            src="https://www.dallashomewatch.com/images/blogimg/_waterLEAKS/water-damage-18.jpg"
                             alt="water damage cleanup"
                           />
                           <br />
@@ -373,7 +373,7 @@ function WaterLeaksPage(props) {
                           <Image
                             width={400}
                             height={400}
-                            src="https://dallashomewatch.com/images/blogimg/_waterLEAKS/water-damage-19.jpg"
+                            src="https://www.dallashomewatch.com/images/blogimg/_waterLEAKS/water-damage-19.jpg"
                             alt="water damage cleanup"
                           />
                           <br />
@@ -393,7 +393,7 @@ function WaterLeaksPage(props) {
                         target="_blank"
                       >
                         <Image
-                          src="https://dallashomewatch.com/images/blogimg/mold-discovered-during-home-watch-inspection.jpg"
+                          src="https://www.dallashomewatch.com/images/blogimg/mold-discovered-during-home-watch-inspection.jpg"
                           alt="mold found in shower"
                           width={600}
                           height={600}
@@ -421,7 +421,7 @@ function WaterLeaksPage(props) {
 
                     <div
                       class="fb-share-button  centered"
-                      data-href="https://dallashomewatch.com/blog/water-leaks"
+                      data-href="https://www.dallashomewatch.com/blog/water-leaks"
                       data-layout=""
                       data-size=""
                     >

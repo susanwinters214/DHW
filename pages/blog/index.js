@@ -19,7 +19,7 @@ function BlogPage(props) {
 
         <meta
           property="og:url"
-          content="https://dallashomewatch.com/blog"
+          content="https://www.dallashomewatch.com/blog"
         />
         <meta property="og:title" content="Home Watch Blog Articles" />
         <meta
@@ -28,7 +28,7 @@ function BlogPage(props) {
         />
         <meta
           property="og:image"
-          content="https://dallashomewatch.com/images/og/dallas-home-watch-logo-skyline-certified.jpg"
+          content="https://www.dallashomewatch.com/images/og/dallas-home-watch-logo-skyline-certified.jpg"
         />
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />
@@ -198,7 +198,9 @@ function BlogPage(props) {
                   <div className="content">
                     <div className="icon flaticon-file" />
                     <h4>
-                      <Link href="/blog/air-filters">Changing Dirty Air Filters</Link>
+                      <Link href="/blog/air-filters">
+                        Changing Dirty Air Filters
+                      </Link>
                     </h4>
                     <div className="text">
                       Learn the importance of changing your air filters.

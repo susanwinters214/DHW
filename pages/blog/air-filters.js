@@ -11,7 +11,7 @@ function AirFiltersPage(props) {
         <title>Dallas Home Watch Checks Your Air Filters</title>
         <link
           rel="canonical"
-          href="https://dallashomewatch.com/blog/air-filters"
+          href="https://www.dallashomewatch.com/blog/air-filters"
         />
         <meta
           name="description"
@@ -22,7 +22,7 @@ function AirFiltersPage(props) {
         <meta property="og:site_name" content="Dallas Home Watch" />
         <meta
           property="og:url"
-          content="https://dallashomewatch.com/blog/air-filters"
+          content="https://www.dallashomewatch.com/blog/air-filters"
         />
         <meta property="og:title" content="Dirty Air Filters" />
         <meta
@@ -31,7 +31,7 @@ function AirFiltersPage(props) {
         />
         <meta
           property="og:image"
-          content="https://dallashomewatch.com/images/blogimg/og-air-filter-replacement.jpg"
+          content="https://www.dallashomewatch.com/images/blogimg/og-air-filter-replacement.jpg"
         />
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />

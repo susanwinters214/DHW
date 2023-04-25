@@ -13,7 +13,7 @@ function WhyYouNeedHomewatchPage(props) {
         </title>
         <link
           rel="canonical"
-          href="https://dallashomewatch.com/blog/what-to-look-for-in-homewatch-company"
+          href="https://www.dallashomewatch.com/blog/what-to-look-for-in-homewatch-company"
         ></link>
 
         <meta
@@ -26,7 +26,7 @@ function WhyYouNeedHomewatchPage(props) {
 
         <meta
           property="og:url"
-          content="https://dallashomewatch.com/blog/what-to-look-for-in-homewatch-company"
+          content="https://www.dallashomewatch.com/blog/what-to-look-for-in-homewatch-company"
         />
         <meta
           property="og:title"
@@ -38,7 +38,7 @@ function WhyYouNeedHomewatchPage(props) {
         />
         <meta
           property="og:image"
-          content="https://dallashomewatch.com/images/blogimg/man-researching-home-watch-options.jpg"
+          content="https://www.dallashomewatch.com/images/blogimg/man-researching-home-watch-options.jpg"
         />
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />
@@ -125,7 +125,7 @@ function WhyYouNeedHomewatchPage(props) {
 
                     <div className="image centered">
                       <Image
-                        src="https://dallashomewatch.com/images/blogimg/roofers-pic-video.jpg"
+                        src="https://www.dallashomewatch.com/images/blogimg/roofers-pic-video.jpg"
                         width={400}
                         height={300}
                         alt="roofers taking off dormers"
@@ -199,7 +199,7 @@ function WhyYouNeedHomewatchPage(props) {
 
                     <div
                       className="fb-share-button"
-                      data-href="https://dallashomewatch.com/blog/what-to-look-for-in-homewatch-company"
+                      data-href="https://www.dallashomewatch.com/blog/what-to-look-for-in-homewatch-company"
                       data-layout=""
                       data-size=""
                     >
