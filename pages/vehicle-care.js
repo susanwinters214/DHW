@@ -83,7 +83,7 @@ function VehicleCarePage(props) {
                     </p>
                     <div className="image-centered" id="">
                       <Image
-                        src="https://www.dallashomewatch.com/images/og/luxury-car-care.jpg"
+                        src="/images/og/luxury-car-care.jpg"
                         alt="luxury cars stored in garage"
                         width={800}
                         height={150}
