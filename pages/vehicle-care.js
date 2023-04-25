@@ -126,7 +126,7 @@ function VehicleCarePage(props) {
                       <Image
                         width={585}
                         height={460}
-                        src="https://www.dallashomewatch.com/images/car-care/car-battery-bentley.jpg"
+                        src="/images/car-care/car-battery-bentley.jpg"
                         alt="Bentley Battery"
                       />
                     </div>
@@ -151,7 +151,7 @@ function VehicleCarePage(props) {
                       <Image
                         width={585}
                         height={460}
-                        src="https://www.dallashomewatch.com/images/car-care/car-tire-mercedes.jpg"
+                        src="/images/car-care/car-tire-mercedes.jpg"
                         alt="Mercedes Tire"
                       />
                     </div>
@@ -201,7 +201,7 @@ function VehicleCarePage(props) {
                       <Image
                         width={585}
                         height={460}
-                        src="https://www.dallashomewatch.com/images/car-care/garage-door-wireless-keypad-check.jpg"
+                        src="/images/car-care/garage-door-wireless-keypad-check.jpg"
                         alt="inspector checking the garage door wireless keypad"
                       />
                     </div>

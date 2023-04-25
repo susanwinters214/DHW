@@ -83,7 +83,7 @@ function HomeWatchBusinessJournalPage(props) {
                     </p>
                     <div className="image centered">
                       <Image
-                        src="https://www.dallashomewatch.com/images/logos/home-watch-business-journal-BOOK-COVER.jpg"
+                        src="/images/logos/home-watch-business-journal-BOOK-COVER.jpg"
                         alt="Home Watch Business-Journal"
                         width={300}
                         height={447}

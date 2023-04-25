@@ -75,7 +75,7 @@ function AboutPage() {
                     </p>
                     <div className="image centered">
                       <Image
-                        src="https://www.dallashomewatch.com/images/logos/DWH-onWhite.jpg"
+                        src="/images/logos/DWH-onWhite.jpg"
                         alt="Dallas Home Watch logo"
                         width={200}
                         height={100}

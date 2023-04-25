@@ -222,7 +222,7 @@ function FAQsPage(props) {
           <Image
             width={1000}
             height={415}
-            src="https://www.dallashomewatch.com/images/dont-leave-home-without-homewatch-service.jpg"
+            src="/images/dont-leave-home-without-homewatch-service.jpg"
             alt="rearview mirror looking at home leaving"
           />
         </div>

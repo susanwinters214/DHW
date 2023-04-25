@@ -67,7 +67,7 @@ function AccreditationPage(props) {
                     <Image
                       width={400}
                       height={520}
-                      src="https://www.dallashomewatch.com/images/national-home-watch-conference.jpg"
+                      src="/images/national-home-watch-conference.jpg"
                       alt="National Home Watch Association Member"
                     />
                   </div>
@@ -95,7 +95,7 @@ function AccreditationPage(props) {
                     <Image
                       width={500}
                       height={120}
-                      src="https://www.dallashomewatch.com/images/nhwa-member-logo.jpg"
+                      src="/images/nhwa-member-logo.jpg"
                       alt="Accredited Home Watch Memeber of National Home Watch Association"
                     />
                     <a
@@ -128,7 +128,7 @@ function AccreditationPage(props) {
                 data-wow-duration="1500ms"
               >
                 <Image
-                  src="https://dallashomewatch.com/images/logos/home-watch-professional-nhwa-certified.jpg"
+                  src="/images/logos/home-watch-professional-nhwa-certified.jpg"
                   alt="designer column"
                   height={170}
                   width={170}
@@ -208,7 +208,7 @@ function AccreditationPage(props) {
       <section className="fluid-section-two">
         <div className="side-icon">
           <Image
-            src="https://dallashomewatch.com/images/icons/fluid-icon-1.png"
+            src="/images/icons/fluid-icon-1.png"
             alt="designer column"
             height={100}
             width={100}
@@ -326,7 +326,7 @@ function AccreditationPage(props) {
                     <Image
                       width={250}
                       height={100}
-                      src="https://dallashomewatch.com/images/logos/Dallas-Chamber-of-Commerce.jpg"
+                      src="/images/logos/Dallas-Chamber-of-Commerce.jpg"
                       alt="Dallas Chamber of Commerce"
                     />
                   </figure>
@@ -336,7 +336,7 @@ function AccreditationPage(props) {
                     <Image
                       width={250}
                       height={100}
-                      src="https://dallashomewatch.com/images/logos/nhwa-header-logo-250x100.jpg"
+                      src="/images/logos/nhwa-header-logo-250x100.jpg"
                       alt="National Home Watch Association"
                     />
                   </figure>
@@ -346,7 +346,7 @@ function AccreditationPage(props) {
                     <Image
                       width={250}
                       height={100}
-                      src="https://dallashomewatch.com/images/logos/certified-woman-owned-business.jpg"
+                      src="/images/logos/certified-woman-owned-business.jpg"
                       alt="Woman Owned Business"
                     />
                   </figure>
@@ -356,7 +356,7 @@ function AccreditationPage(props) {
                     <Image
                       width={250}
                       height={100}
-                      src="https://dallashomewatch.com/images/logos/NHWA-Certified-Logo-250x100.png"
+                      src="/images/logos/NHWA-Certified-Logo-250x100.png"
                       alt="National Home Watch Certified Member"
                     />
                   </figure>
