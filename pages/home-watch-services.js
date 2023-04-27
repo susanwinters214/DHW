@@ -53,7 +53,6 @@ function HomeWatchServicesPage(props) {
           </ul>
         </div>
       </section>
-
       {/* insert section component with Welcome*/}
       <section className="services-detail-section">
         <div className="auto-container">
@@ -109,7 +108,6 @@ function HomeWatchServicesPage(props) {
           </div>
         </div>
       </section>
-
       <hr id="WhatDoesHWSdo"></hr>
       <section className="services-page-section centered">
         <div className="auto-container">
@@ -907,14 +905,15 @@ function HomeWatchServicesPage(props) {
       <div className="column col-lg-12 col-md-6 col-sm-6 centered">
         <h3>Ready To Hire Home Watch Service?</h3>
         <br />
-
         <Link href="tel:972-982-7050" className="theme-btn btn-style-two">
           <span className="txt">
             CALL DALLAS HOME WATCH
             <i className="phone" />
           </span>
         </Link>
+      
       </div>
+      <br /> <br />
     </Fragment>
   );
 }

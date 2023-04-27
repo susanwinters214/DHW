@@ -60,7 +60,7 @@ function HomeWatchChecklistPage(props) {
         <div className="auto-container">
           <div className="inner-container">
             <div className="lower-content">
-              <h2 className="pageTitle">Home Watch Services Checklist</h2>
+              <h2 className="pageTitle">Home Watch Inspections</h2>
               <br />
               <p>
                 All Certified Home Watch Professionals create a{" "}
@@ -127,7 +127,9 @@ function HomeWatchChecklistPage(props) {
             visit.
           </p>
           <div className="column col-lg-12 col-md-6 col-sm-6">
-            <h3>Dallas Home Watch Checklist for Interior Inspection of Home</h3>
+            <h3 className="mb-10">
+              Home Watch Checklist for Interior Inspection of Home
+            </h3>
             <p>
               An extended leave may mean that the homeowner has disabled certain
               aspects of the property like water or Internet. Our indoor
@@ -180,7 +182,9 @@ function HomeWatchChecklistPage(props) {
           </div>
           <p>&nbsp;</p>
           <div className="column col-lg-12 col-md-6 col-sm-6">
-            <h3>Dallas Home Watch Checklist for Exterior Inspection of Home</h3>
+            <h3 className="mb-10">
+              Home Watch Checklist for Exterior Inspection of Home
+            </h3>
             <p>
               The outside inspection of your home may include removal of mail,
               boxes, and packages; damage to front doorway and entrances;

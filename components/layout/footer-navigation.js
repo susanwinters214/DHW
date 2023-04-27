@@ -47,7 +47,7 @@ function FooterNavigation() {
                         <span className="fa fa-linkedin" />
                       </Link>
                     </li>
-                   
+
                     <li className="facebook">
                       <Link
                         name="gotofacebook"
@@ -78,14 +78,34 @@ function FooterNavigation() {
                         <span className="fa fa-pinterest" />
                       </Link>
                     </li>
+                    <li className="pinterest">
+                      <Link
+                        name="gotopintrest"
+                        rel="noreferrer"
+                        target="_blank"
+                        href="https://www.twitter.com/dallashomewatch"
+                      >
+                        <span className="fa fa-twitter" />
+                      </Link>
+                    </li>
                   </ul>
                   <br />
                   <div className="clear"></div>
                   <br />
                 </div>
+                <br />
                 <span className="white">
-                  Looking for a Home Watch Company outside of Dallas, Texas? &nbsp; See
-                  our{" "}
+                  Looking for another Certified Home Watch Professional? &nbsp;
+                  Verify Creditials Here:{" "}
+                </span>
+                <Link href="https://www.nationalhomewatchassociation.org/chwp-list/">
+                  CHWP
+                </Link>
+                .
+                <br /> <br />
+                <span className="white">
+                  Referrals to other Home Watch Companies outside of Dallas,
+                  Texas: &nbsp; See our{" "}
                 </span>
                 <Link href="/resources">Resources</Link>.
               </div>

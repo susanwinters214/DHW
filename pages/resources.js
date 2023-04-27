@@ -9,7 +9,7 @@ function ResourcesPage(props) {
   return (
     <Fragment>
       <Head>
-        <title>Dallas Home Watch Resources</title>
+        <title>Home Watch Referrals</title>
         <meta name="robots" content="noindex"></meta>
         <link
           rel="canonical"
@@ -64,33 +64,25 @@ function ResourcesPage(props) {
               <div className="content-column col-lg-8 col-md-12 col-sm-12">
                 <div className="inner-column">
                   <div className="sec-title first">
-                    <h2 className="pushdown25">Dallas Home Watch Resources</h2>
+                    <h2 className="pushdown25">Home Watch Referrals</h2>
                   </div>
                   <div className="text">
                     <p className="first">
                       Are you looking for a Home Watch Company that is not in
                       Dallas, Texas? <br />
-                      Here is a list of Home Watch Companies that are located in
-                      different areas:
+                      We are currently working on building a list of Home Watch Companies that are located in
+                      different areas. We will only list Home Watch Companies that are: bonded, insured and have had a background check verfied thru a third party organization.
                     </p>
-                    <h3>Texas Home Watch Businesses</h3>
+
+                    <h3>Michigan Home Watch Business</h3>
                     <Link
-                      href="https://www.texashw.com/"
-                      rel="noopener noreferrer"
-                    >
-                      Texas Home Watch
-                    </Link>
-                    <br /> <br />
-                    <h3>Michigan Home Watch Businesses</h3>
-                    <Link
-                      href="https://ourhomewatcher.com/"
+                      href="https://ourhomewatcher.com/about/"
                       rel="noopener noreferrer"
                     >
                       Our Home Watcher LLC.
                     </Link>
                     <br />
-                    <br />
-                    <br />
+                   <br />
                     <p>
                       If you own a Home Watch company outside of the Dallas,
                       Texas area and you are a Certified Home Watch Professional
