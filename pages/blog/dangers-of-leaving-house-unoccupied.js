@@ -452,17 +452,71 @@ function DangersOfEmptyHousePage(props) {
                       today.
                     </p>
                     <br />
-                    <br />
                     {/*  Your like button code */}
                     <div
-                      class="fb-like"
+                      class="fb-share-button centered"
                       data-href="https://www.dallashomewatch.com/blog/dangers-of-leaving-house-unoccupied"
-                      data-width="350"
                       data-layout=""
-                      data-action=""
                       data-size=""
-                      data-share="true"
-                    ></div>
+                    >
+                      <Link
+                        target="_blank"
+                        href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.dallashomewatch.com%2Fblog%2Fdangers-of-leaving-house-unoccupied&amp;src=sdkpreparse"
+                        class="fb-xfbml-parse-ignore"
+                      >
+                        Share on Facebook
+                      </Link>
+                      <br />
+                    </div>
+                    <br />
+                    <div className="row">
+                      <div className="services-block col-lg-6 col-md-12 col-sm-12 centered">
+                        <div
+                          className="inner-box wow fadeInRight BLUE"
+                          data-wow-delay="150ms"
+                          data-wow-duration="1500ms"
+                        >
+                          <div className="content">
+                            <div className="icon flaticon-file" />
+                            <h4>
+                              <Link href="/blog/what-to-look-for-in-homewatch-company">
+                                Home Watch Company Differences
+                              </Link>
+                            </h4>
+                            <div className="text">
+                              What To Look For in a Home Watch Company
+                            </div>
+                          </div>
+                          <Link
+                            href="/blog/what-to-look-for-in-homewatch-company"
+                            className="arrow flaticon-right"
+                          />
+                        </div>
+                      </div>
+                      <div className="services-block col-lg-6 col-md-12 col-sm-12 centered">
+                        <div
+                          className="inner-box wow fadeInRight BLUE"
+                          data-wow-delay="150ms"
+                          data-wow-duration="1500ms"
+                        >
+                          <div className="content">
+                            <div className="icon flaticon-file" />
+                            <h4>
+                              <Link href="/home-watch-services">
+                                Home Watch Services
+                              </Link>
+                            </h4>
+                            <div className="text">
+                              Home Watch Inspections on Unoccupied Homes
+                            </div>
+                          </div>
+                          <Link
+                            href="/home-watch-services"
+                            className="arrow flaticon-right"
+                          />
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>

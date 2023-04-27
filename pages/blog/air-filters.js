@@ -178,6 +178,56 @@ function AirFiltersPage(props) {
                       >
                         Share on Facebook
                       </Link>
+                      <br />
+                      <br />
+                      <div className="row">
+                        <div className="services-block col-lg-6 col-md-12 col-sm-12 centered">
+                          <div
+                            className="inner-box wow fadeInRight BLUE"
+                            data-wow-delay="150ms"
+                            data-wow-duration="1500ms"
+                          >
+                            <div className="content">
+                              <div className="icon flaticon-file" />
+                              <h4>
+                                <Link href="/blog/refrigerators">
+                                 Checking Your Refrigerators
+                                </Link>
+                              </h4>
+                              <div className="text">
+                                Is Your Refrigerator Running?
+                              </div>
+                            </div>
+                            <Link
+                              href="/blog/refrigerators"
+                              className="arrow flaticon-right"
+                            />
+                          </div>
+                        </div>
+                        <div className="services-block col-lg-6 col-md-12 col-sm-12 centered">
+                          <div
+                            className="inner-box wow fadeInRight BLUE"
+                            data-wow-delay="150ms"
+                            data-wow-duration="1500ms"
+                          >
+                            <div className="content">
+                              <div className="icon flaticon-file" />
+                              <h4>
+                                <Link href="/home-watch-services">
+                                  Home Watch Services
+                                </Link>
+                              </h4>
+                              <div className="text">
+                                Home Watch Inspections on Unoccupied Homes
+                              </div>
+                            </div>
+                            <Link
+                              href="/home-watch-services"
+                              className="arrow flaticon-right"
+                            />
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>

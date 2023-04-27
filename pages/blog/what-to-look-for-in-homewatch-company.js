@@ -20,7 +20,10 @@ function WhyYouNeedHomewatchPage(props) {
           name="description"
           content="Learn What To Look For In A Home Watch Company. It is important to choose the right partner when looking for someone to watch your house while you are away. You need to choose someone you can trust with your keys."
         />
-        <meta property="keywords" content="homewatch company, home watch company" />
+        <meta
+          property="keywords"
+          content="homewatch company, home watch company"
+        />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
@@ -199,7 +202,7 @@ function WhyYouNeedHomewatchPage(props) {
                     <br />
 
                     <div
-                      className="fb-share-button"
+                      className="fb-share-button centered"
                       data-href="https://www.dallashomewatch.com/blog/what-to-look-for-in-homewatch-company"
                       data-layout=""
                       data-size=""
@@ -209,14 +212,62 @@ function WhyYouNeedHomewatchPage(props) {
                         href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.dallashomewatch.com%2Fblog%2Fwhat-to-look-for-in-homewatch-company&amp;src=sdkpreparse"
                         class="fb-xfbml-parse-ignore"
                       >
-                        Share this article on Facebook
+                        Share on Facebook
                       </Link>
                       <br /> <br />
                     </div>
 
                     <br />
-                    <div className="column col-lg-12 col-md-6 col-sm-6">
-                      <h3>Ready To Hire A Home Watch Service Business?</h3>
+                    <div className="row">
+                      <div className="services-block col-lg-6 col-md-12 col-sm-12 centered">
+                        <div
+                          className="inner-box wow fadeInRight BLUE"
+                          data-wow-delay="150ms"
+                          data-wow-duration="1500ms"
+                        >
+                          <div className="content">
+                            <div className="icon flaticon-file" />
+                            <h4>
+                              <Link href="/blog/air-filters">Dirty Air Filters</Link>
+                            </h4>
+                            <div className="text">
+                              The Importance of Changing Air Filters
+                            </div>
+                          </div>
+                          <Link
+                            href="/blog/air-filters"
+                            className="arrow flaticon-right"
+                          />
+                        </div>
+                      </div>
+                      <div className="services-block col-lg-6 col-md-12 col-sm-12 centered">
+                        <div
+                          className="inner-box wow fadeInRight BLUE"
+                          data-wow-delay="150ms"
+                          data-wow-duration="1500ms"
+                        >
+                          <div className="content">
+                            <div className="icon flaticon-file" />
+                            <h4>
+                              <Link href="/home-watch-services">
+                                Home Watch Services
+                              </Link>
+                            </h4>
+                            <div className="text">
+                              Home Watch Inspections on Unoccupied Homes
+                            </div>
+                          </div>
+                          <Link
+                            href="/home-watch-services"
+                            className="arrow flaticon-right"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <br />
+                    <br />
+                    <div className="column col-lg-12 col-md-6 col-sm-6 centered">
+                      <h3>Ready To Hire A Home Watch Company?</h3>
                       <br />
 
                       <Link

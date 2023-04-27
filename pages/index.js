@@ -54,7 +54,7 @@ function HomePage(props) {
             <div className="services-block col-lg-12 col-md-12 col-sm-12">
               <div className="homepagetopcontent">
                 <h1 className="title zindexh1tag h1homepage">
-                  Dallas Home Watch LLC.
+                  Home Watch in Dallas
                 </h1>
                 <h2 className="h2homepage">
                   Home Watch Services in the Dallas area.{" "}

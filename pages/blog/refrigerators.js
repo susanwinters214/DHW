@@ -17,7 +17,10 @@ function RefrigeratorsPage(props) {
           name="description"
           content="Home Watch Services includes checking to make sure that your refrigerator has not lost power. If your refrigerator goes out, you will come home to spoiled food."
         />
-        <meta property="keywords" content="refrigerator check, home watch services" />
+        <meta
+          property="keywords"
+          content="refrigerator check, home watch services"
+        />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
@@ -167,9 +170,6 @@ function RefrigeratorsPage(props) {
                       food stays fresh and safe to eat.{" "}
                     </p>
 
-                    <br />
-                    <br />
-
                     <div
                       class="fb-share-button centered"
                       data-href="https://www.dallashomewatch.com/blog/refrigerators"
@@ -183,6 +183,56 @@ function RefrigeratorsPage(props) {
                       >
                         Share on Facebook
                       </Link>
+                      <br />
+                      <br />
+                      <div className="row">
+                        <div className="services-block col-lg-6 col-md-12 col-sm-12 centered">
+                          <div
+                            className="inner-box wow fadeInRight BLUE"
+                            data-wow-delay="150ms"
+                            data-wow-duration="1500ms"
+                          >
+                            <div className="content">
+                              <div className="icon flaticon-file" />
+                              <h4>
+                                <Link href="/blog/water-leaks">
+                                  Checking For Water Leaks
+                                </Link>
+                              </h4>
+                              <div className="text">
+                                Avoid Large Water Bills From Leaks
+                              </div>
+                            </div>
+                            <Link
+                              href="/blog/water-leaks"
+                              className="arrow flaticon-right"
+                            />
+                          </div>
+                        </div>
+                        <div className="services-block col-lg-6 col-md-12 col-sm-12 centered">
+                          <div
+                            className="inner-box wow fadeInRight BLUE"
+                            data-wow-delay="150ms"
+                            data-wow-duration="1500ms"
+                          >
+                            <div className="content">
+                              <div className="icon flaticon-file" />
+                              <h4>
+                                <Link href="/home-watch-services">
+                                  Home Watch Services
+                                </Link>
+                              </h4>
+                              <div className="text">
+                                Home Watch Inspections on Unoccupied Homes
+                              </div>
+                            </div>
+                            <Link
+                              href="/home-watch-services"
+                              className="arrow flaticon-right"
+                            />
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
