@@ -94,7 +94,7 @@ function DHWreceivesAccredPage(props) {
                         <Image
                           width={200}
                           height={100}
-                          src="https://www.dallashomewatch.com/images/site/tina-lawson-dallas-nhwa.png"
+                          src="https://dallashomewatch.com/images/site/tina-lawson-dallas-nhwa.png"
                           alt="Tina Lawson with NHWA"
                         />
                       </div>
@@ -105,7 +105,7 @@ function DHWreceivesAccredPage(props) {
                           <Image
                             width={200}
                             height={100}
-                            src="https://www.dallashomewatch.com/images/logos/NHWA-Boot-Camp-Logo.jpg"
+                            src="https://dallashomewatch.com/images/logos/NHWA-Boot-Camp-Logo.jpg"
                             alt="Home Watch Boot Camp"
                           />
                         </div>
