@@ -15,6 +15,7 @@ function TermsPage() {
           name="description"
           content="Dallas Home Watch Terms of Service - Read our Terms of Service for using our website. We created our Terms of Service using a Generator."
         />
+        <meta property="keywords" content="home watch terms of service" />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />

@@ -17,6 +17,7 @@ function AirFiltersPage(props) {
           name="description"
           content="Home Watch Service includes checking all of your air filters to make sure they are clean and if not, replace them."
         />
+        <meta property="keywords" content="home watch air filters" />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />

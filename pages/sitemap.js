@@ -12,7 +12,7 @@ function SitemapPage(props) {
           name="description"
           content="Sitemap for Dallas Home Watch website. If you have trouble finding anything our website, reach out to our website developer."
         />
-
+        <meta property="keywords" content="home watch sitemap" />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />

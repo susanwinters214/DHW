@@ -20,7 +20,7 @@ function DangersOfEmptyHousePage(props) {
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
-
+        <meta property="keywords" content="leaving home, leaving house" />
         <meta
           property="og:url"
           content="https://www.dallashomewatch.com/blog/dangers-of-leaving-house-unoccupied"

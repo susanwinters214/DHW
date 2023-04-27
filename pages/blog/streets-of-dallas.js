@@ -17,6 +17,7 @@ function StreetsOfDallasPage(props) {
           name="description"
           content="View the streets of Dallas as we tour the city looking for unoccupied homes that need Home Watch Services."
         />
+        <meta property="keywords" content="dallas streets, streets of dallas" />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />

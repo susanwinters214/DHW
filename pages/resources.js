@@ -19,6 +19,7 @@ function ResourcesPage(props) {
           name="description"
           content="Dallas Home Watch shares resources for Home Watch Businesses and Home Watch Clients. This page contains discounts to places in Dallas. Save money by visiting the Dallas Home Watch Resources page often."
         />
+        <meta property="keywords" content="home watch resources and referrals" />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
@@ -70,8 +71,11 @@ function ResourcesPage(props) {
                     <p className="first">
                       Are you looking for a Home Watch Company that is not in
                       Dallas, Texas? <br />
-                      We are currently working on building a list of Home Watch Companies that are located in
-                      different areas. We will only list Home Watch Companies that are: bonded, insured and have had a background check verfied thru a third party organization.
+                      We are currently working on building a list of Home Watch
+                      Companies that are located in different areas. We will
+                      only list Home Watch Companies that are: bonded, insured
+                      and have had a background check verfied thru a third party
+                      organization.
                     </p>
 
                     <h3>Michigan Home Watch Business</h3>
@@ -82,7 +86,7 @@ function ResourcesPage(props) {
                       Our Home Watcher LLC.
                     </Link>
                     <br />
-                   <br />
+                    <br />
                     <p>
                       If you own a Home Watch company outside of the Dallas,
                       Texas area and you are a Certified Home Watch Professional

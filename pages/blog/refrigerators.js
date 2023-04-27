@@ -17,6 +17,7 @@ function RefrigeratorsPage(props) {
           name="description"
           content="Home Watch Services includes checking to make sure that your refrigerator has not lost power. If your refrigerator goes out, you will come home to spoiled food."
         />
+        <meta property="keywords" content="refrigerator check, home watch services" />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />

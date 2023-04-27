@@ -17,10 +17,11 @@ function WaterLeaksPage(props) {
           name="description"
           content="Water leaks can cause a lot of damage! Home Watch Service includes checking all of your water sources to make sure there are no water leaks. "
         />
+
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
-
+        <meta property="keywords" content="water leaks, water damage, home watch services" />
         <meta
           property="og:url"
           content="https://www.dallashomewatch.com/blog/water-leaks"

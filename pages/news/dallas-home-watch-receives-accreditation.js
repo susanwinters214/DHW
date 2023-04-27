@@ -20,7 +20,7 @@ function DHWreceivesAccredPage(props) {
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
-
+        <meta property="keywords" content="dallas home watch, home watch accreditation, national home watch association" />
         <meta
           property="og:url"
           content="https://www.dallashomewatch.com/news/dallas-home-watch-receives-accreditation"

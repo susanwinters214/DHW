@@ -16,7 +16,7 @@ function BlogPage(props) {
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
-
+        <meta property="keywords" content="home watch blog articles" />
         <meta
           property="og:url"
           content="https://www.dallashomewatch.com/blog"

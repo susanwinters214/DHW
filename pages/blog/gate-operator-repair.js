@@ -18,6 +18,7 @@ function GateOperatorPage(props) {
           name="description"
           content="Home Watch Company discovered broken gate and called a professional gate company to repair. Read the story."
         />
+        <meta property="keywords" content="gate operator, home watch services" />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
@@ -40,10 +41,7 @@ function GateOperatorPage(props) {
         />
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />
-        <meta
-          property="og:image:alt"
-          content="Big Wood Gate"
-        />
+        <meta property="og:image:alt" content="Big Wood Gate" />
       </Head>
       {/* Facebook Like JS Code*/}
 

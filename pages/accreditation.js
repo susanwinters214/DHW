@@ -17,6 +17,7 @@ function AccreditationPage(props) {
           name="description"
           content="Dallas Home Watch received Accreditation from the National Home Watch Association. You must pass exams, and background checks, have insurance, and be bonded."
         />
+        <meta property="keywords" content="home watch accreditation" />
 
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />

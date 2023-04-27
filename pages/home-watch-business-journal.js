@@ -17,6 +17,10 @@ function HomeWatchBusinessJournalPage(props) {
           name="description"
           content="Home Watch Business Journal was created for Home Watch Business Owners"
         />
+        <meta
+          property="keywords"
+          content="home watch business, home watch business journal"
+        />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Home Watch Business Journal" />

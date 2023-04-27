@@ -18,6 +18,7 @@ function ServiceAreaPage(props) {
           content="Home Watch Services in Dallas Area include Highland Park, University Park, Preston Hollow, Lake Forest, Devonshire, Bluffview, 
           Northwood Hills and Briarwood."
         />
+        <meta property="keywords" content="home watch service area, dallas home watch" />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />

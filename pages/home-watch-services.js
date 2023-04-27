@@ -17,6 +17,10 @@ function HomeWatchServicesPage(props) {
           name="description"
           content="Home Watch Services: 'What Does A Home Watch Service Do?' Home Watchers inspect the interior and exterior of a residential property looking for obvious issues."
         />
+        <meta
+          property="keywords"
+          content="home watch, home watch services"
+        />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
@@ -911,7 +915,6 @@ function HomeWatchServicesPage(props) {
             <i className="phone" />
           </span>
         </Link>
-      
       </div>
       <br /> <br />
     </Fragment>

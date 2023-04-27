@@ -11,7 +11,7 @@ function HomePage(props) {
         <title>HOME WATCH SERVICES by Dallas Home Watch LLC.</title>
         <meta
           property="keywords"
-          content="home watch, dallas home watch, home watch in dallas"
+          content="home watch, dallas home watch, home watch dallas"
         />
         <link rel="canonical" href="https://www.dallashomewatch.com"></link>
         <meta
@@ -585,6 +585,7 @@ function HomePage(props) {
           </span>
         </Link>
       </div>
+      <br /><br />
     </Fragment>
   );
 }

@@ -17,6 +17,7 @@ function HowToCustomizeAppleWatchBkgrndPage(props) {
           name="description"
           content="Learn How To Customize Your Apple Watch Background to a photo of your Home or your Logo. Follow our easy instructions with photos."
         />
+        <meta property="keywords" content="home watch background, watch background homewatch logo" />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />

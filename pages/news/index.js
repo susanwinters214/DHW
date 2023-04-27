@@ -13,7 +13,7 @@ function NewsPage(props) {
           name="description"
           content="Dallas Home Watch News from social media sites and press releases. Dallas Home Watch is a member of the NHWA and shares industry news about Home Watch."
         />
-
+        <meta property="keywords" content="home watch news" />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
