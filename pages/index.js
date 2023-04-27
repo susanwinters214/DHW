@@ -24,7 +24,7 @@ function HomePage(props) {
           property="og:site_name"
           content="Dallas Home Watch LLC | Home Watch in Dallas"
         />
-        
+
         <meta property="og:url" content="https://www.dallashomewatch.com" />
         <meta property="og:title" content="Dallas Home Watch" />
         <meta
@@ -54,7 +54,7 @@ function HomePage(props) {
             <div className="services-block col-lg-12 col-md-12 col-sm-12">
               <div className="homepagetopcontent">
                 <h1 className="title zindexh1tag h1homepage">
-                  Home Watch in Dallas
+                  Welcome to Dallas Home Watch
                 </h1>
                 <h2 className="h2homepage">
                   Home Watch Services in the Dallas area.{" "}
@@ -585,7 +585,8 @@ function HomePage(props) {
           </span>
         </Link>
       </div>
-      <br /><br />
+      <br />
+      <br />
     </Fragment>
   );
 }
