@@ -17,10 +17,7 @@ function HomeWatchServicesPage(props) {
           name="description"
           content="Home Watch Services: 'What Does A Home Watch Service Do?' Home Watchers inspect the interior and exterior of a residential property looking for obvious issues."
         />
-        <meta
-          property="keywords"
-          content="home watch, home watch services"
-        />
+        <meta property="keywords" content="home watch, home watch services" />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
@@ -69,7 +66,7 @@ function HomeWatchServicesPage(props) {
                 who are away for extended periods of time. The purpose of these
                 services is to ensure the safety, security, and maintenance of
                 the property while the homeowners are away. Home Watch Services
-                typically inclue a range of services, including regular
+                typically include a range of services, including regular
                 inspections of the home and property, checking for signs of
                 damage or wear and tear, ensuring that all doors and windows are
                 secure, and checking for signs of pests or other issues that
@@ -150,7 +147,7 @@ function HomeWatchServicesPage(props) {
                         width={530}
                         height={416}
                         src="/images/hw-check/security-alarm-inspection.jpg"
-                        alt="home security alarm inspection"
+                        alt="home watcher checking security alarm"
                       />
                     </div>
                   </div>
@@ -174,7 +171,7 @@ function HomeWatchServicesPage(props) {
                         width={530}
                         height={416}
                         src="/images/hw-check/faucet-sink-inspection.jpg"
-                        alt="running water faucet"
+                        alt="home watcher running water faucet"
                       />
                     </div>
                   </div>
@@ -227,7 +224,7 @@ function HomeWatchServicesPage(props) {
                         If you do not currently have a WaterCop System, Dallas
                         Home Watch offers{" "}
                         <Link href="/keyholder-services">
-                          Home Watch Key Holder
+                          Key Holder Services
                         </Link>{" "}
                         which enables us to meet with technicians for
                         installations.
@@ -288,7 +285,7 @@ function HomeWatchServicesPage(props) {
                         into the tank and the flapper is sealed. We turn the
                         water on and off in the tubs and check the surrounding
                         areas for{" "}
-                        <Link href="/blog/water-leaks">water leaks</Link> .
+                        <Link href="/blog/water-leaks">water leaks</Link>.
                       </p>
                     </div>
                   </div>
@@ -339,7 +336,7 @@ function HomeWatchServicesPage(props) {
                           width={530}
                           height={416}
                           src="/images/hw-check/refrigerator-inspection.jpg"
-                          alt="refrigerator inspection"
+                          alt="homewatcher inspecting refrigerator"
                         />
                       </div>
                     </div>
@@ -363,7 +360,7 @@ function HomeWatchServicesPage(props) {
                           width={530}
                           height={416}
                           src="/images/hw-check/bar-sink-inspection.jpg"
-                          alt="bar sink inspection"
+                          alt="homewatcher inspecting bar sink"
                         />
                       </div>
                     </div>
@@ -416,11 +413,10 @@ function HomeWatchServicesPage(props) {
                         </p>
                         <p>
                           <Link href="/keyholder-services">
-                            Home Watch Key Holder
+                            Key Holder Services
                           </Link>{" "}
-                          service enables us to meet with your media equipment
-                          company to set up new services or install new
-                          equipment.
+                          enables us to meet with your media equipment company
+                          to set up new services or install new equipment.
                         </p>
                       </div>
                     </div>
@@ -433,7 +429,7 @@ function HomeWatchServicesPage(props) {
                           width={530}
                           height={416}
                           src="/images/hw-check/electronics-closet-inspection.jpg"
-                          alt="media equipment inspection"
+                          alt="homewatcher inspecting media equipment"
                         />
                       </div>
                     </div>
@@ -457,7 +453,7 @@ function HomeWatchServicesPage(props) {
                           width={530}
                           height={416}
                           src="/images/hw-check/router-inspection.jpg"
-                          alt="troubleshooting home router"
+                          alt="homewatcher troubleshooting internet router"
                         />
                       </div>
                     </div>
@@ -474,13 +470,17 @@ function HomeWatchServicesPage(props) {
                           working properly and can reboot the router when
                           necessary.{" "}
                         </p>
+                        
                         <p>
+                          Did your internet company tell you that an
+                          individual age 18 or older must wait for them to
+                          show up within a four hour window but you don't have
+                          time for that? {" "}
                           <Link href="/keyholder-services">
-                            Home Watch Key Holder
+                            Key Holder Services
                           </Link>{" "}
-                          service enables us to meet with your cable / internet
-                          company to set up new service or install new
-                          equipment.
+                          enables us to meet with your cable / internet company
+                          to set up new service or install new equipment.
                         </p>
                       </div>
                     </div>
@@ -526,7 +526,7 @@ function HomeWatchServicesPage(props) {
                           width={530}
                           height={416}
                           src="/images/hw-check/air-filter-replacement.jpg"
-                          alt="replacing air filters in attic"
+                          alt="homewatcher replacing air filters in attic"
                         />
                       </div>
                     </div>
@@ -550,7 +550,7 @@ function HomeWatchServicesPage(props) {
                           width={530}
                           height={416}
                           src="/images/hw-check/breaker-box-inspection.jpg"
-                          alt="checking breaker box"
+                          alt="homewatcher checking breaker box"
                         />
                       </div>
                     </div>
@@ -598,7 +598,7 @@ function HomeWatchServicesPage(props) {
                           width={530}
                           height={416}
                           src="/images/hw-check/attic-ac-inspection.jpg"
-                          alt="air conditioner inspection in 
+                          alt="homewatcher inspecting air conditioner in 
                         attic"
                         />
                       </div>
@@ -623,7 +623,7 @@ function HomeWatchServicesPage(props) {
                           width={530}
                           height={416}
                           src="/images/hw-check/washing-machine-inspection.jpg"
-                          alt="visual inspection of the washing machine"
+                          alt="homewatcher inspecting the washing machine"
                         />
                       </div>
                     </div>
@@ -641,9 +641,9 @@ function HomeWatchServicesPage(props) {
                         <p>
                           Dallas Home Watch provides{" "}
                           <Link href="/keyholder-services">
-                            Home Watch Key Holder
+                            Key Holder Services
                           </Link>{" "}
-                          service so we can meet with your applicance company
+                          so that we can meet with your applicance company
                           for new delivery and installations or repairs and
                           maintenance to your equipment.
                         </p>
@@ -678,7 +678,7 @@ function HomeWatchServicesPage(props) {
                           Read why we check your{" "}
                           <Link href="/blog/garage-door-openers">
                             garage door openers
-                          </Link>
+                          </Link>.
                         </p>
                       </div>
                     </div>
@@ -691,7 +691,7 @@ function HomeWatchServicesPage(props) {
                           width={585}
                           height={460}
                           src="/images/car-care/garage-door-openers.jpg"
-                          alt="Tina Lawson checking garage doors and openers"
+                          alt="Homewatcher inpecting garage doors and openers"
                         />
                       </div>
                     </div>

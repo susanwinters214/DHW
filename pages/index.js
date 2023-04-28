@@ -53,12 +53,8 @@ function HomePage(props) {
           <div className="row clearfix">
             <div className="services-block col-lg-12 col-md-12 col-sm-12">
               <div className="homepagetopcontent">
-                <h1 className="title zindexh1tag h1homepage">
-                  Welcome to Dallas Home Watch
-                </h1>
-                <h2 className="h2homepage">
-                  Home Watch Services in the Dallas area.{" "}
-                </h2>
+                <h1 className="title zindexh1tag h1homepage">Home Watch</h1>
+                <h2 className="h2homepage">Home Watch Services in Dallas </h2>
                 <div className="bannerbox btns-box centered">
                   <Link
                     href="/home-watch-services"
@@ -95,7 +91,10 @@ function HomePage(props) {
                     <h2>Home Watch in Dallas</h2>
                     <p>
                       'Home Watch' is a visual inspection of a home or property,
-                      looking for obvious issues.
+                      looking for obvious issues. Home Watch is sometimes used
+                      as one word - HomeWatch, however HomeWatch is most often
+                      used when referring to home services that provides In-Home Health Care
+                      for senior citizens.
                     </p>
                     <p>
                       <strong>Dallas Home Watch LLC.</strong> offers
@@ -103,9 +102,9 @@ function HomePage(props) {
                       <Link href="/home-watch-services">
                         Home Watch Services
                       </Link>{" "}
-                      to the Dallas, Texas area. We service several
+                      in the Dallas, Texas area. We service several
                       neighborhoods in North Dallas, mid-cities and downtown
-                      Dallas. Our team of professionals provide visual
+                      Dallas. We provide visual
                       inspections of both the interior and exterior of homes and
                       properties, looking for obvious issues that may cause
                       potential damage. We keep homeowners informed of any
@@ -121,16 +120,18 @@ function HomePage(props) {
                       House Sitters or Property Managers, Dallas Home Watch is a
                       fully accredited and bonded company that prioritizes the
                       care and <strong>maintenance of your home</strong>. We are
-                      committed to providing high-quality services, ensuring
-                      that homeowners can travel worry-free, knowing that their
-                      property is in good hands. Our attention to detail and
-                      expertise in Home Watch Services make Dallas Home Watch a
-                      top choice for homeowners who value peace of mind.
+                      committed to providing high-quality home watch services,
+                      ensuring that homeowners can travel worry-free, knowing
+                      that their property is in good hands. Our attention to
+                      detail and expertise in Home Watch Services make Dallas
+                      Home Watch a top choice for homeowners who value peace of
+                      mind.
                     </p>
                     <p>
                       Don't leave the safety and security of your home to
-                      chance. Trust Dallas Home Watch to provide exceptional
-                      Home Watch Services that exceed your expectations.
+                      chance. Trust Dallas Home Watch to provide exceptional{" "}
+                      <strong>Home Watch Services</strong> that exceed your
+                      expectations.
                     </p>
                   </div>
                 </div>
@@ -145,14 +146,14 @@ function HomePage(props) {
                       width={300}
                       height={300}
                       src="/images/logos/dallas-home-watch-logo-585x300.jpg"
-                      alt="dallas home watch professional checking doors"
+                      alt="dallas Home Watch logo"
                     />
                     <br />
                     <Image
                       width={585}
                       height={725}
                       src="/images/open-front-door-585w.jpg"
-                      alt="dallas home watch professional checking doors"
+                      alt="homewatch professionals entering front door to perform Home Watch Services"
                     />
                   </div>
                   <div
@@ -228,7 +229,7 @@ function HomePage(props) {
             </Link>
             <br />
             <h3 className="gold centered">
-              Watch video above to get the answer to What is Home Watch?
+              What is Home Watch? - Watch the video above
             </h3>
           </div>
         </div>
@@ -297,8 +298,9 @@ function HomePage(props) {
                             <Image
                               width={585}
                               height={350}
+                              title="HomeWatch proforming Home Watch Services"
                               src="/images/home-watch-professional-front-entry.jpg"
-                              alt="home-watch-professional-checking-doors"
+                              alt="homewatch professional going in door to perform home watch services"
                             />
                           </div>
                         </div>
@@ -345,10 +347,10 @@ function HomePage(props) {
               <div className="column col-lg-6 col-md-6 col-sm-12">
                 <h3 className="mb-10">National Home Watch Association</h3>
                 <p>
-                  Dallas Home Watch is an accredited member of the National Home
-                  Watch Association. The National Home Watch Association (NHWA)
-                  is a multi-national organization founded in 2009 to bring
-                  together business owners in the home watch industry and
+                  Dallas Home Watch LLC. is an accredited member of the National
+                  Home Watch Association. The National Home Watch Association
+                  (NHWA) is a multi-national organization founded in 2009 to
+                  bring together business owners in the home watch industry and
                   provide standards by which the members must live and operate
                   their companies.
                 </p>{" "}
@@ -356,7 +358,7 @@ function HomePage(props) {
                   We operate our business in accordance with the mission
                   statement laid out by the National Home Watch Association.
                 </p>
-                <br />
+             
                 <Link
                   href="/accreditation"
                   rel="noreferrer nofollow"
@@ -366,9 +368,10 @@ function HomePage(props) {
                     width={300}
                     height={120}
                     src="/images/nhwa-member-logo.jpg"
-                    alt="Accredited Home Watch Memeber of National Home Watch Association"
+                    alt="Accredited Member of the National Home Watch Association"
                   />
                 </Link>
+               <br />
                 <br />
                 <p className="mb-10">
                   As a National Home Watch Association member, we are constantly
@@ -379,7 +382,11 @@ function HomePage(props) {
                   teaches us how to avoid or remediate them. Our goal is to
                   protect your property and assets in the best ways possible.
                 </p>
-                <br /> <br />
+                <p>
+                  Dallas Home Watch LLC is a local, woman-owned business that provides Home Watch Services.
+                  Tina Lawson, owner of Dallas Home Watch, is a Certified Home
+                  Watch Professional. Certification #05220241
+                </p>
               </div>
               {/* Column */}
               <div className="column col-lg-6 col-md-6 col-sm-12">
