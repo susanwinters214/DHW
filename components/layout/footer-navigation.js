@@ -103,11 +103,7 @@ function FooterNavigation() {
                 </Link>
                 .
                 <br /> <br />
-                <span className="white">
-                  Referrals to other Home Watch Companies outside of Dallas,
-                  Texas: &nbsp; See our{" "}
-                </span>
-                <Link href="/resources">Resources</Link>.
+              
               </div>
             </div>
 
