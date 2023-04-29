@@ -57,21 +57,6 @@ function ResourcesPage(props) {
         </div>
       </section>
 
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
       <section className="case-section">
         <div className="auto-container">
           <div className="inner-container">
@@ -93,7 +78,7 @@ function ResourcesPage(props) {
                       organization.
                     </p>
 
-                    <h3>Michigan Home Watch Business</h3>
+                    
                     <Link
                       href="https://ourhomewatcher.com/about/"
                       rel="noopener noreferrer"

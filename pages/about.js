@@ -2,6 +2,7 @@ import { Fragment } from "react";
 import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
+import Script from "next/script";
 
 function AboutPage() {
   return (
@@ -201,6 +202,12 @@ function AboutPage() {
           </div>
         </div>
       </section>
+
+
+  <Script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/39631200.js"></Script>
+
+
+
     </Fragment>
   );
 }
