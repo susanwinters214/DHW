@@ -57,6 +57,21 @@ function ResourcesPage(props) {
         </div>
       </section>
 
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       <section className="case-section">
         <div className="auto-container">
           <div className="inner-container">

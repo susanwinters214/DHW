@@ -26,6 +26,8 @@
 .smaller {
   font-size: 0.5em;
 }
+.tiny{font-size: 11px;}
+
 .bigDallasSkyline {
   margin-top: -100px;
 }
@@ -37,6 +39,11 @@ hr {
   height: 0px;
   color: white;
 }
+.bg-universityparkbridge {
+  background-image: url(/images/background/university-park-texas-bridge.jpg);
+}
+
+
 .bg-gaterepair {
   background-image: url(/images/blogimg/big-open-gate.jpg);
 }
