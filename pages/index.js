@@ -93,8 +93,8 @@ function HomePage(props) {
                       'Home Watch' is a visual inspection of a home or property,
                       looking for obvious issues. Home Watch is sometimes used
                       as one word - HomeWatch, however HomeWatch is most often
-                      used when referring to home services that provides In-Home Health Care
-                      for senior citizens.
+                      used when referring to home services that provides In-Home
+                      Health Care for senior citizens.
                     </p>
                     <p>
                       <strong>Dallas Home Watch LLC.</strong> offers
@@ -104,12 +104,11 @@ function HomePage(props) {
                       </Link>{" "}
                       in the Dallas, Texas area. We service several
                       neighborhoods in North Dallas, mid-cities and downtown
-                      Dallas. We provide visual
-                      inspections of both the interior and exterior of homes and
-                      properties, looking for obvious issues that may cause
-                      potential damage. We keep homeowners informed of any
-                      issues and follow the client's instructions regarding a
-                      resolution and cure for them.
+                      Dallas. We provide visual inspections of both the interior
+                      and exterior of homes and properties, looking for obvious
+                      issues that may cause potential damage. We keep homeowners
+                      informed of any issues and follow the client's
+                      instructions regarding a resolution and cure for them.
                     </p>
                     <br />
                     <h3>Not House Sitter or Property Manager</h3>
@@ -358,7 +357,6 @@ function HomePage(props) {
                   We operate our business in accordance with the mission
                   statement laid out by the National Home Watch Association.
                 </p>
-             
                 <Link
                   href="/accreditation"
                   rel="noreferrer nofollow"
@@ -371,7 +369,7 @@ function HomePage(props) {
                     alt="Accredited Member of the National Home Watch Association"
                   />
                 </Link>
-               <br />
+                <br />
                 <br />
                 <p className="mb-10">
                   As a National Home Watch Association member, we are constantly
@@ -383,9 +381,10 @@ function HomePage(props) {
                   protect your property and assets in the best ways possible.
                 </p>
                 <p>
-                  Dallas Home Watch LLC is a local, woman-owned business that provides Home Watch Services.
-                  Tina Lawson, owner of Dallas Home Watch, is a Certified Home
-                  Watch Professional. Certification #05220241
+                  Dallas Home Watch LLC is a local, woman-owned business that
+                  provides Home Watch Services. Tina Lawson, owner of Dallas
+                  Home Watch, is a Certified Home Watch Professional.
+                  Certification #05220241
                 </p>
               </div>
               {/* Column */}
@@ -463,43 +462,72 @@ function HomePage(props) {
         <div className="inner-column">
           <div className="row SAB">
             {/* Highland Park Gated Community Block */}
-            <div className="inner-block col-lg-3 col-md-6 col-sm-12 service-area-highland-park SAB">
+            <div className="inner-block col-lg-3 col-md-6 col-sm-12  SAB">
               <Link
                 href="service-areas#HighlandPark"
                 className="service-area-block"
               >
-                <span className="streetblock">Highland Park</span>
+                <Image
+                  src="/images/highland-park-street-sign.png"
+                  alt="Highland Park street sign"
+                  width={265}
+                  height={0}
+                />
+                <br />
+                <span className="streetblock2">Highland Park</span>
               </Link>
               <br />
             </div>
             <br />
             {/* University Park Community Block */}
-            <div className="inner-block col-lg-3 col-md-6 col-sm-12 service-area-university-park SAB">
+            <div className="inner-block col-lg-3 col-md-6 col-sm-12  SAB">
               <Link
                 href="service-areas#UniversityPark"
                 className="service-area-block"
               >
-                <span className="streetblock">University Park</span>
+                <Image
+                  src="/images/university-park-bridge.png"
+                  alt="University Park street sign"
+                  width={265}
+                  height={0}
+                />
+                <br />
+
+                <span className="streetblock2">University Park</span>
               </Link>
             </div>
 
             {/* Lake Forest Block */}
-            <div className="inner-block col-lg-3 col-md-6 col-sm-12 service-area-lake-forest SAB">
+            <div className="inner-block col-lg-3 col-md-6 col-sm-12 SAB">
               <Link
                 href="service-areas#LakeForest"
                 className="service-area-block"
               >
-                <span className="streetblock">Lake Forest</span>
+                <Image
+                  src="/images/estates-of-lake-forest2.jpg"
+                  alt="Estates of Lake Forest"
+                  width={265}
+                  height={0}
+                />
+                <br />
+                <span className="streetblock2">Lake Forest</span>
               </Link>
             </div>
 
             {/* Northwood Hills Gated Community Block*/}
-            <div className="inner-block col-lg-3 col-md-6 col-sm-12 service-area-northwood-hills SAB">
+            <div className="inner-block col-lg-3 col-md-6 col-sm-12 SAB">
               <Link
                 href="service-areas#NorthwoodHills"
                 className="service-area-block"
               >
-                <span className="streetblock centered">Northwood Hills</span>
+                <Image
+                  src="/images/northwood-hills-neighborhood.png"
+                  alt="Estates of Lake Forest"
+                  width={265}
+                  height={0}
+                />
+                <br />
+                <span className="streetblock2">Northwood Hills</span>
               </Link>
             </div>
           </div>
