@@ -280,6 +280,28 @@ function BlogPage(props) {
                   />
                 </div>
               </div>
+              {/* Blog: Garage Door Openers */}
+              <div className="services-block col-lg-6 col-md-12 col-sm-12">
+                <div
+                  className="inner-box wow fadeInRight BLUE"
+                  data-wow-delay="150ms"
+                  data-wow-duration="1500ms"
+                >
+                  <div className="content">
+                    <div className="icon flaticon-file" />
+                    <h4>
+                      <Link href="/blog/gate-operator-repair">Gate Repair</Link>
+                    </h4>
+                    <div className="text">
+                      Home Watch Finds Broken Gate Exposing Property
+                    </div>
+                  </div>
+                  <Link
+                    href="/blog/gate-operator-repair"
+                    className="arrow flaticon-right"
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </div>

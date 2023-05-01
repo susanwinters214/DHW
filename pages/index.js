@@ -464,7 +464,7 @@ function HomePage(props) {
             {/* Highland Park Gated Community Block */}
             <div className="inner-block col-lg-3 col-md-6 col-sm-12  SAB">
               <Link
-                href="service-areas#HighlandPark"
+                href="/home-watch-highland-park-texas"
                 className="service-area-block"
               >
                 <Image
@@ -482,7 +482,7 @@ function HomePage(props) {
             {/* University Park Community Block */}
             <div className="inner-block col-lg-3 col-md-6 col-sm-12  SAB">
               <Link
-                href="service-areas#UniversityPark"
+                href="/home-watch-university-park-texas"
                 className="service-area-block"
               >
                 <Image

@@ -101,17 +101,18 @@ function SAuniversityparkPage(props) {
                     residential homes and travel between them, leaving one
                     unoccupied. Other home watch clients include adult children
                     that care of their elderly parents and ask that we routinely
-                    check their home for any maintenance issues. If either of
+                    check their home for any maintenance issues. If either of these scenarios
                     describe you, give us a call today.
                   </p>
                 </div>
-                <div className="content-column col-lg-6 col-md-12 col-sm-12">
+                <div className="content-column col-lg-6 col-md-12 col-sm-12 centered">
                   <Image
                     width={665}
                     height={665}
                     src="/images/university-park-fountain.jpg"
                     alt="University Park water fountain"
-                  />
+                  /><br />
+                  <span className="tiny">Fountain at University Park</span>
                 </div>
               </div>
             </div>

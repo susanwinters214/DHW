@@ -94,7 +94,7 @@ function SAhighlandparkPage(props) {
                     appliances, water sources, attics and more. Home Watch
                     visits are for homeowners who will be away from their home
                     for long periods of time, leaving their home vunerable to
-                    disasters like water leaks and more.
+                    disasters like <Link href="/blog/water-leaks">water leaks</Link> and more.
                   </p>
                   <p>
                     Clients of Home Watch Services are people who own multiple
@@ -102,20 +102,22 @@ function SAhighlandparkPage(props) {
                     unoccupied. Other home watch clients include adult children
                     that care of their elderly parents and ask that we routinely
                     check their home for any maintenance issues. If either of
-                    describe you, give us a call today.
+                    these scenarios describe you, give us a call today.
                   </p>
                 </div>
                 <div className="content-column col-lg-6 col-md-12 col-sm-12 centered">
                   <br />
-                 
+
                   <Image
                     width={400}
                     height={665}
                     src="/images/highland-park-sign.jpg"
                     alt="Highland Park street sign"
-                  /><br />
-                  <span className="tiny">Highland Park street sign</span><br />
-                 <br />
+                  />
+                  <br />
+                  <span className="tiny">Highland Park street sign</span>
+                  <br />
+                  <br />
                   <div className="column col-lg-12 col-md-6 col-sm-6 centered">
                     <h4>Ready To Hire Home Watch in Highland Park?</h4>
                     <br />

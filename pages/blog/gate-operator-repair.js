@@ -9,7 +9,7 @@ function GateOperatorPage(props) {
     <Fragment>
       <Head>
         <title>Gate Operator Repair - DALLAS HOME WATCH</title>
-        <meta name="robots" content="noindex"></meta>
+       
         <link
           rel="canonical"
           href="https://www.dallashomewatch.com/blog/gate-operator-repair"
