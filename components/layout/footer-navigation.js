@@ -39,7 +39,7 @@ function FooterNavigation() {
                   <ul className="social-nav">
                     <li className="linkedin">
                       <Link
-                        name="gotolinkedin"
+                        name="linkedin"
                         href="https://www.linkedin.com/company/dallas-home-watch/"
                         rel="noreferrer"
                         target="_blank"
@@ -50,7 +50,7 @@ function FooterNavigation() {
 
                     <li className="facebook">
                       <Link
-                        name="gotofacebook"
+                        name="facebook"
                         rel="noreferrer"
                         target="_blank"
                         href="https://www.facebook.com/profile.php?id=100083133612372"
@@ -60,7 +60,7 @@ function FooterNavigation() {
                     </li>
                     <li className="google">
                       <Link
-                        name="gotoyoutube"
+                        name="youtube"
                         rel="noreferrer"
                         target="_blank"
                         href="https://www.youtube.com/channel/UCzl3hTaEB3ds_IyRtJCr3kA"
@@ -70,7 +70,7 @@ function FooterNavigation() {
                     </li>
                     <li className="pinterest">
                       <Link
-                        name="gotopintrest"
+                        name="pintrest"
                         rel="noreferrer"
                         target="_blank"
                         href="https://www.pinterest.com/dallashomewatch/"
@@ -78,9 +78,9 @@ function FooterNavigation() {
                         <span className="fa fa-pinterest" />
                       </Link>
                     </li>
-                    <li className="pinterest">
+                    <li className="twitter">
                       <Link
-                        name="gotopintrest"
+                        name="twitter"
                         rel="noreferrer"
                         target="_blank"
                         href="https://www.twitter.com/dallashomewatch"

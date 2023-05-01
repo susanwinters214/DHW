@@ -48,7 +48,17 @@ function HomePage(props) {
         ></meta>
       </Head>
       {/* top Banner Area */}
-      <section className="page-title pageback-homepage">
+
+      <section className="page-title">
+        <Image
+          src="/images/background/dallas-texas-skyline.jpg"
+            alt="dallas skyline"
+            style={{
+              zIndex: -99
+            }}
+          layout="fill"
+          objectFit="cover"
+        />
         <div className="auto-container">
           <div className="row clearfix">
             <div className="services-block col-lg-12 col-md-12 col-sm-12">
@@ -61,7 +71,7 @@ function HomePage(props) {
                     className="theme-btn btn-style-two"
                   >
                     <span className="txt">
-                      Home Watch Services
+                      CALL FOR APPOINTMENT
                       <i className="phone" />
                     </span>
                   </Link>
@@ -72,6 +82,7 @@ function HomePage(props) {
           </div>
         </div>
       </section>
+  
       {/* 4 BLOCKS */}
 
       <section className="welcome-section MOVEUP">{/* 4 blocks */}</section>
@@ -143,7 +154,7 @@ function HomePage(props) {
                     <br />
                     <Image
                       width={300}
-                      height={300}
+                      height={200}
                       src="/images/logos/dallas-home-watch-logo-585x300.jpg"
                       alt="dallas Home Watch logo"
                     />
@@ -188,9 +199,7 @@ function HomePage(props) {
       <section className="counter-section">
         <div
           className="image-layer"
-          style={{
-            backgroundImage: "url(images/background/water-damage-ceiling.jpg)",
-          }}
+         
         />
         <div className="auto-container">
           {/* Sec Title */}
@@ -206,10 +215,7 @@ function HomePage(props) {
               to fix small problems before they become big issues.
             </div>
           </div>
-          {/*REMOVE THIS AREA*/}
-          <div className="fact-counter">
-            <div className="row clearfix"></div>
-          </div>
+        
           {/*Video Box*/}
           <div className="video-boxed">
             <Link
