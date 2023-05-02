@@ -41,7 +41,16 @@ function AccreditationPage(props) {
         <meta property="og:image:alt" content="Acceptance of Award" />
       </Head>
       {/* insert top banner with Page Title & Breadcrumb*/}
-      <section className="page-title pageback-accred">
+      <section className="page-title">
+        <Image
+          src="/images/background/certification.jpg"
+          alt="certification"
+          style={{
+            zIndex: -99,
+          }}
+          layout="fill"
+          objectFit="cover"
+        />
         <div className="auto-container">
           <h1>Accreditation</h1>
           <ul className="page-breadcrumb">
@@ -66,9 +75,9 @@ function AccreditationPage(props) {
                     data-wow-duration="1500ms"
                   >
                     <Image
-                      width={400}
-                      height={520}
-                      src="/images/national-home-watch-conference.jpg"
+                      width={300}
+                      height={320}
+                      src="/images/site/tina-lawson-dallas-nhwa.png"
                       alt="National Home Watch Association Member"
                     />
                   </div>

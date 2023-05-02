@@ -55,7 +55,16 @@ function WaterLeaksPage(props) {
         nonce="YgyAkD1n"
       ></script>
       {/* insert top banner with Page Title & Breadcrumb*/}
-      <section className="page-title bg-waterleaks">
+      <section className="page-title">
+        <Image
+          src="/images/blogimg/og-water-leak-damage.jpg"
+          layout="fill"
+          objectFit="cover"
+          alt="water damage on floor, humidifier blowing air on baseboard"
+          style={{
+            zIndex: -99,
+          }}
+        />
         <div className="auto-container">
           <h1>Water Leaks</h1>
           <ul className="page-breadcrumb">
@@ -404,7 +413,7 @@ function WaterLeaksPage(props) {
                         />
                       </Link>
                     </div>
-                 <br />
+                    <br />
 
                     <div
                       class="fb-share-button  centered"

@@ -43,7 +43,16 @@ function SAuniversityparkPage(props) {
         <meta property="og:image:alt" content="University Park" />
       </Head>
       {/* insert top banner with Page Title & Breadcrumb*/}
-      <section className="page-title bg-universityparkbridge">
+      <section className="page-title">
+        <Image
+          src="/images/background/university-park-texas-bridge.jpg"
+          alt="home watch university park"
+          style={{
+            zIndex: -99,
+          }}
+          layout="fill"
+          objectFit="cover"
+        />
         <div className="auto-container">
           <h1>Home Watch University Park</h1>
           <ul className="page-breadcrumb">
@@ -101,8 +110,8 @@ function SAuniversityparkPage(props) {
                     residential homes and travel between them, leaving one
                     unoccupied. Other home watch clients include adult children
                     that care of their elderly parents and ask that we routinely
-                    check their home for any maintenance issues. If either of these scenarios
-                    describe you, give us a call today.
+                    check their home for any maintenance issues. If either of
+                    these scenarios describe you, give us a call today.
                   </p>
                 </div>
                 <div className="content-column col-lg-6 col-md-12 col-sm-12 centered">
@@ -111,7 +120,8 @@ function SAuniversityparkPage(props) {
                     height={665}
                     src="/images/university-park-fountain.jpg"
                     alt="University Park water fountain"
-                  /><br />
+                  />
+                  <br />
                   <span className="tiny">Fountain at University Park</span>
                 </div>
               </div>
@@ -183,7 +193,7 @@ function SAuniversityparkPage(props) {
               </Link>
             </div>
           </div>
-<br />
+          <br />
           {/* movies */}
           <div className="row">
             <div className="col-lg-6 col-md-6 col-sm-12 centered">
@@ -211,7 +221,6 @@ function SAuniversityparkPage(props) {
                   allowfullscreen
                 ></iframe>
               </div>
-
             </div>
           </div>
         </div>

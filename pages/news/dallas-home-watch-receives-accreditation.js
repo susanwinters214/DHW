@@ -20,7 +20,10 @@ function DHWreceivesAccredPage(props) {
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
-        <meta property="keywords" content="dallas home watch, home watch accreditation, national home watch association" />
+        <meta
+          property="keywords"
+          content="dallas home watch, home watch accreditation, national home watch association"
+        />
         <meta
           property="og:url"
           content="https://www.dallashomewatch.com/news/dallas-home-watch-receives-accreditation"
@@ -47,7 +50,16 @@ function DHWreceivesAccredPage(props) {
       {/* Facebook Like JS Code*/}
 
       {/* insert top banner with Page Title & Breadcrumb*/}
-      <section className="page-title bg-refrigerators bg-dhwra">
+      <section className="page-title ">
+        <Image
+          src="/images/blogimg/NHWA-received-accreditation.jpg"
+          alt="receiving accreditation from NHWA"
+          style={{
+            zIndex: -99,
+          }}
+          layout="fill"
+          objectFit="cover"
+        />
         <div className="auto-container">
           <h1>Dallas Home Watch receives accreditation from NHWA</h1>
           <ul className="page-breadcrumb">

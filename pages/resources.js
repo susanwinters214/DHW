@@ -19,7 +19,10 @@ function ResourcesPage(props) {
           name="description"
           content="Dallas Home Watch shares resources for Home Watch Businesses and Home Watch Clients. This page contains discounts to places in Dallas. Save money by visiting the Dallas Home Watch Resources page often."
         />
-        <meta property="keywords" content="home watch resources and referrals" />
+        <meta
+          property="keywords"
+          content="home watch resources and referrals"
+        />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
@@ -45,7 +48,16 @@ function ResourcesPage(props) {
         />
       </Head>
       {/* insert top banner with Page Title & Breadcrumb*/}
-      <section className="page-title pageback-about">
+      <section className="page-title">
+        <Image
+          src="/images/background/dallas-texas-skyline.jpg"
+          alt="home watch resources"
+          style={{
+            zIndex: -99,
+          }}
+          layout="fill"
+          objectFit="cover"
+        />
         <div className="auto-container">
           <h1>Resources</h1>
           <ul className="page-breadcrumb">
@@ -78,7 +90,6 @@ function ResourcesPage(props) {
                       organization.
                     </p>
 
-                    
                     <Link
                       href="https://ourhomewatcher.com/about/"
                       rel="noopener noreferrer"

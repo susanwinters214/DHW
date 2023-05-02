@@ -20,7 +20,10 @@ function FAQsPage(props) {
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
-        <meta property="keywords" content="home watch questions, homewatch faqs" />
+        <meta
+          property="keywords"
+          content="home watch questions, homewatch faqs"
+        />
         <meta
           property="og:url"
           content="https://www.dallashomewatch.com/faqs"
@@ -45,7 +48,16 @@ function FAQsPage(props) {
         />
       </Head>
       {/* insert top banner with Page Title & Breadcrumb*/}
-      <section className="page-title bg-FAQ">
+      <section className="page-title">
+        <Image
+          src="/images/background/questions.jpg"
+          alt="frequently asked questions about home watch"
+          style={{
+            zIndex: -99,
+          }}
+          layout="fill"
+          objectFit="cover"
+        />
         <div className="auto-container">
           <h1>Home Watch FAQs</h1>
           <ul className="page-breadcrumb">

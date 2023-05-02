@@ -45,7 +45,9 @@ function MyApp({ Component, pageProps }) {
       <Script src="js/owl.js" strategy="afterInteractive"></Script>
       <Script src="js/wow.js" strategy="afterInteractive"></Script>
       <Script src="js/nav-tool.js" strategy="afterInteractive"></Script>
+      {/*   */}
       <Script src="js/jquery-ui.js" strategy="afterInteractive"></Script>
+
       <Script
         src="https://www.dallashomewatch.com/js/bootstrap.min.js"
         strategy="afterInteractive"

@@ -55,7 +55,16 @@ function RefrigeratorsPage(props) {
         nonce="URsEs8xs"
       ></script>
       {/* insert top banner with Page Title & Breadcrumb*/}
-      <section className="page-title bg-refrigerators">
+      <section className="page-title">
+        <Image
+          src="/images/blogimg/og-refrigerator.jpg"
+          layout="fill"
+          objectFit="cover"
+          alt="refrigerator with food"
+          style={{
+            zIndex: -99,
+          }}
+        />
         <div className="auto-container">
           <h1>Refrigerators</h1>
           <ul className="page-breadcrumb">

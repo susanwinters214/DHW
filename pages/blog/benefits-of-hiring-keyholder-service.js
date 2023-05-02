@@ -55,7 +55,16 @@ function AirFiltersPage(props) {
       ></script>
 
       {/* insert top banner with Page Title & Breadcrumb*/}
-      <section className="page-title pageback-bkhben">
+      <section className="page-title">
+        <Image
+          src="/images/background/man-cleaning-outside-porch.jpg"
+          layout="fill"
+          objectFit="cover"
+          alt="worker putting concrete on patio"
+          style={{
+            zIndex: -99,
+          }}
+        />
         <div className="auto-container">
           <h1>Benefits of hiring a Key Holder Service</h1>
           <ul className="page-breadcrumb">
@@ -250,53 +259,53 @@ function AirFiltersPage(props) {
                         Share on Facebook
                       </Link>
                       <p>&nbsp;</p>
-<div className="row">
-                      <div className="services-block col-lg-6 col-md-12 col-sm-12 centered">
-                        <div
-                          className="inner-box wow fadeInRight BLUE"
-                          data-wow-delay="150ms"
-                          data-wow-duration="1500ms"
-                        >
-                          <div className="content">
-                            <div className="icon flaticon-file" />
-                            <h4>
-                              <Link href="/blog/dangers-of-leaving-house-unoccupied">
-                                Leaving Your Home Unoccupied
-                              </Link>
-                            </h4>
-                            <div className="text">
-                              10 Reasons Not To Leave Your Home Alone!
+                      <div className="row">
+                        <div className="services-block col-lg-6 col-md-12 col-sm-12 centered">
+                          <div
+                            className="inner-box wow fadeInRight BLUE"
+                            data-wow-delay="150ms"
+                            data-wow-duration="1500ms"
+                          >
+                            <div className="content">
+                              <div className="icon flaticon-file" />
+                              <h4>
+                                <Link href="/blog/dangers-of-leaving-house-unoccupied">
+                                  Leaving Your Home Unoccupied
+                                </Link>
+                              </h4>
+                              <div className="text">
+                                10 Reasons Not To Leave Your Home Alone!
+                              </div>
                             </div>
+                            <Link
+                              href="/blog/dangers-of-leaving-house-unoccupied"
+                              className="arrow flaticon-right"
+                            />
                           </div>
-                          <Link
-                            href="/blog/dangers-of-leaving-house-unoccupied"
-                            className="arrow flaticon-right"
-                          />
                         </div>
-                      </div>
-                      <div className="services-block col-lg-6 col-md-12 col-sm-12 centered">
-                        <div
-                          className="inner-box wow fadeInRight BLUE"
-                          data-wow-delay="150ms"
-                          data-wow-duration="1500ms"
-                        >
-                          <div className="content">
-                            <div className="icon flaticon-file" />
-                            <h4>
-                              <Link href="/keyholder-services">
-                                Key Holder Services
-                              </Link>
-                            </h4>
-                            <div className="text">
-                              Hire Dallas Home Watch as Your Key Holder
+                        <div className="services-block col-lg-6 col-md-12 col-sm-12 centered">
+                          <div
+                            className="inner-box wow fadeInRight BLUE"
+                            data-wow-delay="150ms"
+                            data-wow-duration="1500ms"
+                          >
+                            <div className="content">
+                              <div className="icon flaticon-file" />
+                              <h4>
+                                <Link href="/keyholder-services">
+                                  Key Holder Services
+                                </Link>
+                              </h4>
+                              <div className="text">
+                                Hire Dallas Home Watch as Your Key Holder
+                              </div>
                             </div>
+                            <Link
+                              href="/keyholder-services"
+                              className="arrow flaticon-right"
+                            />
                           </div>
-                          <Link
-                            href="/keyholder-services"
-                            className="arrow flaticon-right"
-                          />
                         </div>
-                      </div>
                       </div>
                     </div>
                   </div>

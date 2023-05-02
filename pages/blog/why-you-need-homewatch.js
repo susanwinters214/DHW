@@ -51,7 +51,16 @@ function WhyYouNeedHomewatchPage(props) {
         nonce="Fn5Aadju"
       ></Script>
       {/* insert top banner with Page Title & Breadcrumb*/}
-      <section className="page-title bg-wynhs">
+      <section className="page-title">
+        <Image
+          src="/images/blogimg/why-you-need-home-watch-services.jpg"
+          layout="fill"
+          objectFit="cover"
+          alt="home watch services"
+          style={{
+            zIndex: -99,
+          }}
+        />
         <div className="auto-container">
           <h1>Why You Need Home Watch</h1>
           <ul className="page-breadcrumb">
@@ -218,8 +227,8 @@ function WhyYouNeedHomewatchPage(props) {
                         width={400}
                         height={400}
                       />
-                    </div>{" "}<br />
-                   
+                    </div>{" "}
+                    <br />
                     {/*  Your like button code */}
                     <div
                       class="fb-share-button centered"

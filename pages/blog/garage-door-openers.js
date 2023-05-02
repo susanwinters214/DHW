@@ -53,7 +53,16 @@ function GarageDoorOpenersPage(props) {
         nonce="mp5KczsQ"
       ></script>
       {/* insert top banner with Page Title & Breadcrumb*/}
-      <section className="page-title bg-gdo">
+      <section className="page-title">
+        <Image
+          src="/images/blogimg/og-garage-door-openers.jpg"
+          layout="fill"
+          objectFit="cover"
+          alt="garage door opener wireless keypad and car remote"
+          style={{
+            zIndex: -99,
+          }}
+        />
         <div className="auto-container">
           <h1>Garage Door Openers</h1>
           <ul className="page-breadcrumb">

@@ -48,7 +48,16 @@ function HomeWatchBusinessJournalPage(props) {
       {/* Facebook Like JS Code*/}
 
       {/* insert top banner with Page Title & Breadcrumb*/}
-      <section className="page-title bg-hwbj">
+      <section className="page-title">
+        <Image
+          src="/images/logos/home-watch-business-journal.jpg"
+          alt="home watch business journal"
+          style={{
+            zIndex: -99,
+          }}
+          layout="fill"
+          objectFit="cover"
+        />
         <div className="auto-container">
           <h1>Home Watch Business Journal</h1>
           <ul className="page-breadcrumb">

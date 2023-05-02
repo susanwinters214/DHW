@@ -9,7 +9,7 @@ function GateOperatorPage(props) {
     <Fragment>
       <Head>
         <title>Gate Operator Repair - DALLAS HOME WATCH</title>
-       
+
         <link
           rel="canonical"
           href="https://www.dallashomewatch.com/blog/gate-operator-repair"
@@ -18,7 +18,10 @@ function GateOperatorPage(props) {
           name="description"
           content="Home Watch Company discovered broken gate and called a professional gate company to repair. Read the story."
         />
-        <meta property="keywords" content="gate operator, home watch services" />
+        <meta
+          property="keywords"
+          content="gate operator, home watch services"
+        />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
@@ -46,7 +49,17 @@ function GateOperatorPage(props) {
       {/* Facebook Like JS Code*/}
 
       {/* insert top banner with Page Title & Breadcrumb*/}
-      <section className="page-title bg-gaterepair">
+
+      <section className="page-title ">
+        <Image
+          src="/images/blogimg/big-open-gate.jpg"
+          alt="big fence with gate open"
+          style={{
+            zIndex: -99,
+          }}
+          layout="fill"
+          objectFit="cover"
+        />
         <div className="auto-container">
           <h1>Gate Operator Repair </h1>
           <ul className="page-breadcrumb">
@@ -132,6 +145,7 @@ function GateOperatorPage(props) {
                         alt="examining old gate operator"
                       />
                       <br />
+                      <span className="tiny">Found Gate Left Open</span>
                     </div>
                     <div className="image-column col-lg-6 col-md-6 col-sm-6 centered">
                       <Image
@@ -141,7 +155,8 @@ function GateOperatorPage(props) {
                         alt="chain from gate laying on the ground"
                       />
                       <br />
-                      <br />
+                      <span className="tiny">Removed Chain From Opener</span>
+                      <br /> <br />
                     </div>
                     <p>
                       Within 30 minutes, a gate technician arrived at the
@@ -189,7 +204,7 @@ function GateOperatorPage(props) {
                         alt="new wheels for gate"
                       />
                       <br />
-                      new wheels for gate
+                      <span className="tiny">New Opener Wheels for Gate</span>
                     </div>
                     <div className="image-column col-lg-6 col-md-6 col-sm-6 centered">
                       <Image
@@ -199,7 +214,7 @@ function GateOperatorPage(props) {
                         alt="welding gate onto wheel"
                       />
                       <br />
-                      welding new wheel onto gate
+                      <span className="tiny">Welding New Wheel Onto Gate</span>
                     </div>
 
                     {/* Row 3 - 5 and 6 */}
@@ -212,7 +227,9 @@ function GateOperatorPage(props) {
                         alt="man manually pushing big gate"
                       />
                       <br />
-                      man manually pushing big gate testing wheel
+                      <span className="tiny">
+                        Man manually pushing big Gate testing Wheel
+                      </span>
                     </div>
                     <div className="image-column col-lg-6 col-md-6 col-sm-6 centered">
                       <Image
@@ -222,7 +239,7 @@ function GateOperatorPage(props) {
                         alt="welding gate"
                       />
                       <br />
-                      man on fence welding gate
+                      <span className="tiny">Man on Fence Welding Gate</span>
                     </div>
 
                     <p>&nbsp;</p>
@@ -236,7 +253,7 @@ function GateOperatorPage(props) {
                         alt="welding gate"
                       />
                       <br />
-                      man on ladder welding gate
+                      <span className="tiny">Man on Ladder Welding Gate</span>
                     </div>
 
                     <div className="image-column col-lg-6 col-md-6 col-sm-6 centered">
@@ -247,7 +264,7 @@ function GateOperatorPage(props) {
                         alt="welding gate"
                       />
                       <br />
-                      two men on gate welding
+                      <span className="tiny">Two Men on Gate Welding</span>
                     </div>
 
                     {/* Row 5 - number 9*/}
@@ -260,7 +277,7 @@ function GateOperatorPage(props) {
                         alt="swapping out gate opener"
                       />
                       <br />
-                      swapping out gate opener
+                      <span className="tiny">Swapping out Gate Opener</span>
                       <br />
                       <br />
                       <div className="yellowblock">

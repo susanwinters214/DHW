@@ -45,9 +45,18 @@ function StreetsOfDallasPage(props) {
       {/* Facebook Like JS Code*/}
 
       {/* insert top banner with Page Title & Breadcrumb*/}
-      <section className="page-title bg-Streets">
+      <section className="page-title">
+        <Image
+          src="/images/background/dallas-deep-ellum.jpg"
+          layout="fill"
+          objectFit="cover"
+          alt="Streets of Dallas, Deep Ellum area"
+          style={{
+            zIndex: -99,
+          }}
+        />
         <div className="auto-container">
-          <h1>Streets-of-Dallas</h1>
+          <h1>Streets of Dallas</h1>
           <ul className="page-breadcrumb">
             <li>
               <Link href="/">home</Link>

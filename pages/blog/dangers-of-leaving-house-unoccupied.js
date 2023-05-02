@@ -49,7 +49,16 @@ function DangersOfEmptyHousePage(props) {
         nonce="Fn5Aadju"
       ></Script>
       {/* insert top banner with Page Title & Breadcrumb*/}
-      <section className="page-title bg-dangers">
+      <section className="page-title">
+        <Image
+          src="/images/background/dangers-vacant-house.jpg"
+          layout="fill"
+          objectFit="cover"
+          alt="man standing in vandalized house"
+          style={{
+            zIndex: -99,
+          }}
+        />
         <div className="auto-container">
           <h1>10 Dangers of Leaving Your Home Unoccupied</h1>
           <ul className="page-breadcrumb">

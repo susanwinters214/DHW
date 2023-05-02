@@ -43,6 +43,7 @@ function TermsPage() {
 
       {/* insert top banner with Page Title & Breadcrumb*/}
       <section className="page-title style-two pageback-terms">
+        
         <div className="auto-container">
           <h1>Terms of Service</h1>
           <ul className="page-breadcrumb">

@@ -44,7 +44,16 @@ function WhereToFindPage() {
         />
       </Head>
       {/* insert top banner with Page Title & Breadcrumb*/}
-      <section className="page-title pageback-about">
+      <section className="page-title">
+        <Image
+          src="/images/background/dallas-texas-skyline.jpg"
+          layout="fill"
+          objectFit="cover"
+          alt="where to find Dallas Home Watch"
+          style={{
+            zIndex: -99,
+          }}
+        />
         <div className="auto-container">
           <h1>Where To Find Dallas Home Watch</h1>
           <ul className="page-breadcrumb">

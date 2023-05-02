@@ -38,7 +38,16 @@ function BlogPage(props) {
         />
       </Head>
       {/* top Banner Area */}
-      <section className="page-title pageback-homepage">
+      <section className="page-title">
+        <Image
+          src="/images/background/dallas-texas-skyline.jpg"
+          layout="fill"
+          objectFit="cover"
+          alt="Dallas Home Watch skyline"
+          style={{
+            zIndex: -99,
+          }}
+        />
         <div className="auto-container">
           <div className="row clearfix">
             <div className="services-block col-lg-12 col-md-12 col-sm-12">

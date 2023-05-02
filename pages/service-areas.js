@@ -49,7 +49,16 @@ function ServiceAreaPage(props) {
         <meta property="og:image:alt" content="Dallas skyline" />
       </Head>
       {/* insert top banner with Page Title & Breadcrumb*/}
-      <section className="page-title pageback-serviceareas">
+      <section className="page-title">
+        <Image
+          src="/images/background/dallas-texas-skyline.jpg"
+          alt="national home watch month"
+          style={{
+            zIndex: -99,
+          }}
+          layout="fill"
+          objectFit="cover"
+        />
         <div className="auto-container">
           <h1>Service Areas</h1>
           <ul className="page-breadcrumb">

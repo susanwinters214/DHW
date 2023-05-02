@@ -21,7 +21,10 @@ function HomeWatchChecklistPage(props) {
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
-        <meta property="keywords" content="home watch checklist, home watch inspection checklist" />
+        <meta
+          property="keywords"
+          content="home watch checklist, home watch inspection checklist"
+        />
         <meta
           property="og:url"
           content="https://www.dallashomewatch.com/homewatch-checklist"
@@ -43,7 +46,16 @@ function HomeWatchChecklistPage(props) {
         />
       </Head>
       {/* insert top banner with breadcrumb*/}
-      <section className="page-title pageback-hwchk">
+      <section className="page-title">
+        <Image
+          src="/images/background/home-watch-enters-front-door.jpg"
+          alt="home watch checklist"
+          style={{
+            zIndex: -99,
+          }}
+          layout="fill"
+          objectFit="cover"
+        />
         <div className="auto-container">
           <h1>Home Watch Check List</h1>
           <ul className="page-breadcrumb">

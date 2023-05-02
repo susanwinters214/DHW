@@ -47,7 +47,16 @@ function ConciergePage(props) {
         />
       </Head>
       {/* insert top banner with Page Title & Breadcrumb*/}
-      <section className="page-title pageback-con">
+      <section className="page-title">
+        <Image
+          src="/images/concierge-services/pickup-dry-cleaning.jpg"
+          alt="concierge services"
+          style={{
+            zIndex: -99,
+          }}
+          layout="fill"
+          objectFit="cover"
+        />
         <div className="auto-container">
           <h1>Concierge Services</h1>
           <ul className="page-breadcrumb">

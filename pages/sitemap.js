@@ -36,6 +36,7 @@ function SitemapPage(props) {
       </Head>
       {/* insert top banner with Page Title & Breadcrumb*/}
       <section className="page-title pageback-news style-two ">
+      
         <div className="auto-container">
           <h1>Home Watch Sitemap</h1>
           <ul className="page-breadcrumb">

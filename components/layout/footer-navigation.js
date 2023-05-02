@@ -58,7 +58,7 @@ function FooterNavigation() {
                         <span className="fa fa-facebook" />
                       </Link>
                     </li>
-                    <li className="google">
+                    <li className="youtube">
                       <Link
                         name="youtube"
                         rel="noreferrer"
@@ -88,6 +88,16 @@ function FooterNavigation() {
                         <span className="fa fa-twitter" />
                       </Link>
                     </li>
+                    <li className="instagram">
+                      <Link
+                        name="instagram"
+                        rel="noreferrer"
+                        target="_blank"
+                        href="https://www.instagram.com/dallashomewatch/"
+                      >
+                        <span className="fa fa-instagram" />
+                      </Link>
+                    </li>
                   </ul>
                   <br />
                   <div className="clear"></div>
@@ -103,7 +113,6 @@ function FooterNavigation() {
                 </Link>
                 .
                 <br /> <br />
-              
               </div>
             </div>
 

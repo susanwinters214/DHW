@@ -52,7 +52,16 @@ function HowToCustomizeAppleWatchBkgrndPage(props) {
         nonce="Fn5Aadju"
       ></Script>
       {/* insert top banner with Page Title & Breadcrumb*/}
-      <section className="page-title bg-appleWatch">
+      <section className="page-title">
+        <Image
+          src="/images/og/home-watch-apple.jpg"
+          layout="fill"
+          objectFit="cover"
+          alt="apple watch with photo of house"
+          style={{
+            zIndex: -99,
+          }}
+        />
         <div className="auto-container">
           <h1>Create Your Own Home Watch</h1>
           <ul className="page-breadcrumb">
@@ -335,7 +344,7 @@ function HowToCustomizeAppleWatchBkgrndPage(props) {
                             >
                               Share this article on Facebook
                             </Link>
-                            <br /> 
+                            <br />
                           </div>
                           <br />
                           <div className="row">

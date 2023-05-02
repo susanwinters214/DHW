@@ -52,7 +52,16 @@ function AirFiltersPage(props) {
       ></script>
 
       {/* insert top banner with Page Title & Breadcrumb*/}
-      <section className="page-title bg-airfilters">
+      <section className="page-title">
+        <Image
+          src="/images/blogimg/og-air-filter-replacement.jpg"
+          layout="fill"
+          objectFit="cover"
+          alt="homewatch professional changing dirty air filters in attic"
+          style={{
+            zIndex: -99,
+          }}
+        />
         <div className="auto-container">
           <h1>Air Filters</h1>
           <ul className="page-breadcrumb">
@@ -191,7 +200,7 @@ function AirFiltersPage(props) {
                               <div className="icon flaticon-file" />
                               <h4>
                                 <Link href="/blog/refrigerators">
-                                 Checking Your Refrigerators
+                                  Checking Your Refrigerators
                                 </Link>
                               </h4>
                               <div className="text">

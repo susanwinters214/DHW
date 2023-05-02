@@ -42,12 +42,21 @@ function KeyHolderPage(props) {
         <meta property="og:image:height" content="630px" />
         <meta
           property="og:image:alt"
-          content="home owner handing over keys to a Certified Home Watch Professional"
+          content="keys hanging on a key holder"
         />
       </Head>
       <Script src="js/jquery.min.js"></Script>
       {/* insert top banner with Page Title & Breadcrumb*/}
-      <section className="page-title pageback-keyh">
+      <section className="page-title ">
+        <Image
+          src="/images/background/house-keys-down.jpg"
+          alt="keyholder"
+          style={{
+            zIndex: -99,
+          }}
+          layout="fill"
+          objectFit="cover"
+        />
         <div className="auto-container">
           <h1>Key Holder Services</h1>
           <ul className="page-breadcrumb">

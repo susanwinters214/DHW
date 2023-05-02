@@ -36,14 +36,23 @@ function SAhighlandparkPage(props) {
         />
         <meta
           property="og:image"
-          content="https://www.dallashomewatch.com/images/og/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+          content="https://www.dallashomewatch.com/images/background/highland-park-background.jpg"
         />
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />
         <meta property="og:image:alt" content="Highland Park" />
       </Head>
       {/* insert top banner with Page Title & Breadcrumb*/}
-      <section className="page-title pageback-serviceareas">
+      <section className="page-title ">
+        <Image
+          src="/images/background/highland-park-background.jpg"
+          alt="home watch highland park"
+          style={{
+            zIndex: -99,
+          }}
+          layout="fill"
+          objectFit="cover"
+        />
         <div className="auto-container">
           <h1>Home Watch Highland Park</h1>
           <ul className="page-breadcrumb">
@@ -94,7 +103,8 @@ function SAhighlandparkPage(props) {
                     appliances, water sources, attics and more. Home Watch
                     visits are for homeowners who will be away from their home
                     for long periods of time, leaving their home vunerable to
-                    disasters like <Link href="/blog/water-leaks">water leaks</Link> and more.
+                    disasters like{" "}
+                    <Link href="/blog/water-leaks">water leaks</Link> and more.
                   </p>
                   <p>
                     Clients of Home Watch Services are people who own multiple

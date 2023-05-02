@@ -54,7 +54,16 @@ function NationalHomeWatchMonthPage(props) {
       ></script>
 
       {/* insert top banner with Page Title & Breadcrumb*/}
-      <section className="page-title pageback-hwservice">
+      <section className="page-title">
+        <Image
+          src="/images/background/open-front-door-960x496.jpg"
+          alt="national home watch month"
+          style={{
+            zIndex: -99,
+          }}
+          layout="fill"
+          objectFit="cover"
+        />
         <div className="auto-container">
           <h1>National Home Watch Month</h1>
           <ul className="page-breadcrumb">

@@ -21,13 +21,15 @@ class MyDocument extends Document {
           <Main />
           <NextScript />
           <div id="notifications"></div>
+          {/* 
           <Script
             src="https://www.googletagmanager.com/gtag/js?id=G-8N43XDXPPJ"
             strategy="afterInteractive"
           />
 
-        
-         
+          
+          
+          */}
 
           <Script id="google-analytics" strategy="afterInteractive">
             {`

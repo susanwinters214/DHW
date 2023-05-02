@@ -49,40 +49,50 @@ function HomePage(props) {
       </Head>
       {/* top Banner Area */}
 
-      <section className="page-title">
-        <Image
-          src="/images/background/dallas-texas-skyline.jpg"
+      <div
+        style={{
+          zIndex: 99,
+          backgroundColor: "rgba(0, 32, 76, 0.1)",
+          width: "100vw",
+          height: "100vh",
+        }}
+      >
+        <section className="page-title" style={{}}>
+          <Image
+            src="/images/background/dallas-texas-skyline.jpg"
+            layout="fill"
+            objectFit="cover"
             alt="dallas skyline"
             style={{
-              zIndex: -99
+              zIndex: -99,
             }}
-          layout="fill"
-          objectFit="cover"
-        />
-        <div className="auto-container">
-          <div className="row clearfix">
-            <div className="services-block col-lg-12 col-md-12 col-sm-12">
-              <div className="homepagetopcontent">
-                <h1 className="title zindexh1tag h1homepage">Home Watch</h1>
-                <h2 className="h2homepage">Home Watch Services in Dallas </h2>
-                <div className="bannerbox btns-box centered">
-                  <Link
-                    href="/home-watch-services"
-                    className="theme-btn btn-style-two"
-                  >
-                    <span className="txt">
-                      CALL FOR APPOINTMENT
-                      <i className="phone" />
-                    </span>
-                  </Link>
+          />
+
+          <div className="auto-container">
+            <div className="row clearfix">
+              <div className="services-block col-lg-12 col-md-12 col-sm-12">
+                <div className="homepagetopcontent">
+                  <h1 className="title zindexh1tag h1homepage">Home Watch</h1>
+                  <h2 className="h2homepage">Home Watch Services in Dallas </h2>
+                  <div className="bannerbox btns-box centered">
+                    <Link
+                      href="/home-watch-services"
+                      className="theme-btn btn-style-two"
+                    >
+                      <span className="txt">
+                        CALL FOR APPOINTMENT
+                        <i className="phone" />
+                      </span>
+                    </Link>
+                  </div>
+                  <br />
                 </div>
-                <br />
               </div>
             </div>
           </div>
-        </div>
-      </section>
-  
+        </section>
+      </div>
+
       {/* 4 BLOCKS */}
 
       <section className="welcome-section MOVEUP">{/* 4 blocks */}</section>
@@ -197,10 +207,7 @@ function HomePage(props) {
       <div className="clearfix"> </div>
       {/* insert blue area with video */}
       <section className="counter-section">
-        <div
-          className="image-layer"
-         
-        />
+        <div className="image-layer" />
         <div className="auto-container">
           {/* Sec Title */}
           <div className="sec-title light centered">
@@ -215,7 +222,7 @@ function HomePage(props) {
               to fix small problems before they become big issues.
             </div>
           </div>
-        
+
           {/*Video Box*/}
           <div className="video-boxed">
             <Link

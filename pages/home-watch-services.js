@@ -44,6 +44,15 @@ function HomeWatchServicesPage(props) {
       </Head>
       {/* insert top banner with Page Title & Breadcrumb*/}
       <section className="page-title pageback-hwservice">
+        <Image
+          src="/images/background/open-front-door-960x496.jpg"
+          alt="home watch services"
+          style={{
+            zIndex: -99,
+          }}
+          layout="fill"
+          objectFit="cover"
+        />
         <div className="auto-container">
           <h1>Home Watch Services</h1>
           <ul className="page-breadcrumb">
@@ -470,12 +479,11 @@ function HomeWatchServicesPage(props) {
                           working properly and can reboot the router when
                           necessary.{" "}
                         </p>
-                        
+
                         <p>
-                          Did your internet company tell you that an
-                          individual age 18 or older must wait for them to
-                          show up within a four hour window but you don't have
-                          time for that? {" "}
+                          Did your internet company tell you that an individual
+                          age 18 or older must wait for them to show up within a
+                          four hour window but you don't have time for that?{" "}
                           <Link href="/keyholder-services">
                             Key Holder Services
                           </Link>{" "}
@@ -643,8 +651,8 @@ function HomeWatchServicesPage(props) {
                           <Link href="/keyholder-services">
                             Key Holder Services
                           </Link>{" "}
-                          so that we can meet with your applicance company
-                          for new delivery and installations or repairs and
+                          so that we can meet with your applicance company for
+                          new delivery and installations or repairs and
                           maintenance to your equipment.
                         </p>
                       </div>
@@ -678,7 +686,8 @@ function HomeWatchServicesPage(props) {
                           Read why we check your{" "}
                           <Link href="/blog/garage-door-openers">
                             garage door openers
-                          </Link>.
+                          </Link>
+                          .
                         </p>
                       </div>
                     </div>

@@ -54,7 +54,16 @@ function WhyYouNeedHomewatchPage(props) {
       {/* Facebook Like JS Code*/}
 
       {/* insert top banner with Page Title & Breadcrumb*/}
-      <section className="page-title bg-wtlfihwc">
+      <section className="page-title">
+        <Image
+          src="/images/blogimg/man-researching-home-watch-options.jpg"
+          layout="fill"
+          objectFit="cover"
+          alt="man doing research"
+          style={{
+            zIndex: -99,
+          }}
+        />
         <div className="auto-container">
           <h1>What To Look For In A Home Watch Company</h1>
           <ul className="page-breadcrumb">
@@ -228,7 +237,9 @@ function WhyYouNeedHomewatchPage(props) {
                           <div className="content">
                             <div className="icon flaticon-file" />
                             <h4>
-                              <Link href="/blog/air-filters">Dirty Air Filters</Link>
+                              <Link href="/blog/air-filters">
+                                Dirty Air Filters
+                              </Link>
                             </h4>
                             <div className="text">
                               The Importance of Changing Air Filters

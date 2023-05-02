@@ -15,7 +15,10 @@ function AboutPage() {
           content="Dallas Home Watch, owned by Tina Lawson, contracts with clients to watch 
           their home while they are away."
         />
-        <meta property="keywords" content="about dallas home watch, Tina Lawson" />
+        <meta
+          property="keywords"
+          content="about dallas home watch, Tina Lawson"
+        />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
@@ -41,7 +44,16 @@ function AboutPage() {
         />
       </Head>
       {/* insert top banner with Page Title & Breadcrumb*/}
-      <section className="page-title pageback-about">
+      <section className="page-title ">
+        <Image
+          src="/images/background/dallas-skyline.jpg"
+          alt="big fence with gate open"
+          style={{
+            zIndex: -99,
+          }}
+          layout="fill"
+          objectFit="cover"
+        />
         <div className="auto-container">
           <h1>About Dallas Home Watch</h1>
           <ul className="page-breadcrumb">
@@ -203,11 +215,13 @@ function AboutPage() {
         </div>
       </section>
 
-
-  <Script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/39631200.js"></Script>
-
-
-
+      <Script
+        type="text/javascript"
+        id="hs-script-loader"
+        async
+        defer
+        src="//js-na1.hs-scripts.com/39631200.js"
+      ></Script>
     </Fragment>
   );
 }

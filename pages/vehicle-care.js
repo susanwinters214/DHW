@@ -20,7 +20,10 @@ function VehicleCarePage(props) {
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
-        <meta property="keywords" content="stored vehicles, leaving car in garage, vacation without your car" />
+        <meta
+          property="keywords"
+          content="stored vehicles, leaving car in garage, vacation without your car"
+        />
         <meta
           property="og:url"
           content="https://www.dallashomewatch.com/vehicle-care"
@@ -47,6 +50,14 @@ function VehicleCarePage(props) {
 
       {/* insert top banner with Page Title & Breadcrumb*/}
       <section className="page-title pageback-vehcare">
+        <Image
+          src="/images/og/luxury-car-care.jpg"
+          alt="luxury cars"
+          style={{
+            zIndex: -99,          }}
+          layout="fill"
+          objectFit="cover"
+        />
         <div className="auto-container">
           <h1>Vehicle Care</h1>
           <ul className="page-breadcrumb">
