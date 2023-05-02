@@ -21,6 +21,11 @@ function MyApp({ Component, pageProps }) {
           href="https://www.dallashomewatch.com/images/favicon.ico"
           type="image/x-icon"
         ></link>
+        {/* meta tag for pinterest */ }
+        <meta
+          name="p:domain_verify"
+          content="9d804dee0d1569f3434f8563d1767c9d"
+        />
       </Head>
 
       <Script src="js/jquery.min.js" strategy="afterInteractive"></Script>
