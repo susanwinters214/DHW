@@ -112,10 +112,15 @@ function HomePage(props) {
                     <h2>Home Watch in Dallas</h2>
                     <p>
                       'Home Watch' is a visual inspection of a home or property,
-                      looking for obvious issues. Home Watch is sometimes used
-                      as one word - HomeWatch, however HomeWatch is most often
-                      used when referring to home services that provides In-Home
-                      Health Care for senior citizens.
+                      looking for obvious issues.
+                      
+                      Home Watch Services are scheduled inspections of unoccupied or vacant properties 
+                      while the owner is away (because the homeowners are either staying at another property for awhile or are away on an extended vacation). 
+                      <br />
+                      
+                   
+
+                    
                     </p>
                     <p>
                       <strong>Dallas Home Watch LLC.</strong> offers
@@ -129,7 +134,7 @@ function HomePage(props) {
                       and exterior of homes and properties, looking for obvious
                       issues that may cause potential damage. We keep homeowners
                       informed of any issues and follow the client's
-                      instructions regarding a resolution and cure for them.
+                      instructions regarding a resolution with them.
                     </p>
                     <br />
                     <h3>Not House Sitter or Property Manager</h3>
