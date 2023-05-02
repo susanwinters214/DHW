@@ -112,15 +112,12 @@ function HomePage(props) {
                     <h2>Home Watch in Dallas</h2>
                     <p>
                       'Home Watch' is a visual inspection of a home or property,
-                      looking for obvious issues.
-                      
-                      Home Watch Services are scheduled inspections of unoccupied or vacant properties 
-                      while the owner is away (because the homeowners are either staying at another property for awhile or are away on an extended vacation). 
+                      looking for obvious issues. Home Watch Services are
+                      scheduled inspections of unoccupied or vacant properties
+                      while the owner is away (because the homeowners are either
+                      staying at another property for awhile or are away on an
+                      extended vacation).
                       <br />
-                      
-                   
-
-                    
                     </p>
                     <p>
                       <strong>Dallas Home Watch LLC.</strong> offers
@@ -141,7 +138,11 @@ function HomePage(props) {
                     <br />
                     <p>
                       Unlike other options like{" "}
-                      <Link href="national-homewatch-month#HouseSitter"></Link>{" "}
+                      <Link
+                        href="national-homewatch-month#HouseSitter"
+                        name="linkToHouseSitter"
+                        aria-label="House Sitter information"
+                      ></Link>{" "}
                       House Sitters or Property Managers, Dallas Home Watch is a
                       fully accredited and bonded company that prioritizes the
                       care and <strong>maintenance of your home</strong>. We are
@@ -231,6 +232,7 @@ function HomePage(props) {
           {/*Video Box*/}
           <div className="video-boxed">
             <Link
+              aria-label="What is Homewatch video"
               name="gotoyoutubevideo"
               className="lightbox-image2"
               href="https://youtu.be/feTvuoxzt4c"
@@ -315,7 +317,7 @@ function HomePage(props) {
                             <Image
                               width={585}
                               height={350}
-                              title="HomeWatch proforming Home Watch Services"
+                              title="HomeWatch performing Home Watch Services"
                               src="/images/home-watch-professional-front-entry.jpg"
                               alt="homewatch professional going in door to perform home watch services"
                             />
@@ -489,7 +491,7 @@ function HomePage(props) {
                   src="/images/highland-park-street-sign.png"
                   alt="Highland Park street sign"
                   width={265}
-                  height={0}
+                  height={174}
                 />
                 <br />
                 <span className="streetblock2">Highland Park</span>
@@ -507,7 +509,7 @@ function HomePage(props) {
                   src="/images/university-park-bridge.png"
                   alt="University Park street sign"
                   width={265}
-                  height={0}
+                  height={174}
                 />
                 <br />
 
@@ -525,7 +527,7 @@ function HomePage(props) {
                   src="/images/estates-of-lake-forest2.jpg"
                   alt="Estates of Lake Forest"
                   width={265}
-                  height={0}
+                  height={174}
                 />
                 <br />
                 <span className="streetblock2">Lake Forest</span>
@@ -542,7 +544,7 @@ function HomePage(props) {
                   src="/images/northwood-hills-neighborhood.png"
                   alt="Estates of Lake Forest"
                   width={265}
-                  height={0}
+                  height={174}
                 />
                 <br />
                 <span className="streetblock2">Northwood Hills</span>

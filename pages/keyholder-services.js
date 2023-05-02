@@ -36,7 +36,7 @@ function KeyHolderPage(props) {
         />
         <meta
           property="og:image"
-          content="https://www.dallashomewatch.com/images/og/key-holder-services.jpg"
+          content="https://www.dallashomewatch.com/images/background/house-keys-down.jpg"
         />
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />

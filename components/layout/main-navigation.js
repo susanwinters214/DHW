@@ -25,8 +25,8 @@ function MainNavigation() {
                   className="navbar-toggler"
                   type="button"
                   data-toggle="collapse"
-                  data-target="#navbarSupportedContent"
-                  aria-controls="navbarSupportedContent"
+                  data-target="#navbarSupportedContent1"
+                  aria-controls="navbarSupportedContent2"
                   aria-expanded="false"
                   aria-label="Toggle navigation"
                 >

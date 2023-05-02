@@ -39,6 +39,7 @@ function FooterNavigation() {
                   <ul className="social-nav">
                     <li className="linkedin">
                       <Link
+                        aria-label="View our Linkedin page"
                         name="linkedin"
                         href="https://www.linkedin.com/company/dallas-home-watch/"
                         rel="noreferrer"
@@ -50,6 +51,7 @@ function FooterNavigation() {
 
                     <li className="facebook">
                       <Link
+                        aria-label="View our Facebook page"
                         name="facebook"
                         rel="noreferrer"
                         target="_blank"
@@ -60,6 +62,7 @@ function FooterNavigation() {
                     </li>
                     <li className="youtube">
                       <Link
+                        aria-label="View our YouTube channel"
                         name="youtube"
                         rel="noreferrer"
                         target="_blank"
@@ -70,6 +73,7 @@ function FooterNavigation() {
                     </li>
                     <li className="pinterest">
                       <Link
+                        aria-label="View our Pinterest boards"
                         name="pintrest"
                         rel="noreferrer"
                         target="_blank"
@@ -80,6 +84,7 @@ function FooterNavigation() {
                     </li>
                     <li className="twitter">
                       <Link
+                        aria-label="View our Twitter account"
                         name="twitter"
                         rel="noreferrer"
                         target="_blank"
@@ -90,6 +95,7 @@ function FooterNavigation() {
                     </li>
                     <li className="instagram">
                       <Link
+                        aria-label="View our Instagram photos"
                         name="instagram"
                         rel="noreferrer"
                         target="_blank"
