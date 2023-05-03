@@ -228,7 +228,7 @@ function AirFiltersPage(props) {
                         <Image
                           width={300}
                           height={120}
-                          src="/images/blogimg/keyhb/moving-furniture.jpg"
+                          src="/images/blogimg/keyhb/man-cleaning-mirror-while-on-ladder.jpg"
                           alt="man moving furniture"
                         />
                       </div>

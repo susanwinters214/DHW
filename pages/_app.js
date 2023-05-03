@@ -21,7 +21,7 @@ function MyApp({ Component, pageProps }) {
           href="https://www.dallashomewatch.com/images/favicon.ico"
           type="image/x-icon"
         ></link>
-        {/* meta tag for pinterest */ }
+        {/* meta tag for pinterest */}
         <meta
           name="p:domain_verify"
           content="9d804dee0d1569f3434f8563d1767c9d"
@@ -50,9 +50,9 @@ function MyApp({ Component, pageProps }) {
       <Script src="js/owl.js" strategy="afterInteractive"></Script>
       <Script src="js/wow.js" strategy="afterInteractive"></Script>
       <Script src="js/nav-tool.js" strategy="afterInteractive"></Script>
-      {/*   */}
+      {/* 
       <Script src="js/jquery-ui.js" strategy="afterInteractive"></Script>
-
+  */}
       <Script
         src="https://www.dallashomewatch.com/js/bootstrap.min.js"
         strategy="afterInteractive"

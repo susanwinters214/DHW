@@ -329,8 +329,28 @@ function GateOperatorPage(props) {
                 Watch a call to discuss hiring them as your Home Watch Company.
               </p>
             </div>
+            <br />
+            <h3 className="mb-10">Video of Gate Operator Repair</h3>
+            <p>Dallas Home Watch looks at all sources of entry on a property. We make sure all doors and windows are locked and all gates are closed and secured.</p>
+            <div id="picTovideo" className="centered">
+              <Link
+                href="https://www.youtube.com/shorts/M-o_4TCZQ9w"
+                target="_blank"
+              >
+                <Image
+                  src="/images/blogimg/_gate-repair/video-gate-repair-cover.jpg"
+                  alt="Liftmaster gate opener repair job"
+                  width={400}
+                  height={385}
+                />
+                <br />
+                <span className="ontopofpic">PLAY VIDEO</span>
+              </Link>
+            </div>
+            <br />
           </div>
         </div>
+        <br />
         <br /> <br />
         <div className="column col-lg-12 col-md-6 col-sm-6 centered">
           <h3>Ready To Hire Home Watch Service?</h3>

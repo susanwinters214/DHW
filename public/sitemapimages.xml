@@ -80,4 +80,18 @@
      <image:loc>https://www.dallashomewatch.com/images/national-home-watch-conference.jpg</image:loc>    
  </image:image>
   </url>  
+  <url>
+ <loc>https://www.dallashomewatch.com/home-watch-university-park-texas</loc>
+ <image:image>
+    <image:loc>https://www.dallashomewatch.com/images/background/university-park-texas-bridge.jpg</image:loc>
+     <image:loc>https://www.dallashomewatch.com/images/university-park-fountain.jpg</image:loc>    
+ </image:image>
+  </url> 
+  <url>
+ <loc>https://www.dallashomewatch.com/home-watch-highland-park-texas</loc>
+ <image:image>
+    <image:loc>https://www.dallashomewatch.com/images/background/highland-park-background.jpg</image:loc>
+     <image:loc>https://www.dallashomewatch.com/images/university-park-fountain.jpg</image:loc>    
+ </image:image>
+  </url>  
 </urlset>

@@ -49,14 +49,7 @@ function HomePage(props) {
       </Head>
       {/* top Banner Area */}
 
-      <div
-        style={{
-          zIndex: 99,
-          backgroundColor: "rgba(0, 32, 76, 0.1)",
-          width: "100vw",
-          height: "100vh",
-        }}
-      >
+      
         <section className="page-title" style={{}}>
           <Image
             src="/images/background/dallas-texas-skyline.jpg"
@@ -91,7 +84,7 @@ function HomePage(props) {
             </div>
           </div>
         </section>
-      </div>
+     
 
       {/* 4 BLOCKS */}
 

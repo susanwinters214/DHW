@@ -410,7 +410,8 @@ function WaterLeaksPage(props) {
                           alt="mold found in shower"
                           width={600}
                           height={600}
-                        />
+                        /><br />
+                        <span className="ontopofpic">PLAY VIDEO</span>
                       </Link>
                     </div>
                     <br />
