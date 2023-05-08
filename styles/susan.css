@@ -34,7 +34,7 @@
   margin-top: -100px;
 }
 
-.yellowblock{margin:10px; border:solid 2px #e1a122;}
+.yellowblock{margin-top:10px; border:solid 2px #e1a122;padding:10px;}
 /* Blog Backgrounds & OG */
 hr {
   visibility: none;

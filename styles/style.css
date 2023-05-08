@@ -3264,7 +3264,8 @@ margin-top:0px;margin-bottom:50px;
   top: 0px;
   right: 0px;
   bottom: 0px;
-  background-color: rgba(0, 32, 76, 0.8);
+ /* background-color: rgba(0, 32, 76, 0.8);*/
+ margin-top:500px;
 }
 .blog-title h1 {
   color: #ffffff;
@@ -3284,6 +3285,7 @@ margin-top:0px;margin-bottom:50px;
   bottom: 0px;
   background-color: rgba(0, 32, 76, 0.8);
 }
+
 
 .page-title h1 {
   color: #ffffff;

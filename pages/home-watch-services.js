@@ -8,7 +8,9 @@ function HomeWatchServicesPage(props) {
   return (
     <Fragment>
       <Head>
-        <title>Home Watch Services</title>
+        <title>
+          Home Watch Services by Dallas Home Watch LLC.
+        </title>
         <link
           rel="canonical"
           href="https://www.dallashomewatch.com/home-watch-services"

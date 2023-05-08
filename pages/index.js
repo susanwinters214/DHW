@@ -8,7 +8,7 @@ function HomePage(props) {
   return (
     <Fragment>
       <Head>
-        <title>HOME WATCH SERVICES by Dallas Home Watch LLC.</title>
+        <title>Dallas Home Watch LLC.| Home Watch Dallas, TX</title>
         <meta
           property="keywords"
           content="home watch, dallas home watch, home watch dallas"
@@ -65,7 +65,7 @@ function HomePage(props) {
             <div className="row clearfix">
               <div className="services-block col-lg-12 col-md-12 col-sm-12">
                 <div className="homepagetopcontent">
-                  <h1 className="title zindexh1tag h1homepage">Home Watch</h1>
+                  <h1 className="title zindexh1tag h1homepage">Dallas Home Watch</h1>
                   <h2 className="h2homepage">Home Watch Services in Dallas </h2>
                   <div className="bannerbox btns-box centered">
                     <Link
@@ -372,7 +372,6 @@ function HomePage(props) {
                 </p>
                 <Link
                   href="/accreditation"
-                  rel="noreferrer nofollow"
                   target="_blank"
                 >
                   <Image

@@ -8,6 +8,7 @@ function WhereToFindPage() {
     <Fragment>
       <Head>
         <title>Where To Find Dallas Home Watch</title>
+        <meta name="robots" content="noindex, nofollow" />
         <link
           rel="canonical"
           href="https://www.dallashomewatch.com/where-to-find-dallas-home-watch"

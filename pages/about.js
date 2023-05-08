@@ -47,7 +47,7 @@ function AboutPage() {
       <section className="page-title ">
         <Image
           src="/images/background/dallas-skyline.jpg"
-          alt="big fence with gate open"
+          alt="dallas sky line"
           style={{
             zIndex: -99,
           }}
@@ -75,12 +75,7 @@ function AboutPage() {
                     <h2 className="pushdown25">Dallas Home Watch</h2>
                   </div>
                   <div className="text">
-                    <p>
-                      Dallas Home Watch (formerly STS) was created over 20 years
-                      ago by Tina Lawson of Dallas, Texas. Ms. Lawson changed
-                      the name of her company in 2022 to better reflect the
-                      service she provides.
-                    </p>
+                    
                     <p>
                       Dallas Home Watch provides the service of discreetly
                       checking your home while you are away. The homeowner can
@@ -128,7 +123,7 @@ function AboutPage() {
                     <p>
                       In 2022, Ms. Lawson rebranded her company from STS
                       (suburban transportation services) to Dallas Home Watch to
-                      better reflect the services she provides.
+                      better reflect the services her company provides. 
                     </p>
                     <p>
                       Clients are regular accounts that contract with Dallas
