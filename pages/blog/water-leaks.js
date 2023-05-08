@@ -416,19 +416,8 @@ function WaterLeaksPage(props) {
                     </div>
                     <br />
 
-                    <div
-                      class="fb-share-button  centered"
-                      data-href="https://www.dallashomewatch.com/blog/water-leaks"
-                      data-layout=""
-                      data-size=""
-                    >
-                      <Link
-                        target="_blank"
-                        href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.dallashomewatch.com%2Fblog%2Fwater-leaks&amp;src=sdkpreparse"
-                        class="fb-xfbml-parse-ignore"
-                      >
-                        Share on Facebook
-                      </Link>
+                    <div>
+                  
                       <br /> <br />
                       <div className="row">
                         <div className="services-block col-lg-6 col-md-12 col-sm-12 centered">

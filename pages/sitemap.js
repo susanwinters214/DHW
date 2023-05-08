@@ -55,6 +55,7 @@ function SitemapPage(props) {
               <div className="inner-box">
                 <section id="contentBlock">
                   <h2 className="pageTitle">Dallas Home Watch Sitemap</h2>
+                  <p>Listed below are links to all of the pages on our website.</p>
                   <h3>Main</h3>
                   <h4>
                     <Link href="/home-watch-services">Home Watch Services</Link>

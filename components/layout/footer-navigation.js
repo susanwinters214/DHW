@@ -55,7 +55,7 @@ function FooterNavigation() {
                         name="facebook"
                         rel="noreferrer"
                         target="_blank"
-                        href="https://www.facebook.com/profile.php?id=100083133612372"
+                        href="https://www.facebook.com/profile.php?id=100092566267916"
                       >
                         <span className="fa fa-facebook" />
                       </Link>

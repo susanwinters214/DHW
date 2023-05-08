@@ -208,23 +208,9 @@ function WhyYouNeedHomewatchPage(props) {
                       accredited Home Watch Professional.
                       <br />
                     </p>
-                    <br />
+               
 
-                    <div
-                      className="fb-share-button centered"
-                      data-href="https://www.dallashomewatch.com/blog/what-to-look-for-in-homewatch-company"
-                      data-layout=""
-                      data-size=""
-                    >
-                      <Link
-                        target="_blank"
-                        href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.dallashomewatch.com%2Fblog%2Fwhat-to-look-for-in-homewatch-company&amp;src=sdkpreparse"
-                        class="fb-xfbml-parse-ignore"
-                      >
-                        Share on Facebook
-                      </Link>
-                      <br /> <br />
-                    </div>
+                   
 
                     <br />
                     <div className="row">

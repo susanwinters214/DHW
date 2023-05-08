@@ -42,15 +42,7 @@ function HowToCustomizeAppleWatchBkgrndPage(props) {
         <meta property="og:image:height" content="630px" />
         <meta property="og:image:alt" content="watch with home as photo" />
       </Head>
-      {/* Facebook Like JS Code*/}
-      <div id="fb-root"></div>
-      <Script
-        async
-        defer
-        crossOrigin="anonymous"
-        src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v16.0&appId=8620778781329629&autoLogAppEvents=1"
-        nonce="Fn5Aadju"
-      ></Script>
+  
       {/* insert top banner with Page Title & Breadcrumb*/}
       <section className="page-title">
         <Image
@@ -270,20 +262,8 @@ function HowToCustomizeAppleWatchBkgrndPage(props) {
                       too.
                     </p>
                     <br />
-                    <div
-                      className="fb-share-button"
-                      data-href="https://www.dallashomewatch.com/blog/how-to-customize-your-apple-watch-background"
-                      data-layout=""
-                      data-size=""
-                    >
-                      <Link
-                        target="_blank"
-                        href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.dallashomewatch.com%2Fblog%2Fhow-to-customize-your-apple-watch-background&amp;src=sdkpreparse"
-                        class="fb-xfbml-parse-ignore"
-                      >
-                        Share this article on Facebook
-                      </Link>
-                      <br /> <br />
+                    <div>
+                    
                       <div>
                         <h3 id="uploadLOGO">
                           How To Add Your Logo To Your Watch
@@ -330,23 +310,8 @@ function HowToCustomizeAppleWatchBkgrndPage(props) {
                             height={294}
                           />
                           <br /> <br />
-                          {/*  Your like button code */}
-                          <div
-                            className="fb-share-button"
-                            data-href="https://www.dallashomewatch.com/blog/how-to-customize-your-apple-watch-background"
-                            data-layout=""
-                            data-size=""
-                          >
-                            <Link
-                              target="_blank"
-                              href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.dallashomewatch.com%2Fblog%2Fhow-to-customize-your-apple-watch-background&amp;src=sdkpreparse"
-                              class="fb-xfbml-parse-ignore"
-                            >
-                              Share this article on Facebook
-                            </Link>
-                            <br />
-                          </div>
-                          <br />
+                        
+                    
                           <div className="row">
                             <div className="services-block col-lg-6 col-md-12 col-sm-12 centered">
                               <div

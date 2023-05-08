@@ -86,7 +86,7 @@ function FAQsPage(props) {
               <p>
                 Yes, you can find the Facebook page of Dallas Home Watch here:{" "}
                 <Link
-                  href="https://www.facebook.com/dallashomewatch"
+                  href="https://www.facebook.com/profile.php?id=100092566267916"
                   target="_blank"
                 >
                   Dallas Home Watch Facebook Page

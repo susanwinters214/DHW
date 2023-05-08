@@ -174,14 +174,8 @@ function WhereToFindPage() {
                       Yelp - Home Services - Home Inspections
                     </Link>
                     <br />
-                    <Link
-                      rel="nofollow"
-                      href="https://www.hotfrog.com/company/b34d0b41017187a8ab25a14d3edd93fc"
-                      target="_blank"
-                    >
-                      Hotfrog - Home Security & Automation{" "}
-                    </Link>
-                    <br />
+                  
+              
                     <Link
                       rel="nofollow"
                       href="https://www.pages24.com/dallas-tx/17620051-dallas-home-watch"
@@ -268,10 +262,7 @@ function WhereToFindPage() {
                     <br />
                   </p>
                   <br />
-                  <h4>Dallas Home Watch on Facebook</h4>
-                  <Link href="https://www.facebook.com/dallashomewatch">
-                    Like & Follow
-                  </Link>
+              
                 </div>
               </div>
             </div>

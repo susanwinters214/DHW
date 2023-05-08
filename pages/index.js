@@ -65,7 +65,7 @@ function HomePage(props) {
             <div className="row clearfix">
               <div className="services-block col-lg-12 col-md-12 col-sm-12">
                 <div className="homepagetopcontent">
-                  <h1 className="title zindexh1tag h1homepage">Dallas Home Watch</h1>
+                  <h1 className="title zindexh1tag h1homepage">Dallas Home Watch LLC.</h1>
                   <h2 className="h2homepage">Home Watch Services in Dallas </h2>
                   <div className="bannerbox btns-box centered">
                     <Link

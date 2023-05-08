@@ -39,15 +39,7 @@ function DangersOfEmptyHousePage(props) {
         <meta property="og:image:alt" content="dangers of vacant house" />
       </Head>
       {/* Facebook Like JS Code*/}
-      {/* Facebook Like JS Code*/}
-      <div id="fb-root"></div>
-      <Script
-        async
-        defer
-        crossOrigin="anonymous"
-        src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v16.0&appId=8620778781329629&autoLogAppEvents=1"
-        nonce="Fn5Aadju"
-      ></Script>
+     
       {/* insert top banner with Page Title & Breadcrumb*/}
       <section className="page-title">
         <Image
@@ -460,23 +452,8 @@ function DangersOfEmptyHousePage(props) {
                       peace of mind by hiring a professional home watch company
                       today.
                     </p>
-                    <br />
-                    {/*  Your like button code */}
-                    <div
-                      class="fb-share-button centered"
-                      data-href="https://www.dallashomewatch.com/blog/dangers-of-leaving-house-unoccupied"
-                      data-layout=""
-                      data-size=""
-                    >
-                      <Link
-                        target="_blank"
-                        href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.dallashomewatch.com%2Fblog%2Fdangers-of-leaving-house-unoccupied&amp;src=sdkpreparse"
-                        class="fb-xfbml-parse-ignore"
-                      >
-                        Share on Facebook
-                      </Link>
-                      <br />
-                    </div>
+                
+                  
                     <br />
                     <div className="row">
                       <div className="services-block col-lg-6 col-md-12 col-sm-12 centered">

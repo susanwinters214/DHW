@@ -318,40 +318,7 @@ function NationalHomeWatchMonthPage(props) {
                       <br />
                     </p>
                     <div className="content-column col-lg-12 col-md-12 col-sm-12">
-                      <div className="text-box">
-                        <h3>
-                          {" "}
-                          <Link
-                            target="_blank"
-                            href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.dallashomewatch.com%2Fnational-homewatch-month&amp;src=sdkpreparse"
-                            class="fb-xfbml-parse-ignore"
-                          >
-                            Share the News about National Home Watch Month on
-                            Facebook.
-                          </Link>
-                        </h3>
-                      </div>
-                    </div>
-                    <div
-                      class="fb-share-button centered"
-                      data-href="https://www.dallashomewatch.com/national-homewatch-month"
-                      data-layout=""
-                      data-size=""
-                    >
-                      <Link
-                        target="_blank"
-                        href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.dallashomewatch.com%2Fnational-homewatch-month&amp;src=sdkpreparse"
-                        class="fb-xfbml-parse-ignore"
-                      >
-                        <Image
-                          src="/images/blogimg/Facebook-Share-200x100.jpg"
-                          alt="Facebook share"
-                          width={200}
-                          height={100}
-                        />
-                        <br />
-                        Share on Facebook
-                      </Link>
+                      <div className="text-box"></div>
                     </div>
                     <br />
                     <br />
@@ -368,12 +335,15 @@ function NationalHomeWatchMonthPage(props) {
                         Knoklife
                       </Link>
                     </p>
+                
+                    {/*
                     <p>
                       Dallas Home Watch on{" "}
-                      <Link href="https://www.facebook.com/dallashomewatch">
+                      <Link href="https://www.facebook.com/profile.php?id=100092566267916">
                         Facebook
                       </Link>
                     </p>{" "}
+        */}
                     <br />
                     <p>
                       Interested in other National Days? View the list of{" "}

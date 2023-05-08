@@ -289,7 +289,7 @@ function BlogPage(props) {
                   />
                 </div>
               </div>
-              {/* Blog: Garage Door Openers */}
+              {/* Blog: Gate Openers */}
               <div className="services-block col-lg-6 col-md-12 col-sm-12">
                 <div
                   className="inner-box wow fadeInRight BLUE"

@@ -45,14 +45,7 @@ function AirFiltersPage(props) {
         />
       </Head>
       {/* Facebook Like JS Code*/}
-      <div id="fb-root"></div>
-      <script
-        async
-        defer
-        crossorigin="anonymous"
-        src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v16.0&appId=8620778781329629&autoLogAppEvents=1"
-        nonce="uggxp9bv"
-      ></script>
+    
 
       {/* insert top banner with Page Title & Breadcrumb*/}
       <section className="page-title">
@@ -228,7 +221,7 @@ function AirFiltersPage(props) {
                         <Image
                           width={300}
                           height={120}
-                          src="/images/blogimg/keyhb/man-cleaning-mirror-while-on-ladder.jpg"
+                          src="/images/blogimg/keyhb/moving-furniture.jpg"
                           alt="man moving furniture"
                         />
                       </div>
@@ -245,19 +238,8 @@ function AirFiltersPage(props) {
                       and well-maintained, a key holder service can take care of
                       everything on your behalf.
                     </p>
-                    <div
-                      class="fb-share-button centered"
-                      data-href="https://www.dallashomewatch.com/blog/benefits-of-hiring-keyholder-service"
-                      data-layout=""
-                      data-size=""
-                    >
-                      <Link
-                        target="_blank"
-                        href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.dallashomewatch.com%2Fblog%2Fbenefits-of-hiring-keyholder-service&amp;src=sdkpreparse"
-                        class="fb-xfbml-parse-ignore"
-                      >
-                        Share on Facebook
-                      </Link>
+                    <div>
+                  
                       <p>&nbsp;</p>
                       <div className="row">
                         <div className="services-block col-lg-6 col-md-12 col-sm-12 centered">

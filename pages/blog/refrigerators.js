@@ -45,15 +45,7 @@ function RefrigeratorsPage(props) {
           content="Dallas Home Watch Professionals opens the refrigerator door to make sure the light comes on."
         />
       </Head>
-      {/* Facebook Like JS Code*/}
-      <div id="fb-root"></div>
-      <script
-        async
-        defer
-        crossorigin="anonymous"
-        src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v16.0&appId=8620778781329629&autoLogAppEvents=1"
-        nonce="URsEs8xs"
-      ></script>
+
       {/* insert top banner with Page Title & Breadcrumb*/}
       <section className="page-title">
         <Image
@@ -179,21 +171,9 @@ function RefrigeratorsPage(props) {
                       food stays fresh and safe to eat.{" "}
                     </p>
 
-                    <div
-                      class="fb-share-button centered"
-                      data-href="https://www.dallashomewatch.com/blog/refrigerators"
-                      data-layout=""
-                      data-size=""
-                    >
-                      <Link
-                        target="_blank"
-                        href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.dallashomewatch.com%2Fblog%2Frefrigerators&amp;src=sdkpreparse"
-                        class="fb-xfbml-parse-ignore"
-                      >
-                        Share on Facebook
-                      </Link>
+                    <div>
                       <br />
-                      <br />
+
                       <div className="row">
                         <div className="services-block col-lg-6 col-md-12 col-sm-12 centered">
                           <div
@@ -244,6 +224,23 @@ function RefrigeratorsPage(props) {
                       </div>
                     </div>
                   </div>
+
+                  <section className="services-page-section centered">
+                    <div className="column col-lg-12 col-md-6 col-sm-6">
+                      <h3>Ready To Hire A Home Watch Service Business?</h3>
+                      <br />
+
+                      <a
+                        href="tel:972-982-7050"
+                        className="theme-btn btn-style-two"
+                      >
+                        <span className="txt">
+                          CALL DALLAS HOME WATCH
+                          <i className="phone" />
+                        </span>
+                      </a>
+                    </div>
+                  </section>
                 </div>
               </div>
             </div>

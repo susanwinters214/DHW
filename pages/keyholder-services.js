@@ -40,10 +40,7 @@ function KeyHolderPage(props) {
         />
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />
-        <meta
-          property="og:image:alt"
-          content="keys hanging on a key holder"
-        />
+        <meta property="og:image:alt" content="keys hanging on a key holder" />
       </Head>
       <Script src="js/jquery.min.js"></Script>
       {/* insert top banner with Page Title & Breadcrumb*/}
@@ -188,36 +185,41 @@ function KeyHolderPage(props) {
                   property is secure.{" "}
                 </p>
                 <br />
+                <h4>Removed Dormers From Roof</h4>
 
                 <div className="row clearfix">
-                  <div className="column col-lg-6 col-md-6 col-sm-6">
-                    <iframe
-                      width="500"
-                      height="725"
-                      src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fdallashomewatch%2Fposts%2Fpfbid033J2bdGcPmbFbq5wUhtXgXxAeBdSy7yX9cGbanJW61YBozn7oCwRZmkFPKyLeFpVQl&show_text=true&width=500"
-                      scrolling="no"
-                      frameborder="0"
-                      allowfullscreen="true"
-                      allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-                    ></iframe>
-                  </div>
-
-                  <div className="column col-lg-6 col-md-6 col-sm-6">
-                    <h4>Removed Dormers From Roof</h4>
-                    <div>
+                  <div className="column col-lg-12 col-md-12 col-sm-12">
+                    <p>
+                      Our Key Holder service will allow you to get Home Projects
+                      done while you are away. We meet with contractors, oversee
+                      the work, document the process with photos and supervise
+                      clean up after completion. Need a home project done on
+                      your Dallas home? Give us a call 972-982-7050.
+                    </p>
+                    <p>
+                      {" "}
                       These photos were taken during a Key Holder Service that
                       lasted 3 days. We met with the roofers and stayed until
                       the job was complete.
-                      <br />
-                      <Image
-                        src="/images/key-holder/house-with-dormers-on-roof.jpg"
-                        alt="house with four car garage with dormers on the roof"
-                        width={400}
-                        height={300}
-                        id="houseBEFOREroof"
-                      />
-                      <br />
-                      <br />
+                    </p>
+                  </div>
+                  <div className="column col-lg-6 col-md-6 col-sm-6">
+                    <p><strong>BEFRORE</strong></p>
+
+                    <Image
+                      src="/images/key-holder/house-with-dormers-on-roof.jpg"
+                      alt="house with four car garage with dormers on the roof"
+                      width={400}
+                      height={300}
+                      id="houseBEFOREroof"
+                    />
+                  </div>
+
+                  <div className="column col-lg-6 col-md-6 col-sm-6">
+                    <p>
+                      <strong>AFTER</strong>
+                    </p>
+                    <div>
                       <Image
                         src="/images/key-holder/house-with-dormers-on-roof-removed.jpg"
                         alt="house keys"
@@ -227,10 +229,16 @@ function KeyHolderPage(props) {
                       />
                     </div>
                   </div>
-
+                  <p>&nbsp;</p>
                   <br />
                 </div>
-
+                <br />
+                <p>
+                  Read more about the{" "}
+                  <Link href="/blog/benefits-of-hiring-keyholder-service">
+                    benefits of hiring keyholder service.
+                  </Link>
+                </p>
                 <br />
 
                 <h3>Emergency Services</h3>
