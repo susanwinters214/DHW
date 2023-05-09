@@ -3,16 +3,33 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import Script from "next/script";
+import StructuredData from "/components/StructuredData";
 
 
-function AirFiltersPage(props) {
+export default function BlogPost({ post, props }) {
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  headline: "post.title",
+  description: "post.description",
+  author: [
+    {
+      "@type": "Person",
+      name: "Tina Lawson",
+    },
+  ],
+  image:
+    "https://www.dallashomewatch.com/images/blogimg/og-air-filter-replacement.jpg",
+  datePublished: "",
+  };
+  
 
   return (
     <Fragment>
-     
-
       <Head>
-        <title>Dallas Home Watch Checks Your Air Filters</title>
+        <title>Changing Dirty Air Filters</title>
+        <meta name="robots" content="noindex, nofollow" />
+
         <link
           rel="canonical"
           href="https://www.dallashomewatch.com/blog/air-filters"
@@ -44,6 +61,8 @@ function AirFiltersPage(props) {
           property="og:image:alt"
           content="Dallas Home Watch Professionals finds dirty air filter and replaces."
         />
+
+        <StructuredData data={structuredData} />
       </Head>
       {/* Facebook Like JS Code*/}
 
@@ -245,6 +264,14 @@ function AirFiltersPage(props) {
       </section>
     </Fragment>
   );
-}
 
-export default AirFiltersPage;
+};
+
+
+
+
+
+
+
+
+

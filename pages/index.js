@@ -8,16 +8,17 @@ function HomePage(props) {
   return (
     <Fragment>
       <Head>
-        <title>Dallas Home Watch LLC.| Home Watch Dallas, TX</title>
-        <meta
-          property="keywords"
-          content="home watch, dallas home watch, home watch dallas"
-        />
-        <link rel="canonical" href="https://www.dallashomewatch.com"></link>
+        <title>Dallas Home Watch LLC.| Home Watch Dallas </title>
         <meta
           name="description"
-          content="Dallas Home Watch LLC. provides home watch inspections in the Dallas area. Home watch is a visual inspection of a home looking for obvious issues. "
+          content="Dallas Home Watch is a local, woman owned business that provides visual inspections both inside and outside of a home or property looking for obvious issues."
         />
+        <meta
+          property="keywords"
+          content="home watch, home watch dallas, dallas home watch"
+        />
+        <link rel="canonical" href="https://www.dallashomewatch.com"></link>
+
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta
@@ -29,8 +30,7 @@ function HomePage(props) {
         <meta property="og:title" content="Dallas Home Watch" />
         <meta
           property="og:description"
-          content="Dallas Home Watch Services by Dallas Home Watch LLC. provides Home Watch Services in the Dallas area for homeowners who have a second property located in north Dallas, Highland Park, Preston Hollow, University Park,
-          Bluffview and Northwood Hills. We perform a visual inspection of your home while you are away and help you mitigate risks to your residence."
+          content="Dallas Home Watch is a local, woman owned business that provides visual inspections both inside and outside of a home or property looking for obvious issues."
         />
         <meta
           property="og:image"
@@ -49,42 +49,42 @@ function HomePage(props) {
       </Head>
       {/* top Banner Area */}
 
-      
-        <section className="page-title" style={{}}>
-          <Image
-            src="/images/background/dallas-texas-skyline.jpg"
-            layout="fill"
-            objectFit="cover"
-            alt="dallas skyline"
-            style={{
-              zIndex: -99,
-            }}
-          />
+      <section className="page-title" style={{}}>
+        <Image
+          src="/images/background/dallas-texas-skyline.jpg"
+          layout="fill"
+          objectFit="cover"
+          alt="dallas skyline"
+          style={{
+            zIndex: -99,
+          }}
+        />
 
-          <div className="auto-container">
-            <div className="row clearfix">
-              <div className="services-block col-lg-12 col-md-12 col-sm-12">
-                <div className="homepagetopcontent">
-                  <h1 className="title zindexh1tag h1homepage">Dallas Home Watch LLC.</h1>
-                  <h2 className="h2homepage">Home Watch Services in Dallas </h2>
-                  <div className="bannerbox btns-box centered">
-                    <Link
-                      href="/home-watch-services"
-                      className="theme-btn btn-style-two"
-                    >
-                      <span className="txt">
-                        CALL FOR APPOINTMENT
-                        <i className="phone" />
-                      </span>
-                    </Link>
-                  </div>
-                  <br />
+        <div className="auto-container">
+          <div className="row clearfix">
+            <div className="services-block col-lg-12 col-md-12 col-sm-12">
+              <div className="homepagetopcontent">
+                <h1 className="title zindexh1tag h1homepage">
+                  Dallas Home Watch LLC.
+                </h1>
+                <h2 className="h2homepage">Home Watch Services in Dallas </h2>
+                <div className="bannerbox btns-box centered">
+                  <Link
+                    href="/home-watch-services"
+                    className="theme-btn btn-style-two"
+                  >
+                    <span className="txt">
+                      CALL FOR APPOINTMENT
+                      <i className="phone" />
+                    </span>
+                  </Link>
                 </div>
+                <br />
               </div>
             </div>
           </div>
-        </section>
-     
+        </div>
+      </section>
 
       {/* 4 BLOCKS */}
 
@@ -370,10 +370,7 @@ function HomePage(props) {
                   We operate our business in accordance with the mission
                   statement laid out by the National Home Watch Association.
                 </p>
-                <Link
-                  href="/accreditation"
-                  target="_blank"
-                >
+                <Link href="/accreditation" target="_blank">
                   <Image
                     width={300}
                     height={120}

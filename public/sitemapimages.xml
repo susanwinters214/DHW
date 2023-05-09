@@ -11,29 +11,6 @@
         <image:loc>https://www.dallashomewatch.com/images/nhwa-member-logo.jpg</image:loc>
     </image:image>
    </url> 
-<url>
- <loc>https://www.dallashomewatch.com/homewatch-services</loc>
- <image:image>
-   <image:loc>https://www.dallashomewatch.com/images/hw-check/security-alarm-inspection.jpg</image:loc>
-   <image:loc>https://www.dallashomewatch.com/images/hw-check/faucet-sink-inspection.jpg</image:loc>
-   <image:loc>https://www.dallashomewatch.com/images/hw-check/watercop-device.jpg</image:loc>
-   <image:loc>https://www.dallashomewatch.com/images/hw-check/toilets-and-tubs.jpg</image:loc>
-   <image:loc>https://www.dallashomewatch.com/images/hw-check/refrigerator-inspection.jpg</image:loc>
-   <image:loc>https://www.dallashomewatch.com/images/hw-check/bar-sink-inspection.jpg</image:loc>
-   <image:loc>https://www.dallashomewatch.com/images/hw-check/electronics-closet-inspection.jpg</image:loc>
-   <image:loc>https://www.dallashomewatch.com/images/hw-check/router-inspection.jpg</image:loc>
-   <image:loc>https://www.dallashomewatch.com/images/hw-check/air-filter-replacement.jpg</image:loc>
-   <image:loc>https://www.dallashomewatch.com/images/hw-check/breaker-box-inspection.jpg</image:loc>
-   <image:loc>https://www.dallashomewatch.com/images/hw-check/attic-ac-inspection.jpg</image:loc>
-   <image:loc>https://www.dallashomewatch.com/images/hw-check/washing-machine-inspection.jpg</image:loc>
-   <image:loc>https://www.dallashomewatch.com/images/car-care/garage-door-openers.jpg</image:loc>
-   <image:loc>https://www.dallashomewatch.com/images/hw-check/swimming-pool.jpg</image:loc>
-   <image:loc>https://www.dallashomewatch.com/images/hw-check/securing-back-doors.jpg</image:loc>
-   <image:loc>https://www.dallashomewatch.com/images/hw-check/trash-cans.jpg</image:loc>
-   <image:loc>https://www.dallashomewatch.com/images/hw-check/securing-back-gate.jpg</image:loc>
-   <image:loc>https://www.dallashomewatch.com/images/hw-check/home-watch-checklist.png</image:loc>
- </image:image>
-  </url>  
  <url>
  <loc>https://www.dallashomewatch.com/homewatch-checklist</loc>
  <image:image>

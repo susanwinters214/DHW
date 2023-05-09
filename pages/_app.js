@@ -11,8 +11,9 @@ function MyApp({ Component, pageProps }) {
   return (
     <Layout>
       <Head>
-        {/* BING */}
+        {/* BING 
         <meta name="msvalidate.01" content="4DE9FB569233D165857C1F739B5D3CC1" />
+        */}
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="author" content="Susan Winters" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
