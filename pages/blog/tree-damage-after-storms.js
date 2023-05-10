@@ -9,7 +9,7 @@ function GateOperatorPage(props) {
     <Fragment>
       <Head>
         <title>Tree Damage After Storms in Texas - DALLAS HOME WATCH</title>
-        <meta name="robots" content="noindex, nofollow" />
+   
         <link
           rel="canonical"
           href="https://www.dallashomewatch.com/blog/tree-damage-after-storms"
@@ -34,7 +34,7 @@ function GateOperatorPage(props) {
         />
         <meta
           property="og:image"
-          content="https://www.dallashomewatch.com/images/blogimg/XXXXXXXXXXXXXXXXXXXXXXXXXXX.jpg"
+          content="https://www.dallashomewatch.com/images/blogimg/texas-storm-damages-trees-in-dallas.jpg"
         />
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />
@@ -46,7 +46,7 @@ function GateOperatorPage(props) {
 
       <section className="page-title ">
         <Image
-          src="/images/blogimg/XXXXXXXXXXXXXXXXXx.jpg"
+          src="/images/blogimg/_tree-damage/texas-storm-damages-trees-in-dallas.jpg"
           alt="tree damage after storm in Texas"
           style={{
             zIndex: -99,
@@ -94,7 +94,28 @@ function GateOperatorPage(props) {
                       Texas by a home watch company like Dallas Home Watch is
                       crucial.
                     </p>
-
+                    {/* Row 1 - 1 and 2*/}
+                    <div className="image-column col-lg-6 col-md-6 col-sm-6 centered">
+                      <Image
+                        width={400}
+                        height={400}
+                        src="/images/blogimg/_tree-damage/broken-tree-limbs.jpg"
+                        alt="broken tree limbs"
+                      />
+                      <br />
+                      <span className="tiny">Tree Limbs Blocking Driveway</span>
+                    </div>
+                    <div className="image-column col-lg-6 col-md-6 col-sm-6 centered">
+                      <Image
+                        width={400}
+                        height={400}
+                        src="/images/blogimg/_tree-damage/dallas-tree-damage.jpg"
+                        alt="dallas tree damage"
+                      />
+                      <br />
+                      <span className="tiny">Tree Limbs On Path To House</span>
+                      <br /> <br />
+                    </div>
                     <h3 className="mb-10">
                       Texas Prepares For Storms and Tornados{" "}
                     </h3>
@@ -116,7 +137,29 @@ function GateOperatorPage(props) {
                       Damaged trees can also impede highways, adding to the risk
                       of falling trees and branches.
                     </p>
-
+                    {/* Row 4 - 7 and 8*/}
+                    <p>&nbsp;</p>
+                    <div className="image-column col-lg-6 col-md-6 col-sm-6 centered">
+                      <Image
+                        width={400}
+                        height={400}
+                        src="/images/blogimg/_tree-damage/trees-down-dallas.jpg"
+                        alt="trees down dallas"
+                      />
+                      <br />
+                      <span className="tiny">Trees on Driveway</span>
+                    </div>
+                    <div className="image-column col-lg-6 col-md-6 col-sm-6 centered">
+                      <Image
+                        width={400}
+                        height={400}
+                        src="/images/blogimg/_tree-damage/trees-in-street-dallas.jpg"
+                        alt="trees in street dallas"
+                      />
+                      <br />
+                      <span className="tiny">Broken Tree Limb in Street</span>
+                    </div>
+                    <p>&nbsp;</p>
                     <h3 className="mb-10">Texas Storms are Deadly </h3>
                     <p>
                       According to the National Weather Service, the EF-3
@@ -138,28 +181,31 @@ function GateOperatorPage(props) {
                       late because these kinds of problems can be challenging to
                       identify.
                     </p>
-                    {/* Row 1 - 1 and 2*/}
+                    {/* Row 2 - 3 and 4*/}
+                    <p>&nbsp;</p>
                     <div className="image-column col-lg-6 col-md-6 col-sm-6 centered">
                       <Image
                         width={400}
                         height={400}
-                        src="/images/blogimg/_gate-repair/open-gate.jpg"
-                        alt="examining old gate operator"
+                        src="/images/blogimg/_tree-damage/texas-storm-damages-trees.jpg"
+                        alt="texas storm damages trees"
                       />
                       <br />
-                      <span className="tiny">Found Gate Left Open</span>
+                      <span className="tiny">Trees On Path To House</span>
                     </div>
                     <div className="image-column col-lg-6 col-md-6 col-sm-6 centered">
                       <Image
                         width={400}
-                        height={400}
-                        src="/images/blogimg/_gate-repair/removed-chain-gate-operator-02.jpg"
-                        alt="chain from gate laying on the ground"
+                        height={300}
+                        src="/images/blogimg/_tree-damage/trees-at-dallas-home.jpg"
+                        alt="trees at dallas home"
                       />
                       <br />
-                      <span className="tiny">Removed Chain From Opener</span>
-                      <br /> <br />
+                      <span className="tiny">
+                        Broken Tree Limbs In Front Lawn
+                      </span>
                     </div>
+                    <p>&nbsp;</p>
                     <h3 className="mb-10">Home Watch Can Help After A Storm</h3>
                     <p>
                       This is where a home watch service like Dallas Home Watch
@@ -176,31 +222,32 @@ function GateOperatorPage(props) {
                       by severe weather, such as tree damage and attic water
                       leaks.
                     </p>
-
-                    {/* Row 4 - 7 and 8*/}
-
+                    {/* Row 3 - 5 and 6 */}
+                    <p>&nbsp;</p>
                     <div className="image-column col-lg-6 col-md-6 col-sm-6 centered">
                       <Image
                         width={400}
                         height={400}
-                        src="/images/blogimg/_gate-repair/welding-gate-07.jpg"
-                        alt="welding gate"
+                        src="/images/blogimg/_tree-damage/texas-trees-down-after-storm.jpg"
+                        alt="texas trees down after storm"
                       />
                       <br />
-                      <span className="tiny">Man on Ladder Welding Gate</span>
+                      <span className="tiny">
+                        Broken Trees On Side Of House
+                      </span>
                     </div>
-
                     <div className="image-column col-lg-6 col-md-6 col-sm-6 centered">
                       <Image
                         width={400}
                         height={400}
-                        src="/images/blogimg/_gate-repair/welding-gate-08.jpg"
-                        alt="welding gate"
+                        src="/images/blogimg/_tree-damage/tree-broken-limbs.jpg"
+                        alt="tree broken limbs"
                       />
                       <br />
-                      <span className="tiny">Two Men on Gate Welding</span>
+                      <span className="tiny">Broken Trees in Backyard</span>
                     </div>
 
+                    <p>&nbsp;</p>
                     <p>
                       Part of being a Dallas Home Watch client, means that
                       professionals will come to your property to thoroughly
@@ -211,6 +258,7 @@ function GateOperatorPage(props) {
                       They will also look for indications of water damage inside
                       your house, such as leaks in the attic.
                     </p>
+
                     <p>
                       Dallas Home Watch will inform the homeowner of any damage
                       discovered and offer advice on how to resolve the problem.
@@ -227,88 +275,31 @@ function GateOperatorPage(props) {
                       the situation of your assets in Dallas.
                     </p>
 
-                    {/* Row 2 - 3 and 4*/}
-                    <p>&nbsp;</p>
-                    <div className="image-column col-lg-6 col-md-6 col-sm-6 centered">
-                      <Image
-                        width={400}
-                        height={400}
-                        src="/images/blogimg/_gate-repair/new-gate-wheels-03.jpg"
-                        alt="new wheels for gate"
-                      />
-                      <br />
-                      <span className="tiny">New Opener Wheels for Gate</span>
-                    </div>
-                    <div className="image-column col-lg-6 col-md-6 col-sm-6 centered">
-                      <Image
-                        width={400}
-                        height={300}
-                        src="/images/blogimg/_gate-repair/welding-gate-wheel-04.jpg"
-                        alt="welding gate onto wheel"
-                      />
-                      <br />
-                      <span className="tiny">Welding New Wheel Onto Gate</span>
-                    </div>
-
-                    {/* Row 3 - 5 and 6 */}
-                    <p>&nbsp;</p>
-                    <div className="image-column col-lg-6 col-md-6 col-sm-6 centered">
-                      <Image
-                        width={400}
-                        height={400}
-                        src="/images/blogimg/_gate-repair/testing-gate-wheel-05.jpg"
-                        alt="man manually pushing big gate"
-                      />
-                      <br />
-                      <span className="tiny">
-                        Man manually pushing big Gate testing Wheel
-                      </span>
-                    </div>
-                    <div className="image-column col-lg-6 col-md-6 col-sm-6 centered">
-                      <Image
-                        width={400}
-                        height={400}
-                        src="/images/blogimg/_gate-repair/welding-gate-06.jpg"
-                        alt="welding gate"
-                      />
-                      <br />
-                      <span className="tiny">Man on Fence Welding Gate</span>
-                    </div>
-
-                    <p>&nbsp;</p>
-
                     {/* Row 5 - number 9*/}
                     <p>&nbsp;</p>
                     <div className="image-column col-lg-6 col-md-6 col-sm-6 centered">
                       <Image
                         width={400}
                         height={400}
-                        src="/images/blogimg/_gate-repair/swapping-out-gate-opener-09.jpg"
-                        alt="swapping out gate opener"
+                        src="/images/blogimg/_tree-damage/tree-damage-dallas-house.jpg"
+                        alt="tree damage dallas house"
                       />
                       <br />
-                      <span className="tiny">Swapping out Gate Opener</span>
+                      <span className="tiny">Broken Trees On Path</span>
                       <br />
-                      <br />
-                      <div className="yellowblock">
-                        <p>
-                          {" "}
-                          The homeowner was very relieved to recieve photos and
-                          videos of their property after a major storm. This
-                          enabled them to assess the damage remotely and make
-                          calls to a tree removal service and a roofer. Dallas
-                          Home Watch was there to give the workers access to the
-                          property and secure the area upon their departure.{" "}
-                        </p>
-                      </div>
+                   
                     </div>
                     <div className="image-column col-lg-6 col-md-6 col-sm-6 centered">
                       <Image
                         width={400}
                         height={400}
-                        src="/images/blogimg/_gate-repair/liftmaster-gate-operator.jpg"
-                        alt="swapping out gate opener"
+                        src="/images/blogimg/_tree-damage/trees-after-storm.jpg"
+                        alt="trees after storm"
                       />
+                      <br />
+                      <span className="tiny">
+                        Broken Trees On Side Of House
+                      </span>
                     </div>
                     <br />
                   </div>
@@ -334,7 +325,7 @@ function GateOperatorPage(props) {
             <div id="picTovideo" className="centered">
               <Link href="https://youtu.be/645nNTF6e5M" target="_blank">
                 <Image
-                  src="/images/blogimg/_tree-damage/xxxx.jpg"
+                  src="/images/blogimg/_tree-damage/trees-on-ground.jpg"
                   alt="broken tree limbs from Texas storm"
                   width={400}
                   height={385}
