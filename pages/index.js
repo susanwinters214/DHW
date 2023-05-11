@@ -85,16 +85,27 @@ function HomePage(props) {
                   Dallas Home Watch LLC.
                 </h1>
                 <h2 className="h2homepage">Home Watch Services in Dallas </h2>
-                <div className="bannerbox btns-box centered">
-                  <Link
-                    href="/home-watch-services"
-                    className="theme-btn btn-style-two"
-                  >
-                    <span className="txt">
-                      CALL FOR APPOINTMENT
-                      <i className="phone" />
-                    </span>
-                  </Link>
+
+                <div className="row clearfix">
+                  <div className="services-block col-lg-12 col-md-12 col-sm-12">
+                    <div className="bannerbox btns-box centered">
+                      <Link
+                        href="/blog/tree-damage-after-storms"
+                        className="theme-btn btn-style-two"
+                      >
+                        <span className="txt">
+                          Texas Tornado & Storm Season
+                          <i className="phone" />
+                        </span><br />
+                        <Image
+                          src="/images/tornado-season.jpg"
+                          width={350}
+                          height={269}
+                          alt="tornado damaging trees"
+                        />
+                      </Link>
+                    </div>
+                  </div>
                 </div>
                 <br />
               </div>

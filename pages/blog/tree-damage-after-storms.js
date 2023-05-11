@@ -105,6 +105,15 @@ function GateOperatorPage(props) {
                     </h2>
                     <p className="text"></p>
                     <p>
+                      <strong>
+                        Texas Tornado season runs April through June of each
+                        year.
+                      </strong>{" "}
+                      If you leave your Dallas home unoccupied during this time,
+                      you may want to hire Dallas Home Watch to keep an eye on
+                      your property.{" "}
+                    </p>
+                    <p>
                       Texas is prone to severe storms that can seriously harm
                       trees, houses, and other buildings. Homeowners should take
                       proactive steps to safeguard their property and be ready
