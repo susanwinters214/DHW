@@ -13,12 +13,17 @@ function PrivacyPage() {
         />
         <meta
           name="description"
-          content="Privacy Policy for Dallas Home Watch - Read the Privacy Policy for using our website. Dallas Home Watch respects your privacy and only asks for information needed."
+          content="Dallas Home Watch respects your privacy and only asks for the information needed to take care of your home. Please read the Dallas Home Watch Privacy Policy."
         />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
+        <meta property="og:type" content="article" />
         <meta property="keywords" content="home watch privacy policy" />
+        <meta
+          property="article:publisher"
+          content="https://www.facebook.com/profile.php?id=100092566267916"
+        ></meta>
         <meta
           property="og:url"
           content="https://www.dallashomewatch.com/privacy-policy"
@@ -35,6 +40,22 @@ function PrivacyPage() {
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />
         <meta property="og:image:alt" content="privacy gate" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@dallashomewatch" />
+        <meta name="twitter:creator" content="@susanwinters214" />
+
+        <meta
+          name="twitter:title"
+          content="Privacy Policy for Dallas Home Watch"
+        />
+        <meta
+          name="twitter:description"
+          content="Dallas Home Watch respects your privacy and only asks for the information needed to take care of your home. Please read the Dallas Home Watch Privacy Policy."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.dallashomewatch.com/images/og/privacy-gate.jpg"
+        />
       </Head>
 
       {/* insert top banner with Page Title & Breadcrumb*/}

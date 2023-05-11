@@ -22,15 +22,20 @@ function AboutPage() {
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
-
+        <meta property="og:type" content="article" />
+        <meta
+          property="article:publisher"
+          content="https://www.facebook.com/profile.php?id=100092566267916"
+        ></meta>
         <meta
           property="og:url"
           content="https://www.dallashomewatch.com/about"
         />
-        <meta property="og:title" content="Dallas Home Watch" />
+        <meta property="og:title" content="About Dallas Home Watch" />
         <meta
           property="og:description"
-          content="Read About: Home Watch Business in Dallas, Texas.  Dallas Home Watch contracts with clients to watch their home while they are away."
+          content="Dallas Home Watch, owned by Tina Lawson, contracts with clients to watch 
+          their home while they are away."
         />
         <meta
           property="og:image"
@@ -41,6 +46,20 @@ function AboutPage() {
         <meta
           property="og:image:alt"
           content="home watch professional entering front door of luxury home"
+        />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@dallashomewatch" />
+        <meta name="twitter:creator" content="@susanwinters214" />
+
+        <meta name="twitter:title" content="About Dallas Home Watch" />
+        <meta
+          name="twitter:description"
+          content="Dallas Home Watch, owned by Tina Lawson, contracts with clients to watch 
+          their home while they are away."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.dallashomewatch.com/images/og/dallas-home-watch-opening-doors.jpg"
         />
       </Head>
       {/* insert top banner with Page Title & Breadcrumb*/}
@@ -75,7 +94,6 @@ function AboutPage() {
                     <h2 className="pushdown25">Dallas Home Watch</h2>
                   </div>
                   <div className="text">
-                    
                     <p>
                       Dallas Home Watch provides the service of discreetly
                       checking your home while you are away. The homeowner can
@@ -123,7 +141,7 @@ function AboutPage() {
                     <p>
                       In 2022, Ms. Lawson rebranded her company from STS
                       (suburban transportation services) to Dallas Home Watch to
-                      better reflect the services her company provides. 
+                      better reflect the services her company provides.
                     </p>
                     <p>
                       Clients are regular accounts that contract with Dallas

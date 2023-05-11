@@ -9,7 +9,7 @@ function ResourcesPage(props) {
   return (
     <Fragment>
       <Head>
-        <title>Home Watch Referrals</title>
+        <title>Home Watch Resources and Referrals</title>
         <meta name="robots" content="noindex"></meta>
         <link
           rel="canonical"
@@ -17,7 +17,7 @@ function ResourcesPage(props) {
         />
         <meta
           name="description"
-          content="Dallas Home Watch shares resources for Home Watch Businesses and Home Watch Clients. This page contains discounts to places in Dallas. Save money by visiting the Dallas Home Watch Resources page often."
+          content="Dallas Home Watch shares resources and referrals for Home Watch Businesses and Home Watch Clients. This page contains discounts to places in Dallas. Save money by visiting the Dallas Home Watch Resources page often."
         />
         <meta
           property="keywords"
@@ -26,15 +26,22 @@ function ResourcesPage(props) {
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
-
+        <meta property="og:type" content="article" />
+        <meta
+          property="article:publisher"
+          content="https://www.facebook.com/profile.php?id=100092566267916"
+        ></meta>
         <meta
           property="og:url"
           content="https://www.dallashomewatch.com/resources"
         />
-        <meta property="og:title" content="Dallas Home Watch Resources" />
+        <meta
+          property="og:title"
+          content="Home Watch Resources and Referrals"
+        />
         <meta
           property="og:description"
-          content="Dallas Home Watch shares resources for Home Watch Businesses and Home Watch Clients. This page contains discounts to places in Dallas. Save money by visiting the Dallas Home Watch Resources page often."
+          content="Dallas Home Watch shares resources and referrals for Home Watch Businesses and Home Watch Clients. This page contains discounts to places in Dallas. Save money by visiting the Dallas Home Watch Resources page often."
         />
         <meta
           property="og:image"
@@ -45,6 +52,22 @@ function ResourcesPage(props) {
         <meta
           property="og:image:alt"
           content="home watch professional entering front door of luxury home"
+        />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@dallashomewatch" />
+        <meta name="twitter:creator" content="@susanwinters214" />
+
+        <meta
+          name="twitter:title"
+          content="Home Watch Resources and Referrals"
+        />
+        <meta
+          name="twitter:description"
+          content="Dallas Home Watch shares resources and referrals for Home Watch Businesses and Home Watch Clients. This page contains discounts to places in Dallas. Save money by visiting the Dallas Home Watch Resources page often."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.dallashomewatch.com/images/og/dallas-home-watch-opening-doors.jpg"
         />
       </Head>
       {/* insert top banner with Page Title & Breadcrumb*/}

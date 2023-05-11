@@ -8,19 +8,24 @@ function WaterLeaksPage(props) {
   return (
     <Fragment>
       <Head>
-        <title>Dallas Home Watch Checks Your Home For Water Leaks</title>
+        <title>Avoid Major Water Leaks by Hiring Dallas Home Watch</title>
         <link
           rel="canonical"
           href="https://www.dallashomewatch.com/blog/water-leaks"
         />
         <meta
           name="description"
-          content="Water leaks can cause a lot of damage! Home Watch Service includes checking all of your water sources to make sure there are no water leaks. "
+          content="Water leaks can cause a lot of damage! Avoid Major Water Leaks by Hiring Dallas Home Watch to check all of your water sources to make sure there are no water leaks."
         />
 
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
+        <meta property="og:type" content="article" />
+        <meta
+          property="article:publisher"
+          content="https://www.facebook.com/profile.php?id=100092566267916"
+        ></meta>
         <meta
           property="keywords"
           content="water leaks, water damage, home watch services"
@@ -29,10 +34,13 @@ function WaterLeaksPage(props) {
           property="og:url"
           content="https://www.dallashomewatch.com/blog/water-leaks"
         />
-        <meta property="og:title" content="Water Leaks" />
+        <meta
+          property="og:title"
+          content="Avoid Major Water Leaks by Hiring Dallas Home Watch"
+        />
         <meta
           property="og:description"
-          content="Water leaks can cause a lot of damage! Home Watch Service includes checking all of your water sources to make sure there are no water leaks. "
+          content="Water leaks can cause a lot of damage! Avoid Major Water Leaks by Hiring Dallas Home Watch to check all of your water sources to make sure there are no water leaks."
         />
         <meta
           property="og:image"
@@ -43,6 +51,22 @@ function WaterLeaksPage(props) {
         <meta
           property="og:image:alt"
           content="Dallas Home Watch Professionals find water leaks and repair when possible or calls a plumber onto the property to fix it after the client has given authorization."
+        />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@dallashomewatch" />
+        <meta name="twitter:creator" content="@susanwinters214" />
+
+        <meta
+          name="twitter:title"
+          content="Avoid Major Water Leaks by Hiring Dallas Home Watch"
+        />
+        <meta
+          name="twitter:description"
+          content="Water leaks can cause a lot of damage! Avoid Major Water Leaks by Hiring Dallas Home Watch to check all of your water sources to make sure there are no water leaks."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.dallashomewatch.com/images/blogimg/og-water-leak-damage.jpg"
         />
       </Head>
       {/* Facebook Like JS Code*/}
@@ -410,14 +434,14 @@ function WaterLeaksPage(props) {
                           alt="mold found in shower"
                           width={600}
                           height={600}
-                        /><br />
+                        />
+                        <br />
                         <span className="ontopofpic">PLAY VIDEO</span>
                       </Link>
                     </div>
                     <br />
 
                     <div>
-                  
                       <br /> <br />
                       <div className="row">
                         <div className="services-block col-lg-6 col-md-12 col-sm-12 centered">

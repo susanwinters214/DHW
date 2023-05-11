@@ -14,12 +14,17 @@ function FAQsPage(props) {
         <link rel="canonical" href="https://www.dallashomewatch.com/faqs" />
         <meta
           name="description"
-          content="Frequently Asked Questions for Dallas Home Watch. Get answers to questions about Home Watch and the services we provide."
+          content="Home Watch FAQs - Dallas Home Watch Frequently Asked Questions. Get answers to frequently asked questions about Home Watch and the services we provide."
         />
 
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
+        <meta property="og:type" content="article" />
+        <meta
+          property="article:publisher"
+          content="https://www.facebook.com/profile.php?id=100092566267916"
+        ></meta>
         <meta
           property="keywords"
           content="home watch questions, homewatch faqs"
@@ -34,7 +39,7 @@ function FAQsPage(props) {
         />
         <meta
           property="og:description"
-          content="Frequently Asked Questions for Dallas Home Watch. Get answers to questions about Home Watch and the services we provide."
+          content="Home Watch FAQs - Dallas Home Watch Frequently Asked Questions. Get answers to frequently asked questions about Home Watch and the services we provide."
         />
         <meta
           property="og:image"
@@ -45,6 +50,22 @@ function FAQsPage(props) {
         <meta
           property="og:image:alt"
           content="question marks for frequently asked questions"
+        />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@dallashomewatch" />
+        <meta name="twitter:creator" content="@susanwinters214" />
+
+        <meta
+          name="twitter:title"
+          content=" Home Watch FAQs - Dallas Home Watch Frequently Asked Questions"
+        />
+        <meta
+          name="twitter:description"
+          content="Home Watch FAQs - Dallas Home Watch Frequently Asked Questions. Get answers to frequently asked questions about Home Watch and the services we provide."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.dallashomewatch.com/images/background/questions.jpg"
         />
       </Head>
       {/* insert top banner with Page Title & Breadcrumb*/}

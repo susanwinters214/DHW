@@ -15,11 +15,16 @@ function WhyYouNeedHomewatchPage(props) {
         ></link>
         <meta
           name="description"
-          content="You need a Home Watch service company to watch over your unoccupied home to protect your assets while you are away. Help mitigate risks to your property."
+          content="Do you know why you need home watch? Home Watch Companies watch over your unoccupied home to protect your assets while you are away and help mitigate risks to your property."
         />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
+        <meta property="og:type" content="article" />
+        <meta
+          property="article:publisher"
+          content="https://www.facebook.com/profile.php?id=100092566267916"
+        ></meta>
         <meta
           property="keywords"
           content="need home watch, home watch services"
@@ -31,7 +36,7 @@ function WhyYouNeedHomewatchPage(props) {
         <meta property="og:title" content="Why You Need Home Watch" />
         <meta
           property="og:description"
-          content="Why You Need a Home Watch Service: Protecting Your Property While You're Away"
+          content="Do you know why you need home watch? Home Watch Companies watch over your unoccupied home to protect your assets while you are away and help mitigate risks to your property."
         />
         <meta
           property="og:image"
@@ -40,8 +45,21 @@ function WhyYouNeedHomewatchPage(props) {
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />
         <meta property="og:image:alt" content="hand serving up home services" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@dallashomewatch" />
+        <meta name="twitter:creator" content="@susanwinters214" />
+
+        <meta name="twitter:title" content="Why You Need Home Watch" />
+        <meta
+          name="twitter:description"
+          content="Do you know why you need home watch? Home Watch Companies watch over your unoccupied home to protect your assets while you are away and help mitigate risks to your property."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.dallashomewatch.com/images/blogimg/why-you-need-home-watch-services.jpg"
+        />
       </Head>
-   
+
       {/* insert top banner with Page Title & Breadcrumb*/}
       <section className="page-title">
         <Image
@@ -221,7 +239,6 @@ function WhyYouNeedHomewatchPage(props) {
                       />
                     </div>{" "}
                     <br />
-                 
                     <br />
                     <div className="row">
                       <div className="services-block col-lg-6 col-md-12 col-sm-12 centered">

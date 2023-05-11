@@ -8,7 +8,9 @@ function VehicleCarePage(props) {
   return (
     <Fragment>
       <Head>
-        <title>Vehicle Care | DALLAS HOME WATCH </title>
+        <title>
+          Vehicle Care for Luxury Vehicles in Storage - Dallas Home Watch
+        </title>
         <link
           rel="canonical"
           href="https://www.dallashomewatch.com/vehicle-care"
@@ -20,6 +22,11 @@ function VehicleCarePage(props) {
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
+        <meta property="og:type" content="article" />
+        <meta
+          property="article:publisher"
+          content="https://www.facebook.com/profile.php?id=100092566267916"
+        ></meta>
         <meta
           property="keywords"
           content="stored vehicles, leaving car in garage, vacation without your car"
@@ -34,7 +41,7 @@ function VehicleCarePage(props) {
         />
         <meta
           property="og:description"
-          content="Dallas Home Watch offers Vehicle Care for existing Home Watch clients. DHW can watch your car while you are away from home for long periods of time."
+          content="Dallas Home Watch offers Vehicle Care for existing Home Watch clients. Dallas Home Watch can watch your car for you when you are going to be away from home."
         />
         <meta
           property="og:image"
@@ -46,18 +53,37 @@ function VehicleCarePage(props) {
           property="og:image:alt"
           content="line of luxury vehicles in storage"
         />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@dallashomewatch" />
+        <meta name="twitter:creator" content="@susanwinters214" />
+
+        <meta
+          name="twitter:title"
+          content="Vehicle Care for Luxury Vehicles in Storage - Dallas Home Watch"
+        />
+        <meta
+          name="twitter:description"
+          content="Dallas Home Watch offers Vehicle Care for existing Home Watch clients. Dallas Home Watch can watch your car for you when you are going to be away from home."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.dallashomewatch.com/images/og/luxury-car-care.jpg"
+        />
       </Head>
 
       {/* insert top banner with Page Title & Breadcrumb*/}
       <section className="page-title pageback-vehcare">
         <Image
           src="/images/og/luxury-car-care.jpg"
-          alt="luxury cars"
-          style={{
-            zIndex: -99,          }}
           layout="fill"
           objectFit="cover"
+          alt="luxury cars"
+          style={{
+            zIndex: -99,
+          }}        
         />
+      
+
         <div className="auto-container">
           <h1>Vehicle Care</h1>
           <ul className="page-breadcrumb">

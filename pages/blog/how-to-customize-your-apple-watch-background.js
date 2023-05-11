@@ -15,7 +15,7 @@ function HowToCustomizeAppleWatchBkgrndPage(props) {
         ></link>
         <meta
           name="description"
-          content="Learn How To Customize Your Apple Watch Background to a photo of your Home or your Logo. Follow our easy instructions with photos."
+          content="How To Customize Apple Watch Background to display your Home Watch logo or a photo of your house."
         />
         <meta
           property="keywords"
@@ -24,7 +24,11 @@ function HowToCustomizeAppleWatchBkgrndPage(props) {
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
-
+        <meta property="og:type" content="article" />
+        <meta
+          property="article:publisher"
+          content="https://www.facebook.com/profile.php?id=100092566267916"
+        ></meta>
         <meta
           property="og:url"
           content="https://www.dallashomewatch.com/blog/how-to-customize-your-apple-watch-background"
@@ -32,7 +36,7 @@ function HowToCustomizeAppleWatchBkgrndPage(props) {
         <meta property="og:title" content="Create Your Own Home Watch" />
         <meta
           property="og:description"
-          content="How To Customize Apple Watch Background"
+          content="How To Customize Apple Watch Background to display your Home Watch logo or a photo of your house."
         />
         <meta
           property="og:image"
@@ -41,8 +45,20 @@ function HowToCustomizeAppleWatchBkgrndPage(props) {
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />
         <meta property="og:image:alt" content="watch with home as photo" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@dallashomewatch" />
+        <meta name="twitter:creator" content="@susanwinters214" />
+        <meta name="twitter:title" content="Create Your Own Home Watch" />
+        <meta
+          name="twitter:description"
+          content="How To Customize Apple Watch Background to display your Home Watch logo or a photo of your house."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.dallashomewatch.com/images/og/home-watch-apple.jpg"
+        />
       </Head>
-  
+
       {/* insert top banner with Page Title & Breadcrumb*/}
       <section className="page-title">
         <Image
@@ -263,7 +279,6 @@ function HowToCustomizeAppleWatchBkgrndPage(props) {
                     </p>
                     <br />
                     <div>
-                    
                       <div>
                         <h3 id="uploadLOGO">
                           How To Add Your Logo To Your Watch
@@ -310,8 +325,6 @@ function HowToCustomizeAppleWatchBkgrndPage(props) {
                             height={294}
                           />
                           <br /> <br />
-                        
-                    
                           <div className="row">
                             <div className="services-block col-lg-6 col-md-12 col-sm-12 centered">
                               <div

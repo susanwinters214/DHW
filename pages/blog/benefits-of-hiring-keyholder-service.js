@@ -13,14 +13,20 @@ function AirFiltersPage(props) {
           rel="canonical"
           href="https://www.dallashomewatch.com/blog/benefits-of-hiring-keyholder-service"
         />
+        <meta property="keywords" content="keyholder service, keyholding" />
         <meta
           name="description"
-          content="Learn how a key holder service can increase security, convenience and save you money. Discover examples of key holder services in action."
+          content="Learn the Benefits of Hiring a Key Holder Service and how doing so can increase security, convenience and save you money. Discover examples of key holder services."
         />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
-        <meta property="keywords" content="keyholder service, keyholding" />
+        <meta property="og:type" content="article" />
+        <meta
+          property="article:publisher"
+          content="https://www.facebook.com/profile.php?id=100092566267916"
+        ></meta>
+
         <meta
           property="og:url"
           content="https://www.dallashomewatch.com/blog/benefits-of-hiring-keyholder-service"
@@ -31,7 +37,7 @@ function AirFiltersPage(props) {
         />
         <meta
           property="og:description"
-          content="Learn how a key holder service can increase security, convenience and save you money. Discover examples of key holder services in action."
+          content="Learn the Benefits of Hiring a Key Holder Service and how doing so can increase security, convenience and save you money. Discover examples of key holder services."
         />
         <meta
           property="og:image"
@@ -43,9 +49,23 @@ function AirFiltersPage(props) {
           property="og:image:alt"
           content="contractor cleaning while key holder services supervises"
         />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@dallashomewatch" />
+        <meta name="twitter:creator" content="@susanwinters214" />
+        <meta
+          name="twitter:title"
+          content="Benefits of Hiring a Key Holder Service"
+        />
+        <meta
+          name="twitter:description"
+          content="Learn the Benefits of Hiring a Key Holder Service and how doing so can increase security, convenience and save you money. Discover examples of key holder services."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.dallashomewatch.com/images/background/man-cleaning-outside-porch.jpg"
+        />
       </Head>
       {/* Facebook Like JS Code*/}
-    
 
       {/* insert top banner with Page Title & Breadcrumb*/}
       <section className="page-title">
@@ -239,7 +259,6 @@ function AirFiltersPage(props) {
                       everything on your behalf.
                     </p>
                     <div>
-                  
                       <p>&nbsp;</p>
                       <div className="row">
                         <div className="services-block col-lg-6 col-md-12 col-sm-12 centered">

@@ -8,32 +8,35 @@ function ConciergePage(props) {
   return (
     <Fragment>
       <Head>
-        <title>Personal Conceirge Service | DALLAS HOME WATCH</title>
+        <title>Personal Conceirge Services by DALLAS HOME WATCH</title>
         <link
           rel="canonical"
           href="https://www.dallashomewatch.com/concierge-services"
         />
         <meta
           name="description"
-          content="Concierge Services helps busy executives by performing tasks and running errands so they have the freedom to live their life without chores."
+          content="Personal Conceirge Services by DALLAS HOME WATCH helps busy executives by performing tasks and running errands so they have the freedom to live their life without chores."
         />
         <meta property="keywords" content="dallas concierge services" />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
-
+        <meta property="og:type" content="article" />
+        <meta
+          property="article:publisher"
+          content="https://www.facebook.com/profile.php?id=100092566267916"
+        ></meta>
         <meta
           property="og:url"
           content="https://www.dallashomewatch.com/concierge-services"
         />
         <meta
           property="og:title"
-          content="Concierge Services by Dallas Home Watch"
+          content="Personal Conceirge Services by DALLAS HOME WATCH"
         />
         <meta
           property="og:description"
-          content="Dallas Concierge Services are special services performed by a professional. Busy executives hire professionals to perform concierge services 
-          so that they gain back time in their lives to do the things they enjoy."
+          content="Personal Conceirge Services by DALLAS HOME WATCH helps busy executives by performing tasks and running errands so they have the freedom to live their life without chores."
         />
         <meta
           property="og:image"
@@ -44,6 +47,22 @@ function ConciergePage(props) {
         <meta
           property="og:image:alt"
           content="concierge inventoring refrigerator before filling with groceries and bottled water"
+        />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@dallashomewatch" />
+        <meta name="twitter:creator" content="@susanwinters214" />
+
+        <meta
+          name="twitter:title"
+          content="Personal Conceirge Services by DALLAS HOME WATCH"
+        />
+        <meta
+          name="twitter:description"
+          content="Personal Conceirge Services by DALLAS HOME WATCH helps busy executives by performing tasks and running errands so they have the freedom to live their life without chores."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.dallashomewatch.com/images/og/concierge-services.jpg"
         />
       </Head>
       {/* insert top banner with Page Title & Breadcrumb*/}

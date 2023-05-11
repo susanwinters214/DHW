@@ -9,30 +9,35 @@ function AirFiltersPage(props) {
 
   return (
     <Fragment>
-     
-
       <Head>
-        <title>Dallas Home Watch Checks Your Air Filters</title>
+        <title>Changing Dirty Air Filters</title>
+        <meta name="robots" content="noindex, nofollow" />
+
         <link
           rel="canonical"
           href="https://www.dallashomewatch.com/blog/air-filters"
         />
         <meta
           name="description"
-          content="Home Watch Service includes checking all of your air filters to make sure they are clean and if not, replace them."
+          content="Home Watch Service includes checking and changing dirty air filter so you don't have to worry about it while you are away."
         />
         <meta property="keywords" content="home watch air filters" />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
+        <meta property="og:type" content="article" />
+        <meta
+          property="article:publisher"
+          content="https://www.facebook.com/profile.php?id=100092566267916"
+        ></meta>
         <meta
           property="og:url"
           content="https://www.dallashomewatch.com/blog/air-filters"
         />
-        <meta property="og:title" content="Dirty Air Filters" />
+        <meta property="og:title" content="Changing Dirty Air Filters" />
         <meta
           property="og:description"
-          content="Home Watch Service includes checking all of your air filters to make sure they are clean and if not, replace them."
+          content="Home Watch Service includes checking and changing dirty air filter so you don't have to worry about it while you are away."
         />
         <meta
           property="og:image"
@@ -43,6 +48,19 @@ function AirFiltersPage(props) {
         <meta
           property="og:image:alt"
           content="Dallas Home Watch Professionals finds dirty air filter and replaces."
+        />
+
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@dallashomewatch" />
+        <meta name="twitter:creator" content="@susanwinters214" />
+        <meta name="twitter:title" content="Changing Dirty Air Filters" />
+        <meta
+          name="twitter:description"
+          content="Home Watch Service includes checking and changing dirty air filter so you don't have to worry about it while you are away."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.dallashomewatch.com/images/blogimg/og-air-filter-replacement.jpg"
         />
       </Head>
       {/* Facebook Like JS Code*/}

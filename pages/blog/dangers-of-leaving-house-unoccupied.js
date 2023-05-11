@@ -15,11 +15,16 @@ function DangersOfEmptyHousePage(props) {
         ></link>
         <meta
           name="description"
-          content="The biggest dangers of leaving your house unoccupied is the increased risk of burglary. They can cause significant damage to your home, costing you money."
+          content="The dangers of leaving your house unoccupied is includes the increased risk of burglary. That can cause significant damage to your home, costing you money."
         />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
+        <meta property="og:type" content="article" />
+        <meta
+          property="article:publisher"
+          content="https://www.facebook.com/profile.php?id=100092566267916"
+        ></meta>
         <meta property="keywords" content="leaving home, leaving house" />
         <meta
           property="og:url"
@@ -28,7 +33,7 @@ function DangersOfEmptyHousePage(props) {
         <meta property="og:title" content="The Dangers of An Unoccupied Home" />
         <meta
           property="og:description"
-          content="The biggest dangers of leaving your house unoccupied is the increased risk of burglary. They can cause significant damage to your home, costing you money."
+          content="The dangers of leaving your house unoccupied is includes the increased risk of burglary. That can cause significant damage to your home, costing you money."
         />
         <meta
           property="og:image"
@@ -37,9 +42,24 @@ function DangersOfEmptyHousePage(props) {
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />
         <meta property="og:image:alt" content="dangers of vacant house" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@dallashomewatch" />
+        <meta name="twitter:creator" content="@susanwinters214" />
+        <meta
+          name="twitter:title"
+          content="The Dangers of An Unoccupied Home"
+        />
+        <meta
+          name="twitter:description"
+          content="The dangers of leaving your house unoccupied is includes the increased risk of burglary. That can cause significant damage to your home, costing you money."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.dallashomewatch.com/images/background/dangers-vacant-house.jpg"
+        />
       </Head>
       {/* Facebook Like JS Code*/}
-     
+
       {/* insert top banner with Page Title & Breadcrumb*/}
       <section className="page-title">
         <Image
@@ -452,8 +472,6 @@ function DangersOfEmptyHousePage(props) {
                       peace of mind by hiring a professional home watch company
                       today.
                     </p>
-                
-                  
                     <br />
                     <div className="row">
                       <div className="services-block col-lg-6 col-md-12 col-sm-12 centered">

@@ -8,9 +8,7 @@ function HomeWatchServicesPage(props) {
   return (
     <Fragment>
       <Head>
-        <title>
-          Home Watch Services by Dallas Home Watch LLC.
-        </title>
+        <title>Home Watch Services by Dallas Home Watch LLC.</title>
         <link
           rel="canonical"
           href="https://www.dallashomewatch.com/home-watch-services"
@@ -23,12 +21,19 @@ function HomeWatchServicesPage(props) {
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
-
+        <meta property="og:type" content="article" />
+        <meta
+          property="article:publisher"
+          content="https://www.facebook.com/profile.php?id=100092566267916"
+        ></meta>
         <meta
           property="og:url"
           content="https://www.dallashomewatch.com/home-watch-services"
         />
-        <meta property="og:title" content="Home Watch Services" />
+        <meta
+          property="og:title"
+          content="Home Watch Services by Dallas Home Watch LLC."
+        />
         <meta
           property="og:description"
           content="Home Watch Services: 'What Does A Home Watch Service Do?' Home Watchers inspect the interior and exterior of a residential property looking for obvious issues."
@@ -43,18 +48,35 @@ function HomeWatchServicesPage(props) {
           property="og:image:alt"
           content="Dallas Home Watch Professionals checking Homes."
         />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@dallashomewatch" />
+        <meta name="twitter:creator" content="@susanwinters214" />
+
+        <meta
+          name="twitter:title"
+          content="Home Watch Services by Dallas Home Watch LLC."
+        />
+        <meta
+          name="twitter:description"
+          content="Home Watch Services: 'What Does A Home Watch Service Do?' Home Watchers inspect the interior and exterior of a residential property looking for obvious issues."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.dallashomewatch.com/images/og/dallas-home-watch-opening-doors.jpg"
+        />
       </Head>
       {/* insert top banner with Page Title & Breadcrumb*/}
-      <section className="page-title pageback-hwservice">
+      <section className="page-title">
         <Image
           src="/images/background/open-front-door-960x496.jpg"
           alt="home watch services"
-          style={{
-            zIndex: -99,
-          }}
           layout="fill"
           objectFit="cover"
+          style={{
+            zIndex: -99,
+          }}       
         />
+      
         <div className="auto-container">
           <h1>Home Watch Services</h1>
           <ul className="page-breadcrumb">

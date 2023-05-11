@@ -15,13 +15,17 @@ function KeyHolderPage(props) {
         />
         <meta
           name="description"
-          content="Key Holder Services holds the keys to your home to allow access to contractors and vendors to come into the home to perform a service. "
+          content="Key Holder Services holds the keys to your home to allow access to contractors and vendors to come into the home to perform a service."
         />
         <meta property="keywords" content="key holder services" />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
-
+        <meta property="og:type" content="article" />
+        <meta
+          property="article:publisher"
+          content="https://www.facebook.com/profile.php?id=100092566267916"
+        ></meta>
         <meta
           property="og:url"
           content="https://www.dallashomewatch.com/keyholder-services"
@@ -32,7 +36,7 @@ function KeyHolderPage(props) {
         />
         <meta
           property="og:description"
-          content="A Key Holder is a professional Home Watch professional that holds the keys to your home to allow access to contractors and vendors to come into the home to perform a service."
+          content="Key Holder Services holds the keys to your home to allow access to contractors and vendors to come into the home to perform a service."
         />
         <meta
           property="og:image"
@@ -41,6 +45,22 @@ function KeyHolderPage(props) {
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />
         <meta property="og:image:alt" content="keys hanging on a key holder" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@dallashomewatch" />
+        <meta name="twitter:creator" content="@susanwinters214" />
+
+        <meta
+          name="twitter:title"
+          content="Key Holder Services | DALLAS HOME WATCH"
+        />
+        <meta
+          name="twitter:description"
+          content="Key Holder Services holds the keys to your home to allow access to contractors and vendors to come into the home to perform a service."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.dallashomewatch.com/images/background/house-keys-down.jpg"
+        />
       </Head>
       <Script src="js/jquery.min.js"></Script>
       {/* insert top banner with Page Title & Breadcrumb*/}
@@ -204,7 +224,9 @@ function KeyHolderPage(props) {
                     </p>
                   </div>
                   <div className="column col-lg-6 col-md-6 col-sm-6">
-                    <p><strong>BEFRORE</strong></p>
+                    <p>
+                      <strong>BEFRORE</strong>
+                    </p>
 
                     <Image
                       src="/images/key-holder/house-with-dormers-on-roof.jpg"

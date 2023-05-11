@@ -8,7 +8,7 @@ function HomePage(props) {
   return (
     <Fragment>
       <Head>
-        <title>Dallas Home Watch LLC.| Home Watch Dallas </title>
+        <title>Dallas Home Watch LLC.| Home Watch Dallas</title>
         <meta
           name="description"
           content="Dallas Home Watch is a local, woman owned business that provides visual inspections both inside and outside of a home or property looking for obvious issues."
@@ -25,6 +25,11 @@ function HomePage(props) {
           property="og:site_name"
           content="Dallas Home Watch LLC | Home Watch in Dallas"
         />
+        <meta property="og:type" content="article" />
+        <meta
+          property="article:publisher"
+          content="https://www.facebook.com/profile.php?id=100092566267916"
+        ></meta>
 
         <meta property="og:url" content="https://www.dallashomewatch.com" />
         <meta property="og:title" content="Dallas Home Watch" />
@@ -42,10 +47,22 @@ function HomePage(props) {
           property="og:image:alt"
           content="Dallas Home Watch logo over Dallas Skyline"
         />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@dallashomewatch" />
+        <meta name="twitter:creator" content="@susanwinters214" />
+
         <meta
-          property="article:publisher"
-          content="https://www.facebook.com/dallashomewatch/"
-        ></meta>
+          name="twitter:title"
+          content="Dallas Home Watch LLC.| Home Watch Dallas"
+        />
+        <meta
+          name="twitter:description"
+          content="Dallas Home Watch is a local, woman owned business that provides visual inspections both inside and outside of a home or property looking for obvious issues."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.dallashomewatch.com/images/og/dallas-home-watch-logo-skyline-certified.jpg"
+        />
       </Head>
       {/* top Banner Area */}
 

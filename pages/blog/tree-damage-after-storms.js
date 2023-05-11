@@ -9,28 +9,35 @@ function GateOperatorPage(props) {
     <Fragment>
       <Head>
         <title>Tree Damage After Storms in Texas - DALLAS HOME WATCH</title>
-   
+
         <link
           rel="canonical"
           href="https://www.dallashomewatch.com/blog/tree-damage-after-storms"
         />
         <meta
           name="description"
-          content="Tree damage caused by storms in Texas - reported by Dallas Home Watch. See photos of trees with broken branches on real estate property in Dallas."
+          content="Tree damage after storms in Texas - reported by Dallas Home Watch. See photos of trees with broken branches on real estate property in Dallas."
         />
         <meta property="keywords" content="texas storms, tree damage" />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
-
+        <meta property="og:type" content="article" />
+        <meta
+          property="article:publisher"
+          content="https://www.facebook.com/profile.php?id=100092566267916"
+        ></meta>
         <meta
           property="og:url"
           content="https://www.dallashomewatch.com/blog/tree-damage-after-storms"
         />
-        <meta property="og:title" content="Tree Damage After Storms in Texas" />
+        <meta
+          property="og:title"
+          content="Tree Damage After Storms in Texas - DALLAS HOME WATCH"
+        />
         <meta
           property="og:description"
-          content="Tree damage caused by storms in Texas - reported by Dallas Home Watch. See photos of trees with broken branches on real estate property in Dallas."
+          content="Tree damage after storms in Texas - reported by Dallas Home Watch. See photos of trees with broken branches on real estate property in Dallas."
         />
         <meta
           property="og:image"
@@ -39,6 +46,22 @@ function GateOperatorPage(props) {
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />
         <meta property="og:image:alt" content="Tree Damage" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@dallashomewatch" />
+        <meta name="twitter:creator" content="@susanwinters214" />
+
+        <meta
+          name="twitter:title"
+          content="Tree Damage After Storms in Texas - DALLAS HOME WATCH"
+        />
+        <meta
+          name="twitter:description"
+          content="Tree damage after storms in Texas - reported by Dallas Home Watch. See photos of trees with broken branches on real estate property in Dallas."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.dallashomewatch.com/images/blogimg/texas-storm-damages-trees-in-dallas.jpg"
+        />
       </Head>
       {/* Facebook Like JS Code*/}
 
@@ -287,7 +310,6 @@ function GateOperatorPage(props) {
                       <br />
                       <span className="tiny">Broken Trees On Path</span>
                       <br />
-                   
                     </div>
                     <div className="image-column col-lg-6 col-md-6 col-sm-6 centered">
                       <Image
@@ -335,6 +357,54 @@ function GateOperatorPage(props) {
               </Link>
             </div>
             <br />
+            <div className="row">
+              <div className="services-block col-lg-6 col-md-12 col-sm-12 centered">
+                <div
+                  className="inner-box wow fadeInRight BLUE"
+                  data-wow-delay="150ms"
+                  data-wow-duration="1500ms"
+                >
+                  <div className="content">
+                    <div className="icon flaticon-file" />
+                    <h4>
+                      <Link href="/blog/water-leaks">Water Leaks</Link>
+                    </h4>
+                    <div className="text">
+                      Avoid damage to your home from water leaks.
+                    </div>
+                  </div>
+                  <Link
+                    href="/blog/water-leaks"
+                    className="arrow flaticon-right"
+                  />
+                </div>
+              </div>
+              <br />
+
+              <div className="services-block col-lg-6 col-md-12 col-sm-12 centered">
+                <div
+                  className="inner-box wow fadeInRight BLUE"
+                  data-wow-delay="150ms"
+                  data-wow-duration="1500ms"
+                >
+                  <div className="content">
+                    <div className="icon flaticon-file" />
+                    <h4>
+                      <Link href="/home-watch-services">
+                        Home Watch Services
+                      </Link>
+                    </h4>
+                    <div className="text">
+                      Home Watch Inspections on Unoccupied Homes
+                    </div>
+                  </div>
+                  <Link
+                    href="/home-watch-services"
+                    className="arrow flaticon-right"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <br />

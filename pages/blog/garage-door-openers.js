@@ -21,12 +21,20 @@ function GarageDoorOpenersPage(props) {
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
+        <meta property="og:type" content="article" />
+        <meta
+          property="article:publisher"
+          content="https://www.facebook.com/profile.php?id=100092566267916"
+        ></meta>
         <meta property="keywords" content="garage door openers, home watch" />
         <meta
           property="og:url"
           content="https://www.dallashomewatch.com/blog/garage-door-openers"
         />
-        <meta property="og:title" content="Garage Door Openers" />
+        <meta
+          property="og:title"
+          content="Dallas Home Watch Checks Your Garage Door Openers"
+        />
         <meta
           property="og:description"
           content="Home Watch Service includes checking your garage door and garage door opener
@@ -41,6 +49,21 @@ function GarageDoorOpenersPage(props) {
         <meta
           property="og:image:alt"
           content="Dallas Home Watch Professionals finds dirty air filter and replaces."
+        />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@dallashomewatch" />
+        <meta name="twitter:creator" content="@susanwinters214" />
+        <meta
+          name="twitter:title"
+          content="Dallas Home Watch Checks Your Garage Door Openers"
+        />
+        <meta
+          name="twitter:description"
+          content="Home Watch Service includes checking your garage door and garage door opener to make sure everything is working."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.dallashomewatch.com/images/blogimg/og-garage-door-openers.jpg"
         />
       </Head>
       {/* Facebook Like JS Code*/}

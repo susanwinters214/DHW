@@ -8,14 +8,14 @@ function RefrigeratorsPage(props) {
   return (
     <Fragment>
       <Head>
-        <title>Refrigerators - DALLAS HOME WATCH</title>
+        <title>Is Your Refrigerator Running?</title>
         <link
           rel="canonical"
           href="https://www.dallashomewatch.com/blog/refrigerators"
         />
         <meta
           name="description"
-          content="Home Watch Services includes checking to make sure that your refrigerator has not lost power. If your refrigerator goes out, you will come home to spoiled food."
+          content="Is your refrigerator running after you leave town? Home Watchers make sure that your refrigerator has not lost power. If your refrigerator goes out, you will come home to spoiled food."
         />
         <meta
           property="keywords"
@@ -24,15 +24,19 @@ function RefrigeratorsPage(props) {
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
-
+        <meta property="og:type" content="article" />
+        <meta
+          property="article:publisher"
+          content="https://www.facebook.com/profile.php?id=100092566267916"
+        ></meta>
         <meta
           property="og:url"
           content="https://www.dallashomewatch.com/blog/refrigerators"
         />
-        <meta property="og:title" content="Refrigerators" />
+        <meta property="og:title" content="Is Your Refrigerator Running?" />
         <meta
           property="og:description"
-          content="Home Watch Services includes checking to make sure that your refrigerator has not lost power. If your refrigerator goes out, you will come home to spoiled food."
+          content="Is your refrigerator running after you leave town? Home Watchers make sure that your refrigerator has not lost power. If your refrigerator goes out, you will come home to spoiled food."
         />
         <meta
           property="og:image"
@@ -43,6 +47,18 @@ function RefrigeratorsPage(props) {
         <meta
           property="og:image:alt"
           content="Dallas Home Watch Professionals opens the refrigerator door to make sure the light comes on."
+        />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@dallashomewatch" />
+        <meta name="twitter:creator" content="@susanwinters214" />
+        <meta name="twitter:title" content="Is Your Refrigerator Running?" />
+        <meta
+          name="twitter:description"
+          content="Is your refrigerator running after you leave town? Home Watchers make sure that your refrigerator has not lost power. If your refrigerator goes out, you will come home to spoiled food."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.dallashomewatch.com/images/blogimg/og-refrigerator.jpg"
         />
       </Head>
 

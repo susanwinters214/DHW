@@ -7,7 +7,7 @@ function BlogPage(props) {
   return (
     <Fragment>
       <Head>
-        <title>Dallas Home Watch Services | BLOG</title>
+        <title>Home Watch Blog Articles</title>
 
         <meta
           name="description"
@@ -16,6 +16,11 @@ function BlogPage(props) {
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
+        <meta property="og:type" content="article" />
+        <meta
+          property="article:publisher"
+          content="https://www.facebook.com/profile.php?id=100092566267916"
+        ></meta>
         <meta property="keywords" content="home watch blog articles" />
         <meta
           property="og:url"
@@ -35,6 +40,18 @@ function BlogPage(props) {
         <meta
           property="og:image:alt"
           content="Dallas Home Watch logo over Dallas Skyline NHWA Certified Home Watch Professional logo"
+        />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@dallashomewatch" />
+        <meta name="twitter:creator" content="@susanwinters214" />
+        <meta name="twitter:title" content="Home Watch Blog Articles" />
+        <meta
+          name="twitter:description"
+          content="Home Watch Blog Articles - Read interesting blogs about the various things that happen in the Home Watch industry including things that go wrong with a house."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.dallashomewatch.com/images/og/dallas-home-watch-logo-skyline-certified.jpg"
         />
       </Head>
       {/* top Banner Area */}
@@ -74,7 +91,7 @@ function BlogPage(props) {
         <div className="auto-container">
           <div className="inner-container2">
             <div className="row clearfix">
-              {/* Blog: Why you need Homewatch */}
+              {/* Blog: Leaving Your Home Unoccupied: 10 Reasons Not To Leave Your Home Alone!*/}
               <div className="services-block col-lg-6 col-md-12 col-sm-12">
                 <div
                   className="inner-box wow fadeInRight BLUE"
@@ -98,8 +115,29 @@ function BlogPage(props) {
                   />
                 </div>
               </div>
-
-              {/* Blog: Why you need Homewatch */}
+              {/* Blog: Tree Damage from Storms */}
+              <div className="services-block col-lg-6 col-md-12 col-sm-12">
+                <div
+                  className="inner-box wow fadeInRight BLUE"
+                  data-wow-delay="150ms"
+                  data-wow-duration="1500ms"
+                >
+                  <div className="content">
+                    <div className="icon flaticon-file" />
+                    <h4>
+                      <Link href="/blog/tree-damage-after-storms">
+                        Texas Storm Damage
+                      </Link>
+                    </h4>
+                    <div className="text">Tree Damage After Texas Storms</div>
+                  </div>
+                  <Link
+                    href="/blog/tree-damage-after-storms"
+                    className="arrow flaticon-right"
+                  />
+                </div>
+              </div>
+              {/* Blog: Why you need Homewatch:5 Reasons You Need To Hire A Home Watch Professional */}
               <div className="services-block col-lg-6 col-md-12 col-sm-12">
                 <div
                   className="inner-box wow fadeInRight BLUE"
@@ -123,8 +161,30 @@ function BlogPage(props) {
                   />
                 </div>
               </div>
+              {/* Blog: Water Leaks */}
+              <div className="services-block col-lg-6 col-md-12 col-sm-12">
+                <div
+                  className="inner-box wow fadeInRight  BLUE"
+                  data-wow-delay="0ms"
+                  data-wow-duration="1500ms"
+                >
+                  <div className="content">
+                    <div className="icon flaticon-file" />
+                    <h4>
+                      <Link href="/blog/water-leaks">Water Leaks</Link>
+                    </h4>
+                    <div className="text">
+                      Catching water leaks can prevent damage to your home.
+                    </div>
+                  </div>
+                  <Link
+                    href="/blog/water-leaks"
+                    className="arrow flaticon-right"
+                  />
+                </div>
+              </div>
 
-              {/* Blog: Why you need Homewatch */}
+              {/* Blog:    Home Watch Company Differences: What To Look For in a Home Watch Company*/}
               <div className="services-block col-lg-6 col-md-12 col-sm-12">
                 <div
                   className="inner-box wow fadeInRight BLUE"
@@ -148,7 +208,28 @@ function BlogPage(props) {
                   />
                 </div>
               </div>
-
+              {/* Blog: Gate Openers */}
+              <div className="services-block col-lg-6 col-md-12 col-sm-12">
+                <div
+                  className="inner-box wow fadeInRight BLUE"
+                  data-wow-delay="150ms"
+                  data-wow-duration="1500ms"
+                >
+                  <div className="content">
+                    <div className="icon flaticon-file" />
+                    <h4>
+                      <Link href="/blog/gate-operator-repair">Gate Repair</Link>
+                    </h4>
+                    <div className="text">
+                      Home Watch Finds Broken Gate Exposing Property
+                    </div>
+                  </div>
+                  <Link
+                    href="/blog/gate-operator-repair"
+                    className="arrow flaticon-right"
+                  />
+                </div>
+              </div>
               {/* Blog: Customize Apple Watch */}
               <div className="services-block col-lg-6 col-md-12 col-sm-12">
                 <div
@@ -160,7 +241,7 @@ function BlogPage(props) {
                     <div className="icon flaticon-file" />
                     <h4>
                       <Link href="/blog/how-to-customize-your-apple-watch-background">
-                        Create Your Own Home Watch
+                        How To Customize Your Watch
                       </Link>
                     </h4>
                     <div className="text">
@@ -221,28 +302,7 @@ function BlogPage(props) {
                   />
                 </div>
               </div>
-              {/* Blog: Water Leaks */}
-              <div className="services-block col-lg-6 col-md-12 col-sm-12">
-                <div
-                  className="inner-box wow fadeInRight  BLUE"
-                  data-wow-delay="0ms"
-                  data-wow-duration="1500ms"
-                >
-                  <div className="content">
-                    <div className="icon flaticon-file" />
-                    <h4>
-                      <Link href="/blog/water-leaks">Water Leaks</Link>
-                    </h4>
-                    <div className="text">
-                      Catching water leaks can prevent damage to your home.
-                    </div>
-                  </div>
-                  <Link
-                    href="/blog/water-leaks"
-                    className="arrow flaticon-right"
-                  />
-                </div>
-              </div>
+
               {/* Blog: Refrigerators */}
               <div className="services-block col-lg-6 col-md-12 col-sm-12">
                 <div
@@ -285,28 +345,6 @@ function BlogPage(props) {
                   </div>
                   <Link
                     href="/blog/garage-door-openers"
-                    className="arrow flaticon-right"
-                  />
-                </div>
-              </div>
-              {/* Blog: Gate Openers */}
-              <div className="services-block col-lg-6 col-md-12 col-sm-12">
-                <div
-                  className="inner-box wow fadeInRight BLUE"
-                  data-wow-delay="150ms"
-                  data-wow-duration="1500ms"
-                >
-                  <div className="content">
-                    <div className="icon flaticon-file" />
-                    <h4>
-                      <Link href="/blog/gate-operator-repair">Gate Repair</Link>
-                    </h4>
-                    <div className="text">
-                      Home Watch Finds Broken Gate Exposing Property
-                    </div>
-                  </div>
-                  <Link
-                    href="/blog/gate-operator-repair"
                     className="arrow flaticon-right"
                   />
                 </div>

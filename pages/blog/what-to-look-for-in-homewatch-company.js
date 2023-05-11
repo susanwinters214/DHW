@@ -18,7 +18,7 @@ function WhyYouNeedHomewatchPage(props) {
 
         <meta
           name="description"
-          content="Learn What To Look For In A Home Watch Company. It is important to choose the right partner when looking for someone to watch your house while you are away. You need to choose someone you can trust with your keys."
+          content="What To Look For In A Home Watch Company. Choosing the right partner when looking for someone to watch is important. You need to choose someone you can trust with your keys."
         />
         <meta
           property="keywords"
@@ -27,18 +27,22 @@ function WhyYouNeedHomewatchPage(props) {
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
-
+        <meta property="og:type" content="article" />
+        <meta
+          property="article:publisher"
+          content="https://www.facebook.com/profile.php?id=100092566267916"
+        ></meta>
         <meta
           property="og:url"
           content="https://www.dallashomewatch.com/blog/what-to-look-for-in-homewatch-company"
         />
         <meta
           property="og:title"
-          content="What To Look For In A Home Watch Company"
+          content="What To Look For In A Home Watch Company | Choosing the Right Partner"
         />
         <meta
           property="og:description"
-          content="Learn What To Look For In A Home Watch Company. It is important to choose the right partner when looking for someone to watch your house while you are away. You need to choose someone you can trust with your keys."
+          content="What To Look For In A Home Watch Company. Choosing the right partner when looking for someone to watch is important. You need to choose someone you can trust with your keys."
         />
         <meta
           property="og:image"
@@ -49,6 +53,22 @@ function WhyYouNeedHomewatchPage(props) {
         <meta
           property="og:image:alt"
           content="man researching home watch options"
+        />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@dallashomewatch" />
+        <meta name="twitter:creator" content="@susanwinters214" />
+
+        <meta
+          name="twitter:title"
+          content="What To Look For In A Home Watch Company | Choosing the Right Partner"
+        />
+        <meta
+          name="twitter:description"
+          content="What To Look For In A Home Watch Company. Choosing the right partner when looking for someone to watch is important. You need to choose someone you can trust with your keys."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.dallashomewatch.com/images/blogimg/man-researching-home-watch-options.jpg"
         />
       </Head>
       {/* Facebook Like JS Code*/}
@@ -208,9 +228,6 @@ function WhyYouNeedHomewatchPage(props) {
                       accredited Home Watch Professional.
                       <br />
                     </p>
-               
-
-                   
 
                     <br />
                     <div className="row">

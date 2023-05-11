@@ -16,7 +16,7 @@ function GateOperatorPage(props) {
         />
         <meta
           name="description"
-          content="Home Watch Company discovered broken gate and called a professional gate company to repair. Read the story."
+          content="Home Watch Company discovered broken gate and called a professional for a gate operator repair - DALLAS HOME WATCH"
         />
         <meta
           property="keywords"
@@ -25,18 +25,22 @@ function GateOperatorPage(props) {
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
-
+        <meta property="og:type" content="article" />
+        <meta
+          property="article:publisher"
+          content="https://www.facebook.com/profile.php?id=100092566267916"
+        ></meta>
         <meta
           property="og:url"
           content="https://www.dallashomewatch.com/blog/gate-operator-repair"
         />
         <meta
           property="og:title"
-          content="Gate Operator Repaired by professional Gate Company"
+          content="Gate Operator Repair - DALLAS HOME WATCH"
         />
         <meta
           property="og:description"
-          content="Home Watch Company discovered broken gate and called a professional gate company to repair. Read the story."
+          content="Home Watch Company discovered broken gate and called a professional for a gate operator repair - DALLAS HOME WATCH"
         />
         <meta
           property="og:image"
@@ -45,6 +49,21 @@ function GateOperatorPage(props) {
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />
         <meta property="og:image:alt" content="Big Wood Gate" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@dallashomewatch" />
+        <meta name="twitter:creator" content="@susanwinters214" />
+        <meta
+          name="twitter:title"
+          content="Gate Operator Repair - DALLAS HOME WATCH"
+        />
+        <meta
+          name="twitter:description"
+          content="Home Watch Company discovered broken gate and called a professional for a gate operator repair - DALLAS HOME WATCH"
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.dallashomewatch.com/images/blogimg/big-open-gate.jpg"
+        />
       </Head>
       {/* Facebook Like JS Code*/}
 
@@ -331,7 +350,11 @@ function GateOperatorPage(props) {
             </div>
             <br />
             <h3 className="mb-10">Video of Gate Operator Repair</h3>
-            <p>Dallas Home Watch looks at all sources of entry on a property. We make sure all doors and windows are locked and all gates are closed and secured.</p>
+            <p>
+              Dallas Home Watch looks at all sources of entry on a property. We
+              make sure all doors and windows are locked and all gates are
+              closed and secured.
+            </p>
             <div id="picTovideo" className="centered">
               <Link
                 href="https://www.youtube.com/shorts/M-o_4TCZQ9w"

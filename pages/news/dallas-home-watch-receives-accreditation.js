@@ -20,6 +20,11 @@ function DHWreceivesAccredPage(props) {
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
+        <meta property="og:type" content="article" />
+        <meta
+          property="article:publisher"
+          content="https://www.facebook.com/profile.php?id=100092566267916"
+        ></meta>
         <meta
           property="keywords"
           content="dallas home watch, home watch accreditation, national home watch association"
@@ -45,6 +50,22 @@ function DHWreceivesAccredPage(props) {
         <meta
           property="og:image:alt"
           content="Dallas Home Watch (Tina Lawson) receives accreditation from NHWA - National Home Watch Association."
+        />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@dallashomewatch" />
+        <meta name="twitter:creator" content="@susanwinters214" />
+
+        <meta
+          name="twitter:title"
+          content="Dallas Home Watch receives accreditation from NHWA"
+        />
+        <meta
+          name="twitter:description"
+          content="Tina Lawson has passed background checks, credit checks, and ethical working history checks and has taken the NHWA Home Watch Bootcamp so is now accredited."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.dallashomewatch.com/images/blogimg/NHWA-received-accreditation.jpg"
         />
       </Head>
       {/* Facebook Like JS Code*/}

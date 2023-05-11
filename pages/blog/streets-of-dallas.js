@@ -13,23 +13,33 @@ function StreetsOfDallasPage(props) {
           rel="canonical"
           href="https://www.dallashomewatch.com/blog/streets-of-dallas"
         />
+        <meta name="description" content="" />
         <meta
-          name="description"
-          content="View the streets of Dallas as we tour the city looking for unoccupied homes that need Home Watch Services."
+          property="View the streets of Dallas as we tour the city looking for unoccupied homes that need Dallas Home Watch Services.keywords"
+          content="dallas streets, streets of dallas"
         />
-        <meta property="keywords" content="dallas streets, streets of dallas" />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
-
+        <meta property="og:type" content="article" />
+        <meta
+          property="article:publisher"
+          content="https://www.facebook.com/profile.php?id=100092566267916"
+        ></meta>
         <meta
           property="og:url"
           content="https://www.dallashomewatch.com/blog/streets-of-dallas"
         />
-        <meta property="og:title" content="Streets-of-Dallas" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@dallashomewatch" />
+        <meta name="twitter:creator" content="@susanwinters214" />
+        <meta
+          property="og:title"
+          content="Streets of Dallas - DALLAS HOME WATCH"
+        />
         <meta
           property="og:description"
-          content="View the streets of Dallas as we tour the city looking for unoccupied homes that need Home Watch Services."
+          content="View the streets of Dallas as we tour the city looking for unoccupied homes that need Dallas Home Watch Services."
         />
         <meta
           property="og:image"
@@ -39,7 +49,7 @@ function StreetsOfDallasPage(props) {
         <meta property="og:image:height" content="630px" />
         <meta
           property="og:image:alt"
-          content="City of Dallas - Downtown - Deep Ellum"
+          content="City of Dallas - Downtown - Deep Ellum street sign"
         />
       </Head>
       {/* Facebook Like JS Code*/}

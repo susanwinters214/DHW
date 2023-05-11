@@ -15,7 +15,7 @@ function HomeWatchBusinessJournalPage(props) {
         ></link>
         <meta
           name="description"
-          content="Home Watch Business Journal was created for Home Watch Business Owners"
+          content="The Home Watch Business Journal (SOLD ON AMAZON) was created for owners of a Home Watch Business. The journal gives you a place for your handwritten notes about your Home Watch company."
         />
         <meta
           property="keywords"
@@ -23,8 +23,12 @@ function HomeWatchBusinessJournalPage(props) {
         />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Home Watch Business Journal" />
-
+        <meta property="og:site_name" content="Dallas Home Watch" />
+        <meta property="og:type" content="article" />
+        <meta
+          property="article:publisher"
+          content="https://www.facebook.com/profile.php?id=100092566267916"
+        ></meta>
         <meta
           property="og:url"
           content="https://www.dallashomewatch.com/home-watch-business-journal"
@@ -32,7 +36,7 @@ function HomeWatchBusinessJournalPage(props) {
         <meta property="og:title" content="Home Watch Business Journal" />
         <meta
           property="og:description"
-          content="The Home Watch Business Journal was created for owners of a Home Watch Business. The journal gives you a place for your handwritten notes about your Home Watch company."
+          content="The Home Watch Business Journal (SOLD ON AMAZON) was created for owners of a Home Watch Business. The journal gives you a place for your handwritten notes about your Home Watch company."
         />
         <meta
           property="og:image"
@@ -43,6 +47,19 @@ function HomeWatchBusinessJournalPage(props) {
         <meta
           property="og:image:alt"
           content="National Home Watch Month Banner"
+        />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@dallashomewatch" />
+        <meta name="twitter:creator" content="@susanwinters214" />
+
+        <meta name="twitter:title" content="Home Watch Business Journal" />
+        <meta
+          name="twitter:description"
+          content="The Home Watch Business Journal (SOLD ON AMAZON) was created for owners of a Home Watch Business. The journal gives you a place for your handwritten notes about your Home Watch company."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.dallashomewatch.com/images/logos/home-watch-business-journal.jpg"
         />
       </Head>
       {/* Facebook Like JS Code*/}

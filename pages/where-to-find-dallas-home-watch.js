@@ -22,7 +22,11 @@ function WhereToFindPage() {
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
-
+        <meta property="og:type" content="article" />
+        <meta
+          property="article:publisher"
+          content="https://www.facebook.com/profile.php?id=100092566267916"
+        ></meta>
         <meta
           property="og:url"
           content="https://www.dallashomewatch.com/where-to-find-dallas-home-watch"
@@ -43,6 +47,13 @@ function WhereToFindPage() {
           property="og:image:alt"
           content="city of Dallas neighborhood in downtown"
         />
+                <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@dallashomewatch" />
+        <meta name="twitter:creator" content="@susanwinters214" />
+   
+        <meta name="twitter:title"  content="Where To Find Dallas Home Watch"   />
+        <meta name="twitter:description" content="Where to find Dallas Home Watch on the web. Dallas Home Watch is listed on many online directories but sometimes 'Home Watch' is  not listed as a category." />
+        <meta name="twitter:image" content="https://www.dallashomewatch.com/images/og/dallas-skyline-service-areas.jpg" />
       </Head>
       {/* insert top banner with Page Title & Breadcrumb*/}
       <section className="page-title">
@@ -92,14 +103,6 @@ function WhereToFindPage() {
                       target="_blank"
                     >
                       Google My Business - Property Maintenance
-                    </Link>
-                    <br />
-                    <Link
-                      rel="nofollow"
-                      href="https://www.bing.com/search?q=dallas+home+watch"
-                      target="_blank"
-                    >
-                      BING - House Sitting
                     </Link>
                     <br />
                     <Link
@@ -174,8 +177,6 @@ function WhereToFindPage() {
                       Yelp - Home Services - Home Inspections
                     </Link>
                     <br />
-                  
-              
                     <Link
                       rel="nofollow"
                       href="https://www.pages24.com/dallas-tx/17620051-dallas-home-watch"
@@ -262,7 +263,6 @@ function WhereToFindPage() {
                     <br />
                   </p>
                   <br />
-              
                 </div>
               </div>
             </div>

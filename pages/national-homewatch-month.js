@@ -15,13 +15,17 @@ function NationalHomeWatchMonthPage(props) {
         />
         <meta
           name="description"
-          content="March 2023 is the first 'National Home Watch Month' created to bring awareness of the definition of 'Home Watch' as a Professional Service offered to Home Owners who have multiple residential properties or take long extended vacations away from home."
+          content="March is 'National Home Watch Month' which was created to bring awareness of the definition of 'Home Watch' as a Professional Service offered to Home Owners."
         />
         <meta property="keywords" content="national home watch association" />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
-
+        <meta property="og:type" content="article" />
+        <meta
+          property="article:publisher"
+          content="https://www.facebook.com/profile.php?id=100092566267916"
+        ></meta>
         <meta
           property="og:url"
           content="https://www.dallashomewatch.com/national-homewatch-month"
@@ -29,8 +33,8 @@ function NationalHomeWatchMonthPage(props) {
         <meta property="og:title" content="National Home Watch Month 2023" />
         <meta
           property="og:description"
-          content="March 2023 is the first 'National Home Watch Month' created to bring awareness of 
-          the definition of 'Home Watch' as a Professional Service offered to Home Owners."
+          content="March is 'National Home Watch Month' which was created to bring awareness of the definition of 'Home Watch' as a Professional Service offered to Home Owners.
+"
         />
         <meta
           property="og:image"
@@ -41,6 +45,19 @@ function NationalHomeWatchMonthPage(props) {
         <meta
           property="og:image:alt"
           content="National Home Watch Month Banner"
+        />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@dallashomewatch" />
+        <meta name="twitter:creator" content="@susanwinters214" />
+
+        <meta name="twitter:title" content="National Home Watch Month 2023" />
+        <meta
+          name="twitter:description"
+          content="March is 'National Home Watch Month' which was created to bring awareness of the definition of 'Home Watch' as a Professional Service offered to Home Owners."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.dallashomewatch.com/images/blogimg/og-NHWMonth.jpg"
         />
       </Head>
       {/* Facebook Like JS Code*/}
@@ -335,7 +352,6 @@ function NationalHomeWatchMonthPage(props) {
                         Knoklife
                       </Link>
                     </p>
-                
                     {/*
                     <p>
                       Dallas Home Watch on{" "}

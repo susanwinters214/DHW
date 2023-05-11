@@ -6,27 +6,31 @@ function TermsPage() {
   return (
     <Fragment>
       <Head>
-        <title>Terms of Service</title>
+        <title>Terms of Service for Dallas Home Watch</title>
         <link
           rel="canonical"
           href="https://www.dallashomewatch.com/terms-of-service"
         />
         <meta
           name="description"
-          content="Dallas Home Watch Terms of Service - Read our Terms of Service for using our website. We created our Terms of Service using a Generator."
+          content="Dallas Home Watch respects your privacy and only asks for the information needed to take care of your home. Please read Dallas Home Watch Terms of Service."
         />
         <meta property="keywords" content="home watch terms of service" />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
-
+        <meta property="og:type" content="article" />
+        <meta
+          property="article:publisher"
+          content="https://www.facebook.com/profile.php?id=100092566267916"
+        ></meta>
         <meta
           property="og:url"
           content="https://www.dallashomewatch.com/terms-of-service"
         />
         <meta
           property="og:title"
-          content="Dallas Home Watch Terms of Service - Read our Terms of Service for using our website."
+          content="Dallas Home Watch respects your privacy and only asks for the information needed to take care of your home. Please read Dallas Home Watch Terms of Service."
         />
         <meta
           property="og:description"
@@ -39,11 +43,26 @@ function TermsPage() {
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />
         <meta property="og:image:alt" content="documents" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@dallashomewatch" />
+        <meta name="twitter:creator" content="@susanwinters214" />
+
+        <meta
+          name="twitter:title"
+          content="Terms of Service for Dallas Home Watch"
+        />
+        <meta
+          name="twitter:description"
+          content="Dallas Home Watch respects your privacy and only asks for the information needed to take care of your home. Please read Dallas Home Watch Terms of Service."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.dallashomewatch.com/images/og/terms-service-papers.jpg"
+        />
       </Head>
 
       {/* insert top banner with Page Title & Breadcrumb*/}
       <section className="page-title style-two pageback-terms">
-        
         <div className="auto-container">
           <h1>Terms of Service</h1>
           <ul className="page-breadcrumb">

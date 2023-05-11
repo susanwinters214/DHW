@@ -8,7 +8,7 @@ function AccreditationPage(props) {
   return (
     <Fragment>
       <Head>
-        <title>Dallas Home Watch - Accredited Member of NHWA</title>
+        <title>Accredited Member of NHWA - Dallas Home Watch</title>
         <link
           rel="canonical"
           href="https://www.dallashomewatch.com/accreditation"
@@ -22,12 +22,19 @@ function AccreditationPage(props) {
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
-
+        <meta property="og:type" content="article" />
+        <meta
+          property="article:publisher"
+          content="https://www.facebook.com/profile.php?id=100092566267916"
+        ></meta>
         <meta
           property="og:url"
           content="https://www.dallashomewatch.com/accreditation"
         />
-        <meta property="og:title" content="Dallas Home Watch Accreditation" />
+        <meta
+          property="og:title"
+          content="Accredited Member of NHWA - Dallas Home Watch"
+        />
         <meta
           property="og:description"
           content="Dallas Home Watch received Accreditation from the National Home Watch Association. You must pass exams, and background checks, have insurance, and be bonded."
@@ -39,6 +46,22 @@ function AccreditationPage(props) {
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />
         <meta property="og:image:alt" content="Acceptance of Award" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@dallashomewatch" />
+        <meta name="twitter:creator" content="@susanwinters214" />
+
+        <meta
+          name="twitter:title"
+          content="Accredited Member of NHWA - Dallas Home Watch"
+        />
+        <meta
+          name="twitter:description"
+          content="Dallas Home Watch received Accreditation from the National Home Watch Association. You must pass exams, and background checks, have insurance, and be bonded."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.dallashomewatch.com/images/og/accredited-home-watch-professional.jpg"
+        />
       </Head>
       {/* insert top banner with Page Title & Breadcrumb*/}
       <section className="page-title">

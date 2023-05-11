@@ -8,19 +8,23 @@ function HomeWatchChecklistPage(props) {
   return (
     <Fragment>
       <Head>
-        <title>Home Watch Checklist</title>
+        <title>Home Watch Checklist for Homewatch Companies</title>
         <link
           rel="canonical"
           href="https://www.dallashomewatch.com/homewatch-checklist"
         />
         <meta
           name="description"
-          content="Our Home Watch Checklist includes checking household appliances 
-          and equipment which are often the source of a problem. "
+          content="Our Home Watch Checklist for Homewatch Companies includes a list of items to check in the interior and the exterior of an average home. It can be customized to suit your needs."
         />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
+        <meta property="og:type" content="article" />
+        <meta
+          property="article:publisher"
+          content="https://www.facebook.com/profile.php?id=100092566267916"
+        ></meta>
         <meta
           property="keywords"
           content="home watch checklist, home watch inspection checklist"
@@ -29,10 +33,13 @@ function HomeWatchChecklistPage(props) {
           property="og:url"
           content="https://www.dallashomewatch.com/homewatch-checklist"
         />
-        <meta property="og:title" content="Home Watch Inspection Checklist" />
+        <meta
+          property="og:title"
+          content="Home Watch Checklist for Homewatch Companies"
+        />
         <meta
           property="og:description"
-          content="Customize your Home Watch Inspection Checklist. We have a list of household items that we check when we come into your home. The items we check are the ones that could possibly be the source of issues."
+          content="Our Home Watch Checklist for Homewatch Companies includes a list of items to check in the interior and the exterior of an average home. It can be customized to suit your needs."
         />
         <meta
           property="og:image"
@@ -43,6 +50,22 @@ function HomeWatchChecklistPage(props) {
         <meta
           property="og:image:alt"
           content="Dallas Home Watch Professional entering front door of home watch client."
+        />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@dallashomewatch" />
+        <meta name="twitter:creator" content="@susanwinters214" />
+
+        <meta
+          name="twitter:title"
+          content="Home Watch Checklist for Homewatch Companies"
+        />
+        <meta
+          name="twitter:description"
+          content="Our Home Watch Checklist for Homewatch Companies includes a list of items to check in the interior and the exterior of an average home. It can be customized to suit your needs."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.dallashomewatch.com/images/og/home-watch-checklist.jpg"
         />
       </Head>
       {/* insert top banner with breadcrumb*/}

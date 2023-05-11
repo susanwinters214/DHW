@@ -15,8 +15,8 @@ function ServiceAreaPage(props) {
         />
         <meta
           name="description"
-          content="Home Watch Services in Dallas Area include Highland Park, University Park, Preston Hollow, Lake Forest, Devonshire, Bluffview, 
-          Northwood Hills and Briarwood."
+          content="Home Watch Services in Dallas Area include Highland Park, University Park, Preston Hollow, Lake Forest, Bluffview, 
+          Northwood Hills and downtown Dallas."
         />
         <meta
           property="keywords"
@@ -25,7 +25,11 @@ function ServiceAreaPage(props) {
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
-
+        <meta property="og:type" content="article" />
+        <meta
+          property="article:publisher"
+          content="https://www.facebook.com/profile.php?id=100092566267916"
+        ></meta>
         <meta
           property="og:url"
           content="https://www.dallashomewatch.com/service-areas"
@@ -36,9 +40,8 @@ function ServiceAreaPage(props) {
         />
         <meta
           property="og:description"
-          content="Home Watch Services in Dallas Area include the following communities: 
-          Highland Park, University Park, Preston Hollow, Lake Forest, Devonshire, Bluffview, 
-          Northwood Hills and Briarwood."
+          content="Home Watch Services in Dallas Area include Highland Park, University Park, Preston Hollow, Lake Forest, Bluffview, 
+          Northwood Hills and downtown Dallas."
         />
         <meta
           property="og:image"
@@ -47,6 +50,22 @@ function ServiceAreaPage(props) {
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />
         <meta property="og:image:alt" content="Dallas skyline" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@dallashomewatch" />
+        <meta name="twitter:creator" content="@susanwinters214" />
+
+        <meta
+          name="twitter:title"
+          content="Home Watch Services in Dallas Area"
+        />
+        <meta
+          name="twitter:description"
+          content="Home Watch Services in Dallas Area include Highland Park, University Park, Preston Hollow, Lake Forest, Bluffview, Northwood Hills and downtown Dallas."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.dallashomewatch.com/images/og/dallas-skyline-service-areas.jpg"
+        />
       </Head>
       {/* insert top banner with Page Title & Breadcrumb*/}
       <section className="page-title">
