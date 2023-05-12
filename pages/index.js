@@ -96,7 +96,8 @@ function HomePage(props) {
                         <span className="txt">
                           Texas Tornado & Storm Season
                           <i className="phone" />
-                        </span><br />
+                        </span>
+                        <br />
                         <Image
                           src="/images/tornado-season.jpg"
                           width={350}
@@ -531,7 +532,8 @@ function HomePage(props) {
                 <br />
 
                 <span className="streetblock2">University Park</span>
-              </Link>
+              </Link>{" "}
+              <br />
             </div>
 
             {/* Lake Forest Block */}
@@ -548,7 +550,8 @@ function HomePage(props) {
                 />
                 <br />
                 <span className="streetblock2">Lake Forest</span>
-              </Link>
+              </Link>{" "}
+              <br />
             </div>
 
             {/* Northwood Hills Gated Community Block*/}
@@ -565,7 +568,8 @@ function HomePage(props) {
                 />
                 <br />
                 <span className="streetblock2">Northwood Hills</span>
-              </Link>
+              </Link>{" "}
+              <br />
             </div>
           </div>
         </div>
