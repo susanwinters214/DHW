@@ -80,7 +80,7 @@ function AccreditationPage(props) {
             <li>
               <Link href="/">home</Link>
             </li>
-            <li>Accreditation Member</li>
+            <li>NHWA Accredited Member</li>
           </ul>
         </div>
       </section>

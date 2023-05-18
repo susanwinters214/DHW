@@ -102,7 +102,7 @@ function GateOperatorPage(props) {
                 <div className="inner-column">
                   {/* Sec Title */}
                   <div className="sec-title">
-                    <h2 className="pageTitle">Gate Operator Repair </h2>
+                    <h2 className="pageTitle">A Broken Gate Is A Security Risk</h2>
                     <p className="text"></p>
                     <p>
                       Residential gate repair is an essential service that

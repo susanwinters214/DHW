@@ -102,7 +102,7 @@ function GarageDoorOpenersPage(props) {
                 <div className="inner-column">
                   {/* Sec Title */}
                   <div className="sec-title">
-                    <h2 className="pageTitle">Garage Door Openers</h2>
+                    <h2 className="pageTitle">Did You Leave Your Garage Door Open?</h2>
                     <p className="text">
                       Garage door openers are an essential part of modern-day
                       homes, offering convenience and security for homeowners.

@@ -74,17 +74,12 @@ function HomeWatchServicesPage(props) {
           objectFit="cover"
           style={{
             zIndex: -99,
-          }}       
+          }}
         />
-      
+
         <div className="auto-container">
-          <h1>Home Watch Services</h1>
-          <ul className="page-breadcrumb">
-            <li>
-              <Link href="/">home</Link>
-            </li>
-            <li>Home Watch Services</li>
-          </ul>
+          <h1>Home Watch</h1>
+       
         </div>
       </section>
       {/* insert section component with Welcome*/}
@@ -92,7 +87,7 @@ function HomeWatchServicesPage(props) {
         <div className="auto-container">
           <div className="inner-container">
             <div className="lower-content">
-              <h2 className="pageTitle">Home Watch Services</h2>
+              <h2 className="pageTitle">Dallas Home Watch Services</h2>
               <p className="text">
                 Home Watch Services are professional services that offer regular
                 inspections and monitoring of a home, typically for homeowners

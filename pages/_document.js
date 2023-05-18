@@ -21,17 +21,31 @@ class MyDocument extends Document {
           <Main />
           <NextScript />
           <div id="notifications"></div>
-          {/* 
+
+          {/* Global Site Tag (gtag.js) - Google Analytics */}
+          <script
+            async
+            src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+          />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
+              page_path: window.location.pathname,
+            });
+          `,
+            }}
+          />
+
+          {/* THIS IS THE OLD RECORD
           <Script
             src="https://www.googletagmanager.com/gtag/js?id=G-8N43XDXPPJ"
             strategy="afterInteractive"
           />
-
-          
-          
-          */}
-
-          <Script id="google-analytics" strategy="afterInteractive">
+     <Script id="google-analytics" strategy="afterInteractive">
             {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){window.dataLayer.push(arguments);}
@@ -40,6 +54,9 @@ class MyDocument extends Document {
           gtag('config', 'G-8N43XDXPPJ');
         `}
           </Script>
+          
+          
+          */}
         </body>
       </Html>
     );

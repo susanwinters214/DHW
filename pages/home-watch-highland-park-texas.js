@@ -8,7 +8,7 @@ function SAhighlandparkPage(props) {
   return (
     <Fragment>
       <Head>
-        <title></title>
+        <title>HomeWatch Highland Park</title>
         <linkHome
           Watch
           Highland
