@@ -3,6 +3,8 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import Script from "next/script";
+import { NextSeo } from "next-seo";
+import { ArticleJsonLd } from "next-seo";
 
 function DangersOfEmptyHousePage(props) {
   return (
@@ -73,6 +75,31 @@ function DangersOfEmptyHousePage(props) {
         />
         <div className="auto-container">
           <h1>10 Dangers of Leaving Your Home Unoccupied</h1>
+          {/* SCHEMA CODE  */}
+          <ArticleJsonLd
+            type="BlogPosting"
+            url="https://www.dallashomewatch.com/blog/dangers-of-leaving-house-unoccupied"
+            title="10 DANGERS OF LEAVING YOUR HOME UNOCCUPIED"
+            images={[
+              "https://www.dallashomewatch.com/images/background/dangers-vacant-house.jpg",
+              "https://www.dallashomewatch.com/images/blogimg/home-breaking-in-door.jpg",
+              "https://www.dallashomewatch.com/images/blogimg/water-leak-on-ceiling.jpg",
+              "https://www.dallashomewatch.com/images/blogimg/squatter-in-house.jpg",
+              "https://www.dallashomewatch.com/images/blogimg/mold-mildew-damage.jpg",
+              "https://www.dallashomewatch.com/images/blogimg/big-trees-240x320.jpg",
+              "https://www.dallashomewatch.com/images/blogimg/bug-droppings-on-porch.jpg",
+              "https://www.dallashomewatch.com/images/blogimg/food-poison-sick-stomach.jpg",
+              "https://www.dallashomewatch.com/images/blogimg/wine-bottles-down.jpg",
+              "https://www.dallashomewatch.com/images/blogimg/vandalism-spray-paint.jpg",
+            ]}
+            datePublished="2023-05-01T08:00:00+08:00"
+            dateModified="2023-05-05T09:00:00+08:00"
+            authorName="Susan Winters"
+            contentLocation="Dallas, Texas"
+            description="The dangers of leaving your house unoccupied is includes the increased risk of burglary. That can cause significant damage to your home, costing you money."
+          />
+          {/* END OF SCHEMA CODE  */}
+
           <ul className="page-breadcrumb">
             <li>
               <Link href="/">home</Link>
@@ -159,7 +186,7 @@ function DangersOfEmptyHousePage(props) {
                     <div className="image centered">
                       <Image
                         src="/images/blogimg/water-leak-on-ceiling.jpg"
-                        alt="water leak damage on ceiling"
+                        alt="home watch inspection found water leak damage on ceiling"
                         width={600}
                         height={325}
                       />
@@ -192,7 +219,7 @@ function DangersOfEmptyHousePage(props) {
                     <div className="image centered">
                       <Image
                         src="/images/blogimg/house-fire-3559783_640.jpg"
-                        alt="house on fire"
+                        alt="house on fire while homeowner was on vacation"
                         width={600}
                         height={424}
                       />
@@ -224,7 +251,7 @@ function DangersOfEmptyHousePage(props) {
                     <div className="image centered">
                       <Image
                         src="/images/blogimg/squatter-in-house.jpg"
-                        alt="squatter living in vacant house"
+                        alt="homewatch inspector caught squatter living in vacant house"
                         width={600}
                         height={425}
                       />
@@ -262,7 +289,7 @@ function DangersOfEmptyHousePage(props) {
                     <div className="image centered">
                       <Image
                         src="/images/blogimg/mold-mildew-damage.jpg"
-                        alt="mold and mildew damage"
+                        alt="homewatch inspection found mold and mildew damage"
                         width={600}
                         height={250}
                       />
@@ -298,7 +325,7 @@ function DangersOfEmptyHousePage(props) {
                     <div className="image centered">
                       <Image
                         src="/images/blogimg/big-trees-240x320.jpg"
-                        alt="big tree fell down"
+                        alt="homewatch inspector found big trees fallen down in driveway"
                         width={400}
                         height={350}
                       />
@@ -335,7 +362,7 @@ function DangersOfEmptyHousePage(props) {
                     <div className="image centered">
                       <Image
                         src="/images/blogimg/bug-droppings-on-porch.jpg"
-                        alt="bug droppings on porch"
+                        alt="home watch inspector found bug droppings on porch"
                         width={600}
                         height={420}
                       />
@@ -382,7 +409,7 @@ function DangersOfEmptyHousePage(props) {
                     <div className="image centered">
                       <Image
                         src="/images/blogimg/food-poison-sick-stomach.jpg"
-                        alt="sick to stomach with food poison from a tripped breaker"
+                        alt="sick to stomach with food poison caused by a tripped breaker"
                         width={600}
                         height={350}
                       />
@@ -420,7 +447,7 @@ function DangersOfEmptyHousePage(props) {
                     <div className="image centered">
                       <Image
                         src="/images/blogimg/wine-bottles-down.jpg"
-                        alt="wine bottles damaged"
+                        alt="Home Watch inspection prevented wine bottles from damage"
                         width={600}
                         height={315}
                       />
@@ -454,7 +481,7 @@ function DangersOfEmptyHousePage(props) {
                     <div className="image centered">
                       <Image
                         src="/images/blogimg/vandalism-spray-paint.jpg"
-                        alt="vandalism-spray-paint"
+                        alt="Home Watch inspection can alert homeowner of vandalism spray paint"
                         width={600}
                         height={350}
                       />

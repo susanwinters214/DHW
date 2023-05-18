@@ -56,11 +56,10 @@ function MyApp({ Component, pageProps }) {
           content="9d804dee0d1569f3434f8563d1767c9d"
         />
 
-           <NextSeo
+       <NextSeo
           useAppDir={true}
           facebook={{ appId: '100092566267916' }}
-          themeColor="#00204c"
-          titleTemplate="%s | Next SEO"
+          themeColor="#00204c"         
         />
 
       <BreadcrumbJsonLd
