@@ -18,7 +18,7 @@ function HomeWatchBusinessJournalPage(props) {
           content="The Home Watch Business Journal (SOLD ON AMAZON) was created for owners of a Home Watch Business. The journal gives you a place for your handwritten notes about your Home Watch company."
         />
         <meta
-          property="keywords"
+          name="keywords"
           content="home watch business, home watch business journal"
         />
         <meta property="fb:app_id" content="8620778781329629" />

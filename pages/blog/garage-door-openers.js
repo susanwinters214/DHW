@@ -26,7 +26,7 @@ function GarageDoorOpenersPage(props) {
           property="article:publisher"
           content="https://www.facebook.com/profile.php?id=100092566267916"
         ></meta>
-        <meta property="keywords" content="garage door openers, home watch" />
+        <meta name="keywords" content="garage door openers, home watch" />
         <meta
           property="og:url"
           content="https://www.dallashomewatch.com/blog/garage-door-openers"
@@ -102,7 +102,9 @@ function GarageDoorOpenersPage(props) {
                 <div className="inner-column">
                   {/* Sec Title */}
                   <div className="sec-title">
-                    <h2 className="pageTitle">Did You Leave Your Garage Door Open?</h2>
+                    <h2 className="pageTitle">
+                      Did You Leave Your Garage Door Open?
+                    </h2>
                     <p className="text">
                       Garage door openers are an essential part of modern-day
                       homes, offering convenience and security for homeowners.

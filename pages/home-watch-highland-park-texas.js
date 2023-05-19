@@ -9,10 +9,7 @@ function SAhighlandparkPage(props) {
     <Fragment>
       <Head>
         <title>HomeWatch Highland Park</title>
-        <linkHome
-          Watch
-          Highland
-          Park
+        <link
           rel="canonical"
           href="https://www.dallashomewatch.com/home-watch-highland-park-texas"
         />
@@ -21,7 +18,7 @@ function SAhighlandparkPage(props) {
           content="Do you need a Home Watch Company that services the Highland Park area? Contact Dallas Home Watch LLC. to see about watching over your house while you are away."
         />
         <meta
-          property="keywords"
+          name="keywords"
           content="home watch highland park, highland park home watch"
         />
         <meta property="fb:app_id" content="8620778781329629" />

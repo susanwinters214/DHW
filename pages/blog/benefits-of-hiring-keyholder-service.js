@@ -13,7 +13,7 @@ function AirFiltersPage(props) {
           rel="canonical"
           href="https://www.dallashomewatch.com/blog/benefits-of-hiring-keyholder-service"
         />
-        <meta property="keywords" content="keyholder service, keyholding" />
+        <meta name="keywords" content="keyholder service, keyholding" />
         <meta
           name="description"
           content="Learn the Benefits of Hiring a Key Holder Service and how doing so can increase security, convenience and save you money. Discover examples of key holder services."
@@ -21,6 +21,7 @@ function AirFiltersPage(props) {
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
+
         <meta property="og:type" content="article" />
         <meta
           property="article:publisher"

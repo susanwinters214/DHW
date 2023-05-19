@@ -19,10 +19,7 @@ function ResourcesPage(props) {
           name="description"
           content="Dallas Home Watch shares resources and referrals for Home Watch Businesses and Home Watch Clients. This page contains discounts to places in Dallas. Save money by visiting the Dallas Home Watch Resources page often."
         />
-        <meta
-          property="keywords"
-          content="home watch resources and referrals"
-        />
+        <meta name="keywords" content="home watch resources and referrals" />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />

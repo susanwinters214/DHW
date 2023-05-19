@@ -25,10 +25,7 @@ function FAQsPage(props) {
           property="article:publisher"
           content="https://www.facebook.com/profile.php?id=100092566267916"
         ></meta>
-        <meta
-          property="keywords"
-          content="home watch questions, homewatch faqs"
-        />
+        <meta name="keywords" content="home watch questions, homewatch faqs" />
         <meta
           property="og:url"
           content="https://www.dallashomewatch.com/faqs"

@@ -19,7 +19,7 @@ function ServiceAreaPage(props) {
           Northwood Hills and downtown Dallas."
         />
         <meta
-          property="keywords"
+          name="keywords"
           content="home watch service area, dallas home watch"
         />
         <meta property="fb:app_id" content="8620778781329629" />

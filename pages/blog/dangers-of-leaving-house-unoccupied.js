@@ -27,7 +27,7 @@ function DangersOfEmptyHousePage(props) {
           property="article:publisher"
           content="https://www.facebook.com/profile.php?id=100092566267916"
         ></meta>
-        <meta property="keywords" content="leaving home, leaving house" />
+        <meta name="keywords" content="leaving home, leaving house" />
         <meta
           property="og:url"
           content="https://www.dallashomewatch.com/blog/dangers-of-leaving-house-unoccupied"

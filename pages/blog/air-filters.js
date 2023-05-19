@@ -11,7 +11,7 @@ function AirFiltersPage(props) {
     <Fragment>
       <Head>
         <title>Changing Dirty Air Filters</title>
-        <meta name="robots" content="noindex, nofollow" />
+ 
 
         <link
           rel="canonical"
@@ -21,7 +21,7 @@ function AirFiltersPage(props) {
           name="description"
           content="Home Watch Service includes checking and changing dirty air filter so you don't have to worry about it while you are away."
         />
-        <meta property="keywords" content="home watch air filters" />
+        <meta name="keywords" content="home watch air filters" />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />

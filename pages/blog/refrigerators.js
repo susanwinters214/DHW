@@ -18,7 +18,7 @@ function RefrigeratorsPage(props) {
           content="Is your refrigerator running after you leave town? Home Watchers make sure that your refrigerator has not lost power. If your refrigerator goes out, you will come home to spoiled food."
         />
         <meta
-          property="keywords"
+          name="keywords"
           content="refrigerator check, home watch services"
         />
         <meta property="fb:app_id" content="8620778781329629" />

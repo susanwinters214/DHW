@@ -14,7 +14,7 @@ function HomePage(props) {
           content="Dallas Home Watch is a local, woman owned business that provides visual inspections both inside and outside of a home or property looking for obvious issues."
         />
         <meta
-          property="keywords"
+          name="keywords"
           content="home watch, home watch dallas, dallas home watch"
         />
         <link rel="canonical" href="https://www.dallashomewatch.com"></link>

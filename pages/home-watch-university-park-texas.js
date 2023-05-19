@@ -18,7 +18,7 @@ function SAuniversityparkPage(props) {
           content="Looking for a Home Watch Company in University Park? Contact Dallas Home Watch LLC. to see about watching your house while you are away."
         />
         <meta
-          property="keywords"
+          name="keywords"
           content="home watch University park, University park home watch"
         />
         <meta property="fb:app_id" content="8620778781329629" />

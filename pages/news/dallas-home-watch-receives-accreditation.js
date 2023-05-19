@@ -26,7 +26,7 @@ function DHWreceivesAccredPage(props) {
           content="https://www.facebook.com/profile.php?id=100092566267916"
         ></meta>
         <meta
-          property="keywords"
+          name="keywords"
           content="dallas home watch, home watch accreditation, national home watch association"
         />
         <meta

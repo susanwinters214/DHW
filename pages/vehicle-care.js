@@ -28,7 +28,7 @@ function VehicleCarePage(props) {
           content="https://www.facebook.com/profile.php?id=100092566267916"
         ></meta>
         <meta
-          property="keywords"
+          name="keywords"
           content="stored vehicles, leaving car in garage, vacation without your car"
         />
         <meta
@@ -80,9 +80,8 @@ function VehicleCarePage(props) {
           alt="luxury cars"
           style={{
             zIndex: -99,
-          }}        
+          }}
         />
-      
 
         <div className="auto-container">
           <h1>Vehicle Care</h1>

@@ -18,10 +18,7 @@ function GateOperatorPage(props) {
           name="description"
           content="Home Watch Company discovered broken gate and called a professional for a gate operator repair - DALLAS HOME WATCH"
         />
-        <meta
-          property="keywords"
-          content="gate operator, home watch services"
-        />
+        <meta name="keywords" content="gate operator, home watch services" />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
@@ -102,7 +99,9 @@ function GateOperatorPage(props) {
                 <div className="inner-column">
                   {/* Sec Title */}
                   <div className="sec-title">
-                    <h2 className="pageTitle">A Broken Gate Is A Security Risk</h2>
+                    <h2 className="pageTitle">
+                      A Broken Gate Is A Security Risk
+                    </h2>
                     <p className="text"></p>
                     <p>
                       Residential gate repair is an essential service that

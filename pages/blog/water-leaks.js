@@ -27,7 +27,7 @@ function WaterLeaksPage(props) {
           content="https://www.facebook.com/profile.php?id=100092566267916"
         ></meta>
         <meta
-          property="keywords"
+          name="keywords"
           content="water leaks, water damage, home watch services"
         />
         <meta

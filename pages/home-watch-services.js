@@ -17,7 +17,7 @@ function HomeWatchServicesPage(props) {
           name="description"
           content="Home Watch Services: 'What Does A Home Watch Service Do?' Home Watchers inspect the interior and exterior of a residential property looking for obvious issues."
         />
-        <meta property="keywords" content="home watch, home watch services" />
+        <meta name="keywords" content="home watch, home watch services" />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
@@ -79,7 +79,6 @@ function HomeWatchServicesPage(props) {
 
         <div className="auto-container">
           <h1>Home Watch</h1>
-       
         </div>
       </section>
       {/* insert section component with Welcome*/}

@@ -20,10 +20,7 @@ function WhyYouNeedHomewatchPage(props) {
           name="description"
           content="What To Look For In A Home Watch Company. Choosing the right partner when looking for someone to watch is important. You need to choose someone you can trust with your keys."
         />
-        <meta
-          property="keywords"
-          content="homewatch company, home watch company"
-        />
+        <meta name="keywords" content="homewatch company, home watch company" />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />

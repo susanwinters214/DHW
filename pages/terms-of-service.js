@@ -15,7 +15,7 @@ function TermsPage() {
           name="description"
           content="Dallas Home Watch respects your privacy and only asks for the information needed to take care of your home. Please read Dallas Home Watch Terms of Service."
         />
-        <meta property="keywords" content="home watch terms of service" />
+        <meta name="keywords" content="home watch terms of service" />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />

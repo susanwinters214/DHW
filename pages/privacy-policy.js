@@ -19,7 +19,7 @@ function PrivacyPage() {
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
         <meta property="og:type" content="article" />
-        <meta property="keywords" content="home watch privacy policy" />
+        <meta name="keywords" content="home watch privacy policy" />
         <meta
           property="article:publisher"
           content="https://www.facebook.com/profile.php?id=100092566267916"

@@ -17,7 +17,7 @@ function NationalHomeWatchMonthPage(props) {
           name="description"
           content="March is 'National Home Watch Month' which was created to bring awareness of the definition of 'Home Watch' as a Professional Service offered to Home Owners."
         />
-        <meta property="keywords" content="national home watch association" />
+        <meta name="keywords" content="national home watch association" />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />

@@ -18,7 +18,7 @@ function WhereToFindPage() {
           content="Where to find Dallas Home Watch on the web. Dallas Home Watch is listed on many online directories but sometimes 'Home Watch' is
           not listed as a category."
         />
-        <meta property="keywords" content="find dallas home watch" />
+        <meta name="keywords" content="find dallas home watch" />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
@@ -47,13 +47,19 @@ function WhereToFindPage() {
           property="og:image:alt"
           content="city of Dallas neighborhood in downtown"
         />
-                <meta name="twitter:card" content="summary" />
+        <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@dallashomewatch" />
         <meta name="twitter:creator" content="@susanwinters214" />
-   
-        <meta name="twitter:title"  content="Where To Find Dallas Home Watch"   />
-        <meta name="twitter:description" content="Where to find Dallas Home Watch on the web. Dallas Home Watch is listed on many online directories but sometimes 'Home Watch' is  not listed as a category." />
-        <meta name="twitter:image" content="https://www.dallashomewatch.com/images/og/dallas-skyline-service-areas.jpg" />
+
+        <meta name="twitter:title" content="Where To Find Dallas Home Watch" />
+        <meta
+          name="twitter:description"
+          content="Where to find Dallas Home Watch on the web. Dallas Home Watch is listed on many online directories but sometimes 'Home Watch' is  not listed as a category."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.dallashomewatch.com/images/og/dallas-skyline-service-areas.jpg"
+        />
       </Head>
       {/* insert top banner with Page Title & Breadcrumb*/}
       <section className="page-title">

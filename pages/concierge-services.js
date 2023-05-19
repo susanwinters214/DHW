@@ -17,7 +17,7 @@ function ConciergePage(props) {
           name="description"
           content="Personal Conceirge Services by DALLAS HOME WATCH helps busy executives by performing tasks and running errands so they have the freedom to live their life without chores."
         />
-        <meta property="keywords" content="dallas concierge services" />
+        <meta name="keywords" content="dallas concierge services" />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />

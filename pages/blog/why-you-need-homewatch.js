@@ -25,10 +25,7 @@ function WhyYouNeedHomewatchPage(props) {
           property="article:publisher"
           content="https://www.facebook.com/profile.php?id=100092566267916"
         ></meta>
-        <meta
-          property="keywords"
-          content="need home watch, home watch services"
-        />
+        <meta name="keywords" content="need home watch, home watch services" />
         <meta
           property="og:url"
           content="https://www.dallashomewatch.com/blog/why-you-need-homewatch"

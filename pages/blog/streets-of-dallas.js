@@ -13,7 +13,7 @@ function StreetsOfDallasPage(props) {
           rel="canonical"
           href="https://www.dallashomewatch.com/blog/streets-of-dallas"
         />
-        <meta name="description" content="" />
+        <meta name="description" content="Photos of the streets of Dallas" />
         <meta
           property="View the streets of Dallas as we tour the city looking for unoccupied homes that need Dallas Home Watch Services.keywords"
           content="dallas streets, streets of dallas"

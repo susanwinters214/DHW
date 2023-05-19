@@ -13,7 +13,7 @@ function NewsPage(props) {
           name="description"
           content="Dallas Home Watch News from social media sites and press releases. Dallas Home Watch is a member of the NHWA and shares industry news about Home Watch."
         />
-        <meta property="keywords" content="home watch news" />
+        <meta name="keywords" content="home watch news" />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
@@ -45,11 +45,19 @@ function NewsPage(props) {
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@dallashomewatch" />
         <meta name="twitter:creator" content="@susanwinters214" />
-   
-        <meta name="twitter:title"  content="Dallas Home Watch News | Home Watch News in Dallas"   />
-        <meta name="twitter:description" content="Dallas Home Watch News from social media sites and press releases. Dallas Home Watch is a member of the NHWA and shares industry news about Home Watch."  />
-        <meta name="twitter:image" content="https://www.dallashomewatch.com/images/og/home-watch-news.jpg" />
 
+        <meta
+          name="twitter:title"
+          content="Dallas Home Watch News | Home Watch News in Dallas"
+        />
+        <meta
+          name="twitter:description"
+          content="Dallas Home Watch News from social media sites and press releases. Dallas Home Watch is a member of the NHWA and shares industry news about Home Watch."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.dallashomewatch.com/images/og/home-watch-news.jpg"
+        />
       </Head>
       {/* insert top banner with Page Title & Breadcrumb*/}
       <section className="page-title pageback-news style-two ">

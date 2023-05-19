@@ -18,7 +18,7 @@ function GateOperatorPage(props) {
           name="description"
           content="Tree damage after storms in Texas - reported by Dallas Home Watch. See photos of trees with broken branches on real estate property in Dallas."
         />
-        <meta property="keywords" content="texas storms, tree damage" />
+        <meta name="keywords" content="texas storms, tree damage" />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />

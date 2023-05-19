@@ -15,10 +15,7 @@ function AboutPage() {
           content="Dallas Home Watch, owned by Tina Lawson, contracts with clients to watch 
           their home while they are away."
         />
-        <meta
-          property="keywords"
-          content="about dallas home watch, Tina Lawson"
-        />
+        <meta name="keywords" content="about dallas home watch, Tina Lawson" />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
