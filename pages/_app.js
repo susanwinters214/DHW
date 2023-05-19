@@ -8,10 +8,9 @@ import Layout from "../components/layout/layout";
 import Script from "next/script";
 import { useEffect } from "react";
 import { useRouter } from "next/router";
-import { NextSeo } from 'next-seo';
-import { BreadcrumbJsonLd } from 'next-seo';
 
-import * as ga from "./lib/ga";
+
+
 
 function MyApp({ Component, pageProps }) {
 
@@ -56,36 +55,9 @@ function MyApp({ Component, pageProps }) {
           content="9d804dee0d1569f3434f8563d1767c9d"
         />
 
-        <NextSeo
-          useAppDir={true}
-          facebook={{ appId: "8620778781329629" }}
-          themeColor="#00204c"
-        />
+    
 
-        <BreadcrumbJsonLd
-          itemListElements={[
-            {
-              position: 1,
-              name: "Home Watch Services",
-              item: "https://www.dallashomewatch.com/home-watch-services",
-            },
-            {
-              position: 2,
-              name: "Key Holder Services",
-              item: "https://www.dallashomewatch.com/keyholder-services",
-            },
-            {
-              position: 3,
-              name: "Concierge Services",
-              item: "https://www.dallashomewatch.com/concierge-services",
-            },
-            {
-              position: 4,
-              name: "FAQs",
-              item: "https://www.dallashomewatch.com/faqs",
-            },
-          ]}
-        />
+      
       </Head>
 
       <Script src="js/jquery.min.js" strategy="afterInteractive"></Script>
