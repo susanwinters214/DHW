@@ -96,7 +96,7 @@ function FAQsPage(props) {
               <br />
               <h3>Where is Dallas Home Watch located?</h3>
               <p>
-                Dallas Home Watch is located at 13101 Preston Road Suite 110410,
+                Dallas Home Watch is located at 13101 Preston Road Suite #110410,
                 Dallas, Texas 75240
               </p>
               <h3 className="pt-25">

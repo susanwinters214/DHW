@@ -17,7 +17,7 @@
         "@type": "Brand",
         "name": "Dallas Home Watch"
       },
-  "kewyords": "Dallas Home Watch, Home Watch Services, Dallas Key Holder, Dallas Concierge Service",
+  "keywords": "Dallas Home Watch, Home Watch Services, Dallas Key Holder, Dallas Concierge Service",
   "telephone": "(972) 982-7050",
    "founder": "Tina Lawson",
   "hasCredential": "National Home Watch Association Accreditation",
