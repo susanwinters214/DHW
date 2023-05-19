@@ -9,9 +9,10 @@ function FAQsPage(props) {
     <Fragment>
       <Head>
         <title>
-          Home Watch FAQs - Dallas Home Watch Frequently Asked Questions
+          Home Watch FAQs - Dallas Home Watch Frequently Asked Questions?
         </title>
         <link rel="canonical" href="https://www.dallashomewatch.com/faqs" />
+        <meta name="keywords" content="home watch questions, homewatch faqs" />
         <meta
           name="description"
           content="Home Watch FAQs - Dallas Home Watch Frequently Asked Questions. Get answers to frequently asked questions about Home Watch and the services we provide."
@@ -25,7 +26,7 @@ function FAQsPage(props) {
           property="article:publisher"
           content="https://www.facebook.com/profile.php?id=100092566267916"
         ></meta>
-        <meta name="keywords" content="home watch questions, homewatch faqs" />
+     
         <meta
           property="og:url"
           content="https://www.dallashomewatch.com/faqs"
