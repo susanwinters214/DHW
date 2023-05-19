@@ -13,11 +13,12 @@ function KeyHolderPage(props) {
           rel="canonical"
           href="https://www.dallashomewatch.com/keyholder-services"
         />
+        <meta name="keywords" content="key holder services" />
         <meta
           name="description"
           content="Key Holder Services holds the keys to your home to allow access to contractors and vendors to come into the home to perform a service."
         />
-        <meta name="keywords" content="key holder services" />
+ 
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />

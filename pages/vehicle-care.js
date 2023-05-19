@@ -16,6 +16,10 @@ function VehicleCarePage(props) {
           href="https://www.dallashomewatch.com/vehicle-care"
         />
         <meta
+          name="keywords"
+          content="stored vehicles, leaving car in garage, vacation without your car"
+        />
+        <meta
           name="description"
           content="Dallas Home Watch offers Vehicle Care for existing Home Watch clients. Dallas Home Watch can watch your car for you when you are going to be away from home."
         />
@@ -27,10 +31,7 @@ function VehicleCarePage(props) {
           property="article:publisher"
           content="https://www.facebook.com/profile.php?id=100092566267916"
         ></meta>
-        <meta
-          name="keywords"
-          content="stored vehicles, leaving car in garage, vacation without your car"
-        />
+
         <meta
           property="og:url"
           content="https://www.dallashomewatch.com/vehicle-care"

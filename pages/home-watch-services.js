@@ -13,11 +13,12 @@ function HomeWatchServicesPage(props) {
           rel="canonical"
           href="https://www.dallashomewatch.com/home-watch-services"
         />
+        <meta name="keywords" content="home watch, home watch services" />
         <meta
           name="description"
           content="Home Watch Services: 'What Does A Home Watch Service Do?' Home Watchers inspect the interior and exterior of a residential property looking for obvious issues."
         />
-        <meta name="keywords" content="home watch, home watch services" />
+
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />

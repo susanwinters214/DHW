@@ -11,13 +11,14 @@ function FAQsPage(props) {
         <title>
           Home Watch FAQs - Dallas Home Watch Frequently Asked Questions?
         </title>
-        <link rel="canonical" href="https://www.dallashomewatch.com/faqs" />
+     
+
         <meta name="keywords" content="home watch questions, homewatch faqs" />
         <meta
           name="description"
           content="Home Watch FAQs - Dallas Home Watch Frequently Asked Questions. Get answers to frequently asked questions about Home Watch and the services we provide."
         />
-
+        <link rel="canonical" href="https://www.dallashomewatch.com/faqs" />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
@@ -26,7 +27,7 @@ function FAQsPage(props) {
           property="article:publisher"
           content="https://www.facebook.com/profile.php?id=100092566267916"
         ></meta>
-     
+
         <meta
           property="og:url"
           content="https://www.dallashomewatch.com/faqs"
@@ -96,8 +97,8 @@ function FAQsPage(props) {
               <br />
               <h3>Where is Dallas Home Watch located?</h3>
               <p>
-                Dallas Home Watch is located at 13101 Preston Road Suite #110410,
-                Dallas, Texas 75240
+                Dallas Home Watch is located at 13101 Preston Road Suite
+                #110410, Dallas, Texas 75240
               </p>
               <h3 className="pt-25">
                 Does Dallas Home Watch have a Facebook page?

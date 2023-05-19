@@ -10,13 +10,14 @@ function HomePage(props) {
       <Head>
         <title>Dallas Home Watch LLC.| Home Watch Dallas</title>
         <meta
-          name="description"
-          content="Dallas Home Watch is a local, woman owned business that provides visual inspections both inside and outside of a home or property looking for obvious issues."
-        />
-        <meta
           name="keywords"
           content="home watch, home watch dallas, dallas home watch"
         />
+        <meta
+          name="description"
+          content="Dallas Home Watch is a local, woman owned business that provides visual inspections both inside and outside of a home or property looking for obvious issues."
+        />
+     
         <link rel="canonical" href="https://www.dallashomewatch.com"></link>
 
         <meta property="fb:app_id" content="8620778781329629" />

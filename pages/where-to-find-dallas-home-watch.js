@@ -13,12 +13,13 @@ function WhereToFindPage() {
           rel="canonical"
           href="https://www.dallashomewatch.com/where-to-find-dallas-home-watch"
         />
+        <meta name="keywords" content="find dallas home watch" />
         <meta
           name="description"
           content="Where to find Dallas Home Watch on the web. Dallas Home Watch is listed on many online directories but sometimes 'Home Watch' is
           not listed as a category."
         />
-        <meta name="keywords" content="find dallas home watch" />
+
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />

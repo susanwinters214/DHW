@@ -14,6 +14,10 @@ function HomeWatchChecklistPage(props) {
           href="https://www.dallashomewatch.com/homewatch-checklist"
         />
         <meta
+          name="keywords"
+          content="home watch checklist, home watch inspection checklist"
+        />
+        <meta
           name="description"
           content="Our Home Watch Checklist for Homewatch Companies includes a list of items to check in the interior and the exterior of an average home. It can be customized to suit your needs."
         />
@@ -25,10 +29,7 @@ function HomeWatchChecklistPage(props) {
           property="article:publisher"
           content="https://www.facebook.com/profile.php?id=100092566267916"
         ></meta>
-        <meta
-          name="keywords"
-          content="home watch checklist, home watch inspection checklist"
-        />
+      
         <meta
           property="og:url"
           content="https://www.dallashomewatch.com/homewatch-checklist"
