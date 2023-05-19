@@ -96,7 +96,6 @@ function HomePage(props) {
                       >
                         <span className="txt">
                           Texas Tornado & Storm Season
-                          <i className="phone" />
                         </span>
                         <br />
                         <Image
@@ -145,7 +144,7 @@ function HomePage(props) {
                     <p>
                       <strong>Dallas Home Watch LLC.</strong> offers
                       professional{" "}
-                      <Link href="/home-watch-services">
+                      <Link href="/home-watch-services" className="bold">
                         Home Watch Services
                       </Link>{" "}
                       in the Dallas, Texas area. We service several

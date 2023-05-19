@@ -54,10 +54,6 @@ function MyApp({ Component, pageProps }) {
           name="p:domain_verify"
           content="9d804dee0d1569f3434f8563d1767c9d"
         />
-
-    
-
-      
       </Head>
 
       <Script src="js/jquery.min.js" strategy="afterInteractive"></Script>
@@ -85,7 +81,7 @@ function MyApp({ Component, pageProps }) {
       {/* 
       <Script src="js/jquery-ui.js" strategy="afterInteractive"></Script>
   */}
-
+      <Script src="js/appear.js" strategy="afterInteractive"></Script>
       <Script src="js/script.js" strategy="afterInteractive"></Script>
 
       <div className="page-wrapper">
