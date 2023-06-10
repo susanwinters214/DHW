@@ -8,7 +8,7 @@ function HomePage(props) {
   return (
     <Fragment>
       <Head>
-        <title>Dallas Home Watch LLC.| Home Watch Dallas</title>
+        <title>Dallas Home Watch Services | Home Watch Dallas</title>
         <meta
           name="keywords"
           content="home watch, home watch dallas, dallas home watch"
@@ -17,7 +17,7 @@ function HomePage(props) {
           name="description"
           content="Dallas Home Watch is a local, woman owned business that provides visual inspections both inside and outside of a home or property looking for obvious issues."
         />
-     
+
         <link rel="canonical" href="https://www.dallashomewatch.com"></link>
 
         <meta property="fb:app_id" content="8620778781329629" />
@@ -133,12 +133,15 @@ function HomePage(props) {
                   <div className="text">
                     <h2>Home Watch in Dallas</h2>
                     <p>
-                      'Home Watch' is a visual inspection of a home or property,
-                      looking for obvious issues. Home Watch Services are
-                      scheduled inspections of unoccupied or vacant properties
-                      while the owner is away (because the homeowners are either
-                      staying at another property for awhile or are away on an
-                      extended vacation).
+                      <strong>
+                        {" "}
+                        Home Watch is a visual inspection of a home or
+                        property, looking for obvious issues.
+                      </strong>{" "}
+                      Home Watch Services are scheduled inspections of
+                      unoccupied or vacant properties while the owner is away
+                      (because the homeowners are either staying at another
+                      property for awhile or are away on an extended vacation).
                       <br />
                     </p>
                     <p>
@@ -388,17 +391,16 @@ function HomePage(props) {
               <div className="column col-lg-6 col-md-6 col-sm-12">
                 <h3 className="mb-10">National Home Watch Association</h3>
                 <p>
-                  Dallas Home Watch LLC. is an accredited member of the National
-                  Home Watch Association. The National Home Watch Association
-                  (NHWA) is a multi-national organization founded in 2009 to
-                  bring together business owners in the home watch industry and
-                  provide standards by which the members must live and operate
-                  their companies.
+                  Dallas Home Watch LLC. is an accredited member of the{" "}
+                  <Link href="/accreditation">
+                    National Home Watch Association
+                  </Link>
+                  . The National Home Watch Association (NHWA) is a
+                  multi-national organization founded in 2009 to bring together
+                  business owners in the home watch industry and provide
+                  standards by which the members must live and operate their
+                  companies.
                 </p>{" "}
-                <p>
-                  We operate our business in accordance with the mission
-                  statement laid out by the National Home Watch Association.
-                </p>
                 <Link href="/accreditation" target="_blank">
                   <Image
                     width={300}
@@ -407,8 +409,8 @@ function HomePage(props) {
                     alt="Accredited Member of the National Home Watch Association"
                   />
                 </Link>
-                <br />
-                <br />
+              </div>
+              <div className="column col-lg-6 col-md-6 col-sm-12">
                 <p className="mb-10">
                   As a National Home Watch Association member, we are constantly
                   updated with continuing education, hands-on training,
@@ -426,61 +428,6 @@ function HomePage(props) {
                 </p>
               </div>
               {/* Column */}
-              <div className="column col-lg-6 col-md-6 col-sm-12">
-                <h4 className="mb-10">NHWA Mission Statement</h4>
-                <ul>
-                  <li className="bullets">
-                    Establish and maintain the highest set of standards and
-                    ethics for all Home Watch companies in the United States of
-                    America and Canada;
-                  </li>
-                  <li className="bullets">
-                    Establish and maintain trust and confidence between
-                    homeowners and Home Watch professionals;
-                  </li>
-                  <li className="bullets">
-                    Protect the public from uninsured, unbonded and unethical
-                    individuals who represent themselves as Home Watch
-                    professionals;
-                  </li>
-                  <li className="bullets">
-                    Promote public awareness of the Home Watch industry; and
-                    Ensure that only companies who represent the highest levels
-                    of professionalism are accredited members of the NHWA.
-                  </li>
-                </ul>
-                <br />
-                <h4 className="mb-10">Strict Vetting Process</h4>
-                <p>
-                  To become a member of the NHWA, a business owner must undergo
-                  a rigorous vetting process that includes the following. This
-                  protects you against less-than-principled companies.
-                </p>
-                <ul>
-                  <li className="bullets">
-                    Criminal background check on all company principals
-                  </li>
-                  <li className="bullets">
-                    Proper insurance coverage (general and professional
-                    liability)
-                  </li>
-                  <li className="bullets">Proper bonding</li>
-                  <li className="bullets">
-                    Background checks for consumer complaints through Consumer
-                    Affairs and the BBB
-                  </li>
-                  <li className="bullets">
-                    Truthful website and advertising content
-                  </li>
-                  <li className="bullets">
-                    Adherence to the NHWA’s Code of Ethics
-                  </li>
-                  <li className="bullets">
-                    Commitment to the NHWA’s Mission Statement
-                  </li>
-                </ul>
-                <br />
-              </div>
             </div>{" "}
             {/* end of clearfix */}
           </div>{" "}
@@ -490,7 +437,8 @@ function HomePage(props) {
 
       <div className="auto-container">
         {/* Sec Title */}
-
+        <br />
+        <hr />
         <h2 className="centered">Our Service Areas</h2>
         <p>
           Dallas Home Watch LLC services the cities of Highland Park and
@@ -507,7 +455,7 @@ function HomePage(props) {
               >
                 <Image
                   src="/images/highland-park-street-sign.png"
-                  alt="Highland Park street sign"
+                  alt="Dallas Home Watch for Highland Park"
                   width={265}
                   height={174}
                 />
@@ -525,7 +473,7 @@ function HomePage(props) {
               >
                 <Image
                   src="/images/university-park-bridge.png"
-                  alt="University Park street sign"
+                  alt="Dallas Home Watch for University Park"
                   width={265}
                   height={174}
                 />
@@ -544,7 +492,7 @@ function HomePage(props) {
               >
                 <Image
                   src="/images/estates-of-lake-forest2.jpg"
-                  alt="Estates of Lake Forest"
+                  alt="Dallas Home Watch for Estates of Lake Forest"
                   width={265}
                   height={174}
                 />
@@ -562,7 +510,7 @@ function HomePage(props) {
               >
                 <Image
                   src="/images/northwood-hills-neighborhood.png"
-                  alt="Estates of Lake Forest"
+                  alt="Dallas Home Watch for Northwood Hills"
                   width={265}
                   height={174}
                 />

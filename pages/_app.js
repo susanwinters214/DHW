@@ -14,7 +14,7 @@ import { useRouter } from "next/router";
 
 function MyApp({ Component, pageProps }) {
 
-  const router = useRouter()
+ /* const router = useRouter()
 
   useEffect(() => {
     const handleRouteChange = (url) => {
@@ -30,7 +30,7 @@ function MyApp({ Component, pageProps }) {
       router.events.off("routeChangeComplete", handleRouteChange);
     };
   }, [router.events]);
-
+*/
 
 
 
