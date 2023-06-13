@@ -84,21 +84,27 @@ function SitemapPage(props) {
                     </Link>
                   </h4>
                   <h4>
-                    <Link href="/concierge-services">
-                      Concierge Services Dallas
-                    </Link>
-                  </h4>
-                  <h4>
                     <Link href="/keyholder-services">Key Holder Services</Link>
-                  </h4>
-                  <h4>
-                    <Link href="/vehicle-care">Vehicle Care</Link>
                   </h4>
                   <hr />
                   <h3>News</h3>
                   <h4>
                     <Link href="/national-homewatch-month">
                       National Home Watch Month
+                    </Link>
+                  </h4>{" "}
+                  <h4>
+                    <Link href="/news/dallas-home-watch-receives-accreditation">
+                      Dallas Home Watch receives Accreditation from NHWA
+                    </Link>
+                  </h4>
+               
+                  <h4>
+                    <Link href="/vehicle-care">Dallas Vehicle Care</Link>
+                  </h4>
+                  <h4>
+                    <Link href="/concierge-services">
+                      Dallas Concierge Services
                     </Link>
                   </h4>
                   <hr />
@@ -120,7 +126,17 @@ function SitemapPage(props) {
                   </h4>
                   <h4>
                     <Link href="/blog/how-to-customize-your-apple-watch-background">
-                      Create Your Own Home Watch
+                      Create Your Own Home Watch Background
+                    </Link>
+                  </h4>
+                  <h4>
+                    <Link href="/blog/benefits-of-hiring-keyholder-service">
+                      Benefits Of Hiring A Key Holder Service
+                    </Link>
+                  </h4>
+                  <h4>
+                    <Link href="/blog/tree-damage-after-storms">
+                      Tree Damage After Storms In Texas
                     </Link>
                   </h4>
                   <h4>
@@ -137,11 +153,28 @@ function SitemapPage(props) {
                       Garage Door Openers
                     </Link>
                   </h4>
-                  <hr />
                   <h4>
-                    {" "}
-                    <Link href="/service-areas">Service Areas</Link>{" "}
+                    <Link href="/blog/gate-operator-repair">Gate Repair</Link>
                   </h4>
+                  <hr />
+                  <h3>Our Home Watch Service Area</h3>
+                  <h4>
+                    <Link href="/service-areas">
+                      Neighborhood Service Areas
+                    </Link>{" "}
+                  </h4>
+                  <h4>
+                    <Link href="/home-watch-highland-park-texas">
+                      Highland Park Home Watch Services
+                    </Link>{" "}
+                  </h4>
+                  <h4>
+                    <Link href="/home-watch-university-park-texas">
+                      University Park Home Watch Services
+                    </Link>{" "}
+                  </h4>
+                  <hr />
+                  <h3>Extra</h3>
                   <h4>
                     <Link href="/faqs">Frequently Asked Questions</Link>
                   </h4>
