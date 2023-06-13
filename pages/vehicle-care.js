@@ -100,7 +100,9 @@ function VehicleCarePage(props) {
         <div className="auto-container">
           <div className="inner-container">
             <div className="lower-content ">
-              <h2 className="pageTitle">Stored Car Care</h2>
+              <h2 className="pageTitle">
+                DALLAS VEHICLE SERVICES FOR HOME WATCH CLIENTS
+              </h2>
               {/* Content Column */}
               <div className="content-column col-lg-12 col-md-12 col-sm-12">
                 <div className="inner-column">

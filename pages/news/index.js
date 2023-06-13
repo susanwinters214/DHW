@@ -79,15 +79,27 @@ function NewsPage(props) {
               <div className="inner-box">
                 <section id="contentBlock">
                   <h2 className="pageTitle">Dallas Home Watch News</h2>
+
+                  <p>
+                    <strong>May 2023</strong> - Dallas Home Watch adds Concierge
+                    Services for existing clients <strong>Read:</strong>{" "}
+                    <Link href="/concierge-services">Concierge Services</Link>
+                  </p>
+                  <p>
+                    <strong>April 2023</strong> - Dallas Home Watch adds Vehicle
+                    Care Services for existing clients <strong>Read:</strong>&nbsp;
+                    <Link href="/vehicle-care">Vehicle Care Services </Link>
+                  </p>
                   <p>
                     <strong>March 2023</strong> - NHWA announces 1st annual{" "}
+                   
                     <Link href="/national-homewatch-month">
                       National Home Watch Month{" "}
                     </Link>
                   </p>
                   <p>
                     <strong>February 2023</strong> - Dallas Home Watch of
-                    Dallas, TX, earns{" "}
+                    Dallas, TX, earns&nbsp; 
                     <Link href="/news/dallas-home-watch-receives-accreditation">
                       accreditation from the NHWA!{" "}
                     </Link>
