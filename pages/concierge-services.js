@@ -9,9 +9,10 @@ function ConciergePage(props) {
     <Fragment>
       <Head>
         <title>Personal Conceirge Services by DALLAS HOME WATCH</title>
-        <link
+        <Link
           rel="canonical"
           href="https://www.dallashomewatch.com/concierge-services"
+          aria-label="go to Concierge page"
         />
         <meta name="keywords" content="dallas concierge services" />
         <meta
@@ -81,7 +82,9 @@ function ConciergePage(props) {
           <h1>Concierge Services</h1>
           <ul className="page-breadcrumb">
             <li>
-              <Link href="/">home</Link>
+              <Link href="/" aria-label="go to Home page">
+                home
+              </Link>
             </li>
             <li>Concierge Services</li>
           </ul>
@@ -114,6 +117,7 @@ function ConciergePage(props) {
                     Dallas.
                   </p>
                   <Link
+                    aria-label="click to call"
                     href="tel:972-982-7050"
                     className="theme-btn btn-style-two"
                   >
@@ -298,6 +302,7 @@ function ConciergePage(props) {
                 <br />
 
                 <Link
+                  aria-label="call us"
                   href="tel:972-982-7050"
                   className="theme-btn btn-style-two"
                 >

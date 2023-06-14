@@ -9,7 +9,8 @@ function WhereToFindPage() {
       <Head>
         <title>Where To Find Dallas Home Watch</title>
         <meta name="robots" content="noindex, nofollow" />
-        <link
+        <Link
+          aria-label="go to this page"
           rel="canonical"
           href="https://www.dallashomewatch.com/where-to-find-dallas-home-watch"
         />

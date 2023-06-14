@@ -8,7 +8,7 @@ function Logo() {
     <Fragment>
       <div className="pull-left logo-box">
         <div className="logo">
-          <Link href="/">
+          <Link href="/" aria-label="go to Home page">
             <Image
               src="/images/Dallas-Home-Watch-Logo.png"
               alt="Dallas Home Watch"
@@ -21,6 +21,7 @@ function Logo() {
             style={{
               float: "right",
               marginTop: 8,
+              marginRight: 75,
               paddingLeft: 5,
               color: "white",
               fontSize: "1.7em",
@@ -29,14 +30,14 @@ function Logo() {
             }}
           >
             Dallas Home Watch <br />
-            <span className="tiny10">
-              Service Area: Dallas - (Highland Park, University Park, Lake
-              Forest, and Northwood Hills).
-            </span>
           </div>
-
-          <br />
         </div>
+        <span className="tiny10">
+          Service Area: Dallas - (Highland Park, University Park, Lake Forest,
+          and Northwood Hills).
+        </span>
+        <br />
+        <br />
       </div>
     </Fragment>
   );

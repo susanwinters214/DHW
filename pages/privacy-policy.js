@@ -7,7 +7,8 @@ function PrivacyPage() {
     <Fragment>
       <Head>
         <title>Privacy Policy for Dallas Home Watch</title>
-        <link
+        <Link
+          aria-label="go to this page"
           rel="canonical"
           href="https://www.dallashomewatch.com/privacy-policy"
         />

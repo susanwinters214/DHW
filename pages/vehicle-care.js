@@ -11,7 +11,8 @@ function VehicleCarePage(props) {
         <title>
           Vehicle Care for Luxury Vehicles in Storage - Dallas Home Watch
         </title>
-        <link
+        <Link
+          aria-label="go to this page"
           rel="canonical"
           href="https://www.dallashomewatch.com/vehicle-care"
         />

@@ -8,7 +8,11 @@ function BlogPage(props) {
     <Fragment>
       <Head>
         <title>Home Watch Blog Articles</title>
-
+        <Link
+          aria-label="go to this page"
+          rel="canonical"
+          href="https://www.dallashomewatch.com/blog/"
+        ></Link>
         <meta
           name="description"
           content="Home Watch Blog Articles - Read interesting blogs about the various things that happen in the Home Watch industry including things that go wrong with a house."

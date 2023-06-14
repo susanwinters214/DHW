@@ -10,9 +10,10 @@ function AccreditationPage(props) {
       <Head>
         <title>Accredited Member of NHWA - Dallas Home Watch</title>
         <meta name="keywords" content="home watch accreditation" />
-        <link
+        <Link
           rel="canonical"
           href="https://www.dallashomewatch.com/accreditation"
+          aria-label="go to Accreditation page"
         />
         <meta
           name="description"
@@ -78,7 +79,9 @@ function AccreditationPage(props) {
           <h1>Accreditation</h1>
           <ul className="page-breadcrumb">
             <li>
-              <Link href="/">home</Link>
+              <Link href="/" aria-label="go to Home page">
+                home
+              </Link>
             </li>
             <li>NHWA Accredited Member</li>
           </ul>

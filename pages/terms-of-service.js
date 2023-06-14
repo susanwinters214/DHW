@@ -7,7 +7,8 @@ function TermsPage() {
     <Fragment>
       <Head>
         <title>Terms of Service for Dallas Home Watch</title>
-        <link
+        <Link
+          aria-label="go to this page"
           rel="canonical"
           href="https://www.dallashomewatch.com/terms-of-service"
         />

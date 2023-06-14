@@ -140,7 +140,7 @@
       .find(".dropdown")
       .children("a")
       .append(function () {
-        return '<button type="button" class="btn expander"><i class="icon fa fa-angle-right"></i></button>';
+        return '<button type="button"  title="nav" class="btn expander"><i class="icon fa fa-angle-right"></i></button>';
       });
     // hidding submenu
     menuWrap.find(".dropdown").children("ul").hide();

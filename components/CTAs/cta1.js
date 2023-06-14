@@ -8,7 +8,9 @@ function CTA1() {
       <div className={classes.autocontainer}>
         <div className={classes.innercontainer}>
           <div className={classes.image}>
-            <Image width={200 } height={ 200}
+            <Image
+              width={200}
+              height={200}
               src="images/shaking-hands-in-front-of-house.jpg"
               alt="shaking hands in front of house"
             />
@@ -18,6 +20,7 @@ function CTA1() {
               Speak With Our <br /> Experts Today!
             </h2>
             <Link
+              aria-label="go to Contact page"
               href="/contact"
               className={(classes.themebtn, classes.btnstyletwo)}
             >
@@ -27,7 +30,12 @@ function CTA1() {
             </Link>
           </div>
           <div className={classes.hammerimage}>
-            <Image src="images/house-keys.png" alt="house keys" height={100} width={ 100} />
+            <Image
+              src="images/house-keys.png"
+              alt="house keys"
+              height={100}
+              width={100}
+            />
           </div>
         </div>
       </div>

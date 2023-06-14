@@ -9,7 +9,8 @@ function StreetsOfDallasPage(props) {
     <Fragment>
       <Head>
         <title>Streets of Dallas - DALLAS HOME WATCH</title>
-        <link
+        <Link
+          aria-label="go to this page"
           rel="canonical"
           href="https://www.dallashomewatch.com/blog/streets-of-dallas"
         />

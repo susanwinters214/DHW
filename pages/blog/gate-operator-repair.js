@@ -10,7 +10,8 @@ function GateOperatorPage(props) {
       <Head>
         <title>Gate Operator Repair - DALLAS HOME WATCH</title>
 
-        <link
+        <Link
+          aria-label="go to this page"
           rel="canonical"
           href="https://www.dallashomewatch.com/blog/gate-operator-repair"
         />

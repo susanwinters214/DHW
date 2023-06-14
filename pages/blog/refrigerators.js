@@ -9,7 +9,8 @@ function RefrigeratorsPage(props) {
     <Fragment>
       <Head>
         <title>Is Your Refrigerator Running?</title>
-        <link
+        <Link
+          aria-label="go to this page"
           rel="canonical"
           href="https://www.dallashomewatch.com/blog/refrigerators"
         />

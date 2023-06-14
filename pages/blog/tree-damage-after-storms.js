@@ -10,7 +10,8 @@ function GateOperatorPage(props) {
       <Head>
         <title>Tree Damage After Storms in Texas - DALLAS HOME WATCH</title>
 
-        <link
+        <Link
+          aria-label="go to this page"
           rel="canonical"
           href="https://www.dallashomewatch.com/blog/tree-damage-after-storms"
         />

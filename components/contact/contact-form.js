@@ -92,7 +92,9 @@ function ContactForm() {
       <form className={classes.form} onSubmit={sendMessageHandler}>
         <div className={classes.controls}>
           <div className={classes.control}>
-            <label htmlFor="email">Your Email</label>
+            <label htmlFor="email" id="enterEmail">
+              Your Email
+            </label>
             <input
               type="email"
               id="email"
@@ -102,7 +104,9 @@ function ContactForm() {
             />
           </div>
           <div className={classes.control}>
-            <label htmlFor="name">Your Name</label>
+            <label htmlFor="name" title="enterName">
+              Your Name
+            </label>
             <input
               type="text"
               id="name"
@@ -113,7 +117,9 @@ function ContactForm() {
           </div>
         </div>
         <div className={classes.control}>
-          <label htmlFor="message">Your Message</label>
+          <label htmlFor="message" title="enterMessge">
+            Your Message
+          </label>
           <textarea
             id="message"
             rows="5"
@@ -124,7 +130,9 @@ function ContactForm() {
         </div>
 
         <div className={classes.actions}>
-          <button className="btn-style-one">Send Message</button>
+          <button title="Send Message" className="btn-style-one">
+            Send Message
+          </button>
         </div>
       </form>
       {notification && (

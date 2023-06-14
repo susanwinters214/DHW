@@ -8,7 +8,7 @@ import Layout from "../components/layout/layout";
 import Script from "next/script";
 import { useEffect } from "react";
 import { useRouter } from "next/router";
-
+import Link from "next/link";
 
 
 
@@ -44,11 +44,12 @@ function MyApp({ Component, pageProps }) {
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="author" content="Susan Winters" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link
+        <Link
+          aria-label="favicon for website"
           rel="icon"
           href="https://www.dallashomewatch.com/images/favicon.ico"
           type="image/x-icon"
-        ></link>
+        ></Link>
         {/* meta tag for pinterest */}
         <meta
           name="p:domain_verify"

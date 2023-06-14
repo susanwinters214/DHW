@@ -9,7 +9,8 @@ function HomeWatchServicesPage(props) {
     <Fragment>
       <Head>
         <title>Home Watch Services by Dallas Home Watch LLC.</title>
-        <link
+        <Link
+          aria-label="go to this page"
           rel="canonical"
           href="https://www.dallashomewatch.com/home-watch-services"
         />
