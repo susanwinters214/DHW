@@ -9,7 +9,7 @@ function WhyYouNeedHomewatchPage(props) {
     <Fragment>
       <Head>
         <title>
-          What To Look For In A Home Watch Company | Choosing the Right Partner
+          What To Look For In A Home Watch Company | Dallas Home Watch
         </title>
         <Link
           aria-label="go to this page"
