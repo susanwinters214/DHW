@@ -221,7 +221,7 @@ function WhyYouNeedHomewatchPage(props) {
                       Choosing the right Home Watch Company can give you peace
                       of mind knowing that your property is always in good
                       hands. By considering these factors and doing your due
-                      diligence, you can find a certified, licensed and
+                      diligence, you can find a certified, licensed, and
                       accredited Home Watch Professional.
                       <br />
                     </p>

@@ -28,9 +28,11 @@ function Logo() {
               fontFamily: '"Segoe UI", Tahoma, Geneva, Verdana, sans-serif',
             }}
           >
-            Dallas Home Watch
-            <br />
-          
+            Dallas Home Watch <br />
+            <span className="tiny">
+              Service Area: Dallas - (Highland Park, University Park, Lake
+              Forest, and Northwood Hills).
+            </span>
           </div>
 
           <br />

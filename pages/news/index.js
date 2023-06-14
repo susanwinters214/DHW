@@ -80,6 +80,12 @@ function NewsPage(props) {
                 <section id="contentBlock">
                   <h2 className="pageTitle">Dallas Home Watch News</h2>
 
+                
+                  <p>
+                    <strong>June 2023</strong> - Dallas Home Watch adds Key
+                    Holder Services for existing clients <strong>Read:</strong>{" "}
+                    <Link href="/keyholder-services">Key Holder Services</Link>
+                  </p>
                   <p>
                     <strong>May 2023</strong> - Dallas Home Watch adds Concierge
                     Services for existing clients <strong>Read:</strong>{" "}
@@ -87,19 +93,19 @@ function NewsPage(props) {
                   </p>
                   <p>
                     <strong>April 2023</strong> - Dallas Home Watch adds Vehicle
-                    Care Services for existing clients <strong>Read:</strong>&nbsp;
+                    Care Services for existing clients <strong>Read:</strong>
+                    &nbsp;
                     <Link href="/vehicle-care">Vehicle Care Services </Link>
                   </p>
                   <p>
                     <strong>March 2023</strong> - NHWA announces 1st annual{" "}
-                   
                     <Link href="/national-homewatch-month">
                       National Home Watch Month{" "}
                     </Link>
                   </p>
                   <p>
                     <strong>February 2023</strong> - Dallas Home Watch of
-                    Dallas, TX, earns&nbsp; 
+                    Dallas, TX, earns&nbsp;
                     <Link href="/news/dallas-home-watch-receives-accreditation">
                       accreditation from the NHWA!{" "}
                     </Link>

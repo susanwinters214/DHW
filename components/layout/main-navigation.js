@@ -44,9 +44,7 @@ function MainNavigation() {
                   <li>
                     <Link href="/home-watch-services">Home Watch Services</Link>
                   </li>
-                  <li>
-                    <Link href="/keyholder-services">Key Holder Services</Link>
-                  </li>
+                
 
                   <li>
                     <Link href="/blog">Blog</Link>

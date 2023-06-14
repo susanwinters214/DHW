@@ -87,28 +87,17 @@ function HomePage(props) {
                 </h1>
                 <h2 className="h2homepage">Home Watch Services in Dallas </h2>
 
-                <div className="row clearfix">
-                  <div className="services-block col-lg-12 col-md-12 col-sm-12">
-                    <div className="bannerbox btns-box centered">
-                      <Link
-                        href="/blog/tree-damage-after-storms"
-                        className="theme-btn btn-style-two"
-                      >
-                        <span className="txt">
-                          Texas Tornado & Storm Season
-                        </span>
-                        <br />
-                        <Image
-                          src="/images/tornado-season.jpg"
-                          width={350}
-                          height={269}
-                          alt="tornado damaging trees"
-                        />
-                      </Link>
-                    </div>
-                  </div>
-                </div>
                 <br />
+                <div className="btns-box centered">
+                  <a
+                    href="home-watch-services"
+                    className="theme-btn btn-style-two"
+                  >
+                    <span className="txt">
+                      Home Watch Services <i className="arrow flaticon-right" />
+                    </span>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -131,12 +120,12 @@ function HomePage(props) {
                 <div className="inner-column ">
                   {/* Sec Title */}
                   <div className="text">
-                    <h2>Home Watch in Dallas</h2>
+                    <h2>What is Home Watch?</h2>
                     <p>
                       <strong>
                         {" "}
-                        Home Watch is a visual inspection of a home or
-                        property, looking for obvious issues.
+                        Home Watch is a visual inspection of a home or property,
+                        looking for obvious issues.
                       </strong>{" "}
                       Home Watch Services are scheduled inspections of
                       unoccupied or vacant properties while the owner is away
@@ -192,14 +181,24 @@ function HomePage(props) {
               <div className="image-column col-lg-6 col-md-12 col-sm-12">
                 <div className="inner-column">
                   <div className="image title" data-tilt="" data-tilt-max={2}>
+                    <br /> <br />
+                    <div className="frontpagetinylogobox">
+                      <Image
+                        width={300}
+                        height={100}
+                        src="/images/logos/dallas-home-watch-logo-300x100.jpg"
+                        alt="dallas Home Watch logo"
+                      />
+                    </div>
                     <br />
-                    <Image
-                      width={300}
-                      height={200}
-                      src="/images/logos/dallas-home-watch-logo-585x300.jpg"
-                      alt="dallas Home Watch logo"
-                    />
-                    <br />
+                    Dallas Home Watch LLC is the only{" "}
+                    <Link
+                      href="https://www.nationalhomewatchassociation.org/texas-home-watch-companies/"
+                      target="_blank"
+                    >
+                      Accredited Home Watch Company in Dallas, Texas
+                    </Link>
+                    .
                     <Image
                       width={585}
                       height={725}
@@ -217,10 +216,29 @@ function HomePage(props) {
                     </span>
                   </div>
                 </div>
+                <br />
 
-                <br />
-                <br />
-                <div className="btns-box centered">
+                <div className="certifiedHWP">
+                  Tina Lawson is a{" "}
+                  <Link
+                    href="https://www.nationalhomewatchassociation.org/chwp-list/"
+                    target="_blank"
+                  >
+                    Certified Home Watch Professional
+                  </Link>
+                  .
+                  <br />
+                  <Image
+                    src="/images/logos/home-watch-professional-nhwa-certified.jpg"
+                    alt="designer column"
+                    height={170}
+                    width={170}
+                    className="icon"
+                    id="nhwa_circle"
+                  />
+                  <br />
+                  #05220241 <br />
+                  <br />
                   <a
                     href="home-watch-services"
                     className="theme-btn btn-style-three"
@@ -230,6 +248,10 @@ function HomePage(props) {
                     </span>
                   </a>
                 </div>
+
+                <br />
+
+                <br />
               </div>
             </div>
           </div>
