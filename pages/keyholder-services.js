@@ -9,8 +9,7 @@ function KeyHolderPage(props) {
     <Fragment>
       <Head>
         <title>Key Holder Services | DALLAS HOME WATCH</title>
-        <Link
-          aria-label="go to this page"
+        <link
           rel="canonical"
           href="https://www.dallashomewatch.com/keyholder-services"
         />
@@ -19,7 +18,7 @@ function KeyHolderPage(props) {
           name="description"
           content="Key Holder Services holds the keys to your home to allow access to contractors and vendors to come into the home to perform a service."
         />
-
+ 
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />

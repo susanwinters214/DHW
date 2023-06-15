@@ -8,11 +8,7 @@ function NewsPage(props) {
     <Fragment>
       <Head>
         <title>Dallas Home Watch News | Home Watch News in Dallas</title>
-        <Link
-          rel="canonical"
-          href="https://www.dallashomewatch.com/news"
-          aria-label="go to this News page"
-        />
+        <link rel="canonical" href="https://www.dallashomewatch.com/news" />
         <meta
           name="description"
           content="Dallas Home Watch News from social media sites and press releases. Dallas Home Watch is a member of the NHWA and shares industry news about Home Watch."
@@ -69,9 +65,7 @@ function NewsPage(props) {
           <h1>Home Watch News</h1>
           <ul className="page-breadcrumb">
             <li>
-              <Link href="/" aria-label="go to Home page">
-                home
-              </Link>
+              <Link href="/">home</Link>
             </li>
             <li>News</li>
           </ul>
@@ -86,50 +80,33 @@ function NewsPage(props) {
                 <section id="contentBlock">
                   <h2 className="pageTitle">Dallas Home Watch News</h2>
 
+                
                   <p>
                     <strong>June 2023</strong> - Dallas Home Watch adds Key
                     Holder Services for existing clients <strong>Read:</strong>{" "}
-                    <Link
-                      href="/keyholder-services"
-                      aria-label="go to Key Holder Services page"
-                    >
-                      Key Holder Services
-                    </Link>
+                    <Link href="/keyholder-services">Key Holder Services</Link>
                   </p>
                   <p>
                     <strong>May 2023</strong> - Dallas Home Watch adds Concierge
                     Services for existing clients <strong>Read:</strong>{" "}
-                    <Link
-                      href="/concierge-services"
-                      aria-label="go to the Concierge services page"
-                    >
-                      Concierge Services
-                    </Link>
+                    <Link href="/concierge-services">Concierge Services</Link>
                   </p>
                   <p>
                     <strong>April 2023</strong> - Dallas Home Watch adds Vehicle
                     Care Services for existing clients <strong>Read:</strong>
                     &nbsp;
-                    <Link href="/vehicle-care" aria-label="go to Car Care page">
-                      Vehicle Care Services{" "}
-                    </Link>
+                    <Link href="/vehicle-care">Vehicle Care Services </Link>
                   </p>
                   <p>
                     <strong>March 2023</strong> - NHWA announces 1st annual{" "}
-                    <Link
-                      href="/national-homewatch-month"
-                      aria-label="go to NHWA website"
-                    >
+                    <Link href="/national-homewatch-month">
                       National Home Watch Month{" "}
                     </Link>
                   </p>
                   <p>
                     <strong>February 2023</strong> - Dallas Home Watch of
                     Dallas, TX, earns&nbsp;
-                    <Link
-                      href="/news/dallas-home-watch-receives-accreditation"
-                      aria-label="go to DHW receives accreditation page"
-                    >
+                    <Link href="/news/dallas-home-watch-receives-accreditation">
                       accreditation from the NHWA!{" "}
                     </Link>
                   </p>

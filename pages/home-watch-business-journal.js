@@ -9,11 +9,10 @@ function HomeWatchBusinessJournalPage(props) {
     <Fragment>
       <Head>
         <title>Home Watch Business Journal</title>
-        <Link
-          aria-label="go to this page"
+        <link
           rel="canonical"
           href="https://www.dallashomewatch.com/home-watch-business-journal"
-        ></Link>
+        ></link>
         <meta
           name="description"
           content="The Home Watch Business Journal (SOLD ON AMAZON) was created for owners of a Home Watch Business. The journal gives you a place for your handwritten notes about your Home Watch company."

@@ -9,11 +9,10 @@ function WhyYouNeedHomewatchPage(props) {
     <Fragment>
       <Head>
         <title>Why You Need Home Watch</title>
-        <Link
-          aria-label="go to this page"
+        <link
           rel="canonical"
           href="https://www.dallashomewatch.com/blog/why-you-need-homewatch"
-        ></Link>
+        ></link>
         <meta
           name="description"
           content="Do you know why you need home watch? Home Watch Companies watch over your unoccupied home to protect your assets while you are away and help mitigate risks to your property."

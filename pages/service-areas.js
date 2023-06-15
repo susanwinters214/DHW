@@ -9,8 +9,7 @@ function ServiceAreaPage(props) {
     <Fragment>
       <Head>
         <title>Home Watch Services in Dallas Area</title>
-        <Link
-          aria-label="go to this page"
+        <link
           rel="canonical"
           href="https://www.dallashomewatch.com/service-areas"
         />
@@ -23,7 +22,7 @@ function ServiceAreaPage(props) {
           content="Home Watch Services in Dallas Area include Highland Park, University Park, Preston Hollow, Lake Forest, Bluffview, 
           Northwood Hills and downtown Dallas."
         />
-
+    
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />

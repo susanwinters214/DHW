@@ -570,8 +570,4 @@ h4 {
 .frontpagetinylogobox{width:50%; margin-left:25%; text-align:center}
 .certifiedHWP{width:100%; text-align:center}
 
-.tiny10{font-size:9px; line-height: 5px;}
-
-
-/* For accessibility */
-a:link {text-decoration: underline;}
+.tiny10{font-size:10px}

@@ -11,9 +11,9 @@ function AirFiltersPage(props) {
     <Fragment>
       <Head>
         <title>Changing Dirty Air Filters</title>
+ 
 
-        <Link
-          aria-label="go to this page"
+        <link
           rel="canonical"
           href="https://www.dallashomewatch.com/blog/air-filters"
         />

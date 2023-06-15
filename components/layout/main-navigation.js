@@ -22,7 +22,6 @@ function MainNavigation() {
               <div className="navbar-header">
                 {/* Toggle Button */}
                 <button
-                  title="navigation"
                   className="navbar-toggler"
                   type="button"
                   data-toggle="collapse"
@@ -43,18 +42,12 @@ function MainNavigation() {
               >
                 <ul className="navigation clearfix">
                   <li>
-                    <Link
-                      href="/home-watch-services"
-                      aria-label="go to Home Services page"
-                    >
-                      Home Watch Services
-                    </Link>
+                    <Link href="/home-watch-services">Home Watch Services</Link>
                   </li>
+                
 
                   <li>
-                    <Link href="/blog" aria-label="go to Blog landing page">
-                      Blog
-                    </Link>
+                    <Link href="/blog">Blog</Link>
                   </li>
                 </ul>
               </div>
@@ -99,7 +92,6 @@ function MainNavigation() {
               {/* Btn Box */}
               <div className="btn-box">
                 <Link
-                  aria-label="click to call this phone number"
                   href="tel:972-982-7050"
                   className="theme-btn btn-style-two"
                 >
@@ -126,7 +118,7 @@ function MainNavigation() {
 
         <nav className="menu-box">
           <div className="nav-logo">
-            <Link href="/" aria-label="go to Home page">
+            <Link href="/">
               <Image
                 src="/images/Dallas-Home-Watch-Logo.png"
                 alt="Dallas Home Watch logo"

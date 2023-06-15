@@ -9,8 +9,7 @@ function HomeWatchChecklistPage(props) {
     <Fragment>
       <Head>
         <title>Home Watch Checklist for Homewatch Companies</title>
-        <Link
-          aria-label="go to this page"
+        <link
           rel="canonical"
           href="https://www.dallashomewatch.com/homewatch-checklist"
         />
@@ -30,7 +29,7 @@ function HomeWatchChecklistPage(props) {
           property="article:publisher"
           content="https://www.facebook.com/profile.php?id=100092566267916"
         ></meta>
-
+      
         <meta
           property="og:url"
           content="https://www.dallashomewatch.com/homewatch-checklist"

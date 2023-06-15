@@ -9,8 +9,7 @@ function DHWreceivesAccredPage(props) {
     <Fragment>
       <Head>
         <title>Dallas Home Watch receives accreditation from NHWA</title>
-        <Link
-          aria-label="go to this page"
+        <link
           rel="canonical"
           href="https://www.dallashomewatch.com/news/dallas-home-watch-receives-accreditation"
         />

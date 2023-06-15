@@ -18,11 +18,7 @@ function HomePage(props) {
           content="Dallas Home Watch is a local, woman owned business that provides visual inspections both inside and outside of a home or property looking for obvious issues."
         />
 
-        <Link
-          rel="canonical"
-          href="https://www.dallashomewatch.com"
-          aria-label="go to this page"
-        ></Link>
+        <link rel="canonical" href="https://www.dallashomewatch.com"></link>
 
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
@@ -294,11 +290,7 @@ function HomePage(props) {
                 height="400"
                 poster="/images/large-modern-home-765.jpg"
               >
-                <source
-                  src="https://youtu.be/feTvuoxzt4c"
-                  type="video/mp4"
-                  title="What is Home Watch?"
-                />
+                <source src="https://youtu.be/feTvuoxzt4c" type="video/mp4" />
               </video>
             </Link>
             <br />

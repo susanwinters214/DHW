@@ -9,8 +9,7 @@ function AirFiltersPage(props) {
     <Fragment>
       <Head>
         <title>Benefits of Hiring a Key Holder Service</title>
-        <Link
-          aria-label="go to this page"
+        <link
           rel="canonical"
           href="https://www.dallashomewatch.com/blog/benefits-of-hiring-keyholder-service"
         />

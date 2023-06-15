@@ -9,11 +9,7 @@ function AboutPage() {
     <Fragment>
       <Head>
         <title>About Dallas Home Watch</title>
-        <Link
-          rel="canonical"
-          href="https://www.dallashomewatch.com/about"
-          aria-label="go to this page"
-        />
+        <link rel="canonical" href="https://www.dallashomewatch.com/about" />
         <meta name="keywords" content="about dallas home watch, Tina Lawson" />
         <meta
           name="description"
@@ -79,9 +75,7 @@ function AboutPage() {
           <h1>About Dallas Home Watch</h1>
           <ul className="page-breadcrumb">
             <li>
-              <Link href="/" aria-label="go to Home page">
-                home
-              </Link>
+              <Link href="/">home</Link>
             </li>
             <li>About</li>
           </ul>
@@ -160,18 +154,12 @@ function AboutPage() {
                     <br />
                     Read article from D Magazine when Lawson was a House
                     Manager:{" "}
-                    <Link
-                      href="https://www.dmagazine.com/publications/d-home/2006/september-october/house-managers-and-realtor-news/"
-                      aria-label="go to external website D Magazine"
-                    >
+                    <Link href="https://www.dmagazine.com/publications/d-home/2006/september-october/house-managers-and-realtor-news/">
                       Dallas Home Watch
                     </Link>
                     <br />
                     Tina Lawson (DHW) receives{" "}
-                    <Link
-                      href="https://www.dallashomewatch.com/news/dallas-home-watch-receives-accreditation"
-                      aria-label="go to News article page"
-                    >
+                    <Link href="https://www.dallashomewatch.com/news/dallas-home-watch-receives-accreditation">
                       accreditation from the NHWA.
                     </Link>
                   </div>
@@ -194,18 +182,12 @@ function AboutPage() {
                       />
                       <br />
                       Photo of{" "}
-                      <Link
-                        href="https://www.linkedin.com/in/tina-lawson-a57252254/"
-                        aria-label="go to Linkedin page for Tina Lawson"
-                      >
+                      <Link href="https://www.linkedin.com/in/tina-lawson-a57252254/">
                         Tina Lawson
                       </Link>
                       <br />
                       Owner of&nbsp;
-                      <Link
-                        href="https://www.linkedin.com/company/dallas-home-watch"
-                        aria-label="go to Linkedin page for Dallas Home Watch"
-                      >
+                      <Link href="https://www.linkedin.com/company/dallas-home-watch">
                         Dallas Home Watch
                       </Link>
                       <br />
@@ -234,10 +216,7 @@ function AboutPage() {
                   </p>
 
                   <h4>Dallas Home Watch on Facebook</h4>
-                  <Link
-                    href="https://www.facebook.com/dallashomewatchllc"
-                    aria-label="go to Facebook page for Tina Lawson"
-                  >
+                  <Link href="https://www.facebook.com/dallashomewatch">
                     Like & Follow
                   </Link>
                 </div>

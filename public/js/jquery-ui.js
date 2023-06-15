@@ -6817,7 +6817,7 @@ var widgetsCheckboxradio = $.ui.checkboxradio;
 
 $.widget( "ui.button", {
 	version: "1.12.1",
-	defaultElement: "<button title='button'>",
+	defaultElement: "<button>",
 	options: {
 		classes: {
 			"ui-button": "ui-corner-all"

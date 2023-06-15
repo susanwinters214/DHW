@@ -16,13 +16,13 @@ function DemoPage(props) {
       </Head>
       {/* insert top banner with Page Title & Breadcrumb*/}
       <section className="page-title">
+      
+      
         <div className="auto-container">
           <h1>Home Watch Demo</h1>
           <ul className="page-breadcrumb">
             <li>
-              <Link href="/" aria-label="go to Home page">
-                home
-              </Link>
+              <Link href="/">home</Link>
             </li>
             <li>demo</li>
           </ul>
@@ -36,12 +36,13 @@ function DemoPage(props) {
               <h2 className="pageTitle">this is a demo page</h2>
               <br />
               <h3>Page used for testing purposes only</h3>
-              <p>&nbsp;</p>
-
+              <p>
+           &nbsp;
+              </p>
+             
               <p>
                 Yes, you can find the Facebook page of Dallas Home Watch here:{" "}
                 <Link
-                  aria-label="go to Facebook page"
                   href="https://www.facebook.com/profile.php?id=100092566267916"
                   target="_blank"
                 >

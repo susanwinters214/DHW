@@ -9,8 +9,7 @@ function SAuniversityparkPage(props) {
     <Fragment>
       <Head>
         <title>Home Watch University Park</title>
-        <Link
-          aria-label="go to this page"
+        <link
           rel="canonical"
           href="https://www.dallashomewatch.com/home-watch-university-park-texas"
         />

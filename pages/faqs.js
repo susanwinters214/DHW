@@ -11,17 +11,14 @@ function FAQsPage(props) {
         <title>
           Home Watch FAQs - Dallas Home Watch Frequently Asked Questions?
         </title>
+     
 
         <meta name="keywords" content="home watch questions, homewatch faqs" />
         <meta
           name="description"
           content="Home Watch FAQs - Dallas Home Watch Frequently Asked Questions. Get answers to frequently asked questions about Home Watch and the services we provide."
         />
-        <Link
-          rel="canonical"
-          href="https://www.dallashomewatch.com/faqs"
-          aria-label="go to FAQ page"
-        />
+        <link rel="canonical" href="https://www.dallashomewatch.com/faqs" />
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
@@ -85,9 +82,7 @@ function FAQsPage(props) {
           <h1>Home Watch FAQs</h1>
           <ul className="page-breadcrumb">
             <li>
-              <Link href="/" aria-label="go to our Home page">
-                home
-              </Link>
+              <Link href="/">home</Link>
             </li>
             <li>FAQs</li>
           </ul>
@@ -111,7 +106,6 @@ function FAQsPage(props) {
               <p>
                 Yes, you can find the Facebook page of Dallas Home Watch here:{" "}
                 <Link
-                  aria-label="go to Dalls Home Watch LLC Facebook page"
                   href="https://www.facebook.com/profile.php?id=100092566267916"
                   target="_blank"
                 >
@@ -125,11 +119,7 @@ function FAQsPage(props) {
                 issues.” Watch our video to see photos of what can happen when
                 you don't hire a Home Watch company to keep an eye on your
                 unoccupied home.{" "}
-                <Link
-                  href="https://youtu.be/feTvuoxzt4c"
-                  target="_blank"
-                  aria-label="go to our YouTube channel"
-                >
+                <Link href="https://youtu.be/feTvuoxzt4c" target="_blank">
                   Video: What is Home Watch?
                 </Link>
               </p>
@@ -149,10 +139,7 @@ function FAQsPage(props) {
                 Watch" listed as a business category, but until then, you might
                 find that Home Watch companies are categorized as a House
                 Sitter.{" "}
-                <Link
-                  href="/national-homewatch-month"
-                  aria-label="go to National Home Watch Month page"
-                >
+                <Link href="/national-homewatch-month">
                   Learn more about what Home Watch is
                 </Link>
                 .
@@ -172,10 +159,7 @@ function FAQsPage(props) {
                 The NHWA is working to get "Home Watch" listed as a business
                 category, but until then, you might find that Home Watch
                 companies are categorized as a House Inspector.{" "}
-                <Link
-                  href="/national-homewatch-month"
-                  aria-label="go to National HomeWatch page"
-                >
+                <Link href="/national-homewatch-month">
                   Learn more about what Home Watch is
                 </Link>
               </p>
@@ -184,20 +168,14 @@ function FAQsPage(props) {
                 You hire Home Watch Services when you plan to leave your home
                 unoccupied for two weeks or longer and need someone to check on
                 your home to make sure things are running smoothly.{" "}
-                <Link
-                  href="/blog/why-you-need-homewatch"
-                  aria-label="go to Why Hire A Home Watch Service page"
-                >
+                <Link href="/blog/why-you-need-homewatch">
                   Learn more why you hire a home watch service
                 </Link>
               </p>
               <h3 className="pt-25">What Does A Home Watch Service Do?</h3>
               <p>
                 A Home Watch Service includes an inspection of your property.{" "}
-                <Link
-                  href="/home-watch-services/#WhatDoesHWSdo"
-                  aria-label="go to What Does Home Watch Service pictures"
-                >
+                <Link href="/home-watch-services/#WhatDoesHWSdo">
                   See Photos Taken During A Home Watch Inspection
                 </Link>
               </p>
@@ -210,13 +188,7 @@ function FAQsPage(props) {
                 will get all the necessary information about your home and do a
                 complete walk thru with you to discuss the items that you want
                 added or removed from the{" "}
-                <Link
-                  href="/homewatch-checklist"
-                  aria-label="go to Homewatch Checklist page"
-                >
-                  Home Watch Checklist
-                </Link>
-                .
+                <Link href="/homewatch-checklist">Home Watch Checklist</Link>.
               </p>
               <h3 className="pt-25">What is a Key Holder Service?</h3>
               <p>
@@ -224,10 +196,7 @@ function FAQsPage(props) {
                 the keys to your home and has the homeowner's authorization to
                 enter the home, perform a task, then lock the door and leave.{" "}
                 Read more about our{" "}
-                <Link
-                  href="/keyholder-services/#WIKeyHolder"
-                  aria-label="go to Key Holder Services page"
-                >
+                <Link href="/keyholder-services/#WIKeyHolder">
                   Key Holder Services
                 </Link>
                 .
@@ -240,10 +209,7 @@ function FAQsPage(props) {
                 let them in. Whether you need to let a guest in or allow vendor
                 access to fix items in your home - a Key Holder Service could be
                 the answer. Read more about{" "}
-                <Link
-                  href="/keyholder-services/#WRKeyHolder"
-                  aria-label="go to KeyHolder page"
-                >
+                <Link href="/keyholder-services/#WRKeyHolder">
                   Key Holder Services
                 </Link>
                 .
@@ -259,13 +225,7 @@ function FAQsPage(props) {
                 and an array of other things. Concierge Service Companies
                 specialize in different requests. You just need to ask. Learn
                 more about{" "}
-                <Link
-                  href="/concierge-services"
-                  aria-label="go to Concierge Services page"
-                >
-                  Concierge Services
-                </Link>
-                .
+                <Link href="/concierge-services">Conceirge Services</Link>.
               </p>
               <br />
               <h3>Why Would I Need Vehicle Care While Out Of Town?</h3>
@@ -273,10 +233,7 @@ function FAQsPage(props) {
                 When you leave home, you are probably leaving your car behind in
                 the garage. Dallas Home Watch not only checks your house but we
                 can also care for your stored vehicles. Learn more about{" "}
-                <Link href="/vehicle-care" aria-label="go to our Vehicle page">
-                  Vehicle Care
-                </Link>
-                .
+                <Link href="/vehicle-care">Vehicle Care</Link>.
               </p>
             </div>
           </div>
@@ -310,11 +267,7 @@ function FAQsPage(props) {
           <h3>Ready To Hire A Home Watch Service Business?</h3>
           <br />
 
-          <Link
-            href="tel:972-982-7050"
-            aria-label="go to Accreditation page"
-            className="call us"
-          >
+          <Link href="tel:972-982-7050" className="theme-btn btn-style-two">
             <span className="txt">
               CALL DALLAS HOME WATCH
               <i className="phone" />

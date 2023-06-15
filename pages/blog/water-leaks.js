@@ -9,8 +9,7 @@ function WaterLeaksPage(props) {
     <Fragment>
       <Head>
         <title>Avoid Major Water Leaks by Hiring Dallas Home Watch</title>
-        <Link
-          aria-label="go to this page"
+        <link
           rel="canonical"
           href="https://www.dallashomewatch.com/blog/water-leaks"
         />

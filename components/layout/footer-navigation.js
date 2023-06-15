@@ -114,10 +114,7 @@ function FooterNavigation() {
                   Looking for another Certified Home Watch Professional? &nbsp;
                   Verify Creditials Here:{" "}
                 </span>
-                <Link
-                  aria-label="go to website for National Home Watch Association"
-                  href="https://www.nationalhomewatchassociation.org/chwp-list/"
-                >
+                <Link href="https://www.nationalhomewatchassociation.org/chwp-list/">
                   CHWP
                 </Link>
                 .
@@ -128,42 +125,25 @@ function FooterNavigation() {
             <div className="footer-column col-lg-4 col-md-4 col-sm-12">
               <ul className="footer-list">
                 <li>
-                  <Link href="/about" aria-label="go to About page">
-                    About Us
-                  </Link>
+                  <Link href="/about">About Us</Link>
                 </li>
                 <li>
-                  <Link
-                    href="/accreditation"
-                    aria-label="go to Accreditation page"
-                  >
-                    Accreditation
-                  </Link>
+                  <Link href="/accreditation">Accreditation</Link>
                 </li>
                 <li>
-                  <Link href="/news" aria-label="go to News page">
-                    News
-                  </Link>
+                  <Link href="/news">News</Link>
                 </li>
                 <li>
-                  <Link href="/privacy-policy" aria-label="go to Privacy page">
-                    Privacy Policy
-                  </Link>
+                  <Link href="/privacy-policy">Privacy Policy</Link>
                 </li>
                 <li>
-                  <Link href="/terms-of-service" aria-label="go to Terms page">
-                    Terms of Service
-                  </Link>
+                  <Link href="/terms-of-service">Terms of Service</Link>
                 </li>
                 <li>
-                  <Link href="/sitemap" aria-label="go to Sitemap page">
-                    Sitemap
-                  </Link>
+                  <Link href="/sitemap">Sitemap</Link>
                 </li>
                 <li>
-                  <Link href="/faqs" aria-label="go to FAQ page">
-                    F.A.Q.s
-                  </Link>
+                  <Link href="/faqs">F.A.Q.s</Link>
                 </li>
               </ul>
             </div>

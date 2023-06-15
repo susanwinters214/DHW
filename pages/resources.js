@@ -11,8 +11,7 @@ function ResourcesPage(props) {
       <Head>
         <title>Home Watch Resources and Referrals</title>
         <meta name="robots" content="noindex"></meta>
-        <Link
-          aria-label="go to this page"
+        <link
           rel="canonical"
           href="https://www.dallashomewatch.com/resources"
         />

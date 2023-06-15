@@ -9,7 +9,7 @@ function NationalHomeWatchMonthPage(props) {
     <Fragment>
       <Head>
         <title>National Home Watch Month 2023</title>
-        <Link    aria-label="go to this page"
+        <link
           rel="canonical"
           href="https://www.dallashomewatch.com/national-homewatch-month"
         />
@@ -343,27 +343,28 @@ function NationalHomeWatchMonthPage(props) {
                     <h3>National Home Watch Month In The News</h3> <br />
                     <p>
                       Read article on:{" "}
-                      <Link
-                        href="https://gsabizwire.com/the-national-home-watch-association-announces-the-inaugural-national-home-watch-month/"
-                        aria-label="go to external website GSABizwire"
-                      >
+                      <Link href="https://gsabizwire.com/the-national-home-watch-association-announces-the-inaugural-national-home-watch-month/">
                         GSA BizWire
                       </Link>
                     </p>
                     <p>
                       Read article on:{" "}
-                      <Link
-                        href="https://konklife.com/the-national-home-watch-association-announces-the-inaugural-national-home-watch-month-according-to-the-us-census-bureau-in-their-2021-annual-community-survey-there-are-well-over-2-64-million/"
-                        aria-label="go to external website Konklife"
-                      >
+                      <Link href="https://konklife.com/the-national-home-watch-association-announces-the-inaugural-national-home-watch-month-according-to-the-us-census-bureau-in-their-2021-annual-community-survey-there-are-well-over-2-64-million/">
                         Knoklife
                       </Link>
-                 </p>
+                    </p>
+                    {/*
+                    <p>
+                      Dallas Home Watch on{" "}
+                      <Link href="https://www.facebook.com/profile.php?id=100092566267916">
+                        Facebook
+                      </Link>
+                    </p>{" "}
+        */}
                     <br />
                     <p>
                       Interested in other National Days? View the list of{" "}
                       <Link
-                        aria-label="go to external website Crestline"
                         href="https://crestline.com/c/calendar-of-events"
                         target="_blank"
                       >

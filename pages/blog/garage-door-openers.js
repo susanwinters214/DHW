@@ -9,8 +9,7 @@ function GarageDoorOpenersPage(props) {
     <Fragment>
       <Head>
         <title>Dallas Home Watch Checks Your Garage Door Openers</title>
-        <Link
-          aria-label="go to this page"
+        <link
           rel="canonical"
           href="https://www.dallashomewatch.com/blog/garage-door-openers"
         />

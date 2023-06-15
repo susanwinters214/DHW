@@ -11,11 +11,10 @@ function DangersOfEmptyHousePage(props) {
     <Fragment>
       <Head>
         <title>The Dangers of An Unoccupied Home</title>
-        <Link
-          aria-label="go to this page"
+        <link
           rel="canonical"
           href="https://www.dallashomewatch.com/blog/dangers-of-leaving-house-unoccupied"
-        ></Link>
+        ></link>
         <meta
           name="description"
           content="The dangers of leaving your house unoccupied is includes the increased risk of burglary. That can cause significant damage to your home, costing you money."
