@@ -8,7 +8,9 @@ function SAuniversityparkPage(props) {
   return (
     <Fragment>
       <Head>
-        <title>Home Watch University Park</title>
+        <title>
+          University Highland Park Home Watch Business | Dallas Home Watch LLC.
+        </title>
         <link
           rel="canonical"
           href="https://www.dallashomewatch.com/home-watch-university-park-texas"

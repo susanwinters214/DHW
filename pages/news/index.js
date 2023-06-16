@@ -80,7 +80,19 @@ function NewsPage(props) {
                 <section id="contentBlock">
                   <h2 className="pageTitle">Dallas Home Watch News</h2>
 
-                
+                  <p>
+                    Welcome to Home Watch News, your go-to resource for all
+                    things related to our Dallas Home Watch business! Our team
+                    of experts is dedicated to providing you with valuable
+                    information, helpful guides, and the latest news of what is
+                    happening at Dallas Home Watch LLC. Explore the articles
+                    below to stay informed
+                  </p>
+                  <p>
+                    Dive into the world of home watch and discover valuable
+                    insights to safeguard your property and make informed
+                    decisions. Stay tuned for frequent updates and new articles.
+                  </p>
                   <p>
                     <strong>June 2023</strong> - Dallas Home Watch adds Key
                     Holder Services for existing clients <strong>Read:</strong>{" "}

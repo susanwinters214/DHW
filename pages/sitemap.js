@@ -6,7 +6,7 @@ function SitemapPage(props) {
   return (
     <Fragment>
       <Head>
-        <title>Dallas Home Watch Sitemap</title>
+        <title>Dallas Home Watch Sitemap | Find all Pages of our Website</title>
         <link rel="canonical" href="https://www.dallashomewatch.com/sitemap" />
         <meta
           name="description"

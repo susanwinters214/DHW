@@ -7,7 +7,7 @@ function BlogPage(props) {
   return (
     <Fragment>
       <Head>
-        <title>Home Watch Blog Articles</title>
+        <title>Home Watch Blog | Articles about the Home Watch Industry</title>
 
         <meta
           name="description"
