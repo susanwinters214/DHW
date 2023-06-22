@@ -30,8 +30,8 @@ function Logo() {
           >
             Dallas Home Watch <br />
             <span className="tiny10">
-              Service Area: Dallas - (Highland Park, University Park, Lake
-              Forest, and Northwood Hills).
+              Dallas, Highland Park, University Park, Lake
+              Forest, and Northwood Hills.
             </span>
           </div>
 
