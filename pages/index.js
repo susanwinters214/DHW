@@ -465,7 +465,10 @@ function HomePage(props) {
         <p>
           Dallas Home Watch LLC services the cities of Highland Park and
           University Park as well as several other affluent neighborhoods in
-          Dallas.
+          Dallas. See {" "}
+          
+            <Link href="service-areas">Service Areas</Link>.
+        
         </p>
         <div className="inner-column">
           <div className="row SAB">

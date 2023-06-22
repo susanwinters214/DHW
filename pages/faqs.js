@@ -11,7 +11,6 @@ function FAQsPage(props) {
         <title>
           Home Watch FAQs - Dallas Home Watch Frequently Asked Questions?
         </title>
-     
 
         <meta name="keywords" content="home watch questions, homewatch faqs" />
         <meta
@@ -100,6 +99,14 @@ function FAQsPage(props) {
                 Dallas Home Watch is located at 13101 Preston Road Suite
                 #110410, Dallas, Texas 75240
               </p>
+              <h3 className="pt-25">
+                Does Dallas Home Watch service my area?
+              </h3>
+              <p>
+                Find information about {" "}
+                <Link href="service-areas">Service Areas</Link>.
+              </p>
+
               <h3 className="pt-25">
                 Does Dallas Home Watch have a Facebook page?
               </h3>

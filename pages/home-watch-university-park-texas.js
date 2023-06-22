@@ -133,6 +133,7 @@ function SAuniversityparkPage(props) {
                     check their home for any maintenance issues. If either of
                     these scenarios describe you, give us a call today.
                   </p>
+                  <p>Find information about additional <Link href="service-areas">Service Areas</Link>.</p>
                 </div>
                 <div className="content-column col-lg-6 col-md-12 col-sm-12 centered">
                   <Image

@@ -23,15 +23,15 @@ function Logo() {
               marginTop: 8,
               paddingLeft: 5,
               color: "white",
-              fontSize: "1.7em",
+              fontSize: "1.6em",
               fontWeight: "500",
               fontFamily: '"Segoe UI", Tahoma, Geneva, Verdana, sans-serif',
             }}
           >
             Dallas Home Watch <br />
             <span className="tiny10">
-              Dallas, Highland Park, University Park, Lake
-              Forest, and Northwood Hills.
+              Dallas, Highland Park, University Park, & Lake
+              Forest.
             </span>
           </div>
 
