@@ -23,7 +23,7 @@ function AboutPage() {
         <meta property="og:type" content="article" />
         <meta
           property="article:publisher"
-          content="https://www.facebook.com/profile.php?id=100092566267916"
+          content="https://www.facebook.com/dallashomewatchllc"
         ></meta>
         <meta
           property="og:url"
@@ -216,7 +216,7 @@ function AboutPage() {
                   </p>
 
                   <h4>Dallas Home Watch on Facebook</h4>
-                  <Link href="https://www.facebook.com/dallashomewatch">
+                  <Link href="https://www.facebook.com/dallashomewatchllc">
                     Like & Follow
                   </Link>
                 </div>
