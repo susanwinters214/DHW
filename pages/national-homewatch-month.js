@@ -8,7 +8,7 @@ function NationalHomeWatchMonthPage(props) {
   return (
     <Fragment>
       <Head>
-        <title>National Home Watch Month 2023</title>
+        <title>National Home Watch Month 2024</title>
         <link
           rel="canonical"
           href="https://www.dallashomewatch.com/national-homewatch-month"
@@ -31,7 +31,7 @@ function NationalHomeWatchMonthPage(props) {
           property="og:url"
           content="https://www.dallashomewatch.com/national-homewatch-month"
         />
-        <meta property="og:title" content="National Home Watch Month 2023" />
+        <meta property="og:title" content="National Home Watch Month 2024" />
         <meta
           property="og:description"
           content="March is 'National Home Watch Month' which was created to bring awareness of the definition of 'Home Watch' as a Professional Service offered to Home Owners.
@@ -51,7 +51,7 @@ function NationalHomeWatchMonthPage(props) {
         <meta name="twitter:site" content="@dallashomewatch" />
         <meta name="twitter:creator" content="@susanwinters214" />
 
-        <meta name="twitter:title" content="National Home Watch Month 2023" />
+        <meta name="twitter:title" content="National Home Watch Month 2024" />
         <meta
           name="twitter:description"
           content="March is 'National Home Watch Month' which was created to bring awareness of the definition of 'Home Watch' as a Professional Service offered to Home Owners."
@@ -104,7 +104,7 @@ function NationalHomeWatchMonthPage(props) {
                   {/* Sec Title */}
                   <div className="sec-title">
                     <h2 className="pageTitle">
-                      March 2023 |{" "}
+                      March 2024 |{" "}
                       <span className="smaller gold">
                         #NationalHomeWatchMonth
                       </span>
@@ -125,10 +125,10 @@ function NationalHomeWatchMonthPage(props) {
                     </p>
                     <div className="image centered">
                       <Image
-                        src="/images/logos/National-Home-Watch-Month-Logo.jpg"
+                        src="/images/national-Home-watch-month-2024.jpg"
                         alt="National Home Watch Month Logo"
-                        width={526}
-                        height={526}
+                        width={400}
+                        height={400}
                       />
                     </div>
                     <br /> <br />

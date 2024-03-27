@@ -14,7 +14,7 @@ function AirFiltersPage(props) {
  
 
         <link
-          rel="canonical"
+          rel="canonical" 
           href="https://www.dallashomewatch.com/blog/air-filters"
         />
         <meta

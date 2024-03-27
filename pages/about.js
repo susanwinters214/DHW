@@ -154,12 +154,12 @@ function AboutPage() {
                     <br />
                     Read article from D Magazine when Lawson was a House
                     Manager:{" "}
-                    <Link href="https://www.dmagazine.com/publications/d-home/2006/september-october/house-managers-and-realtor-news/">
+                    <Link href="https://www.dmagazine.com/publications/d-home/2006/september-october/house-managers-and-realtor-news/" target="_blank"  rel="noreferrer noopener" >
                       Dallas Home Watch
                     </Link>
                     <br />
                     Tina Lawson (DHW) receives{" "}
-                    <Link href="https://www.dallashomewatch.com/news/dallas-home-watch-receives-accreditation">
+                    <Link href="https://www.dallashomewatch.com/news/dallas-home-watch-receives-accreditation" target="_blank"  rel="noreferrer noopener" >
                       accreditation from the NHWA.
                     </Link>
                   </div>
@@ -182,12 +182,12 @@ function AboutPage() {
                       />
                       <br />
                       Photo of{" "}
-                      <Link href="https://www.linkedin.com/in/tina-lawson-a57252254/">
+                      <Link href="https://www.linkedin.com/in/tina-lawson-a57252254/" target="_blank"  rel="noreferrer noopener" >
                         Tina Lawson
                       </Link>
                       <br />
                       Owner of&nbsp;
-                      <Link href="https://www.linkedin.com/company/dallas-home-watch">
+                      <Link href="https://www.linkedin.com/company/dallas-home-watch" target="_blank"  rel="noreferrer noopener" >
                         Dallas Home Watch
                       </Link>
                       <br />
@@ -216,7 +216,7 @@ function AboutPage() {
                   </p>
 
                   <h4>Dallas Home Watch on Facebook</h4>
-                  <Link href="https://www.facebook.com/dallashomewatchllc">
+                  <Link href="https://www.facebook.com/dallashomewatchllc" target="_blank"  rel="noreferrer noopener" >
                     Like & Follow
                   </Link>
                 </div>
