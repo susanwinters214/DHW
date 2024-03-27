@@ -58,7 +58,7 @@ function MainNavigation() {
               <div className="phone-box">
                 <div className="box-inner">
                   <span className="icon flaticon-smartphone-1" />
-                  Call US Today!
+                  Call or Text:
                   <strong>
                     <a className="phoneNumberLink" href="tel:972-982-7050">
                       972-982-7050
@@ -95,7 +95,7 @@ function MainNavigation() {
                   href="tel:972-982-7050"
                   className="theme-btn btn-style-two"
                 >
-                  <span className="txt">Call Us</span>
+                  <span className="txt">Send Text</span>
                 </Link>
               </div>
 
