@@ -3,6 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import Script from "next/script";
+//import Font from "next/font";
 
 function NationalHomeWatchMonthPage(props) {
   return (
@@ -39,7 +40,7 @@ function NationalHomeWatchMonthPage(props) {
         />
         <meta
           property="og:image"
-          content="https://www.dallashomewatch.com/images/blogimg/og-NHWMonth.jpg"
+          content="https://www.dallashomewatch.com/images/blogimg/National-Home-Watch-Month-Logo.jpg"
         />
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />
@@ -125,7 +126,7 @@ function NationalHomeWatchMonthPage(props) {
                     </p>
                     <div className="image centered">
                       <Image
-                        src="/images/national-Home-watch-month-2024.jpg"
+                        src="/images/logos/National-Home-Watch-Month-Logo.jpg"
                         alt="National Home Watch Month Logo"
                         width={400}
                         height={400}
