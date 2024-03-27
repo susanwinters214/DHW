@@ -608,12 +608,9 @@ function HomePage(props) {
                     <span className="quote-icon flaticon-quote-1"></span>
                     <div className="text">
                       {" "}
-                      A professional who is in charge of checking the house and
-                      making sure everything works can often spot things that
-                      the resident might not, especially if they are traveling
-                      often. I can't imagine where we would be without Tina.{" "}
+                      Everything in the house, garage and yard were in wonderful shape. It was amazing! Thank you for taking care of it all during those hot summer months. Our grass and plants look by far the best on our block!{" "}
                     </div>
-                    <div className="name">Tamara M.</div>
+                    <div className="name">Chris & Sally P.</div>
                   </div>
                 </div>
               </div>
