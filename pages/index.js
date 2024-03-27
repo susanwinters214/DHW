@@ -17,9 +17,7 @@ function HomePage(props) {
           name="description"
           content="Dallas Home Watch is a local, woman owned business that provides visual inspections both inside and outside of a home or property looking for obvious issues."
         />
-
         <link rel="canonical" href="https://www.dallashomewatch.com"></link>
-
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta
@@ -31,7 +29,6 @@ function HomePage(props) {
           property="article:publisher"
           content="https://www.facebook.com/profile.php?id=100092566267916"
         ></meta>
-
         <meta property="og:url" content="https://www.dallashomewatch.com" />
         <meta property="og:title" content="Dallas Home Watch" />
         <meta
@@ -42,6 +39,7 @@ function HomePage(props) {
           property="og:image"
           content="https://www.dallashomewatch.com/images/og/dallas-home-watch-logo-skyline-certified.jpg"
         />
+  
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />
         <meta
@@ -51,7 +49,6 @@ function HomePage(props) {
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@dallashomewatch" />
         <meta name="twitter:creator" content="@susanwinters214" />
-
         <meta
           name="twitter:title"
           content="Dallas Home Watch LLC.| Home Watch Dallas"
