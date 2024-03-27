@@ -90,11 +90,11 @@ function HomePage(props) {
                 <br />
                 <div className="btns-box centered">
                   <a
-                    href="home-watch-services"
+                    href="national-homewatch-month"
                     className="theme-btn btn-style-two"
                   >
                     <span className="txt">
-                      Home Watch Services <i className="arrow flaticon-right" />
+                      Home Watch Month <i className="arrow flaticon-right" />
                     </span>
                   </a>
                 </div>
@@ -465,10 +465,7 @@ function HomePage(props) {
         <p>
           Dallas Home Watch LLC services the cities of Highland Park and
           University Park as well as several other affluent neighborhoods in
-          Dallas. See {" "}
-          
-            <Link href="service-areas">Service Areas</Link>.
-        
+          Dallas. See <Link href="service-areas">Service Areas</Link>.
         </p>
         <div className="inner-column">
           <div className="row SAB">
@@ -608,7 +605,10 @@ function HomePage(props) {
                     <span className="quote-icon flaticon-quote-1"></span>
                     <div className="text">
                       {" "}
-                      Everything in the house, garage and yard were in wonderful shape. It was amazing! Thank you for taking care of it all during those hot summer months. Our grass and plants look by far the best on our block!{" "}
+                      Everything in the house, garage and yard were in wonderful
+                      shape. It was amazing! Thank you for taking care of it all
+                      during those hot summer months. Our grass and plants look
+                      by far the best on our block!{" "}
                     </div>
                     <div className="name">Chris & Sally P.</div>
                   </div>
