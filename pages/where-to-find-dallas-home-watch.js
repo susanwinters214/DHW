@@ -216,6 +216,10 @@ function WhereToFindPage() {
                     >
                       ezLocal- Home Business
                     </Link>
+                    <br />
+                    <Link href="https://homewatchusa.org" target="_blank">
+                      Home Watch USA Directory
+                    </Link>
                     <br /> <br />
                     <div className="image">
                       <Image
