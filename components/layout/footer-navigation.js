@@ -43,7 +43,7 @@ function FooterNavigation() {
                         aria-label="View our Linkedin page"
                         name="linkedin"
                         href="https://www.linkedin.com/company/dallas-home-watch/"
-                        rel="noreferrer noopener" 
+                        rel="noreferrer noopener"
                         target="_blank"
                       >
                         <span className="fa fa-linkedin" />
@@ -54,7 +54,7 @@ function FooterNavigation() {
                       <Link
                         aria-label="View our Facebook page"
                         name="facebook"
-                        rel="noreferrer noopener" 
+                        rel="noreferrer noopener"
                         target="_blank"
                         href="https://www.facebook.com/profile.php?id=100092566267916"
                       >
@@ -65,7 +65,7 @@ function FooterNavigation() {
                       <Link
                         aria-label="View our YouTube channel"
                         name="youtube"
-                        rel="noreferrer noopener" 
+                        rel="noreferrer noopener"
                         target="_blank"
                         href="https://www.youtube.com/channel/UCzl3hTaEB3ds_IyRtJCr3kA"
                       >
@@ -76,7 +76,7 @@ function FooterNavigation() {
                       <Link
                         aria-label="View our Pinterest boards"
                         name="pintrest"
-                        rel="noreferrer noopener" 
+                        rel="noreferrer noopener"
                         target="_blank"
                         href="https://www.pinterest.com/dallashomewatch/"
                       >
@@ -87,7 +87,7 @@ function FooterNavigation() {
                       <Link
                         aria-label="View our Twitter account"
                         name="twitter"
-                        rel="noreferrer noopener" 
+                        rel="noreferrer noopener"
                         target="_blank"
                         href="https://www.twitter.com/dallashomewatch"
                       >
@@ -98,7 +98,7 @@ function FooterNavigation() {
                       <Link
                         aria-label="View our Instagram photos"
                         name="instagram"
-                        rel="noreferrer noopener" 
+                        rel="noreferrer noopener"
                         target="_blank"
                         href="https://www.instagram.com/dallashomewatch/"
                       >
@@ -155,7 +155,8 @@ function FooterNavigation() {
       <div className="footer-bottom">
         <div className="auto-container">
           <div className="copyright">
-            ©Copyright 2023, Dallas Home Watch LLC. All Rights Reserved.
+            ©Copyright 2023, Dallas Home Watch LLC. All Rights Reserved. |
+            Website Created By: <Link href="https://cybermediastudio.com">Cyber Media Studio</Link>
           </div>
         </div>
       </div>
