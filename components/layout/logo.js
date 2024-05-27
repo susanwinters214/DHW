@@ -30,8 +30,7 @@ function Logo() {
           >
             Dallas Home Watch <br />
             <span className="tiny10">
-              Dallas, Highland Park, University Park, & Lake
-              Forest.
+              North Dallas, Highland Park, University Park, Park Cities
             </span>
           </div>
 

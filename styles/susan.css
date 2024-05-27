@@ -523,14 +523,14 @@ h2 {
   font-size: 32px;
 }
 .homepageServiceBtn {
-  background-color: gold;
+  background-color: #e1a122;;
   color: #00204c;
 }
 .homepageServiceBtn:hover {
   color: red;
 }
 .homepageServiceBtn:visited {
-  background-color: gold;
+  background-color: #e1a122;;
   color: #00204c;
 }
 
@@ -571,3 +571,9 @@ h4 {
 .certifiedHWP{width:100%; text-align:center}
 
 .tiny10{font-size:10px}
+
+.neighborhoodList{background-color:#e1a122; padding-top:30px;}
+.neighborhoodList a {color:black;}
+
+.serviceAreaBox{text-align:center; color:#e1a122;}
+#OurServiceAreas{padding-top:50px;}

@@ -39,7 +39,7 @@ function HomePage(props) {
           property="og:image"
           content="https://www.dallashomewatch.com/images/og/dallas-home-watch-logo-skyline-certified.jpg"
         />
-  
+
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />
         <meta
@@ -63,7 +63,6 @@ function HomePage(props) {
         />
       </Head>
       {/* top Banner Area */}
-
       <section className="page-title" style={{}}>
         <Image
           src="/images/background/dallas-texas-skyline.jpg"
@@ -87,12 +86,10 @@ function HomePage(props) {
                 <br />
                 <div className="btns-box centered">
                   <a
-                    href="national-homewatch-month"
+                    href="#OurServiceAreas"
                     className="theme-btn btn-style-two"
                   >
-                    <span className="txt">
-                      Home Watch Month <i className="arrow flaticon-right" />
-                    </span>
+                    <span className="txt">View Our Service Areas</span>
                   </a>
                 </div>
               </div>
@@ -100,9 +97,7 @@ function HomePage(props) {
           </div>
         </div>
       </section>
-
       {/* 4 BLOCKS */}
-
       <section className="welcome-section MOVEUP">{/* 4 blocks */}</section>
       {/* insert Welcome */}
       <section
@@ -155,8 +150,7 @@ function HomePage(props) {
                         aria-label="House Sitter information"
                       ></Link>{" "}
                       House Sitters or Property Managers, Dallas Home Watch is a
-                      fully accredited and bonded company that prioritizes the
-                      care and <strong>maintenance of your home</strong>. We are
+                      fully accredited and bonded company that prioritizes reporting of potential needed <strong>maintenance of your home</strong>. We are
                       committed to providing high-quality home watch services,
                       ensuring that homeowners can travel worry-free, knowing
                       that their property is in good hands. Our attention to
@@ -199,7 +193,7 @@ function HomePage(props) {
                     <Image
                       width={585}
                       height={725}
-                      src="/images/open-front-door-585w.jpg"
+                      src="/images/tina-lawson-opens-residential-door.jpg"
                       alt="homewatch professionals entering front door to perform Home Watch Services"
                     />
                   </div>
@@ -453,8 +447,7 @@ function HomePage(props) {
           {/* end of two column */}
         </div>
       </section>
-
-      <div className="auto-container">
+      <div className="auto-container" id="OurServiceAreas">
         {/* Sec Title */}
         <br />
         <hr />
@@ -467,14 +460,14 @@ function HomePage(props) {
         <div className="inner-column">
           <div className="row SAB">
             {/* Highland Park Gated Community Block */}
-            <div className="inner-block col-lg-3 col-md-6 col-sm-12  SAB">
+            <div className="inner-block col-lg-4 col-md-6 col-sm-12  SAB">
               <Link
                 href="/home-watch-highland-park-texas"
                 className="service-area-block"
               >
                 <Image
                   src="/images/highland-park-street-sign.png"
-                  alt="Dallas Home Watch for Highland Park"
+                  alt="Home Watch in Highland Park"
                   width={265}
                   height={174}
                 />
@@ -485,14 +478,14 @@ function HomePage(props) {
             </div>
             <br />
             {/* University Park Community Block */}
-            <div className="inner-block col-lg-3 col-md-6 col-sm-12  SAB">
+            <div className="inner-block col-lg-4 col-md-6 col-sm-12  SAB">
               <Link
                 href="/home-watch-university-park-texas"
                 className="service-area-block"
               >
                 <Image
                   src="/images/university-park-bridge.png"
-                  alt="Dallas Home Watch for University Park"
+                  alt="Home Watch in University Park"
                   width={265}
                   height={174}
                 />
@@ -502,45 +495,74 @@ function HomePage(props) {
               </Link>{" "}
               <br />
             </div>
+            <br />
+            {/* Irving Valley Ranch Block */}
+            <div className="inner-block col-lg-4 col-md-6 col-sm-12 SAB">
+              <Image
+                src="/images/irving-texas-valley-ranch.jpg"
+                alt="Home Watch for Irving"
+                width={265}
+                height={174}
+              />
+              <br />
 
-            {/* Lake Forest Block */}
-            <div className="inner-block col-lg-3 col-md-6 col-sm-12 SAB">
-              <Link
-                href="service-areas#LakeForest"
-                className="service-area-block"
-              >
-                <Image
-                  src="/images/estates-of-lake-forest2.jpg"
-                  alt="Dallas Home Watch for Estates of Lake Forest"
-                  width={265}
-                  height={174}
-                />
-                <br />
-                <span className="streetblock2">Lake Forest</span>
-              </Link>{" "}
+              <span className="streetblock2 serviceAreaBox">Irving</span>
+            </div>
+            <br />
+            {/* North Dallas Block*/}
+            <div className="inner-block col-lg-4 col-md-6 col-sm-12 SAB">
+              <Image
+                src="/images/north-dallas.jpg"
+                alt="Home Watch in North Dallas"
+                width={265}
+                height={174}
+              />
+              <br />
+              <span className="streetblock2 serviceAreaBox">North Dallas</span>
+
               <br />
             </div>
+            <br />
+            {/* DALLAS Block */}
+            <div className="inner-block col-lg-4 col-md-6 col-sm-12  SAB">
+              <Image
+                src="/images/dallas-area-homes.jpg"
+                alt="Home Watch in Dallas"
+                width={265}
+                height={174}
+              />
+              <br />
+              <span className="streetblock2 serviceAreaBox">Dallas</span>
 
-            {/* Northwood Hills Gated Community Block*/}
-            <div className="inner-block col-lg-3 col-md-6 col-sm-12 SAB">
+              <br />
+            </div>
+            <br />
+            {/* Irving Block */}
+            <div className="inner-block col-lg-4 col-md-6 col-sm-12  SAB">
               <Link
                 href="service-areas#NorthwoodHills"
                 className="service-area-block"
               >
                 <Image
-                  src="/images/northwood-hills-neighborhood.png"
-                  alt="Dallas Home Watch for Northwood Hills"
+                  src="/images/farmers-branch.jpg"
+                  alt="Home Watch in Farmers Branch"
                   width={265}
                   height={174}
                 />
                 <br />
-                <span className="streetblock2">Northwood Hills</span>
+                <span className="streetblock2">Farmers Branch</span>
               </Link>{" "}
+              <br />
+            </div>
+            <br />
+            {/* Northwood Hills Gated Community Block*/}
+            <div className="inner-block col-lg-3 col-md-6 col-sm-12 SAB">
               <br />
             </div>
           </div>
         </div>
       </div>
+
       <br />
       <p className="centered">Downtown Dallas Luxury Condos </p>
       <div className="sec-title centered">
@@ -555,9 +577,61 @@ function HomePage(props) {
         <br /> <br />
       </div>
       <br />
+      <h3 className="centered">Neighbordhoods </h3>
+      <br />
+      <div className="row SAB neighborhoodList">
+        {/* Neighbordhoods   */}
+
+        <div className="inner-block col-lg-3 col-md-6 col-sm-12  SAB"></div>
+        <br />
+        {/* Column LEFT */}
+        <div className="inner-block col-lg-3 col-md-6 col-sm-12  SAB">
+          <ul>
+            <li>
+              {" "}
+              <Link href="service-areas#PrestonHollow" className="">
+                Preston Hollow
+              </Link>
+            </li>
+            <li>Valley Ranch</li>
+            <li>Love Field Area</li>
+            <li>
+              {" "}
+              <Link href="service-areas#Bluffview" className="">
+                Bluffview
+              </Link>
+            </li>
+            <li>
+              {" "}
+              <Link href="service-areas#NorthwoodHills" className="">
+                Northwood Hills
+              </Link>
+            </li>
+            <li>Melshire Estates</li>
+          </ul>
+          <br />
+        </div>
+
+        {/* Column RIGHT */}
+        <div className="inner-block col-lg-3 col-md-6 col-sm-12 SAB">
+          <ul>
+            <li>Design District</li>
+            <li>Arts District</li>
+            <li>Victory Park</li>
+            <li>Oak Lawn</li>
+            <li>Greenway Parks</li>
+            <li>Russwood Acres</li>
+          </ul>
+          <br />
+        </div>
+
+        {/* Empty Block*/}
+        <div className="inner-block col-lg-3 col-md-6 col-sm-12 SAB">
+          <br />
+        </div>
+      </div>
 
       <div className="clear:both;"></div>
-
       <section className="testimonial-section">
         <div className="auto-container">
           <div className="sec-title centered">
@@ -616,7 +690,6 @@ function HomePage(props) {
         </div>
       </section>
       <br />
-
       <div className="column col-lg-12 col-md-6 col-sm-6 centered">
         <h3>Ready To Hire Home Watch Service?</h3>
         <br />
