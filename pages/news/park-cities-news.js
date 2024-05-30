@@ -122,7 +122,7 @@ function ParkCitiesNewsPage(props) {
                     <br />
                     <div className="image centered">
                       <Image
-                        src="/images/preston-hollow-newspaper-tina-lawson.jpg"
+                        src="/images/park-cities-newspaper-tina-lawson.jpg"
                         alt="Tina Lawson featured in Preson Hollow Newspaper June 2024 issue"
                         width={600}
                         height={450}
