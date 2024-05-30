@@ -136,7 +136,7 @@ function PrestonHollowNewsPage(props) {
                     <div className="image centered">
                       <Image
                         src="/images/tina-lawson-newsclip.jpg"
-                        alt="tina Lawson featured in Preson Hollow Newspaper June 2024 issue"
+                        alt="Tina Lawson featured in Preson Hollow Newspaper June 2024 issue"
                         width={600}
                         height={450}
                       />{" "}
