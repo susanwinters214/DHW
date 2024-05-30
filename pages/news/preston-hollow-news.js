@@ -39,7 +39,7 @@ function PrestonHollowNewsPage(props) {
         />
         <meta
           property="og:image"
-          content="https://www.dallashomewatch.com/images/og/preston-hollow-news-coverage.jpg"
+          content="https://www.dallashomewatch.com/images/preston-hollow-news-coverage.jpg"
         />
         <meta property="og:image:width" content="1200px" />
         <meta property="og:image:height" content="630px" />
