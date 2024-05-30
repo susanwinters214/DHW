@@ -12,7 +12,7 @@ function PrestonHollowNewsPage(props) {
         <title>Preston Hollow News 2024</title>
         <link
           rel="canonical"
-          href="https://www.dallashomewatch.com/preston-hollow-news"
+          href="https://www.dallashomewatch.com/news/preston-hollow-news"
         />
         <meta name="keywords" content="preston hollow news" />
         <meta
@@ -30,7 +30,7 @@ function PrestonHollowNewsPage(props) {
         ></meta>
         <meta
           property="og:url"
-          content="https://www.dallashomewatch.com/preston-hollow-news"
+          content="https://www.dallashomewatch.com/news/preston-hollow-news"
         />
         <meta property="og:title" content="Preston Hollow News 2024" />
         <meta

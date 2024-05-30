@@ -12,7 +12,7 @@ function ParkCitiesNewsPage(props) {
         <title>Park Cities News 2024</title>
         <link
           rel="canonical"
-          href="https://www.dallashomewatch.com/park-cities-news"
+          href="https://www.dallashomewatch.com/news/park-cities-news"
         />
         <meta name="keywords" content="park cities news" />
         <meta
@@ -30,7 +30,7 @@ function ParkCitiesNewsPage(props) {
         ></meta>
         <meta
           property="og:url"
-          content="https://www.dallashomewatch.com/park-cities-news"
+          content="https://www.dallashomewatch.com/news/park-cities-news"
         />
         <meta property="og:title" content="Park Cities News 2024" />
         <meta
