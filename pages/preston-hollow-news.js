@@ -135,7 +135,7 @@ function PrestonHollowNewsPage(props) {
                     <br />
                     <div className="image centered">
                       <Image
-                        src="/images/tina-lawson-newsclip.jpg"
+                        src="/images/preston-hollow-newspaper-tina-lawson.jpg"
                         alt="Tina Lawson featured in Preson Hollow Newspaper June 2024 issue"
                         width={600}
                         height={450}
@@ -144,7 +144,14 @@ function PrestonHollowNewsPage(props) {
                     </div>{" "}
                     <div className="row">
                       <div className="column col-lg-6 col-md-6 col-sm-12">
-                       <h2 class="smallh2">Dallas Home Watch looks after unoccupied homes, picking up newspapers from the lawn, bringing in packages and mail left on the porch, checks for signs of break-ins, reports on the status of the lawn, the pool, and checks for other obvious signs of potential problems that could arise in an unoccupied home.</h2>
+                        <h2 class="smallh2">
+                          Dallas Home Watch looks after unoccupied homes,
+                          picking up newspapers from the lawn, bringing in
+                          packages and mail left on the porch, checks for signs
+                          of break-ins, reports on the status of the lawn, the
+                          pool, and checks for other obvious signs of potential
+                          problems that could arise in an unoccupied home.
+                        </h2>
                         <h3>Ready To Hire A Home Watch Service Business?</h3>
                         <br />
 
