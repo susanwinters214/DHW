@@ -113,7 +113,12 @@ function ParkCitiesNewsPage(props) {
                       in their Real Talk section. The image below is a snapshot
                       of the news article compiled by William Taylor.
                     </p>
-                 <p>Homeowners designate how frequently Dallas Home Watch discreetly checks on their properties. Lawson notifies them about any issues that might arise and works with them to solve any problems.</p>
+                    <p>
+                      Homeowners designate how frequently Dallas Home Watch
+                      discreetly checks on their properties. Lawson notifies
+                      them about any issues that might arise and works with them
+                      to solve any problems.
+                    </p>
                     <br />
                     <div className="image centered">
                       <Image
@@ -125,11 +130,13 @@ function ParkCitiesNewsPage(props) {
                       <br /> <br />
                     </div>{" "}
                     <div className="row">
-                      <div className="column col-lg-6 col-md-6 col-sm-12"><br />
+                      <div className="column col-lg-6 col-md-6 col-sm-12">
+                        <br />
                         <h2 className="smallh2">
-                          Dallas Home Watch looks after unoccupied homes in the Park Cites area.
-                          Home checks are performed weekly. Photos are taken during the home inspection and sent with the report to the homeowner.
-                         
+                          Dallas Home Watch looks after unoccupied homes in the
+                          Park Cites area. Home checks are performed weekly.
+                          Photos are taken during the home inspection and sent
+                          with the report to the homeowner.
                         </h2>
                         <h3>Ready To Hire A Home Watch Service Business?</h3>
                         <br />
