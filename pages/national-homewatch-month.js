@@ -67,7 +67,7 @@ function NationalHomeWatchMonthPage(props) {
       <script
         async
         defer
-        crossorigin="anonymous"
+        crossOrigin="anonymous"
         src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v16.0&appId=8620778781329629&autoLogAppEvents=1"
         nonce="P6S6t9vu"
       ></script>

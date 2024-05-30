@@ -35,8 +35,7 @@ function PrestonHollowNewsPage(props) {
         <meta property="og:title" content="Preston Hollow News 2024" />
         <meta
           property="og:description"
-          content="Preson Hollow News recently interviewed Tina Lawson, owner of Dallas Home Watch, for the Real Talk section of their newspaper.
-"
+          content="Preson Hollow News recently interviewed Tina Lawson, owner of Dallas Home Watch, for the Real Talk section of their newspaper."
         />
         <meta
           property="og:image"
@@ -46,7 +45,7 @@ function PrestonHollowNewsPage(props) {
         <meta property="og:image:height" content="630px" />
         <meta
           property="og:image:alt"
-          content="National Home Watch Month Banner"
+          content="Preston Hollow People Newspaper"
         />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@dallashomewatch" />
@@ -58,7 +57,7 @@ function PrestonHollowNewsPage(props) {
         />
         <meta
           name="twitter:description"
-          content="March is 'Preson Hollow News recently interviewed Tina Lawson, owner of Dallas Home Watch, for the Real Talk section of their newspaper."
+          content="Preson Hollow News recently interviewed Tina Lawson, owner of Dallas Home Watch, for the Real Talk section of their newspaper."
         />
         <meta
           name="twitter:image"
@@ -70,7 +69,7 @@ function PrestonHollowNewsPage(props) {
       <script
         async
         defer
-        crossorigin="anonymous"
+        crossOrigin="anonymous"
         src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v16.0&appId=8620778781329629&autoLogAppEvents=1"
         nonce="P6S6t9vu"
       ></script>
@@ -92,7 +91,7 @@ function PrestonHollowNewsPage(props) {
             <li>
               <Link href="/">home</Link>
             </li>
-            <li>Preston Hollow Newspaper</li>
+            <li>Preston Hollow People Newspaper</li>
           </ul>
         </div>
       </section>
@@ -107,15 +106,15 @@ function PrestonHollowNewsPage(props) {
                 <div className="inner-column">
                   {/* Sec Title */}
                   <div className="sec-title">
-                    <h2 className="pageTitle">Preston Hollow News</h2>
+                    <h2 className="pageTitle">Preston Hollow People News</h2>
                     <h3 className="centered">
                       Preston Hollow Newspaper features Tina Lawson
                     </h3>
                     <p className="text">
-                      Preston Hollow newspaper recently featured Tina Lawson in
-                      their Real Talk section. The image below is a snapshot of
-                      the news article where Ms. Lawson shares her background
-                      and then answers the following questions:
+                      Preston Hollow People newspaper recently featured Tina
+                      Lawson in their Real Talk section. The image below is a
+                      snapshot of the news article where Ms. Lawson shares her
+                      background and then answers the following questions:
                     </p>
                     <ol>
                       <li>
@@ -144,7 +143,7 @@ function PrestonHollowNewsPage(props) {
                     </div>{" "}
                     <div className="row">
                       <div className="column col-lg-6 col-md-6 col-sm-12">
-                        <h2 class="smallh2">
+                        <h2 className="smallh2">
                           Dallas Home Watch looks after unoccupied homes,
                           picking up newspapers from the lawn, bringing in
                           packages and mail left on the porch, checks for signs
