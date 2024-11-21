@@ -83,17 +83,7 @@ function FooterNavigation() {
                         <span className="fa fa-pinterest" />
                       </Link>
                     </li>
-                    <li className="twitter">
-                      <Link
-                        aria-label="View our Twitter account"
-                        name="twitter"
-                        rel="noreferrer noopener"
-                        target="_blank"
-                        href="https://www.twitter.com/dallashomewatch"
-                      >
-                        <span className="fa fa-twitter" />
-                      </Link>
-                    </li>
+                   
                     <li className="instagram">
                       <Link
                         aria-label="View our Instagram photos"
@@ -110,16 +100,7 @@ function FooterNavigation() {
                   <div className="clear"></div>
                   <br />
                 </div>
-                <br />
-                <span className="white">
-                  Looking for another Certified Home Watch Professional? &nbsp;
-                  Verify Creditials Here:{" "}
-                </span>
-                <Link href="https://www.nationalhomewatchassociation.org/chwp-list/">
-                  CHWP
-                </Link>
-                .
-                <br /> <br />
+             
               </div>
             </div>
 
@@ -128,9 +109,7 @@ function FooterNavigation() {
                 <li>
                   <Link href="/about">About Us</Link>
                 </li>
-                <li>
-                  <Link href="/accreditation">Accreditation</Link>
-                </li>
+                
                 <li>
                   <Link href="/news">News</Link>
                 </li>
@@ -155,7 +134,7 @@ function FooterNavigation() {
       <div className="footer-bottom">
         <div className="auto-container">
           <div className="copyright">
-            ©Copyright 2023, Dallas Home Watch LLC. All Rights Reserved.
+            ©Copyright 2024, Dallas Home Watch LLC. All Rights Reserved.
           </div>
         </div>
       </div>

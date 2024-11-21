@@ -182,14 +182,7 @@ function HomePage(props) {
                       />
                     </div>
                     <br />
-                    Dallas Home Watch LLC is the only{" "}
-                    <Link
-                      href="https://www.nationalhomewatchassociation.org/texas-home-watch-companies/"
-                      target="_blank"
-                    >
-                      Accredited Home Watch Company in Dallas, Texas
-                    </Link>
-                    .
+                  
                     <Image
                       width={585}
                       height={725}
@@ -211,12 +204,9 @@ function HomePage(props) {
 
                 <div className="certifiedHWP">
                   Tina Lawson is a{" "}
-                  <Link
-                    href="https://www.nationalhomewatchassociation.org/chwp-list/"
-                    target="_blank"
-                  >
+                 
                     Certified Home Watch Professional
-                  </Link>
+                
                   .
                   <br />
                   <Image
@@ -394,63 +384,10 @@ function HomePage(props) {
       </section>
       <hr />
       {/* National Home Watch Association info */}
-      <section className="NHWAsection auto-container">
-        {/* Content Side */}
-        <div className="content-side col-lg-12 col-md-12 col-sm-12">
-          {/* Block Detail */}
-          <div className="two-column">
-            <div className="row clearfix">
-              {/* Column */}
-              <div className="column col-lg-6 col-md-6 col-sm-12">
-                <h3 className="mb-10">National Home Watch Association</h3>
-                <p>
-                  Dallas Home Watch LLC. is an accredited member of the{" "}
-                  <Link href="/accreditation">
-                    National Home Watch Association
-                  </Link>
-                  . The National Home Watch Association (NHWA) is a
-                  multi-national organization founded in 2009 to bring together
-                  business owners in the home watch industry and provide
-                  standards by which the members must live and operate their
-                  companies.
-                </p>{" "}
-                <Link href="/accreditation" target="_blank">
-                  <Image
-                    width={300}
-                    height={120}
-                    src="/images/nhwa-member-logo.jpg"
-                    alt="Accredited Member of the National Home Watch Association"
-                  />
-                </Link>
-              </div>
-              <div className="column col-lg-6 col-md-6 col-sm-12">
-                <p className="mb-10">
-                  As a National Home Watch Association member, we are constantly
-                  updated with continuing education, hands-on training,
-                  conferences, and information sharing through forums. This
-                  keeps us abreast of industry and legal requirements, as well
-                  as informs us of issues that can affect our clients and
-                  teaches us how to avoid or remediate them. Our goal is to
-                  protect your property and assets in the best ways possible.
-                </p>
-                <p>
-                  Dallas Home Watch LLC is a local, woman-owned business that
-                  provides Home Watch Services. Tina Lawson, owner of Dallas
-                  Home Watch, is a Certified Home Watch Professional.
-                  Certification #05220241
-                </p>
-              </div>
-              {/* Column */}
-            </div>{" "}
-            {/* end of clearfix */}
-          </div>{" "}
-          {/* end of two column */}
-        </div>
-      </section>
+     
       <div className="auto-container" id="OurServiceAreas">
         {/* Sec Title */}
-        <br />
-        <hr />
+      
         <h2 className="centered">Our Service Areas</h2>
         <p>
           Dallas Home Watch LLC services the cities of Highland Park and
@@ -577,7 +514,7 @@ function HomePage(props) {
         <br /> <br />
       </div>
       <br />
-      <h3 className="centered">Neighbordhoods </h3>
+      <h3 className="centered">Neighborhoods </h3>
       <br />
       <div className="row SAB neighborhoodList">
         {/* Neighbordhoods   */}
