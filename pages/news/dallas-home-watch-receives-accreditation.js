@@ -171,12 +171,7 @@ function DHWreceivesAccredPage(props) {
                       </ul>
                     </div>
                     <br />
-                    <Link
-                      href="https://www.nationalhomewatchassociation.org/dallas-home-watch-of-dallas-tx-earns-accreditation-from-the-nhwa"
-                      target="_blank"
-                    >
-                      Read announcement on the NHWA website.
-                    </Link>
+                  
                     <br />
                   </div>
                 </div>

@@ -152,17 +152,7 @@ function NationalHomeWatchMonthPage(props) {
                       service industry not yet officially recognized by any
                       federal, provincial, or municipal government in the US or
                       Canada. All Accredited Members have background checks and
-                      are vetted for business practices. You can find a list of
-                      accredited members of the National Home Watch Association
-                      on their
-                      <Link
-                        href="https://www.nationalhomewatchassociation.org/find-an-accredited-nhwa-member/"
-                        target="_blank"
-                      >
-                        {" "}
-                        website.
-                      </Link>
-                      <br />
+                      are vetted for business practices. 
                       <br />
                     </p>
                     <h2>Who Uses A Home Watch Company?</h2>

@@ -203,11 +203,8 @@ function HomePage(props) {
                 <br />
 
                 <div className="certifiedHWP">
-                  Tina Lawson is a{" "}
+                  Tina Lawson is a{" "} Certified Home Watch Professional.                
                  
-                    Certified Home Watch Professional
-                
-                  .
                   <br />
                   <Image
                     src="/images/logos/home-watch-professional-nhwa-certified.jpg"

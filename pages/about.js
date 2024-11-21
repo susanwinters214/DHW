@@ -47,7 +47,7 @@ function AboutPage() {
         />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@dallashomewatch" />
-        <meta name="twitter:creator" content="@susanwinters214" />
+      
 
         <meta name="twitter:title" content="About Dallas Home Watch" />
         <meta
@@ -182,23 +182,9 @@ function AboutPage() {
                     data-wow-duration="1500ms"
                   >
                     <div className="image centered">
-                      <Image
-                        src="/images/tina-lawson-dallas-home-watch-owner.jpg"
-                        alt="Tina Lawson"
-                        width={400}
-                        height={400}
-                      />
-                      <br />
-                      Photo of{" "}
-                      <Link
-                        href="https://www.linkedin.com/in/tina-lawson-a57252254/"
-                        target="_blank"
-                        rel="noreferrer noopener"
-                      >
-                        Tina Lawson
-                      </Link>
-                      <br />
-                      Owner of&nbsp;
+                     
+                    
+                      Tina Lawson is the Owner of&nbsp;
                       <Link
                         href="https://www.linkedin.com/company/dallas-home-watch"
                         target="_blank"
@@ -219,16 +205,8 @@ function AboutPage() {
 
                   <p>
                     Home Watch company serving Dallas.
-                    <br />
-                    <br />
-                    Dallas Home Watch LLC
-                    <br />
-                    13101 Preston Road Suite 110410
-                    <br />
-                    Dallas, Texas 75240
-                    <br />
-                    972-982-7050
-                    <br />
+                  
+                   
                   </p>
 
                   <h4>Dallas Home Watch on Facebook</h4>

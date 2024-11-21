@@ -26,7 +26,7 @@ function FooterNavigation() {
                   <br />
                   Dallas, Texas 75240
                   <br />
-                  <span>972-982-7050</span>
+                 
                   <br />
                 </p>
               </div>
