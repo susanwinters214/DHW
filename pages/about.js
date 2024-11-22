@@ -1,10 +1,41 @@
-import { Fragment } from "react";
+import { Fragment, useEffect } from "react";
 import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import Script from "next/script";
 
 function AboutPage() {
+  useEffect(() => {
+    // Load MailerLite script on the client-side
+    if (typeof window !== "undefined") {
+      (function (w, d, e, u, f, l, n) {
+        w[f] =
+          w[f] ||
+          function () {
+            (w[f].q = w[f].q || []).push(arguments);
+          };
+        l = d.createElement(e);
+        l.async = true;
+        l.src = u;
+        n = d.getElementsByTagName(e)[0];
+        n.parentNode.insertBefore(l, n);
+      })(
+        window,
+        document,
+        "script",
+        "https://assets.mailerlite.com/js/universal.js",
+        "ml"
+      );
+
+      // Initialize MailerLite if the script is loaded
+      if (typeof ml !== "undefined") {
+        ml("account", "1200936");
+      } else {
+        console.error("MailerLite script failed to load.");
+      }
+    }
+  }, []);
+
   return (
     <Fragment>
       <Head>
@@ -16,15 +47,13 @@ function AboutPage() {
           content="Dallas Home Watch, owned by Tina Lawson, contracts with clients to watch 
           their home while they are away."
         />
-
         <meta property="fb:app_id" content="8620778781329629" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Dallas Home Watch" />
-        <meta property="og:type" content="article" />
         <meta
           property="article:publisher"
           content="https://www.facebook.com/dallashomewatchllc"
-        ></meta>
+        />
         <meta
           property="og:url"
           content="https://www.dallashomewatch.com/about"
@@ -45,29 +74,12 @@ function AboutPage() {
           property="og:image:alt"
           content="home watch professional entering front door of luxury home"
         />
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@dallashomewatch" />
-      
-
-        <meta name="twitter:title" content="About Dallas Home Watch" />
-        <meta
-          name="twitter:description"
-          content="Dallas Home Watch, owned by Tina Lawson, contracts with clients to watch 
-          their home while they are away."
-        />
-        <meta
-          name="twitter:image"
-          content="https://www.dallashomewatch.com/images/og/dallas-home-watch-opening-doors.jpg"
-        />
       </Head>
-      {/* insert top banner with Page Title & Breadcrumb*/}
-      <section className="page-title ">
+      <section className="page-title">
         <Image
           src="/images/background/dallas-skyline.jpg"
           alt="dallas sky line"
-          style={{
-            zIndex: -99,
-          }}
+          style={{ zIndex: -99 }}
           layout="fill"
           objectFit="cover"
         />
@@ -106,85 +118,24 @@ function AboutPage() {
                         height={100}
                       />
                     </div>
-                    <p className="first">
-                      Tina Lawson, who managed the corporate offices of HCB
-                      Contractors from the mid- '80s to early '90s and later
-                      worked on the situation desk at Burlington Northern Santa
-                      Fe Railway Co., began an executive limousine business in
-                      2001.
-                    </p>
-                    <p>
-                      But after listening to some of her clients' comments, she
-                      decided to take her services a step further.
-                    </p>
-                    <p>
-                      "Tina had been driving us to the airport and my husband
-                      mentioned that the prior house manager had quit
-                      unexpectedly and without notice," said client T.G.M.
-                    </p>
-                    <p>
-                      "Tina asked to be considered for the job. Now, I can't
-                      imagine where we would be without her."
-                    </p>
-                    <p>
-                      In 2003, Lawson's company evolved to encompass home
-                      management services.
-                    </p>
-                    <p>
-                      Lawson manages several multimillion dollar homes in the
-                      Metroplex for clients who often have multiple homes across
-                      the nation and rely on Lawson to "hold down the fort"
-                      while they are out of town.
-                    </p>
-                    <p>
-                      In 2022, Ms. Lawson rebranded her company from STS
-                      (suburban transportation services) to Dallas Home Watch to
-                      better reflect the services her company provides.
-                    </p>
-                    <p>
-                      Clients are regular accounts that contract with Dallas
-                      Home Watch on a monthly or annual basis. While clients are
-                      out of town, they are kept abreast of all household
-                      issues.
-                    </p>
+
                     <p>
                       "Dallas Home Watch will keep you informed about your home
                       while you are away." Lawson said.
                     </p>
                     <br />
-                    Read article from D Magazine when Lawson was a House
-                    Manager:{" "}
-                    <Link
-                      href="https://www.dmagazine.com/publications/d-home/2006/september-october/house-managers-and-realtor-news/"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                    >
-                      Dallas Home Watch
-                    </Link>
-                    <br />
-                    Tina Lawson (DHW) receives{" "}
-                    <Link
-                      href="https://www.dallashomewatch.com/news/dallas-home-watch-receives-accreditation"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                    >
-                      accreditation from the NHWA.
-                    </Link>
+
+                    <hr />
+                    <div className="ml-embedded" data-form="VEDAe2"></div>
                   </div>
                 </div>
               </div>
               {/* Image Column */}
               <div className="image-column col-lg-4 col-md-12 col-sm-12">
                 <div className="inner-column">
-                  <div
-                    className="image wow fadeInLeft pushdown50"
-                    data-wow-delay="0ms"
-                    data-wow-duration="1500ms"
-                  >
+                  <div className="image wow fadeInLeft pushdown50">
                     <div className="image centered">
-                     
-                    
-                      Tina Lawson is the Owner of&nbsp;
+                      Tina Lawson is the Owner of{" "}
                       <Link
                         href="https://www.linkedin.com/company/dallas-home-watch"
                         target="_blank"
@@ -192,23 +143,15 @@ function AboutPage() {
                       >
                         Dallas Home Watch
                       </Link>
-                      <br />
                     </div>
                   </div>
-
-                  <div className="content-column col-lg-12 col-md-12 col-sm-12">
+                  <div className="content-column col-lg-12">
                     <div className="text-box">
                       "I treat all properties the way I would like a person to
                       manage my own home," Lawson says.
                     </div>
                   </div>
-
-                  <p>
-                    Home Watch company serving Dallas.
-                  
-                   
-                  </p>
-
+                  <p>Home Watch company serving Dallas.</p>
                   <h4>Dallas Home Watch on Facebook</h4>
                   <Link
                     href="https://www.facebook.com/dallashomewatchllc"
@@ -217,13 +160,22 @@ function AboutPage() {
                   >
                     Like & Follow
                   </Link>
+                  <br /> <br />
+                  Read article from D Magazine:{" "}
+                  <Link
+                    href="https://www.dmagazine.com/publications/d-home/2006/september-october/house-managers-and-realtor-news/"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    Dallas Home Watch
+                  </Link>
+                  <br />
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-
       <Script
         type="text/javascript"
         id="hs-script-loader"
