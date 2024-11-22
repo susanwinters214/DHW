@@ -50,6 +50,9 @@ function MainNavigation() {
                   <li>
                     <Link href="/blog">Blog</Link>
                   </li>
+                  <li>
+                    <Link href="/about">Contact</Link>
+                  </li>
                 </ul>
               </div>
             </nav>
@@ -58,9 +61,7 @@ function MainNavigation() {
               {/* Phone Box */}
               <div className="phone-box">
                 <div className="box-inner">
-                  <a className="phoneNumberLink" href="tel:972-982-7050">
-                    <span className="icon flaticon-smartphone-1" />
-                  </a>
+                 
                 </div>
               </div>
             </div>
@@ -87,14 +88,7 @@ function MainNavigation() {
             {/* Main Menu End */}
             <div className="outer-box clearfix">
               {/* Btn Box */}
-              <div className="btn-box">
-                <Link
-                  href="tel:972-982-7050"
-                  className="theme-btn btn-style-two"
-                >
-                  <span className="txt">Send Text</span>
-                </Link>
-              </div>
+            
 
               {/* Mobile Navigation Toggler  */}
               <div className="mobile-nav-toggler">
