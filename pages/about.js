@@ -106,9 +106,10 @@ function AboutPage() {
                   <div className="text">
                     <p>
                       Dallas Home Watch provides the service of discreetly
-                      checking your home while you are away for extended periods. The homeowner can
-                      designate visits once a week or more. We will work
-                      together toward a solution should property issues arise.
+                      checking your home while you are away for extended
+                      periods. The homeowner can designate visits once a week or
+                      more. We will work together toward a solution should
+                      property issues arise.
                     </p>
                     <div className="image centered">
                       <Image
@@ -118,22 +119,21 @@ function AboutPage() {
                         height={100}
                       />
                     </div>
-
                     <p>
                       "Dallas Home Watch will keep you informed about your home
                       while you are away." Lawson said.
                     </p>
                     <br />
-
                     <hr />
                     <h3>Contact Us</h3>
-                    <br />
-                    <p><a href="tel:+2146688225">Send us a TEXT</a>.</p>
-
-
-
-
-
+                    <p>
+                      We work with customers who are gone for a minimum of 3
+                      months per year. We check your home at least{" "}
+                      <strong>once a week</strong>.
+                    </p>
+                    <p>
+                      <a href="tel:+2146688225">Send a TEXT to 214-668-8225</a> or send an email via the form below:
+                    </p>
                     <div className="ml-embedded" data-form="VEDAe2"></div>
                   </div>
                 </div>
