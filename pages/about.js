@@ -127,13 +127,11 @@ function AboutPage() {
                     <hr />
                     <h3>Contact Us</h3>
                     <p>
-                      We work with customers who are gone for a minimum of 3
+                      We work with clients who are gone for a minimum of 3
                       months per year. We check your home at least{" "}
                       <strong>once a week</strong>.
                     </p>
-                    <p>
-                      <a href="tel:+2146688225">Send a TEXT to 214-668-8225</a> or send an email via the form below:
-                    </p>
+                   
                     <div className="ml-embedded" data-form="VEDAe2"></div>
                   </div>
                 </div>
