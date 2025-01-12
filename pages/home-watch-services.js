@@ -90,30 +90,23 @@ function HomeWatchServicesPage(props) {
               <h2 className="pageTitle">Dallas Home Watch Services</h2>
               <p className="text">
                 Home Watch Services are professional services that offer regular
-                inspections and monitoring of a home, typically for homeowners
+                home checks and monitoring of a home, typically for homeowners
                 who are away for extended periods of time. The purpose of these
-                services is to ensure the safety, security, and maintenance of
-                the property while the homeowners are away. Home Watch Services
-                typically include a range of services, including regular
+                services is to inform the homeowner of any safety, security, and visual maintenance issues noticed 
+                during the home check. Home Watch Services
+                typically include a range of services, including visual
                 inspections of the home and property, checking for signs of
-                damage or wear and tear, ensuring that all doors and windows are
+                damage, ensuring that all doors and windows are
                 secure, and checking for signs of pests or other issues that
-                could affect the safety and security of the property. In
+                could affect the property. In
                 addition, many Home Watch Services also offer additional
-                services such as mail pickup, plant watering, and other tasks
-                that may be necessary while the homeowner is away. Overall, the
+                services such as mail pickup. Overall, the
                 goal of Home Watch Services is to provide homeowners with peace
-                of mind, knowing that their property is being monitored and
-                cared for in their absence.
+                of mind, knowing that their property is being monitored weekly or more often in their absence.
               </p>
+          
               <p>
-                Dallas Home Watch offers a customizable checklist of services
-                designed to cover the important aspects of a client's home. We
-                also offer flexibility in scheduling and home evaluations to
-                meet the needs of our clients.
-              </p>
-              <p>
-                If a problem is uncovered during a home evaluation, Dallas Home
+                If a problem is uncovered during a home check, Dallas Home
                 Watch will immediately notify the client to discuss options to
                 address the concern. We will work with the client to resolve the
                 issue and help locate qualified tradespeople to assist the
@@ -142,9 +135,9 @@ function HomeWatchServicesPage(props) {
         <div className="auto-container">
           <h2>What Does A Home Watch Service Do?</h2>
           <p>
-            A Home Watch Professional will inpect the interior and exterior of
+            A Home Watch Professional will check the interior and exterior of
             your home. Below are a few photos taken during a Home Watch
-            Inspection.
+            visit.
           </p>
           {/* Security Alarms  - TINA R */}
           <div className="services-block-three">
@@ -404,7 +397,7 @@ function HomeWatchServicesPage(props) {
                           <Link href="/homewatch-checklist">
                             Home Watch Checklist
                           </Link>{" "}
-                          includes inspecting under sinks looking for leaks and
+                          includes looking under sinks checking for leaks and
                           mold caused by water damage. We will alert you
                           immediately if we find any problems.
                         </p>
@@ -533,9 +526,7 @@ function HomeWatchServicesPage(props) {
                           <Link href="/blog/air-filters">air filters</Link> and
                           replace them when necessary. Just let us know where
                           your new filters are, and we can replace them while on
-                          site. We write the date on the air filters using a
-                          black Sharpie so that you will always know the date of
-                          the last time the filter was changed.
+                          site. 
                         </p>
                         <p>
                           If you are out of air filters, Dallas Home Watch can

@@ -106,7 +106,7 @@ function AboutPage() {
                   <div className="text">
                     <p>
                       Dallas Home Watch provides the service of discreetly
-                      checking your home while you are away. The homeowner can
+                      checking your home while you are away for extended periods. The homeowner can
                       designate visits once a week or more. We will work
                       together toward a solution should property issues arise.
                     </p>
@@ -126,6 +126,14 @@ function AboutPage() {
                     <br />
 
                     <hr />
+                    <h3>Contact Us</h3>
+                    <br />
+                    <p><a href="tel:+2146688225">Send us a TEXT</a>.</p>
+
+
+
+
+
                     <div className="ml-embedded" data-form="VEDAe2"></div>
                   </div>
                 </div>

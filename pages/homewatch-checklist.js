@@ -169,7 +169,7 @@ function HomeWatchChecklistPage(props) {
             <p>
               An extended leave may mean that the homeowner has disabled certain
               aspects of the property like water or Internet. Our indoor
-              inspection will cover those items that should be functional
+              home watch visits will cover those items that should be functional
               including working interior lights, functioning alarm system,
               security of windows and doors, access by animals or birds;
               functioning of appliances, air conditioning and heating, no water
@@ -219,10 +219,10 @@ function HomeWatchChecklistPage(props) {
           <p>&nbsp;</p>
           <div className="column col-lg-12 col-md-6 col-sm-6">
             <h3 className="mb-10">
-              Home Watch Checklist for Exterior Inspection of Home
+              Home Watch Checklist for Exterior of Home
             </h3>
             <p>
-              The outside inspection of your home may include removal of mail,
+              The outside check of your home may include removal of mail,
               boxes, and packages; damage to front doorway and entrances;
               maintenance of landscapes and pools; functioning of pool and other
               equipment; pre- and post-freeze preparation; security of windows
